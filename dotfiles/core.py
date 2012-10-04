@@ -236,9 +236,16 @@ class Dotfile(object):
         elif not is_link_to(self.name, self.target):
             self.status = 'unsynced'
 
+    def _symlink(self):
+        if 'relpath' in dir(os.path): # os.path.relpath() is new in Python 2.6
+            os.symlink(os.path.relpath(self.target, os.path.dirname(self.name)),
+                       self.name)
+        else:
+            os.symlink(self.target, self.name)
+
     def sync(self, force):
         if self.status == 'missing':
-            symlink(self.target, self.name)
+            self._symlink()
         elif self.status == 'unsynced':
             if not force:
                 print("Skipping \"%s\", use --force to override"
@@ -248,7 +255,7 @@ class Dotfile(object):
                 shutil.rmtree(self.name)
             else:
                 os.remove(self.name)
-            symlink(self.target, self.name)
+            self._symlink()
 
     def add(self):
         if self.status == 'missing':
@@ -262,7 +269,7 @@ class Dotfile(object):
         if not os.path.isdir(target_dir):
             os.makedirs(target_dir)
         shutil.move(self.name, self.target)
-        symlink(self.target, self.name)
+        self._symlink()
 
     def remove(self):
         if self.status != '':
