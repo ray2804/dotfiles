@@ -42870,3 +42870,503 @@
 2013-04-07 17:26:09	-->	qzr (~qzr@adsl-89-217-111-126.adslplus.ch) has joined #haskell
 2013-04-07 17:26:14	-->	KaneTW (~kane@cl-972.dus-01.de.sixxs.net) has joined #haskell
 2013-04-07 17:26:27	<--	AgentM (~AgentM@cpe-74-64-32-157.nyc.res.rr.com) has quit (Quit: Leaving.)
+2013-04-07 17:27:56	kartoffe`	what are the Monoid constraints in netwire good for? Is it just to get 'mempty' values, or does it some other stuff with it?
+2013-04-07 17:28:08	<--	latermuse (~ron@112.201.145.213) has quit (Ping timeout: 256 seconds)
+2013-04-07 17:28:10	-->	hrolf (~hrolf@unaffiliated/hrolf) has joined #haskell
+2013-04-07 17:28:16	ab9rf	totimkopf: that depends on the definition of "maximum'"
+2013-04-07 17:29:30	-->	boccato (~boccato@201.87.106.41) has joined #haskell
+2013-04-07 17:29:35	totimkopf	ab9rf: oh, sorry, I thought you read the definition I had pasted
+2013-04-07 17:29:46	donri	kartoffe`: my understanding is it uses mappend, so you can use [] instead of Last to record inhibits for example
+2013-04-07 17:29:55	ab9rf	totimkopf: i missed it, sorry
+2013-04-07 17:30:08	--	kartoffe` is now known as kartoffelbrei
+2013-04-07 17:30:13	totimkopf	http://hpaste.org/85360
+2013-04-07 17:30:19	totimkopf	it's the very same one from LYAH :)
+2013-04-07 17:30:47	<--	rsuniev123 (~textual@host86-132-70-180.range86-132.btcentralplus.com) has quit (Quit: Computer has gone to sleep.)
+2013-04-07 17:31:14	kartoffelbrei	donri: thanks. I guess i should just wirte more stuff with it.
+2013-04-07 17:31:26	ab9rf	totimkopf: i'm not sure what you want to represent really
+2013-04-07 17:31:46	geekosaur	totimkopf is trying to trace evaluation of that expression
+2013-04-07 17:31:50	ab9rf	the "expansion" of maximum' [2,5,1] would be max 2 ( max 5 1 ), but it gets there in several steps
+2013-04-07 17:32:07	geekosaur	but showed it rather confusingly
+2013-04-07 17:32:15	donri	kartoffelbrei: see the Alternative instance for example http://hackage.haskell.org/packages/archive/netwire/4.0.7/doc/html/src/Control-Wire-Wire.html#Wire
+2013-04-07 17:32:30	donri	kartoffelbrei: mempty is used for 'empty' and mappend is used in <|>
+2013-04-07 17:32:36	ab9rf	the first would be max 2 ( maximum' [5,1] ), and then maximum' [5,1] is "expanded" to max 5 (maximi,
+2013-04-07 17:32:46	ab9rf	er. max 5 (maximum' [1])
+2013-04-07 17:32:50	<--	nh2 (~nh2@119.75.27.50) has quit (Ping timeout: 246 seconds)
+2013-04-07 17:32:54	<--	nyc (~nyc@unaffiliated/wli) has quit (Ping timeout: 248 seconds)
+2013-04-07 17:32:54	donri	kartoffelbrei: by using the monoid abstraction, which works and makes sense here, you get more control
+2013-04-07 17:32:56	ab9rf	and then maximum' [1] evaluates to 1
+2013-04-07 17:33:20	-->	nyc (~nyc@unaffiliated/wli) has joined #haskell
+2013-04-07 17:33:28	totimkopf	sorry for being confusing, I'm still very new to haskell
+2013-04-07 17:33:39	ab9rf	i don't recall whether haskell specifies the order in which a function's arguments are reduced or evaluated
+2013-04-07 17:33:43	-->	latermuse (~ron@112.201.145.213) has joined #haskell
+2013-04-07 17:34:03	elliott	it sort of does
+2013-04-07 17:34:13	<--	cognominal (~cognomina@37.161.176.83) has quit (Ping timeout: 240 seconds)
+2013-04-07 17:34:22	elliott	in that "f True False = ..." desugars to "f a b = case a of { True -> case b of { False -> ... }; ... }"
+2013-04-07 17:34:26	elliott	so "a" is analysed first
+2013-04-07 17:34:47	totimkopf	ab9rf: there wouldn't be a more verbose expansion?
+2013-04-07 17:35:00	ab9rf	i seem to recall that compilers have a lot of latitude to reorder evaluation
+2013-04-07 17:35:14	<--	roshan (~roshan@S0106001e583084e2.ed.shawcable.net) has quit (Quit: roshan)
+2013-04-07 17:35:28	totimkopf	ahh
+2013-04-07 17:35:29	ab9rf	totimkopf: you can be as verbose as you want. :)
+2013-04-07 17:35:52	ab9rf	the real issue is haskell's default laziness of evaluation
+2013-04-07 17:36:32	ab9rf	and the whole concept of weak head normal form
+2013-04-07 17:36:42	kartoffelbrei	donri: that makes sense. thanks.
+2013-04-07 17:36:59	-->	pyacks (~yacks@180.151.36.168) has joined #haskell
+2013-04-07 17:37:05	<--	bitonic (~user@dyn1216-117.wlan.ic.ac.uk) has quit (Ping timeout: 245 seconds)
+2013-04-07 17:37:20	-->	rsuniev123 (~rsuniev12@host86-132-70-180.range86-132.btcentralplus.com) has joined #haskell
+2013-04-07 17:37:43	-->	madjestic (~madjestic@178-84-90-204.dynamic.upc.nl) has joined #haskell
+2013-04-07 17:37:57	sandybatman	Hi, where can I find an unified archive of functional pearls? I don't have any subscription to JFP or other journals.
+2013-04-07 17:38:31	sandybatman	I'm currently looking at haskellwiki linked from LtU.
+2013-04-07 17:38:35	-->	cognominal (~cognomina@37.161.176.83) has joined #haskell
+2013-04-07 17:38:47	ab9rf	totimkopf: i'm not 100% on my own understanding of the reduction and evaluation process so i'm reluctant to try to explain it to you
+2013-04-07 17:39:10	ab9rf	since i will almost certainly get it wrong and then shachaf will have to make harumphy noises at me
+2013-04-07 17:39:58	andrewsw	http://www.vex.net/~trebla/haskell/lazy.xhtml
+2013-04-07 17:40:01	andrewsw	is that relevant?
+2013-04-07 17:40:02	donri	sandybatman: are you looking at http://www.haskell.org/haskellwiki/Research_papers/Functional_pearls ?
+2013-04-07 17:40:08	<--	osa1__ (~omer@176.237.136.37) has quit (Quit: Konversation terminated!)
+2013-04-07 17:40:10	kartoffelbrei	nice. i found a bunch of examples on github. i'm gonna try them out and break them.
+2013-04-07 17:40:16	totimkopf	well, feel free to query me, I'm curious about your take of the evaluation process. I normally have a tutor who helps me with this but she isn't around at the moment :S
+2013-04-07 17:40:23	sandybatman	donri: yes
+2013-04-07 17:40:41	donri	kartoffelbrei: where?
+2013-04-07 17:40:46	sandybatman	donri: I just read through Bird's sudoku solver this morning and enjoyed it.
+2013-04-07 17:40:47	-->	Urchin[emacs] (~user@unaffiliated/urchin) has joined #haskell
+2013-04-07 17:41:11	donri	sandybatman: well those mostly look like direct links to pdfs?
+2013-04-07 17:41:39	-->	js6i (~zeus@89-68-153-169.dynamic.chello.pl) has joined #haskell
+2013-04-07 17:41:42	sandybatman	donri: yes, I had to find it with some searching. Asked too soon. :-)
+2013-04-07 17:41:54	kartoffelbrei	donri: https://github.com/MaxDaten/netwire-examples these seem to be a bunch of examples from #haskell bundled together.
+2013-04-07 17:42:02	donri	ah cool
+2013-04-07 17:42:13	-->	skyflash_ (~skyflash@96.53.63.54) has joined #haskell
+2013-04-07 17:42:13	ab9rf	andrewsw: that page at least looks helpful
+2013-04-07 17:42:18	<--	boccato (~boccato@201.87.106.41) has quit (Remote host closed the connection)
+2013-04-07 17:42:19	<--	hrolf (~hrolf@unaffiliated/hrolf) has quit (Quit: Lost terminal)
+2013-04-07 17:43:00	<--	vehk (~vehk@unaffiliated/vehk) has quit (Quit: On the move.)
+2013-04-07 17:43:09	-->	cognominal__ (~cognomina@37.160.44.181) has joined #haskell
+2013-04-07 17:43:44	-->	io2 (~io2@unaffiliated/irrequietus) has joined #haskell
+2013-04-07 17:44:53	-->	oio (ba54a08a@gateway/web/freenode/ip.186.84.160.138) has joined #haskell
+2013-04-07 17:44:59	<--	cognominal (~cognomina@37.161.176.83) has quit (Ping timeout: 257 seconds)
+2013-04-07 17:45:11	oio	can all algorithms made functional?
+2013-04-07 17:46:20	-->	chrisdone (~chrisdone@unaffiliated/chrisdone) has joined #haskell
+2013-04-07 17:46:22	Starfire	Since you can simulate mutable memory in O(log N) time, yes.
+2013-04-07 17:46:30	<--	Mon_Ouie (~Mon_Ouie@subtle/user/MonOuie) has quit (Read error: Operation timed out)
+2013-04-07 17:46:43	Starfire	Of course, that might not be very useful.
+2013-04-07 17:46:54	<--	skyflash_ (~skyflash@96.53.63.54) has quit (Ping timeout: 276 seconds)
+2013-04-07 17:47:16	<--	jianmeng (~mengjian@123.138.39.31) has quit (Quit: Leaving.)
+2013-04-07 17:47:33	<--	gadjo (~gggg@109.102.72.188) has quit (Ping timeout: 276 seconds)
+2013-04-07 17:47:55	oio	why?
+2013-04-07 17:48:00	chrisdone	?faq has anyone really been far even as decided to use even go want to do look more like?
+2013-04-07 17:48:01	lambdabot	The answer is: Yes! Haskell can do that.
+2013-04-07 17:48:55	sandybatman	?faq hashhaskell?
+2013-04-07 17:48:55	lambdabot	The answer is: Yes! Haskell can do that.
+2013-04-07 17:49:17	jmcarthur	Starfire: it's useful at least for the free backtracking
+2013-04-07 17:49:24	-->	borderer (~pi@langhaugh.demon.co.uk) has joined #haskell
+2013-04-07 17:49:37	<--	synonymous1 (~Adium@60-242-194-203.static.tpgi.com.au) has quit (Quit: Leaving.)
+2013-04-07 17:49:45	-->	cmsmcq (~cmsmcq@65.19.20.185) has joined #haskell
+2013-04-07 17:49:46	chrisdone	donri: ha ha! i am using the clay
+2013-04-07 17:49:57	donri	any good?
+2013-04-07 17:50:11	-->	pantsman (~pantsman@188-222-133-52.zone13.bethere.co.uk) has joined #haskell
+2013-04-07 17:50:11	<--	pantsman (~pantsman@188-222-133-52.zone13.bethere.co.uk) has quit (Changing host)
+2013-04-07 17:50:11	-->	pantsman (~pantsman@pdpc/supporter/active/pantsman) has joined #haskell
+2013-04-07 17:50:18	<--	normanrichards (~normanric@70.114.215.220) has quit
+2013-04-07 17:50:19	chrisdone	donri: http://i791.photobucket.com/albums/yy199/Philo-Publius/1234.gif
+2013-04-07 17:50:52	chrisdone	seems alright so far. a few pull requests are needed but i ported my ide to it so i can do themes
+2013-04-07 17:50:58	<--	niloc132 (~colin@50-50-72-209.snpr.wi.frontiernet.net) has quit (Read error: Operation timed out)
+2013-04-07 17:51:01	donri	cool
+2013-04-07 17:51:12	<--	pepijndevos (~pepijndev@ec2-50-17-110-149.compute-1.amazonaws.com) has left #haskell
+2013-04-07 17:51:45	donri	i'm considering porting my thing to idris ;p running into the limits of haskell with it
+2013-04-07 17:51:55	chrisdone	your css thing?
+2013-04-07 17:51:57	donri	ya
+2013-04-07 17:52:01	chrisdone	=)
+2013-04-07 17:52:06	donri	mostly for fun/testing
+2013-04-07 17:52:09	jmcarthur	Starfire: also, it has only been proven that there are some algorithms that must take a log n penalty when translated to a *strict* functional language. there are some examples where that is necessary for a strict language but not for a lazy language. i don't think it has been proven that a similar constraint exists for a lazy language. (however, i suspect that for common notions of laziness such a
+2013-04-07 17:52:12	jmcarthur	constraint also exists)
+2013-04-07 17:52:33	<--	ikeg (~ikeg@64.119.30.125.dy.iij4u.or.jp) has quit (Remote host closed the connection)
+2013-04-07 17:52:39	chrisdone	donri: i wonder if idris can be competitive with Ur
+2013-04-07 17:52:50	jmcarthur	ur has some features i'm pretty sure idris lacks
+2013-04-07 17:52:52	donri	no idea, but it does have a js backend
+2013-04-07 17:52:55	-->	Taneb (~nathan@host-92-30-193-133.as13285.net) has joined #haskell
+2013-04-07 17:53:04	-->	dysinger (~tim@cpe-24-94-76-59.hawaii.res.rr.com) has joined #haskell
+2013-04-07 17:53:15	chrisdone	jmcarthur: which ones?
+2013-04-07 17:53:17	jmcarthur	although of course one could probably emulate them with dls
+2013-04-07 17:53:19	jmcarthur	*dsls
+2013-04-07 17:53:37	oio	has anyone implement the guenter sudoku solver on haskell? http://magictour.free.fr/suexco.txt
+2013-04-07 17:53:42	jmcarthur	chrisdone: row types, polymorphic functions over records, etc.
+2013-04-07 17:54:15	<--	fireglow (fireglow@unaffiliated/fireglow) has quit (Ping timeout: 252 seconds)
+2013-04-07 17:54:43	jmcarthur	i guess the latter is somewhat like syb or something, but there's a lot more type information included
+2013-04-07 17:54:52	chrisdone	right
+2013-04-07 17:55:14	<--	smerz (~smerz@a177088.upc-a.chello.nl) has quit (Ping timeout: 246 seconds)
+2013-04-07 17:55:25	chrisdone	it seems pretty hard to do an SQL language with syb on plain records (i tried)
+2013-04-07 17:55:37	jmcarthur	ah yeah, that makes sense
+2013-04-07 17:56:31	<--	jutaro (~jutaro@p5DDB272F.dip.t-dialin.net) has quit (Quit: jutaro)
+2013-04-07 17:56:48	<--	chidy (~chidimuor@host86-179-205-63.range86-179.btcentralplus.com) has quit (Quit: chidy)
+2013-04-07 17:57:01	-->	Exar (~chatzilla@adsl-65-9-107-217.mia.bellsouth.net) has joined #haskell
+2013-04-07 17:57:07	-->	Jesin (~Jessin_@Dyn156243.cc.lehigh.edu) has joined #haskell
+2013-04-07 17:57:08	<--	sandybatman (~user@101.214.182.190) has quit (Quit: Quitting...)
+2013-04-07 17:57:09	<--	Sevki (~Sevki@cpc22-newc15-2-0-cust33.16-2.cable.virginmedia.com) has quit (Quit: Linkinus - http://linkinus.com)
+2013-04-07 17:57:15	<--	dogmaT (~dogmat@ip-94-112-150-164.net.upcbroadband.cz) has quit (Quit: BitchX: it'll get you in, out and on with life.)
+2013-04-07 17:57:22	<--	sh (~sh@uiharu.memespace.net) has quit (Remote host closed the connection)
+2013-04-07 17:57:29	-->	fireglow (fireglow@unaffiliated/fireglow) has joined #haskell
+2013-04-07 17:57:39	-->	sh (~sh@uiharu.memespace.net) has joined #haskell
+2013-04-07 17:58:10	<--	phischu (~pschuster@p4FD309D4.dip0.t-ipconnect.de) has quit (Quit: Leaving.)
+2013-04-07 17:58:10	<--	Guest27287 (~programme@178.187.79.214) has quit (Ping timeout: 256 seconds)
+2013-04-07 17:58:10	-->	jpeeters (~Adium@cha28-2-88-170-128-140.fbx.proxad.net) has joined #haskell
+2013-04-07 17:58:24	<--	birkenfeld (~gbrandl@hammett.srv.pocoo.org) has quit (Changing host)
+2013-04-07 17:58:24	-->	birkenfeld (~gbrandl@pdpc/supporter/student/birkenfeld) has joined #haskell
+2013-04-07 17:59:42	-->	strebe (~strebe@p549B61DF.dip0.t-ipconnect.de) has joined #haskell
+2013-04-07 18:00:35	-->	oab (~oab@ti0040a380-dhcp1733.bb.online.no) has joined #haskell
+2013-04-07 18:01:09	-->	phischu (~pschuster@p4FD309D4.dip0.t-ipconnect.de) has joined #haskell
+2013-04-07 18:01:21	<--	edsko (~edsko@79.97.126.24) has left #haskell ("Leaving")
+2013-04-07 18:01:35	Starfire	jmcarthur: I would imagine that for many problems, a dedicated functional algorithm would be better in some sense than emulating a mutating algorithm.
+2013-04-07 18:02:05	Starfire	Or perhaps it's "some" instead of "many".
+2013-04-07 18:02:36	chrisdone	jmcarthur: here was one hack i tried http://hpaste.org/78401
+2013-04-07 18:02:51	<--	fireglow (fireglow@unaffiliated/fireglow) has quit (Read error: Connection reset by peer)
+2013-04-07 18:02:51	-->	twanvl (~Twan@dhcp-077-250-086-217.chello.nl) has joined #haskell
+2013-04-07 18:03:03	-->	tobym (~tobym@208.185.23.206) has joined #haskell
+2013-04-07 18:03:19	-->	wedgewood (~hgckcjjh@14.139.122.114) has joined #haskell
+2013-04-07 18:03:35	-->	mapf (~user@5.254.180.254) has joined #haskell
+2013-04-07 18:03:47	-->	gabor (~heisenbug@p549438CC.dip.t-dialin.net) has joined #haskell
+2013-04-07 18:05:02	-->	godhack (~THX@p57A901A4.dip0.t-ipconnect.de) has joined #haskell
+2013-04-07 18:05:05	godhack	hi
+2013-04-07 18:06:06	<--	twanvl_ (~Twan@dhcp-077-250-086-217.chello.nl) has quit (Ping timeout: 256 seconds)
+2013-04-07 18:06:27	jmcarthur	i'm trying to think of a way to allow a C function bound as an unsafe FFI call to asynchronously communicate some information back to Haskell land such that the C code doesn't block and some haskell thread can just block until information is available. is there anything i can do?
+2013-04-07 18:06:30	chrisdone	jmcarthur: which amounts to basically being able to write data Foo { foo :: Int, bar :: Int } deriving (Data,Typeable) … select [field foo .=. Int 123] more or less. the trouble is it will accept any function of type Foo -> a
+2013-04-07 18:06:46	godhack	I've read the paper written by Geoffrey Mainland from http://www.eecs.harvard.edu/~mainland/publications/ with the title: Haskell Beats C Using Generalized Stream Fusion. And since this is old, I'd like to know if the changes have been merged into the haskell platform.
+2013-04-07 18:06:59	donri	chrisdone: did you see vinyl
+2013-04-07 18:07:04	-->	s_kilk (~shane@host81-152-130-140.range81-152.btcentralplus.com) has joined #haskell
+2013-04-07 18:07:10	jmcarthur	godhack: it's old? i thought it was pretty new
+2013-04-07 18:07:23	chrisdone	donri: was that Yet Another Record System?
+2013-04-07 18:07:24	jmcarthur	godhack: it's only a few months old
+2013-04-07 18:07:30	-->	fireglow (fireglow@unaffiliated/fireglow) has joined #haskell
+2013-04-07 18:07:32	donri	chrisdone: yeah. http://www.jonmsterling.com/posts/2013-04-06-vinyl-modern-records-for-haskell.html
+2013-04-07 18:08:12	<--	hamid (~nithp@unaffiliated/hamid) has quit (Ping timeout: 260 seconds)
+2013-04-07 18:08:12	jmcarthur	chrisdone: yeah generic programming is tough to get right :\
+2013-04-07 18:08:14	-->	wedgewood_ (~hgckcjjh@14.139.122.114) has joined #haskell
+2013-04-07 18:08:26	-->	sks (5b91e8c6@gateway/web/freenode/ip.91.145.232.198) has joined #haskell
+2013-04-07 18:08:26	<--	wedgewood (~hgckcjjh@14.139.122.114) has quit (Read error: Connection reset by peer)
+2013-04-07 18:08:26	--	wedgewood_ is now known as wedgewood
+2013-04-07 18:08:45	jmcarthur	i think i will ask my FFI question in #ghc
+2013-04-07 18:08:48	arkeet	jmcarthur: what you need is generic generic programming!
+2013-04-07 18:08:49	arkeet	http://dreixel.net/research/pdf/ggp_draft.pdf
+2013-04-07 18:09:01	godhack	jmcarthur: Yes it's from November 2012. The flux in the Haskell repo and the commit rate let a period of months appear like many years. Because there are so many changes.
+2013-04-07 18:10:16	<--	message144 (~message14@cpe-76-173-242-89.socal.res.rr.com) has quit (Quit: message144)
+2013-04-07 18:10:20	godhack	Is my question better suited for #ghc aswell?
+2013-04-07 18:10:30	chrisdone	donri: right… looks like most other record libraries… really the aim is "just write normal haskell records", like ur, tho
+2013-04-07 18:10:51	<--	sks (5b91e8c6@gateway/web/freenode/ip.91.145.232.198) has left #haskell
+2013-04-07 18:11:05	donri	chrisdone: oh, was just speaking generally because i know you've talked about this stuff before ("has" etc)
+2013-04-07 18:11:13	chrisdone	nod
+2013-04-07 18:11:14	godhack	Just want to know if I can already start using "Generalized Stream Fusion" with Haskell.
+2013-04-07 18:11:20	<--	kk` (~kk@unaffiliated/kk/x-5380134) has quit (Read error: Connection reset by peer)
+2013-04-07 18:11:24	-->	Guest27287 (~programme@178.187.28.14) has joined #haskell
+2013-04-07 18:11:42	chrisdone	i think i was one of the people who encouraged the author to call it vinyl =p it's a sexy name
+2013-04-07 18:11:47	donri	chrisdone: vinyl looks neat because it uses type literals so you need less boilerplate to define fields
+2013-04-07 18:11:53	<--	Exar (~chatzilla@adsl-65-9-107-217.mia.bellsouth.net) has quit (Ping timeout: 255 seconds)
+2013-04-07 18:12:01	<--	fredmorcos (~fmorcos@cm56-238-233.liwest.at) has quit (Quit: Leaving)
+2013-04-07 18:12:01	chrisdone	nod
+2013-04-07 18:12:17	monochrom	err, vinyl records?! haha cute name
+2013-04-07 18:12:21	donri	chrisdone: haven't looked at ur really. is the records anything like elm records?
+2013-04-07 18:13:17	<--	mizu_no_oto (~textual@c-76-24-19-222.hsd1.ma.comcast.net) has quit (Quit: ["Textual IRC Client: www.textualapp.com"])
+2013-04-07 18:13:20	chrisdone	donri: you mean the t-rex style structural stuff?
+2013-04-07 18:13:26	donri	maybe
+2013-04-07 18:13:51	chrisdone	don't remember if ur has that
+2013-04-07 18:13:59	oab	vinyl records, are all haskell developers trolls?
+2013-04-07 18:14:03	arkeet	godhack: yes, the vector package does stream fusion.
+2013-04-07 18:14:22	arkeet	the paper even refers to this package.
+2013-04-07 18:15:07	godhack	arkeet: it refers to other packages aswell. Not sure how broad the changes are and if all of them have been merged into ghc yet.
+2013-04-07 18:15:34	<--	mpiechotka (~mpiechotk@178-36-63-68.adsl.inetia.pl) has quit (Ping timeout: 248 seconds)
+2013-04-07 18:15:44	elliott	yeah ur has structural records
+2013-04-07 18:15:44	-->	Exar (~chatzilla@adsl-65-9-105-253.mia.bellsouth.net) has joined #haskell
+2013-04-07 18:15:46	oio	Could this be port to haskell? https://github.com/attractivechaos/plb/blob/master/sudoku/sudoku_v1.c
+2013-04-07 18:16:11	Taneb	@faw could that be ported to Haskell?
+2013-04-07 18:16:12	lambdabot	The answer is: Yes! Haskell can do that.
+2013-04-07 18:16:24	chrisdone	elliott: you've used it for some dev right?
+2013-04-07 18:16:34	chrisdone	or maybe i'm thinking of thoughtpolice
+2013-04-07 18:16:49	elliott	there is a good chance you are even thinking of another elliott, if experience is any indicator
+2013-04-07 18:16:56	Kneiva	is possible to use Writer monad with Map, or should I use State?
+2013-04-07 18:17:05	-->	dmac (~Adium@75-149-33-130-SFBA.hfc.comcastbusiness.net) has joined #haskell
+2013-04-07 18:17:05	oio	it could be donde but if it is by myself ... it is going to be slow
+2013-04-07 18:17:10	<--	Guest27287 (~programme@178.187.28.14) has quit (Read error: Operation timed out)
+2013-04-07 18:17:18	<--	fireglow (fireglow@unaffiliated/fireglow) has quit (Ping timeout: 240 seconds)
+2013-04-07 18:17:43	-->	hamid (~nithp@unaffiliated/hamid) has joined #haskell
+2013-04-07 18:17:53	-->	test__ (5cf1ee97@gateway/web/freenode/ip.92.241.238.151) has joined #haskell
+2013-04-07 18:17:54	arkeet	oh, well vector doesn't use *generalized* stream fusion, perhaps.
+2013-04-07 18:18:06	-->	schovi (~schovi@ip-89-176-244-70.net.upcbroadband.cz) has joined #haskell
+2013-04-07 18:18:09	godhack	arkeet: Does ghc 7.4.2 include these changes? Or will I have to get the sources from somewhere else? (I'm on gentoo)
+2013-04-07 18:18:15	arkeet	I have no idea.
+2013-04-07 18:18:28	godhack	arkeet: ok, thank you :) I'll ask in ghc :)
+2013-04-07 18:19:23	jmcarthur	the released version of vector does not do generalized stream fusion
+2013-04-07 18:20:55	<--	hiroakip (~hiroaki@ip-5-147-122-136.unitymediagroup.de) has quit (Ping timeout: 264 seconds)
+2013-04-07 18:21:00	<--	chrisdone (~chrisdone@unaffiliated/chrisdone) has quit (Quit: ERC Version 5.3 (IRC client for Emacs))
+2013-04-07 18:21:11	<--	gabor (~heisenbug@p549438CC.dip.t-dialin.net) has quit (Quit: gabor)
+2013-04-07 18:21:13	<--	dmac (~Adium@75-149-33-130-SFBA.hfc.comcastbusiness.net) has quit (Ping timeout: 240 seconds)
+2013-04-07 18:21:19	-->	argiopeweb (~elliot@155.31.73.125) has joined #haskell
+2013-04-07 18:21:31	-->	fireglow (fireglow@unaffiliated/fireglow) has joined #haskell
+2013-04-07 18:21:53	godhack	jmcarthur: well here's his haskell-platform repo https://github.com/mainland/haskell-platform , but I don't know the differences to the main repo and if that repo includes ghc
+2013-04-07 18:22:32	<--	Sorella (~queen@201.80.212.227) has quit (Read error: Connection reset by peer)
+2013-04-07 18:22:50	<--	Exar (~chatzilla@adsl-65-9-105-253.mia.bellsouth.net) has quit (Quit: ChatZilla 0.9.90 [Firefox 19.0.2/20130307023931])
+2013-04-07 18:23:01	jmcarthur	godhack: stream fusion is not a ghc thing
+2013-04-07 18:23:13	<--	qzr (~qzr@adsl-89-217-111-126.adslplus.ch) has quit (Remote host closed the connection)
+2013-04-07 18:23:18	jmcarthur	godhack: or do you mean the simd primops? that would be a ghc thing
+2013-04-07 18:23:25	-->	Wobat (~quassel@94-226-35-237.access.telenet.be) has joined #haskell
+2013-04-07 18:23:27	jmcarthur	godhack: (that's not released yet)
+2013-04-07 18:23:53	godhack	jmcarthur: I just found that ghc has a simd branch
+2013-04-07 18:23:55	-->	groovy2shoes (~cory@unaffiliated/groovebot) has joined #haskell
+2013-04-07 18:23:58	thoughtpolice	godhack: if you're referring to the entirety of the paper, including the SIMD work, none of it is released yet. to be clear, the work squarely sits in vector, GHC and DPH themselves, and nothing else needs to necessarily be changed
+2013-04-07 18:24:00	-->	Sorella (~queen@201.80.212.227) has joined #haskell
+2013-04-07 18:24:00	<--	Sorella (~queen@201.80.212.227) has quit (Changing host)
+2013-04-07 18:24:00	-->	Sorella (~queen@oftn/member/Sorella) has joined #haskell
+2013-04-07 18:24:06	Wobat	Hello, I got a question, are there a lot of jobs in haskell?(in europe
+2013-04-07 18:24:08	Wobat	)
+2013-04-07 18:24:19	jmcarthur	Wobat: not yet
+2013-04-07 18:24:26	thoughtpolice	it won't be available for widespread consumption  until 7.8, which is scheduled for October at this point
+2013-04-07 18:24:33	<--	adzeitor (~adzeitor@31.207.214.18) has quit (Ping timeout: 240 seconds)
+2013-04-07 18:24:38	<--	Nahra (~user@unaffiliated/nahra) has quit (Remote host closed the connection)
+2013-04-07 18:24:52	Wobat	jmcarthur: I see, loving haskell atm, so just wondering about that :)
+2013-04-07 18:24:54	godhack	Wobat: I've seen some offers only, but I'd be curious about that too.
+2013-04-07 18:25:05	thoughtpolice	godhack: you're certainly free to build HEAD yourself, but the support is limited and Geoffrey will expand it further soon
+2013-04-07 18:25:10	thoughtpolice	it's fairly rough at the moment
+2013-04-07 18:25:11	Iceland_jack	Wobat: If you want to learn a language just to get employment, Haskell is the wrong language ;)
+2013-04-07 18:25:35	jmcarthur	Iceland_jack: i slightly disagree with that. employers increasingly are looking for functional languages on resumes even if they don't use them in house
+2013-04-07 18:25:43	godhack	jmcarthur: I'm really really new to Haskell, but I want to learn it, if there's a chance to beat C in performance. I really enjoy C btw.
+2013-04-07 18:25:59	Wobat	Iceland_jack: no, don't want to learn for employment, I learn for my pleasure(only 16 years) so employment is a problem :)
+2013-04-07 18:26:33	-->	adzeitor (~adzeitor@31.207.128.149) has joined #haskell
+2013-04-07 18:26:40	jmcarthur	godhack: performance shouldn't be the main reason to use Haskell unless it's the parallelism opportunities you are interested in. i think the main motivation for using haskell is typically a greater understanding of the code your read and write and with higher assurrances that it is reasonable
+2013-04-07 18:26:41	-->	rodrigovidal (~rodrigovi@201.37.47.64) has joined #haskell
+2013-04-07 18:26:57	jmcarthur	godhack: the performance does happen to be pretty good if you know what you're doing though :)
+2013-04-07 18:26:58	-->	Nahra (~user@unaffiliated/nahra) has joined #haskell
+2013-04-07 18:27:04	Iceland_jack	jmcarthur: I'm not saying knowing Haskell won't benefit you, but if that's all you're after then Haskell would not be the top one
+2013-04-07 18:27:15	<--	Shou (~Shou@81.191.185.181) has quit (Ping timeout: 252 seconds)
+2013-04-07 18:27:24	-->	samedhi (~stephen@76.14.74.147) has joined #haskell
+2013-04-07 18:27:47	-->	Shou (~Shou@81.191.185.181) has joined #haskell
+2013-04-07 18:28:02	<--	rodrigovidal (~rodrigovi@201.37.47.64) has quit (Remote host closed the connection)
+2013-04-07 18:28:29	 *	hackagebot binary-conduit 1.0 - data serialization/deserialization conduit library  http://hackage.haskell.org/package/binary-conduit-1.0 (AlexanderVershilov)
+2013-04-07 18:28:30	Philonous	Iceland_jack:  Actually, what would be the best one?
+2013-04-07 18:28:34	godhack	jmcarthur: I am mostly interested in writing (web)applications that utilize multiple cores or cpus efficiently and in raw performance.
+2013-04-07 18:28:47	godhack	and in writing an OS
+2013-04-07 18:28:57	jmcarthur	Iceland_jack: most of my job prospects have actually come about due to haskell-related things
+2013-04-07 18:29:10	-->	fmapE (~fmapE@2001:18e8:2:10f4:d28:c7d1:5427:1012) has joined #haskell
+2013-04-07 18:29:39	Iceland_jack	Look jmcarthur, I'm not saying it's not possible to get a Haskell job or even that there aren't many of them
+2013-04-07 18:29:49	godhack	Wobat: afaik, haskell people are needed in statistics and aerospace (but they apply statistics there again)
+2013-04-07 18:29:57	jmcarthur	godhack: the haskell web app space is small and new but growing and maturing. performance-wise the existing haskell web servers are really nice (and expected to get even nicer)
+2013-04-07 18:29:58	Iceland_jack	Or as a result of it, or what ever
+2013-04-07 18:30:05	jmcarthur	Iceland_jack: i'm not saying anything about haskell jobs here
+2013-04-07 18:30:09	-->	I_Begin (~I_Begin@98.47-244-81.adsl-dyn.isp.belgacom.be) has joined #haskell
+2013-04-07 18:30:12	<--	Wobat (~quassel@94-226-35-237.access.telenet.be) has left #haskell ("http://quassel-irc.org - Chat comfortabel. Waar dan ook.")
+2013-04-07 18:30:19	Iceland_jack	Right, even getting non-Haskell jobs as a result of Haskell
+2013-04-07 18:30:42	jmcarthur	godhack: raw sequential cpu performance generally is not as great as discussed in that paper, unfortunately, but it's gradually getting better too
+2013-04-07 18:30:42	godhack	Wobat: I think python is much more demanded and used when it comes to statistics. It's getting more popular thanks to some excellen "data analysis" frameworks
+2013-04-07 18:30:53	-->	ryanfairchild (~ryanfairc@ip-64-134-99-204.public.wayport.net) has joined #haskell
+2013-04-07 18:30:53	finnrobi	is there anywhere I can submit small programs for some code review and get feedback of the type "there's a library function that does this already", "the idiomatic way to do this is X", "this is going to use silly amounts of memory" or the like?
+2013-04-07 18:31:11	Heffalump	finnrobi: there's hlint which will do some of that automatically
+2013-04-07 18:31:15	<--	phischu (~pschuster@p4FD309D4.dip0.t-ipconnect.de) has quit (Quit: Leaving.)
+2013-04-07 18:31:21	finnrobi	Heffalump: cool, I'll check that out
+2013-04-07 18:31:28	jmcarthur	Iceland_jack: all i'm saying is not only is it possible but it's not even all that unlikely. my own evidence may be anecdotal, but there is a fair bit of it
+2013-04-07 18:31:31	Heffalump	and I guess codereview.stackexchange.com would be the natural place for human review, though I don't know how much haskell activity there is there
+2013-04-07 18:31:42	-->	AtomicStryker (AtomicStry@ip-95-223-48-49.unitymediagroup.de) has joined #haskell
+2013-04-07 18:31:43	<--	amathew (~Adium@cpe-74-73-181-112.nyc.res.rr.com) has quit (Ping timeout: 264 seconds)
+2013-04-07 18:31:48	thoughtpolice	people tend to post asking for code reviews on reddit, too
+2013-04-07 18:31:56	arkeet	you could also just paste it here and ask, or post to one of the mailing lists
+2013-04-07 18:31:57	-->	normanrichards (~normanric@AUSTTXHODS0AE13.mcleodusa.net) has joined #haskell
+2013-04-07 18:32:00	Heffalump	http://codereview.stackexchange.com/questions/tagged/haskell - a fair bit
+2013-04-07 18:32:01	arkeet	-cafe or -beginners maybe?
+2013-04-07 18:32:10	<--	adzeitor (~adzeitor@31.207.128.149) has quit (Ping timeout: 256 seconds)
+2013-04-07 18:32:15	-->	programmer (~programme@178.187.35-228.xdsl.ab.ru) has joined #haskell
+2013-04-07 18:32:15	Iceland_jack	jmcarthur: Sure: I just said it wasn't the absolute best one, and that is most certainly true. I appreciate your comments
+2013-04-07 18:32:24	-->	execc_13 (~fakir@95-24-201-162.broadband.corbina.ru) has joined #haskell
+2013-04-07 18:32:31	godhack	finnrobi: you could submit your progams to github and allow opening an issue ticket, then post that in irc. And automate the whole stuff using redmine or bash scripts to post to irc etc. when a special commit message is pushed
+2013-04-07 18:32:32	niteria	does haskell have a string syntax that needs no escapes?
+2013-04-07 18:32:38	--	programmer is now known as Guest21261
+2013-04-07 18:33:06	<--	normanrichards (~normanric@AUSTTXHODS0AE13.mcleodusa.net) has quit (Read error: Connection reset by peer)
+2013-04-07 18:33:07	godhack	finnrobi: actually pretty easy to setup. only sounds complicated.
+2013-04-07 18:33:12	niteria	I have a blob of text I want to paste in
+2013-04-07 18:33:22	finnrobi	plenty of good ideas here, thanks a lot :-)
+2013-04-07 18:33:35	finnrobi	hlint seems to be very useful
+2013-04-07 18:34:06	arkeet	niteria: http://hackage.haskell.org/package/interpolatedstring-perl6  if you're into TH.
+2013-04-07 18:34:07	I_Begin	Q:Leksah . i d like to fire ghci with -fno-ghci-sandbox  for wx. any way to parametrize leksah ?
+2013-04-07 18:34:16	-->	fredmorcos (~fmorcos@cm56-238-233.liwest.at) has joined #haskell
+2013-04-07 18:34:22	mapf	niteria: can you read that from a file?
+2013-04-07 18:34:23	-->	collin (~collin@c-71-198-130-22.hsd1.ca.comcast.net) has joined #haskell
+2013-04-07 18:34:47	-->	lachenmayer (~lachenmay@p5492F8FB.dip.t-dialin.net) has joined #haskell
+2013-04-07 18:35:45	niteria	mapf: I can but I don't want to
+2013-04-07 18:35:56	arkeet	you could also use TH to read it from a file at compile time.
+2013-04-07 18:37:19	niteria	interpolatedstring looks nice, are there any disadventages to using TH?
+2013-04-07 18:37:59	mapf	niteria: it's sometimes becomes _slow_
+2013-04-07 18:38:16	mapf	compilation time i mean
+2013-04-07 18:38:19	<--	test__ (5cf1ee97@gateway/web/freenode/ip.92.241.238.151) has quit (Quit: Page closed)
+2013-04-07 18:38:23	<--	bananagram (~bot@c-98-198-236-112.hsd1.tx.comcast.net) has quit (Read error: Connection reset by peer)
+2013-04-07 18:38:40	-->	bananagram (~bot@c-98-198-236-112.hsd1.tx.comcast.net) has joined #haskell
+2013-04-07 18:38:44	arkeet	only if you do slow things, though
+2013-04-07 18:38:50	klugez	Probably not a problem for just using it for string interpolation.
+2013-04-07 18:39:04	<--	Zeev (~Zeev@bzq-79-183-19-6.red.bezeqint.net) has quit (Read error: Connection reset by peer)
+2013-04-07 18:39:14	arkeet	it's non-portable
+2013-04-07 18:39:25	arkeet	and also there are worries about TH being able to do arbitrary IO at compile time.
+2013-04-07 18:39:52	-->	eevar (~eevar@175.80-203-27.nextgentel.com) has joined #haskell
+2013-04-07 18:40:38	-->	Betal (~Betal@unaffiliated/betal) has joined #haskell
+2013-04-07 18:40:51	niteria	I wonder how vim deals with it
+2013-04-07 18:41:33	<--	chessguy (~chessguy@pool-96-241-233-170.washdc.fios.verizon.net) has quit (Remote host closed the connection)
+2013-04-07 18:42:18	--	pdxleif_away is now known as pdxleif
+2013-04-07 18:42:30	<--	orn (~orn@58-188-58-58f1.kyt1.eonet.ne.jp) has quit (Remote host closed the connection)
+2013-04-07 18:42:56	-->	phischu (~pschuster@p4FD309D4.dip0.t-ipconnect.de) has joined #haskell
+2013-04-07 18:43:16	-->	mattrepl (~mattrepl@pool-71-163-43-88.washdc.fios.verizon.net) has joined #haskell
+2013-04-07 18:43:40	-->	conehead (~conehead@unaffiliated/conehead) has joined #haskell
+2013-04-07 18:43:42	-->	skyflash_ (~skyflash@96.53.63.54) has joined #haskell
+2013-04-07 18:43:48	<--	fredmorcos (~fmorcos@cm56-238-233.liwest.at) has quit (Quit: Leaving)
+2013-04-07 18:43:59	-->	AgentM (~AgentM@cpe-74-64-32-157.nyc.res.rr.com) has joined #haskell
+2013-04-07 18:44:00	<--	eevar (~eevar@175.80-203-27.nextgentel.com) has quit (Client Quit)
+2013-04-07 18:44:07	<--	kevinqcs (~turing@183.209.140.177) has quit (Ping timeout: 256 seconds)
+2013-04-07 18:44:48	-->	adzeitor (~adzeitor@31.207.214.18) has joined #haskell
+2013-04-07 18:46:33	-->	Esa_ (~esa.syt@108-250-33-79.lightspeed.irvnca.sbcglobal.net) has joined #haskell
+2013-04-07 18:47:01	-->	tsenart (~tsenart@bl9-123-172.dsl.telepac.pt) has joined #haskell
+2013-04-07 18:47:29	-->	xcombelle (~xcombelle@AToulouse-551-1-119-16.w92-156.abo.wanadoo.fr) has joined #haskell
+2013-04-07 18:47:32	<--	aesptux (~aesptux@d393556.seedhost.eu) has quit (Remote host closed the connection)
+2013-04-07 18:47:34	--	stelleg_away is now known as stelleg
+2013-04-07 18:47:39	XexonixXexillion	Why is type inference so slow...
+2013-04-07 18:48:09	<--	skyflash_ (~skyflash@96.53.63.54) has quit (Ping timeout: 252 seconds)
+2013-04-07 18:48:20	elliott	unless you're doing something unusual, it's generally not :)
+2013-04-07 18:48:20	tsenart	hello there... would anyone have an insight on why sqrt . fromIntegral $ 3 `mod` 1 == 0.0 ? It should be == 0.7320508075688772
+2013-04-07 18:48:23	<--	oio (ba54a08a@gateway/web/freenode/ip.186.84.160.138) has quit (Ping timeout: 245 seconds)
+2013-04-07 18:48:27	-->	nilsi (~nilsi@c83-253-22-138.bredband.comhem.se) has joined #haskell
+2013-04-07 18:48:28	<--	arlinius (~eamlei@gateway/tor-sasl/maerline) has quit (Remote host closed the connection)
+2013-04-07 18:48:39	<--	BigTom (~bigtom@213.246.114.89) has quit (Ping timeout: 256 seconds)
+2013-04-07 18:48:39	-->	kevinqcs (~turing@183.209.140.177) has joined #haskell
+2013-04-07 18:48:41	sipa	3 `mod` 1 is 0
+2013-04-07 18:48:44	<--	kevinqcs (~turing@183.209.140.177) has quit (Max SendQ exceeded)
+2013-04-07 18:48:55	XexonixXexillion	elliott: I have an implementation of the wireworld cellular automata in the Haskell type system that I only just refound. It's *really* slow
+2013-04-07 18:49:08	elliott	that counts as unusual, yes!
+2013-04-07 18:49:14	--	aesptux_ is now known as aesptux
+2013-04-07 18:49:19	arkeet	note: it parses as (sqrt . fromIntegral) $ (3 `mod` 1)
+2013-04-07 18:49:21	-->	urm3l (~urm3l@HSI-KBW-078-043-223-061.hsi4.kabel-badenwuerttemberg.de) has joined #haskell
+2013-04-07 18:49:22	elliott	cool hack
+2013-04-07 18:49:33	tsenart	arkeet, sipa: thanks
+2013-04-07 18:49:44	<--	RichyB (~richardb@cpc10-hawk12-2-0-cust457.aztw.cable.virginmedia.com) has quit (Ping timeout: 256 seconds)
+2013-04-07 18:49:55	tsenart	so I need (sqrt . fromIntegral $ 3) `mod` 1
+2013-04-07 18:50:00	-->	kevinqcs (~turing@183.209.140.177) has joined #haskell
+2013-04-07 18:50:01	arkeet	> sqrt (fromIntegral 3) `mod` 1
+2013-04-07 18:50:03	lambdabot	  Ambiguous type variable `a0' in the constraints:
+2013-04-07 18:50:03	lambdabot	   (GHC.Float.Floating a0)...
+2013-04-07 18:50:07	arkeet	> sqrt 3 `mod` 1
+2013-04-07 18:50:09	lambdabot	  Ambiguous type variable `a0' in the constraints:
+2013-04-07 18:50:09	lambdabot	   (GHC.Float.Floating a0)...
+2013-04-07 18:50:12	arkeet	> sqrt 3 `mod` 1 :: Double
+2013-04-07 18:50:14	lambdabot	  No instance for (GHC.Real.Integral GHC.Types.Double)
+2013-04-07 18:50:14	lambdabot	   arising from a use ...
+2013-04-07 18:50:24	tsenart	hmm
+2013-04-07 18:50:24	arkeet	well you can't anyway.
+2013-04-07 18:50:31	niteria	how would I read it from file at compile time?
+2013-04-07 18:50:58	mapf	niteria: you can do arbitrary IO
+2013-04-07 18:50:59	elliott	tsenart: what semantics are you desiring from mod?
+2013-04-07 18:51:00	arkeet	niteria: you put a suitable IO action in your TH thing
+2013-04-07 18:51:10	-->	Zeev (~Zeev@bzq-79-183-5-130.red.bezeqint.net) has joined #haskell
+2013-04-07 18:51:28	arkeet	> sqrt 3 `Data.Fixed.mod'` 1 :: Double
+2013-04-07 18:51:28	tsenart	elliott: I want to extract the fractional part of the result of sqrt
+2013-04-07 18:51:29	lambdabot	  0.7320508075688772
+2013-04-07 18:51:38	arkeet	I have no idea why that's in Data.Fixed
+2013-04-07 18:51:49	-->	solvip (~solvip@89-160-141-139.du.xdsl.is) has joined #haskell
+2013-04-07 18:51:53	XexonixXexillion	can I get GHC to memoize types? If I have a tuple (transitionWorld world, transitionWorld (transitionWorld world)) it calculates the type of (transitionWorld world) twice
+2013-04-07 18:51:54	jmcarthur	XexonixXexillion: type inference is an exponential algorithm, actually
+2013-04-07 18:52:07	tsenart	nice
+2013-04-07 18:52:14	tsenart	will look into that
+2013-04-07 18:52:19	tsenart	thanks everyone
+2013-04-07 18:52:21	arkeet	XexonixXexillion: huh?
+2013-04-07 18:52:39	jmcarthur	arkeet: XexonixXexillion is doing some weird type level computation
+2013-04-07 18:52:40	arkeet	uh
+2013-04-07 18:52:42	arkeet	I see.
+2013-04-07 18:53:06	<--	lachenmayer (~lachenmay@p5492F8FB.dip.t-dialin.net) has quit (Ping timeout: 252 seconds)
+2013-04-07 18:53:28	<--	schovi (~schovi@ip-89-176-244-70.net.upcbroadband.cz) has quit (Remote host closed the connection)
+2013-04-07 18:53:33	-->	qzr (~qzr@adsl-89-217-111-126.adslplus.ch) has joined #haskell
+2013-04-07 18:53:42	<--	adzeitor (~adzeitor@31.207.214.18) has quit (Read error: Operation timed out)
+2013-04-07 18:53:45	elliott	XexonixXexillion: perhaps pass it as an argument to a type family
+2013-04-07 18:53:47	mapf	XexonixXexillion: you can try to use type synonims
+2013-04-07 18:53:51	elliott	just like (\name -> ...) exp gives you sharing
+2013-04-07 18:54:05	XexonixXexillion	I'll give that a shot, but I have to go now
+2013-04-07 18:54:31	<--	fro0t2 (~fro0t@1.23.67.95) has quit (Quit: Nettalk6 - www.ntalk.de)
+2013-04-07 18:54:34	<--	Jambato (~le@auv95-1-82-241-80-196.fbx.proxad.net) has quit (Quit: leaving)
+2013-04-07 18:54:41	<--	XexonixXexillion (82384735@gateway/web/freenode/ip.130.56.71.53) has quit (Quit: Page closed)
+2013-04-07 18:54:55	<--	qzr (~qzr@adsl-89-217-111-126.adslplus.ch) has quit (Remote host closed the connection)
+2013-04-07 18:55:00	-->	dagnachew (~dagnachew@bas1-montreal30-2925416620.dsl.bell.ca) has joined #haskell
+2013-04-07 18:55:05	<--	crdueck (~cdk@24.212.219.10) has quit (Ping timeout: 246 seconds)
+2013-04-07 18:55:06	-->	qzr (~qzr@adsl-89-217-111-126.adslplus.ch) has joined #haskell
+2013-04-07 18:55:19	ab9rf	muh
+2013-04-07 18:55:53	-->	crdueck (~cdk@24.212.219.10) has joined #haskell
+2013-04-07 18:56:22	-->	mpiechotka (~mpiechotk@178-36-63-68.adsl.inetia.pl) has joined #haskell
+2013-04-07 18:56:42	-->	mewtwo (~mewtwo@202.3.77.237) has joined #haskell
+2013-04-07 18:56:51	<--	dagnachew (~dagnachew@bas1-montreal30-2925416620.dsl.bell.ca) has quit (Client Quit)
+2013-04-07 18:57:01	-->	adzeitor (~adzeitor@31.207.128.149) has joined #haskell
+2013-04-07 18:57:22	-->	dagnachew (~dagnachew@bas1-montreal30-2925416620.dsl.bell.ca) has joined #haskell
+2013-04-07 18:57:30	<--	mintsoup (~mintsoup@c-98-245-69-209.hsd1.co.comcast.net) has quit (Ping timeout: 252 seconds)
+2013-04-07 18:57:42	<--	wollw (~wollw@unaffiliated/wollw) has quit (Ping timeout: 248 seconds)
+2013-04-07 18:58:06	<--	mpiechotka (~mpiechotk@178-36-63-68.adsl.inetia.pl) has quit (Remote host closed the connection)
+2013-04-07 18:58:23	-->	tac (2673a6ca@gateway/web/freenode/ip.38.115.166.202) has joined #haskell
+2013-04-07 18:58:24	<--	nyc (~nyc@unaffiliated/wli) has quit (Ping timeout: 264 seconds)
+2013-04-07 18:58:26	<--	s_kilk (~shane@host81-152-130-140.range81-152.btcentralplus.com) has quit (Quit: Leaving)
+2013-04-07 18:58:53	niteria	GHC stage restriction: fileq is used in a quasiquote, and must be imported, not defined locally
+2013-04-07 18:59:01	niteria	huh? is there a reason for that?
+2013-04-07 18:59:07	-->	sambio (~sambio@190.57.227.109) has joined #haskell
+2013-04-07 18:59:07	<--	sambio (~sambio@190.57.227.109) has quit (Changing host)
+2013-04-07 18:59:07	-->	sambio (~sambio@unaffiliated/sambio) has joined #haskell
+2013-04-07 18:59:09	ab9rf	heh, that is weird
+2013-04-07 18:59:30	-->	schovi (~schovi@ip-89-176-244-70.net.upcbroadband.cz) has joined #haskell
+2013-04-07 18:59:40	<--	gwern (~gwern@wikipedia/Gwern) has quit (Read error: Connection reset by peer)
+2013-04-07 19:00:13	<--	sambio (~sambio@unaffiliated/sambio) has quit (Client Quit)
+2013-04-07 19:00:27	-->	vifanq (~vifanq@gateway/tor-sasl/vifanq) has joined #haskell
+2013-04-07 19:01:48	-->	fro0t (~fro0t@1.23.67.95) has joined #haskell
+2013-04-07 19:02:27	<--	EarlGray (~mitra@cl-148.led-01.ru.sixxs.net) has quit (Quit: Konversation terminated!)
+2013-04-07 19:02:43	-->	bytbox (~s@129-2-129-85.wireless.umd.edu) has joined #haskell
+2013-04-07 19:03:04	<--	dagnachew (~dagnachew@bas1-montreal30-2925416620.dsl.bell.ca) has quit (Quit: WeeChat 0.4.0)
+2013-04-07 19:03:36	arkeet	niteria: well, you can't have a module that needs to be already compiled in order to compile.
+2013-04-07 19:03:46	-->	dagnachew (~dagnachew@bas1-montreal30-2925416620.dsl.bell.ca) has joined #haskell
+2013-04-07 19:04:11	-->	vpopov (~happylife@dyn-32-176.fttbee.kis.ru) has joined #haskell
+2013-04-07 19:04:19	-->	EarlGray (~mitra@cl-148.led-01.ru.sixxs.net) has joined #haskell
+2013-04-07 19:04:21	arkeet	quasiquoters can be used in the same module, I think.
+2013-04-07 19:04:27	arkeet	it's just splices that must be imported.
+2013-04-07 19:04:36	arkeet	either that or I'm totally wrong.
+2013-04-07 19:04:42	niteria	ok, that makes sense
+2013-04-07 19:04:50	-->	narens (~user@n163s130.ntc.blacksburg.shentel.net) has joined #haskell
+2013-04-07 19:05:14	-->	dmj (~user@ppp-69-216-244-225.dsl.chcgil.ameritech.net) has joined #haskell
+2013-04-07 19:05:31	dmj	what is the easiest way to sort a map from Data.Map?
+2013-04-07 19:05:40	arkeet	sort?
+2013-04-07 19:05:56	dmj	Yea, by key
+2013-04-07 19:06:10	dmj	arkeet: actually value, in this case my values are Ints
+2013-04-07 19:06:14	parcs	a map is already ordered by key
+2013-04-07 19:06:17	<--	dagnachew (~dagnachew@bas1-montreal30-2925416620.dsl.bell.ca) has quit (Client Quit)
+2013-04-07 19:06:25	-->	twanvl_ (~Twan@dhcp-077-250-086-217.chello.nl) has joined #haskell
+2013-04-07 19:06:33	dmj	fromList [("hey", 3),("dude",4)]
+2013-04-07 19:06:41	-->	dagnachew (~dagnachew@bas1-montreal30-2925416620.dsl.bell.ca) has joined #haskell
+2013-04-07 19:06:42	dmj	to be sorted by the int
+2013-04-07 19:06:49	monochrom	sortBy (comparing snd) (fromList your_map)
+2013-04-07 19:07:03	-->	NemesisD (~NemesisD@50.125.74.242) has joined #haskell
+2013-04-07 19:07:06	parcs	it doesn't make sense for an ordered map to be sorted by value
+2013-04-07 19:07:12	arkeet	monochrom: you mean toAscList?
+2013-04-07 19:07:23	monochrom	err, toList
+2013-04-07 19:07:27	arkeet	or toList
+2013-04-07 19:07:29	monochrom	sortBy (comparing snd) (toList your_map)
+2013-04-07 19:07:35	<--	Sorella (~queen@oftn/member/Sorella) has quit (Read error: Connection reset by peer)
+2013-04-07 19:07:43	arkeet	of course, the result won't be a map.
+2013-04-07 19:07:45	arkeet	it wouldn't make sense to be.
+2013-04-07 19:07:46	__xc	> 2.5421 `Data.Fixed.mod'` 1 :: Double
+2013-04-07 19:07:48	lambdabot	  0.5421
+2013-04-07 19:07:55	dmj	toDescList seems to work
+2013-04-07 19:07:57	-->	Sorella (~queen@oftn/member/Sorella) has joined #haskell
+2013-04-07 19:08:00	-->	enquora (~davidr@S0106602ad083de8c.cg.shawcable.net) has joined #haskell
+2013-04-07 19:08:06	arkeet	"seems to"?
+2013-04-07 19:08:10	ab9rf	maps don't even require that their vale type be sortable
+2013-04-07 19:08:14	__xc	> 2.5421 `div` 1 :: Double
+2013-04-07 19:08:15	lambdabot	  No instance for (GHC.Real.Integral GHC.Types.Double)
+2013-04-07 19:08:15	lambdabot	   arising from a use ...
+2013-04-07 19:08:15	monochrom	yes, it works for some examples
+2013-04-07 19:08:17	dmj	arkeet: I need to test it fully
+2013-04-07 19:08:47	arkeet	yes, it works if your keys happen to be in the reverse order of the values.
+2013-04-07 19:08:50	monochrom	fromList (map (\(x,y) -> (y,x)) (toList your_map))
+2013-04-07 19:09:12	narens	question: in lens, what is the succint way to write (+1) <$> use _1?
+2013-04-07 19:09:34	<--	twanvl (~Twan@dhcp-077-250-086-217.chello.nl) has quit (Ping timeout: 256 seconds)
+2013-04-07 19:09:38	elliott	:t uses _1 (+1)
+2013-04-07 19:09:39	lambdabot	(Num r, MonadState s m, Field1 s t r b) => m r
+2013-04-07 19:09:59	narens	thanks, sometimes the types just really confuse me
+2013-04-07 19:10:10	arkeet	that's what the documentation is for.
+2013-04-07 19:10:12	elliott	they take some getting used to :)
+2013-04-07 19:10:12	ab9rf	narens: that is the purpose of types :)
+2013-04-07 19:10:41	narens	yea, i just didn't take the time to read the types in the lens package... just jumped in using examples.
+2013-04-07 19:10:42	<--	junsuijin (~junsuijin@c-76-17-174-68.hsd1.mn.comcast.net) has quit (Read error: Connection reset by peer)
+2013-04-07 19:10:46	arkeet	e.g. uses :: MonadState s m => Getter s a -> (a -> r) -> m r
+2013-04-07 19:11:02	<--	Betal (~Betal@unaffiliated/betal) has quit (Read error: Connection reset by peer)
+2013-04-07 19:11:17	-->	Beta_d (~Betal@unaffiliated/betal) has joined #haskell
+2013-04-07 19:11:17	--	Beta_d is now known as Betal
+2013-04-07 19:11:22	<--	monqy (~help@pool-98-108-214-230.snloca.dsl-w.verizon.net) has quit (Quit: hello)
