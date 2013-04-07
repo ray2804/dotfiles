@@ -1,4 +1,4 @@
-.purple/logs/*
 *.pyc
+purple/logs/*
 *.pyo
 __pycache__/
