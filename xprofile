@@ -1,0 +1,9 @@
+
+
+# Load resources
+#xrdb -merge .Xresources
+
+# Background wallpaper
+# Set using: `feh --bg-fill /path/to/wallpaper.ext`
+#sh "${HOME}/.fehbg"
+

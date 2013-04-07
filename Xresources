@@ -1,0 +1,437 @@
+!vim: ft=defaults.css fdm=marker foldlevel=0 indent nospell
+
+
+! urxvt ! URxvt
+
+! Xft (X FreeType) with Bitstream, DejaVu, Liberation, or Terminus fonts:
+!  An anti-aliased font setup with Xft looks fantastic; it can be a bit choppy 
+!  on older systems. You can always turn off anti-aliasing (antialias=false) if
+!  your terminal is sluggish. Use only ONE of the Xft pairs below:
+
+! Xft: Bitstream fonts
+!URxvt*font: xft:Bitstream Vera Sans Mono:pixelsize=12:antialias=true:hinting=true
+!URxvt*boldFont: xft:Bitstream Vera Sans Mono:bold:pixelsize=12:antialias=true:hinting=true
+
+! Xft: DejaVu fonts
+!URxvt*font: xft:DejaVu Sans Mono:pixelsize=12:antialias=true:hinting=true
+!URxvt*boldFont: xft:DejaVu Sans Mono:bold:pixelsize=12:antialias=true:hinting=true
+
+! Xft: Liberation fonts
+!URxvt*font: xft:Liberation Mono:pixelsize=13:antialias=true:hinting=true
+!URxvt*boldFont: xft:Liberation Mono:bold:pixelsize=13:antialias=true:hinting=true
+
+! Xft: Terminus fonts
+!URxvt*font: xft:terminus:pixelsize=15
+!URxvt*boldFont: xft:terminus:bold:pixelsize=15
+
+! Traditional fonts - a more traditional font setup in lieu of xft
+!URxvt*font:-*-courier-medium-r-normal-*-14-*-*-*-*-*-iso8859-1
+!URxvt*boldFont:-*-courier-bold-r-normal-*-14-*-*-*-*-*-iso8859-1
+
+! Replace blue folder colors with a lighter shade for clarity. To
+! set colored folders and files within urxvt, xterm, and aterm, add
+! the following line to your ~/.bashrc ($HOME/.bashrc) file under
+! the heading "! User specific aliases and functions":
+!  alias ls="ls -h --color=auto"
+!
+
+!  32, 48 or 64 may also be good values
+Xcursor.size:  16
+
+! -----------------
+!  Xft font libraries
+!
+!! Get DPI as X discovers it: xdpyinfo | grep dots 
+Xft.dpi:                    96
+
+! Was causing distorted dpi/fonts in GTK apps
+!Also: upgraded to fontconfig-infinality --- ??
+Xft.antialias:              true
+Xft.autohint:               true
+Xft.lcdfilter:              lcddefault
+Xft.hintstyle:              hintslight
+Xft.hinting:                true
+Xft.rgba:                   rgb
+
+! Global colorscheme
+
+! jwr low contrast
+!black
+*color0:                    #222222
+color8:                     #454545
+!red
+*color1:                    #9E5641
+*color9:                    #CC896D
+!green
+*color2:                    #6C7E55
+*color10:                   #C4DF90
+!yellow
+*color3:                    #CAAF2B
+*color11:                   #FFE080
+!blue
+*color4:                    #7FB8D8
+*color12:                   #B8DDEA
+!magenta
+*color5:                    #956D9D
+*color13:                   #C18FCB
+!cyan3
+*color6:                    #4c8ea1
+*color14:                   #6bc1d0
+!white
+*color7:                    #808080
+*color15:                   #cdcdcd
+
+*borderColor:               #343434
+*background:                #343434
+*foreground:                #cdcdcd
+
+!aterm settings-------------------------------------------------------------     
+
+aterm*utf8:                 2
+aterm*background:           black
+aterm*foreground:           white
+aterm*transparent:          true
+aterm*shading:              30
+aterm*cursorColor:          gray
+aterm*saveLines:            2000
+aterm*tinting:              gray
+aterm*scrollBar:            false
+aterm*scrollBar_right:      true
+aterm*transpscrollbar:      true
+aterm*borderwidth:          0
+aterm*font:                 -*-terminus-*-*-*-*-*-*-*-*-*-*-*-*
+aterm*geometry:             80x25
+aterm*fading:               70
+
+
+! xterm ----------------------------------------------------------------------
+
+xterm*VT100.geometry:       80x25
+xterm*Lines:                45
+xterm*autoWrap:             true
+! xterm*VT100.geometry:      100x45+80+200
+xterm*utf8:                 2
+xterm*visualBell:           false
+
+
+xterm*faceName:             Source Code Pro:style=Regular:size=10
+!xterm*faceName:              Terminus:style=Regular:size=10
+!xterm*font:                 -*-dina-medium-r-*-*-16-*-*-*-*-*-*-*
+!xterm*font:                 -adobe-courier-bold-r-normal--14-140-75-75-m-90-iso8859-1
+!xterm*font:                 -b&h-lucidatypewriter-medium-r-normal-sans-12-120-75-75-m-70-iso10646-1
+!xterm*font:                 -Misc-Fixed-Bold-R-Normal--13-120-75-75-C-80-iso10646-1
+!xterm*font:                 9x15bold
+!xterm*font:                 8x13bold
+!xterm*font:                 lucidasanstypewriter-12
+
+
+xterm*background:           black
+
+!xterm*background:           LightYellow2
+!xterm*background:           grey95
+
+xterm*SaveLines:            1500
+!xterm*SaveLines:            2500
+
+xterm*loginShell:           true
+
+xterm*toolBar:              true
+xterm*dynamicColors:        true
+
+xterm*eightBitInput:        true
+xterm.eightBitOutput:       true
+xterm*jumpScroll:           true
+xterm*rightScrollBar:       true
+xterm*multiScroll:          true
+xterm*scrollTtyOutput:      false
+xterm*ScrollBar:            true
+xterm*scrollKey:            true
+
+XTerm*Scrollbar*width:      12
+
+
+
+! emacs with ssh get meta key:
+XTerm*VT100.metaSendsEscape: True
+XTerm*VT100.backarrowKeyIsErase: False
+!
+xterm*charClass:            33:48,37:48,43:48,45-47:48,64:48,126:48,95:48
+!
+! Specifies the maximum time in milliseconds between multi-click select
+! events.  The default is 250 milliseconds.
+xterm*multiClickTime:       500
+!
+! Specifies a shell command to which xterm will open a pipe when the
+! first MC (Media Copy) command is initiated.  The default is lpr
+! If the resource value is given as a blank string, the printer is
+! disabled.
+xterm*printerCommand:
+!
+! Specifies whether the window whould be raised when Control-G is received.
+xterm*popOnBell:            on
+! allow: color and font changes, cf. aliases fnn etc (file ~/.alias):
+xterm*allowColorOps:        true
+xterm*allowFontOps:         true
+
+XTerm*color0: black
+!XTerm*color1: red3
+!XTerm*color2: green3
+!XTerm*color3: #e52d2d
+!XTerm*color4: blue3
+!XTerm*color5: magenta3
+!XTerm*color6: cyan3
+!XTerm*color7: gray90
+!XTerm*color8: gray30
+!XTerm*color9: red
+!XTerm*color10: green
+!XTerm*color11: yellow
+!XTerm*color12: blue
+!XTerm*color13: magenta
+!XTerm*color14: cyan
+!XTerm*color15: white
+!XTerm*colorUL: yellow
+!XTerm*colorBD: white
+
+
+
+
+! -----------------
+!  URXVT
+
+
+! Essentials
+! ----------------------
+URxvt.termName:                 rxvt-256color
+URxvt.imLocale:                 en_US.UTF-8
+
+URxvt.keysym.Shift-Control-V:   perl:clipboard:paste
+URxvt.keysym.M-Escape:          perl:keyboard-select:activate
+
+
+
+! Display and visual appearance
+! -----------------------------
+
+!URxvt.iconFile:                /home/supersym/.config/icons/archlinux-icon-crystal-256_2.svg
+
+URxvt.keysym.F11:               perl:fullscreen:switch
+
+!URxvt.depth:                   32
+URxvt.depth:                    24
+
+URxvt.inheritPixmap:            false
+URxvt.tintColor:                black
+URxvt.shading:                  80
+
+URxvt.geometry:                 80x24
+URxvt.loginShell:               false
+URxvt.meta:                     ignore
+URxvt.utmpInhibit:              true
+
+! Color scheme
+
+!URxvt.background:              #212629
+URxvt.background:               rgba:1111/1111/1111/dddd
+URxvt.foreground:               #737c80
+URxvt.cursorColor:              #c1c8c9
+URxvt.colorBD:                  #9a7b88
+
+!black
+URxvt*color0:                   #111313
+URxvt*color8:                   #424446
+!red3
+URxvt*color1:                   #9e6b71
+URxvt*color9:                   #b69094
+!green3
+URxvt*color2:                   #719e6b
+URxvt*color10:                  #94b690
+!yellow
+URxvt*color3:                   #9e986c
+URxvt*color11:                  #b5b18f
+!blue
+URxvt*color4:                   #6c8b9e
+URxvt*color12:                  #90a7b6
+!magenta
+URxvt*color5:                   #986b9e
+URxvt*color13:                  #b290b6
+!cyan
+URxvt*color6:                   #6b9e98
+URxvt*color14:                  #90b6b3
+!white
+URxvt*color7:                   #b8baba
+URxvt*color15:                  #cdcfce
+! Perl extensions
+! ---------------
+
+URxvt.perl-lib:                 ${HOME}/data/code/scripts/perl/urxvtcd
+URxvt.perl-ext-common:          default,matcher,keyboard-select
+! URxvt.perl-ext-common:  default,tabbed,keyboard-select,url-select,clipboard
+!,font-size,fullscreen,clipboard
+
+
+! Navigation
+! ----------
+
+! Prevent urls with these chars from breaking browser launch
+URxvt*cutchars:                 `"()'*<>[]{|}'"
+URxvt*urlLauncher:              /usr/bin/zurl
+
+!URxvt.urlLauncher:              dwb
+URxvt.url-select.launcher:      dwb
+URxvt.url-select.underline:     true
+URxvt.underlineURLs:            true
+URxvt.colorUL:                  #4682B4
+
+!URxvt.keysym.M-u:              perl:url-select:select_next
+!URxvt.keysym.M-Escape:         perl:keyboard-select:activate
+!URxvt.keysym.M-s:              perl:keyboard-select:search
+
+
+! Font and typesetting options
+! ----------------------------
+
+URxvt.transparent:              true
+URxvt.allow_bold:               true
+
+! standardises methods for entering Unicode characters from their codepoints
+URxvt.iso14755:                 False
+
+URxvt.font:                     [codeset=ASCII]xft:Source Code Pro:size=10,\
+                                [codeset=ISO10646]xft:WenQuanYi Micro Hei:regular
+
+URxvt.boldFont:                 [codeset=ASCII]xft:Source Code Pro:bold:size=10,\
+                                [codeset=ISO10646]xft:WenQuanYi Micro Hei:bold
+
+URxvt.italicFont:               [codeset=ASCII]xft:Source Code Pro:italic:size=10,\
+                                [codeset=ISO10646]xft:WenQuanYi Micro Hei:italic
+
+!URxvt.keysym.C-Up:             perl:font-size:increase
+!URxvt.keysym.C-Down:           perl:font-size:decrease
+!URxvt.keysym.C-S-Up:           perl:font-size:incglobal
+!URxvt.keysym.C-S-Down:         perl:font-size:decglobal
+
+
+! Scrollback / -bar
+! -----------------
+
+!  scrollbar style: rxvt (default), plain (most compact), next, or xterm
+URxvt.scrollstyle:              plain
+URxvt.scrollBar:                false
+URxvt.cursorBlink:              true
+Urxvt.mouseWheelScrollPage:     true
+
+!scrollback buffer lines        65535 is max on most machines (64 is default)
+URxvt.saveLines:                3000
+
+
+! Tabbed terminal window
+! ----------------------
+
+URxvt.matcher.button:           1
+
+URxvt.tabbed.tabbar-fg:         2
+URxvt.tabbed.tabbar-bg:         0
+URxvt.tabbed.tab-fg:            3
+URxvt.tabbed.tab-bg:            0
+
+
+
+
+! ! M-escape - keyboard selection mode
+! !
+! ! h/j/k/l:    Move cursor left/down/up/right (also with arrow keys)
+! ! g/G/0/^/$/H/M/L/f/F/;/,/w/W/b/B/e/E: More vi-like cursor movement keys
+! ! '/'/?:      Start forward/backward search
+! ! n/N:        Repeat last search, N: in reverse direction
+! ! Ctrl-f/b:   Scroll down/up one screen
+! ! Ctrl-d/u:   Scroll down/up half a screen
+! ! v/V/Ctrl-v: Toggle normal/linewise/blockwise selection
+! ! y/Return:   Copy selection to primary buffer, Return: deactivate afterwards
+! ! q/Escape:   Deactivate keyboard selection mode
+!
+! ! M-s - search
+! URxvt.keysym.M-s: perl:keyboard-select:search
+!
+! ! M-u - url selection mode
+! !
+! ! j/k:      Select next downward/upward URL (also with arrow keys)
+! ! g/G:      Select first/last URL (also with home/end key)
+! ! o/Return: Open selected URL in browser, Return: deactivate afterwards
+! ! y:        Copy (yank) selected URL and deactivate selection mode
+! ! q/Escape: Deactivate URL selection mode
+! URxvt.keysym.M-u: perl:url-select:select_next
+!
+! ! clipboard
+! URxvt.keysym.M-c:   perl:clipboard:copy
+! URxvt.keysym.M-v:   perl:clipboard:paste
+! URxvt.keysym.M-C-v: perl:clipboard:paste_escaped
+!
+! ! URxvt.copyCommand:  xsel -ib
+! ! URxvt.pasteCommand: xsel -ob
+!
+! URxvt.copyCommand:  xclip -i -selection clipboard
+! URxvt.pasteCommand: xclip -o -selection clipboard
+!
+! ! tabbar
+! URxvt.tabbed.tabbar-fg: 2
+! URxvt.tabbed.tabbar-bg: 0
+! URxvt.tabbed.tab-fg:    3
+! URxvt.tabbed.tab-bg:    0
+!
+! ! disable print screen
+! rxvt.print-pipe: "cat > /dev/null"
+! urxvt.print-pipe: "cat > /dev/null"
+!
+! ! browser/command to open selected URL with
+! URxvt.urlLauncher:   /usr/bin/x-www-browser
+! ! if set to true, all URLs get underlined
+! URxvt.underlineURLs: true
+! ! mouse button to click-open URLs (default: 2)
+! URvxt.urlButton:     2
+!
+! URxvt.termName:              rxvt-unicode
+! URxvt.urgentOnBell:          true
+! Urxvt.insecure:              false
+! URxvt.transparent:           false
+! Urxvt.loginShell:            true
+! Urxvt.hold:                  false
+! !                            URxvt.inheritPixmap: False
+! !                            URxvt.scrollBar: false
+! URxvt.saveLines:             5000
+! URxvt.urlLauncher:           /usr/bin/chromium-browser
+! URxvt.cursorBlink:           true
+! URxvt.geometry:              100x50
+! URxvt.fading:                6%
+! urxvt.font:                  xft:Ubuntu Mono:pixelsize=16
+! urxvt.boldFont:              xft:Ubuntu Mono:bold:pixelsize=16
+! URxvt*background:            #303030
+! urxvt.depth:                 32
+! URxvt.background:            rgba:0000/0000/0000/dddd
+! !                            URxvt.background: rgba:3f00/3f00/3f00/dddd
+! URxvt.foreground:            grey80
+! URxvt.tintColor:             #262626
+! !URxvt.borderLess:           true
+! URxvt.borderColor:           #888888
+! Urxvt.externalBorder:        0
+! Urxvt.internalBorder:        2
+! ! urxvt*scrollColor:
+! ! urxvt*underlineColor:
+! ! urxvt*highlightColor:
+!
+
+
+
+/*<<< disabled
+
+xft:Terminus:pixelsize=12:italic:antialias=false,\
+URxvt.keysym.M-Up: command: \
+\033]710;[codeset=ASCII]xft:Source Code Pro:size=13, [codeset=ISO10646]xft:WenQuanYi Micro Hei:regular:size=13\007 \
+\033]711;[codeset=ASCII]xft:Source Code Pro:bold:size=13, [codeset=ISO10646]xft:WenQuanYi Micro Hei:bold:size=13\007 \
+\033]712;[codeset=ASCII]xft:Source Code Pro:italic:size=13, [codeset=ISO10646]xft:WenQuanYi Micro Hei:italic:size=13\007
+
+URxvt.keysym.M-Down: command: \
+\033]710;[codeset=ASCII]xft:Source Code Pro:size=10, [codeset=ISO10646]xft:WenQuanYi Micro Hei:regular\007 \
+\033]711;[codeset=ASCII]xft:Source Code Pro:bold:size=10, [codeset=ISO10646]xft:WenQuanYi Micro Hei:bold\007 \
+\033]712;[codeset=ASCII]xft:Source Code Pro:italic:size=10, [codeset=ISO10646]xft:WenQuanYi Micro Hei:italic\007
+
+*/

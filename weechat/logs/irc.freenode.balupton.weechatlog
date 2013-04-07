@@ -1,0 +1,200 @@
+2012-12-28 21:14:15	--	irc: disconnected from server
+2013-01-17 09:33:01	supersym	hey
+2013-01-17 09:35:06	supersym	so i made a few 'plugins' supposed to use passport... googledrive, flickr, github
+2013-01-17 09:36:00	supersym	thats all good,... they should be seperated on their brandnames, not bundle them all (nor strategies) together in docpad-plugin-passport
+2013-01-17 09:36:35	supersym	either you use anon functions the API exposes, then you dont need them - or one could use their own implementation of the strategy
+2013-01-17 09:36:51	supersym	but if people do want/need to authenticate, and most would want to
+2013-01-17 09:37:37	supersym	I'm not sure how to feature it so much...
+2013-01-17 09:38:19	supersym	basically it all boils down to having passport, then include the strategy, provide some options usually only just 3 (key,secret,callback url)
+2013-01-17 09:38:39	supersym	but thats where it gets a bit hairy... nearly all want you to use express
+2013-01-17 09:39:22	supersym	and i really hate to enforce that on people but all sample code, tests etc are expecting express more or less and require you to do authentication over middleware
+2013-01-17 09:41:44	supersym	first of all, what do we want to do with it anyway? the images (flickr) I imagine people want to include them (could be as simple as not using the API at all but scrape it from anywhere) up to uploading their pictures to remote (flickr) storage, hotlink 
+2013-01-17 09:42:12	supersym	most of these things, also with google drive / github, can first be seen as DEVELOPMENT time support tools
+2013-01-17 09:42:23	supersym	easily include from remote in local to render
+2013-01-17 09:43:10	supersym	(e.g. images, markdown, html, diagrams everything?) 
+2013-01-17 09:44:02	supersym	the second thing people would be intrested in these things, is perhaps during runtime, and which could also be with(out) express
+2013-01-17 09:44:31	supersym	say i wanted to generate a gallery and use images hosted at flickr
+2013-01-17 09:45:39	supersym	no need to compile the documents again because we use html/js to fetch stuff from flickr
+2013-01-17 09:47:03	supersym	which you could also do from a static site as long as their domain permits using images 
+2013-01-17 09:47:23	supersym	(yeah did a quick check on flickr, has multiple ways to share images with others)
+2013-01-17 09:48:46	supersym	so a few services may offer some custom html, share by email, groups up to generating a iframe and custom widgets even
+2013-01-17 09:50:08	supersym	i personally thinks it goes a bit far to these, already easy to do from that web site, automated on our side
+2013-01-17 09:57:25	supersym	http://www.flickr.com/services/feeds/
+2013-01-17 09:57:46	supersym	rss images... that works too :P we may already have something in feedr with this i dont know
+2013-01-17 10:00:16	supersym	either way, also here it would seam feasible to keep that rss inside docpad-plugin-flickr, and not say in Feedr if possible, or depend upon it and import the Feedr architecture to work with the Flickr plugin
+2013-01-17 10:00:22	supersym	that seems more logic
+2013-01-17 10:01:45	supersym	so anyway,...back to the top lvl view: dependencies and stuff breaking: the less coupling we do,the better
+2013-01-17 10:02:12	supersym	but it would perhaps end up to nother more than say a Grunt program (something that can run on its own)
+2013-01-17 10:02:26	supersym	and then why make a plugin?
+2013-01-17 10:03:42	supersym	I assume because it would be cool to do say createGallery(url) at some point to scaffold out a (node-gallery) browser view in HTML
+2013-01-17 10:05:19	supersym	you could even incrementally apply GUI features to these mashed up apps to transform say a browser based IDE,drawing tool,image gallery - to server as a GUI baseline for docpad functionality exposed through the browser as visual controls
+2013-01-17 10:05:26	supersym	that would be its major upside
+2013-01-17 10:06:50	supersym	but the point I am trying to make I guess: its one or the other....either little coupling and leave much up to the user to manually map API functions to docpad helpers and template data
+2013-01-17 10:07:44	supersym	or tight coupling and being able to fine-tune every detail for much user-friendliness
+2013-01-17 10:08:29	supersym	because my experience so far is: in essence these passport strats all do the same, the key if of course in *what service exposes API* and what that can do
+2013-01-17 10:09:23	supersym	so I did a fork of the passport (strat) repos... did some linting/fixing/converting to cs
+2013-01-17 10:09:35	supersym	played with tests,examples etc
+2013-01-17 10:11:57	supersym	the point is all the routes that many use to hook up to the AJAX are not always needed
+2013-01-17 10:12:11	supersym	and doesnt docpad have routes too, without having to rely on express?
+2013-01-17 10:12:29	supersym	most, if not all, use HTTP Verbs anyway
+2013-01-17 10:12:41	supersym	so I still fail to see the need of dynamic routing like express
+2013-01-17 10:14:05	supersym	so the chain goes from docpad->passport->strat<connect>express/docpad-server?->credentials->request auth-> service
+2013-01-17 10:14:12	supersym	something like that anyway
+2013-01-17 10:15:39	supersym	and while we do this all, we find out that if you to be able and build upon existing solutions, its not so much about easily fetching remote upstreams of your integrated components (like passport, any routing logic, mashed up browser goodies)
+2013-01-17 10:16:03	supersym	because either way you want
+2013-01-17 10:16:32	supersym	to tightly couple means we implement details about services, like passport or googledrive or flickr or dropbox
+2013-01-17 10:17:40	supersym	we have no choice but to describe THAT implementation details of the interfaced service in our code, to be able and work with it (??)
+2013-01-17 10:19:51	supersym	say in a docpad document one might do say @includeGist(12345,true) or @renderImages(1,4,"something") up to say serving a Google Drive Form at a route we define 
+2013-01-17 10:20:47	supersym	whatever... it all assumes some level of deeper knowledge about 'the other side' 
+2013-01-17 10:21:41	supersym	i guess this problem is 'what if that service like Flickr decides to change auth scheme or API exposed features, JSON format, callbacks etc etc)
+2013-01-17 10:22:51	supersym	so if we like to do much for the user friendliness, we carefully build upon these solutions in a minimal but feature rich 'smart' way (decreasing somewhat the risk of the code breaking at many points)
+2013-01-17 10:24:05	supersym	if you want to ensure nothing breaks, you'd basically leave it up to the developer at development time to hook up his document(meta)/config to the API
+2013-01-17 10:24:35	supersym	that means you wouldn't have to resort to a (logical) conversion of many passport stuff -> OOP coffeescript
+2013-01-17 10:25:10	supersym	you have the benefits of hassleless upstream commits and merges, not much maintaining required
+2013-01-17 10:25:24	supersym	fetch latest version and you are done
+2013-01-17 10:26:08	supersym	damn... i should really read and learn more about API's also I guess and write this out better for the issues page
+2013-01-17 10:27:36	supersym	some other stuff I found useful was scraping tech for node.js, yql, etc to fill the gap with structured API's versus open datasources and HTML documentens
+2013-01-17 10:28:31	supersym	meaning we have a uniform approach possible in obtaining *any* online data, not only those exposed through API's and what *they* get to choose to give us
+2013-01-17 10:54:11	supersym	anyway we should really skype sometime :P
+2013-01-17 16:07:48	<--	balupton (uid6783@gateway/web/irccloud.com/x-thbbunxocrlpldzg) has quit (*.net *.split)
+2013-01-17 17:05:32	-->	balupton (uid6783@gateway/web/irccloud.com/x-bmzswinvjfckxiwv) is back on server
+2013-01-17 23:09:58	--	irc: disconnected from server
+2013-01-23 14:05:14	supersym	Hey balupton, what do you think would be a good approach to make something like http://www.haskell.org/haskellwiki/Literate_programming
+2013-01-23 14:05:14	--	[balupton] is away: Auto-away
+2013-01-23 14:05:30	supersym	but then for coffeescript, the bird-style that is...
+2013-01-27 17:19:46	balupton	this seems up your alley http://www.youtube.com/watch?v=kD83Buw_-4M
+2013-01-27 17:21:57	balupton	I'm not sure making something like the haskellwiki thing is a good idea, to me literate programming is code/comments that are self explained - not particularly a new tool - we follow this for philosophy for https://github.com/bevry/watchr
+2013-01-28 13:39:52	--	irc: disconnected from server
+2013-01-29 22:16:22	supersym	I am really hashing through the entire source as working towards a better idea of the entire architecture as a whole
+2013-01-29 22:16:46	supersym	http://supersym.github.com/docpad/src/main.html
+2013-01-29 22:18:44	supersym	as I get more and more familiar with CS, some of JS quircks and most importantly how I would like to organize certain components... it can be a bit dispersed and messy at times but thats how it works before making up 'my' mind on how I'd realise some of the problems we do have with expanding on the current configuration of docpad
+2013-01-29 22:20:18	supersym	more and more I'll learn about why you did some things with docpad, I realise that parsing is the primary important factor in docpad and part of its identity
+2013-01-29 22:20:24	supersym	as freedom etc is
+2013-01-29 22:20:59	supersym	the question is how you can gap some common IT problems in Node.js/Coffee properly
+2013-01-29 22:21:23	supersym	and although my approach of OOP is one way to go, there could be others
+2013-01-29 22:23:06	supersym	but I'd be very tempted to get a few really could models of generic entities in a uniform data layer
+2013-01-29 22:23:43	supersym	there are a few solutions actually that try and gap the remote/local platform/unique data layers
+2013-01-29 22:24:30	supersym	so I also feel there should be a transparant 'internal' procedure for reviewing 'packages'
+2013-01-29 22:25:01	supersym	that is a question of "how many dependencies do you want" and "at what spots" and there are a few mixtures there already
+2013-01-29 22:25:29	supersym	or you could see the core docpad rendering functions as a blackbox
+2013-01-29 22:27:56	supersym	offer a list of stuff it "knows" it can coorporate with and pull those template language for example is with a wrapped 'npm i stylus jade coffee-script' which is isolated now, and then apply the major functioning as coffee-script or javascript seperately from remote/local file -> dynamic code loading
+2013-01-29 22:28:37	supersym	so any docpad-plugin-engine could just get a Gist code file that was written as docpad plugin, and then take control
+2013-01-29 22:29:17	supersym	that approach would really be fit for some proper code inspection though,...probably sandbox the hell out of it ha
+2013-01-29 22:29:34	supersym	but i think JS has enough means to do 'reflection' and actual type checking
+2013-01-29 22:29:51	supersym	you would be able to free much of that code out of the other docpad parts
+2013-01-29 22:30:20	supersym	your code would also make a lot more sense perhaps with a even more uniform BaseEntity type enheritence
+2013-01-29 22:30:42	supersym	and something like Backbone-Relational
+2013-01-29 22:31:00	supersym	and/or also contracts and/or iced
+2013-01-29 22:31:22	supersym	if you'd want to bridge the gap with any RMDBS
+2013-01-29 22:31:31	supersym	or whatever..relational dbs anyway
+2013-01-29 22:32:12	supersym	single classes single responsibility
+2013-01-29 22:32:14	supersym	single files
+2013-01-29 22:34:44	supersym	http://disnetdev.com/contracts.coffee/
+2013-01-29 22:34:48	supersym	really helpful
+2013-01-29 22:35:47	supersym	because we have buildtime/runtime pre/post browser/cli stuff to deal with
+2013-01-29 22:35:54	supersym	lots of different possible models
+2013-01-29 22:36:03	supersym	and a few internal uniform models for say files
+2013-01-29 22:38:15	supersym	it would be more robust to not have a base.coffee but abstract/BaseEntity.coffee, BaseModel.coffee, BaseCollection etc
+2013-01-29 22:39:05	supersym	BaseEntity forming the Base abstract type for any logical domain in docpad
+2013-01-29 22:39:32	supersym	and allow for certain parts to be extendable by others
+2013-01-29 22:42:32	supersym	and either have builtin serialize/deserialize or have a seperate DAL with entities, providers or service arents to translate stuff and ensure 'identity' e.g. a database row -> business entity can only spawn 1 BaseEntity derived Person.name "Bob" with Person.id 1234
+2013-01-29 22:42:56	supersym	its weird for me working OOP with dynamic language a bit though maybe :P
+2013-01-29 22:43:07	supersym	but that is how I solved these problems in C#.NET
+2013-01-29 22:43:16	supersym	any problem really, from a OOP perspective
+2013-01-29 22:43:32	supersym	sometimes 1,2 n-Tier
+2013-01-29 22:44:15	supersym	depends on how much power you need and different junctions with private/public internet/machines
+2013-01-29 22:45:33	supersym	but any way, the question How to decorate/define your base classes is another one
+2013-01-29 22:45:56	supersym	it depends ofcourse on what the stakeholders want in now/future direction for docpad
+2013-01-29 22:46:43	supersym	for Browser GUI stuff you can really rely alot on say Angularjs like solutions
+2013-01-29 22:46:50	supersym	binding the controls to view
+2013-01-29 22:46:58	supersym	its already solved... 
+2013-01-29 22:47:24	supersym	Meteor uses a (own) protocol for other gaps to bridge in the remote/local problem fields
+2013-01-29 22:47:45	supersym	and usually the choice you have is (own) protocol or class based inheritence
+2013-01-29 22:49:30	supersym	anyway more and more I get a better idea of how to write some of this stuff down in code and on paper, plus learning to read your code and node.js
+2013-01-29 22:49:35	supersym	and coffeescript
+2013-01-29 22:49:40	supersym	and from different viewpoints
+2013-01-29 22:51:05	supersym	so the google doc and literate code file @ http://supersym.github.com/docpad/src/lib/base.html and the other files in there I'll keep working continuously on shaping the more comprehensive higher level view
+2013-01-29 22:51:56	supersym	I can keep pulling in changes from docpad repos on github.com/bevry with git remote upstream
+2013-01-29 22:52:10	supersym	and merge in
+2013-01-29 22:52:57	supersym	and I'll branch off to 1 for code I can mess with, so 1 for literate illustration of current code and another for illustrating/experimenting/learning to solve perhaps some current problems
+2013-01-29 22:53:40	supersym	the nice thing is with this document generator I can use markdown in coffeescript comments
+2013-01-29 22:54:01	supersym	so I can link from a "story" in the left, to the other code files who explain other things
+2013-01-29 22:55:03	supersym	once any theoretical future final version stabalizes you keep that for the "why" and use another comment notation OOP style like JSdoc for the technical (API) manual/reference
+2013-01-29 22:55:14	supersym	with @properties etc in the comments
+2013-01-29 22:55:24	supersym	luckily our code base is not that big :D
+2013-01-29 22:57:12	supersym	You could also write working DocPad examples like that... e.g. Gist/Code snippets that are both readable and work :D 
+2013-01-29 22:57:22	supersym	or 'patch' stuff in docpad / plugins
+2013-01-29 22:57:48	supersym	always beats downloading something like that than trying to have people do npm updates etc
+2013-01-29 22:58:20	supersym	and you could even "remote control" pulling in those files from logical repositories
+2013-01-29 22:58:36	supersym	e.g. download docpad stable, that checks for updates/patches and then run
+2013-01-29 22:58:44	supersym	like a lot of programs do
+2013-01-29 22:58:56	supersym	and serve up those files also for docmentation
+2013-01-29 22:59:07	supersym	instead of/and with History.md like files
+2013-01-29 22:59:15	supersym	but I believe in self-documenting stuff a lot
+2013-01-29 22:59:40	supersym	so your code can both be abstract/symbolic but still be atleast understandable by other docpad (core) developers
+2013-01-29 22:59:58	supersym	who want to work on a projects (e.g. plugin) you once wrote in
+2013-01-29 23:00:22	supersym	you'll ensure some better survivability of both docpad as a community brand
+2013-01-29 23:00:45	supersym	in terms of how likely "developers" are to stick
+2013-01-29 23:01:20	supersym	haha and now I have to think of something like http://www.slideshare.net/mattangriffel/growth-hacking
+2013-01-29 23:02:39	supersym	a bit different, but multiple docpad configs could be devided and tried + feedback given in anyway
+2013-01-29 23:03:25	supersym	but anyway I just get motivated by saving myself / you / anyone the work later by doing a lot of work/thinking in the beginning :P
+2013-01-29 23:04:24	supersym	anyway growth hacking = marketing and i am not really fond of those things
+2013-01-29 23:04:34	supersym	its all about making $$$
+2013-01-29 23:05:24	supersym	god knows if i wanted i could have done enough "gray" area legal wise IT hacking, spamming and other dumb sh!t
+2013-01-29 23:05:39	supersym	imho evil...apple? evil
+2013-01-29 23:05:49	supersym	Oracle... evilish..just sucks
+2013-01-29 23:05:58	supersym	Java...rather not...PHP? Nooooooo
+2013-01-29 23:06:53	supersym	newbies? cute...but often a lot of time (can we have a bot for answering stupid questions;) j/k... but some chans do :) :)
+2013-01-29 23:07:24	supersym	but anyway I do like to help people I guess and I like to learn myself
+2013-01-29 23:07:36	supersym	parents both are teachers :)
+2013-01-29 23:07:53	supersym	but if you really want to know, expand on docpad user-base
+2013-01-29 23:08:09	supersym	you MUST start measuring current use and measure different configurations
+2013-01-29 23:08:16	supersym	like growth hacking
+2013-01-29 23:08:22	supersym	or you will never know
+2013-01-29 23:08:33	supersym	that means extendable, rolling release like stuff
+2013-01-29 23:08:38	supersym	loose coupling
+2013-01-29 23:08:45	supersym	-> GUI = Browser
+2013-01-29 23:09:14	supersym	or some kickass X library that binds node with C++ there ... I think work is going on
+2013-01-29 23:09:21	supersym	but since no one develops for X
+2013-01-29 23:09:37	supersym	less work and more portable to make any docpad GUI in the browser
+2013-01-29 23:09:57	supersym	or in say something like Capuchino 
+2013-01-29 23:10:21	supersym	yeah with windows in the picture X really isnt a viable option
+2013-01-29 23:10:40	supersym	Browser = also Google Adworks like web services
+2013-01-29 23:10:52	supersym	you can measure how developers are using your docpad from the Browser
+2013-01-29 23:11:09	supersym	and do some other way of piping through commands / events as messages
+2013-01-29 23:11:23	supersym	to run statistics on what gets used by people
+2013-01-29 23:12:06	supersym	swap around different configuration, measure differences is user-population and progression results = optimal configuration
+2013-01-29 23:12:43	supersym	get urlwolf to help make a nice idea to utilize NodeNatural and "smart" AI like in Browser web / app creation?
+2013-01-29 23:12:50	supersym	= fame
+2013-01-29 23:13:12	supersym	no one really ever done anything like that in a more comprehensive multi-threaded modern way
+2013-01-29 23:13:25	supersym	bridge the gap between remote or local
+2013-01-29 23:13:36	supersym	can you have remote running Visual Studio 2010?? 
+2013-01-29 23:13:38	supersym	yeah I guess
+2013-01-29 23:13:45	supersym	if you have tons of other stuff
+2013-01-29 23:14:19	supersym	for docpad, all you'd need is a download and local machine, or perhaps a download and then push up a PaaS
+2013-01-29 23:14:30	supersym	as static pages without running cloud docpad instance
+2013-01-29 23:14:55	supersym	or with docpad as dynamic server or as part of express
+2013-01-29 23:15:25	supersym	by making offering a more comprehensive view on these paradigms
+2013-01-29 23:15:47	supersym	people could route their own site or IDE with docpad
+2013-01-29 23:16:16	supersym	but I do feel you would need to depend on a good component/web control element framework with good theming and live data binding for that
+2013-01-29 23:16:27	supersym	so again, depend heavily on 1 or 2 packages
+2013-01-29 23:17:55	supersym	I must write out some more parts on packages and dependencies, some stuff abbandon/frozen you'd be able to make elegant OOP/class solutions under docpad if MIY
+2013-01-29 23:17:56	supersym	MIT
+2013-01-29 23:18:20	supersym	but e.g. if like bal-util code base is small enough to take only the functions you use are a few and so forth
+2013-01-29 23:18:34	supersym	imho its still better to copy/paste that as part of docpad
+2013-01-29 23:18:43	supersym	instead of depending on a 10% package perhaps
+2013-01-29 23:19:04	supersym	that again involves looking closely at where you use what functions of node.js modules
+2013-01-29 23:19:59	supersym	anyway imma run...ttyl
+2013-01-29 23:36:03	supersym	p.s. really think coffeecontracts would supplement eco/jade and node templating in docpad and could help in aiding developers that .toJSON() should probably be used or getCollection(123) won't work because it should be a String
+2013-01-29 23:36:50	supersym	instead of having any compiler/parse their part of the error stack
+2013-01-29 23:37:43	supersym	you'd be able to fine-grain exception handling on every level including run-time type checking
+2013-01-29 23:37:56	supersym	so also custom types like coffeescript classes I guess
+2013-01-29 23:39:26	supersym	I should really experiment with that a bit as well :)
+2013-01-30 01:18:21	--	irc: disconnected from server
+2013-01-31 00:36:40	<--	balupton (uid6783@gateway/web/irccloud.com/x-bmzswinvjfckxiwv) has quit (Ping timeout: 240 seconds)
+2013-01-31 01:05:22	--	irc: disconnected from server
+2013-02-02 20:32:13	supersym	http://31.25.98.96:8080/
+2013-02-02 20:32:13	--	[balupton] is away: Auto-away
+2013-02-02 20:32:27	supersym	thats all fully automatic so far
+2013-02-02 20:33:11	supersym	im using my vps to experiment some with cluster/workers/distributed/databases
+2013-02-04 20:03:41	--	irc: disconnected from server

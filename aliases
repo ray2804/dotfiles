@@ -1,0 +1,34 @@
+alias riemann="/opt/riemann/bin/riemann /opt/riemann/etc/riemann.config"
+alias s="yareps"
+alias v="vim"
+
+# Config file moderations frequent
+alias aa="${EDITOR} ~/.aliases"
+
+# Package managers and downloaders
+# Best on top
+
+alias cows="cower -c -s --ignore-ood"
+alias cowd="cower -c -d"
+alias aura="sudo aura -A"
+alias pmc="sudo pacman-color"
+alias pmci="sudo pacman -S --needed"
+alias pmcs="sudo pacman -Ss"
+alias ppil="sudo powerpill -S"
+alias dosuper-addpkg="sudo pacman -S --needed"
+alias dosuper-delpkg="sudo pacman -R"
+
+# Built-in subs
+alias diff="colordiff"
+
+# Alias subs
+alias l="ls++"
+alias la="ls++ -a"
+alias lt="nohup lighttable & disown"
+alias xm="vim -c ':vsp ~/.xmonad/xmonad.hs' ~/.xmonad/dzen4xmonad"
+
+alias getinfo-time="timedatectl status"
+alias getinfo-keys="xev"
+
+
+

@@ -1,0 +1,53 @@
+2012-12-28 00:14:39	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #sublimetext
+2012-12-28 00:14:39	--	Topic for #sublimetext is "Stable: 2.0.1 (2217), Dev: 2220, Nightly: 2219 -- http://sublimetext.com/ -- Docs: http://docs.sublimetext.info/"
+2012-12-28 00:14:39	--	Topic set by FichteFoll (~FichteFol@unaffiliated/fichtefoll) on vr, 21 sep 2012 20:21:23
+2012-12-28 00:14:39	--	Nicks #sublimetext: [_aegis_ Aciid bacilla bad_duck Bankzilla Bemmu__ ben_alman bryanl burl_ chee CraHan c|oneman daurnimator denysonique dmilith dpn` dravine dyer EHLOVader fcoury_ FichteFoll Foxboron freeed fxdgear Garbee glyph GoOz graud Guest64520 hakunin imarcusthis ivan` jaequery jbub jn Kaltiz kandinski killown kmicu kobsu Kronuz lectrick maetthew matzipan MerlinDMC moo-_- MrNibbles mroth mulander MVXA Nilium oal ollie pdtpatrick Peeter___ peter1 pjoe_afk prismatictrail protman pzuraq RaFromBRC raja reuss Robbo_ rockfruit rodr1go samholmes Sembiance shadewind skython slavko soahccc sound2 stevetweeddale stfn supersym tallica Theowning TLGreg tplaner Tutka urbann vostok4 xid yi zackiv31 zivester]
+2012-12-28 00:14:39	--	Channel #sublimetext: 87 nicks (0 ops, 0 halfops, 0 voices, 87 normals)
+2012-12-28 00:14:41	--	Mode #sublimetext [+ns]
+2012-12-28 00:14:41	--	Channel created on ma, 11 jul 2011 14:25:54
+2012-12-28 00:16:46	supersym	ola... is there anyone good at regex that can help me fix a bug in syntax file?
+2012-12-28 00:17:09	supersym	for sublime highlight ofc :P
+2012-12-28 00:18:59	Foxboron	supersym, well. I could prolly help you determin the regex used, but i am bad at the whole regex stuff myself :P
+2012-12-28 00:19:23	supersym	ah.. shame I more or less pinpointed it as well
+2012-12-28 00:19:30	supersym	but it's a multiline
+2012-12-28 00:19:38	supersym	and then my head breaks :)
+2012-12-28 00:20:00	Foxboron	Well, i use online regex sites and mess witht he syntax until i get the right result
+2012-12-28 00:20:03	supersym	thanks anyway... i should really poke the package maintainer
+2012-12-28 00:23:43	supersym	Jade rules is that element say p . (pee space period) is a literal and p. would constitute a valid Text value for the HTML node
+2012-12-28 00:24:40	supersym	as long as the following lines are indented +1 so sublime needs to detect that and treat all the following lines untill the indent jumps back 1 level as comments, and now it just things they are elements
+2012-12-28 00:25:08	supersym	interesting but a bit to complicated for me even with a regex site
+2012-12-28 00:31:02	<--	samholmes (~holmes@99-65-100-6.lightspeed.sndgca.sbcglobal.net) has quit (Quit: samholmes)
+2012-12-28 00:31:44	-->	samholmes (~holmes@99-65-100-6.lightspeed.sndgca.sbcglobal.net) has joined #sublimetext
+2012-12-28 00:31:54	Foxboron	supersym, yeah ok
+2012-12-28 00:31:57	Foxboron	i can help with that D:
+2012-12-28 00:33:55	Foxboron	cant*
+2012-12-28 00:35:26	-->	slainer68 (~slainer68@81-64-223-186.rev.numericable.fr) has joined #sublimetext
+2012-12-28 00:39:29	supersym	ok thanks ;)
+2012-12-28 00:40:05	<--	samholmes (~holmes@99-65-100-6.lightspeed.sndgca.sbcglobal.net) has quit (Quit: samholmes)
+2012-12-28 00:40:36	supersym	i think i got it anyway ^^
+2012-12-28 00:42:35	<--	dravine (~dravine@24-247-226-165.dhcp.trcy.mi.charter.com) has quit (Remote host closed the connection)
+2012-12-28 00:43:49	-->	samholmes (~holmes@99-65-100-6.lightspeed.sndgca.sbcglobal.net) has joined #sublimetext
+2012-12-28 00:47:58	-->	dravine (~dravine@24-247-226-165.dhcp.trcy.mi.charter.com) has joined #sublimetext
+2012-12-28 00:54:00	_aegis_	subclim is neat <_<
+2012-12-28 00:58:43	-->	dravine_ (~dravine@24-247-226-165.dhcp.trcy.mi.charter.com) has joined #sublimetext
+2012-12-28 00:59:20	<--	dravine (~dravine@24-247-226-165.dhcp.trcy.mi.charter.com) has quit (Ping timeout: 244 seconds)
+2012-12-28 00:59:20	--	dravine_ is now known as dravine
+2012-12-28 01:12:10	-->	mcdonc (~mcdonc@ip72-209-215-142.dc.dc.cox.net) has joined #sublimetext
+2012-12-28 01:26:52	<--	urbann (~urbann@c-2ec29371-74736162.cust.telenor.se) has quit (Remote host closed the connection)
+2012-12-28 01:32:03	<--	CraHan (~crahan@d51A5C26E.access.telenet.be) has quit (Quit: Computer has gone to sleep.)
+2012-12-28 01:35:33	-->	codepython777 (~codepytho@c-68-63-40-199.hsd1.fl.comcast.net) has joined #sublimetext
+2012-12-28 01:44:29	codepython777	I just installed the jinja plugin. Then tried to Edit->line->reindent , but i dont see any indentation after {% if ... -- anyone using ST2 for editing jinja? 
+2012-12-28 01:51:28	_aegis_	I use sublime for jinja
+2012-12-28 01:51:34	_aegis_	I do my indentation by hand though
+2012-12-28 01:51:46	_aegis_	because [ ] for indents is really fast
+2012-12-28 01:51:52	_aegis_	you sure the syntax mode is right?
+2012-12-28 01:53:03	<--	slainer68 (~slainer68@81-64-223-186.rev.numericable.fr) has quit (Remote host closed the connection)
+2012-12-28 01:57:17	codepython777	_aegis_: how do i check and change that?
+2012-12-28 01:57:29	_aegis_	bottom right
+2012-12-28 01:58:37	codepython777	_aegis_: was wrong edit mode. But with jinja selected, autoindent is horrible. worse than with html.
+2012-12-28 01:58:44	_aegis_	:D
+2012-12-28 02:00:13	codepython777	_aegis_: does your show two options in edit mode for jinja as well? (jinja2 and html(jinja templates))?
+2012-12-28 02:00:22	_aegis_	please stop highlighting me :P
+2012-12-28 02:00:31	_aegis_	and yes.
+2012-12-28 02:00:46	codepython777	thanks.
+2012-12-28 02:31:23	--	irc: disconnected from server
