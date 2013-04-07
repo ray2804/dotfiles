@@ -7,10 +7,10 @@
 		<password>Abrikoos17</password>
 		<alias>renm</alias>
 		<statuses>
-			<status type='available' name='Available' active='false'>
+			<status type='available' name='Available' active='true'>
 				<attributes/>
 			</status>
-			<status type='away' name='Away' active='true'>
+			<status type='away' name='Away' active='false'>
 				<attributes>
 					<attribute id='message' value='I&apos;m not here right now'/>
 				</attributes>
@@ -64,10 +64,10 @@
 		<password>dasefx</password>
 		<alias>rob</alias>
 		<statuses>
-			<status type='available' name='Available' active='false'>
+			<status type='available' name='Available' active='true'>
 				<attributes/>
 			</status>
-			<status type='away' name='Away' active='true'>
+			<status type='away' name='Away' active='false'>
 				<attributes>
 					<attribute id='message' value='I&apos;m not here right now'/>
 				</attributes>
@@ -121,7 +121,7 @@
 		<password>masterm3</password>
 		<alias>rob jens</alias>
 		<statuses>
-			<status type='available' name='Available' active='false'>
+			<status type='available' name='Available' active='true'>
 				<attributes/>
 			</status>
 			<status type='mood' name='Feeling' active='false'>
@@ -130,7 +130,7 @@
 			<status type='freeforchat' name='Chatty' active='false'>
 				<attributes/>
 			</status>
-			<status type='away' name='Away' active='true'>
+			<status type='away' name='Away' active='false'>
 				<attributes>
 					<attribute id='message' value='I&apos;m not here right now'/>
 				</attributes>
