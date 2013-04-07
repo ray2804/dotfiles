@@ -1,7 +1,7 @@
-;;;;    ;;                       ;;;;;;\
+;;;;    ;;   __________-------   ;;;;;;\
 ;; Tip #1 Sort a map on multiple keys ;;
 ;; ---------------------------------- ;;
-            ;;            ;; ;;;;;          
+;;  ...... ,,   , ;;    .....   ;; ;;;;;          
 
 
 ;; A      [vector]  of  _____________{maps}___________
@@ -18,34 +18,68 @@
 (sort-maps-by some-maps [:x :y])
 
 
+(def board {:game {:dice () :players 2}})
 
-
-
-(defn create-dice [values argmap]
-  (println "values:" values
-           "sorted:" (:sorted argmap 0) ; sort sequence after
-           "priori:" (:priori argmap 1) ; prio over other dices
-           "queued:" (:queued argmap 0) ; queuing dices
-           "attach:" (:attach argmap 0) ; to a specific game
-           "method:" (:method argmap 0) ; dice roll function
-           "random:" (:random argmap 1) ; always random sequence
-           "groups:" (:groups argmap 0) ; type specifics of dice
-           "revert:" (:revert argmap 0) ; reversed input of sequence
-           "vector:" (:vector argmap []); takes form and outputs vector
-           "seeded:" (:seeded argmap 0) ; uses additional seed for random
+(defn 
+  ^{:arglist "(create-dice [coll flags]) "
+    :doc "Creates a new dice of argument"}
+  create-dice-1 [values argmap]
+ 
+  (println "values:"   values
+           "sorted:"   (:sorted argmap 0)   ; sort sequence after
+           "priori:"   (:priori argmap 1)   ; prio over other dices
+           "queued:"   (:queued argmap 0)   ; queuing dices
+           "attach:"   (:attach argmap 0)   ; to a specific game
+           "method:"   (:method argmap 0)   ; dice roll function
+           "random:"   (:random argmap 1)   ; always random sequence
+           "groups:"   (:groups argmap 0)   ; type specifics of dice
+           "revert:"   (:revert argmap 0)   ; reversed input of sequence
+           "vector:"   (:vector argmap [])  ; takes form and outputs vector
+           "seeded:"   (:seeded argmap 0)   ; uses additional seed for random
            ) ; close optional arguments
   
-  ;; type checking? only checks for keys present atm
-  (println "sorted?" (if (contains? argmap :sorted) (sort values))     ; true if found
-           "random?" (if (contains? argmap :random) (shuffle values))  ; true if random
-           "revert?" (if (contains? argmap :revert) (reverse values))
-           "vector?" (if (contains? argmap :vector) (apply vector values))
-           
-           "attach?" (contains? argmap :attach) ; true if to hook
-     
+  ;; type checking? only checks for keys contained currently
+  (println "sorted="   (if (contains? argmap :sorted) (sort values))     ; true if found
+           "random="   (if (contains? argmap :random) (shuffle values))  ; true if random
+           "revert="   (if (contains? argmap :revert) (reverse values))
+           "vector="   (if (contains? argmap :vector) (apply vector values))
+           "attach="   (if (contains? argmap :attach) #(assoc argmap :attach)) ; true if to hook
+           "isaseq?"   (seq? values) (first values) (rest values) (cons :D1 values)
   ))     
+
+  (def x= "a")
+  (println x=)
   
-(create-dice '(1 2 3 4 5) {:random 1 :sorted 1 :revert 1 :vector 1})
+;; testing
+(create-dice-1 
+ '(1 2 3 4 5) 
+  {:attach board 
+   :random 'yes 
+   :sorted 'yes 
+   :revert 'no-revert 
+   :vector []})
+
+
+(defn 
+ ^{:arglist '([seq & args])
+   :doc "Creates a new dice from any sequence. Applies rules/formatting as desired using keys:
+   :vector :sorted :random :revert :groups :queued :priori :seeded and :attach to hook
+   the dice to a specific game. With :method you may hook a method for rolling the dice and
+   which value(s) can be thrown."}  
+  create-dice-2 [values & args]
+ 
+ ;; local variables in lexical scope, flat map
+ (let [argmap (apply hash-map args)
+       {:keys [bar baz]
+        :or   {bar 0 baz 0}} argmap]
+   
+   (println "values:" values
+            "bar:" bar
+            "baz:" baz)
+   (println "bar-given?" (contains? argmap :bar)
+            "baz-given?" (contains? argmap :baz))))
+
+(named-args-2 1 :baz 2)
 
 
 
@@ -53,6 +87,62 @@
 
 
 
+
+
+
+
+;; A three-dimensional shape that is made up of a finite number of polygonal faces 
+;; which are parts of planes; the faces meet in pairs along edges which are straight-line 
+;; segments, and the edges meet in points called vertices.
+(def polyhedra 
+  "Regular Polyhedra: each face being a regular polygon (all sides and angles equal) 
+  and with each vertex (corner) having an equal arrangement and number of faces, all 
+  at equal angles. Make great dice because each face has an equal chance of being thrown 
+  as any other and can be considered as fair dice."
+  
+  {:tetra  {:name "Tetrahedron"  :edges 6  :faces 4  :vertices 4  :shape "equilateral triangle"} 
+   :hexa   {:name "Hexahedron"   :edges 12 :faces 6  :vertices 8  :shape "perfect square"} ;; Opposite faces usually add up to 7
+   :octa   {:name "Octahedron"   :edges 12 :faces 8  :vertices 6  :shape "equilateral triangle"} ;; Opposite faces usually add up to 9.
+   :dodeca {:name "Dodecahedron" :edges 30 :faces 12 :vertices 20 :shape "pentagon"}
+   :icosa  {:name "Icosahedron"  :edges 30 :faces 20 :vertices 12 :shape "equilateral triangle"}})
+
+;; TODO Add formulas etc.
+
+
+(defn 
+  ^{:arglist '([values & ks])
+    :doc "Create a flat map of optional arguments keys and values. Allows clean and complex method
+    definitions to easily extended in functionality and focused on usability for programmer and user."}
+  create-dice-3 [values & {:keys [sorted queued attach method random groups revert arrays seeded shaped]
+                           :or   {sorted true 
+                                  queued false 
+                                  attach nil 
+                                  method nil 
+                                  groups {:geometry "Polyhedral" :shape "c"}
+                                  shaped true ;; normal 6 faced dice
+                                  revert (reverse values)
+                                  
+                                 }
+                          :as   argmap}]
+
+  (println "values:" values
+           "sorted:" sorted
+           "queued:" queued
+           "attach:" attach
+           "method:" method
+           "random:" random
+           "groups:" groups
+           "revert:" revert
+           "arrays:" arrays
+           "seeded:" seeded
+           
+           )
+  
+ (println "bar-given?" (contains? argmap :sorted)
+          "baz-given?" (contains? argmap :queued)))
+
+
+(create-dice-3 '(1 2 3 4) :sorted true :revert true)
 
 
 

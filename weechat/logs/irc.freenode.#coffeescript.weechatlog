@@ -16221,3 +16221,36 @@
 2013-04-07 20:25:30	-->	MelkorNemesis (~Adium@121.48.broadband10.iol.cz) has joined #coffeescript
 2013-04-07 20:29:09	<--	MelkorNemesis (~Adium@121.48.broadband10.iol.cz) has quit (Read error: Connection reset by peer)
 2013-04-07 20:29:11	-->	MelkorNemesis1 (~Adium@121.48.broadband10.iol.cz) has joined #coffeescript
+2013-04-07 20:33:35	-->	brian-mann (~brian-man@c-24-131-42-101.hsd1.ga.comcast.net) has joined #coffeescript
+2013-04-07 20:35:40	<--	albemuth (~albemuth@201.198.78.18) has quit (Quit: Computer has gone to sleep.)
+2013-04-07 20:37:02	-->	PaulCapestany (~PaulCapes@204.28.124.82) has joined #coffeescript
+2013-04-07 20:43:57	-->	adambeynon (~textual@82-69-1-211.dsl.in-addr.zen.co.uk) has joined #coffeescript
+2013-04-07 20:44:53	-->	MelkorNemesis (~Adium@121.48.broadband10.iol.cz) has joined #coffeescript
+2013-04-07 20:45:37	<--	MelkorNemesis1 (~Adium@121.48.broadband10.iol.cz) has quit (Read error: Connection reset by peer)
+2013-04-07 20:50:14	-->	tundramonkey (~tundramon@ppp121-44-79-85.lns20.syd6.internode.on.net) has joined #coffeescript
+2013-04-07 20:50:53	<--	vlad_starkov (~vlad_star@109.188.126.107) has quit (Remote host closed the connection)
+2013-04-07 20:52:05	-->	themgt (~themgt@24-177-232-181.dhcp.gnvl.sc.charter.com) has joined #coffeescript
+2013-04-07 20:54:58	<--	tundramonkey (~tundramon@ppp121-44-79-85.lns20.syd6.internode.on.net) has quit (Ping timeout: 256 seconds)
+2013-04-07 20:57:52	-->	mary5030 (~mary5030@72-48-77-85.dyn.grandenetworks.net) has joined #coffeescript
+2013-04-07 20:59:13	-->	kofno (~kofno@cpe-24-165-210-251.neo.res.rr.com) has joined #coffeescript
+2013-04-07 21:00:01	-->	vlad_starkov (~vlad_star@109.188.126.107) has joined #coffeescript
+2013-04-07 21:01:45	<--	freethenation (~freethena@ec2-54-243-233-137.compute-1.amazonaws.com) has quit (Ping timeout: 258 seconds)
+2013-04-07 21:02:27	--	DaZ is now known as `4_`1`
+2013-04-07 21:02:56	-->	freethenation (~freethena@ec2-54-243-233-137.compute-1.amazonaws.com) has joined #coffeescript
+2013-04-07 21:03:20	<--	Adeon (~makrillit@109.73.169.52) has quit (Ping timeout: 255 seconds)
+2013-04-07 21:03:34	<--	kofno (~kofno@cpe-24-165-210-251.neo.res.rr.com) has quit (Ping timeout: 248 seconds)
+2013-04-07 21:04:01	-->	Adeon (~makrillit@109.73.169.52) has joined #coffeescript
+2013-04-07 21:07:42	-->	idletom (~b@173-22-145-65.client.mchsi.com) has joined #coffeescript
+2013-04-07 21:16:04	<--	vlad_starkov (~vlad_star@109.188.126.107) has quit (Remote host closed the connection)
+2013-04-07 21:19:43	<--	mercwithamouth (~mercwitha@99-38-191-69.lightspeed.clmasc.sbcglobal.net) has quit (Ping timeout: 264 seconds)
+2013-04-07 21:22:33	<--	toshok (~toshok@c-24-5-43-72.hsd1.ca.comcast.net) has quit (Quit: Computer has gone to sleep.)
+2013-04-07 21:29:54	<--	verysoftoiletppr (~verysoftt@a213-22-44-83.cpe.netcabo.pt) has quit
+2013-04-07 21:30:33	-->	cha0s (~cha0s@71-90-104-181.dhcp.ftbg.wi.charter.com) has joined #coffeescript
+2013-04-07 21:30:33	<--	cha0s (~cha0s@71-90-104-181.dhcp.ftbg.wi.charter.com) has quit (Changing host)
+2013-04-07 21:30:33	-->	cha0s (~cha0s@unaffilated/lil-cha0s/x-2492385) has joined #coffeescript
+2013-04-07 21:31:56	<--	dylukes (~dylukes@dhcp-ltc-130-49-6-48.oakland.resnet.pitt.edu) has quit (Quit: Computer has gone to sleep.)
+2013-04-07 21:32:29	-->	verysoftoiletppr (~verysoftt@a213-22-44-83.cpe.netcabo.pt) has joined #coffeescript
+2013-04-07 21:32:36	-->	cam` (uid6217@gateway/web/irccloud.com/x-fuxoagzpyovonrqn) has joined #coffeescript
+2013-04-07 21:32:48	cam`	how would you write something like this in coffeescript? http://pastebin.com/6xBUcARG
+2013-04-07 21:33:15	cam`	the .property() part in particular
+2013-04-07 21:35:09	cam`	ah nevermind

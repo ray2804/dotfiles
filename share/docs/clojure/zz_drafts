@@ -1,0 +1,50 @@
+;; Create a new dice from list values. In the real physical world,
+;; we could not have a dice that is not polyhedral but in Clojure
+;; it might just as well have been a lazy sequence of say PI.
+(defn create-dice
+  "Create a new dice with sequence listing exactly and add it to
+  the board hash map. It's most generic to allow an arbitrary number
+  of dice selected from a given range."
+  [board listing]
+  (assoc board :dice [(sort listing)]))
+
+;; use literal and eval to inspect outcome and reroll any function
+(def ex-weighed-dice {:yellow 10 :red 20 :green 30 :black #(println "reroll!")})
+(keys ex-weighed-dice)
+(vals ex-weighed-dice)
+
+;; order of dice
+;; order of values
+;; weighing of symbols
+;(roll [])
+;(roll '())
+
+(roll '(\A \B \C \D \E \F))
+(roll (shuffle '(1 2 3 4 5 6)))
+(roll '((1 2 3) (4 5 6)))
+
+
+(defn roll [ds & {:keys [foo bar] :or {foo :default}}]
+  (let []
+    (take 1 (rand-nth ds))
+    (rest ds)))
+
+
+
+
+(clojure.repl/doc rand-nth)
+
+;; fun
+;(defn reroll [] 
+;  roll (println "reroll"))
+
+;(defn roll []
+;  (eval (rand-nth (vals weighed-dice))))
+
+
+
+(defn roll-dice
+  "Roll a set of n dices to determine movements on the board. 
+  Every dice attached to the game will be returned a value.c"
+  [set-dices]
+  (if (vector? set-dices) (sort (rand-int set-dices))))

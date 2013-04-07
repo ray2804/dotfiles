@@ -10399,3 +10399,12 @@
 2013-04-07 19:25:31	-->	elf-pavlik (~elf-pavli@lorea/elf) has joined #docpad
 2013-04-07 19:39:38	<--	mikeumus (4a5a25fa@gateway/web/freenode/ip.74.90.37.250) has quit (Ping timeout: 245 seconds)
 2013-04-07 20:11:30	<--	ashnur (~ashnur@79.117.88.8) has quit (Quit: WeeChat 0.4.0)
+2013-04-07 21:09:10	-->	codehero (~dbender@pool-96-236-148-85.pitbpa.fios.verizon.net) has joined #docpad
+2013-04-07 21:09:24	codehero	Hi, is there a comprehensive template for a "docpad.js" file?
+2013-04-07 21:27:38	nexusIX	codehero, take a look at https://docpad.org/docs/config
+2013-04-07 21:28:08	nexusIX	it's coffeescript, but easy to translate to JS
+2013-04-07 21:29:14	codehero	I'm not really familiar with coffeescript
+2013-04-07 21:29:46	codehero	can I just compile it and get a useful .js file?
+2013-04-07 21:33:39	nexusIX	yes
+2013-04-07 21:33:59	nexusIX	the coffeescript-js translation is pretty simple
+2013-04-07 21:34:05	codehero	yeah just did it, looks great. Thanks
