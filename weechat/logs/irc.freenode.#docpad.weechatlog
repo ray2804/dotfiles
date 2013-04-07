@@ -10371,3 +10371,25 @@
 2013-04-05 21:49:26	-->	steventrevathan (~steventre@108-71-93-34.lightspeed.sntcca.sbcglobal.net) has joined #docpad
 2013-04-05 21:50:58	<--	steventrevathan (~steventre@108-71-93-34.lightspeed.sntcca.sbcglobal.net) has quit (Client Quit)
 2013-04-06 00:25:55	--	irc: disconnected from server
+2013-04-07 11:09:54	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #docpad
+2013-04-07 11:09:54	--	Topic for #docpad is "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-04-07 11:09:54	--	Topic set by balupton (uid6783@gateway/web/irccloud.com/x-cbtpwjksctndjgtn) on Fri, 28 Dec 2012 12:22:24
+2013-04-07 11:09:54	--	Nicks #docpad: [ashnur balupton Chase_the_Dev elf-pavlik EricLeslie jgm nexusIX shaunch supersym urlwolf_]
+2013-04-07 11:09:54	--	Channel #docpad: 10 nicks (0 ops, 0 halfops, 0 voices, 10 normals)
+2013-04-07 11:09:54	--	Notice(hitchcock.freenode.net): [freenode-info] channel flooding and no channel staff around to help? Please check with freenode support: http://freenode.net/faq.shtml#gettinghelp
+2013-04-07 11:09:58	--	Mode #docpad [+t]
+2013-04-07 11:09:58	--	Channel created on Sat, 26 May 2012 12:12:13
+2013-04-07 11:44:48	-->	urlwolf (~quassel@g225183050.adsl.alicedsl.de) has joined #docpad
+2013-04-07 11:49:03	<--	urlwolf_ (~quassel@e179045173.adsl.alicedsl.de) has quit (Ping timeout: 252 seconds)
+2013-04-07 13:13:10	--	Notice(GitHub165): [docpad-documentation] balupton pushed 1 new commit to master: http://git.io/dvqqEw
+2013-04-07 13:13:10	--	Notice(GitHub165): docpad-documentation/master 049fb7d Benjamin Lupton: Made install version dynamic. Added redirect for contibute guide. Removed profanity from debug guide.
+2013-04-07 13:34:19	--	Notice(GitHub164): [docpad-documentation] balupton pushed 1 new commit to master: http://git.io/3AmEBg
+2013-04-07 13:34:19	--	Notice(GitHub164): docpad-documentation/master 1d13a37 Benjamin Lupton: Got dynamic install version working
+2013-04-07 13:38:20	<--	elf-pavlik (~elf-pavli@lorea/elf) has quit (Ping timeout: 246 seconds)
+2013-04-07 13:41:59	-->	elf-pavlik (~elf-pavli@lorea/elf) has joined #docpad
+2013-04-07 15:03:01	<--	elf-pavlik (~elf-pavli@lorea/elf) has quit (Ping timeout: 248 seconds)
+2013-04-07 15:06:16	-->	elf-pavlik (~elf-pavli@lorea/elf) has joined #docpad
+2013-04-07 15:41:11	<--	ashnur (~ashnur@79.117.88.200) has quit (Read error: Operation timed out)
+2013-04-07 15:54:09	-->	ashnur (~ashnur@79.117.88.8) has joined #docpad
+2013-04-07 16:38:41	-->	bitmage (~bitmage@ip68-98-8-91.ph.ph.cox.net) has joined #docpad
+2013-04-07 17:11:29	<--	elf-pavlik (~elf-pavli@lorea/elf) has quit (Ping timeout: 246 seconds)

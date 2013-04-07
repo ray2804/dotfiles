@@ -16,7 +16,7 @@
                   [lein-depgraph "0.1.0"]             ; Iterate the project namespace tree and generate Graphviz .svg
 
                   ;; Shell, vterm and console tools
-
+                  [clojure-lanterna "0.9.3"]          ; Curses but then in Clojure :)
                   [lein-shell "0.1.0"]                ; Leiningen plugin for calling shell commands.
                   [lein-exec "0.3.0"]                 ; <url:#examples-leinexec> Executable ClojureScript
                                                       ; scripts in the shell, project-scope (exec-p)

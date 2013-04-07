@@ -41522,3 +41522,1345 @@
 2013-04-06 00:25:33	monochrom	the user-side just needs QuasiQuotes
 2013-04-06 00:25:46	thirsteh	perfect
 2013-04-06 00:25:55	--	irc: disconnected from server
+2013-04-07 11:09:54	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #haskell
+2013-04-07 11:09:54	--	Topic for #haskell is "["Haskell Platform 2012.4: http://bit.ly/Clv5r ","GHC 7.6.2 http://v.gd/oXnqjU ","Paste code/errors: http://hpaste.org/new/haskell ","Haskell News: http://reddit.com/r/haskell ","The Haskell programming language http://haskell.org ","Logs: http://bit.ly/5mwtRQ ","If Hackage is down, try: http://hdiff.luite.com "]"
+2013-04-07 11:09:54	--	Topic set by monochrom on Tue, 29 Jan 2013 18:36:42
+2013-04-07 11:09:54	--	Nicks #haskell: [@ChanServ [[zz]] \rs ]OLI[ __main__ __xc _anona _d3f _flow_ _janne `0660 `bps `micro ab9rf absence acfoltzer Adeon adimit adnap adzeitor aesptux Afish aforemny_ agumonkey agundry ahf ahihi ahkurtz ajhager akahn akraut alang alanz albel727 alcz aleator alejandrogomez alek_b_ alexander__b alios alkabetz alnix alpounet AmaBoten Amadiro amathew amatsu\idle amiller anachron anders^^ andrewsw aninhumer AntiSpamMeta apaku apella Apes araujo arbn arcatan args[0] Argue aristid arkeet arkx arlinius armlessh1bo arnihr__ arpunk` arun asante asQuirreL aszlig Athas augur_ augustl averell Axman6 b52 b_jonas banjiewen barrucadu bartavelle Baughn bbee bcoppens bd_ Belgarion0 ben_d bens bergey` betawaffle bezik bgamari bholst Bigcheese BigEndian birkenfeld bitonic BlastHardcheese blithe blz37 BMeph bobry boegel bogner Boney Boreeas Botje bradleyayers brainproxy Brando753 brandonw bretolius brett BrianHV brisbin brixen bstrie Bwild bxc_ byorgey ByronJohnson c_wraith cads Cale caleb_9 caligula_ callen Canar canta canvon ccasin ccxCZ cdh473 cdidd ceii celery__ centrinia Cerise certainty chance charlesofarrell charliesome chidy chirpsalot ChongLi Chousuke chr1s chrisirc_ chrra ciaranm CindyLinz circle cjay cjh` cl_away ClaudiusMaximus Clint clog cmsd2 cods coeus_ cognominal colah_ comak companion_cube confound connelly_ coppro copumpkin CosmicRa` Counter-Strike CoverSlide cow-orker cross crs_ Cryovat cschneid ctype_real cwvh1 cynick cyphase d-q-d d-snp dabradley danr danvet dario DarkFox DarkLinkXXXX darthdeus Dashkal davean davorak dcoutts deavid Deewiant def-lkb dennda dented42 dEPY Derander_ descender dfletcher DigitalKiwi dilinger dimka dixie_ djahandarie dju dkasak dlundy_ dmarker dmwit Dodek dolio DolphR domingo DORNER dottedmag Draconx Draggor DrChaos DrCode dreixel_ drek_ drewr drmegahertz dropdrive DrSyzygy dsantiago DT` Dtgr dumbhat DustyDingo Dybber dyreshark dysinger eacameron EarlGray earthy edenc edsko edwardk edwtjo Eelis eff ehamberg ejls eL_Bart0 electrogeek elgot Eliel elliott elliottcable em endojelly Enigmagic ent- ericmj Eridius ernst erpe Erstarrung Estrellas etabot ethercrow etrepum EvilPenguin eviltwin_ eyck f8 fabjan faen fall_ fayden fcr_ felipe_ fengshaun fergusnoble fgomez fihi09 finnrobi FireFly fireglow flebron flebron_ floatingman1 flori flra flux Fnar formalcow fosky fpbot freiksenet frio fro0t frontendloader froztbyte fry fryguybob fsvehla ft Fubar^ Fuco Fuuzetsu FUZxxl fxrh gabor gbarboza gbeshers gbluma gcmalloc gdeest gdsx_ geekosaur gehmehgeh gemelen genisage gentleben gereedy ghorn Ghoul__ gienah Gilly gmaggior Gothmog_ Gracenotes greymalkin gseitz gspr guerrill1 Guest33520 Guest76523 Guest84888 Guest92249 Gunni guymann gwern h_chiro hachiya hackagebot hackedy Hafydd hajimeho_ hallski hamid hamishmack hanDerPeder harrison hattusili_III heath Heffalump helgikrs henk Hermit hiptobecubic hiratara hiredman hiro3 hiroyuki2 hive-mind horlicks hpaste hpc hpd hughfdjackson hvr hyko IanKelling ibid IbnFirnas Iceland_jack IcePenance Icewing idnar ido idoru Igloo ikeg imphasing implr inarenvi inr int-e integral_ Internet13 ion ique ironm ISF isomorphic iulian ivan\ ivan` ixian Jaak jabirali jackhill jaimef jamwt janluu JaRoel|4d jaroslaw jaspervdj Jaxan jayne jbauman jcp jcp|u jdoliner_ Jello_Raptor jercos jix jlaire jlamothe jlewis jliikka jlouis jmcarthur jMCg jml joachifm joaopizani joar jodaro JoeHazzers joeyh_ johnw jon-shape joneshf joneshf-laptop joni6128 Jonno_FTW Jonte JoshuaA JPohlmann jrib jrslepak jssanders jtalk jtannenbaum julmuri junsuijin jyyou k0ral_ kadoban kaictl kakos kalven KaneTW kaol kaoskorobase kartoffelbrei kcj Ke kennyd kennyp kerrick ketil Khisanth kini Kinnison KitB_ kith kkris kloeri klugez kmicu Kneiva kniu knyppeldynan knz koala_man koninkje_away kosmikus kqr kranius krig kryft kshannon ktosiek Kuba kvey labo lahwran lambdabot LAMMJohnson Laney latro`a lattenwald lazard LeaChim lemao lenstr leoncamel2 leroux levi lewis1711 Licenser lightquake linduxed Liskni_si lispy liszt litherum liyang lopex lpsmith lpvb luite Luke lunarjar m0g m3ga Maarten__ machisuji machisuji_ magicman mahogny majoh maksbotan mami mapf marienz martinalex Martty MasseR mateu Mathnerd626 mattp__ matzo_ mauke Maxdamantus mceier mcguitan93 McManiaC mechairo` mefisto` Megant memand mendez mephx_ merijn MetaCosm meyersh mgsloan miasma mietek mike2 mikecaruso mikeplus64 milessabin milli mimi_vx_ mimico mirsal MithrilTuxedo mixi mjr841 MK_FG mlh mlinksva mm_freak mmaruseacph2 MoALTz mokus mollerstrand MOMI Mon_Ouie monique_ monochrom mononofu moonlite_ mornfall morolin mortberg Mortchek mpiechotka mrd MrFenix_ mrko mrshoe mtao mtlatif mullein munro mux mvj4 mxweas myme mysticc n_b Nafai Nahra Nanar nand` nardul Natch natte ndngvr` ndonaldson neena netj neurocyte neutrino_ newsham Nickeeh nicoo nighty^ Nik_89 niko nikola nilg niloc132 Nimatek ninegrid ninzine Nisstyre-laptop niteria nlogax no-n[1] noam noj noplamodo normanrichards notdan NougatRillettes nouitfvf Nshag numeral nuncanada nus-- nuttycom nuttycom1 nwf nyc oax obcode ocharles odr ofan Okasu OlegYch3 opqdonut ormaaj orn Ornedan ortmage osa1__ osfameron otend othiym23 otterdam otters otto_s ousado ozataman ozgura_ Paks pantsman paolino Paprikac_ ParadoxMuffin ParahSail1n parcs PartyKat1e PatrickRobotham pdxleif_away peddie peltchu pepijndevos perlite perspectival petanqk peterhil pettter pharaun phaul Philippa Philonous PHO_ pib1972 pigoz pikhq piotr__ PixelCrumbs plhk pnielsen popz porco pqmodn pr predator117 preflex prh prinnysocks PrO_OkI_ profmakx prophile ps-auxw Ptival ptrf purefn puzza007_ pw_ pyacks pyrtsa pyykkis_ qrlr quaestor quicksilver quuxman qwandor qwr qz raek raid rainmaker Ralith RayNbow Raynes Raynos Razz realnot reckler reiddraper Reite Rembane_ RenJuan rexamophone rfw Rickasaurus rio_ Riussi rmunroe robawt robbe- robbert rofer Rotaerk rs0 rs234 rsuniev123 rul ryanakca s4msung s_quark SaBer sacundim saep Sagi saiam Saizan sajith saurik scgilardi schlumpi schovi sclv Sculptor Sculptor_ seats SegFaultAX sellout- Sgeo sgronblo_ sh shachaf shanse shepheb shergill Shin-LaC shintah SHODAN Shou shutdown_-h_now si14 simon_ simpson sipa sirchurchill sjl ski_ skp skuggi skyflash SLi sm smarter snoyberg so Soft sohum solarus solirc Sonderblade sordina3 SoupEvil spacebark spligak_ Spockz sproingie Squid_Tamer srcerer sShintah Starfire startling statusfailed steez stelleg_away stepcut stephe strax suiside sully sunfun sunnavy supernumeraryshi supersym supki sw17ch Swizec synonymous1 sysopfb tahu takumn tamiko tanakh Taneb Tarential taruti tavelram td123 tdammers techlife Tehnix tensorpudding Tesseraction_y tessier_ tew88 tg tgeeky Th0mas thalassarche tharper The_third_man theDon TheFuzzball theorbtwo TheRedMood thetallguy thetallguy2 thirsteh ThomasLocke thorkilnaur_ thorsten1 thorsten` thoughtpolice threedaymonk threesome timemage timjb timthelion tippenein tkd tmiw TML tntc tobiassjosten tom4939 tomaw tomboy65 tomejaguar tomh__ tomku tomprince tootooroo ToRA Tordek totimkopf trevize_ tridactyla tromp_ trone tsinnema tsou tswett ttuegel tunixman tuv tvaalen Twey Twisol tyler typoclass u_ ulfdoz Ulrar unK_ Urchin uvelichitel UziMonkey__ v v0|d Valodim vehk verrens Vert Vertue vhz vikraman vili vmesoff vobi Volstvok Vorpal voyd vpopov Vq vraid VZakharov wagle Walther warpy Watcher7|off waterlaz wchun wei2912 weie_ wereHamster WhereIsMySpoon whoops wilfredh WillB william-s William_ wjlroe wollw wormphlegm wting wto wtw_ wumpus wunki x7 xaimus xcvii xenon21 xeodou XexonixXexillion xinming_ XMunkki_ xnyhps Xorlev xorox90__ xplat xrl xrq xunatai xymox yam yan_ yano yeltzooo yezariaely yiannis_1 yogurt_truck yriw yumike zakora Zariel zebr zeiris zenzike ziman zoktar zomg zorzar Zouppen zw01 zwiebel zxq9 zz_nh2]
+2013-04-07 11:09:54	--	Channel #haskell: 985 nicks (1 op, 0 halfops, 0 voices, 984 normals)
+2013-04-07 11:09:54	--	URL for #haskell: http://www.haskell.org/
+2013-04-07 11:09:56	--	Mode #haskell [+CLcnpt]
+2013-04-07 11:09:56	--	Channel created on Sun, 26 Nov 2006 07:42:48
+2013-04-07 11:10:44	<--	Sculptor (~Sculptor@unaffiliated/sculptor) has quit (Ping timeout: 256 seconds)
+2013-04-07 11:11:51	-->	anderse (~anderself@c83-248-64-25.bredband.comhem.se) has joined #haskell
+2013-04-07 11:12:24	<--	kcj (~casey@unaffiliated/kcj) has quit (Ping timeout: 260 seconds)
+2013-04-07 11:12:38	<--	timthelion (~timothy@94.213.broadband4.iol.cz) has quit (Ping timeout: 248 seconds)
+2013-04-07 11:15:19	-->	vramana (~chatzilla@103.5.132.50) has joined #haskell
+2013-04-07 11:15:30	<--	xcvii (~baja@95.170.86.156) has quit (Remote host closed the connection)
+2013-04-07 11:15:36	hpaste	“http://johanesgultom.blogspot.com/2013/04/konsumen-cerdas-paham-perlindungan.html” pasted “Konsumen cerdas paham perlindungan konsumen” at http://hpaste.org/85346
+2013-04-07 11:15:37	-->	xcvii (~baja@95.170.86.156) has joined #haskell
+2013-04-07 11:15:46	<--	kaoskorobase (~kaoskorob@84.78.195.71) has quit (Quit: kaoskorobase)
+2013-04-07 11:15:53	-->	sonda (~sonda@adsl-ull-195-200.50-151.net24.it) has joined #haskell
+2013-04-07 11:17:39	<--	knyppeldynan (~kristina@c213-89-19-165.bredband.comhem.se) has quit (Remote host closed the connection)
+2013-04-07 11:18:27	<--	centrinia (~exc@107-208-218-105.lightspeed.tukrga.sbcglobal.net) has quit (Quit: Ex-Chat)
+2013-04-07 11:20:51	<--	xcvii (~baja@95.170.86.156) has quit (Ping timeout: 252 seconds)
+2013-04-07 11:21:09	-->	hiroakip (~hiroaki@ip-5-147-122-136.unitymediagroup.de) has joined #haskell
+2013-04-07 11:21:27	-->	xcvii (~baja@95.170.86.156) has joined #haskell
+2013-04-07 11:22:39	-->	whaletechno (~whaletech@unaffiliated/whaletechno) has joined #haskell
+2013-04-07 11:23:09	<--	normanrichards (~normanric@70.114.215.220) has quit
+2013-04-07 11:24:44	<--	bradleyayers (~brad@ppp201-252.static.internode.on.net) has quit (Remote host closed the connection)
+2013-04-07 11:26:43	<--	xeodou (d2165522@gateway/web/freenode/ip.210.22.85.34) has quit (Quit: Page closed)
+2013-04-07 11:27:08	<--	tharper (~tomh@unaffiliated/sioraiocht) has quit (Remote host closed the connection)
+2013-04-07 11:27:12	-->	FunkyDrummer (~RageOfTho@cable-77-221-21-70.dynamic.telemach.ba) has joined #haskell
+2013-04-07 11:28:52	<--	Guest92249 (~programme@178.186.175.177) has quit (Ping timeout: 256 seconds)
+2013-04-07 11:29:17	-->	knightshade (~knightsha@p548CF5AD.dip.t-dialin.net) has joined #haskell
+2013-04-07 11:29:49	<--	whaletechno (~whaletech@unaffiliated/whaletechno) has quit (Read error: Connection reset by peer)
+2013-04-07 11:30:26	-->	skyflash_ (~skyflash@96.53.63.54) has joined #haskell
+2013-04-07 11:31:46	-->	whaletechno (~whaletech@unaffiliated/whaletechno) has joined #haskell
+2013-04-07 11:32:31	<--	vramana (~chatzilla@103.5.132.50) has quit (Ping timeout: 245 seconds)
+2013-04-07 11:32:49	<--	rsuniev123 (~rsuniev12@host86-132-70-180.range86-132.btcentralplus.com) has quit (Quit: Computer has gone to sleep.)
+2013-04-07 11:33:02	-->	fredmorcos (~fmorcos@cm56-238-233.liwest.at) has joined #haskell
+2013-04-07 11:33:04	 *	hackagebot terminal-progress-bar 0.0.1.2 - A simple progress bar in the terminal  http://hackage.haskell.org/package/terminal-progress-bar-0.0.1.2 (PetrRockai)
+2013-04-07 11:33:32	-->	phyrex1an (~phyrex1an@cm-84.211.97.217.getinternet.no) has joined #haskell
+2013-04-07 11:34:35	shachaf	Do you need initial-progress-bar to make that useful?
+2013-04-07 11:35:06	<--	fro0t (~fro0t@1.23.67.95) has quit (Ping timeout: 256 seconds)
+2013-04-07 11:35:13	<--	ThomasLocke (~ThomasLoc@pdpc/supporter/active/thomaslocke) has quit (Read error: Operation timed out)
+2013-04-07 11:36:08	Saizan	do you have an initial to use it with?
+2013-04-07 11:38:54	--	PixelCrumbs is now known as OresomeBot_
+2013-04-07 11:38:55	aristid	somehow an initial look at hmemdb makes me think it's not that performant.
+2013-04-07 11:39:07	--	OresomeBot_ is now known as PixelCrumbs
+2013-04-07 11:39:35	aristid	which is a totally unjustified opinion based on how little information i've used to obtain it :D
+2013-04-07 11:39:48	<--	skyflash_ (~skyflash@96.53.63.54) has quit (Ping timeout: 264 seconds)
+2013-04-07 11:39:49	-->	sarfraz (~sarfraz@bny93-1-81-57-144-245.fbx.proxad.net) has joined #haskell
+2013-04-07 11:39:55	aristid	but... tabContent :: TVar (M.Map Integer (TVar (Maybe r))),
+2013-04-07 11:40:44	-->	osxorgate (~osxorgate@82-168-113-55.ip.telfort.nl) has joined #haskell
+2013-04-07 11:41:18	-->	jpeeters (~Adium@cha28-2-88-170-128-140.fbx.proxad.net) has joined #haskell
+2013-04-07 11:41:41	-->	yamhih (~yamhih@113.96.157.180) has joined #haskell
+2013-04-07 11:42:23	-->	programmer (~programme@178.187.16-202.xdsl.ab.ru) has joined #haskell
+2013-04-07 11:42:37	-->	tharper (~tomh@c83-250-198-77.bredband.comhem.se) has joined #haskell
+2013-04-07 11:42:37	<--	tharper (~tomh@c83-250-198-77.bredband.comhem.se) has quit (Changing host)
+2013-04-07 11:42:37	-->	tharper (~tomh@unaffiliated/sioraiocht) has joined #haskell
+2013-04-07 11:42:46	--	programmer is now known as Guest27287
+2013-04-07 11:43:04	 *	hackagebot terminal-progress-bar 0.0.1.3 - A simple progress bar in the terminal  http://hackage.haskell.org/package/terminal-progress-bar-0.0.1.3 (PetrRockai)
+2013-04-07 11:43:41	-->	knyppeldynan (~kristina@c213-89-19-165.bredband.comhem.se) has joined #haskell
+2013-04-07 11:43:54	--	\rs is now known as \s
+2013-04-07 11:43:59	--	\s is now known as \a
+2013-04-07 11:44:01	-->	[mth] (~mth@1.147.246.0) has joined #haskell
+2013-04-07 11:44:02	--	\a is now known as \c
+2013-04-07 11:44:03	<--	gabor (~heisenbug@p549438CC.dip.t-dialin.net) has quit (Quit: gabor)
+2013-04-07 11:44:11	--	\c is now known as \d
+2013-04-07 11:44:19	-->	Jeanne-Kamikaze (~Jeanne-Ka@217.249.223.87.dynamic.jazztel.es) has joined #haskell
+2013-04-07 11:44:19	<--	uvelichitel (~uvelichit@ip254-156.200.109.crimea.com) has quit (Read error: Connection reset by peer)
+2013-04-07 11:44:25	-->	edon (~user@albalug/edon) has joined #haskell
+2013-04-07 11:44:42	-->	uvelichitel (~uvelichit@ip254-156.200.109.crimea.com) has joined #haskell
+2013-04-07 11:45:12	--	\d is now known as \q
+2013-04-07 11:45:14	-->	jlseagull (~jonathan@31-122.obr.ftth.internl.net) has joined #haskell
+2013-04-07 11:46:14	<--	cognominal (~cognomina@37.161.195.144) has quit (Read error: Connection reset by peer)
+2013-04-07 11:46:24	-->	io2 (~io2@unaffiliated/io2) has joined #haskell
+2013-04-07 11:46:50	<--	yamhih (~yamhih@113.96.157.180) has left #haskell
+2013-04-07 11:47:47	<--	Taneb (~nathan@host-92-30-193-133.as13285.net) has quit (Quit: Leaving)
+2013-04-07 11:47:51	<--	bitonic (~user@176.27.234.82) has quit (Ping timeout: 260 seconds)
+2013-04-07 11:48:33	-->	cognominal (~cognomina@37.161.195.144) has joined #haskell
+2013-04-07 11:49:27	-->	eldariof (~CLD@pppoe-215-183-dyn-sr.volgaline.ru) has joined #haskell
+2013-04-07 11:49:36	<--	sh (~sh@uiharu.memespace.net) has quit (Remote host closed the connection)
+2013-04-07 11:49:53	-->	sh (~sh@uiharu.memespace.net) has joined #haskell
+2013-04-07 11:49:59	-->	snowylike (~sn@91-67-171-156-dynip.superkabel.de) has joined #haskell
+2013-04-07 11:50:41	-->	madjestic (~madjestic@178-84-90-204.dynamic.upc.nl) has joined #haskell
+2013-04-07 11:51:24	-->	SoupE (~jloos@e177154131.adsl.alicedsl.de) has joined #haskell
+2013-04-07 11:51:35	-->	Catbuntu (~catbuntu@unaffiliated/ls-mft) has joined #haskell
+2013-04-07 11:52:40	arkeet	what I don't get is why it depends on base-unicode-symbols.
+2013-04-07 11:53:09	shachaf	Because it uses ℤ
+2013-04-07 11:53:34	arkeet	yes, why?
+2013-04-07 11:53:34	arkeet	:p
+2013-04-07 11:53:37	no-n[1]	is there a haskell equivalent to "from Module import function as func"?
+2013-04-07 11:53:44	-->	nilsi (~nilsi@c83-253-22-138.bredband.comhem.se) has joined #haskell
+2013-04-07 11:53:49	arkeet	no
+2013-04-07 11:53:53	osfameron	arkeet: because ZZ would be too easy to type?
+2013-04-07 11:53:54	no-n[1]	ok
+2013-04-07 11:54:35	<--	SoupEvil (~jloos@e177164198.adsl.alicedsl.de) has quit (Ping timeout: 245 seconds)
+2013-04-07 11:54:36	<--	startling (~user@2602:306:37ff:e210:21b:63ff:fec8:d7b8) has quit (Ping timeout: 245 seconds)
+2013-04-07 11:54:48	elliott	arkeet: base-unicode-symbols is actually Latin for show-off
+2013-04-07 11:55:14	arkeet	I'm sleepy.
+2013-04-07 11:55:35	<--	gehmehgeh (~geh@unaffiliated/gehmehgeh) has quit (Quit: leaving)
+2013-04-07 11:56:06	-->	pfoetchen (~pfoetchen@dslb-178-007-001-087.pools.arcor-ip.net) has joined #haskell
+2013-04-07 11:57:00	-->	Alice3 (~Alice@cpc18-grim14-2-0-cust478.12-3.cable.virginmedia.com) has joined #haskell
+2013-04-07 11:57:04	-->	xnoise (~cristian@070-132-165-046.ip-addr.inexio.net) has joined #haskell
+2013-04-07 11:57:51	<--	hughfdjackson (~hughfdjac@unaffiliated/hughfdjackson) has quit (Ping timeout: 276 seconds)
+2013-04-07 11:58:18	-->	hrehf (~s@p4FE3AA5F.dip.t-dialin.net) has joined #haskell
+2013-04-07 11:58:38	ion	no-n: Not per se, but you can import a module qualified and then define a value that calls something the module exports.
+2013-04-07 11:58:51	ion	But that may not be worth the trouble.
+2013-04-07 11:59:48	xnoise	hello
+2013-04-07 12:01:16	<--	ben_d (~muus@c-71-193-220-192.hsd1.or.comcast.net) has quit (Ping timeout: 245 seconds)
+2013-04-07 12:02:29	typoclass	xnoise: hi
+2013-04-07 12:03:19	xnoise	i am just starting learning haskell, but i am getting a little chills because of the math involved in some more complex constructs
+2013-04-07 12:03:29	xnoise	later on
+2013-04-07 12:04:01	xnoise	so far, is pretty simple and easy to understand. Any ideea wether i should start olooking over math, and if so, where would one start?
+2013-04-07 12:04:40	-->	dcoutts_ (~dcoutts@cpc6-oxfd21-2-0-cust475.4-3.cable.virginmedia.com) has joined #haskell
+2013-04-07 12:04:40	<--	dcoutts_ (~dcoutts@cpc6-oxfd21-2-0-cust475.4-3.cable.virginmedia.com) has quit (Changing host)
+2013-04-07 12:04:40	-->	dcoutts_ (~dcoutts@unaffiliated/dcoutts) has joined #haskell
+2013-04-07 12:04:51	arkeet	I don't think it's exactly necessary
+2013-04-07 12:05:04	<--	Twisol (~Oddlyoko@wikia/Oddlyoko) has quit (Quit: Twisol)
+2013-04-07 12:05:22	elliott	xnoise: what mathematics are you referring to?
+2013-04-07 12:05:30	xnoise	well, i keep hearing about mon
+2013-04-07 12:05:36	xnoise	ads, monoids and so om
+2013-04-07 12:05:49	xnoise	sorry, new kb
+2013-04-07 12:06:05	<--	tharper (~tomh@unaffiliated/sioraiocht) has quit (Remote host closed the connection)
+2013-04-07 12:06:09	shachaf	Nah, don't worry about that.
+2013-04-07 12:06:27	arkeet	to the programmer, those are just abstractions of common patterns.
+2013-04-07 12:06:28	typoclass	xnoise: it depends on what you mean by math, but in my personal opinion, it's not necessary
+2013-04-07 12:06:33	xnoise	and in general haskell does not look like your general variety of programming language
+2013-04-07 12:06:46	xnoise	ok :)
+2013-04-07 12:06:52	xnoise	thanks
+2013-04-07 12:06:53	-->	Okasu_ (~1@217.118.78.37) has joined #haskell
+2013-04-07 12:07:03	arkeet	mathematicians are interested in them for different reasons, so I don't know how much you'd get out of learning the math.
+2013-04-07 12:07:26	xnoise	ok, thank you for the answers
+2013-04-07 12:07:43	<--	Okasu (~1@unaffiliated/okasu) has quit (Ping timeout: 264 seconds)
+2013-04-07 12:07:52	-->	tharper (~tomh@c83-250-198-77.bredband.comhem.se) has joined #haskell
+2013-04-07 12:07:52	<--	tharper (~tomh@c83-250-198-77.bredband.comhem.se) has quit (Changing host)
+2013-04-07 12:07:52	-->	tharper (~tomh@unaffiliated/sioraiocht) has joined #haskell
+2013-04-07 12:08:20	-->	piotr (~quassel@e178096155.adsl.alicedsl.de) has joined #haskell
+2013-04-07 12:08:51	<--	piotr__ (~quassel@e178095184.adsl.alicedsl.de) has quit (Ping timeout: 252 seconds)
+2013-04-07 12:09:26	typoclass	xnoise: roughly, a monoid is s a thing to which you can append. for example, there's a monoid instance for lists
+2013-04-07 12:10:00	-->	hughfdjackson (~hughfdjac@unaffiliated/hughfdjackson) has joined #haskell
+2013-04-07 12:10:15	-->	synonymous (~Adium@60-242-194-203.static.tpgi.com.au) has joined #haskell
+2013-04-07 12:10:48	xnoise	the thing is i got a little scared, looking through some more advanced presentations and so on in which alot is being discussed in really abstract terms. Learn you a haskell does a pretty nice job so far of keeping things simple
+2013-04-07 12:10:50	-->	dmac (~Adium@75-149-33-130-SFBA.hfc.comcastbusiness.net) has joined #haskell
+2013-04-07 12:11:02	<--	madjestic (~madjestic@178-84-90-204.dynamic.upc.nl) has quit (Ping timeout: 252 seconds)
+2013-04-07 12:11:19	xnoise	i haven't yet reached monads, i am barely playing with functions, let bindings and so on at the moment
+2013-04-07 12:11:41	<--	adzeitor (~adzeitor@31.207.217.181) has quit (Ping timeout: 245 seconds)
+2013-04-07 12:11:45	typoclass	xnoise: i think it may help if you just treat it as "weird names". it's nothing magical. Monad is a typeclass with three or four functions in it; there's various instances of the typeclass; it's used in some places in the standard library; there's a bit of haskell syntax ("do blocks") which is translated into function calls of this typeclass
+2013-04-07 12:11:48	xnoise	just wanted to know wether i should also keep in mind some math for the future
+2013-04-07 12:12:05	shachaf	The term "monoid" isn't particularly more abstract than the term "abstract base class" or something.
+2013-04-07 12:12:13	xnoise	ok, i will do so
+2013-04-07 12:12:22	-->	morazow (~morazow@92.36.136.95.rev.vodafone.pt) has joined #haskell
+2013-04-07 12:12:46	xnoise	@shachaf : never thought at terms like that :)
+2013-04-07 12:12:46	lambdabot	Unknown command, try @list
+2013-04-07 12:13:19	-->	eikke (~nicolas@d8D86B9FD.access.telenet.be) has joined #haskell
+2013-04-07 12:13:26	typoclass	shachaf: i'm not sure about that
+2013-04-07 12:14:55	shachaf	I mostly just picked that term because it has the word "abstract" in it and has the right kind. :-)
+2013-04-07 12:15:42	<--	chidy (~chidimuor@host86-179-205-63.range86-179.btcentralplus.com) has quit (Quit: chidy)
+2013-04-07 12:16:39	-->	vlatkoB (~vlatko@188.129.49.15) has joined #haskell
+2013-04-07 12:17:05	<--	schovi (~schovi@ip-89-176-244-70.net.upcbroadband.cz) has quit (Remote host closed the connection)
+2013-04-07 12:17:06	vlatkoB	 be wrong with this?
+2013-04-07 12:17:06	vlatkoB	yap :: IO [String] -> IO ()
+2013-04-07 12:17:06	vlatkoB	yap xs = do s <- xs; mapM_ putStrLn s
+2013-04-07 12:17:15	-->	sanemat (~sanemat@153.208.138.210.vmobile.jp) has joined #haskell
+2013-04-07 12:17:31	vlatkoB	What would ...
+2013-04-07 12:17:52	shachaf	vlatkoB: You tell us!
+2013-04-07 12:17:55	<--	dmac (~Adium@75-149-33-130-SFBA.hfc.comcastbusiness.net) has quit (Ping timeout: 264 seconds)
+2013-04-07 12:18:39	vlatkoB	Isn't s [String]?
+2013-04-07 12:18:57	-->	nuttycom2 (~Adium@71-212-131-195.hlrn.qwest.net) has joined #haskell
+2013-04-07 12:19:05	Adeon	yes, s is [String]
+2013-04-07 12:19:06	Philonous	vlatkoB:  Sounds right
+2013-04-07 12:19:26	vlatkoB	I'm getting "No instance for (Show (IO [String] -> IO ()))"
+2013-04-07 12:19:36	<--	nuttycom1 (~Adium@71-208-227-85.hlrn.qwest.net) has quit (Ping timeout: 245 seconds)
+2013-04-07 12:19:42	shachaf	What are you trying to do with it?
+2013-04-07 12:19:45	<--	porco (~porco@218.30.180.179) has quit (Quit: Linkinus - http://linkinus.com)
+2013-04-07 12:19:51	shachaf	It's a function. You can't print a function.
+2013-04-07 12:20:11	vlatkoB	Just to print each String in its own line.
+2013-04-07 12:20:22	shachaf	Which string?
+2013-04-07 12:20:22	-->	nuttycom1 (~nuttycom@71-212-131-195.hlrn.qwest.net) has joined #haskell
+2013-04-07 12:20:28	<--	nuttycom (~nuttycom@71-208-227-85.hlrn.qwest.net) has quit (Ping timeout: 256 seconds)
+2013-04-07 12:20:29	vlatkoB	But it is not a function, s is [String]
+2013-04-07 12:20:37	Philonous	vlatkoB:  The definition is right, you're using it wrong. The error is at the call site
+2013-04-07 12:21:09	vlatkoB	What is "call site"?
+2013-04-07 12:21:21	Adeon	the place where you use that definition
+2013-04-07 12:21:25	ion	xnoise: (Math, not Haskell) 0+a = a; a+0 = a; (a+b)+c = a+(b+c). (Ditto) 1·a = a, a·1 = a, (a·b)·c = a·(b·c). (Haskell) [] ++ as == as; as ++ [] == as; (as ++ bs) ++ cs == as ++ (bs ++ cs). A monoid means the common part among these (and many others): an identity element (e.g. 0 or []), an associative operation (e.g. + or (++)) and the three laws.
+2013-04-07 12:23:14	vlatkoB	I'm testing it from GHCI
+2013-04-07 12:23:43	Philonous	vlatkoB:  Can you paste the line you're using for that?
+2013-04-07 12:23:48	xnoise	ion: does not look so complicated, might be one of the simplest explanations i have read so far
+2013-04-07 12:23:53	xnoise	thanks
+2013-04-07 12:25:04	<--	mpiechotka (~mpiechotk@178-36-63-68.adsl.inetia.pl) has quit (Read error: Operation timed out)
+2013-04-07 12:25:49	ion	xnoise: Haskell calls the identity element “mempty”, and the operation “mappend” which also has the alias (<>).
+2013-04-07 12:26:27	<--	flebron (~flebron@c-76-102-255-42.hsd1.ca.comcast.net) has quit
+2013-04-07 12:26:33	ion	> mempty <> mempty <> "hello" <> mempty <> "jelly"
+2013-04-07 12:26:35	lambdabot	  "hellojelly"
+2013-04-07 12:26:44	-->	k00mi (~koomi@dslb-178-007-030-133.pools.arcor-ip.net) has joined #haskell
+2013-04-07 12:27:09	ion	> sortBy (comparing length <> compare) cake
+2013-04-07 12:27:10	-->	q66 (~q66@213.191.105.214) has joined #haskell
+2013-04-07 12:27:11	lambdabot	  ["Alpha resins.","Cranial caps.","Four large eggs.","Fish shaped dirt.","On...
+2013-04-07 12:27:36	vlatkoB	Uf, I can't believe what I did. I've been changing the function so much that I forgot to add the parameter (IO [String]). It's working correctly. Thanks for "call site". :-)
+2013-04-07 12:27:49	-->	timthelion (~timothy@94.213.broadband4.iol.cz) has joined #haskell
+2013-04-07 12:27:59	arkeet	:t mconcat
+2013-04-07 12:28:01	lambdabot	Monoid a => [a] -> a
+2013-04-07 12:28:03	<--	timjb (~timjb@ppp-93-104-162-213.dynamic.mnet-online.de) has quit (Remote host closed the connection)
+2013-04-07 12:28:12	arkeet	:t foldMap
+2013-04-07 12:28:13	lambdabot	(Foldable t, Monoid m) => (a -> m) -> t a -> m
+2013-04-07 12:28:18	niteria	> mempty :: Ordering
+2013-04-07 12:28:19	lambdabot	  EQ
+2013-04-07 12:28:27	niteria	nice
+2013-04-07 12:28:29	-->	gadjo (~gggg@109.102.72.188) has joined #haskell
+2013-04-07 12:28:46	arkeet	EQ <> y = y; x <> _ = x
+2013-04-07 12:28:52	arkeet	er
+2013-04-07 12:28:54	arkeet	yeah.
+2013-04-07 12:28:57	<--	eikke (~nicolas@d8D86B9FD.access.telenet.be) has quit (Read error: Operation timed out)
+2013-04-07 12:29:20	elliott	weird instance
+2013-04-07 12:29:22	-->	kcj (~casey@unaffiliated/kcj) has joined #haskell
+2013-04-07 12:29:28	arkeet	useful instance.
+2013-04-07 12:29:43	arkeet	compare (a,b) (c,d) = compare a c <> compare b d
+2013-04-07 12:29:47	<--	hamid (~nithp@unaffiliated/hamid) has quit (Quit: Lost terminal)
+2013-04-07 12:29:54	ion	Are there others that make sense for Ordering?
+2013-04-07 12:29:55	--	rio_ is now known as rio
+2013-04-07 12:30:56	Philonous	ion:  The right-biased version?
+2013-04-07 12:31:09	-->	vlatko_ (~vlatko@188.129.49.47) has joined #haskell
+2013-04-07 12:31:24	-->	twanvl (~Twan@dhcp-077-250-086-217.chello.nl) has joined #haskell
+2013-04-07 12:31:28	arkeet	sure, the dual monoid.
+2013-04-07 12:31:35	-->	mr- (~martin@rgnb-5d879eaf.pool.mediaWays.net) has joined #haskell
+2013-04-07 12:32:14	niteria	> True <> False
+2013-04-07 12:32:16	lambdabot	  No instance for (Data.Monoid.Monoid GHC.Types.Bool)
+2013-04-07 12:32:16	lambdabot	   arising from a use o...
+2013-04-07 12:32:25	elliott	you could also privilege LT or GT instead of EQ, presumably
+2013-04-07 12:32:26	ion	That makes as much sense as a right-biased version for Any and All as well. I’d say less than the left-biased one to be a useful default.
+2013-04-07 12:32:33	<--	kennyd (~kennyd@93-141-84-63.adsl.net.t-com.hr) has quit (Ping timeout: 248 seconds)
+2013-04-07 12:32:43	arkeet	niteria: there are Any and All monoids wrapping Bool
+2013-04-07 12:33:29	-->	janbanan (~naj@niklas.vth.sgsnet.se) has joined #haskell
+2013-04-07 12:33:29	-->	dogmaT (~dogmat@ip-94-112-150-164.net.upcbroadband.cz) has joined #haskell
+2013-04-07 12:33:46	arkeet	> Any True <> Any False
+2013-04-07 12:33:47	lambdabot	  Any {getAny = True}
+2013-04-07 12:33:49	arkeet	> All True <> All False
+2013-04-07 12:33:51	lambdabot	  All {getAll = False}
+2013-04-07 12:33:55	<--	dysinger (~tim@cpe-24-94-76-59.hawaii.res.rr.com) has quit (Quit: dysinger)
+2013-04-07 12:34:08	arkeet	> foldMap Any [True,False]
+2013-04-07 12:34:10	lambdabot	  Any {getAny = True}
+2013-04-07 12:34:22	arkeet	> anyOf folded [True,False]
+2013-04-07 12:34:24	lambdabot	  Couldn't match expected type `(->) b0' with actual type `[]'
+2013-04-07 12:34:30	arkeet	huh?
+2013-04-07 12:34:33	arkeet	:t anyOf
+2013-04-07 12:34:35	lambdabot	Profunctor p => Accessing p Any s t a b -> p a Bool -> s -> Bool
+2013-04-07 12:34:42	<--	vlatkoB (~vlatko@188.129.49.15) has quit (Ping timeout: 252 seconds)
+2013-04-07 12:34:44	arkeet	right.
+2013-04-07 12:34:48	elliott	:t andOf
+2013-04-07 12:34:49	arkeet	> orOf folded [True,False]
+2013-04-07 12:34:49	lambdabot	Getting All s t Bool b -> s -> Bool
+2013-04-07 12:34:51	lambdabot	  True
+2013-04-07 12:35:27	<--	pfoetchen (~pfoetchen@dslb-178-007-001-087.pools.arcor-ip.net) has quit (Ping timeout: 260 seconds)
+2013-04-07 12:36:29	timthelion	> any id [True,False] -- How are monoids superior?
+2013-04-07 12:36:31	lambdabot	  True
+2013-04-07 12:36:31	-->	niklasb (~codeslay0@nat-wh-hadi.rz.uni-karlsruhe.de) has joined #haskell
+2013-04-07 12:36:54	-->	skyflash_ (~skyflash@96.53.63.54) has joined #haskell
+2013-04-07 12:37:10	-->	kennyd (~kennyd@93-138-101-79.adsl.net.t-com.hr) has joined #haskell
+2013-04-07 12:37:47	ion	timthelion: Ask beaky.
+2013-04-07 12:38:07	timthelion	It seems to me, that almost every type could have an almost infinite number of monoid instances. But how is that better than just applying monoidic functions to the types? I can define an infinite number of a->a->a s for a given a. But that's what functions are for, I don't need a typeclass to tell me that.
+2013-04-07 12:39:39	arkeet	but the difference is
+2013-04-07 12:39:40	-->	pfoetchen (~pfoetchen@dslb-178-007-001-087.pools.arcor-ip.net) has joined #haskell
+2013-04-07 12:39:40	arkeet	monoids are easy.
+2013-04-07 12:39:52	timthelion	arkeet: where as functions are hard?
+2013-04-07 12:39:53	niteria	monoids have properties
+2013-04-07 12:39:57	<--	jlseagull (~jonathan@31-122.obr.ftth.internl.net) has left #haskell ("Leaving")
+2013-04-07 12:40:02	-->	bradleyayers (~brad@ppp201-252.static.internode.on.net) has joined #haskell
+2013-04-07 12:40:18	timthelion	niteria: yet monoidic functions have the same properties.
+2013-04-07 12:40:19	arkeet	> foldMap Sum [1..5]
+2013-04-07 12:40:21	lambdabot	  Sum {getSum = 15}
+2013-04-07 12:40:36	timthelion	interesting
+2013-04-07 12:40:45	timthelion	ish
+2013-04-07 12:40:46	<--	hughfdjackson (~hughfdjac@unaffiliated/hughfdjackson) has quit (Ping timeout: 252 seconds)
+2013-04-07 12:40:54	arkeet	> foldMap show [1..5]
+2013-04-07 12:40:56	lambdabot	  "12345"
+2013-04-07 12:41:15	niteria	timthelion: you can express this properties in the code by constraining on a typeclass
+2013-04-07 12:41:15	timthelion	:t foldMap
+2013-04-07 12:41:17	lambdabot	(Foldable t, Monoid m) => (a -> m) -> t a -> m
+2013-04-07 12:41:18	<--	skyflash_ (~skyflash@96.53.63.54) has quit (Ping timeout: 252 seconds)
+2013-04-07 12:41:55	niteria	s/this/those
+2013-04-07 12:42:14	-->	hughfdjackson (~hughfdjac@unaffiliated/hughfdjackson) has joined #haskell
+2013-04-07 12:42:22	-->	gabor (~heisenbug@p549438CC.dip.t-dialin.net) has joined #haskell
+2013-04-07 12:42:42	 *	timthelion hopes it doesn't lead to such idiocy as we see with the list monad.
+2013-04-07 12:42:47	<--	nilsi (~nilsi@c83-253-22-138.bredband.comhem.se) has quit (Remote host closed the connection)
+2013-04-07 12:42:52	ion	> runWriterT $ do tell "hello"; x <- lift [0..5]; tell (", " ++ show x ++ " jelly"); return x
+2013-04-07 12:42:54	lambdabot	  [(0,"hello, 0 jelly"),(1,"hello, 1 jelly"),(2,"hello, 2 jelly"),(3,"hello, ...
+2013-04-07 12:43:10	niteria	timthelion: where's the idiocy with list monad?
+2013-04-07 12:43:11	-->	quchen (~david@p54AA1B37.dip.t-dialin.net) has joined #haskell
+2013-04-07 12:43:21	timthelion	niteria: poorly named complex behavior
+2013-04-07 12:43:31	timthelion	is bad design
+2013-04-07 12:43:35	arkeet	:t WriterT
+2013-04-07 12:43:36	lambdabot	m (a, w) -> WriterT w m a
+2013-04-07 12:43:49	arkeet	right.
+2013-04-07 12:44:34	-->	twanvl_ (~Twan@dhcp-077-250-086-217.chello.nl) has joined #haskell
+2013-04-07 12:44:36	<--	Jonno_FTW (~come@9ch.in) has quit (Ping timeout: 245 seconds)
+2013-04-07 12:44:55	-->	timjb (~timjb@ppp-93-104-162-213.dynamic.mnet-online.de) has joined #haskell
+2013-04-07 12:44:58	timthelion	niteria: since the monad instance for list is not unique, there is no way to predict what the given instance will do without reading the source code(as it's behavior is not described by either it's type(Monadic) or it's name (bind)
+2013-04-07 12:45:03	<--	Catbuntu (~catbuntu@unaffiliated/ls-mft) has quit (Read error: Connection reset by peer)
+2013-04-07 12:45:06	arkeet	it isn't?
+2013-04-07 12:45:38	arkeet	in what other reasonable way could list be a monad?
+2013-04-07 12:45:50	niteria	there are 2 sensible instances: nondeterminism and maybe
+2013-04-07 12:45:50	-->	Catbuntu (~catbuntu@unaffiliated/ls-mft) has joined #haskell
+2013-04-07 12:45:50	[mth]	wat? What other law abiding implementation is there?
+2013-04-07 12:46:05	<--	edwardk (~edwardk@pdpc/supporter/professional/edwardk) has quit (Ping timeout: 255 seconds)
+2013-04-07 12:46:07	<--	notdan (~h@109.163.233.55) has quit (Ping timeout: 258 seconds)
+2013-04-07 12:46:14	elliott	why have typeclasses at all, if you won't accept that an instance can be the most generally useful or only reasonable one?
+2013-04-07 12:46:33	elliott	passing around monad triple objects by hand isn't my idea of fun, personally
+2013-04-07 12:46:41	-->	edwardk (~edwardk@pdpc/supporter/professional/edwardk) has joined #haskell
+2013-04-07 12:46:43	niteria	and there's already a Maybe monad
+2013-04-07 12:46:44	-->	notdan (~h@109.163.233.55) has joined #haskell
+2013-04-07 12:46:50	elliott	and I don't see why to single out [] here
+2013-04-07 12:46:54	<--	fosky (~fosky@ppp118-209-78-45.lns20.mel4.internode.on.net) has quit (Remote host closed the connection)
+2013-04-07 12:47:20	elliott	niteria: I don't quite see what you mean by Maybe
+2013-04-07 12:47:24	niteria	and by sensible I mean law abiding
+2013-04-07 12:47:27	arkeet	me either.
+2013-04-07 12:47:30	elliott	the instance i am thinking you might be thinking of would violate (>>= return) = id
+2013-04-07 12:47:32	timthelion	elliott: well Maybe is rather clear in it's behavior. But tell me that the code for monadic list cross product is clear...
+2013-04-07 12:47:38	<--	twanvl (~Twan@dhcp-077-250-086-217.chello.nl) has quit (Ping timeout: 256 seconds)
+2013-04-07 12:47:41	arkeet	what would join do for this other instance?
+2013-04-07 12:47:57	elliott	timthelion: I find it perfectly clear because I understand the list monad. sure, Maybe is simpler. Maybe is a simpler type than []
+2013-04-07 12:47:58	ion	timthelion: Can i tell you that? The code for monadic list cross product is clear.
+2013-04-07 12:48:13	arkeet	:t liftM2 (,)
+2013-04-07 12:48:15	lambdabot	Monad m => m a1 -> m a2 -> m (a1, a2)
+2013-04-07 12:48:17	arkeet	this?
+2013-04-07 12:48:22	elliott	thankfully, Haskell doesn't shy away from powerful, succint, meaningful concepts, even if they may cause confusion at first sight: everyone has to learn
+2013-04-07 12:48:35	elliott	certainly [] is a lot less of a mind-bender than Cont or whatever.
+2013-04-07 12:48:36	<--	pantsman (~pantsman@pdpc/supporter/active/pantsman) has quit (Quit: Leaving)
+2013-04-07 12:49:33	-->	chrisdone (~chrisdone@unaffiliated/chrisdone) has joined #haskell
+2013-04-07 12:49:46	<--	edsko (~edsko@79.97.126.24) has quit (Quit: This computer has gone to sleep)
+2013-04-07 12:50:14	 *	timthelion would not use it in production code.
+2013-04-07 12:50:27	timthelion	the list monad that is
+2013-04-07 12:50:32	elliott	ok. you're missing out
+2013-04-07 12:50:41	arkeet	:t select
+2013-04-07 12:50:42	lambdabot	[t] -> [(t, [t])]
+2013-04-07 12:50:49	chrisdone	timthelion: why?
+2013-04-07 12:51:07	mauke	timthelion: would you use list comprehensions?
+2013-04-07 12:51:10	ion	timthelion: It seems to be so useful that e.g. Python included something with pretty much the exact semantics of the list monad.
+2013-04-07 12:51:12	-->	hamid (~nithp@unaffiliated/hamid) has joined #haskell
+2013-04-07 12:51:13	-->	hamid_ (~nithp@unaffiliated/hamid) has joined #haskell
+2013-04-07 12:51:16	<--	pfoetchen (~pfoetchen@dslb-178-007-001-087.pools.arcor-ip.net) has quit (Ping timeout: 245 seconds)
+2013-04-07 12:51:32	timthelion	ion: yes, but what did they name it?
+2013-04-07 12:51:40	<--	hamid_ (~nithp@unaffiliated/hamid) has quit (Client Quit)
+2013-04-07 12:51:42	arkeet	"list comprehensions"
+2013-04-07 12:51:45	chrisdone	yeah well list comprehensions are specially optimized by ghc
+2013-04-07 12:51:45	ion	timthelion: How is that relevant?
+2013-04-07 12:51:48	-->	Jonno_FTW (~come@9ch.in) has joined #haskell
+2013-04-07 12:51:56	elliott	the list monad does not actually have a name.
+2013-04-07 12:52:05	elliott	you can think "the list monad" is a bad term to describe the semantics of the instance Monad []
+2013-04-07 12:52:12	-->	bitonic (~user@dyn1220-246.wlan.ic.ac.uk) has joined #haskell
+2013-04-07 12:52:17	elliott	but if the problem was with the terminology, there would be no reason to avoid that (unnamed) instance in production code.
+2013-04-07 12:52:33	-->	flebron (~flebron@c-76-102-255-42.hsd1.ca.comcast.net) has joined #haskell
+2013-04-07 12:52:37	timthelion	chrisdone: It seems to me, that code should be easilly read without having to be knowledgable of the semantics of the API used. The names of things should be enough to understand what they do.
+2013-04-07 12:53:09	arkeet	I think most people with a reasonable amount of experience with haskell would know what the list monad is.
+2013-04-07 12:53:47	 *	typoclass . o O ( this could equally well defend AbstractFactoryVisitorFactory ;-) "thankfully, java doesn't shy away from powerful, succint, meaningful concepts, even if they may cause confusion at first sight: everyone has to learn" )
+2013-04-07 12:54:00	mauke	typoclass: >succinct
+2013-04-07 12:54:19	chrisdone	timthelion: well i guess that discards monads and monoids and arithmetic operations
+2013-04-07 12:54:23	typoclass	mauke: not my problem
+2013-04-07 12:54:31	niteria	that's like not using folds if you come from imperative background
+2013-04-07 12:54:44	mauke	timthelion: that's nonsense
+2013-04-07 12:55:00	lewis1711	who doesn't use folds? C# even has them. python, ruby... I mean come on. let's all fold
+2013-04-07 12:55:03	<--	DrCode (~DrCode@gateway/tor-sasl/drcode) has quit (Ping timeout: 276 seconds)
+2013-04-07 12:55:12	 *	chrisdone glances around nervously
+2013-04-07 12:55:13	-->	BigTom (~bigtom@213.246.114.89) has joined #haskell
+2013-04-07 12:55:13	arkeet	people use folds  there?
+2013-04-07 12:55:16	chrisdone	… I … I fold
+2013-04-07 12:55:25	mauke	perl has a foldl but it's called reduce
+2013-04-07 12:55:37	chrisdone	scheme and common lisp have reduce too
+2013-04-07 12:55:59	 *	timthelion thinks that map and fold are such core features that anyone should know them, but a given typeclass instance for a given type is not.
+2013-04-07 12:56:04	<--	xunatai (~xunatai@c-24-21-140-153.hsd1.or.comcast.net) has quit (Read error: Connection reset by peer)
+2013-04-07 12:56:15	arkeet	even for something in the Prelude?
+2013-04-07 12:56:29	-->	DrCode (~DrCode@gateway/tor-sasl/drcode) has joined #haskell
+2013-04-07 12:56:29	<--	chrisdone (~chrisdone@unaffiliated/chrisdone) has left #haskell ("ERC Version 5.3 (IRC client for Emacs)")
+2013-04-07 12:56:48	mauke	timthelion: so foldr is "obvious" but (==) is not?
+2013-04-07 12:56:59	timthelion	arkeet: well you do have a point there.
+2013-04-07 12:57:17	lewis1711	I think the folds are only in srf1 for scheme.. but that's ot
+2013-04-07 12:57:35	timthelion	mauke: well the Eq instances are all very clearly unique. So there is no need to learn them at all.
+2013-04-07 12:57:42	mauke	huh?
+2013-04-07 12:57:52	<--	Afish (PARAPET@chips.ds16.agh.edu.pl) has quit (Quit: Miranda IM! Smaller, Faster, Easier. http://miranda-im.org)
+2013-04-07 12:57:53	timthelion	Just like functor instances, are very easy to learn, since they are all unique.
+2013-04-07 12:57:58	mauke	what do you mean by "unique"?
+2013-04-07 12:58:19	timthelion	mauke: there is only one correct Eq instance for a given type.
+2013-04-07 12:58:26	<--	sanemat (~sanemat@153.208.138.210.vmobile.jp) has quit (Remote host closed the connection)
+2013-04-07 12:58:26	Philonous	timthelion:  Hardly
+2013-04-07 12:58:35	mauke	timthelion: define "correct"
+2013-04-07 12:58:36	-->	lcfrs (~lcfrs@50-1-125-82.dsl.dynamic.sonic.net) has joined #haskell
+2013-04-07 12:58:36	elliott	that's not true, if you e.g. hide constructors of the type or such to maintain data abstraction
+2013-04-07 12:58:41	typoclass	timthelion: i agree on the point that haskell can be hard to read because sometimes, you have to do type inference in your head to figure out if this "fmap f" relates to a Maybe or a list or what
+2013-04-07 12:58:49	timthelion	Philonous: if the behavior is different from determining value equality than it is wrong.
+2013-04-07 12:58:55	elliott	if (==) was always completely strict structural equality, it would have much more limited use
+2013-04-07 12:59:14	elliott	timthelion: even if you cannot distinguish x,y if x == y from outside the module in which the type is defined?
+2013-04-07 12:59:25	mauke	timthelion: define "value equality"
+2013-04-07 12:59:25	-->	heruur (~tvh@2a00:12d0:a100:a101:304d:10ef:6ba4:4696) has joined #haskell
+2013-04-07 12:59:29	timthelion	elliott: it is true that the implementations may vary, but that doesn't mean they are not unique in their behavior.
+2013-04-07 12:59:34	elliott	being able to do optimisation thanks to module abstraction is a good thing
+2013-04-07 13:00:10	elliott	timthelion: huh? I'm saying there are reasonable examples of Eq instances not being unique
+2013-04-07 13:00:41	timthelion	mauke: Ok if v1 == v2 then for f :: a -> b f v1 == f v2
+2013-04-07 13:00:41	arkeet	why are we talking about Eq?
+2013-04-07 13:00:41	Philonous	timthelion:  Eq instance take equivalent representation of values into account. Take for example Ratio. The semantics of those values isn't intrinsic to the type
+2013-04-07 13:00:56	mauke	timthelion: <<loop>>
+2013-04-07 13:01:04	elliott	oh, Rational is a good example.
+2013-04-07 13:01:07	elliott	mine were all uglier.
+2013-04-07 13:01:23	<--	uvelichitel (~uvelichit@ip254-156.200.109.crimea.com) has quit (Remote host closed the connection)
+2013-04-07 13:01:56	timthelion	arkeet: well since someone claimed that if I don't like Monad instances since they are non transparent in their behavior, than somehow that means my logic also applies to Eq(which is transparent in it's behavior)
+2013-04-07 13:01:59	kryft	You might also want to have different kinds of equality depending on context
+2013-04-07 13:02:18	-->	end3rW (~end3rW@lak-175-242.wohnheime.ruhr-uni-bochum.de) has joined #haskell
+2013-04-07 13:02:42	timthelion	kryft: that's a very stupid thing to do in with typeclass instances though, since in haskell type clases are not fist class and thus cannot be "chosen" by context.
+2013-04-07 13:02:57	 *	elliott thinks the definition of "transparent" here is equivalent to "familiar"
+2013-04-07 13:03:08	<--	__main__ (~main@c-67-180-22-241.hsd1.ca.comcast.net) has quit (Ping timeout: 252 seconds)
+2013-04-07 13:03:12	mauke	timthelion: no, you said "map and fold are such core features that anyone should know them, but a given typeclass instance for a given type is not."
+2013-04-07 13:03:13	arkeet	timthelion: typeclass instances are no less transparent than function definitions
+2013-04-07 13:03:15	kryft	Uh, what I said was badly phrased
+2013-04-07 13:03:28	-->	finishingmove (~finishing@78.9.155.175) has joined #haskell
+2013-04-07 13:03:30	<--	lcfrs (~lcfrs@50-1-125-82.dsl.dynamic.sonic.net) has quit (Ping timeout: 276 seconds)
+2013-04-07 13:04:02	timthelion	kryft: but it still holds, that if you want multiple typeclass instances you need to patch GHC first.
+2013-04-07 13:04:11	<--	JaRoel|4d (~jaroel|4d@2001:980:7133:1:c90c:a815:ba2d:7fd9) has quit (Ping timeout: 245 seconds)
+2013-04-07 13:04:23	-->	uvelichitel (~uvelichit@ip254-156.200.109.crimea.com) has joined #haskell
+2013-04-07 13:04:57	<--	vlatko_ (~vlatko@188.129.49.47) has quit (Quit: Leaving)
+2013-04-07 13:05:50	timthelion	mauke: that doesn't mean that some typeclass instances are not completely clear and need no exception to my rule about clarity.
+2013-04-07 13:05:55	kryft	I just meant that there can be several different feasible definitions of 'equality' depending on what you're doing. The statement "there is only one valid Eq instance for a given type" sounded like "given a type, there can only be one reasonable way of defining Eq", which I don't think is true, but maybe I misinterpreted the sentence due to proto-migraine haze and ignorance :)
+2013-04-07 13:06:22	kryft	s/defining Eq/defining what equality means for this type
+2013-04-07 13:06:22	-->	monqy (~help@pool-98-108-214-230.snloca.dsl-w.verizon.net) has joined #haskell
+2013-04-07 13:06:32	niteria	if you want multiple instances you just wrap in a newtype
+2013-04-07 13:06:39	timthelion	kryft: it is still true, that the other Eq instances would be "wrong" enough that they wouldn't belong in a library.
+2013-04-07 13:06:55	<--	ulfdoz (~mary@p5B38BB2F.dip.t-dialin.net) has quit (Read error: Operation timed out)
+2013-04-07 13:07:08	-->	jacobw (~jacobw@unaffiliated/jacobw) has joined #haskell
+2013-04-07 13:07:27	timthelion	kryft: Since if two things are Eq they should be Equal, that is, they should behave the same in all cases.
+2013-04-07 13:07:47	mauke	timthelion: but you can't deduce behavior from the type definition alone
+2013-04-07 13:08:20	timthelion	mauke: That is true, unlike with Functor, you can make a mistake in defining Eq.
+2013-04-07 13:08:37	mauke	I can also make a mistake with Functor
+2013-04-07 13:08:41	timthelion	mauke: but I can also define "reverse" incorectly, and that wouldn't make the name any less clear.
+2013-04-07 13:08:49	timthelion	mauke: try :D
+2013-04-07 13:08:50	elliott	instance Functor [] where fmap _ _ = []
+2013-04-07 13:09:04	elliott	instance Functor [] where fmap f xs = concatMap (\x -> [f x, f x]) xs
+2013-04-07 13:09:09	mauke	instance Functor [] where fmap f (x : xs) = [f x, f x]
+2013-04-07 13:09:12	elliott	there are many ways to screw up a Functor instance
+2013-04-07 13:09:28	 *	timthelion is surprised.
+2013-04-07 13:09:37	elliott	i am also surprised
+2013-04-07 13:09:43	mauke	instance Functor IO where fmap f x = do x; r <- x; return (f x)
+2013-04-07 13:10:01	 *	timthelion was under the impression that functor was truely unique based on the free theorums rule
+2013-04-07 13:10:11	elliott	of course these all violate the functor laws.
+2013-04-07 13:10:18	mauke	I am not constrained by theorems or laws when writing code
+2013-04-07 13:10:20	<--	fsvehla (~fsvehla@h081217181184.dyn.cm.kabsi.at) has quit (Quit: fsvehla)
+2013-04-07 13:10:37	elliott	well, you are constrained by free theorems.
+2013-04-07 13:10:39	-->	eyebloom (~eyebloom@user-387gm2l.cable.mindspring.com) has joined #haskell
+2013-04-07 13:10:45	mauke	unsafePerformIO
+2013-04-07 13:10:47	elliott	but f id = id of course doesn't hold for all functions
+2013-04-07 13:11:04	elliott	mauke: well, i think that would obviously be inadmissable in context :P
+2013-04-07 13:11:12	<--	phyrex1an (~phyrex1an@cm-84.211.97.217.getinternet.no) has quit (Read error: Connection reset by peer)
+2013-04-07 13:11:13	typoclass	well laws are a convention between humans. ghc doesn't know about them or check them
+2013-04-07 13:11:14	mauke	instance Functor [] where fmap _ [] = []; fmap f (x : xs) = (: map f xs) $! (f x)
+2013-04-07 13:11:23	-->	jbauman_ (~jbauman@108-214-96-152.lightspeed.sntcca.sbcglobal.net) has joined #haskell
+2013-04-07 13:11:36	-->	bsrkaditya (7aa95558@gateway/web/freenode/ip.122.169.85.88) has joined #haskell
+2013-04-07 13:12:23	-->	phyrex1an (~phyrex1an@cm-84.211.97.217.getinternet.no) has joined #haskell
+2013-04-07 13:12:48	<--	jbauman (~jbauman@108-214-96-152.lightspeed.sntcca.sbcglobal.net) has quit (Ping timeout: 260 seconds)
+2013-04-07 13:12:48	-->	erkin (~PinkiePie@unaffiliated/erkin) has joined #haskell
+2013-04-07 13:12:51	bsrkaditya	Hi, is there an equivalent of accumArray for map? ie, I am looking for a function of type Ord k => (a -> b -> a) -> a -> [(k,b)] -> M.Map k a
+2013-04-07 13:13:50	<--	tharper (~tomh@unaffiliated/sioraiocht) has quit (Remote host closed the connection)
+2013-04-07 13:14:10	<--	em (~em@unaffiliated/emma) has quit (Ping timeout: 245 seconds)
+2013-04-07 13:15:19	typoclass	timthelion: i think we do need improved haddocks. stuff should be easier to look up, and we need more meaningful explanations. there are some good resources on the web (e.g. typeclassopedia), but they're not linked to from any of the haddocks. so, i agree on the point that haskell is not particularly well discoverable
+2013-04-07 13:15:25	-->	dmac (~Adium@75-149-33-130-SFBA.hfc.comcastbusiness.net) has joined #haskell
+2013-04-07 13:15:26	<--	reckler (~reckler@ppp118-208-39-187.lns20.bne1.internode.on.net) has quit (Ping timeout: 245 seconds)
+2013-04-07 13:15:27	<--	Jonno_FTW (~come@9ch.in) has quit (Ping timeout: 256 seconds)
+2013-04-07 13:15:50	timthelion	typoclass: functions are easy enough to look up.
+2013-04-07 13:16:10	timthelion	typoclass: it's just type class instances of non unique type classes that give me trouble.
+2013-04-07 13:16:23	-->	jbauman (~jbauman@108-214-96-152.lightspeed.sntcca.sbcglobal.net) has joined #haskell
+2013-04-07 13:16:32	<--	vpopov (~happylife@dyn-32-176.fttbee.kis.ru) has quit (Ping timeout: 260 seconds)
+2013-04-07 13:16:33	elliott	bsrkaditya: perhaps mapAccum + fromList or something will accomplish what you want?
+2013-04-07 13:16:40	elliott	I admit I don't remember exactly what acumArray does
+2013-04-07 13:17:58	-->	jkoshy (~jkoshy@122.167.118.165) has joined #haskell
+2013-04-07 13:18:25	bsrkaditya	what does mapAccum do?
+2013-04-07 13:18:45	<--	kcj (~casey@unaffiliated/kcj) has quit (Ping timeout: 245 seconds)
+2013-04-07 13:19:06	<--	snoyberg (~ubuntu@89-139-153-6.bb.netvision.net.il) has quit (Ping timeout: 276 seconds)
+2013-04-07 13:19:07	elliott	see http://hackage.haskell.org/packages/archive/containers/0.5.2.1/doc/html/Data-Map-Lazy.html#v:mapAccum
+2013-04-07 13:19:33	<--	jbauman_ (~jbauman@108-214-96-152.lightspeed.sntcca.sbcglobal.net) has quit (Ping timeout: 240 seconds)
+2013-04-07 13:19:36	<--	dmac (~Adium@75-149-33-130-SFBA.hfc.comcastbusiness.net) has quit (Ping timeout: 245 seconds)
+2013-04-07 13:20:00	-->	madjestic (~madjestic@178-84-90-204.dynamic.upc.nl) has joined #haskell
+2013-04-07 13:22:34	<--	sh (~sh@uiharu.memespace.net) has quit (Remote host closed the connection)
+2013-04-07 13:22:47	-->	snoyberg (~ubuntu@89-139-153-6.bb.netvision.net.il) has joined #haskell
+2013-04-07 13:22:50	-->	sh (~sh@uiharu.memespace.net) has joined #haskell
+2013-04-07 13:25:13	<--	darthdeus (~darthdeus@c-2ec20ffa-74736162.cust.telenor.se) has left #haskell ("Linkinus - http://linkinus.com")
+2013-04-07 13:25:26	-->	Franciman (~quassel@host111-5-dynamic.23-79-r.retail.telecomitalia.it) has joined #haskell
+2013-04-07 13:26:47	<--	hallski (~hallski@c83-251-213-66.bredband.comhem.se) has quit (Ping timeout: 246 seconds)
+2013-04-07 13:27:36	<--	bsrkaditya (7aa95558@gateway/web/freenode/ip.122.169.85.88) has quit (Quit: Page closed)
+2013-04-07 13:30:33	-->	mpiechotka (~mpiechotk@178-36-63-68.adsl.inetia.pl) has joined #haskell
+2013-04-07 13:30:45	-->	staafl (~staafl@95-42-19-2.btc-net.bg) has joined #haskell
+2013-04-07 13:35:02	<--	phyrex1an (~phyrex1an@cm-84.211.97.217.getinternet.no) has quit (Read error: Connection reset by peer)
+2013-04-07 13:35:05	<--	birkenfeld (~gbrandl@pdpc/supporter/student/birkenfeld) has quit (Read error: Operation timed out)
+2013-04-07 13:35:16	<--	Paprikac_ (~Paprikach@178.115.251.81.wireless.dyn.drei.com) has quit (Remote host closed the connection)
+2013-04-07 13:35:24	-->	phyrex1an (~phyrex1an@cm-84.211.97.217.getinternet.no) has joined #haskell
+2013-04-07 13:36:02	-->	JaRoel|4d (~jaroel|4d@94.142.213.250) has joined #haskell
+2013-04-07 13:36:50	<--	fireglow (fireglow@unaffiliated/fireglow) has quit (Ping timeout: 252 seconds)
+2013-04-07 13:38:56	<--	fredmorcos (~fmorcos@cm56-238-233.liwest.at) has quit (Quit: Leaving)
+2013-04-07 13:39:01	-->	setmeaway (stemearay@118.45.149.119) has joined #haskell
+2013-04-07 13:39:08	-->	birkenfeld (~gbrandl@hammett.srv.pocoo.org) has joined #haskell
+2013-04-07 13:40:00	<--	birkenfeld (~gbrandl@hammett.srv.pocoo.org) has quit (Changing host)
+2013-04-07 13:40:00	-->	birkenfeld (~gbrandl@pdpc/supporter/student/birkenfeld) has joined #haskell
+2013-04-07 13:40:11	-->	fireglow (fireglow@unaffiliated/fireglow) has joined #haskell
+2013-04-07 13:41:14	<--	madjestic (~madjestic@178-84-90-204.dynamic.upc.nl) has quit (Ping timeout: 252 seconds)
+2013-04-07 13:43:02	-->	mars-92 (~makis@athedsl-147061.home.otenet.gr) has joined #haskell
+2013-04-07 13:43:46	--	PixelCrumbs is now known as Pixel_Zzzzz
+2013-04-07 13:43:48	<--	Pixel_Zzzzz (~pixelcrum@unaffiliated/pixelcrumbs) has quit (Remote host closed the connection)
+2013-04-07 13:44:57	<--	litherum (~litherum@c-24-19-135-10.hsd1.wa.comcast.net) has quit (Quit: litherum)
+2013-04-07 13:45:33	<--	ceii (~ceii@13-130.105-92.cust.bluewin.ch) has quit (Remote host closed the connection)
+2013-04-07 13:45:56	<--	hughfdjackson (~hughfdjac@unaffiliated/hughfdjackson) has quit (Ping timeout: 260 seconds)
+2013-04-07 13:46:29	-->	emmanuelux (~emmanuelu@vau92-2-82-228-217-1.fbx.proxad.net) has joined #haskell
+2013-04-07 13:47:10	-->	__main__ (~main@c-67-180-22-241.hsd1.ca.comcast.net) has joined #haskell
+2013-04-07 13:48:06	-->	twanvl (~Twan@dhcp-077-250-086-217.chello.nl) has joined #haskell
+2013-04-07 13:48:52	-->	ceii (~ceii@13-130.105-92.cust.bluewin.ch) has joined #haskell
+2013-04-07 13:51:16	<--	bitonic (~user@dyn1220-246.wlan.ic.ac.uk) has quit (Ping timeout: 245 seconds)
+2013-04-07 13:51:40	<--	twanvl_ (~Twan@dhcp-077-250-086-217.chello.nl) has quit (Ping timeout: 256 seconds)
+2013-04-07 13:51:54	<--	cognominal (~cognomina@37.161.195.144) has quit (Ping timeout: 252 seconds)
+2013-04-07 13:52:43	-->	rexim (~rexim@unaffiliated/rexim) has joined #haskell
+2013-04-07 13:52:55	<--	gabor (~heisenbug@p549438CC.dip.t-dialin.net) has quit (Quit: gabor)
+2013-04-07 13:53:12	no-n[1]	is there are function somewhere that pads a string up with '0's to become a given length?
+2013-04-07 13:53:22	no-n[1]	guess it would be easy to make
+2013-04-07 13:53:54	<--	predator117 (~predator1@p50804C4B.dip.t-dialin.net) has quit (Ping timeout: 252 seconds)
+2013-04-07 13:54:08	mauke	printf?
+2013-04-07 13:56:03	-->	adzeitor (~adzeitor@31.207.214.18) has joined #haskell
+2013-04-07 13:56:09	-->	noam_ (~noam@213.57.201.130) has joined #haskell
+2013-04-07 13:57:06	-->	em (~em@unaffiliated/emma) has joined #haskell
+2013-04-07 13:57:41	<--	dcoutts_ (~dcoutts@unaffiliated/dcoutts) has quit (Ping timeout: 257 seconds)
+2013-04-07 13:58:01	-->	cognominal (~cognomina@37.160.46.180) has joined #haskell
+2013-04-07 13:58:05	-->	nilsi (~nilsi@c83-253-22-138.bredband.comhem.se) has joined #haskell
+2013-04-07 13:58:17	<--	finishingmove (~finishing@78.9.155.175) has quit (Quit: Nettalk6 - www.ntalk.de)
+2013-04-07 13:58:30	<--	snowylike (~sn@91-67-171-156-dynip.superkabel.de) has quit (Quit: Nettalk6 - www.ntalk.de)
+2013-04-07 13:59:24	-->	`^_^v (~nycs@ool-4573da18.dyn.optonline.net) has joined #haskell
+2013-04-07 13:59:30	<--	nilsi (~nilsi@c83-253-22-138.bredband.comhem.se) has quit (Remote host closed the connection)
+2013-04-07 13:59:36	<--	noam (~noam@213.57.201.130) has quit (Ping timeout: 264 seconds)
+2013-04-07 14:00:01	<--	jpeeters (~Adium@cha28-2-88-170-128-140.fbx.proxad.net) has quit (Ping timeout: 245 seconds)
+2013-04-07 14:00:17	-->	bytbox (~s@129-2-129-85.wireless.umd.edu) has joined #haskell
+2013-04-07 14:01:03	-->	zhulikas (~zhulikas@213.159.34.100) has joined #haskell
+2013-04-07 14:01:47	<--	hamid (~nithp@unaffiliated/hamid) has quit (Ping timeout: 260 seconds)
+2013-04-07 14:01:55	-->	msuszczy (~martin@85.69.182.79) has joined #haskell
+2013-04-07 14:02:14	-->	fredmorcos (~fmorcos@cm56-238-233.liwest.at) has joined #haskell
+2013-04-07 14:02:19	<--	PatrickRobotham (~chatzilla@CPE-120-147-161-38.gdiv1.vic.bigpond.net.au) has quit (Ping timeout: 264 seconds)
+2013-04-07 14:02:37	-->	pala2 (~pala@HSI-KBW-134-3-229-202.hsi14.kabel-badenwuerttemberg.de) has joined #haskell
+2013-04-07 14:03:19	-->	Afish (PARAPET@chips.ds16.agh.edu.pl) has joined #haskell
+2013-04-07 14:05:44	-->	s_kilk (~shane@host81-152-130-140.range81-152.btcentralplus.com) has joined #haskell
+2013-04-07 14:06:36	-->	nh2 (~nh2@119.75.27.50) has joined #haskell
+2013-04-07 14:06:44	typoclass	> let pad c n = head . dropWhile ((< n) . length) . iterate (c :) in pad 'x' 6 "u" -- no-n[1]: don't know of one in the standard library, but you could use an infinite list ...
+2013-04-07 14:06:46	lambdabot	  "xxxxxu"
+2013-04-07 14:07:41	typoclass	hm, doesn't even need to be a Char, could be a String
+2013-04-07 14:07:48	-->	predator117 (~predator1@p50804C4B.dip.t-dialin.net) has joined #haskell
+2013-04-07 14:08:17	no-n[1]	ah, that's interesting
+2013-04-07 14:08:54	-->	bitonic (~user@dyn1216-117.wlan.ic.ac.uk) has joined #haskell
+2013-04-07 14:09:50	int-e	dropWhile ((< n) . length) --> drop (n - length xs)  will be faster (xs being the third argument to pad)
+2013-04-07 14:10:20	<--	quchen (~david@p54AA1B37.dip.t-dialin.net) has quit (Read error: Operation timed out)
+2013-04-07 14:11:44	-->	nexx (~SPS-User@dslb-178-011-254-029.pools.arcor-ip.net) has joined #haskell
+2013-04-07 14:12:01	-->	PaulVisschers (~PaulVissc@77-172-95-247.ip.telfort.nl) has joined #haskell
+2013-04-07 14:12:05	<--	predator117 (~predator1@p50804C4B.dip.t-dialin.net) has quit (Ping timeout: 245 seconds)
+2013-04-07 14:12:06	niteria	> let pad n = reverse . take n . (++ replicate n 'x') . reverse in pad 10 "str"
+2013-04-07 14:12:08	lambdabot	  "xxxxxxxstr"
+2013-04-07 14:12:41	arkeet	reversing twice is eeevil.
+2013-04-07 14:12:42	-->	dcoutts_ (~dcoutts@unaffiliated/dcoutts) has joined #haskell
+2013-04-07 14:12:59	niteria	and dropWhile on length isn
+2013-04-07 14:13:03	niteria	isn't?
+2013-04-07 14:13:06	arkeet	it's less evil.
+2013-04-07 14:13:30	-->	feliperosa (~felipe@201.4.183.246) has joined #haskell
+2013-04-07 14:13:33	-->	silver (~silver@37.215.137.246) has joined #haskell
+2013-04-07 14:14:26	int-e	I tend to disagree. It's a subtle way to introduce quadratic runtime into a function that should obviously finish in linear time.
+2013-04-07 14:14:28	arkeet	> let pad n s = replicate (n - length s) 'x' ++ s in pad 10 "str"
+2013-04-07 14:14:30	lambdabot	  "xxxxxxxstr"
+2013-04-07 14:14:39	-->	smerz (~smerz@a177088.upc-a.chello.nl) has joined #haskell
+2013-04-07 14:14:45	int-e	arkeet: of course :)
+2013-04-07 14:14:53	-->	adlan (~adlan@210.195.9.29) has joined #haskell
+2013-04-07 14:14:55	no-n[1]	oh, yeah :)
+2013-04-07 14:15:03	arkeet	oh, I didn't actually read int-e's thing.
+2013-04-07 14:15:04	niteria	that's a lot better
+2013-04-07 14:15:15	-->	tharper (~tomh@c83-250-198-77.bredband.comhem.se) has joined #haskell
+2013-04-07 14:15:16	<--	tharper (~tomh@c83-250-198-77.bredband.comhem.se) has quit (Changing host)
+2013-04-07 14:15:16	-->	tharper (~tomh@unaffiliated/sioraiocht) has joined #haskell
+2013-04-07 14:15:26	arkeet	> replicate (-1) 'a'
+2013-04-07 14:15:28	lambdabot	  ""
+2013-04-07 14:15:31	arkeet	ok cool.
+2013-04-07 14:15:39	-->	dmac (~Adium@75-149-33-130-SFBA.hfc.comcastbusiness.net) has joined #haskell
+2013-04-07 14:16:16	-->	tenmilestereo (~tnmlstr@w-70.cust-13055.ip.static.uno.uk.net) has joined #haskell
+2013-04-07 14:16:24	arkeet	would be nicer if it worked on infinite lists.
+2013-04-07 14:16:47	niteria	what's the length of infinite list?
+2013-04-07 14:16:57	-->	ramses_ (~ramses@cl-1301.bru-01.be.sixxs.net) has joined #haskell
+2013-04-07 14:16:59	int-e	> let pad n c s = replicate (n - length (take n s)) c ++ s in pad 10 'x' (repeat 'a')
+2013-04-07 14:17:01	<--	fredmorcos (~fmorcos@cm56-238-233.liwest.at) has quit (Quit: Leaving)
+2013-04-07 14:17:02	lambdabot	  "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...
+2013-04-07 14:17:05	no-n[1]	niteria: 4
+2013-04-07 14:17:11	<--	morazow (~morazow@92.36.136.95.rev.vodafone.pt) has quit (Ping timeout: 260 seconds)
+2013-04-07 14:17:21	-->	RichyB (~richardb@cpc10-hawk12-2-0-cust457.aztw.cable.virginmedia.com) has joined #haskell
+2013-04-07 14:17:40	arkeet	int-e: oh, alright.
+2013-04-07 14:17:59	-->	rsuniev123 (~rsuniev12@host86-132-70-180.range86-132.btcentralplus.com) has joined #haskell
+2013-04-07 14:18:07	<--	ahihi (~transient@cs149054.pp.htv.fi) has quit (Ping timeout: 260 seconds)
+2013-04-07 14:19:05	-->	izym (~izym@82.211.222.212) has joined #haskell
+2013-04-07 14:19:26	-->	hughfdjackson (~hughfdjac@unaffiliated/hughfdjackson) has joined #haskell
+2013-04-07 14:19:26	<--	hiro3 (~hiro@p210079202073.cnh.ne.jp) has quit (Ping timeout: 256 seconds)
+2013-04-07 14:20:01	<--	dmac (~Adium@75-149-33-130-SFBA.hfc.comcastbusiness.net) has quit (Ping timeout: 245 seconds)
+2013-04-07 14:23:00	<--	sh (~sh@uiharu.memespace.net) has quit (Remote host closed the connection)
+2013-04-07 14:23:17	-->	sh (~sh@uiharu.memespace.net) has joined #haskell
+2013-04-07 14:23:36	-->	yitz (~abba@line236.adsl.actcom.co.il) has joined #haskell
+2013-04-07 14:25:31	-->	gabor (~heisenbug@p549438CC.dip.t-dialin.net) has joined #haskell
+2013-04-07 14:25:40	<--	gabor (~heisenbug@p549438CC.dip.t-dialin.net) has quit (Client Quit)
+2013-04-07 14:25:50	<--	sh (~sh@uiharu.memespace.net) has quit (Remote host closed the connection)
+2013-04-07 14:25:57	--	amatsu\idle is now known as amatsu
+2013-04-07 14:26:06	-->	sh (~sh@uiharu.memespace.net) has joined #haskell
+2013-04-07 14:26:07	-->	ahihi (~transient@cs149054.pp.htv.fi) has joined #haskell
+2013-04-07 14:26:45	<--	Guest27287 (~programme@178.187.16-202.xdsl.ab.ru) has quit (Ping timeout: 248 seconds)
+2013-04-07 14:26:51	-->	Y_Less (Y_Less@90.193.117.25) has joined #haskell
+2013-04-07 14:28:12	-->	qzr (~qzr@adsl-89-217-111-126.adslplus.ch) has joined #haskell
+2013-04-07 14:28:17	<--	ndngvr` (~ndngvr@bcaec5e83086.click-network.com) has quit (Ping timeout: 256 seconds)
+2013-04-07 14:29:00	<--	jkoshy (~jkoshy@122.167.118.165) has quit (Quit: jkoshy)
+2013-04-07 14:30:22	-->	hamid (~nithp@unaffiliated/hamid) has joined #haskell
+2013-04-07 14:30:49	-->	Thra11 (~thrall@92.114.112.87.dyn.plus.net) has joined #haskell
+2013-04-07 14:31:18	typoclass	int-e: as far as i can tell, it doesn't seem to be faster http://hpaste.org/85350. it seems to be the same
+2013-04-07 14:32:42	int-e	typoclass: in that program, p 'x' 999 "u" is a constant and gets floated out; it's only evaluated once.
+2013-04-07 14:33:09	int-e	typoclass: (floated out of the mapM loop at least. which should be mapM_ but never mind.)
+2013-04-07 14:34:39	int-e	> let pad c n = head . dropWhile ((< n) . length) . iterate (c :); pad' c n xs = head . drop (n - length xs) . iterate (c :) $ xs in take 10 $ pad' 'x' 1000000 "a"
+2013-04-07 14:34:41	lambdabot	  "xxxxxxxxxx"
+2013-04-07 14:34:45	int-e	> let pad c n = head . dropWhile ((< n) . length) . iterate (c :); pad' c n xs = head . drop (n - length xs) . iterate (c :) $ xs in take 10 $ pad 'x' 1000000 "a"
+2013-04-07 14:34:49	lambdabot	  mueval-core: Time limit exceeded
+2013-04-07 14:35:18	arkeet	you should use something like criterion for benchmarking.
+2013-04-07 14:35:51	int-e	yeah, but this is asymptotic complexity ... no benchmarking required :)
+2013-04-07 14:35:55	<--	Afish (PARAPET@chips.ds16.agh.edu.pl) has quit (Quit: Miranda IM! Smaller, Faster, Easier. http://miranda-im.org)
+2013-04-07 14:36:34	int-e	(Not for telling the difference between O(n) and O(n^2) with reasonably small constant factors at least.)
+2013-04-07 14:36:41	__xc	> (show pi) !! 50
+2013-04-07 14:36:43	lambdabot	  *Exception: Prelude.(!!): index too large
+2013-04-07 14:36:47	arkeet	fine
+2013-04-07 14:36:55	arkeet	> (show (pi :: CReal)) !! 50
+2013-04-07 14:36:57	lambdabot	  *Exception: Prelude.(!!): index too large
+2013-04-07 14:37:00	arkeet	er right.
+2013-04-07 14:37:04	arkeet	> pi :: CReal
+2013-04-07 14:37:06	lambdabot	  3.1415926535897932384626433832795028841972
+2013-04-07 14:37:18	__xc	Real -> 32
+2013-04-07 14:37:23	niteria	:t (!!)
+2013-04-07 14:37:24	lambdabot	[a] -> Int -> a
+2013-04-07 14:37:43	arkeet	> showCReal 100 pi
+2013-04-07 14:37:45	lambdabot	  "3.141592653589793238462643383279502884197169399375105820974944592307816406...
+2013-04-07 14:37:48	<--	JaRoel|4d (~jaroel|4d@94.142.213.250) has quit (Remote host closed the connection)
+2013-04-07 14:38:21	niteria	for a moment I thought it was some typeclassy thing, a lot of things are indexable
+2013-04-07 14:38:32	<--	s_kilk (~shane@host81-152-130-140.range81-152.btcentralplus.com) has quit (Quit: Leaving)
+2013-04-07 14:38:33	__xc	> (showCReal 100 pi) !! 40
+2013-04-07 14:38:35	lambdabot	  '7'
+2013-04-07 14:38:48	__xc	> (showCReal 100 pi) !! 90
+2013-04-07 14:38:50	lambdabot	  '2'
+2013-04-07 14:38:53	<--	heruur (~tvh@2a00:12d0:a100:a101:304d:10ef:6ba4:4696) has quit (Ping timeout: 246 seconds)
+2013-04-07 14:39:05	__xc	interesting..
+2013-04-07 14:39:05	arkeet	> (showCReal 1000000 pi) !! 100
+2013-04-07 14:39:09	lambdabot	  mueval-core: Time limit exceeded
+2013-04-07 14:39:11	arkeet	not lazy, then.
+2013-04-07 14:39:31	arkeet	> head $ showCReal 1000000 pi
+2013-04-07 14:39:35	lambdabot	  mueval-core: Time limit exceeded
+2013-04-07 14:39:41	__xc	maybe it works on ghci
+2013-04-07 14:39:52	-->	Guest27287 (~programme@176.50.56.68) has joined #haskell
+2013-04-07 14:40:01	-->	chessguy (~chessguy@pool-96-241-233-170.washdc.fios.verizon.net) has joined #haskell
+2013-04-07 14:40:21	<--	xenon21 (~xenon@122.155.36.177) has quit (Read error: Connection reset by peer)
+2013-04-07 14:40:22	<--	typoclass (~typoclass@p4FC93030.dip.t-dialin.net) has quit (Quit: Leaving.)
+2013-04-07 14:40:38	int-e	> head $ showCReal 1000000 (37/39)
+2013-04-07 14:40:42	lambdabot	  mueval-core: Time limit exceeded
+2013-04-07 14:41:07	__xc	weird
+2013-04-07 14:41:13	-->	aCube (~cubce@dslb-178-012-202-161.pools.arcor-ip.net) has joined #haskell
+2013-04-07 14:41:20	-->	predator117 (~predator1@p50804C4B.dip.t-dialin.net) has joined #haskell
+2013-04-07 14:41:26	latro`a	lambdabot's time limit is rather stringent
+2013-04-07 14:41:55	arkeet	> showCReal 1 pi
+2013-04-07 14:41:57	lambdabot	  "3.1"
+2013-04-07 14:42:05	__xc	@src showCReal
+2013-04-07 14:42:05	lambdabot	Source not found. The more you drive -- the dumber you get.
+2013-04-07 14:42:19	latro`a	@src is extremely limited
+2013-04-07 14:42:19	lambdabot	Source not found. My mind is going. I can feel it.
+2013-04-07 14:42:20	<--	predator117 (~predator1@p50804C4B.dip.t-dialin.net) has quit (Remote host closed the connection)
+2013-04-07 14:42:27	-->	predator117 (~predator1@p50804C4B.dip.t-dialin.net) has joined #haskell
+2013-04-07 14:42:27	int-e	> showCReal 3 pi -- 1 or 2?
+2013-04-07 14:42:29	lambdabot	  "3.142"
+2013-04-07 14:42:32	-->	peterjoel (~peterjoel@host109-152-188-129.range109-152.btcentralplus.com) has joined #haskell
+2013-04-07 14:42:41	arkeet	@let blah [] ys = ys; blah (x:xs) (_:ys) = x : blah xs ys
+2013-04-07 14:42:43	lambdabot	 Defined.
+2013-04-07 14:42:49	-->	JaRoel|4d (~jaroel|4d@94.142.213.250) has joined #haskell
+2013-04-07 14:42:55	arkeet	> foldr1 blah (map (showCReal ?? pi) [1..])
+2013-04-07 14:42:59	lambdabot	  mueval-core: Time limit exceeded
+2013-04-07 14:43:01	arkeet	hmm
+2013-04-07 14:43:22	arkeet	@let blah [] ys = ys; blah (x:xs) ~(_:ys) = x : blah xs ys
+2013-04-07 14:43:23	lambdabot	 <local>:17:1:
+2013-04-07 14:43:23	lambdabot	     Warning: Pattern match(es) are overlapped
+2013-04-07 14:43:23	lambdabot	              I...
+2013-04-07 14:43:25	arkeet	right.
+2013-04-07 14:43:26	<--	v (~v@199.68.198.120) has quit (Ping timeout: 246 seconds)
+2013-04-07 14:43:26	arkeet	@undefine
+2013-04-07 14:43:28	arkeet	@let blah [] ys = ys; blah (x:xs) ~(_:ys) = x : blah xs ys
+2013-04-07 14:43:30	lambdabot	 Defined.
+2013-04-07 14:43:33	arkeet	> foldr1 blah (map (showCReal ?? pi) [1..])
+2013-04-07 14:43:37	lambdabot	  mueval-core: Time limit exceeded
+2013-04-07 14:43:53	latro`a	:t (??)
+2013-04-07 14:43:55	lambdabot	Functor f => f (a -> b) -> a -> f b
+2013-04-07 14:43:58	-->	subbyyy (~win@cpe-24-165-118-58.cinci.res.rr.com) has joined #haskell
+2013-04-07 14:44:02	arkeet	oh heh it doesn't work anyway.
+2013-04-07 14:44:04	arkeet	?? is infix flip
+2013-04-07 14:44:04	lambdabot	 is infix flip
+2013-04-07 14:44:44	latro`a	flip generalizes to Functor, OK, TIL
+2013-04-07 14:44:53	-->	lachenmayer (~lachenmay@p5492E538.dip.t-dialin.net) has joined #haskell
+2013-04-07 14:45:04	arkeet	@let blah' [x] ys = ys; blah' (x:xs) ~(_:ys) = x : blah' xs ys
+2013-04-07 14:45:06	lambdabot	 Defined.
+2013-04-07 14:46:50	arkeet	@let lazyShowCReal n x = foldr1 blah' (map (showCReal ?? pi) [0..])
+2013-04-07 14:46:52	lambdabot	 Defined.
+2013-04-07 14:46:53	niteria	?? is nice, is it packaged somewhere?
+2013-04-07 14:46:53	lambdabot	Plugin `compose' failed with: Unknown command: ""
+2013-04-07 14:46:56	arkeet	it's in lens
+2013-04-07 14:47:06	arkeet	oops
+2013-04-07 14:47:13	arkeet	@let foo x = foldr1 blah' (map (showCReal ?? pi) [0..])
+2013-04-07 14:47:15	lambdabot	 Defined.
+2013-04-07 14:47:18	niteria	of course, everything is in lens
+2013-04-07 14:47:19	arkeet	I'm really dumb.
+2013-04-07 14:47:20	arkeet	@undefine
+2013-04-07 14:47:27	arkeet	@let blah [_] ys = ys; blah (x:xs) ~(_:ys) = x : blah xs ys
+2013-04-07 14:47:29	lambdabot	 Defined.
+2013-04-07 14:47:38	int-e	> take 20 $ let blah ((x:_):xss) = x : blah (map tail xss) in blah (map (showCReal ?? pi) [1..])
+2013-04-07 14:47:39	arkeet	@let lazyShowCReal x = foldr1 blah (map (showCReal ?? x) [0..])
+2013-04-07 14:47:40	lambdabot	  "3.141592653589793238"
+2013-04-07 14:47:40	lambdabot	 Defined.
+2013-04-07 14:47:53	arkeet	> take 20 $ lazyShowCReal pi
+2013-04-07 14:47:55	lambdabot	  "3.141592653589793238"
+2013-04-07 14:48:08	arkeet	lazy and slow :P
+2013-04-07 14:48:29	arkeet	@let lazyShowCReal' x = foldr1 blah (map (showCReal ?? x) (iterate (*2) 1))
+2013-04-07 14:48:31	lambdabot	 Defined.
+2013-04-07 14:48:32	arkeet	> take 20 $ lazyShowCReal' pi
+2013-04-07 14:48:34	lambdabot	  "3.141592653589793238"
+2013-04-07 14:49:36	-->	Apocalisp (~textual@c-174-62-237-65.hsd1.ma.comcast.net) has joined #haskell
+2013-04-07 14:49:41	arkeet	> lazyShowCReal' pi
+2013-04-07 14:49:42	<--	lachenmayer (~lachenmay@p5492E538.dip.t-dialin.net) has quit (Ping timeout: 248 seconds)
+2013-04-07 14:49:43	lambdabot	  "3.141592653589793238462643383279502884197169399375105820974944592307816406...
+2013-04-07 14:49:54	arkeet	> lazyShowCReal' pi !! 1000
+2013-04-07 14:49:56	lambdabot	  '8'
+2013-04-07 14:50:08	niteria	nice, lazyfication with log n overhead
+2013-04-07 14:50:35	<--	lewis1711 (~chatzilla@122-59-194-155.jetstream.xtra.co.nz) has quit (Quit: ChatZilla 0.9.90 [Firefox 19.0.2/20130307122351])
+2013-04-07 14:51:09	-->	lachenmayer (~lachenmay@p5492E538.dip.t-dialin.net) has joined #haskell
+2013-04-07 14:51:34	-->	twanvl_ (~Twan@dhcp-077-250-086-217.chello.nl) has joined #haskell
+2013-04-07 14:51:58	-->	dschoepe (~dschoepe@unaffiliated/dschoepe) has joined #haskell
+2013-04-07 14:52:04	-->	Thomyho4 (~thomyho@mnhm-590c126d.pool.mediaWays.net) has joined #haskell
+2013-04-07 14:52:21	-->	AfC (~andrew@gateway.syd.operationaldynamics.com) has joined #haskell
+2013-04-07 14:52:27	<--	flebron (~flebron@c-76-102-255-42.hsd1.ca.comcast.net) has quit
+2013-04-07 14:53:10	<--	lachenmayer (~lachenmay@p5492E538.dip.t-dialin.net) has quit (Client Quit)
+2013-04-07 14:54:02	<--	ab9rf (~kmartin@pyrzqxgl-1-pt.tunnel.tserv9.chi1.ipv6.he.net) has quit (Remote host closed the connection)
+2013-04-07 14:54:39	-->	ab9rf (~kmartin@pyrzqxgl-1-pt.tunnel.tserv9.chi1.ipv6.he.net) has joined #haskell
+2013-04-07 14:55:08	<--	twanvl (~Twan@dhcp-077-250-086-217.chello.nl) has quit (Ping timeout: 256 seconds)
+2013-04-07 14:55:09	<--	dschoepe (~dschoepe@unaffiliated/dschoepe) has quit (Read error: Operation timed out)
+2013-04-07 14:55:17	<--	feliperosa (~felipe@201.4.183.246) has quit (Quit: Leaving)
+2013-04-07 14:55:27	<--	Guest27287 (~programme@176.50.56.68) has quit (Read error: Operation timed out)
+2013-04-07 14:55:38	dario	@ty (>>>)
+2013-04-07 14:55:39	lambdabot	Control.Category.Category cat => cat a b -> cat b c -> cat a c
+2013-04-07 14:58:30	-->	LK4D4 (~LK4D4@2002:c35d:cf2c:2::2102) has joined #haskell
+2013-04-07 14:58:31	-->	heruur (~tvh@239-156-103-86.dynamic.dsl.tng.de) has joined #haskell
+2013-04-07 14:59:13	-->	JaRoel (~jaroel|4d@94.142.213.250) has joined #haskell
+2013-04-07 14:59:16	<--	LK4D4 (~LK4D4@2002:c35d:cf2c:2::2102) has left #haskell
+2013-04-07 14:59:53	int-e	Hmm, CReal gets really slow at computing pi for more than 10k digits.
+2013-04-07 15:00:32	-->	v (~v@199.68.198.120) has joined #haskell
+2013-04-07 15:00:46	arkeet	ah, creal computes pi as 16 arctan(1/5) - 4 arctan(1/239(
+2013-04-07 15:00:47	arkeet	)
+2013-04-07 15:00:59	-->	RageOfThou (~RageOfTho@cable-77-221-21-70.dynamic.telemach.ba) has joined #haskell
+2013-04-07 15:01:19	<--	fireglow (fireglow@unaffiliated/fireglow) has quit (Ping timeout: 240 seconds)
+2013-04-07 15:01:21	arkeet	which it does by a power series
+2013-04-07 15:01:35	-->	Jambato (~le@auv95-1-82-241-80-196.fbx.proxad.net) has joined #haskell
+2013-04-07 15:01:42	arkeet	so it's probably quadratic time or so
+2013-04-07 15:02:09	-->	Itkovian (~Itkovian@178-118-76-90.access.telenet.be) has joined #haskell
+2013-04-07 15:02:10	<--	mars-92 (~makis@athedsl-147061.home.otenet.gr) has quit (Quit: leaving)
+2013-04-07 15:02:29	<--	birkenfeld (~gbrandl@pdpc/supporter/student/birkenfeld) has quit (Ping timeout: 248 seconds)
+2013-04-07 15:02:34	int-e	arkeet: but still I think your lazyShowCReal' is wrong with probability 1, because the second-to-last digit of each chunk is incorrect with probability 1/20. (namly when rounding up a last digit that is 0)
+2013-04-07 15:02:52	arkeet	oh, I didn
+2013-04-07 15:02:55	arkeet	't know that.
+2013-04-07 15:02:59	int-e	... that is 9
+2013-04-07 15:03:04	<--	JaRoel|4d (~jaroel|4d@94.142.213.250) has quit (Ping timeout: 256 seconds)
+2013-04-07 15:03:14	-->	tzxn3 (~tzxn3@cpc14-mapp11-2-0-cust125.12-4.cable.virginmedia.com) has joined #haskell
+2013-04-07 15:03:15	int-e	(who put 0 right next to 9 on the keyboard anyway?)
+2013-04-07 15:03:32	__xc	> lazyShowCReal' pi !! 100000
+2013-04-07 15:03:34	arkeet	or hadn't thought of it.
+2013-04-07 15:03:36	lambdabot	  mueval-core: Time limit exceeded
+2013-04-07 15:03:51	__xc	> lazyShowCReal' pi !! 10000
+2013-04-07 15:03:54	lambdabot	  mueval-core: Time limit exceeded
+2013-04-07 15:04:09	-->	ndngvr (~ndngvr@131.191.89.46) has joined #haskell
+2013-04-07 15:04:11	arkeet	> drop 750 $ showCReal 770 pi
+2013-04-07 15:04:12	lambdabot	  "6051870721134999999837"
+2013-04-07 15:04:18	<--	uvelichitel (~uvelichit@ip254-156.200.109.crimea.com) has quit (Quit: Leaving...)
+2013-04-07 15:04:18	arkeet	> drop 750 $ showCReal 767 pi
+2013-04-07 15:04:20	lambdabot	  "6051870721135"
+2013-04-07 15:04:22	arkeet	heh.
+2013-04-07 15:04:33	-->	birkenfeld (~gbrandl@hammett.srv.pocoo.org) has joined #haskell
+2013-04-07 15:04:36	<--	birkenfeld (~gbrandl@hammett.srv.pocoo.org) has quit (Changing host)
+2013-04-07 15:04:37	-->	birkenfeld (~gbrandl@pdpc/supporter/student/birkenfeld) has joined #haskell
+2013-04-07 15:04:43	<--	FunkyDrummer (~RageOfTho@cable-77-221-21-70.dynamic.telemach.ba) has quit (Ping timeout: 264 seconds)
+2013-04-07 15:04:47	-->	fireglow (fireglow@unaffiliated/fireglow) has joined #haskell
+2013-04-07 15:05:04	__xc	99999, pi is irregular there
+2013-04-07 15:06:16	<--	zakora (~NC@tok69-4-82-236-111-173.fbx.proxad.net) has quit (Quit: Quit: Textual IRC Client: www.textualapp.com)
+2013-04-07 15:06:24	arkeet	I smiled when I learned about that the first time.
+2013-04-07 15:07:21	-->	tcrayford (tcrayford@gateway/shell/ircrelay.com/x-scvevppcdueklymp) has joined #haskell
+2013-04-07 15:07:49	int-e	arkeet: but you can use it to fool people; the first 32768 characters are correct at least; I'm not patient enough to push the calculation further.
+2013-04-07 15:07:58	arkeet	haha
+2013-04-07 15:08:39	-->	fro0t (~fro0t@1.23.67.95) has joined #haskell
+2013-04-07 15:08:41	arkeet	> lazyShowCReal pi
+2013-04-07 15:08:43	__xc	my password is a sequance of pi, so I don't forget it, no jk
+2013-04-07 15:08:45	lambdabot	  mueval-core: Time limit exceeded
+2013-04-07 15:08:49	arkeet	bah
+2013-04-07 15:08:54	arkeet	> tale 50 $  lazyShowCReal pi
+2013-04-07 15:08:55	lambdabot	  Not in scope: `tale'
+2013-04-07 15:08:56	lambdabot	 Perhaps you meant one of these:
+2013-04-07 15:08:56	lambdabot	   `take' (imported f...
+2013-04-07 15:08:59	__xc	that's why I asked you about pi
+2013-04-07 15:08:59	arkeet	> take 50 $  lazyShowCReal pi
+2013-04-07 15:09:01	__xc	hehe
+2013-04-07 15:09:01	int-e	__xc: so it's 99999?
+2013-04-07 15:09:01	lambdabot	  "3.141592653589793238462643383279502884197169399375"
+2013-04-07 15:09:06	__xc	lol
+2013-04-07 15:09:11	arkeet	well those are correct, hm
+2013-04-07 15:09:16	-->	gabor (~heisenbug@p549438CC.dip.t-dialin.net) has joined #haskell
+2013-04-07 15:09:29	-->	Guest27287 (~programme@178.186.162-106.xdsl.ab.ru) has joined #haskell
+2013-04-07 15:09:34	<--	gabor (~heisenbug@p549438CC.dip.t-dialin.net) has quit (Client Quit)
+2013-04-07 15:09:36	arkeet	oh yeah, it could only go wrong if there's a 99 that's rounded up.
+2013-04-07 15:09:48	__xc	no it is between the 10000th and 10008 digit of pi
+2013-04-07 15:09:50	arkeet	because it doesn't write trailing zeros
+2013-04-07 15:10:00	-->	lachenmayer (~lachenmay@p5492E538.dip.t-dialin.net) has joined #haskell
+2013-04-07 15:10:06	-->	dawe (~dawe@koln-4d0d1471.pool.mediaWays.net) has joined #haskell
+2013-04-07 15:10:13	arkeet	__xc: you better change your password now
+2013-04-07 15:10:21	arkeet	:p
+2013-04-07 15:10:21	__xc	:))
+2013-04-07 15:11:27	arkeet	I have a couple random-looking passwords derived from nonsense phrases, and the rest I have a password manager for.
+2013-04-07 15:11:32	arkeet	but I guess that's -blah.
+2013-04-07 15:11:34	int-e	arkeet: oh. then it's actually correct
+2013-04-07 15:11:49	arkeet	int-e: oh, so it is.
+2013-04-07 15:11:52	int-e	arkeet: because when 99 gets rounded up, 2 digits are truncated, and so on.
+2013-04-07 15:11:53	-->	fredmorcos (~fmorcos@cm56-238-233.liwest.at) has joined #haskell
+2013-04-07 15:12:08	int-e	wow
+2013-04-07 15:12:09	arkeet	cool =)
+2013-04-07 15:12:13	-->	estebistec (~estebiste@174.34.1.240.reverse.socket.net) has joined #haskell
+2013-04-07 15:12:27	arkeet	> lazyShowCReal 1
+2013-04-07 15:12:31	lambdabot	  mueval-core: Time limit exceeded
+2013-04-07 15:12:34	arkeet	heh.
+2013-04-07 15:12:43	<--	floatingman1 (~dnewman@c-69-137-90-245.hsd1.tn.comcast.net) has quit (Read error: Connection reset by peer)
+2013-04-07 15:12:51	arkeet	> lazyShowCReal' (1 - 1/10^100)
+2013-04-07 15:12:55	lambdabot	  mueval-core: Time limit exceeded
+2013-04-07 15:13:00	arkeet	> lazyShowCReal' (1 - 1/10^10)
+2013-04-07 15:13:04	lambdabot	  mueval-core: Time limit exceeded
+2013-04-07 15:13:08	arkeet	> showCReal 100 (1 - 1/10^10)
+2013-04-07 15:13:10	lambdabot	  "0.9999999999"
+2013-04-07 15:13:14	arkeet	right.
+2013-04-07 15:13:17	arkeet	> lazyShowCReal' (1 - 1/10^1000)
+2013-04-07 15:13:21	lambdabot	  mueval-core: Time limit exceeded
+2013-04-07 15:13:30	arkeet	> lazyShowCReal' (1 - 1/10^2000)
+2013-04-07 15:13:34	lambdabot	  mueval-core: Time limit exceeded
+2013-04-07 15:13:45	dario	lower exponent, not higher..
+2013-04-07 15:13:46	__xc	"this is my strong password"
+2013-04-07 15:14:02	arkeet	dario: no, lambdabot takes 1024 characters or so from show
+2013-04-07 15:14:14	<--	ndngvr (~ndngvr@131.191.89.46) has quit (Ping timeout: 246 seconds)
+2013-04-07 15:14:14	arkeet	so it will fail if it loops before generating that many
+2013-04-07 15:14:31	arkeet	> showCReal 2000 (1 - 1/10^2000)
+2013-04-07 15:14:34	lambdabot	  "0.999999999999999999999999999999999999999999999999999999999999999999999999...
+2013-04-07 15:14:38	dario	so time has nothing to do with it?
+2013-04-07 15:14:39	arkeet	> showCReal 1999 (1 - 1/10^2000)
+2013-04-07 15:14:41	lambdabot	  "1.0"
+2013-04-07 15:14:58	arkeet	dario: it loops if we ask for too many digits.
+2013-04-07 15:15:17	arkeet	anyway, that's something to fix.
+2013-04-07 15:15:18	<--	mapf (~user@5.254.180.254) has quit (Ping timeout: 252 seconds)
+2013-04-07 15:15:23	arkeet	but I guess we can't fix it.
+2013-04-07 15:15:24	dario	"loops" as in doesn't terminate within 1024 characters?
+2013-04-07 15:15:29	arkeet	yeah
+2013-04-07 15:15:32	arkeet	er
+2013-04-07 15:15:48	arkeet	well it has to do with how lazyShowCReal works.
+2013-04-07 15:15:54	<--	v (~v@199.68.198.120) has quit (Ping timeout: 256 seconds)
+2013-04-07 15:16:00	<--	vili (~vili@cpe-76-189-126-223.neo.res.rr.com) has quit (Ping timeout: 258 seconds)
+2013-04-07 15:16:02	-->	dmac (~Adium@75-149-33-130-SFBA.hfc.comcastbusiness.net) has joined #haskell
+2013-04-07 15:16:10	int-e	> showCReal 1999 (1 - 5.2/10^2000)
+2013-04-07 15:16:12	lambdabot	  "1.0"
+2013-04-07 15:17:02	<--	weie_ (~eie@softbank221078042071.bbtec.net) has quit (Ping timeout: 256 seconds)
+2013-04-07 15:17:05	int-e	> showCReal 1999 (1 - 5.3/10^2000)
+2013-04-07 15:17:08	lambdabot	  "0.999999999999999999999999999999999999999999999999999999999999999999999999...
+2013-04-07 15:17:15	<--	RenJuan (~juan@cpe-76-180-168-166.buffalo.res.rr.com) has left #haskell
+2013-04-07 15:17:17	-->	phischu (~pschuster@p4FD309D4.dip0.t-ipconnect.de) has joined #haskell
+2013-04-07 15:17:20	arkeet	I don't get it.
+2013-04-07 15:17:27	-->	hiyakashi (~hiyakashi@p4025-ipbf3204marunouchi.tokyo.ocn.ne.jp) has joined #haskell
+2013-04-07 15:17:42	-->	weie (~eie@softbank221078042071.bbtec.net) has joined #haskell
+2013-04-07 15:17:45	<--	mmaruseacph2 (~mihai@swarm.cs.pub.ro) has quit (Remote host closed the connection)
+2013-04-07 15:17:48	-->	madjestic (~madjestic@178-84-90-204.dynamic.upc.nl) has joined #haskell
+2013-04-07 15:17:48	arkeet	why does it do that?
+2013-04-07 15:18:09	int-e	It's rounding incorrectly, but that's to be expected, since one cannot pinpoint computable reals exactly.
+2013-04-07 15:18:28	arkeet	hm
+2013-04-07 15:18:34	<--	sonda (~sonda@adsl-ull-195-200.50-151.net24.it) has quit (Read error: Connection reset by peer)
+2013-04-07 15:18:34	int-e	so the comparison to 1 - 5/10^2000 (in this case) cannot be exact.
+2013-04-07 15:18:35	-->	bananagram (~bot@c-98-198-236-112.hsd1.tx.comcast.net) has joined #haskell
+2013-04-07 15:18:48	-->	anRch (~markmilli@ip-64-134-243-177.public.wayport.net) has joined #haskell
+2013-04-07 15:18:52	arkeet	> showCReal 19 (1 - 5.3/10^20)
+2013-04-07 15:18:53	lambdabot	  "0.9999999999999999999"
+2013-04-07 15:18:54	arkeet	> showCReal 19 (1 - 5.2/10^20)
+2013-04-07 15:18:55	<--	qzr (~qzr@adsl-89-217-111-126.adslplus.ch) has quit (Remote host closed the connection)
+2013-04-07 15:18:56	lambdabot	  "0.9999999999999999999"
+2013-04-07 15:19:00	arkeet	> showCReal 19 (1 - 5.01/10^20)
+2013-04-07 15:19:01	-->	Arnar (~arnarb@li187-148.members.linode.com) has joined #haskell
+2013-04-07 15:19:01	lambdabot	  "0.9999999999999999999"
+2013-04-07 15:19:06	arkeet	well whatever.
+2013-04-07 15:19:22	-->	Kruppe (~user@CPE602ad0938e9a-CM602ad0938e97.cpe.net.cable.rogers.com) has joined #haskell
+2013-04-07 15:19:23	-->	boccato (~boccato@201.87.106.41) has joined #haskell
+2013-04-07 15:19:37	--	no-n[1] is now known as no-n[2]
+2013-04-07 15:20:23	int-e	> showCReal 19 (1 - 4.99 / 10^20) -- going wrong in the other direction here
+2013-04-07 15:20:24	<--	dmac (~Adium@75-149-33-130-SFBA.hfc.comcastbusiness.net) has quit (Ping timeout: 245 seconds)
+2013-04-07 15:20:25	lambdabot	  "0.9999999999999999999"
+2013-04-07 15:20:34	arkeet	heh
+2013-04-07 15:20:39	-->	jianmeng (~mengjian@123.138.39.31) has joined #haskell
+2013-04-07 15:22:06	-->	Sorella (~queen@201.80.212.227) has joined #haskell
+2013-04-07 15:22:54	-->	sepp2k (~sepp2k@64pc60.pools.uni-luebeck.de) has joined #haskell
+2013-04-07 15:23:00	<--	Arnar (~arnarb@li187-148.members.linode.com) has quit (Remote host closed the connection)
+2013-04-07 15:23:02	<--	bradleyayers (~brad@ppp201-252.static.internode.on.net) has quit (Remote host closed the connection)
+2013-04-07 15:23:24	-->	gabor (~heisenbug@p549438CC.dip.t-dialin.net) has joined #haskell
+2013-04-07 15:23:52	<--	gabor (~heisenbug@p549438CC.dip.t-dialin.net) has quit (Client Quit)
+2013-04-07 15:24:29	-->	AgentM (~AgentM@cpe-74-64-32-157.nyc.res.rr.com) has joined #haskell
+2013-04-07 15:24:36	<--	fro0t (~fro0t@1.23.67.95) has quit (Ping timeout: 256 seconds)
+2013-04-07 15:25:00	<--	lachenmayer (~lachenmay@p5492E538.dip.t-dialin.net) has quit (Quit: lachenmayer)
+2013-04-07 15:27:48	<--	leoncamel2 (~leoncamel@124.126.171.114) has quit (Ping timeout: 256 seconds)
+2013-04-07 15:27:54	-->	groovy2shoes (~cory@unaffiliated/groovebot) has joined #haskell
+2013-04-07 15:28:20	-->	hseg (5f567ee9@gateway/web/freenode/ip.95.86.126.233) has joined #haskell
+2013-04-07 15:29:23	-->	jpeeters (~Adium@cha28-2-88-170-128-140.fbx.proxad.net) has joined #haskell
+2013-04-07 15:29:24	hseg	Trying to install HLint. Getting the error pasted below. How do I diagnose, and how do I fix?
+2013-04-07 15:29:26	hpaste	hseg pasted “Errors” at http://hpaste.org/85354
+2013-04-07 15:29:44	-->	latermuse (~ron@112.201.145.213) has joined #haskell
+2013-04-07 15:29:51	-->	jutaro (~jutaro@p5DDB272F.dip.t-dialin.net) has joined #haskell
+2013-04-07 15:30:31	finnrobi	I'm trying to create a clone of wc using System.Console.CmdArgs (learning purposes) and I want to preserve the semantics that the argument '-' means stdin. Just passing it in on argv makes CmdArgs complain, but what I think I want to do is to just pass it through as a positional parameter (adding it to my [FilePath] field). Is this possible?
+2013-04-07 15:32:05	arkeet	hseg: you should show the rest of the build log.
+2013-04-07 15:32:09	__xc	hseg, install these packages?
+2013-04-07 15:32:32	arkeet	hseg: sounds like hashable might be broken? what does `ghc-pkg check` say?
+2013-04-07 15:32:34	hseg	Hashable is installed. At least, in GHCi, import Data.Hashable doesn't give me errors
+2013-04-07 15:32:38	arkeet	hmm
+2013-04-07 15:32:42	supki	that looks like linker error?
+2013-04-07 15:32:53	arkeet	hseg: but do you have multiple versions of hashable installed?
+2013-04-07 15:33:29	hseg	Don't think so. Multiple versions of GHC, though...
+2013-04-07 15:33:32	arkeet	hseg: anyway, you should show the rest of the build log.
+2013-04-07 15:33:38	arkeet	hm...
+2013-04-07 15:33:47	no-n[2]	does programming ever make your mind feel weird?
+2013-04-07 15:33:48	__xc	ah this is your cabal error?
+2013-04-07 15:33:59	<--	madjestic (~madjestic@178-84-90-204.dynamic.upc.nl) has quit (Ping timeout: 252 seconds)
+2013-04-07 15:34:17	hseg	Yes. This is the tail end of the error, after all the "Building foo" lines
+2013-04-07 15:34:26	__xc	k
+2013-04-07 15:34:30	-->	v (~v@61.173.101.195) has joined #haskell
+2013-04-07 15:35:00	hseg	Is there any way I can uninstall GHC 7.6 and make cabal remove all packages compiled with it? That way I'll have one GHC on my system.
+2013-04-07 15:35:03	-->	dnolen (~user@cpe-74-64-32-223.nyc.res.rr.com) has joined #haskell
+2013-04-07 15:35:04	arkeet	hseg: you should show the rest of it.
+2013-04-07 15:35:29	-->	JaRoel|4d (~jaroel|4d@94.142.213.250) has joined #haskell
+2013-04-07 15:35:49	hpaste	hseg annotated “Errors” with “Full log” at http://hpaste.org/85354#a85355
+2013-04-07 15:35:55	supki	hseg: are you sure you can use anything from hashable after you import it?
+2013-04-07 15:36:26	arkeet	right, ghci doesn't link until you actually use something from the module.
+2013-04-07 15:36:46	arkeet	hseg: what does ghc-pkg check say?
+2013-04-07 15:36:52	hseg	Typechecking works. Actually evaluating stuff, not so much
+2013-04-07 15:37:24	-->	k0001 (~k0001@host144.186-125-147.telecom.net.ar) has joined #haskell
+2013-04-07 15:37:24	hpaste	hseg annotated “Errors” with “ghc-pkg check” at http://hpaste.org/85354#a85356
+2013-04-07 15:37:53	arkeet	nothing broken according to it.
+2013-04-07 15:38:02	arkeet	but maybe a reinstall of hashable would fix it anyway?
+2013-04-07 15:38:49	-->	s_kilk (~shane@host81-152-130-140.range81-152.btcentralplus.com) has joined #haskell
+2013-04-07 15:38:55	<--	JaRoel (~jaroel|4d@94.142.213.250) has quit (Ping timeout: 264 seconds)
+2013-04-07 15:39:09	<--	kniu (~kniu@c-67-160-8-163.hsd1.wa.comcast.net) has quit (Ping timeout: 245 seconds)
+2013-04-07 15:39:20	supki	https://github.com/tibbe/hashable/issues/46
+2013-04-07 15:39:20	hpaste	hseg pasted “Warnings from cabal on cabal install hashable --reinstall” at http://hpaste.org/85357
+2013-04-07 15:39:34	--	amatsu is now known as amatsu\idle
+2013-04-07 15:39:47	<--	yitz (~abba@line236.adsl.actcom.co.il) has quit (Quit: Lost terminal)
+2013-04-07 15:39:59	-->	skyflash_ (~skyflash@96.53.63.54) has joined #haskell
+2013-04-07 15:40:25	<--	heruur (~tvh@239-156-103-86.dynamic.dsl.tng.de) has quit (Ping timeout: 245 seconds)
+2013-04-07 15:40:25	<--	aCube (~cubce@dslb-178-012-202-161.pools.arcor-ip.net) has quit (Ping timeout: 245 seconds)
+2013-04-07 15:40:53	<--	dkasak (~dkasak@dh207-110-199.xnet.hr) has quit (Quit: WeeChat 0.4.0)
+2013-04-07 15:44:26	<--	skyflash_ (~skyflash@96.53.63.54) has quit (Ping timeout: 256 seconds)
+2013-04-07 15:44:51	-->	kk` (~kk@unaffiliated/kk/x-5380134) has joined #haskell
+2013-04-07 15:45:14	-->	dkasak (~dkasak@dh207-110-199.xnet.hr) has joined #haskell
+2013-04-07 15:45:26	-->	sambio (~sambio@unaffiliated/sambio) has joined #haskell
+2013-04-07 15:45:53	hseg	Should I reinstall despite the warnings?
+2013-04-07 15:46:09	timthelion	hseg: it depends on what you are reinstalling
+2013-04-07 15:46:30	timthelion	libraries that depend on a library must also be reinstalled so as to not risk type conflicts
+2013-04-07 15:46:33	hseg	hashable. The warnings cabal gave are posted here: http://hpaste.org/85357
+2013-04-07 15:46:52	supki	hseg: issue I linked to explains the details, I doubt reinstalling will help
+2013-04-07 15:47:08	<--	sambio (~sambio@unaffiliated/sambio) has quit (Client Quit)
+2013-04-07 15:47:21	hseg	OK, how do I downgrade?
+2013-04-07 15:47:37	timthelion	hseg: you would have to reinstall many things, since everything that rellies on conduit would have to be reintstalled as well.
+2013-04-07 15:47:54	supki	hseg: anyway, after you reinstall hashable, all packages that depend on it are broken, and you should reinstall them too
+2013-04-07 15:47:55	<--	cognominal (~cognomina@37.160.46.180) has quit (Read error: Connection reset by peer)
+2013-04-07 15:48:12	-->	sonda (~sonda@adsl-ull-195-200.50-151.net24.it) has joined #haskell
+2013-04-07 15:48:21	timthelion	hseg: well, that's not a downgrade, what you try to do their is replace a package with the same version of itself(for the purpose of patching for example)
+2013-04-07 15:49:22	hseg	You're confusing me. What do I need to do? From the bug report, I understand the latest hashable doesn't work under windows, and that I should use 1.1
+2013-04-07 15:49:54	timthelion	hseg: well you wouldn't want to reinstall 1.2 then, you would want to uninstall 1.2 and then install 1.1
+2013-04-07 15:50:08	hseg	OK. How do I do that?
+2013-04-07 15:50:19	hseg	AFAICT, cabal can't uninstall stuff
+2013-04-07 15:50:38	timthelion	hseg: good question.
+2013-04-07 15:50:44	-->	fro0t (~fro0t@1.23.67.95) has joined #haskell
+2013-04-07 15:51:07	nh2	dependency hell is ... well, hell
+2013-04-07 15:51:25	timthelion	https://github.com/haskell/cabal/issues/373
+2013-04-07 15:51:33	hseg	:-) Seriously though, this is one *messed-up* system.
+2013-04-07 15:51:42	timthelion	hseg: yes it is
+2013-04-07 15:51:51	<--	dnolen (~user@cpe-74-64-32-223.nyc.res.rr.com) has quit (Ping timeout: 256 seconds)
+2013-04-07 15:52:29	hpc	i vote that you clear your .ghc directory, `cabal install cabal-dev`, and use that for your projects
+2013-04-07 15:52:31	timthelion	hseg: there is a list somewhere of things that are fucked up in haskell.  I think it goes "cabal, cross module typeclass instances, data constructor namespacing"
+2013-04-07 15:52:57	hseg	The first and last I can attest to being bitten by personally.
+2013-04-07 15:53:24	timthelion	hpc: Does that require reinstalling everything for each package you work on?
+2013-04-07 15:54:01	timthelion	hpc: it still wouldn't help him, because if he reinstalls everything, he'll just end up with the up-to-date but bad 1.2 version.
+2013-04-07 15:54:02	hpc	cabal-dev sandboxes whatever you invoke it on
+2013-04-07 15:54:09	hpc	ah
+2013-04-07 15:54:31	-->	kmels_ (~kmels@frbg-4d0285e4.pool.mediaWays.net) has joined #haskell
+2013-04-07 15:54:56	 *	timthelion would sugest downloading arch linux and installing that, but perhaps this isn't the time.
+2013-04-07 15:55:02	hseg	How about I uninstall the Haskell Platform and start over?
+2013-04-07 15:55:06	-->	Entroacceptor (~mad@unserver.de) has joined #haskell
+2013-04-07 15:55:24	 *	hseg would love to use haskell under linux, but doesn't have his own computer.
+2013-04-07 15:55:36	-->	twanvl (~Twan@dhcp-077-250-086-217.chello.nl) has joined #haskell
+2013-04-07 15:55:37	-->	bentham (~bentham@pool-108-8-231-234.spfdma.east.verizon.net) has joined #haskell
+2013-04-07 15:55:37	timthelion	hseg: yes, that is what you should do, but FIRST you must figure out how to blacklist hashtable v 1.2
+2013-04-07 15:55:39	<--	jutaro (~jutaro@p5DDB272F.dip.t-dialin.net) has quit (Quit: jutaro)
+2013-04-07 15:55:46	hseg	BTW, how good is the pacman-cabal interoperability?
+2013-04-07 15:56:02	<--	charliesome (~textual@124-168-119-180.dyn.iinet.net.au) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2013-04-07 15:56:07	<--	ahihi (~transient@cs149054.pp.htv.fi) has quit (Remote host closed the connection)
+2013-04-07 15:56:14	timthelion	hseg: I just use cabal for everything and don't install any haskell libs through pacman
+2013-04-07 15:56:19	hpc	hseg: i would trust absolutely nothing that comes from another package manager
+2013-04-07 15:56:34	adzeitor	> let pad n s = drop (length $  zip (replicate n '_') s) (replicate n '_')  ++ s in pad 10 "hello"
+2013-04-07 15:56:36	lambdabot	  "_____hello"
+2013-04-07 15:56:38	hseg	I assume you mean blacklisting hashtable under windows for the second attempt?
+2013-04-07 15:56:42	-->	vasili111 (kvirc@5.178.198.228) has joined #haskell
+2013-04-07 15:56:56	adzeitor	> let pad n s = drop (length $  zip (replicate n '_') s) (replicate n '_')  ++ s in take 20 $ pad 10 (repeat 'A')
+2013-04-07 15:56:57	lambdabot	  "AAAAAAAAAAAAAAAAAAAA"
+2013-04-07 15:57:04	timthelion	hseg: just blacklist a specific version of hashtag under windows for the seccond attempt
+2013-04-07 15:57:14	-->	grandtheftR (~Adium@c-98-207-106-13.hsd1.ca.comcast.net) has joined #haskell
+2013-04-07 15:57:20	<--	vasili111 (kvirc@5.178.198.228) has left #haskell ("Once you know what it is you want to be true, instinct is a very useful device for enabling you to know that it is")
+2013-04-07 15:57:21	-->	cognominal (~cognomina@37.160.46.180) has joined #haskell
+2013-04-07 15:57:24	<--	synonymous (~Adium@60-242-194-203.static.tpgi.com.au) has quit (Quit: Leaving.)
+2013-04-07 15:57:28	<--	Guest27287 (~programme@178.186.162-106.xdsl.ab.ru) has quit (Read error: Operation timed out)
+2013-04-07 15:57:28	-->	hallski (~hallski@c83-251-213-66.bredband.comhem.se) has joined #haskell
+2013-04-07 15:57:30	hseg	hpc: Yes and no. Using a single package manager for the entire system allows you to know to what package each file belongs, etc etc.
+2013-04-07 15:58:52	hseg	Can't find how to blacklist packages.
+2013-04-07 15:59:00	timthelion	hseg: you can't
+2013-04-07 15:59:10	<--	twanvl_ (~Twan@dhcp-077-250-086-217.chello.nl) has quit (Ping timeout: 256 seconds)
+2013-04-07 15:59:17	hseg	So how am I going to write/test my code?
+2013-04-07 15:59:31	adzeitor	> let pad n s = drop (length $ take n s) (replicate n '_')  ++ s in take 20 $ pad 10 (repeat 'A')
+2013-04-07 15:59:33	lambdabot	  "AAAAAAAAAAAAAAAAAAAA"
+2013-04-07 15:59:45	jmcarthur	hseg: the main problem with using pacman is that you can only have one version of a package installed at a time
+2013-04-07 15:59:52	<--	sh (~sh@uiharu.memespace.net) has quit (Remote host closed the connection)
+2013-04-07 15:59:58	timthelion	hseg: I would download 1.1, modify it's version to be 1.2, --force-reinstall over 1.2, keeping a list of packages that relied upon 1.2. Then --force-reinstall those, untill I had --force-reinstalled the whole system.
+2013-04-07 16:00:02	-->	edsko (~edsko@79.97.126.24) has joined #haskell
+2013-04-07 16:00:06	jmcarthur	hseg: and when you upgrade packages that others depend on, they *all* have to be upgraded
+2013-04-07 16:00:09	-->	sh (~sh@uiharu.memespace.net) has joined #haskell
+2013-04-07 16:00:30	jmcarthur	hseg: this is especially problematic if you aren't maintaining all of those packages because then you are at the mercy of others to upgrade everything at once
+2013-04-07 16:00:37	 *	hseg curls up in a small corner, frightened out of his wits
+2013-04-07 16:00:38	supki	timthelion: why not  cabal install whatever --constraint='hashable==1.1' --force-reinstalls ?
+2013-04-07 16:00:44	timthelion	hseg: and by modify it's version I mean edit the cabal file
+2013-04-07 16:01:03	jmcarthur	hseg: so i, too, recommend just using cabal for most haskell packages
+2013-04-07 16:01:37	timthelion	supki: is that possible? I don't really know, I just saw https://github.com/haskell/cabal/issues/373 here that you cannot blacklist so I thought up a hack.
+2013-04-07 16:02:22	timthelion	supki: you can always back up ~/.ghc and ~/.cabal first
+2013-04-07 16:02:24	hseg	tl;dr cabal is buggy; since ghc is statically linked and performs x-package optimizations most ways of using a package manager from a distro are broken for ghc. HELL
+2013-04-07 16:02:59	timthelion	supki: that was meant for hseg actually
+2013-04-07 16:03:17	niteria	@where sicp
+2013-04-07 16:03:17	lambdabot	http://mitpress.mit.edu/sicp/ | http://swiss.csail.mit.edu/classes/6.001/abelson-sussman-lectures/ | http://www.vex.net/~trebla/haskell/sicp.xhtml | "Storage and Identification of Cabalized Packages"
+2013-04-07 16:03:18	-->	aavogt (~aavogt@uwpr3net-129-97-248-69.dynamic.uwaterloo.ca) has joined #haskell
+2013-04-07 16:03:33	supki	timthelion: well, --constraint is certainly possible :]
+2013-04-07 16:03:49	hseg	I read it.
+2013-04-07 16:03:57	niteria	sicp should mention cabal-dev or hsenv
+2013-04-07 16:04:26	timthelion	niteria: cabal-dev doesn't help here sadly :/
+2013-04-07 16:04:27	jmcarthur	hseg: it has little to do with static linking
+2013-04-07 16:04:32	<--	ISF (~ivan@187.64.222.221) has quit (Ping timeout: 255 seconds)
+2013-04-07 16:04:54	<--	ndonaldson (~nic@61.69.24.113) has quit (Quit: Leaving)
+2013-04-07 16:04:59	jmcarthur	hseg: it's just that libraries from one version to the next are not source compatible
+2013-04-07 16:05:00	-->	dnolen (~user@cpe-74-64-32-223.nyc.res.rr.com) has joined #haskell
+2013-04-07 16:05:06	jmcarthur	err
+2013-04-07 16:05:09	jmcarthur	s/source/binary/
+2013-04-07 16:05:13	hseg	actually, it does. x-package optimization means it's hard to construct packages which are portable across machines
+2013-04-07 16:05:25	jmcarthur	hseg: even with dynamic linking you have the same problem
+2013-04-07 16:05:34	jmcarthur	hseg: (and we do have such a feature)
+2013-04-07 16:05:40	-->	z1y (~pi@115.78.238.203) has joined #haskell
+2013-04-07 16:06:00	jmcarthur	and yes it is in large part due to all the optimizations
+2013-04-07 16:06:05	niteria	doesn't 1. cabal install bare minimum; 2. don't install anything from your distro's package manager 3. use cabal-dev solve all the problems?
+2013-04-07 16:06:23	-->	mizu_no_oto (~textual@c-76-24-19-222.hsd1.ma.comcast.net) has joined #haskell
+2013-04-07 16:06:32	-->	roshan (~roshan@S0106001e583084e2.ed.shawcable.net) has joined #haskell
+2013-04-07 16:06:33	jmcarthur	niteria: that would be reasonable, but honestly i rarely use cabal-dev. most of the time cabal does just fine
+2013-04-07 16:06:38	hseg	Right. I meant x-package optimization, which causes hard dependencies on versions of libraries that were defined as soft dependencies in the first place?
+2013-04-07 16:06:43	<--	z1y (~pi@115.78.238.203) has left #haskell ("ISON zipp0")
+2013-04-07 16:07:05	<--	subbyyy (~win@cpe-24-165-118-58.cinci.res.rr.com) has quit (Ping timeout: 245 seconds)
+2013-04-07 16:07:11	jmcarthur	hseg: they are soft dependencies at the source level and hard dependencies at the binary level
+2013-04-07 16:07:28	-->	heruur (~tvh@239-156-103-86.dynamic.dsl.tng.de) has joined #haskell
+2013-04-07 16:07:48	jmcarthur	hseg: from what i hear, gentoo does pretty well here, since it can automatically rebuild reverse deps when you upgrade a haskell package
+2013-04-07 16:08:11	jmcarthur	but even that seems like it could be frustrating since you still only have one version installed at a time
+2013-04-07 16:08:22	timthelion	jmcarthur: cool. but why did we have to wait for some python folks to write a package manager for haskell ;)
+2013-04-07 16:08:30	jmcarthur	timthelion: huh?
+2013-04-07 16:08:40	<--	AfC (~andrew@gateway.syd.operationaldynamics.com) has quit (Quit: Leaving.)
+2013-04-07 16:08:42	jmcarthur	haskell shouldn't need a package manager at all
+2013-04-07 16:08:46	timthelion	jmcarthur: isn't gentoos package manager written in python?
+2013-04-07 16:09:08	jmcarthur	timthelion: but what does that have to do with anything?
+2013-04-07 16:09:38	-->	donri (~dag@unaffiliated/dagodenhall) has joined #haskell
+2013-04-07 16:09:42	timthelion	jmcarthur: ruby has gems, perl has CPAN, python has ??? . it seems most languages that actually have a module system have a method of installing new modules.
+2013-04-07 16:09:54	-->	Afish (~Miranda@chips.ds16.agh.edu.pl) has joined #haskell
+2013-04-07 16:10:03	jmcarthur	timthelion: i think for a haskell dev cabal is superior. for a mere user of haskell packages, most existing package managers do fine
+2013-04-07 16:10:08	elliott	does GHC actually do cross-package optimisation?
+2013-04-07 16:10:13	elliott	I mean, beyond the basic .hi stuff
+2013-04-07 16:10:14	-->	LRuffati (~earendil@2-233-160-32.ip218.fastwebnet.it) has joined #haskell
+2013-04-07 16:10:17	timthelion	jmcarthur: it seems to me, that as little as possible should be done in a distro-specific way, that's all
+2013-04-07 16:10:24	jmcarthur	elliott: most of that is the basic .hi stuff
+2013-04-07 16:10:25	hseg	timthelion: python has setuptools
+2013-04-07 16:10:33	jmcarthur	timthelion: cabal is that
+2013-04-07 16:10:48	jmcarthur	because it's not a package manager
+2013-04-07 16:11:04	<--	mizu_no_oto (~textual@c-76-24-19-222.hsd1.ma.comcast.net) has quit (Client Quit)
+2013-04-07 16:11:18	arkeet	maybe there should be a package manager!
+2013-04-07 16:11:29	 *	timthelion longs for the day when we all compile to asm.js bytecode and pass html files around and never have to worry about package mangement or security.
+2013-04-07 16:11:32	jmcarthur	once you have a package manager, you are basically already trying to replicate the functionality of a distro's package manager, which is silly
+2013-04-07 16:11:35	hseg	I give up. Uninstalling all of the Haskell stuff here, and going to start afresh tomorrow.
+2013-04-07 16:11:44	arkeet	my distro can't manage stuff in ~/.ghc
+2013-04-07 16:11:57	<--	heruur (~tvh@239-156-103-86.dynamic.dsl.tng.de) has quit (Ping timeout: 252 seconds)
+2013-04-07 16:12:00	jmcarthur	get a nicer distro? or just use cabal!
+2013-04-07 16:12:01	arkeet	well, its package manager.
+2013-04-07 16:12:14	arkeet	what distro does?
+2013-04-07 16:12:23	arkeet	cabal isn't very good at removing/upgrading
+2013-04-07 16:12:28	jmcarthur	there are distros that allow you to manage installations in your home
+2013-04-07 16:12:37	jmcarthur	all i can think of right now is nix, but i know there are others
+2013-04-07 16:12:48	arkeet	but nix is nix. :p
+2013-04-07 16:12:55	jmcarthur	well, nix the package manager and nixos because it uses nix)
+2013-04-07 16:13:01	hseg	Meaning? It looks quite nice
+2013-04-07 16:13:21	jmcarthur	i don't believe this is unique to nix
+2013-04-07 16:13:24	-->	mizu_no_oto (~textual@c-76-24-19-222.hsd1.ma.comcast.net) has joined #haskell
+2013-04-07 16:13:30	<--	Thra11 (~thrall@92.114.112.87.dyn.plus.net) has quit (Quit: kthxbai)
+2013-04-07 16:13:46	timthelion	hseg: if you have slackware, then you can choose your pacage manager. You can choose nix(not sure how this is different from installing nixos)
+2013-04-07 16:14:08	jmcarthur	you can use nix with any distro, really
+2013-04-07 16:14:08	-->	Guest27287 (~programme@178.187.66-76.xdsl.ab.ru) has joined #haskell
+2013-04-07 16:14:22	-->	Thra11 (~thrall@92.114.112.87.dyn.plus.net) has joined #haskell
+2013-04-07 16:14:30	jmcarthur	although it will typically be sandboxed away
+2013-04-07 16:14:31	timthelion	jmcarthur: but what would be the point
+2013-04-07 16:14:37	jmcarthur	to try it out
+2013-04-07 16:14:51	-->	cognominal__ (~cognomina@37.161.44.190) has joined #haskell
+2013-04-07 16:14:53	<--	cognominal (~cognomina@37.160.46.180) has quit (Ping timeout: 252 seconds)
+2013-04-07 16:14:59	<--	LRuffati (~earendil@2-233-160-32.ip218.fastwebnet.it) has quit (Quit: Leaving)
+2013-04-07 16:15:05	jmcarthur	you can use portage similarly, with other distros, even other operating systems
+2013-04-07 16:15:07	-->	kmrhb (~kmrhb@dsl-66-36-141-233.mtl.aei.ca) has joined #haskell
+2013-04-07 16:15:58	-->	jerry66 (jerry66@79.126.223.38) has joined #haskell
+2013-04-07 16:16:01	jerry66	http://www.reddit.com/r/xadultxmoviesxdating/comments/1buoth/german_amateur_girl_loves_anal/
+2013-04-07 16:16:01	<--	jerry66 (jerry66@79.126.223.38) has quit (Killed (idoru (Spam is off topic on freenode.)))
+2013-04-07 16:16:10	jmcarthur	thanks jerry66
+2013-04-07 16:16:14	<--	Okasu_ (~1@217.118.78.37) has quit (Ping timeout: 255 seconds)
+2013-04-07 16:16:19	-->	dmac (~Adium@75-149-33-130-SFBA.hfc.comcastbusiness.net) has joined #haskell
+2013-04-07 16:16:36	 *	timthelion wonders how much more disk space would be used if we just kept statically linked single file installs for all applications. No more dependencies, everything self sufficient.
+2013-04-07 16:16:59	Kinnison	it's less of a space issue these days than it was
+2013-04-07 16:17:05	Kinnison	but it's more of a security issue than ever
+2013-04-07 16:17:06	geekosaur	that's fine for applications, but most things are libraries
+2013-04-07 16:17:15	timthelion	Kinnison: why is it a security issue?
+2013-04-07 16:17:31	jmcarthur	geekosaur: non-devs wouldn't even need all those libraries installed, of course
+2013-04-07 16:17:34	timthelion	geekosaur: but those libraries would be statically linked into the applications
+2013-04-07 16:17:36	Kinnison	If you have a security update in a library, it's harder to update every app linked to it, rather than just update the lib
+2013-04-07 16:17:38	geekosaur	have to rebuild everything impacted if a security issue is found in a dependency
+2013-04-07 16:17:43	hseg	timthelion: Because an update to a library isn't propagated to the clients that way
+2013-04-07 16:17:52	timthelion	geekosaur: true, that is a problem.
+2013-04-07 16:18:14	-->	Okasu (~1@unaffiliated/okasu) has joined #haskell
+2013-04-07 16:18:14	 *	hackagebot dynamic-loader 0.0 - lightweight loader of GHC-based modules or packages  http://hackage.haskell.org/package/dynamic-loader-0.0 (GaborGreif)
+2013-04-07 16:18:22	int-e	so for distributions, we'd have a bandwidth problem
+2013-04-07 16:18:30	arkeet	not to mention that there's a reason shared libraries are called that.
+2013-04-07 16:18:47	<--	kmrhb (~kmrhb@dsl-66-36-141-233.mtl.aei.ca) has quit (Client Quit)
+2013-04-07 16:18:54	jmcarthur	shared libraries don't just save hd space. they also save memory
+2013-04-07 16:18:57	-->	kmrhb (~kmrhb@dsl-66-36-141-233.mtl.aei.ca) has joined #haskell
+2013-04-07 16:18:58	geekosaur	also note that applications are already largely statically linked with ghc (except on a small handful of platforms). and the problem we are trying to solve is at the level of building packages with library deps, i.e. at the very level that needs to work for static linking apps to provide any benefit
+2013-04-07 16:18:59	timthelion	perhaps we could make it so that applications would declare dependencies on startup, and the distro would look those dependencies up in a blacklist, and refuse to launch apps with banned dependencies.
+2013-04-07 16:19:00	<--	kmrhb (~kmrhb@dsl-66-36-141-233.mtl.aei.ca) has quit (Client Quit)
+2013-04-07 16:19:01	arkeet	exactly
+2013-04-07 16:20:23	hseg	perhaps we could compile everything to some bytecode, and distribute the bytecodes. Then, there would be binary that would be generated on first usage with all the optimizations.
+2013-04-07 16:20:24	<--	tenmilestereo (~tnmlstr@w-70.cust-13055.ip.static.uno.uk.net) has quit (Ping timeout: 260 seconds)
+2013-04-07 16:20:31	timthelion	I would like to get to the point, where each user has an applications folder in his home, and each application is a single file.  Don't like an application? simply deleted.  No instalation needed.
+2013-04-07 16:20:33	<--	dmac (~Adium@75-149-33-130-SFBA.hfc.comcastbusiness.net) has quit (Ping timeout: 240 seconds)
+2013-04-07 16:20:50	Kinnison	I always figured that we went with static linking so much with haskell for a combination of 'People can barely maintain an API from point release to point release, let alone an ABI' and also 'whole program optimisation really matters for Haskell'
+2013-04-07 16:20:54	arkeet	hseg: would it be called java?
+2013-04-07 16:21:17	-->	kmrhb (~kmrhb@dsl-66-36-141-233.mtl.aei.ca) has joined #haskell
+2013-04-07 16:21:19	<--	tharper (~tomh@unaffiliated/sioraiocht) has quit (Remote host closed the connection)
+2013-04-07 16:21:20	<--	rsuniev123 (~rsuniev12@host86-132-70-180.range86-132.btcentralplus.com) has quit (Quit: Computer has gone to sleep.)
+2013-04-07 16:21:29	int-e	timthelion: it's not just shared libraries. applications come with data files and documentation
+2013-04-07 16:21:46	<--	inarenvi (~quassel@92.59.134.137) has quit (Remote host closed the connection)
+2013-04-07 16:21:47	k0001	Guys, do you know of any companies that would hire someone to work remotely doing some functional programming?
+2013-04-07 16:21:53	hseg	:-D It would allow for the packages to be independent, and one could remove the binaries without introducing breakage.
+2013-04-07 16:21:53	timthelion	arkeet: well, the problem with java, in the early days, is that Sun failled to maintain compatibility between VMs, thus making java the antithesis of it's own goal.
+2013-04-07 16:21:58	jmcarthur	int-e: for that, at least, the os x bundle idiom is... okay...
+2013-04-07 16:22:29	hseg	k0001: CUFP
+2013-04-07 16:23:18	<--	xnoise (~cristian@070-132-165-046.ip-addr.inexio.net) has quit (Remote host closed the connection)
+2013-04-07 16:23:20	jmcarthur	Kinnison: i agree
+2013-04-07 16:23:24	hseg	Think a cached JIT with the usual optimizations GHC does, and the cache can be cleared.
+2013-04-07 16:23:43	jmcarthur	Kinnison: however, we do still have dynamic linking, but it still lacks many of the benefits of dynamic linking
+2013-04-07 16:23:48	timthelion	hseg: what is the point of JIT
+2013-04-07 16:24:41	hseg	As in, you would have the in-package optimizations compile to some IR, and then on first run you would have cross-package optimizations generate a cached binary.
+2013-04-07 16:24:43	-->	rsuniev123 (~textual@host86-132-70-180.range86-132.btcentralplus.com) has joined #haskell
+2013-04-07 16:24:46	-->	ulfdoz (~mary@p5B38BB2F.dip.t-dialin.net) has joined #haskell
+2013-04-07 16:24:49	hseg	s/JIT/IR/
+2013-04-07 16:25:15	timthelion	hseg: why on first run, rather than on EXECUTABLE(not library) compile time?
+2013-04-07 16:25:46	int-e	hseg: what problem are you trying to solve?
+2013-04-07 16:26:05	<--	anRch (~markmilli@ip-64-134-243-177.public.wayport.net) has quit (Quit: anRch)
+2013-04-07 16:26:22	hseg	timthelion: In the case of executables, full static linking with whole program optimisation could work. But for libraries, I'd rather have them independent
+2013-04-07 16:27:22	hseg	int-e: That under status quo, when a package gets installed, whole program optimisation bleeds code of the dependencies into the package, thus creating a hard dependency on that specific version
+2013-04-07 16:28:33	<--	aavogt (~aavogt@uwpr3net-129-97-248-69.dynamic.uwaterloo.ca) has quit (Quit: WeeChat 0.3.7)
+2013-04-07 16:29:14	-->	hherhold (~user@172.15.25.25) has joined #haskell
+2013-04-07 16:29:41	k0001	hseg: thanks. I'll look in more detail there.
+2013-04-07 16:32:31	-->	message144 (~message14@cpe-76-173-242-89.socal.res.rr.com) has joined #haskell
+2013-04-07 16:32:54	hseg	Anyhow, need to go. Thanks guys!
+2013-04-07 16:32:56	<--	hseg (5f567ee9@gateway/web/freenode/ip.95.86.126.233) has quit
+2013-04-07 16:33:12	<--	estebistec (~estebiste@174.34.1.240.reverse.socket.net) has quit (Remote host closed the connection)
+2013-04-07 16:34:34	<--	Itkovian (~Itkovian@178-118-76-90.access.telenet.be) has quit (Quit: Itkovian)
+2013-04-07 16:35:30	<--	mirsal (~mirsal@znc0.irc.he-1.ip6.mirsal.fr) has quit (Changing host)
+2013-04-07 16:35:30	-->	mirsal (~mirsal@videolan/developer/Mirsal) has joined #haskell
+2013-04-07 16:36:10	<--	Jeanne-Kamikaze (~Jeanne-Ka@217.249.223.87.dynamic.jazztel.es) has quit (Quit: Leaving)
+2013-04-07 16:36:36	-->	cognominal (~cognomina@37.161.176.83) has joined #haskell
+2013-04-07 16:36:40	<--	cognominal__ (~cognomina@37.161.44.190) has quit (Ping timeout: 245 seconds)
+2013-04-07 16:37:13	-->	zakora (~NC@tok69-4-82-236-111-173.fbx.proxad.net) has joined #haskell
+2013-04-07 16:37:29	Kinnison	jmcarthur: Aye, it's hard
+2013-04-07 16:37:36	<--	Apocalisp (~textual@c-174-62-237-65.hsd1.ma.comcast.net) has quit (Quit: Computer has gone to sleep.)
+2013-04-07 16:37:49	-->	Jeanne-Kamikaze (~Jeanne-Ka@217.249.223.87.dynamic.jazztel.es) has joined #haskell
+2013-04-07 16:38:43	-->	nus- (~nus@unaffiliated/nus) has joined #haskell
+2013-04-07 16:38:50	-->	tomberek (78583167@gateway/web/freenode/ip.120.88.49.103) has joined #haskell
+2013-04-07 16:39:05	<--	hiyakashi (~hiyakashi@p4025-ipbf3204marunouchi.tokyo.ocn.ne.jp) has quit (Quit: お前は知りすぎた)
+2013-04-07 16:39:43	-->	chidy (~chidimuor@host86-179-205-63.range86-179.btcentralplus.com) has joined #haskell
+2013-04-07 16:40:34	-->	snhmib (~jurjen@AOrleans-251-1-48-64.w90-20.abo.wanadoo.fr) has joined #haskell
+2013-04-07 16:40:44	-->	skyflash_ (~skyflash@96.53.63.54) has joined #haskell
+2013-04-07 16:42:01	-->	kartoffe` (~user@p54962C0A.dip.t-dialin.net) has joined #haskell
+2013-04-07 16:42:21	-->	Zeev (~Zeev@bzq-79-183-19-6.red.bezeqint.net) has joined #haskell
+2013-04-07 16:42:28	<--	boccato (~boccato@201.87.106.41) has quit (Remote host closed the connection)
+2013-04-07 16:42:44	<--	nus-- (~nus@unaffiliated/nus) has quit (Ping timeout: 252 seconds)
+2013-04-07 16:43:23	-->	Apocalisp (~textual@c-174-62-237-65.hsd1.ma.comcast.net) has joined #haskell
+2013-04-07 16:44:24	<--	cads (~m@c-24-99-19-61.hsd1.ga.comcast.net) has quit (Ping timeout: 252 seconds)
+2013-04-07 16:44:25	-->	iago (~iago@a213-22-41-239.cpe.netcabo.pt) has joined #haskell
+2013-04-07 16:44:28	-->	pc__ (~pc__@car06-1-82-232-87-187.fbx.proxad.net) has joined #haskell
+2013-04-07 16:44:54	<--	skyflash_ (~skyflash@96.53.63.54) has quit (Ping timeout: 248 seconds)
+2013-04-07 16:45:12	-->	LudvikGalois (~LudvikGal@130.56.82.7) has joined #haskell
+2013-04-07 16:45:26	<--	kartoffelbrei (~user@p549616D1.dip.t-dialin.net) has quit (Ping timeout: 245 seconds)
+2013-04-07 16:46:09	-->	Sevki (~Sevki@cpc22-newc15-2-0-cust33.16-2.cable.virginmedia.com) has joined #haskell
+2013-04-07 16:48:32	<--	groovy2shoes (~cory@unaffiliated/groovebot) has quit (Quit: Computer has gone to sleep)
+2013-04-07 16:48:40	-->	normanrichards (~normanric@70.114.215.220) has joined #haskell
+2013-04-07 16:48:45	-->	klrr (~klrr@88.129.144.229) has joined #haskell
+2013-04-07 16:49:28	<--	jpeeters (~Adium@cha28-2-88-170-128-140.fbx.proxad.net) has quit (Quit: Leaving.)
+2013-04-07 16:49:52	--	Sculptor_ is now known as Sculptor
+2013-04-07 16:51:45	-->	leoncamel2 (~leoncamel@124.126.171.114) has joined #haskell
+2013-04-07 16:51:54	klrr	how do i implement "symbol?" (scheme function) in haskell?
+2013-04-07 16:52:46	<--	bytbox (~s@129-2-129-85.wireless.umd.edu) has quit (Quit: Lost terminal)
+2013-04-07 16:52:47	totimkopf	Hello, how would I write this http://hpaste.org/85360 as a let expression?
+2013-04-07 16:52:58	-->	boccato (~boccato@201.87.106.41) has joined #haskell
+2013-04-07 16:54:44	totimkopf	I tried this: let maximum' [] = error "maximum empty list!"; maximum' [x] = x; maximum' (x:xs) = max x (maximum' xs) in [2,5,1]
+2013-04-07 16:54:46	geekosaur	I don't understand the question. you want to replace that with something involving a let? (not really possible) you want to use that in a let instead of at top level? (that just works)
+2013-04-07 16:55:00	geekosaur	need braces if all on one line, I think
+2013-04-07 16:55:07	-->	jutaro (~jutaro@p5DDB272F.dip.t-dialin.net) has joined #haskell
+2013-04-07 16:55:16	geekosaur	but the full error message from your attempt would help
+2013-04-07 16:55:39	klrr	totimkopf: what's a let expression, you mean like let stuff in expression?
+2013-04-07 16:55:44	totimkopf	right
+2013-04-07 16:55:58	supki	> let maximum' [] = error "maximum empty list!"; maximum' [x] = x; maximum' (x:xs) = max x (maximum' xs) in [2,5,1]
+2013-04-07 16:56:00	lambdabot	  [2,5,1]
+2013-04-07 16:56:00	klrr	why would you even want to do that?
+2013-04-07 16:56:03	-->	kushal (~kdas@fedora/kushal) has joined #haskell
+2013-04-07 16:56:16	totimkopf	stepeval is complaining : step _: Not implemented: List [Lit (Int 2),Lit (int 5),Lit (Int1)]
+2013-04-07 16:56:22	totimkopf	(for stepeval)
+2013-04-07 16:56:41	geekosaur	that sounds like you actually have a different problem, then
+2013-04-07 16:56:48	totimkopf	my brain has a tough time computing recursion so I use stepeval as a crutch
+2013-04-07 16:56:52	-->	heruur (~tvh@239-156-103-86.dynamic.dsl.tng.de) has joined #haskell
+2013-04-07 16:57:11	-->	gabor (~heisenbug@p549438CC.dip.t-dialin.net) has joined #haskell
+2013-04-07 16:57:22	geekosaur	so it actually worked but your stepeval is not capable of handling the result for some reason
+2013-04-07 16:57:27	-->	ivar_ (~ivar@69.165.206.172) has joined #haskell
+2013-04-07 16:57:35	<--	gabor (~heisenbug@p549438CC.dip.t-dialin.net) has quit (Client Quit)
+2013-04-07 16:58:04	totimkopf	geekosaur, let me try with braces
+2013-04-07 16:58:11	-->	jesyspa (~jesyspa@ip4da1331c.direct-adsl.nl) has joined #haskell
+2013-04-07 16:58:27	geekosaur	braces won't help
+2013-04-07 16:58:34	totimkopf	oh
+2013-04-07 16:58:36	geekosaur	braces would help if it were a syntax error
+2013-04-07 16:58:47	geekosaur	this is not a syntax error, this is a problem with your stepeval
+2013-04-07 16:58:52	totimkopf	I guess it is a shortcoming of stepeval then
+2013-04-07 16:59:05	-->	twanvl_ (~Twan@dhcp-077-250-086-217.chello.nl) has joined #haskell
+2013-04-07 16:59:08	<--	XexonixXexillion (82384735@gateway/web/freenode/ip.130.56.71.53) has quit (Quit: Page closed)
+2013-04-07 16:59:49	<--	LudvikGalois (~LudvikGal@130.56.82.7) has quit (Remote host closed the connection)
+2013-04-07 17:00:20	-->	wolong (wolong@naphaso.com) has joined #haskell
+2013-04-07 17:01:14	<--	chessguy (~chessguy@pool-96-241-233-170.washdc.fios.verizon.net) has quit (Read error: Connection reset by peer)
+2013-04-07 17:01:39	-->	chessguy (~chessguy@pool-96-241-233-170.washdc.fios.verizon.net) has joined #haskell
+2013-04-07 17:01:49	-->	morazow (~morazow@92.36.136.95.rev.vodafone.pt) has joined #haskell
+2013-04-07 17:02:38	<--	twanvl (~Twan@dhcp-077-250-086-217.chello.nl) has quit (Ping timeout: 256 seconds)
+2013-04-07 17:02:41	tomberek	what linux distro seems to be best suited for haskell hacking noawdays?
+2013-04-07 17:03:16	<--	chessguy (~chessguy@pool-96-241-233-170.washdc.fios.verizon.net) has quit (Read error: Connection reset by peer)
+2013-04-07 17:03:22	<--	io2 (~io2@unaffiliated/io2) has quit
+2013-04-07 17:03:39	-->	chessguy (~chessguy@pool-96-241-233-170.washdc.fios.verizon.net) has joined #haskell
+2013-04-07 17:04:00	<--	pyacks (~yacks@180.151.36.168) has quit (Ping timeout: 276 seconds)
+2013-04-07 17:04:04	-->	aesptux_ (~aesptux@89.141.6.156.dyn.user.ono.com) has joined #haskell
+2013-04-07 17:04:07	<--	bitonic (~user@dyn1216-117.wlan.ic.ac.uk) has quit (Remote host closed the connection)
+2013-04-07 17:04:20	Sonderblade	tomberek: all are good
+2013-04-07 17:04:21	-->	bitonic (~user@dyn1216-117.wlan.ic.ac.uk) has joined #haskell
+2013-04-07 17:04:47	<--	eyebloom (~eyebloom@user-387gm2l.cable.mindspring.com) has quit (Quit: eyebloom)
+2013-04-07 17:05:14	tomberek	sonderblade: i ran in to dependency problems a while back, so was wondering what he current status was
+2013-04-07 17:05:36	-->	jcao219 (jimmy@wikibooks/Jcao219) has joined #haskell
+2013-04-07 17:06:52	Sonderblade	tomberek: haskell has its own package management system called cabal so it mostly doesnt matter what linux distro you choose
+2013-04-07 17:07:14	hherhold	does anybody use command-line darcs anymore?
+2013-04-07 17:07:27	hherhold	cabal install darcs with the latest haskell platform fails
+2013-04-07 17:07:29	tomberek	yes, thanks.... nevermind
+2013-04-07 17:07:40	hpaste	aesptux pasted “Digital Root” at http://hpaste.org/85361
+2013-04-07 17:08:07	aesptux_	Why is this code http://hpaste.org/85361 somewhat recursive?
+2013-04-07 17:08:36	ab9rf	"somewhat recursive"?  is that like somewhat pregnant?
+2013-04-07 17:08:56	ab9rf	that code is not recursive
+2013-04-07 17:09:51	aesptux_	Digital root of 31337 is 8. Because 3+1+3+3+7 = 17 and 1+7 = 8. Shoudn't that code output 17?
+2013-04-07 17:10:20	geekosaur	do you understand modulus
+2013-04-07 17:10:21	geekosaur	?
+2013-04-07 17:10:41	aesptux_	I understand the basics
+2013-04-07 17:10:41	<--	Guest27287 (~programme@178.187.66-76.xdsl.ab.ru) has quit (Ping timeout: 255 seconds)
+2013-04-07 17:10:47	<--	fireglow (fireglow@unaffiliated/fireglow) has quit (Ping timeout: 252 seconds)
+2013-04-07 17:10:57	<--	s_kilk (~shane@host81-152-130-140.range81-152.btcentralplus.com) has quit (Quit: Leaving)
+2013-04-07 17:11:03	<--	birkenfeld (~gbrandl@pdpc/supporter/student/birkenfeld) has quit (Quit: ZNC - http://znc.sourceforge.net)
+2013-04-07 17:11:05	geekosaur	apparently not, since the most basic thing about it is that if you are going modulus n, the result will never be >= n
+2013-04-07 17:11:10	-->	fro0t2 (~fro0t@1.23.67.95) has joined #haskell
+2013-04-07 17:11:23	geekosaur	so mod ... 9 can never return 9, 10, 17, 65535, ...
+2013-04-07 17:11:32	ab9rf	aesptux_: the key is that the digital root of a positive integer is merely its modulus in the Z9 ring, with 9 replacing 0.
+2013-04-07 17:11:54	<--	hherhold (~user@172.15.25.25) has quit (Quit: ERC Version 5.3 (IRC client for Emacs))
+2013-04-07 17:11:55	-->	fireglow (fireglow@unaffiliated/fireglow) has joined #haskell
+2013-04-07 17:12:00	Hafydd	The fact that it is "modulo" and not "modulus" is even more basic.
+2013-04-07 17:12:07	geekosaur	you might also take a hint from the fact that there is no addition in there at all
+2013-04-07 17:12:32	<--	msuszczy (~martin@85.69.182.79) has quit (Ping timeout: 256 seconds)
+2013-04-07 17:12:38	-->	birkenfeld (~gbrandl@hammett.srv.pocoo.org) has joined #haskell
+2013-04-07 17:13:26	ab9rf	that code is strictly incorrect in that it reports the wrong digital root for 0 (and for negative numbers, although digital root is not well-defined for negative numbers)
+2013-04-07 17:13:30	-->	ParahSailin (~ropoctl@unaffiliated/parahsailin) has joined #haskell
+2013-04-07 17:13:48	 *	geekosaur speaks a language where the operator is "modulus" and "modulo" refers to its application; "modulo" is not itself the name of an operator.
+2013-04-07 17:13:58	<--	fro0t (~fro0t@1.23.67.95) has quit (Ping timeout: 256 seconds)
+2013-04-07 17:14:12	aesptux_	Oh I see... now i understand, didn't knew about that property of modulus
+2013-04-07 17:14:24	-->	JaRoel (~jaroel|4d@94.142.213.250) has joined #haskell
+2013-04-07 17:14:36	ab9rf	aesptux_: the wikipedia page you linked in the paste explains why it works.
+2013-04-07 17:14:46	-->	sandybatman (~user@101.214.182.190) has joined #haskell
+2013-04-07 17:15:30	aesptux_	ab9rf: What would be a proper way to handle 0? pattern matching? (as you imagine I'm fairly new to haskell)
+2013-04-07 17:15:40	<--	JaRoel|4d (~jaroel|4d@94.142.213.250) has quit (Ping timeout: 256 seconds)
+2013-04-07 17:15:45	totimkopf	since I'm having issues with stepeval, could someone someone write the steps in parantheses of the maximum' function, please
+2013-04-07 17:16:15	totimkopf	oops, s/someone someone/ someone
+2013-04-07 17:16:15	ab9rf	aesptux_: that's one way, certainly
+2013-04-07 17:16:37	<--	KaneTW (~kane@cl-972.dus-01.de.sixxs.net) has quit (Read error: Operation timed out)
+2013-04-07 17:16:44	-->	dmac (~Adium@75-149-33-130-SFBA.hfc.comcastbusiness.net) has joined #haskell
+2013-04-07 17:16:47	ab9rf	aesptux_: it's really the only way since all of the other ways to do branching devolve to pattern matching at some level
+2013-04-07 17:16:49	-->	bytbox (~s@129-2-129-85.wireless.umd.edu) has joined #haskell
+2013-04-07 17:17:00	<--	TheFuzzball (~TheFuzzba@46-64-87-101.zone15.bethere.co.uk) has quit (Ping timeout: 276 seconds)
+2013-04-07 17:17:14	-->	JaRoel|4d (~jaroel|4d@94.142.213.250) has joined #haskell
+2013-04-07 17:17:19	-->	uvelichitel (~uvelichit@ip254-156.200.109.crimea.com) has joined #haskell
+2013-04-07 17:17:21	totimkopf	http://hpaste.org/85360
+2013-04-07 17:17:32	aesptux_	ab9rf: Ok, thanks for all the help
+2013-04-07 17:17:38	Hafydd	That's a bit demented, because the "modulus" in modular arithmetic is the right-hand argument of the residue function.
+2013-04-07 17:17:45	<--	peterjoel (~peterjoel@host109-152-188-129.range109-152.btcentralplus.com) has quit (Quit: Leaving.)
+2013-04-07 17:17:56	-->	TheFuzzball (~TheFuzzba@46-64-87-101.zone15.bethere.co.uk) has joined #haskell
+2013-04-07 17:18:07	Hafydd	It's like saying "6 denominator 3 = 2"
+2013-04-07 17:18:25	ab9rf	there's a lot of weird baggage around the modulus operator because of the multiple meanings it has within abstract algebra
+2013-04-07 17:18:34	geekosaur	^^
+2013-04-07 17:18:42	geekosaur	it is strange, but them's the breaks
+2013-04-07 17:18:56	<--	ivar_ (~ivar@69.165.206.172) has quit (Quit: Colloquy for iPhone - http://colloquy.mobi)
+2013-04-07 17:19:04	<--	JaRoel (~jaroel|4d@94.142.213.250) has quit (Ping timeout: 256 seconds)
+2013-04-07 17:19:07	ab9rf	this only comes up when dealing with anal-retentive mathematicians
+2013-04-07 17:19:18	Hafydd	I refuse to accept it.
+2013-04-07 17:19:42	totimkopf	maximum' [2,5,1]: max 2 ( maximum' [5,1] ( max 5 ( maximum' [1] ) ) )   <--does this look right?
+2013-04-07 17:20:15	<--	tomberek (78583167@gateway/web/freenode/ip.120.88.49.103) has quit (Quit: Page closed)
+2013-04-07 17:20:24	-->	Rotaerk_ (~BlahBlahB@c-174-54-255-117.hsd1.pa.comcast.net) has joined #haskell
+2013-04-07 17:21:09	-->	XexonixXexillion (82384735@gateway/web/freenode/ip.130.56.71.53) has joined #haskell
+2013-04-07 17:21:20	<--	dmac (~Adium@75-149-33-130-SFBA.hfc.comcastbusiness.net) has quit (Ping timeout: 256 seconds)
+2013-04-07 17:21:52	<--	bytbox (~s@129-2-129-85.wireless.umd.edu) has quit (Quit: Lost terminal)
+2013-04-07 17:21:58	ab9rf	right for what?
+2013-04-07 17:22:10	<--	boccato (~boccato@201.87.106.41) has quit (Remote host closed the connection)
+2013-04-07 17:22:30	totimkopf	right for swapping out the parantheses for real values..
+2013-04-07 17:23:04	-->	Guest27287 (~programme@178.187.79.214) has joined #haskell
+2013-04-07 17:23:09	-->	wavewave (~wavewave@108-228-209-108.lightspeed.livnmi.sbcglobal.net) has joined #haskell
+2013-04-07 17:23:25	-->	chester_ (~chester@95-24-140-97.broadband.corbina.ru) has joined #haskell
+2013-04-07 17:23:34	<--	Catbuntu (~catbuntu@unaffiliated/ls-mft) has quit (Read error: Connection reset by peer)
+2013-04-07 17:23:47	totimkopf	ab9rf: I'm just trying to work out the recursion in "steps"
+2013-04-07 17:24:09	-->	crdueck (~cdk@24.212.219.10) has joined #haskell
+2013-04-07 17:24:20	<--	Rotaerk (~BlahBlahB@c-174-54-255-117.hsd1.pa.comcast.net) has quit (Ping timeout: 260 seconds)
+2013-04-07 17:24:30	-->	kevinqcs (~turing@183.209.140.177) has joined #haskell
+2013-04-07 17:25:06	-->	mintsoup (~mintsoup@c-98-245-69-209.hsd1.co.comcast.net) has joined #haskell
+2013-04-07 17:25:33	<--	mornfall (~mornfall@kde/developer/mornfall) has quit (Ping timeout: 245 seconds)
