@@ -1589,3 +1589,11 @@
 2013-04-07 18:33:06	<--	normanrichards (~normanric@AUSTTXHODS0AE13.mcleodusa.net) has quit (Read error: Connection reset by peer)
 2013-04-07 18:41:00	-->	jonasen (~jonasen@a100.ip13.netikka.fi) has joined #clojurescript
 2013-04-07 19:08:03	-->	enquora (~davidr@S0106602ad083de8c.cg.shawcable.net) has joined #clojurescript
+2013-04-07 19:12:01	<--	enquora (~davidr@S0106602ad083de8c.cg.shawcable.net) has quit (Client Quit)
+2013-04-07 19:20:45	<--	bmaddy (~bmaddy@72.21.231.26) has quit (Remote host closed the connection)
+2013-04-07 19:44:16	-->	bmaddy (~bmaddy@72.21.231.26) has joined #clojurescript
+2013-04-07 19:46:04	<--	bmaddy (~bmaddy@72.21.231.26) has quit (Remote host closed the connection)
+2013-04-07 19:47:53	-->	banjara (~Adium@unaffiliated/banjara) has joined #clojurescript
+2013-04-07 20:06:50	<--	jonasen (~jonasen@a100.ip13.netikka.fi) has quit (Ping timeout: 246 seconds)
+2013-04-07 20:08:43	-->	jonasen (~jonasen@a100.ip13.netikka.fi) has joined #clojurescript
+2013-04-07 20:15:50	-->	bmaddy (~bmaddy@72.21.231.26) has joined #clojurescript

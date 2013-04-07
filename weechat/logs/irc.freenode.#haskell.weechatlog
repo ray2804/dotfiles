@@ -43370,3 +43370,309 @@
 2013-04-07 19:11:17	-->	Beta_d (~Betal@unaffiliated/betal) has joined #haskell
 2013-04-07 19:11:17	--	Beta_d is now known as Betal
 2013-04-07 19:11:22	<--	monqy (~help@pool-98-108-214-230.snloca.dsl-w.verizon.net) has quit (Quit: hello)
+2013-04-07 19:11:41	arkeet	narens: the documentation is really helpful for that kind of stuff.
+2013-04-07 19:11:47	niteria	@pl (x,y) -> (y,x)
+2013-04-07 19:11:47	lambdabot	(line 1, column 9):
+2013-04-07 19:11:47	lambdabot	unexpected '>'
+2013-04-07 19:11:47	lambdabot	expecting operator
+2013-04-07 19:11:54	arkeet	@pl (x,y) -> (y,x)
+2013-04-07 19:11:54	lambdabot	(line 1, column 9):
+2013-04-07 19:11:54	lambdabot	unexpected '>'
+2013-04-07 19:11:55	lambdabot	expecting operator
+2013-04-07 19:11:55	arkeet	er
+2013-04-07 19:11:56	niteria	@pl \(x,y) -> (y,x)
+2013-04-07 19:11:56	lambdabot	uncurry (flip (,))
+2013-04-07 19:12:01	<--	enquora (~davidr@S0106602ad083de8c.cg.shawcable.net) has quit (Client Quit)
+2013-04-07 19:12:32	<--	dagnachew (~dagnachew@bas1-montreal30-2925416620.dsl.bell.ca) has quit (Quit: WeeChat 0.4.0)
+2013-04-07 19:12:33	-->	Tharugrim (~Tharugrim@91-114-136-148.adsl.highway.telekom.at) has joined #haskell
+2013-04-07 19:12:43	<--	JaRoel|4d (~jaroel|4d@94.142.213.250) has quit (Remote host closed the connection)
+2013-04-07 19:12:59	-->	dagnachew (~dagnachew@bas1-montreal30-2925416620.dsl.bell.ca) has joined #haskell
+2013-04-07 19:13:14	-->	mintsoup (~mintsoup@ip-64-134-145-26.public.wayport.net) has joined #haskell
+2013-04-07 19:13:16	narens	maybe I can ask another related qustion. So its clear how to do item %= some_pure_function... but how do i do it if the r.h.s is a monadic function?
+2013-04-07 19:13:32	Taneb	lens?
+2013-04-07 19:13:44	-->	necrobious (~kirk@c-71-237-194-171.hsd1.or.comcast.net) has joined #haskell
+2013-04-07 19:13:46	Taneb	:t (<~)
+2013-04-07 19:13:48	lambdabot	MonadState s m => ASetter s s a b -> m b -> m ()
+2013-04-07 19:14:05	narens	ah
+2013-04-07 19:14:16	Taneb	Well, that's .=
+2013-04-07 19:14:28	-->	junsuijin (~junsuijin@c-76-17-174-68.hsd1.mn.comcast.net) has joined #haskell
+2013-04-07 19:15:06	-->	RichyB (~richardb@cpc10-hawk12-2-0-cust457.aztw.cable.virginmedia.com) has joined #haskell
+2013-04-07 19:15:27	-->	dschoepe (~dschoepe@unaffiliated/dschoepe) has joined #haskell
+2013-04-07 19:15:48	arkeet	huh, I didn't know <~ existed.
+2013-04-07 19:17:01	-->	spion (~spion@unaffiliated/spion) has joined #haskell
+2013-04-07 19:17:13	<--	uvelichitel (~uvelichit@ip254-156.200.109.crimea.com) has quit (Quit: Leaving...)
+2013-04-07 19:17:32	-->	dmac (~Adium@75-149-33-130-SFBA.hfc.comcastbusiness.net) has joined #haskell
+2013-04-07 19:18:54	SaBer	If I patched a package from hackage that doesn't build on a recent ghc (I used cabal fetch to get it), is there some easy way to get a diff of what I did?
+2013-04-07 19:19:13	-->	monqy (~help@pool-98-108-214-230.snloca.dsl-w.verizon.net) has joined #haskell
+2013-04-07 19:19:21	int-e	SaBer: unpack a second copy, then use diff?
+2013-04-07 19:19:35	--	pdxleif is now known as pdxleif_away
+2013-04-07 19:19:42	SaBer	int-e: ok, I thought there might be some shortcut...
+2013-04-07 19:19:44	-->	fredmorcos (~fmorcos@cm56-238-233.liwest.at) has joined #haskell
+2013-04-07 19:19:58	mauke	diff -ruN the-package-original/ the-package/
+2013-04-07 19:20:00	<--	xinming_ (~xinming@125.87.100.136) has quit (Ping timeout: 245 seconds)
+2013-04-07 19:20:00	-->	uvelichitel (~uvelichit@ip254-156.200.109.crimea.com) has joined #haskell
+2013-04-07 19:20:31	int-e	SaBer: there's a shortcut for fetching and unpacking the archive though:  cabal unpack <package>
+2013-04-07 19:20:56	 *	SaBer wonders if anyone is interested in a patch if the package was last updated in 2009...
+2013-04-07 19:21:00	int-e	(though be careful, I think that can overwrite the contents of an existing directory)
+2013-04-07 19:21:13	monochrom	cabal absorption law: fetch >> unpack = unpack :)
+2013-04-07 19:21:14	-->	subbyyy (~win@cpe-24-165-118-58.cinci.res.rr.com) has joined #haskell
+2013-04-07 19:21:42	<--	dmac (~Adium@75-149-33-130-SFBA.hfc.comcastbusiness.net) has quit (Ping timeout: 252 seconds)
+2013-04-07 19:21:50	-->	xinming (~xinming@125.87.99.101) has joined #haskell
+2013-04-07 19:22:16	<--	timthelion (~timothy@94.213.broadband4.iol.cz) has quit (Quit: Lost terminal)
+2013-04-07 19:22:23	dolio	configure >> build >> install = install.
+2013-04-07 19:22:26	int-e	monochrom: by "unpacking the archive" I meant tar xzf ~/.cabal/packages/hackage.haskell.org/<package>/<version>/<package>-<version>.tar.gz
+2013-04-07 19:22:34	<--	Dybber (~dybber@dybber.dk) has quit (Quit: Intentionally left blank)
+2013-04-07 19:22:52	-->	wedgewood_ (~hgckcjjh@14.139.122.114) has joined #haskell
+2013-04-07 19:23:08	-->	Dybber (~dybber@dybber.dk) has joined #haskell
+2013-04-07 19:23:16	<--	wedgewood (~hgckcjjh@14.139.122.114) has quit (Read error: Connection reset by peer)
+2013-04-07 19:23:16	--	wedgewood_ is now known as wedgewood
+2013-04-07 19:23:29	monochrom	eww
+2013-04-07 19:23:32	<--	execc_13 (~fakir@95-24-201-162.broadband.corbina.ru) has quit (Read error: Connection reset by peer)
+2013-04-07 19:23:33	int-e	exactly :)
+2013-04-07 19:23:43	<--	uvelichitel (~uvelichit@ip254-156.200.109.crimea.com) has quit (Client Quit)
+2013-04-07 19:23:54	int-e	But I did that for a while before I learned about unpack. (And possibly before the command even existed)
+2013-04-07 19:24:08	monochrom	also, mind this: configure --prefix=/not/default >> build >> install /= install
+2013-04-07 19:24:08	-->	uvelichitel (~uvelichit@ip254-156.200.109.crimea.com) has joined #haskell
+2013-04-07 19:24:12	<--	edwardk (~edwardk@pdpc/supporter/professional/edwardk) has quit (Quit: Computer has gone to sleep.)
+2013-04-07 19:24:20	<--	uvelichitel (~uvelichit@ip254-156.200.109.crimea.com) has quit (Client Quit)
+2013-04-07 19:24:22	-->	execc_13 (~fakir@95-24-201-162.broadband.corbina.ru) has joined #haskell
+2013-04-07 19:25:12	<--	ClaudiusMaximus (~claude@78-105-51-40.zone3.bethere.co.uk) has quit (Quit: ->)
+2013-04-07 19:25:15	supki	monochrom: what's the difference?
+2013-04-07 19:25:29	dmwit	install doesn't keep any options you passed to configure.
+2013-04-07 19:25:42	dmwit	(prefix is just one example of the options it doesn't keep)
+2013-04-07 19:25:56	supki	well, then it's = ?
+2013-04-07 19:26:05	dmwit	Also, install will re-run the constraint solver, and possibly choose a different solution. Though I think this is pretty unlikely.
+2013-04-07 19:26:06	<--	predator117 (~predator1@p50804C4B.dip.t-dialin.net) has quit (Ping timeout: 252 seconds)
+2013-04-07 19:26:23	-->	uvelichitel (~uvelichit@ip254-156.200.109.crimea.com) has joined #haskell
+2013-04-07 19:26:26	-->	flebron (~flebron@c-76-102-255-42.hsd1.ca.comcast.net) has joined #haskell
+2013-04-07 19:26:27	-->	predator117 (~predator1@p50804C4B.dip.t-dialin.net) has joined #haskell
+2013-04-07 19:26:41	int-e	cabal install --prefix=/not/default  should work
+2013-04-07 19:26:45	dmwit	Oh. Okay, maybe I'll let monochrom say what he thinks is different, then.
+2013-04-07 19:26:46	supki	configure --prefix=/not/default >> build >> install /= install --prefix=/not/default
+2013-04-07 19:26:49	-->	snowylike (~sn@91-67-171-156-dynip.superkabel.de) has joined #haskell
+2013-04-07 19:27:13	int-e	supki: why?
+2013-04-07 19:27:37	supki	int-e: for reasons dmwit has mentioned
+2013-04-07 19:27:40	dmwit	int-e: See my explanation above, which was mistakenly backing up supki and not monochrom. =)
+2013-04-07 19:28:02	int-e	ah wait, correcting monochrom's example
+2013-04-07 19:28:05	int-e	right.
+2013-04-07 19:28:06	<--	DrChaos (~DrChaos@cpe-70-123-204-134.satx.res.rr.com) has quit (Ping timeout: 248 seconds)
+2013-04-07 19:28:21	-->	tharper (~tomh@c83-250-198-77.bredband.comhem.se) has joined #haskell
+2013-04-07 19:28:21	<--	tharper (~tomh@c83-250-198-77.bredband.comhem.se) has quit (Changing host)
+2013-04-07 19:28:21	-->	tharper (~tomh@unaffiliated/sioraiocht) has joined #haskell
+2013-04-07 19:28:41	dmwit	Or perhaps he meant configure --foo >> build >> register /= install
+2013-04-07 19:28:53	dmwit	I dunno.
+2013-04-07 19:29:04	-->	skyflash_ (~skyflash@96.53.63.54) has joined #haskell
+2013-04-07 19:29:10	dmwit	/= install --foo even
+2013-04-07 19:29:16	-->	dylukes (~dylukes@dhcp-ltc-130-49-6-48.oakland.resnet.pitt.edu) has joined #haskell
+2013-04-07 19:30:49	parcs	:t let (a + b) c d e f g = () in (+)
+2013-04-07 19:30:50	lambdabot	t -> t1 -> t2 -> t3 -> t4 -> t5 -> t6 -> ()
+2013-04-07 19:30:52	<--	setmeaway (stemearay@118.45.149.119) has quit (Quit: Leaving)
+2013-04-07 19:31:07	<--	tsenart (~tsenart@bl9-123-172.dsl.telepac.pt) has quit (Remote host closed the connection)
+2013-04-07 19:31:08	<--	execc_13 (~fakir@95-24-201-162.broadband.corbina.ru) has left #haskell
+2013-04-07 19:31:35	int-e	configure; build; copy; register ?
+2013-04-07 19:31:37	monochrom	the inequation I wrote is exactly right
+2013-04-07 19:32:16	dmwit	What's the difference?
+2013-04-07 19:32:28	monochrom	and it is mainly because install performs configure
+2013-04-07 19:32:55	-->	eikke (~nicolas@d8D86B9FD.access.telenet.be) has joined #haskell
+2013-04-07 19:33:31	-->	plucas (~plucas@c-24-98-196-250.hsd1.ga.comcast.net) has joined #haskell
+2013-04-07 19:33:33	-->	arenz (~arenz@HSI-KBW-046-005-061-181.hsi8.kabel-badenwuerttemberg.de) has joined #haskell
+2013-04-07 19:33:53	monochrom	see my http://thread.gmane.org/gmane.comp.lang.haskell.cafe/101796
+2013-04-07 19:34:04	<--	Hermit (~hermit@unaffiliated/grpala) has quit (Ping timeout: 260 seconds)
+2013-04-07 19:34:44	dmwit	monochrom: You seem to be supporting supki in that there really should be an '=' there.
+2013-04-07 19:35:06	dmwit	or perhaps the inequality should be configure --prefix >> build >> install /= install --prefix
+2013-04-07 19:35:29	<--	timjb (~timjb@ppp-93-104-162-213.dynamic.mnet-online.de) has quit (Remote host closed the connection)
+2013-04-07 19:35:34	monochrom	let me write my inequation again
+2013-04-07 19:35:43	monochrom	configure --prefix=/not/default >> build >> install /= install
+2013-04-07 19:35:46	<--	copumpkin (~copumpkin@unaffiliated/copumpkin) has quit (Quit: Computer has gone to sleep.)
+2013-04-07 19:35:50	<--	samedhi (~stephen@76.14.74.147) has quit (Quit: samedhi)
+2013-04-07 19:35:54	-->	bitonic (~user@dyn1220-246.wlan.ic.ac.uk) has joined #haskell
+2013-04-07 19:36:07	-->	dogmaT (~dogmat@ip-94-112-150-164.net.upcbroadband.cz) has joined #haskell
+2013-04-07 19:36:09	dmwit	This is not what your email says. Your email says the last install on the left-hand side ignores the prefix from the configure; so what's different between them?
+2013-04-07 19:36:14	monochrom	I fully mean this inequation and it is provably correct
+2013-04-07 19:36:28	monochrom	oh, wait, my error
+2013-04-07 19:36:49	monochrom	you are right. what supki says
+2013-04-07 19:36:59	monochrom	I am terribly sorry
+2013-04-07 19:38:52	<--	cognominal__ (~cognomina@37.160.44.181) has quit (Ping timeout: 256 seconds)
+2013-04-07 19:38:52	-->	rodrigovidal (~rodrigovi@201.37.47.64) has joined #haskell
+2013-04-07 19:38:52	-->	Hermit (~hermit@unaffiliated/grpala) has joined #haskell
+2013-04-07 19:40:53	-->	dmac (~Adium@75-149-33-130-SFBA.hfc.comcastbusiness.net) has joined #haskell
+2013-04-07 19:41:11	<--	latermuse (~ron@112.201.145.213) has quit (Ping timeout: 256 seconds)
+2013-04-07 19:41:32	<--	sh (~sh@uiharu.memespace.net) has quit (Remote host closed the connection)
+2013-04-07 19:41:45	<--	arenz (~arenz@HSI-KBW-046-005-061-181.hsi8.kabel-badenwuerttemberg.de) has quit (Read error: Operation timed out)
+2013-04-07 19:41:49	-->	sh (~sh@uiharu.memespace.net) has joined #haskell
+2013-04-07 19:41:49	-->	Henesy (~h3n3sy@adsl-76-253-184-197.dsl.peoril.sbcglobal.net) has joined #haskell
+2013-04-07 19:42:01	-->	JaRoel (~jaroel|4d@2001:980:7133:1:b913:4198:5069:f212) has joined #haskell
+2013-04-07 19:42:03	<--	guymann (~c@unaffiliated/guymann) has quit (Ping timeout: 252 seconds)
+2013-04-07 19:43:00	<--	rodrigovidal (~rodrigovi@201.37.47.64) has quit (Ping timeout: 256 seconds)
+2013-04-07 19:43:28	--	Watcher7|off is now known as Watcher7
+2013-04-07 19:43:30	<--	jodaro (uid5995@gateway/web/irccloud.com/x-zgbupxfmiwtacsmj) has quit (Ping timeout: 246 seconds)
+2013-04-07 19:43:33	-->	16SAA86BR (~hiroaki@ip-5-147-122-136.unitymediagroup.de) has joined #haskell
+2013-04-07 19:43:33	-->	hiroaki (~hiroaki@ip-5-147-122-136.unitymediagroup.de) has joined #haskell
+2013-04-07 19:43:33	-->	31NAADGFT (~hiroaki@ip-5-147-122-136.unitymediagroup.de) has joined #haskell
+2013-04-07 19:43:33	<--	31NAADGFT (~hiroaki@ip-5-147-122-136.unitymediagroup.de) has quit (Read error: Connection reset by peer)
+2013-04-07 19:43:44	<--	implr (implr@nolajf.pl) has left #haskell
+2013-04-07 19:43:46	-->	cognominal__ (~cognomina@37.160.6.93) has joined #haskell
+2013-04-07 19:43:50	<--	16SAA86BR (~hiroaki@ip-5-147-122-136.unitymediagroup.de) has quit (Read error: Connection reset by peer)
+2013-04-07 19:43:53	<--	kartoffelbrei (~user@p54962C0A.dip.t-dialin.net) has quit (Remote host closed the connection)
+2013-04-07 19:43:58	-->	hiroakip (~hiroaki@ip-5-147-122-136.unitymediagroup.de) has joined #haskell
+2013-04-07 19:44:18	<--	schovi (~schovi@ip-89-176-244-70.net.upcbroadband.cz) has quit (Remote host closed the connection)
+2013-04-07 19:44:24	-->	inarenvi (~quassel@92.59.146.137) has joined #haskell
+2013-04-07 19:44:45	<--	wedgewood (~hgckcjjh@14.139.122.114) has quit (Quit: wedgewood)
+2013-04-07 19:45:02	NemesisD	hi guys. i'm curious if this monadic function could be made to be point free and still legible: foo params = do stream <- getMetrics params; liftIO $ S.toList stream
+2013-04-07 19:45:25	NemesisD	it feels like i need some sort of monadic composition or something
+2013-04-07 19:45:43	mauke	@. pl undo foo params = do stream <- getMetrics params; liftIO $ S.toList stream
+2013-04-07 19:45:44	lambdabot	foo = (liftIO . S.toList =<<) . getMetrics
+2013-04-07 19:45:54	-->	vili (~vili@cpe-76-189-126-223.neo.res.rr.com) has joined #haskell
+2013-04-07 19:46:11	<--	elgot (~elgot@c-a0c3e455.017-362-6c6b701.cust.bredbandsbolaget.se) has quit (Ping timeout: 246 seconds)
+2013-04-07 19:46:55	<--	dagnachew (~dagnachew@bas1-montreal30-2925416620.dsl.bell.ca) has quit (Quit: WeeChat 0.4.0)
+2013-04-07 19:46:56	monochrom	getMetrics params >>= liftIO . S.toList
+2013-04-07 19:46:57	geekosaur	monadic composition is (>>=) (or (=<<) which is the flipped version) and do notation is translated into uses of it
+2013-04-07 19:46:57	-->	elgot (~elgot@c-a0c3e455.017-362-6c6b701.cust.bredbandsbolaget.se) has joined #haskell
+2013-04-07 19:47:10	hpaste	niteria pasted “Record hack” at http://hpaste.org/85365
+2013-04-07 19:47:13	mauke	@undo foo params = do stream <- getMetrics params; liftIO $ S.toList stream
+2013-04-07 19:47:14	lambdabot	foo params = getMetrics params >>= \ stream -> liftIO $ S.toList stream
+2013-04-07 19:47:15	-->	mizu_no_oto (~textual@c-76-24-19-222.hsd1.ma.comcast.net) has joined #haskell
+2013-04-07 19:47:28	niteria	is there anything wrong with this approach?
+2013-04-07 19:47:56	<--	nilsi (~nilsi@c83-253-22-138.bredband.comhem.se) has quit (Remote host closed the connection)
+2013-04-07 19:48:01	NemesisD	hmm. its a little odd looking but if i break the (liftIO . S.toList =<<) into a "where" as consume its quite nice: foo params = consume . getMetrics
+2013-04-07 19:48:05	niteria	I imagine you could automate this with TH
+2013-04-07 19:48:15	jmcarthur	liftIO . S.toList <=< getMetrics
+2013-04-07 19:48:33	<--	mintsoup (~mintsoup@ip-64-134-145-26.public.wayport.net) has quit (Ping timeout: 256 seconds)
+2013-04-07 19:48:47	mauke	liftM liftIO S.toList <=< getMetrics
+2013-04-07 19:48:52	<--	hamid (~nithp@unaffiliated/hamid) has quit (Quit: Lost terminal)
+2013-04-07 19:48:57	-->	cfricke (~cfricke@64.231.53.131) has joined #haskell
+2013-04-07 19:49:03	<--	cfricke (~cfricke@64.231.53.131) has quit (Read error: Connection reset by peer)
+2013-04-07 19:49:25	NemesisD	ah yes! <=<
+2013-04-07 19:49:35	-->	cfricke (~cfricke@64.231.53.131) has joined #haskell
+2013-04-07 19:50:07	NemesisD	i've never actually used that function anymore because most documentation on it just calls it klesli composition and leaves it at that
+2013-04-07 19:50:26	-->	copumpkin (~copumpkin@unaffiliated/copumpkin) has joined #haskell
+2013-04-07 19:50:38	-->	zhej (~zhej@72-53-153-34.cpe.distributel.net) has joined #haskell
+2013-04-07 19:50:55	jmcarthur	@src (<=<)
+2013-04-07 19:50:55	lambdabot	Source not found. BOB says:  You seem to have forgotten your passwd, enter another!
+2013-04-07 19:51:02	<--	zhej (~zhej@72-53-153-34.cpe.distributel.net) has quit (Client Quit)
+2013-04-07 19:51:03	jmcarthur	@src (Control.Monad.<=<)
+2013-04-07 19:51:04	lambdabot	Source not found. I feel much better now.
+2013-04-07 19:51:13	-->	setmeaway (~setmeaway@118.45.149.119) has joined #haskell
+2013-04-07 19:53:06	-->	inarenvi_ (~quassel@92.59.135.101) has joined #haskell
+2013-04-07 19:53:12	<--	inarenvi (~quassel@92.59.146.137) has quit (Ping timeout: 256 seconds)
+2013-04-07 19:53:45	-->	BobFunk (~mbc@76.14.64.156) has joined #haskell
+2013-04-07 19:54:00	-->	Beta_d (~Betal@unaffiliated/betal) has joined #haskell
+2013-04-07 19:54:00	<--	Betal (~Betal@unaffiliated/betal) has quit (Disconnected by services)
+2013-04-07 19:54:00	Taneb	f >=> g     = \x -> f x >>= g
+2013-04-07 19:54:02	--	Beta_d is now known as Betal
+2013-04-07 19:54:06	Taneb	(<=<) = flip (>=>)
+2013-04-07 19:54:44	<--	Guest21261 (~programme@178.187.35-228.xdsl.ab.ru) has quit (Quit: Ухожу я от вас (xchat 2.4.5 или старше))
+2013-04-07 19:54:53	<--	cognominal__ (~cognomina@37.160.6.93) has quit (Ping timeout: 240 seconds)
+2013-04-07 19:55:01	<--	plucas (~plucas@c-24-98-196-250.hsd1.ga.comcast.net) has quit (Quit: Computer has gone to sleep.)
+2013-04-07 19:55:10	<--	Betal (~Betal@unaffiliated/betal) has quit (Remote host closed the connection)
+2013-04-07 19:55:11	Taneb	Can you derive the law that (>=>) is associative from the (>>=)/return monad laws?
+2013-04-07 19:55:17	NemesisD	i very rarely use >>=. i don't like how it reads
+2013-04-07 19:55:28	Saizan	Taneb: yeah
+2013-04-07 19:55:44	NemesisD	it feels more imperative to me than =<<, maybe just how i use it
+2013-04-07 19:56:13	<--	dmj (~user@ppp-69-216-244-225.dsl.chcgil.ameritech.net) has quit (Remote host closed the connection)
+2013-04-07 19:56:19	-->	dmj` (~user@ppp-69-216-244-225.dsl.chcgil.ameritech.net) has joined #haskell
+2013-04-07 19:56:22	<--	dmj` (~user@ppp-69-216-244-225.dsl.chcgil.ameritech.net) has left #haskell
+2013-04-07 19:56:50	<--	Argue (~Argue@112.209.13.160) has quit (Quit: Leaving)
+2013-04-07 19:56:56	-->	kartoffelbrei (~user@p54962C0A.dip.t-dialin.net) has joined #haskell
+2013-04-07 19:57:02	narens	question: how come passing cabal test +RTS -N doesn't work? Does it not pass the -N flag to the test program?
+2013-04-07 19:57:06	monochrom	>>= is meant to be imperative
+2013-04-07 19:57:14	-->	Hibn (~anonymous@adsl196-75-21-217-196.adsl196-9.iam.net.ma) has joined #haskell
+2013-04-07 19:57:21	monochrom	=<< is meant to be imperative written right-to-left
+2013-04-07 19:58:11	__xc	monads are the imperative part of haskell then?
+2013-04-07 19:58:19	Taneb	No
+2013-04-07 19:58:22	-->	gwern (~gwern@pool-108-48-211-153.washdc.east.verizon.net) has joined #haskell
+2013-04-07 19:58:22	<--	gwern (~gwern@pool-108-48-211-153.washdc.east.verizon.net) has quit (Changing host)
+2013-04-07 19:58:22	-->	gwern (~gwern@wikipedia/Gwern) has joined #haskell
+2013-04-07 19:58:26	Taneb	Monads are monads
+2013-04-07 19:58:30	geekosaur	the IO monad is the imperative part of haskell, sort of
+2013-04-07 19:58:31	monochrom	not necessarily. some monads are meant to be imperative, but not all
+2013-04-07 19:58:33	 *	hackagebot clay 0.4 - CSS preprocessor as embedded Haskell.  http://hackage.haskell.org/package/clay-0.4 (SebastiaanVisser)
+2013-04-07 19:58:36	geekosaur	but IO is not at all a representative monad
+2013-04-07 19:58:41	mauke	(f >=> g) >=> h = \y -> (\x -> f x >>= g) y >>= h = \y -> (f y >>= g) >>= h = \y -> f y >>= (\x -> g x >>= h) = \y -> f y >>= (g >=> h) = f >=> (g >=> h)
+2013-04-07 19:58:59	__xc	ok
+2013-04-07 19:59:12	NemesisD	*brain explosion*
+2013-04-07 19:59:19	geekosaur	the list monad is in many ways anti-imperative, in fact (it's sometimes called the nondeterminism monad)
+2013-04-07 19:59:35	<--	Hibn (~anonymous@adsl196-75-21-217-196.adsl196-9.iam.net.ma) has left #haskell
+2013-04-07 20:00:21	mauke	it gets more readable if you replace " = " by newlines
+2013-04-07 20:00:22	__xc	> "ok" >>= \x -> [x]
+2013-04-07 20:00:23	lambdabot	  "ok"
+2013-04-07 20:00:31	mauke	also I'm not sure whether the middle step is actually a monad law
+2013-04-07 20:00:37	monochrom	narens: I don't really know about cabal test, but after reading cabal test --help, I don't think there is any way to pass flags to the test program
+2013-04-07 20:01:27	narens	monochrom: k, i will just call the test program directly.. doesn't matter much to me
+2013-04-07 20:01:30	<--	skyflash_ (~skyflash@96.53.63.54) has quit (Remote host closed the connection)
+2013-04-07 20:01:47	mauke	I'm just going to assume someone will correct me if I'm wrong on the internet
+2013-04-07 20:02:08	-->	pygmalion (~user@c-98-223-156-50.hsd1.in.comcast.net) has joined #haskell
+2013-04-07 20:02:11	<--	anderse (~anderself@c83-248-64-25.bredband.comhem.se) has quit (Quit: anderse)
+2013-04-07 20:02:15	monochrom	narens: sorry, I misread, --test-options and --test-option may help
+2013-04-07 20:02:20	-->	Twisol (~Oddlyoko@cpe-76-166-195-41.socal.res.rr.com) has joined #haskell
+2013-04-07 20:02:20	<--	Twisol (~Oddlyoko@cpe-76-166-195-41.socal.res.rr.com) has quit (Changing host)
+2013-04-07 20:02:20	-->	Twisol (~Oddlyoko@wikia/Oddlyoko) has joined #haskell
+2013-04-07 20:02:30	<--	sh (~sh@uiharu.memespace.net) has quit (Remote host closed the connection)
+2013-04-07 20:02:43	narens	monochrom: thanks, i'll take a look
+2013-04-07 20:02:46	-->	sh (~sh@uiharu.memespace.net) has joined #haskell
+2013-04-07 20:03:00	<--	augur_ (~augur@208.58.5.87) has quit (Remote host closed the connection)
+2013-04-07 20:03:10	-->	dell (~quassel@202.3.77.216) has joined #haskell
+2013-04-07 20:03:11	--	dell is now known as xerxes
+2013-04-07 20:03:11	--	xerxes is now known as dell
+2013-04-07 20:03:56	-->	guymann (~c@unaffiliated/guymann) has joined #haskell
+2013-04-07 20:04:27	--	dell is now known as xerxes
+2013-04-07 20:05:17	monochrom	I have checked mauke's steps. they are right.
+2013-04-07 20:05:23	<--	AgentM (~AgentM@cpe-74-64-32-157.nyc.res.rr.com) has quit (Quit: Leaving.)
+2013-04-07 20:05:50	<--	dnolen (~user@cpe-74-64-32-223.nyc.res.rr.com) has quit (Ping timeout: 245 seconds)
+2013-04-07 20:06:03	kartoffelbrei	Is the 'Wire' type of netwire an instance of Num ?
+2013-04-07 20:06:11	mauke	\o/
+2013-04-07 20:06:18	elliott	monochrom seal of approval
+2013-04-07 20:06:28	mauke	is it black and white?
+2013-04-07 20:08:06	-->	nimish (~nimish@dynamic-acs-24-112-236-171.zoominternet.net) has joined #haskell
+2013-04-07 20:08:13	kartoffelbrei	It is. Should have asked ghci before asking here, sorry.
+2013-04-07 20:08:58	<--	ryanfairchild (~ryanfairc@ip-64-134-99-204.public.wayport.net) has quit (Quit: Linkinus - http://linkinus.com)
+2013-04-07 20:09:50	<--	cfricke (~cfricke@64.231.53.131) has quit (Quit: leaving)
+2013-04-07 20:09:56	-->	twanvl (~Twan@dhcp-077-250-086-217.chello.nl) has joined #haskell
+2013-04-07 20:10:40	<--	sh (~sh@uiharu.memespace.net) has quit (Remote host closed the connection)
+2013-04-07 20:10:56	-->	sh (~sh@uiharu.memespace.net) has joined #haskell
+2013-04-07 20:10:56	-->	skyflash_ (~skyflash@96.53.63.54) has joined #haskell
+2013-04-07 20:11:38	-->	plucas (~plucas@c-24-98-196-250.hsd1.ga.comcast.net) has joined #haskell
+2013-04-07 20:12:36	ab9rf	no, it's blue on blue.
+2013-04-07 20:12:40	<--	fredmorcos (~fmorcos@cm56-238-233.liwest.at) has quit (Quit: Leaving)
+2013-04-07 20:12:51	-->	Jambato (~le@auv95-1-82-241-80-196.fbx.proxad.net) has joined #haskell
+2013-04-07 20:13:26	<--	mizu_no_oto (~textual@c-76-24-19-222.hsd1.ma.comcast.net) has quit (Quit: Computer has gone to sleep.)
+2013-04-07 20:13:36	<--	twanvl_ (~Twan@dhcp-077-250-086-217.chello.nl) has quit (Ping timeout: 256 seconds)
+2013-04-07 20:13:36	<--	paolino (~paolino@net-93-144-88-147.cust.dsl.teletu.it) has quit (Ping timeout: 256 seconds)
+2013-04-07 20:13:43	-->	estebistec (~estebiste@174.34.1.240.reverse.socket.net) has joined #haskell
+2013-04-07 20:14:44	-->	fredmorcos (~fmorcos@cm56-238-233.liwest.at) has joined #haskell
+2013-04-07 20:15:12	-->	josephle (~joseph_h_@128.237.140.204) has joined #haskell
+2013-04-07 20:16:04	<--	godhack (~THX@p57A901A4.dip0.t-ipconnect.de) has quit
+2013-04-07 20:16:08	<--	madjestic (~madjestic@178-84-90-204.dynamic.upc.nl) has quit (Ping timeout: 252 seconds)
+2013-04-07 20:16:31	-->	dmj` (~user@ppp-69-216-244-225.dsl.chcgil.ameritech.net) has joined #haskell
+2013-04-07 20:16:33	-->	arlinius (~eamlei@gateway/tor-sasl/maerline) has joined #haskell
+2013-04-07 20:17:02	-->	cognominal (~cognomina@37.160.29.94) has joined #haskell
+2013-04-07 20:18:21	<--	Okasu (~1@unaffiliated/okasu) has quit (Ping timeout: 245 seconds)
+2013-04-07 20:19:20	<--	cmsmcq (~cmsmcq@65.19.20.185) has quit (Quit: I'm so ... sleeeepy.)
+2013-04-07 20:19:39	dmj`	I'm reading in a text file that is 3MB and printing the word frequencies to the command line. I'm about 3 minutes in and its still churning. Should I use ByteStrings instead of normal strings?
+2013-04-07 20:20:13	<--	tootooroo (~suckmy@unaffiliated/dijkstragroupie) has quit (Ping timeout: 240 seconds)
+2013-04-07 20:20:23	-->	Okasu (~1@unaffiliated/okasu) has joined #haskell
+2013-04-07 20:20:50	<--	snoyberg (~ubuntu@89-139-153-6.bb.netvision.net.il) has quit (Ping timeout: 245 seconds)
+2013-04-07 20:21:18	-->	madjestic (~madjestic@178-84-90-204.dynamic.upc.nl) has joined #haskell
+2013-04-07 20:21:53	jmcarthur	something sounds seriously wrong to take three minutes to process only 3MB. more wrong than just using String
+2013-04-07 20:22:17	Rembane_	dmj`: Pastebin your code! :)
+2013-04-07 20:22:17	Taneb	For word frequencies, I'd use Text
+2013-04-07 20:22:40	<--	RichyB (~richardb@cpc10-hawk12-2-0-cust457.aztw.cable.virginmedia.com) has quit (Ping timeout: 256 seconds)
+2013-04-07 20:23:19	-->	typoclass (~typoclass@p4FC936D1.dip.t-dialin.net) has joined #haskell
+2013-04-07 20:23:32	monochrom	I agree about something less superficial than just string vs bytestring
+2013-04-07 20:24:09	monochrom	be prepared to replace 90% of current code
+2013-04-07 20:24:13	<--	janbanan (~naj@niklas.vth.sgsnet.se) has quit (Quit: - nbs-irc 2.39 - www.nbs-irc.net -)
+2013-04-07 20:24:25	<--	Afish (~Miranda@chips.ds16.agh.edu.pl) has quit (Quit: Miranda IM! Smaller, Faster, Easier. http://miranda-im.org)
+2013-04-07 20:24:32	-->	cmsmcq (~cmsmcq@65.19.20.185) has joined #haskell
+2013-04-07 20:24:32	Taneb	I think the bottleneck might be in the counting rather than the traversing
+2013-04-07 20:25:39	<--	cognominal (~cognomina@37.160.29.94) has quit (Ping timeout: 252 seconds)
+2013-04-07 20:26:13	<--	fredmorcos (~fmorcos@cm56-238-233.liwest.at) has quit (Quit: Leaving)
+2013-04-07 20:26:14	hpaste	dmj pasted “File reading at 3min” at http://hpaste.org/85367
+2013-04-07 20:26:50	-->	tac_ (2673a6ca@gateway/web/freenode/ip.38.115.166.202) has joined #haskell
+2013-04-07 20:27:53	dmj`	So, I'm reading in a file, cleaning the input a bit, then adding it to a map, converting to a list, adding a linear scale, sorting it by frequencies, removing 0 frequencies then mapM_ to IO
+2013-04-07 20:28:25	dmj`	From what I've read it seems like attoparsec would be good for this...
+2013-04-07 20:28:31	dmj`	This is the stanford homework assignment
+2013-04-07 20:28:35	<--	plucas (~plucas@c-24-98-196-250.hsd1.ga.comcast.net) has quit (Quit: Computer has gone to sleep.)
+2013-04-07 20:28:51	dmj`	monochrom: lol, I'm ready
+2013-04-07 20:29:01	-->	taylorgb (~mystery@213.229.88.28) has joined #haskell
+2013-04-07 20:29:33	-->	aCube (~cubce@dslb-088-073-238-051.pools.arcor-ip.net) has joined #haskell
+2013-04-07 20:29:38	<--	tac (2673a6ca@gateway/web/freenode/ip.38.115.166.202) has quit (Ping timeout: 245 seconds)

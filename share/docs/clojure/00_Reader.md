@@ -4,49 +4,65 @@ Reader forms
 Symbols
 -------
 
-Symbols begin with a non-numeric character and can contain alphanumeric 
+Symbols begin with a **non-numeric** character and can contain *alphanumeric* 
 characters and `*`, `+`, `!`, `-`, `_`, and `?` (other characters will 
 be allowed eventually, but not all macro characters have been determined). 
 
-* `/` has special meaning, it can be used once in the middle of a symbol
-to separate the namespace from the name, e.g. `my-namespace/foo`. `/` by 
-itself names the division function. 
+* `/` (forward slash) has special meaning, it can be used once in the middle 
+of a symbol to separate the *namespace* from the name, e.g. `my-namespace/foo`. 
+`/` by itself names the division function. 
 
-* `.` has special meaning - it can be used one or more times in the middle of 
-a symbol to designate a fully-qualified class name, e.g. `java.util.BitSet`, 
-or in namespace names. 
+* `.` (dot/period) has special meaning - it can be used one or more times in the 
+middle of a symbol to designate a **fully-qualified class name**, e.g. 
+`java.util.BitSet`, or in namespace names. 
 
-* Symbols beginning or ending with `.` are *reserved* by Clojure.
+* Symbols *beginning or ending* with `.` are reserved by Clojure.
 
-* Symbols containing `/` or `.` are said to be **qualified**. 
+* Symbols *containing* `/` or `.` are said to be **qualified**. 
 
-* Symbols beginning or ending with `:` are *reserved* by Clojure. 
+* Symbols *beginning or ending* with `:` are reserved by Clojure. 
 
 * A symbol *can* contain one or more non-repeating `:`s.
 
 Literals
 --------
 
-* <u>Strings</u> - Enclosed in **"double quotes"**. May span multiple lines. 
+### Strings ###################################################################
+
+Enclosed in **"double quotes"**. May span multiple lines. 
 Standard Java escape characters are supported.
 
-* <u>Numbers</u> - as per Java, plus indefinitely long integers are supported, 
-as well as ratios, e.g. `22/7`. Floating point numbers with an `M suffix` are 
-read as `BigDecimals`. Integers can be specified in any base supported by 
-`Integer.parseInt()`, that is any radix from 2 to 36; for example 2r101010, 
-8r52, 36r16, and 42 are all the same Integer.
 
-* <u>Characters</u> - preceded by a backslash like `\c`. `\newline`, `\space` 
-and `\tab` yield the corresponding characters.
+### Numbers ###################################################################
 
-* <u>nil</u> Means *nothing/no-value* - represents Java null and tests logical
-false
+As per Java, plus indefinitely long integers are supported, as well as 
+ratios, e.g. `22/7`. Floating point numbers with an `M suffix` are read 
+as `BigDecimals`. 
 
-* <u>Booleans</u> - true and false
+Integers can be specified in any base supported by `Integer.parseInt()`, 
+that is any radix from 2 to 36; for example `2r101010`, `8r52`, `36r16`,
+and `42` are all the same Integer.
 
-### Keywords 
+
+### Characters ################################################################
+
+Preceded by a backslash like `\c`. `\newline`, `\space` and `\tab` yield 
+the corresponding characters.
+
+
+### nil (means) *nothing/no-value* ############################################
+
+Represents Java null and tests logical `false`
+
+
+### Booleans ##################################################################
+
+true and false
+
+### Keywords ##################################################################
 
 Keywords are like symbols, except:
+
 * They can and must begin with a colon, e.g. `:fred`.
 * They cannot contain `.` or name classes.
 * A keyword that begins with two colons is resolved in the current namespace:
@@ -55,33 +71,27 @@ In the user namespace, `::rect` is read as `:user/rec`
 Lists
 -----
 
-* Lists are zero or more forms enclosed in parentheses:
-`(a b c)`
+Lists are zero or more forms enclosed in parentheses: `(a b c)`
 
 Vectors
 -------
 
-* Vectors are zero or more forms enclosed in square brackets:
-`[1 2 3]`
+Vectors are zero or more forms enclosed in square brackets: `[1 2 3]`
 
 Maps
 ----
 
-* Maps are zero or more key/value pairs enclosed in braces:
-`{:a 1 :b 2}`
-* Commas are considered whitespace, and can be used to organize the pairs:
-`{:a 1, :b 2}`
+* Maps are zero or more key/value pairs enclosed in braces: `{:a 1 :b 2}`
+* Commas are considered whitespace, and can be used to organize the pairs: `{:a 1, :b 2}`
 * Keys and values can be any forms.
 
 Sets
 ----
 
-* Sets are zero or more forms enclosed in braces preceded by #:
-`#{:a :b :c}`
+* Sets are zero or more forms enclosed in braces preceded by #: `#{:a :b :c}`
 
-Deftype, defrecord
+Deftype, defrecord (>=1.3)
 ------------------
-(>=1.3)
 
 * `Deftype`, `defrecord` and `any` constructor calls:
 Calls to Java class, deftype, and defrecord constructors can be called using 

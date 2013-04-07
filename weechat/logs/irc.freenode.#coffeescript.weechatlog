@@ -16176,3 +16176,48 @@
 2013-04-07 19:02:46	-->	rads (~rads@c-67-164-33-168.hsd1.ca.comcast.net) has joined #coffeescript
 2013-04-07 19:08:11	--	crypto-tron is now known as sinclair
 2013-04-07 19:08:18	--	sinclair is now known as sinclair-work
+2013-04-07 19:17:35	-->	infynyxx (~infynyxx@cpe-24-90-84-91.nyc.res.rr.com) has joined #coffeescript
+2013-04-07 19:20:11	<--	Dreamer3 (~Dreamer3@74-141-133-220.dhcp.insightbb.com) has quit (Quit: Computer has gone to sleep.)
+2013-04-07 19:21:26	-->	subbyyy (~win@cpe-24-165-118-58.cinci.res.rr.com) has joined #coffeescript
+2013-04-07 19:29:16	-->	dylukes (~dylukes@dhcp-ltc-130-49-6-48.oakland.resnet.pitt.edu) has joined #coffeescript
+2013-04-07 19:29:25	<--	divout (~divout@37.140.71.60) has quit (Quit: Leaving.)
+2013-04-07 19:31:05	-->	rohdef (~rohdef@0133900164.0.fullrate.dk) has joined #coffeescript
+2013-04-07 19:34:53	-->	devongovett (~devongove@pcp049181pcs.pcv.reshall.calpoly.edu) has joined #coffeescript
+2013-04-07 19:42:37	-->	mrkurt (~mrkurt@ec2-107-21-96-119.compute-1.amazonaws.com) has joined #coffeescript
+2013-04-07 19:43:30	<--	ziyadb (uid4806@gateway/web/irccloud.com/x-pkldgppnvduxwonh) has quit (Ping timeout: 246 seconds)
+2013-04-07 19:43:30	<--	mrkurt_ (~mrkurt@ec2-107-21-96-119.compute-1.amazonaws.com) has quit (Ping timeout: 246 seconds)
+2013-04-07 19:45:21	<--	epiloque (~epiloque@176.32.195.59) has quit (Ping timeout: 252 seconds)
+2013-04-07 19:46:05	<--	boodle (~boodle@174.46.129.59) has quit (Ping timeout: 246 seconds)
+2013-04-07 19:46:47	<--	infynyxx (~infynyxx@cpe-24-90-84-91.nyc.res.rr.com) has quit (Remote host closed the connection)
+2013-04-07 19:47:51	-->	boodle (~boodle@174.46.129.59) has joined #coffeescript
+2013-04-07 19:48:20	-->	tomb (~tombell-f@188-222-201-93.zone13.bethere.co.uk) has joined #coffeescript
+2013-04-07 19:49:44	<--	tundramonkey (~tundramon@ppp121-44-79-85.lns20.syd6.internode.on.net) has quit (Remote host closed the connection)
+2013-04-07 19:49:51	<--	MelkorNemesis1 (~Adium@121.48.broadband10.iol.cz) has quit (Ping timeout: 256 seconds)
+2013-04-07 19:51:08	-->	Cyph0n (~Cyph0n@94.59.110.145) has joined #coffeescript
+2013-04-07 19:51:08	<--	Cyph0n (~Cyph0n@94.59.110.145) has quit (Client Quit)
+2013-04-07 19:52:43	-->	MelkorNemesis (~Adium@121.48.broadband10.iol.cz) has joined #coffeescript
+2013-04-07 19:52:43	<--	MelkorNemesis (~Adium@121.48.broadband10.iol.cz) has quit (Read error: Connection reset by peer)
+2013-04-07 19:54:03	-->	MelkorNemesis (~Adium@121.48.broadband10.iol.cz) has joined #coffeescript
+2013-04-07 19:54:16	<--	MelkorNemesis (~Adium@121.48.broadband10.iol.cz) has quit (Read error: Connection reset by peer)
+2013-04-07 19:55:43	-->	MelkorNemesis (~Adium@121.48.broadband10.iol.cz) has joined #coffeescript
+2013-04-07 19:55:43	<--	MelkorNemesis (~Adium@121.48.broadband10.iol.cz) has quit (Read error: Connection reset by peer)
+2013-04-07 19:56:24	-->	flippyhead_ (~peterbrow@c-66-235-0-81.sea.wa.customer.broadstripe.net) has joined #coffeescript
+2013-04-07 19:56:54	<--	flippyhead (~peterbrow@c-66-235-0-81.sea.wa.customer.broadstripe.net) has quit (Ping timeout: 248 seconds)
+2013-04-07 19:56:54	--	flippyhead_ is now known as flippyhead
+2013-04-07 19:57:00	-->	MelkorNemesis (~Adium@121.48.broadband10.iol.cz) has joined #coffeescript
+2013-04-07 19:58:43	-->	kofno (~kofno@cpe-24-165-210-251.neo.res.rr.com) has joined #coffeescript
+2013-04-07 19:59:05	<--	MelkorNemesis (~Adium@121.48.broadband10.iol.cz) has quit (Read error: Connection reset by peer)
+2013-04-07 20:03:24	<--	kofno (~kofno@cpe-24-165-210-251.neo.res.rr.com) has quit (Ping timeout: 256 seconds)
+2013-04-07 20:04:40	<--	sinclair-work (~chatzilla@ip-118-90-32-136.xdsl.xnet.co.nz) has quit (Quit: ChatZilla 0.9.90 [Firefox 19.0.2/20130307023931])
+2013-04-07 20:04:44	-->	mikepence (~mikepence@pool-71-180-11-26.tampfl.fios.verizon.net) has joined #coffeescript
+2013-04-07 20:09:22	-->	MelkorNemesis (~Adium@121.48.broadband10.iol.cz) has joined #coffeescript
+2013-04-07 20:11:26	<--	MelkorNemesis (~Adium@121.48.broadband10.iol.cz) has quit (Read error: Connection reset by peer)
+2013-04-07 20:11:29	-->	MelkorNemesis1 (~Adium@121.48.broadband10.iol.cz) has joined #coffeescript
+2013-04-07 20:13:52	<--	MelkorNemesis1 (~Adium@121.48.broadband10.iol.cz) has quit (Read error: Connection reset by peer)
+2013-04-07 20:19:00	<--	sashman (~sashman@gateway/tor-sasl/sashman) has quit (Ping timeout: 276 seconds)
+2013-04-07 20:20:44	-->	sashman (~sashman@gateway/tor-sasl/sashman) has joined #coffeescript
+2013-04-07 20:21:08	<--	hobson (~hobson@ec2-54-244-123-240.us-west-2.compute.amazonaws.com) has quit (Quit: Coyote finally caught me)
+2013-04-07 20:21:55	-->	hobson (~hobson@ec2-54-244-123-240.us-west-2.compute.amazonaws.com) has joined #coffeescript
+2013-04-07 20:25:30	-->	MelkorNemesis (~Adium@121.48.broadband10.iol.cz) has joined #coffeescript
+2013-04-07 20:29:09	<--	MelkorNemesis (~Adium@121.48.broadband10.iol.cz) has quit (Read error: Connection reset by peer)
+2013-04-07 20:29:11	-->	MelkorNemesis1 (~Adium@121.48.broadband10.iol.cz) has joined #coffeescript
