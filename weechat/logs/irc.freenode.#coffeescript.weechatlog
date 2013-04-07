@@ -16254,3 +16254,44 @@
 2013-04-07 21:32:48	cam`	how would you write something like this in coffeescript? http://pastebin.com/6xBUcARG
 2013-04-07 21:33:15	cam`	the .property() part in particular
 2013-04-07 21:35:09	cam`	ah nevermind
+2013-04-07 21:36:17	-->	system64 (~system64@202.78.175.199) has joined #coffeescript
+2013-04-07 21:37:18	<--	adambeynon (~textual@82-69-1-211.dsl.in-addr.zen.co.uk) has quit (Quit: ["Textual IRC Client: www.textualapp.com"])
+2013-04-07 21:42:20	<--	rsim (~rsim@78.84.31.166) has quit (Quit: Leaving.)
+2013-04-07 21:43:46	-->	smathy (~jgk@unaffiliated/JasonKing) has joined #coffeescript
+2013-04-07 21:47:25	-->	vlad_starkov (~vlad_star@109.188.124.81) has joined #coffeescript
+2013-04-07 21:48:36	-->	mercwithamouth (~mercwitha@99-38-191-69.lightspeed.clmasc.sbcglobal.net) has joined #coffeescript
+2013-04-07 21:50:39	-->	joab (~joab@c80-216-94-234.bredband.comhem.se) has joined #coffeescript
+2013-04-07 21:53:20	-->	toshok (~toshok@c-24-5-43-72.hsd1.ca.comcast.net) has joined #coffeescript
+2013-04-07 21:53:24	-->	ziyadb (uid4806@gateway/web/irccloud.com/x-ieaegnhrdywqtvpa) has joined #coffeescript
+2013-04-07 21:53:54	<--	mercwithamouth (~mercwitha@99-38-191-69.lightspeed.clmasc.sbcglobal.net) has quit (Ping timeout: 276 seconds)
+2013-04-07 21:55:51	<--	rohdef (~rohdef@0133900164.0.fullrate.dk) has quit (Remote host closed the connection)
+2013-04-07 21:56:13	<--	vlad_starkov (~vlad_star@109.188.124.81) has quit (Ping timeout: 256 seconds)
+2013-04-07 21:59:44	-->	kofno (~kofno@cpe-24-165-210-251.neo.res.rr.com) has joined #coffeescript
+2013-04-07 22:00:17	--	michael_mbp is now known as zz_michael_mbp
+2013-04-07 22:00:56	<--	PaulCapestany (~PaulCapes@204.28.124.82) has quit (Quit: Computer has gone to sleep.)
+2013-04-07 22:04:22	<--	kofno (~kofno@cpe-24-165-210-251.neo.res.rr.com) has quit (Ping timeout: 248 seconds)
+2013-04-07 22:06:05	<--	smathy (~jgk@unaffiliated/JasonKing) has quit (Quit: Computer has gone to sleep)
+2013-04-07 22:06:35	-->	smathy (~jgk@unaffiliated/JasonKing) has joined #coffeescript
+2013-04-07 22:11:36	<--	smathy (~jgk@unaffiliated/JasonKing) has quit (Ping timeout: 264 seconds)
+2013-04-07 22:12:12	<--	toshok (~toshok@c-24-5-43-72.hsd1.ca.comcast.net) has quit (Ping timeout: 264 seconds)
+2013-04-07 22:17:35	-->	nanoflite (~nanoflite@d51A51496.access.telenet.be) has joined #coffeescript
+2013-04-07 22:17:57	shesek	cam`, it looks awful in coffeescript because you have to wrap the function in parens
+2013-04-07 22:18:43	shesek	I'd add an helper function, `property = (a..., fn) -> fn.property a...`, than do `name: property 'firstName', 'lastName', -> ...`
+2013-04-07 22:20:44	-->	dylukes (~dylukes@fq-wireless-pittnet-150-212-3-195.wireless.pitt.edu) has joined #coffeescript
+2013-04-07 22:26:14	<--	nanoflite (~nanoflite@d51A51496.access.telenet.be) has quit (Quit: Bye)
+2013-04-07 22:27:32	-->	Test__ (5540e7b4@gateway/web/freenode/ip.85.64.231.180) has joined #coffeescript
+2013-04-07 22:27:41	Test__	Hi
+2013-04-07 22:27:52	Test__	Lots of people over here
+2013-04-07 22:27:56	Test__	hello?
+2013-04-07 22:28:13	Test__	Someone?
+2013-04-07 22:29:30	shesek	Test__, if you need help with something, you're probably better off just asking
+2013-04-07 22:30:20	<--	mikepence (~mikepence@pool-71-180-11-26.tampfl.fios.verizon.net) has quit (Remote host closed the connection)
+2013-04-07 22:32:58	<--	Test__ (5540e7b4@gateway/web/freenode/ip.85.64.231.180) has quit (Ping timeout: 245 seconds)
+2013-04-07 22:38:16	-->	Tectonic (~tectonic@c-67-169-94-9.hsd1.ca.comcast.net) has joined #coffeescript
+2013-04-07 22:39:04	-->	disnet (~disnet@99-132-152-17.lightspeed.mtryca.sbcglobal.net) has joined #coffeescript
+2013-04-07 22:39:10	<--	liorix (~liorix@cpe-98-14-229-103.nyc.res.rr.com) has quit (Remote host closed the connection)
+2013-04-07 22:39:42	-->	liorix (~liorix@cpe-98-14-229-103.nyc.res.rr.com) has joined #coffeescript
+2013-04-07 22:41:09	<--	_ht (~quassel@ip3e83ff64.speed.planet.nl) has quit (Remote host closed the connection)
+2013-04-07 22:42:00	-->	rsim (~rsim@78.84.31.166) has joined #coffeescript
+2013-04-07 22:43:46	<--	liorix (~liorix@cpe-98-14-229-103.nyc.res.rr.com) has quit (Ping timeout: 245 seconds)
+2013-04-07 22:46:35	--	irc: disconnected from server

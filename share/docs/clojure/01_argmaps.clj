@@ -99,7 +99,7 @@
   and with each vertex (corner) having an equal arrangement and number of faces, all 
   at equal angles. Make great dice because each face has an equal chance of being thrown 
   as any other and can be considered as fair dice."
-  
+  ;; The converse relationship between faces and vertices is expressed as a concept known as duality. 
   {:tetra  {:name "Tetrahedron"  :edges 6  :faces 4  :vertices 4  :shape "equilateral triangle"} 
    :hexa   {:name "Hexahedron"   :edges 12 :faces 6  :vertices 8  :shape "perfect square"} ;; Opposite faces usually add up to 7
    :octa   {:name "Octahedron"   :edges 12 :faces 8  :vertices 6  :shape "equilateral triangle"} ;; Opposite faces usually add up to 9.
@@ -110,22 +110,15 @@
 
 
 (defn 
-  ^{:arglist '([values & ks])
+  ^{:arglist '([v & ks])
     :doc "Create a flat map of optional arguments keys and values. Allows clean and complex method
     definitions to easily extended in functionality and focused on usability for programmer and user."}
-  create-dice-3 [values & {:keys [sorted queued attach method random groups revert arrays seeded shaped]
-                           :or   {sorted true 
-                                  queued false 
-                                  attach nil 
-                                  method nil 
-                                  groups {:geometry "Polyhedral" :shape "c"}
-                                  shaped true ;; normal 6 faced dice
-                                  revert (reverse values)
-                                  
-                                 }
-                          :as   argmap}]
-
-  (println "values:" values
+  create-dice [v & {:keys [sorted queued attach method random groups revert arrays seeded]
+                    :or   {sorted true queued false attach nil method "rroll" groups (polyhedra :hexa) 
+                           revert (reverse v) }
+                    :as   argmap}]
+  
+  (println "values:" v
            "sorted:" sorted
            "queued:" queued
            "attach:" attach
@@ -142,7 +135,7 @@
           "baz-given?" (contains? argmap :queued)))
 
 
-(create-dice-3 '(1 2 3 4) :sorted true :revert true)
+(create-dice '(1 2 3 4) :sorted true :revert true)
 
 
 
