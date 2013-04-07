@@ -1,4 +1,5 @@
 *.pyc
 purple/logs/*
+lein/indices
 *.pyo
 __pycache__/
