@@ -7,10 +7,10 @@
 		<password>Abrikoos17</password>
 		<alias>renm</alias>
 		<statuses>
-			<status type='available' name='Available' active='true'>
+			<status type='available' name='Available' active='false'>
 				<attributes/>
 			</status>
-			<status type='away' name='Away' active='false'>
+			<status type='away' name='Away' active='true'>
 				<attributes>
 					<attribute id='message' value='I&apos;m not here right now'/>
 				</attributes>
@@ -36,8 +36,8 @@
 		</statuses>
 		<settings>
 			<setting name='display-name' type='string'>Ren</setting>
-			<setting name='use-global-buddyicon' type='bool'>1</setting>
 			<setting name='http_method_server' type='string'>gateway.messenger.hotmail.com</setting>
+			<setting name='CLLastChange' type='string'>2013-03-24T04:11:55.49-07:00</setting>
 			<setting name='endpoint-name' type='string'>Pidgin</setting>
 			<setting name='custom_smileys' type='bool'>1</setting>
 			<setting name='port' type='int'>1863</setting>
@@ -45,9 +45,9 @@
 			<setting name='check-mail' type='bool'>0</setting>
 			<setting name='direct_connect' type='bool'>1</setting>
 			<setting name='http_method' type='bool'>0</setting>
-			<setting name='ablastChange' type='string'>2013-04-05T05:24:31.36-07:00</setting>
+			<setting name='ablastChange' type='string'>2013-04-07T00:16:33.473-07:00</setting>
 			<setting name='server' type='string'>messenger.hotmail.com</setting>
-			<setting name='CLLastChange' type='string'>2013-03-24T04:11:55.49-07:00</setting>
+			<setting name='use-global-buddyicon' type='bool'>1</setting>
 			<setting name='DynamicItemLastChanged' type='string'>0001-01-01T00:00:00</setting>
 		</settings>
 		<settings ui='gtk-gaim'>
@@ -64,10 +64,10 @@
 		<password>dasefx</password>
 		<alias>rob</alias>
 		<statuses>
-			<status type='available' name='Available' active='true'>
+			<status type='available' name='Available' active='false'>
 				<attributes/>
 			</status>
-			<status type='away' name='Away' active='false'>
+			<status type='away' name='Away' active='true'>
 				<attributes>
 					<attribute id='message' value='I&apos;m not here right now'/>
 				</attributes>
@@ -93,8 +93,8 @@
 		</statuses>
 		<settings>
 			<setting name='display-name' type='string'>Rob</setting>
-			<setting name='use-global-buddyicon' type='bool'>1</setting>
 			<setting name='http_method_server' type='string'>gateway.messenger.hotmail.com</setting>
+			<setting name='CLLastChange' type='string'>2013-03-23T23:53:01.02-07:00</setting>
 			<setting name='endpoint-name' type='string'>Pidgin</setting>
 			<setting name='custom_smileys' type='bool'>1</setting>
 			<setting name='port' type='int'>1863</setting>
@@ -102,9 +102,9 @@
 			<setting name='check-mail' type='bool'>0</setting>
 			<setting name='direct_connect' type='bool'>1</setting>
 			<setting name='http_method' type='bool'>0</setting>
-			<setting name='ablastChange' type='string'>2013-04-05T05:24:31.76-07:00</setting>
+			<setting name='ablastChange' type='string'>2013-04-06T21:20:05.797-07:00</setting>
 			<setting name='server' type='string'>messenger.hotmail.com</setting>
-			<setting name='CLLastChange' type='string'>2013-03-23T23:53:01.02-07:00</setting>
+			<setting name='use-global-buddyicon' type='bool'>1</setting>
 			<setting name='DynamicItemLastChanged' type='string'>0001-01-01T00:00:00</setting>
 		</settings>
 		<settings ui='gtk-gaim'>
@@ -121,7 +121,7 @@
 		<password>masterm3</password>
 		<alias>rob jens</alias>
 		<statuses>
-			<status type='available' name='Available' active='true'>
+			<status type='available' name='Available' active='false'>
 				<attributes/>
 			</status>
 			<status type='mood' name='Feeling' active='false'>
@@ -130,7 +130,7 @@
 			<status type='freeforchat' name='Chatty' active='false'>
 				<attributes/>
 			</status>
-			<status type='away' name='Away' active='false'>
+			<status type='away' name='Away' active='true'>
 				<attributes>
 					<attribute id='message' value='I&apos;m not here right now'/>
 				</attributes>

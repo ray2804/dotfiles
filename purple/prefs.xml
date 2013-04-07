@@ -40,7 +40,7 @@
 			<pref name='startup' type='int' value='0'/>
 			<pref name='startup_current_status' type='bool' value='1'/>
 			<pref name='idleaway' type='int' value='1349568621'/>
-			<pref name='isidleaway' type='bool' value='0'/>
+			<pref name='isidleaway' type='bool' value='1'/>
 		</pref>
 		<pref name='conversations'>
 			<pref name='chat'>
@@ -534,10 +534,10 @@
 		<pref name='blist'>
 			<pref name='size'>
 				<pref name='width' type='int' value='34'/>
-				<pref name='height' type='int' value='24'/>
+				<pref name='height' type='int' value='21'/>
 			</pref>
 			<pref name='position'>
-				<pref name='x' type='int' value='6'/>
+				<pref name='x' type='int' value='3'/>
 				<pref name='y' type='int' value='4'/>
 			</pref>
 			<pref name='idletime' type='bool' value='1'/>

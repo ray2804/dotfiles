@@ -108,7 +108,7 @@
 			<contact>
 				<buddy account='rob@haj4ever.com' proto='prpl-msn'>
 					<name>matty_m@live.nl</name>
-					<setting name='last_seen' type='int'>1365318903</setting>
+					<setting name='last_seen' type='int'>1365319553</setting>
 					<setting name='buddy_icon' type='string'>df8e705c5bb75511b6aa02b8b04fc18d9506957e.jpg</setting>
 					<setting name='icon_checksum' type='string'>345wXFu3VRG2qgK4sE/BjZUGlX4=</setting>
 				</buddy>
@@ -206,7 +206,7 @@
 			<contact>
 				<buddy account='rob@haj4ever.com' proto='prpl-msn'>
 					<name>vandepadaf@hotmail.com</name>
-					<setting name='last_seen' type='int'>1365318903</setting>
+					<setting name='last_seen' type='int'>1365319553</setting>
 					<setting name='buddy_icon' type='string'>3a40e495293fbe71eb137fc423869aed990b596e.png</setting>
 					<setting name='icon_checksum' type='string'>OkDklSk/vnHrE3/EI4aa7ZkLWW4=</setting>
 				</buddy>
@@ -495,7 +495,7 @@
 			<contact>
 				<buddy account='geilstelbezig@hotmail.com' proto='prpl-msn'>
 					<name>Dutchvipers@hotmail.com</name>
-					<setting name='last_seen' type='int'>1365318903</setting>
+					<setting name='last_seen' type='int'>1365319553</setting>
 					<setting name='buddy_icon' type='string'>45a939b71e344b7004d7b577a78744107f87c88a.png</setting>
 					<setting name='icon_checksum' type='string'>Rak5tx40S3AE17V3p4dEEH+HyIo=</setting>
 				</buddy>
@@ -833,7 +833,7 @@
 				<buddy account='rob.jens@chat.facebook.com/' proto='prpl-jabber'>
 					<name>-100000722541964@chat.facebook.com</name>
 					<alias>Marloes Schoonus</alias>
-					<setting name='last_seen' type='int'>1365318903</setting>
+					<setting name='last_seen' type='int'>1365319246</setting>
 					<setting name='buddy_icon' type='string'>91959fd729eb3df19b0a69811562122610221073.jpg</setting>
 					<setting name='icon_checksum' type='string'>91959fd729eb3df19b0a69811562122610221073</setting>
 				</buddy>
@@ -971,9 +971,9 @@
 				<buddy account='rob.jens@chat.facebook.com/' proto='prpl-jabber'>
 					<name>-651049446@chat.facebook.com</name>
 					<alias>Michael Smeets</alias>
-					<setting name='last_seen' type='int'>1362510274</setting>
-					<setting name='buddy_icon' type='string'>b4f429002a7a27f8d5421745bd345a84356e5643.jpg</setting>
-					<setting name='icon_checksum' type='string'>b4f429002a7a27f8d5421745bd345a84356e5643</setting>
+					<setting name='last_seen' type='int'>1365319518</setting>
+					<setting name='buddy_icon' type='string'>02adb09f44a79993bfe7d0c4aa75168cc4bb1a37.jpg</setting>
+					<setting name='icon_checksum' type='string'>02adb09f44a79993bfe7d0c4aa75168cc4bb1a37</setting>
 				</buddy>
 			</contact>
 			<contact>
@@ -1016,7 +1016,7 @@
 				<buddy account='rob.jens@chat.facebook.com/' proto='prpl-jabber'>
 					<name>-100000931481838@chat.facebook.com</name>
 					<alias>Kim Jentzema</alias>
-					<setting name='last_seen' type='int'>1365318664</setting>
+					<setting name='last_seen' type='int'>1365319424</setting>
 					<setting name='buddy_icon' type='string'>de06616bf5982f9919badae4f7e20fe5c0104f32.jpg</setting>
 					<setting name='icon_checksum' type='string'>de06616bf5982f9919badae4f7e20fe5c0104f32</setting>
 				</buddy>
@@ -1115,7 +1115,7 @@
 				<buddy account='rob.jens@chat.facebook.com/' proto='prpl-jabber'>
 					<name>-100001785793673@chat.facebook.com</name>
 					<alias>Stanley Polak</alias>
-					<setting name='last_seen' type='int'>1365318903</setting>
+					<setting name='last_seen' type='int'>1365319351</setting>
 					<setting name='buddy_icon' type='string'>caed56823c86dd8c1f57ea6298b092b4c2f1f611.jpg</setting>
 					<setting name='icon_checksum' type='string'>caed56823c86dd8c1f57ea6298b092b4c2f1f611</setting>
 				</buddy>
@@ -1271,7 +1271,7 @@
 				<buddy account='rob.jens@chat.facebook.com/' proto='prpl-jabber'>
 					<name>-1055012961@chat.facebook.com</name>
 					<alias>Laurens Rutte</alias>
-					<setting name='last_seen' type='int'>1365318482</setting>
+					<setting name='last_seen' type='int'>1365319159</setting>
 					<setting name='buddy_icon' type='string'>91928bd43c00b20b2d26e95295bb436f4ea99d4e.jpg</setting>
 					<setting name='icon_checksum' type='string'>91928bd43c00b20b2d26e95295bb436f4ea99d4e</setting>
 				</buddy>
@@ -1658,7 +1658,7 @@
 				<buddy account='rob.jens@chat.facebook.com/' proto='prpl-jabber'>
 					<name>-100003092609892@chat.facebook.com</name>
 					<alias>Joop van Beek</alias>
-					<setting name='last_seen' type='int'>1365318903</setting>
+					<setting name='last_seen' type='int'>1365319246</setting>
 					<setting name='buddy_icon' type='string'>14e852d662679ba1321a1e8b8ecb7173e1431305.jpg</setting>
 					<setting name='icon_checksum' type='string'>14e852d662679ba1321a1e8b8ecb7173e1431305</setting>
 				</buddy>
@@ -2022,7 +2022,7 @@
 				<buddy account='rob.jens@chat.facebook.com/' proto='prpl-jabber'>
 					<name>-1163996820@chat.facebook.com</name>
 					<alias>Joost de Jong</alias>
-					<setting name='last_seen' type='int'>1365318903</setting>
+					<setting name='last_seen' type='int'>1365319553</setting>
 					<setting name='buddy_icon' type='string'>76cffd83991e5695a9f0bcc8d04502bdd63489e1.jpg</setting>
 					<setting name='icon_checksum' type='string'>76cffd83991e5695a9f0bcc8d04502bdd63489e1</setting>
 				</buddy>
@@ -2109,7 +2109,7 @@
 				<buddy account='rob.jens@chat.facebook.com/' proto='prpl-jabber'>
 					<name>-100001032414754@chat.facebook.com</name>
 					<alias>Rick Felen</alias>
-					<setting name='last_seen' type='int'>1365314530</setting>
+					<setting name='last_seen' type='int'>1365319424</setting>
 					<setting name='buddy_icon' type='string'>70c8fbc762788f6ceb37d6782db0ec60ba44d94b.jpg</setting>
 					<setting name='icon_checksum' type='string'>70c8fbc762788f6ceb37d6782db0ec60ba44d94b</setting>
 				</buddy>
@@ -2139,7 +2139,7 @@
 				<buddy account='rob.jens@chat.facebook.com/' proto='prpl-jabber'>
 					<name>-100003905081024@chat.facebook.com</name>
 					<alias>Leonie Brugmans</alias>
-					<setting name='last_seen' type='int'>1365317630</setting>
+					<setting name='last_seen' type='int'>1365319553</setting>
 					<setting name='buddy_icon' type='string'>f0d7dc1861bb848700583df58385cd03e54cb76f.jpg</setting>
 					<setting name='icon_checksum' type='string'>f0d7dc1861bb848700583df58385cd03e54cb76f</setting>
 				</buddy>
@@ -2172,7 +2172,7 @@
 				<buddy account='rob.jens@chat.facebook.com/' proto='prpl-jabber'>
 					<name>-642626706@chat.facebook.com</name>
 					<alias>Harriët Roebersen</alias>
-					<setting name='last_seen' type='int'>1365318903</setting>
+					<setting name='last_seen' type='int'>1365319553</setting>
 					<setting name='buddy_icon' type='string'>8160fae3def21d49f416ab4603ac679d7bb1537e.jpg</setting>
 					<setting name='icon_checksum' type='string'>8160fae3def21d49f416ab4603ac679d7bb1537e</setting>
 				</buddy>
@@ -2217,7 +2217,7 @@
 				<buddy account='rob.jens@chat.facebook.com/' proto='prpl-jabber'>
 					<name>-541555769@chat.facebook.com</name>
 					<alias>Mike Soijo</alias>
-					<setting name='last_seen' type='int'>1365317494</setting>
+					<setting name='last_seen' type='int'>1365319553</setting>
 					<setting name='buddy_icon' type='string'>c3811b78df7abca43507a98c5e668b3d6c6341fe.jpg</setting>
 					<setting name='icon_checksum' type='string'>c3811b78df7abca43507a98c5e668b3d6c6341fe</setting>
 				</buddy>
