@@ -4,6 +4,8 @@
 ;; The :plugins [[vector]] of my :user profile.clj file
 
 {:user {:plugins [
+                  ;; Contrib
+                  [org.clojure/data.json "0.2.2"]     ; Clojure JSON library
                   ;[lein-daemon "0.5.1"]              ; FIXME Lein plugin that starts a clojure process as a daemon.
                   ;[clucy "0.3.0"]                    ; Flagship sub-project, provides Java-based indexing and search technology.
 
@@ -41,6 +43,7 @@
                   ;; Clients
 
                   [clj-http "0.6.5"]                  ; An idiomatic clojure http client wrapping the apache client.
+                  [org.clojars.kriyative/clj-http-client "1.0.0"]
 
                   ;; IDE Integrated Development Environments
 
