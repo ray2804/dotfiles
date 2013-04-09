@@ -1,4 +1,6 @@
 [
+
+
 	{ "keys": ["ctrl+q"], "command": "exit" },
 
 	{ "keys": ["ctrl+shift+n"], "command": "new_window" },

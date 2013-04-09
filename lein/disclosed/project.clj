@@ -9,4 +9,5 @@
   
   :dependencies [[org.clojure/clojure "1.5.1"]
                  [org.clojure/data.json "0.2.2"]
-                 [org.clojars.kriyative/clj-http-client "1.0.0"]])
+                 [org.clojars.kriyative/clj-http-client "1.0.0"]
+                 [lein-marginalia "0.7.1"]])

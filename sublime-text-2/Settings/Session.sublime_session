@@ -1,13 +1,13 @@
 {
 	"folder_history":
 	[
+		"/srv/customers/tredius"
 	],
-	"last_window_id": 1,
+	"last_window_id": 2,
 	"settings":
 	{
-	},
-	"windows":
-	[
+		"new_window_height": 0.0,
+		"new_window_settings":
 		{
 			"auto_complete":
 			{
@@ -15,9 +15,6 @@
 				[
 				]
 			},
-			"buffers":
-			[
-			],
 			"build_system": "",
 			"command_palette":
 			{
@@ -26,6 +23,18 @@
 				[
 					[
 						"Package Control: ins",
+						"Package Control: Install Package"
+					],
+					[
+						"Package Control: inst",
+						"Package Control: Install Package"
+					],
+					[
+						"Package Control: in",
+						"Package Control: Install Package"
+					],
+					[
+						"Package Control: insta",
 						"Package Control: Install Package"
 					]
 				],
@@ -46,6 +55,16 @@
 			},
 			"file_history":
 			[
+				"/srv/customers/tredius/docpad.coffee",
+				"/srv/customers/tredius/src/documents/t-time/nieuwsbrief/tn-slider.jade",
+				"/home/baal/Dotfiles/sublime-text-2/Packages/SideBarEnhancements/messages/11.13.2012.1305.0.txt",
+				"/srv/customers/tredius/src/documents/t-time/nieuwsbrief/2013/april/verzuimboete-aangifte-belastingen.html.md",
+				"/srv/customers/tredius/src/documents/t-time/nieuwsbrief/2013/april/verhuurdersheffing-ingevoerd.html.md",
+				"/srv/customers/tredius/src/documents/t-time/nieuwsbrief/2013/april/fiscale-regels-willekeurige-afschrijving.html.md",
+				"/srv/customers/tredius/src/documents/t-time/nieuwsbrief/2013/april/april-base.html.md",
+				"/srv/customers/tredius/src/documents/t-time/nieuwsbrieven/april-base.html.md",
+				"/srv/customers/tredius/src/documents/t-time/nieuwsbrieven/april.html.jade",
+				"/srv/customers/tredius/src/documents/t-time/nieuwsbrieven/2013/april/willekeurige-afschrijving-uitgebreid.md"
 			],
 			"find":
 			{
@@ -63,6 +82,9 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"category",
+					"resultCollection",
+					"desiredCategory"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -77,21 +99,13 @@
 				"whole_word": false,
 				"wrap": true
 			},
-			"groups":
-			[
-				{
-					"sheets":
-					[
-					]
-				}
-			],
 			"incremental_find":
 			{
 				"height": 0.0
 			},
 			"input":
 			{
-				"height": 0.0
+				"height": 34.0
 			},
 			"layout":
 			{
@@ -116,7 +130,6 @@
 				]
 			},
 			"menu_visible": true,
-			"position": "0,0,0,0,0,1686,174,2512,740,2880,960",
 			"replace":
 			{
 				"height": 0.0
@@ -142,7 +155,221 @@
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 150.0,
+			"side_bar_width": 199.0,
+			"status_bar_visible": true
+		},
+		"new_window_width": 0.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"buffers":
+			[
+			],
+			"build_system": "",
+			"command_palette":
+			{
+				"height": 212.0,
+				"selected_items":
+				[
+					[
+						"inst",
+						"Package Control: Install Package"
+					],
+					[
+						"ins",
+						"Indentation: Convert to Spaces"
+					],
+					[
+						"Package Control: ins",
+						"Package Control: Install Package"
+					],
+					[
+						"Package Control: inst",
+						"Package Control: Install Package"
+					],
+					[
+						"Package Control: in",
+						"Package Control: Install Package"
+					],
+					[
+						"Package Control: insta",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 449.0
+			},
+			"console":
+			{
+				"height": 146.0
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/tmp/dp/docpad.coffee",
+				"/tmp/dp/src/layouts/default.html.coffee",
+				"/srv/customers/tredius/src/layouts/convert.html.coffee",
+				"/srv/customers/tredius/src/documents/t-time/nieuwsbrief/blog.html.coffee",
+				"/tmp/dp/src/partials/social/linkedin.html.coffee",
+				"/srv/customers/tredius/src/layouts/voetblok.jade",
+				"/srv/customers/tredius/src/layouts/standaard.html.jade",
+				"/srv/customers/tredius/docpad.coffee",
+				"/srv/customers/tredius/src/layouts/a.litcoffee",
+				"/srv/customers/tredius/src/layouts/a.coffee",
+				"/srv/customers/tredius/src/documents/t-time/specials/ts-slider.jade",
+				"/srv/customers/tredius/src/documents/t-time/columns/tc-slider.jade",
+				"/srv/customers/tredius/src/documents/t-time/nieuwsbrief/tn-slider.jade",
+				"/srv/customers/tredius/src/documents/t-time/index.html.jade",
+				"/srv/customers/tredius/src/documents/t-time/videos/tv-slider.jade",
+				"/srv/customers/tredius/src/layouts/navigatie.jade",
+				"/srv/customers/tredius/lib/records/balupton.coffee",
+				"/srv/customers/tredius/src/documents/t-time/nieuwsbrief/2013/april/index.html.jade",
+				"/home/baal/Dotfiles/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
+				"/home/baal/Dotfiles/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
+				"/srv/customers/tredius/src/documents/t-time/nieuwsbrief/2013/april/fiscale-regels-willekeurige-afschrijving.html.md",
+				"/srv/customers/tredius/src/documents/t-time/nieuwsbrief/2013/april/verhuurdersheffing-ingevoerd.html.md",
+				"/srv/customers/tredius/src/documents/t-time/nieuwsbrief/2013/april/verzuimboete-aangifte-belastingen.html.md",
+				"/home/baal/Dotfiles/sublime-text-2/Packages/SideBarEnhancements/messages/11.13.2012.1305.0.txt",
+				"/srv/customers/tredius/src/documents/t-time/nieuwsbrief/2013/april/april-base.html.md",
+				"/srv/customers/tredius/src/documents/t-time/nieuwsbrieven/april-base.html.md",
+				"/srv/customers/tredius/src/documents/t-time/nieuwsbrieven/april.html.jade",
+				"/srv/customers/tredius/src/documents/t-time/nieuwsbrieven/2013/april/willekeurige-afschrijving-uitgebreid.md"
+			],
+			"find":
+			{
+				"height": 34.0
+			},
+			"find_in_files":
+			{
+				"height": 90.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"getColl",
+					"getCp;;;",
+					"database",
+					"about",
+					"category",
+					"resultCollection",
+					"desiredCategory"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"path": "/srv/customers/tredius"
+				}
+			],
+			"groups":
+			[
+				{
+					"sheets":
+					[
+					]
+				},
+				{
+					"sheets":
+					[
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 34.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					],
+					[
+						1,
+						0,
+						2,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					0.454728862157,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"position": "0,0,0,0,0,1400,197,2822,963,2880,1024",
+			"replace":
+			{
+				"height": 0.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 240.0,
 			"status_bar_visible": true,
 			"window_id": 1,
 			"workspace_name": ""

@@ -2,8 +2,19 @@
 	"installed_packages":
 	[
 		"ClojureDocSearch",
+		"CoffeeCompile",
+		"CoffeeComplete Plus (Autocompletion)",
+		"CoffeeLint",
+		"CoffeeScript",
+		"CoffeeScript Function Finder",
+		"ColorSchemeSelector",
 		"Enhanced Clojure",
+		"Jade",
+		"JS2Coffee",
 		"Package Control",
+		"SideBarEnhancements",
+		"SmartMarkdown",
+		"sublime-better-coffeescript",
 		"TextFormatting"
 	]
 }
