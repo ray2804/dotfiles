@@ -9,6 +9,8 @@
             [clojure.set :as set  :refer [difference index]]
             [clojure.pprint :as pprint :refer [print-table]]
             [clojure.reflect  :as reflect  :refer [reflect]]
+            [clojure.data.generators :as gen]
+            [clojure.test :refer (deftest is)]
             [clojure.data.json :as json]
             [clj-http.client :as client]            
             ))

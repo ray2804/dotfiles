@@ -1696,3 +1696,22 @@
 2013-04-09 03:47:25	<--	normanrichards (~normanric@173.227.88.18) has quit (Client Quit)
 2013-04-09 03:49:27	-->	bmaddy (~bmaddy@72.21.231.26) has joined #clojurescript
 2013-04-09 03:53:54	<--	bmaddy (~bmaddy@72.21.231.26) has quit (Remote host closed the connection)
+2013-04-09 04:00:49	<--	inkybutton (~inkybutto@unaffiliated/inkybutton) has quit (Ping timeout: 245 seconds)
+2013-04-09 04:01:30	-->	bmaddy (~bmaddy@72.21.231.26) has joined #clojurescript
+2013-04-09 04:03:39	-->	inkybutton (~inkybutto@wireless-nat-6.auckland.ac.nz) has joined #clojurescript
+2013-04-09 04:03:39	<--	inkybutton (~inkybutto@wireless-nat-6.auckland.ac.nz) has quit (Changing host)
+2013-04-09 04:03:39	-->	inkybutton (~inkybutto@unaffiliated/inkybutton) has joined #clojurescript
+2013-04-09 04:09:53	-->	pdmct (908c5856@gateway/web/freenode/ip.144.140.88.86) has joined #clojurescript
+2013-04-09 04:16:54	<--	urlwolf_ (~quassel@e178127200.adsl.alicedsl.de) has quit (Ping timeout: 264 seconds)
+2013-04-09 04:47:29	-->	normanrichards (~normanric@70.114.215.220) has joined #clojurescript
+2013-04-09 04:57:22	<--	inkybutton (~inkybutto@unaffiliated/inkybutton) has quit (Ping timeout: 256 seconds)
+2013-04-09 04:58:24	-->	jonasen (~jonasen@a100.ip13.netikka.fi) has joined #clojurescript
+2013-04-09 05:27:04	-->	inkybutton (~inkybutto@wireless-nat-6.auckland.ac.nz) has joined #clojurescript
+2013-04-09 05:27:04	<--	inkybutton (~inkybutto@wireless-nat-6.auckland.ac.nz) has quit (Changing host)
+2013-04-09 05:27:04	-->	inkybutton (~inkybutto@unaffiliated/inkybutton) has joined #clojurescript
+2013-04-09 05:44:08	<--	bmaddy (~bmaddy@72.21.231.26) has quit (Remote host closed the connection)
+2013-04-09 05:46:06	-->	bmaddy (~bmaddy@72.21.231.26) has joined #clojurescript
+2013-04-09 05:46:18	<--	bmaddy (~bmaddy@72.21.231.26) has quit (Remote host closed the connection)
+2013-04-09 06:18:48	<--	jonasen (~jonasen@a100.ip13.netikka.fi) has quit (Quit: Lost terminal)
+2013-04-09 06:26:44	<--	inkybutton (~inkybutto@unaffiliated/inkybutton) has quit (Ping timeout: 255 seconds)
+2013-04-09 07:00:53	--	irc: disconnected from server

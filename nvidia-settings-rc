@@ -2,7 +2,7 @@
 # /home/baal/.nvidia-settings-rc
 #
 # Configuration file for nvidia-settings - the NVIDIA X Server Settings utility
-# Generated on Mon Apr  8 14:09:17 2013
+# Generated on Tue Apr  9 05:23:10 2013
 #
 
 # ConfigProperties:
@@ -11,7 +11,7 @@ RcFileLocale = C
 ToolTips = Yes
 DisplayStatusBar = Yes
 SliderTextEntries = Yes
-IncludeDisplayNameInConfigFile = No
+IncludeDisplayNameInConfigFile = Yes
 ShowQuitDialog = No
 Timer = Memory_Used_(GPU_0),Yes,3000
 Timer = Thermal_Monitor_(GPU_0),Yes,1000
@@ -19,27 +19,27 @@ Timer = PowerMizer_Monitor_(GPU_0),Yes,1000
 
 # Attributes:
 
-0/CursorShadow=0
-0/CursorShadowAlpha=64
-0/CursorShadowRed=0
-0/CursorShadowGreen=0
-0/CursorShadowBlue=0
-0/CursorShadowXOffset=4
-0/CursorShadowYOffset=2
-0/SyncToVBlank=1
-0/LogAniso=1
-0/FSAA=1
-0/TextureSharpen=1
-0/TextureClamping=1
-0/FXAA=0
-0/AllowFlipping=1
-0/FSAAAppControlled=0
-0/LogAnisoAppControlled=0
-0/OpenGLImageSettings=1
-0/FSAAAppEnhanced=1
-0/DigitalVibrance[CRT-1]=0
-0/DigitalVibrance[DFP-0]=0
-0/XVideoSyncToDisplay=2
+ares:0.0/CursorShadow=0
+ares:0.0/CursorShadowAlpha=64
+ares:0.0/CursorShadowRed=0
+ares:0.0/CursorShadowGreen=0
+ares:0.0/CursorShadowBlue=0
+ares:0.0/CursorShadowXOffset=4
+ares:0.0/CursorShadowYOffset=2
+ares:0.0/SyncToVBlank=1
+ares:0.0/LogAniso=0
+ares:0.0/FSAA=1
+ares:0.0/TextureSharpen=1
+ares:0.0/TextureClamping=1
+ares:0.0/FXAA=0
+ares:0.0/AllowFlipping=1
+ares:0.0/FSAAAppControlled=0
+ares:0.0/LogAnisoAppControlled=0
+ares:0.0/OpenGLImageSettings=1
+ares:0.0/FSAAAppEnhanced=1
+ares:0.0/DigitalVibrance[CRT-1]=0
+ares:0.0/DigitalVibrance[DFP-0]=0
+ares:0.0/XVideoSyncToDisplay=2
 ares:0[dpy:1]/RedBrightness=0.000000
 ares:0[dpy:1]/GreenBrightness=0.000000
 ares:0[dpy:1]/BlueBrightness=0.000000

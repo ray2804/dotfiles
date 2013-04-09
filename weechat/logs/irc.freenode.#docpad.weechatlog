@@ -10463,3 +10463,25 @@
 2013-04-09 02:34:40	--	Notice(GitHub10): [docpad-extras] balupton merged dev into master: http://git.io/gpibbQ
 2013-04-09 02:34:44	--	Notice(GitHub100): [docpad-extras] balupton merged docpad-6.x into dev: http://git.io/gpibbQ
 2013-04-09 02:48:03	-->	mikeumus (4a5a25fa@gateway/web/freenode/ip.74.90.37.250) has joined #docpad
+2013-04-09 04:10:52	--	Notice(GitHub91): [docpad] balupton merged dev into master: http://git.io/kGCbOQ
+2013-04-09 04:10:54	--	Notice(GitHub170): [docpad] balupton merged master into dev: http://git.io/kGCbOQ
+2013-04-09 04:14:50	--	Notice(GitHub150): [docpad] balupton merged master into dev: http://git.io/zX0aSw
+2013-04-09 04:14:50	--	Notice(GitHub80): [docpad] balupton merged dev into master: http://git.io/zX0aSw
+2013-04-09 04:15:47	--	Notice(GitHub77): [docpad] balupton merged master into dev: http://git.io/JPDD9w
+2013-04-09 04:15:50	--	Notice(GitHub131): [docpad] balupton merged dev into master: http://git.io/JPDD9w
+2013-04-09 04:16:54	<--	urlwolf_ (~quassel@e178127200.adsl.alicedsl.de) has quit (Ping timeout: 264 seconds)
+2013-04-09 04:33:40	--	Notice(GitHub96): [docpad-documentation] balupton pushed 1 new commit to master: http://git.io/kuOSPg
+2013-04-09 04:33:40	--	Notice(GitHub96): docpad-documentation/master 4f36093 Benjamin Arthur Lupton: Moved the contributing page back to the docs repo from the docpad repo
+2013-04-09 04:35:00	--	Notice(GitHub62): [docpad] balupton merged master into dev: http://git.io/BnQCrA
+2013-04-09 04:35:00	--	Notice(GitHub75): [docpad] balupton merged dev into master: http://git.io/BnQCrA
+2013-04-09 04:36:46	--	Notice(GitHub118): [docpad-documentation] balupton pushed 1 new commit to master: http://git.io/aMwQ6A
+2013-04-09 04:36:46	--	Notice(GitHub118): docpad-documentation/master 8e08502 Benjamin Arthur Lupton: Fixed links in Participate Guide
+2013-04-09 04:53:23	<--	mikeumus (4a5a25fa@gateway/web/freenode/ip.74.90.37.250) has quit (Ping timeout: 245 seconds)
+2013-04-09 05:05:58	<--	nexusIX (~egoIX@c-66-235-0-222.sea.wa.customer.broadstripe.net) has quit (Ping timeout: 245 seconds)
+2013-04-09 05:11:17	<--	EricLeslie (~EricLesli@208-53-94-196.stockton.ca.digitalpath.net) has quit (Quit: Leaving)
+2013-04-09 05:19:14	-->	nexusIX (~egoIX@c-66-235-0-222.sea.wa.customer.broadstripe.net) has joined #docpad
+2013-04-09 06:56:24	-->	EricLeslie (~EricLesli@208-53-94-196.stockton.ca.digitalpath.net) has joined #docpad
+2013-04-09 07:00:07	EricLeslie	What's the best practice for limiting the number of items @getCollection returns?
+2013-04-09 07:00:42	EricLeslie	brb
+2013-04-09 07:00:46	<--	EricLeslie (~EricLesli@208-53-94-196.stockton.ca.digitalpath.net) has quit (Client Quit)
+2013-04-09 07:00:53	--	irc: disconnected from server

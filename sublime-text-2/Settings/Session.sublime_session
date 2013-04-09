@@ -175,9 +175,17 @@
 			"build_system": "",
 			"command_palette":
 			{
-				"height": 212.0,
+				"height": 52.0,
 				"selected_items":
 				[
+					[
+						"Package Control: INS",
+						"Package Control: Install Package"
+					],
+					[
+						"Package Control: inst",
+						"Package Control: Install Package"
+					],
 					[
 						"inst",
 						"Package Control: Install Package"
@@ -188,10 +196,6 @@
 					],
 					[
 						"Package Control: ins",
-						"Package Control: Install Package"
-					],
-					[
-						"Package Control: inst",
 						"Package Control: Install Package"
 					],
 					[
@@ -220,22 +224,34 @@
 			},
 			"file_history":
 			[
-				"/tmp/dp/docpad.coffee",
+				"/srv/customers/tredius/src/partials/blok/voettekst.html.coffee",
+				"/srv/customers/tredius/src/layouts/standaard.html.coffee",
+				"/home/baal/src/clj/backgammon/untitled",
+				"/srv/customers/tredius/src/partials/paginablokken/voettekst.html.coffee",
+				"/srv/customers/tredius/src/partials/paginablokken/voet.html.coffee",
 				"/tmp/dp/src/layouts/default.html.coffee",
+				"/srv/customers/tredius/src/partials/paginablokken/navigatie.html.coffee",
+				"/srv/customers/tredius/docpad.coffee",
+				"/srv/customers/tredius/out/index.html",
+				"/tmp/dp/docpad.coffee",
+				"/srv/customers/tredius/src/partials/paginablokken/multimedia.html.coffee",
+				"/home/baal/.config/sublime-text-2/Packages/CoffeeScriptBundle.tmbundle/Syntaxes/CoffeeScript.tmLanguage",
+				"/home/baal/.config/sublime-text-2/Packages/CoffeeScriptBundle.tmbundle/Syntaxes/CoffeeScript (Literate).tmLanguage",
+				"/srv/customers/tredius/lib/records/navigatie.jade",
+				"/srv/customers/tredius/src/layouts/navigatie.jade",
 				"/srv/customers/tredius/src/layouts/convert.html.coffee",
+				"/srv/customers/tredius/src/layouts/a.litcoffee",
+				"/home/baal/.config/sublime-text-2/Packages/Color Scheme - Default/Monokai.tmTheme",
 				"/srv/customers/tredius/src/documents/t-time/nieuwsbrief/blog.html.coffee",
 				"/tmp/dp/src/partials/social/linkedin.html.coffee",
 				"/srv/customers/tredius/src/layouts/voetblok.jade",
 				"/srv/customers/tredius/src/layouts/standaard.html.jade",
-				"/srv/customers/tredius/docpad.coffee",
-				"/srv/customers/tredius/src/layouts/a.litcoffee",
 				"/srv/customers/tredius/src/layouts/a.coffee",
 				"/srv/customers/tredius/src/documents/t-time/specials/ts-slider.jade",
 				"/srv/customers/tredius/src/documents/t-time/columns/tc-slider.jade",
 				"/srv/customers/tredius/src/documents/t-time/nieuwsbrief/tn-slider.jade",
 				"/srv/customers/tredius/src/documents/t-time/index.html.jade",
 				"/srv/customers/tredius/src/documents/t-time/videos/tv-slider.jade",
-				"/srv/customers/tredius/src/layouts/navigatie.jade",
 				"/srv/customers/tredius/lib/records/balupton.coffee",
 				"/srv/customers/tredius/src/documents/t-time/nieuwsbrief/2013/april/index.html.jade",
 				"/home/baal/Dotfiles/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
@@ -255,7 +271,7 @@
 			},
 			"find_in_files":
 			{
-				"height": 90.0,
+				"height": 0.0,
 				"where_history":
 				[
 				]
@@ -265,6 +281,27 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"voet_linklijst3",
+					"voet_linklijst2",
+					"voet_linklijst1",
+					"oEmbedCallback",
+					"@",
+					"this",
+					"new",
+					"m1-loc",
+					"loc",
+					"menu_contact",
+					"menu_vestigingen",
+					"menu_werkenbij",
+					"menu_ttime",
+					"menu_belasting",
+					"m1_dienst",
+					"menu_onzediensten",
+					"m1wiezijnwe",
+					"m1home",
+					"menu_wiezijnwe",
+					"menu_home",
+					"@",
 					"getColl",
 					"getCp;;;",
 					"database",
@@ -276,7 +313,7 @@
 				"highlight": true,
 				"in_selection": false,
 				"preserve_case": false,
-				"regex": false,
+				"regex": true,
 				"replace_history":
 				[
 				],
@@ -333,7 +370,7 @@
 				"cols":
 				[
 					0.0,
-					0.454728862157,
+					0.876859107628,
 					1.0
 				],
 				"rows":
@@ -343,7 +380,7 @@
 				]
 			},
 			"menu_visible": true,
-			"position": "0,0,0,0,0,1400,197,2822,963,2880,1024",
+			"position": "0,0,0,0,0,1440,188,2754,900,2880,1024",
 			"replace":
 			{
 				"height": 0.0
@@ -369,7 +406,7 @@
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 240.0,
+			"side_bar_width": 293.0,
 			"status_bar_visible": true,
 			"window_id": 1,
 			"workspace_name": ""
