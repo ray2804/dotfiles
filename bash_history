@@ -8,3 +8,4 @@ ls
 cd rainbox/
 gitflow-common
 ./test-lein-exec.clj
+./bin/docpad

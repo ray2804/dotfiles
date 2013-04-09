@@ -1,6 +1,7 @@
 {
 	"installed_packages":
 	[
+		"ASCII Decorator",
 		"ClojureDocSearch",
 		"CoffeeCompile",
 		"CoffeeComplete Plus (Autocompletion)",
@@ -9,12 +10,18 @@
 		"CoffeeScript Function Finder",
 		"ColorSchemeSelector",
 		"Enhanced Clojure",
+		"Figlet Big ASCII Text",
 		"Jade",
 		"JS2Coffee",
+		"LoremIpsum",
 		"Package Control",
 		"SideBarEnhancements",
 		"SmartMarkdown",
+		"Stylus",
 		"sublime-better-coffeescript",
+		"SublimeLinter",
+		"SublimeTransporter",
+		"SyncedSideBar",
 		"TextFormatting"
 	]
 }

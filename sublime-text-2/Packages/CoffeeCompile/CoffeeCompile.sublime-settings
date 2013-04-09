@@ -6,7 +6,7 @@
      * On OSX, for example:
      * `/usr/local/share/npm/lib/node_modules/coffee-script/bin`
      */
-     "coffee_path": ""
+     "coffee_path": "/usr/local/lib/node_modules/coffee-script/bin"
 
     /**
      * Where your `node` executable lives. If this is not specified, then
@@ -15,7 +15,7 @@
      * On OSX, for example:
      * `/usr/local/bin`
      */
-,    "node_path": ""
+,    "node_path": "/usr/local/bin"
 
     /**
      * How should the plugin invoke your coffee executable.
@@ -31,7 +31,7 @@
      *   Windows   -> 'coffee.cmd'
      *   Linux/OSX -> 'coffee'
      */
-,    "coffee_executable": ""
+,    "coffee_executable": "/usr/local/bin/coffee"
 
 
     /**

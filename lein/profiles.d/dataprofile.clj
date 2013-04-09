@@ -17,9 +17,10 @@
 ;;;  7. histogram           Streaming Parallel Decision Trees
 ;;;  8. incanter            Statistical programming and data visualization
 ;;;  9. data.generators     Generators for random Clojure data with seeds
+;;; 10. lobos               SQL db schema manipulation and migration library 
+;;; 11. postgresql          Relational Database Management System like MySQL
 ;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 
-  
 
 {:dataprofile {:plugins [ [org.clojure/math.combinatorics "0.0.3"]
                           [org.clojure/data.json "0.2.2"]
@@ -29,7 +30,9 @@
                           [lein-depgraph "0.1.0"]
                           [bigml/histogram "3.1.0"]
                           [incanter "1.4.1"]
-                          [org.clojure/data.generators "0.1.0"]]
+                          [org.clojure/data.generators "0.1.0"]
+                          [lobos "1.0.0-beta1"]
+                          [postgresql "9.1-901.jdbc4"]]
  
                }
  }

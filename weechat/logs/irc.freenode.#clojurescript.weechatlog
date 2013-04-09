@@ -1715,3 +1715,66 @@
 2013-04-09 06:18:48	<--	jonasen (~jonasen@a100.ip13.netikka.fi) has quit (Quit: Lost terminal)
 2013-04-09 06:26:44	<--	inkybutton (~inkybutto@unaffiliated/inkybutton) has quit (Ping timeout: 255 seconds)
 2013-04-09 07:00:53	--	irc: disconnected from server
+2013-04-09 11:29:20	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #clojurescript
+2013-04-09 11:29:20	--	Nicks #clojurescript: [ahoops brainproxy cdh473_ cemerick harrow ibdknox inkybutton j0ni jaimef jimt karnowski kgerman nilbert ponzao si14 supersym tos9 tyler_ wei_ zaphyr]
+2013-04-09 11:29:20	--	Channel #clojurescript: 20 nicks (0 ops, 0 halfops, 0 voices, 20 normals)
+2013-04-09 11:29:32	--	Mode #clojurescript [+cnt]
+2013-04-09 11:29:32	--	Channel created on Thu, 21 Jul 2011 18:34:20
+2013-04-09 13:21:48	-->	urlwolf (~quassel@e178127200.adsl.alicedsl.de) has joined #clojurescript
+2013-04-09 13:45:14	-->	normanrichards (~normanric@70.114.215.220) has joined #clojurescript
+2013-04-09 13:46:29	-->	urlwolf_ (~quassel@e178124241.adsl.alicedsl.de) has joined #clojurescript
+2013-04-09 13:47:18	<--	normanrichards (~normanric@70.114.215.220) has quit (Client Quit)
+2013-04-09 13:50:36	<--	urlwolf (~quassel@e178127200.adsl.alicedsl.de) has quit (Ping timeout: 256 seconds)
+2013-04-09 14:20:17	<--	wei_ (~wei@adsl-76-252-219-69.dsl.pltn13.sbcglobal.net) has quit (Quit: wei_)
+2013-04-09 14:54:13	<--	inkybutton (~inkybutto@unaffiliated/inkybutton) has quit (Quit: Leaving)
+2013-04-09 15:12:11	-->	bmaddy (~bmaddy@72.21.231.26) has joined #clojurescript
+2013-04-09 15:12:14	<--	bmaddy (~bmaddy@72.21.231.26) has quit (Remote host closed the connection)
+2013-04-09 15:56:10	-->	normanrichards (~normanric@rrcs-108-178-120-144.sw.biz.rr.com) has joined #clojurescript
+2013-04-09 16:10:20	-->	momomomomo (~momomomom@38.126.164.90) has joined #clojurescript
+2013-04-09 16:44:47	-->	bmaddy (~bmaddy@72.21.231.26) has joined #clojurescript
+2013-04-09 18:23:14	<--	bmaddy (~bmaddy@72.21.231.26) has quit (Remote host closed the connection)
+2013-04-09 18:25:39	-->	bmaddy (~bmaddy@72.21.231.26) has joined #clojurescript
+2013-04-09 18:53:21	<--	bmaddy (~bmaddy@72.21.231.26) has quit (Remote host closed the connection)
+2013-04-09 18:54:13	-->	bmaddy (~bmaddy@72.21.231.26) has joined #clojurescript
+2013-04-09 19:02:35	-->	enquora (~davidr@S0106602ad083de8c.cg.shawcable.net) has joined #clojurescript
+2013-04-09 19:05:41	-->	foeniks (~fevon@p5091F61B.dip.t-dialin.net) has joined #clojurescript
+2013-04-09 19:17:20	foeniks	so I have this clojurescript html5 canvas game
+2013-04-09 19:17:33	foeniks	at least with some fantasy you could call it a game ;)
+2013-04-09 19:18:21	foeniks	think of it like a Jump n run game or something alike
+2013-04-09 19:18:44	foeniks	I tried to write it to be as stateless as possible but there are a few state variables that I was not able to eliminate
+2013-04-09 19:19:07	foeniks	namely the position of the player, viewport, a "zoom" factor, etc.
+2013-04-09 19:19:46	foeniks	I put them into a "global/" namespace
+2013-04-09 19:20:09	foeniks	but I wonder if there is a functional, idiomatic way to handle global state in such cases
+2013-04-09 19:20:59	foeniks	maybe I lack "real" clojure education since I switched to Clojurescript directly without detour via clojure which seems to be the usual way
+2013-04-09 19:28:52	-->	cdh473 (~cdh473@50.96.92.104) has joined #clojurescript
+2013-04-09 19:29:40	<--	cdh473_ (~cdh473@50.96.74.61) has quit (Ping timeout: 260 seconds)
+2013-04-09 19:38:25	<--	cemerick (~cemerick@c-71-192-116-188.hsd1.ma.comcast.net) has quit (Remote host closed the connection)
+2013-04-09 19:56:53	<--	momomomomo (~momomomom@38.126.164.90) has quit (Ping timeout: 248 seconds)
+2013-04-09 19:58:55	-->	momomomomo (~momomomom@38.126.164.90) has joined #clojurescript
+2013-04-09 20:12:18	<--	momomomomo (~momomomom@38.126.164.90) has quit (Ping timeout: 252 seconds)
+2013-04-09 20:12:52	<--	normanrichards (~normanric@rrcs-108-178-120-144.sw.biz.rr.com) has quit
+2013-04-09 20:12:55	-->	momomomomo (~momomomom@38.126.164.90) has joined #clojurescript
+2013-04-09 20:22:12	<--	momomomomo (~momomomom@38.126.164.90) has quit (Ping timeout: 252 seconds)
+2013-04-09 20:22:20	-->	momomomomo (~momomomom@38.126.164.90) has joined #clojurescript
+2013-04-09 21:00:22	-->	normanrichards (~normanric@rrcs-108-178-120-144.sw.biz.rr.com) has joined #clojurescript
+2013-04-09 21:00:56	<--	momomomomo (~momomomom@38.126.164.90) has quit (Quit: momomomomo)
+2013-04-09 21:03:40	-->	momomomomo (~momomomom@38.126.164.90) has joined #clojurescript
+2013-04-09 21:16:39	-->	alexguev (~alexguev@CPEbcc810003a2d-CMbcc810003a2a.cpe.net.cable.rogers.com) has joined #clojurescript
+2013-04-09 21:25:44	<--	momomomomo (~momomomom@38.126.164.90) has quit (Quit: momomomomo)
+2013-04-09 22:09:31	<--	zaphyr (~zaphyr@host31-51-108-60.range31-51.btcentralplus.com) has quit (Read error: Connection reset by peer)
+2013-04-09 22:32:30	<--	urlwolf_ (~quassel@e178124241.adsl.alicedsl.de) has quit (Ping timeout: 256 seconds)
+2013-04-09 22:52:31	<--	foeniks (~fevon@p5091F61B.dip.t-dialin.net) has quit (Quit: This computer has gone to sleep)
+2013-04-09 23:03:31	<--	kgerman (~chatzilla@office.vivisimo.com) has quit (Ping timeout: 264 seconds)
+2013-04-09 23:04:05	-->	kgerman (~chatzilla@office.vivisimo.com) has joined #clojurescript
+2013-04-09 23:06:48	<--	alexguev (~alexguev@CPEbcc810003a2d-CMbcc810003a2a.cpe.net.cable.rogers.com) has quit (Ping timeout: 256 seconds)
+2013-04-09 23:09:32	-->	alexguev (~alexguev@CPEbcc810003a2d-CMbcc810003a2a.cpe.net.cable.rogers.com) has joined #clojurescript
+2013-04-09 23:10:17	-->	momomomomo (~momomomom@206.104.135.60) has joined #clojurescript
+2013-04-09 23:23:06	-->	wei_ (~wei@adsl-76-252-219-69.dsl.pltn13.sbcglobal.net) has joined #clojurescript
+2013-04-09 23:28:23	-->	jimt_ (~jim@31.177.69.111.dynamic.snap.net.nz) has joined #clojurescript
+2013-04-09 23:33:34	<--	jimt (~jim@31.177.69.111.dynamic.snap.net.nz) has quit (*.net *.split)
+2013-04-09 23:33:34	<--	karnowski (uid6339@gateway/web/irccloud.com/x-wwobqhdotkweucfb) has quit (*.net *.split)
+2013-04-10 00:00:36	-->	wolanski (~user@modemcable050.47-37-24.static.videotron.ca) has joined #clojurescript
+2013-04-10 00:00:45	wolanski	exit
+2013-04-10 00:00:52	<--	wolanski (~user@modemcable050.47-37-24.static.videotron.ca) has left #clojurescript ("ERC Version 5.3 (IRC client for Emacs)")
+2013-04-10 00:02:19	-->	foeniks (~fevon@p5091F61B.dip.t-dialin.net) has joined #clojurescript
+2013-04-10 00:02:59	<--	bmaddy (~bmaddy@72.21.231.26) has quit (Remote host closed the connection)

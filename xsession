@@ -57,7 +57,7 @@ sh ${HOME}/.fehbg
 urxvtcd &
 
 # Fire up the window manager
-exec xmonad
+exec ssh-agent xmonad
 
 
 

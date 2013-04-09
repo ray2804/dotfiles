@@ -48,6 +48,11 @@
          ;; Development environments and text editors
          [lein-catnip "0.5.1"]      ; Web based IDE text editor and REPL
          [lein-light "0.0.24"]      ; LightTable plugin to connect to the IDE
+                  
+         [org.clojure/core.logic "0.8.3"] ; A logic/relational programming library for Clojure
+         [marginalia "0.3.2"] 
+                  
+         [colorize "0.1.1"]
          
                  ]
 

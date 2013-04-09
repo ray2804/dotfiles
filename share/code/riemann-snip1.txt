@@ -1,0 +1,12 @@
+description: "Request took 2.53 seconds."
+,
+r = Riemann::Client.new
+r << {
+host: "www1",
+service: "http req",
+metric: 2.53,
+state: "critical",
+description: "Request took 2.53 seconds.",
+tags: ["http"]
+}
+r['service =~ "http%"']
