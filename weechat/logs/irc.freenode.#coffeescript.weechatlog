@@ -16752,3 +16752,20 @@
 2013-04-09 03:17:30	<--	satyr (~satyr@112-71-156-112f1.nar1.eonet.ne.jp) has quit (Remote host closed the connection)
 2013-04-09 03:18:14	<--	kofno (~kofno@cpe-24-165-210-251.neo.res.rr.com) has quit (Remote host closed the connection)
 2013-04-09 03:19:32	<--	liorix (~liorix@cpe-98-14-229-103.nyc.res.rr.com) has quit (Ping timeout: 252 seconds)
+2013-04-09 03:26:23	<--	evangenieur (~evangenie@wmh38-2-82-236-97-170.fbx.proxad.net) has quit (Remote host closed the connection)
+2013-04-09 03:26:55	-->	evangenieur (~evangenie@wmh38-2-82-236-97-170.fbx.proxad.net) has joined #coffeescript
+2013-04-09 03:28:24	<--	cloke (~cloke@66.159.97.97) has quit (Quit: cloke)
+2013-04-09 03:30:39	-->	Nisstyre (~yours@oftn/member/Nisstyre) has joined #coffeescript
+2013-04-09 03:31:14	<--	evangenieur (~evangenie@wmh38-2-82-236-97-170.fbx.proxad.net) has quit (Ping timeout: 256 seconds)
+2013-04-09 03:31:34	-->	dhruvasagar (~dhruvasag@122.178.233.77) has joined #coffeescript
+2013-04-09 03:32:00	-->	D4RK-PH0ENiX (~D4RK-PH0E@39.173.138.210.bf.2iij.net) has joined #coffeescript
+2013-04-09 03:34:49	-->	infynyxx (~infynyxx@cpe-24-90-84-91.nyc.res.rr.com) has joined #coffeescript
+2013-04-09 03:39:09	-->	kofno (~kofno@cpe-24-165-210-251.neo.res.rr.com) has joined #coffeescript
+2013-04-09 03:40:42	Fishrock123	Okay, it did. Error stemmed for something else. my Scenes extending DisplayObjectConatiner needed that hack. Bleh
+2013-04-09 03:45:02	-->	joshontheweb (~joshonthe@c-24-8-101-84.hsd1.co.comcast.net) has joined #coffeescript
+2013-04-09 03:47:54	toshok	sorry, was working on something else
+2013-04-09 03:48:05	toshok	yeah you want do make that fix all over pixi, depending on what you're subclassing
+2013-04-09 03:48:11	toshok	want to*
+2013-04-09 03:49:55	Fishrock123	I'm just going to apply the hack for now. Thanks. :3
+2013-04-09 03:50:08	Fishrock123	... Now to make these stupid sprites render again -_-
+2013-04-09 03:54:50	<--	infynyxx (~infynyxx@cpe-24-90-84-91.nyc.res.rr.com) has quit (Remote host closed the connection)

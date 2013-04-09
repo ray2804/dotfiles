@@ -1,8 +1,9 @@
 ;;; ~/.lein/profiles.d/server.clj
 ;;;
 ;;; Server side solutions, plugins, packages and libraries infrastructure.
-
-
+;;; Also has some commonly used client applications to connect and work
+;;; in conjunction with server machines and processes or API's.
+;;;
 
 {:server 
  {:plugins
@@ -17,6 +18,7 @@
      [lein-tarsier "0.10.0"]        ; Fully-featured Leiningen plugin to run a VimClojure server for Lein 1 & 2 projects.
      ;[appengine-magic "0.5.0"]     ; FIXME Abstract away the infra nuts and bolts of writing a Clojure application for GAE.
      [lein-swank "1.4.4"]           ; Server that allows SLIME (the Superior Lisp Interaction Mode for Emacs) to connect to Clojure projects.
+     [org.clojars.scott/lein-nailgun "1.1.0"] ; A leiningen plugin to launch a vimclojure nailgun server.
      
      ;; Clients
      ;;
