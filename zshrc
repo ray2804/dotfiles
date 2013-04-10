@@ -12,6 +12,8 @@ ZSH="${HOME}/.oh-my-zsh"
 #ZSH_THEME="afowler 3den"
 ZSH_THEME="af-magic"
 
+# Custom functions path appended
+fpath=($fpath ${HOME}/.share/scripts/zsh/functions)
 plugins=(git github archlinux npm coffee cp systemd history \
     git-flow cpanm history-substring-search mvn node ssh-agent sublime rvm \
     gnu-utils)

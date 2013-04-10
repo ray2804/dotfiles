@@ -1,6 +1,8 @@
 {
 	"installed_packages":
 	[
+		"Alignment",
+		"Anypreter",
 		"ASCII Decorator",
 		"ClojureDocSearch",
 		"CoffeeCompile",
@@ -13,7 +15,6 @@
 		"Figlet Big ASCII Text",
 		"Jade",
 		"JS2Coffee",
-		"LoremIpsum",
 		"Package Control",
 		"SideBarEnhancements",
 		"SmartMarkdown",

@@ -308,6 +308,18 @@
 				"selected_items":
 				[
 					[
+						"embed",
+						"embedVimeo-speler1"
+					],
+					[
+						"Vimeo",
+						"VimeoVoetblok1"
+					],
+					[
+						"embedV",
+						"embedVimeo-status"
+					],
+					[
 						"cof",
 						"coffee-script"
 					]
@@ -319,7 +331,23 @@
 					"file": "/home/baal/customers/tredius/src/layouts/standaard.html.coffee",
 					"settings":
 					{
-						"buffer_size": 4623,
+						"buffer_size": 4695,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/baal/customers/tredius/src/partials/blok/multimedia.html.coffee",
+					"settings":
+					{
+						"buffer_size": 2322,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/baal/customers/tredius/src/documents/contact.html.jade",
+					"settings":
+					{
+						"buffer_size": 2805,
 						"line_ending": "Unix"
 					}
 				},
@@ -327,7 +355,7 @@
 					"file": "/home/baal/customers/tredius/docpad.coffee",
 					"settings":
 					{
-						"buffer_size": 6466,
+						"buffer_size": 7023,
 						"line_ending": "Unix"
 					}
 				},
@@ -347,27 +375,31 @@
 				"selected_items":
 				[
 					[
-						"lorem",
-						"LoremIpsum: (30) lots"
+						"remove",
+						"Package Control: Remove Package"
 					],
 					[
 						"inst",
 						"Package Control: Install Package"
 					],
 					[
-						"ins",
-						"Indentation: Convert to Spaces"
+						"Package Control: inst",
+						"Package Control: Install Package"
 					],
 					[
 						"Package Control: ins",
 						"Package Control: Install Package"
 					],
 					[
-						"Package Control: INS",
-						"Package Control: Install Package"
+						"lorem",
+						"LoremIpsum: (30) lots"
 					],
 					[
-						"Package Control: inst",
+						"ins",
+						"Indentation: Convert to Spaces"
+					],
+					[
+						"Package Control: INS",
 						"Package Control: Install Package"
 					],
 					[
@@ -379,7 +411,7 @@
 						"Package Control: Install Package"
 					]
 				],
-				"width": 449.0
+				"width": 593.0
 			},
 			"console":
 			{
@@ -396,6 +428,9 @@
 			},
 			"file_history":
 			[
+				"/home/baal/customers/tredius/lib/vimeoAjaxCoffee",
+				"/home/baal/customers/tredius/src/documents/stijlen/voorpagina.styl",
+				"/home/baal/Dotfiles/sublime-text-2/Packages/User/Preferences.sublime-settings",
 				"/home/baal/customers/tredius/lib/records/base64",
 				"/home/baal/customers/tredius/src/documents/t-time/nieuwsbrief/2013/april/1301c-verzuimboete-aangifte.html.md",
 				"/home/baal/customers/tredius/src/documents/t-time/nieuwsbrief/2013/april/1301b-invoer-verhuurdersheffing.html.md",
@@ -405,7 +440,6 @@
 				"/home/baal/customers/tredius/src/documents/t-time/nieuwsbrief/2013/april/1301a-invoer-verhuurdersheffing.html.md",
 				"/home/baal/customers/tredius/src/documents/t-time/nieuwsbrief/2013/april/invoer-verhuurdersheffing.html.md",
 				"/home/baal/customers/tredius/src/layouts/handleiding.litcoffee",
-				"/home/baal/Dotfiles/sublime-text-2/Packages/User/Preferences.sublime-settings",
 				"/home/baal/Dotfiles/sublime-text-2/Packages/Color Scheme - Default/Monokai.tmTheme",
 				"/home/baal/Dotfiles/sublime-text-2/Packages/Color Scheme - Default/Monokai Bright.tmTheme",
 				"/home/baal/customers/tredius/docpad.coffee",
@@ -480,6 +514,7 @@
 				"height": 90.0,
 				"where_history":
 				[
+					"~/customers/tredius/src/",
 					"~/customers/tredius/src/partials",
 					"/srv/customers/tredius/src;/srv/customers/tredius/docpad.coffee",
 					"/srv/customers/tredius/",
@@ -492,6 +527,8 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"#",
+					"contact",
 					"documentT",
 					"site.",
 					"org.naam",
@@ -566,7 +603,7 @@
 			"groups":
 			[
 				{
-					"selected": 0,
+					"selected": 1,
 					"sheets":
 					[
 						{
@@ -574,15 +611,15 @@
 							"file": "/home/baal/customers/tredius/src/layouts/standaard.html.coffee",
 							"settings":
 							{
-								"buffer_size": 4623,
+								"buffer_size": 4695,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										2037,
-										2037
+										4695,
+										4695
 									]
 								],
 								"settings":
@@ -684,7 +721,243 @@
 									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
-								"translation.y": 378.0,
+								"translation.y": 1512.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/baal/customers/tredius/src/partials/blok/multimedia.html.coffee",
+							"settings":
+							{
+								"buffer_size": 2322,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1342,
+										1342
+									]
+								],
+								"settings":
+								{
+									"annotations":
+									[
+										"TODO",
+										"README",
+										"FIXME"
+									],
+									"csslint_options":
+									{
+										"adjoining-classes": "warning",
+										"box-model": true,
+										"box-sizing": "warning",
+										"compatible-vendor-prefixes": "warning",
+										"display-property-grouping": true,
+										"duplicate-background-images": "warning",
+										"duplicate-properties": true,
+										"empty-rules": true,
+										"errors": true,
+										"fallback-colors": "warning",
+										"floats": "warning",
+										"font-faces": "warning",
+										"font-sizes": "warning",
+										"gradients": "warning",
+										"ids": "warning",
+										"import": "warning",
+										"important": "warning",
+										"known-properties": true,
+										"outline-none": "warning",
+										"overqualified-elements": "warning",
+										"qualified-headings": "warning",
+										"regex-selectors": "warning",
+										"rules-count": "warning",
+										"shorthand": "warning",
+										"star-property-hack": "warning",
+										"text-indent": "warning",
+										"underscore-property-hack": "warning",
+										"unique-headings": "warning",
+										"universal-selector": "warning",
+										"vendor-prefix": true,
+										"zero-units": "warning"
+									},
+									"gjslint_ignore":
+									[
+										110
+									],
+									"gjslint_options":
+									[
+									],
+									"javascript_linter": "jshint",
+									"jshint_options":
+									{
+										"browser": true,
+										"evil": true,
+										"regexdash": true,
+										"sub": true,
+										"trailing": true,
+										"wsh": true
+									},
+									"pep8": true,
+									"pep8_ignore":
+									[
+										"E501"
+									],
+									"perl_linter": "perlcritic",
+									"pyflakes_ignore":
+									[
+									],
+									"pyflakes_ignore_import_*": true,
+									"rulers":
+									[
+										80
+									],
+									"sublimelinter": true,
+									"sublimelinter_delay": 2,
+									"sublimelinter_disable":
+									[
+									],
+									"sublimelinter_executable_map":
+									{
+									},
+									"sublimelinter_fill_outlines": false,
+									"sublimelinter_gutter_marks": false,
+									"sublimelinter_mark_style": "outline",
+									"sublimelinter_notes": false,
+									"sublimelinter_objj_check_ascii": false,
+									"sublimelinter_popup_errors_on_save": false,
+									"sublimelinter_syntax_map":
+									{
+										"C++": "c",
+										"Python Django": "python",
+										"Ruby on Rails": "ruby"
+									},
+									"sublimelinter_wrap_find": true,
+									"syntax": "Packages/CoffeeScript/CoffeeScript.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/home/baal/customers/tredius/src/documents/contact.html.jade",
+							"settings":
+							{
+								"buffer_size": 2805,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										619,
+										619
+									]
+								],
+								"settings":
+								{
+									"annotations":
+									[
+										"TODO",
+										"README",
+										"FIXME"
+									],
+									"csslint_options":
+									{
+										"adjoining-classes": "warning",
+										"box-model": true,
+										"box-sizing": "warning",
+										"compatible-vendor-prefixes": "warning",
+										"display-property-grouping": true,
+										"duplicate-background-images": "warning",
+										"duplicate-properties": true,
+										"empty-rules": true,
+										"errors": true,
+										"fallback-colors": "warning",
+										"floats": "warning",
+										"font-faces": "warning",
+										"font-sizes": "warning",
+										"gradients": "warning",
+										"ids": "warning",
+										"import": "warning",
+										"important": "warning",
+										"known-properties": true,
+										"outline-none": "warning",
+										"overqualified-elements": "warning",
+										"qualified-headings": "warning",
+										"regex-selectors": "warning",
+										"rules-count": "warning",
+										"shorthand": "warning",
+										"star-property-hack": "warning",
+										"text-indent": "warning",
+										"underscore-property-hack": "warning",
+										"unique-headings": "warning",
+										"universal-selector": "warning",
+										"vendor-prefix": true,
+										"zero-units": "warning"
+									},
+									"gjslint_ignore":
+									[
+										110
+									],
+									"gjslint_options":
+									[
+									],
+									"javascript_linter": "jshint",
+									"jshint_options":
+									{
+										"browser": true,
+										"evil": true,
+										"regexdash": true,
+										"sub": true,
+										"trailing": true,
+										"wsh": true
+									},
+									"pep8": true,
+									"pep8_ignore":
+									[
+										"E501"
+									],
+									"perl_linter": "perlcritic",
+									"pyflakes_ignore":
+									[
+									],
+									"pyflakes_ignore_import_*": true,
+									"sublimelinter": true,
+									"sublimelinter_delay": 2,
+									"sublimelinter_disable":
+									[
+									],
+									"sublimelinter_executable_map":
+									{
+									},
+									"sublimelinter_fill_outlines": false,
+									"sublimelinter_gutter_marks": false,
+									"sublimelinter_mark_style": "outline",
+									"sublimelinter_notes": false,
+									"sublimelinter_objj_check_ascii": false,
+									"sublimelinter_popup_errors_on_save": false,
+									"sublimelinter_syntax_map":
+									{
+										"C++": "c",
+										"Python Django": "python",
+										"Ruby on Rails": "ruby"
+									},
+									"sublimelinter_wrap_find": true,
+									"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
 							"type": "text"
@@ -696,19 +969,19 @@
 					"sheets":
 					[
 						{
-							"buffer": 1,
+							"buffer": 3,
 							"file": "/home/baal/customers/tredius/docpad.coffee",
 							"settings":
 							{
-								"buffer_size": 6466,
+								"buffer_size": 7023,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										4416,
-										4416
+										5344,
+										5344
 									]
 								],
 								"settings":
@@ -805,14 +1078,14 @@
 									"tab_size": 4,
 									"translate_tabs_to_spaces": true
 								},
-								"translation.x": 148.0,
+								"translation.x": 112.0,
 								"translation.y": 1050.0,
 								"zoom_level": 1.0
 							},
 							"type": "text"
 						},
 						{
-							"buffer": 2,
+							"buffer": 4,
 							"file": "/home/baal/customers/tredius/src/partials/blok/voettekst.html.coffee",
 							"settings":
 							{
@@ -958,7 +1231,7 @@
 				"cols":
 				[
 					0.0,
-					0.702003870092,
+					0.593010291595,
 					1.0
 				],
 				"rows":
@@ -968,15 +1241,19 @@
 				]
 			},
 			"menu_visible": true,
+			"output.CoffeeLintPanel":
+			{
+				"height": 94.0
+			},
 			"output.coffeecompile_output":
 			{
-				"height": 88.0
+				"height": 98.0
 			},
 			"output.exec":
 			{
 				"height": 94.0
 			},
-			"position": "0,0,0,0,0,1350,210,2832,870,2880,1024",
+			"position": "0,0,0,0,0,1378,49,2919,855,2880,1024",
 			"replace":
 			{
 				"height": 62.0

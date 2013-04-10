@@ -1857,3 +1857,37 @@
 2013-04-10 20:26:38	<--	wei_ (~wei@adsl-76-252-217-22.dsl.pltn13.sbcglobal.net) has quit (Quit: wei_)
 2013-04-10 20:40:11	-->	wei_ (~wei@adsl-76-252-217-22.dsl.pltn13.sbcglobal.net) has joined #clojurescript
 2013-04-10 20:51:38	<--	abadr (~abadr@ppp-239-56.32-151.iol.it) has quit (Quit: abadr)
+2013-04-10 21:01:18	<--	enquora (~davidr@S0106602ad083de8c.cg.shawcable.net) has quit (Quit: enquora)
+2013-04-10 21:02:02	-->	abadr (~abadr@93-38-57-194.ip69.fastwebnet.it) has joined #clojurescript
+2013-04-10 21:03:38	-->	enquora (~davidr@S0106602ad083de8c.cg.shawcable.net) has joined #clojurescript
+2013-04-10 21:05:07	-->	bmaddy (~bmaddy@67.138.38.246) has joined #clojurescript
+2013-04-10 21:19:13	<--	wei_ (~wei@adsl-76-252-217-22.dsl.pltn13.sbcglobal.net) has quit (Quit: wei_)
+2013-04-10 21:36:35	-->	wei_ (~wei@adsl-76-252-217-22.dsl.pltn13.sbcglobal.net) has joined #clojurescript
+2013-04-10 21:41:41	-->	urlwolf (~quassel@e179047059.adsl.alicedsl.de) has joined #clojurescript
+2013-04-10 21:51:36	<--	wei_ (~wei@adsl-76-252-217-22.dsl.pltn13.sbcglobal.net) has quit (Quit: wei_)
+2013-04-10 22:05:38	<--	urlwolf (~quassel@e179047059.adsl.alicedsl.de) has quit (Remote host closed the connection)
+2013-04-10 22:19:15	<--	cemerick (~cemerick@c-71-192-116-188.hsd1.ma.comcast.net) has quit (Read error: Connection reset by peer)
+2013-04-10 22:19:35	-->	cemerick (~cemerick@c-71-192-116-188.hsd1.ma.comcast.net) has joined #clojurescript
+2013-04-10 22:20:11	<--	cemerick (~cemerick@c-71-192-116-188.hsd1.ma.comcast.net) has quit (Read error: Connection reset by peer)
+2013-04-10 22:20:30	-->	cemerick (~cemerick@c-71-192-116-188.hsd1.ma.comcast.net) has joined #clojurescript
+2013-04-10 22:21:09	<--	cemerick (~cemerick@c-71-192-116-188.hsd1.ma.comcast.net) has quit (Read error: Connection reset by peer)
+2013-04-10 22:21:32	-->	cemerick (~cemerick@c-71-192-116-188.hsd1.ma.comcast.net) has joined #clojurescript
+2013-04-10 22:23:40	<--	cemerick (~cemerick@c-71-192-116-188.hsd1.ma.comcast.net) has quit (Read error: Connection reset by peer)
+2013-04-10 22:23:48	-->	cemerick_ (~cemerick@c-71-192-116-188.hsd1.ma.comcast.net) has joined #clojurescript
+2013-04-10 22:24:21	-->	momomomomo (~momomomom@75-146-46-49-Minnesota.hfc.comcastbusiness.net) has joined #clojurescript
+2013-04-10 22:24:51	<--	cemerick_ (~cemerick@c-71-192-116-188.hsd1.ma.comcast.net) has quit (Read error: Connection reset by peer)
+2013-04-10 22:25:07	-->	cemerick (~cemerick@c-71-192-116-188.hsd1.ma.comcast.net) has joined #clojurescript
+2013-04-10 22:25:32	<--	enquora (~davidr@S0106602ad083de8c.cg.shawcable.net) has quit (Quit: enquora)
+2013-04-10 22:30:45	-->	enquora (~davidr@S0106602ad083de8c.cg.shawcable.net) has joined #clojurescript
+2013-04-10 22:45:39	<--	ahoops (~ahoops__@121.96.14.223) has quit (Ping timeout: 256 seconds)
+2013-04-10 22:55:34	-->	ahoops (~ahoops__@121.96.14.223) has joined #clojurescript
+2013-04-10 23:09:15	<--	normanrichards (~normanric@rrcs-108-178-120-144.sw.biz.rr.com) has quit
+2013-04-10 23:54:44	<--	enquora (~davidr@S0106602ad083de8c.cg.shawcable.net) has quit (Quit: enquora)
+2013-04-11 00:00:02	<--	abadr (~abadr@93-38-57-194.ip69.fastwebnet.it) has quit (Quit: abadr)
+2013-04-11 00:33:16	-->	inkybutton (~inkybutto@unaffiliated/inkybutton) has joined #clojurescript
+2013-04-11 00:36:59	<--	bmaddy (~bmaddy@67.138.38.246) has quit (Remote host closed the connection)
+2013-04-11 00:43:21	-->	normanrichards (~normanric@rrcs-108-178-120-144.sw.biz.rr.com) has joined #clojurescript
+2013-04-11 00:54:48	<--	inkybutton (~inkybutto@unaffiliated/inkybutton) has quit (Ping timeout: 264 seconds)
+2013-04-11 00:59:49	<--	cemerick (~cemerick@c-71-192-116-188.hsd1.ma.comcast.net) has quit (Remote host closed the connection)
+2013-04-11 01:00:25	-->	cemerick (~cemerick@c-71-192-116-188.hsd1.ma.comcast.net) has joined #clojurescript
+2013-04-11 01:04:43	<--	cemerick (~cemerick@c-71-192-116-188.hsd1.ma.comcast.net) has quit (Ping timeout: 245 seconds)
