@@ -1778,3 +1778,82 @@
 2013-04-10 00:00:52	<--	wolanski (~user@modemcable050.47-37-24.static.videotron.ca) has left #clojurescript ("ERC Version 5.3 (IRC client for Emacs)")
 2013-04-10 00:02:19	-->	foeniks (~fevon@p5091F61B.dip.t-dialin.net) has joined #clojurescript
 2013-04-10 00:02:59	<--	bmaddy (~bmaddy@72.21.231.26) has quit (Remote host closed the connection)
+2013-04-10 00:24:35	-->	cemerick (~cemerick@c-71-192-116-188.hsd1.ma.comcast.net) has joined #clojurescript
+2013-04-10 00:38:49	<--	enquora (~davidr@S0106602ad083de8c.cg.shawcable.net) has quit (Quit: enquora)
+2013-04-10 00:47:43	<--	foeniks (~fevon@p5091F61B.dip.t-dialin.net) has quit (Quit: Leaving)
+2013-04-10 00:51:38	<--	momomomomo (~momomomom@206.104.135.60) has quit (Quit: momomomomo)
+2013-04-10 01:17:05	-->	wei__ (~wei@adsl-76-252-217-22.dsl.pltn13.sbcglobal.net) has joined #clojurescript
+2013-04-10 01:17:20	<--	wei_ (~wei@adsl-76-252-219-69.dsl.pltn13.sbcglobal.net) has quit (Ping timeout: 252 seconds)
+2013-04-10 01:17:37	--	wei__ is now known as wei_
+2013-04-10 01:21:59	<--	wei_ (~wei@adsl-76-252-217-22.dsl.pltn13.sbcglobal.net) has quit (Ping timeout: 260 seconds)
+2013-04-10 01:22:09	-->	wei_ (~wei@adsl-76-252-217-22.dsl.pltn13.sbcglobal.net) has joined #clojurescript
+2013-04-10 01:23:36	-->	karnowski (uid6339@gateway/web/irccloud.com/x-nlnzwldataxinbtk) has joined #clojurescript
+2013-04-10 01:26:27	<--	wei_ (~wei@adsl-76-252-217-22.dsl.pltn13.sbcglobal.net) has quit (Client Quit)
+2013-04-10 01:39:26	<--	normanrichards (~normanric@rrcs-108-178-120-144.sw.biz.rr.com) has quit
+2013-04-10 02:11:23	-->	momomomomo (~momomomom@64.122.144.190) has joined #clojurescript
+2013-04-10 02:25:37	<--	cemerick (~cemerick@c-71-192-116-188.hsd1.ma.comcast.net) has quit (Remote host closed the connection)
+2013-04-10 02:54:04	-->	cemerick (~cemerick@c-71-192-116-188.hsd1.ma.comcast.net) has joined #clojurescript
+2013-04-10 02:56:40	<--	cemerick (~cemerick@c-71-192-116-188.hsd1.ma.comcast.net) has quit (Remote host closed the connection)
+2013-04-10 02:59:35	-->	wei_ (~wei@adsl-76-252-217-22.dsl.pltn13.sbcglobal.net) has joined #clojurescript
+2013-04-10 03:19:51	-->	normanrichards (~normanric@71.21.67.242) has joined #clojurescript
+2013-04-10 03:25:38	<--	momomomomo (~momomomom@64.122.144.190) has quit (Quit: momomomomo)
+2013-04-10 04:31:37	-->	bmaddy (~bmaddy@72.21.231.26) has joined #clojurescript
+2013-04-10 04:32:48	<--	bmaddy (~bmaddy@72.21.231.26) has quit (Remote host closed the connection)
+2013-04-10 04:39:49	<--	normanrichards (~normanric@71.21.67.242) has quit
+2013-04-10 04:42:22	-->	bmaddy (~bmaddy@72.21.231.26) has joined #clojurescript
+2013-04-10 06:17:50	<--	alexguev (~alexguev@CPEbcc810003a2d-CMbcc810003a2a.cpe.net.cable.rogers.com) has quit (Quit: alexguev)
+2013-04-10 06:59:25	<--	bmaddy (~bmaddy@72.21.231.26) has quit (Remote host closed the connection)
+2013-04-10 07:12:09	-->	bmaddy (~bmaddy@72.21.231.26) has joined #clojurescript
+2013-04-10 07:18:41	--	irc: disconnected from server
+2013-04-10 07:24:56	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #clojurescript
+2013-04-10 07:24:56	--	Nicks #clojurescript: [ahoops bmaddy brainproxy cdh473 harrow ibdknox j0ni jaimef jimt_ karnowski kgerman nilbert ponzao si14 supersym tos9 tyler_ wei_]
+2013-04-10 07:24:56	--	Channel #clojurescript: 18 nicks (0 ops, 0 halfops, 0 voices, 18 normals)
+2013-04-10 07:25:07	--	Mode #clojurescript [+cnt]
+2013-04-10 07:25:07	--	Channel created on Thu, 21 Jul 2011 18:34:20
+2013-04-10 07:51:29	-->	inkybutton (~inkybutto@unaffiliated/inkybutton) has joined #clojurescript
+2013-04-10 08:24:22	<--	bmaddy (~bmaddy@72.21.231.26) has quit (Remote host closed the connection)
+2013-04-10 08:29:43	-->	bmaddy (~bmaddy@72.21.231.26) has joined #clojurescript
+2013-04-10 08:31:32	<--	bmaddy (~bmaddy@72.21.231.26) has quit (Remote host closed the connection)
+2013-04-10 08:46:39	<--	inkybutton (~inkybutto@unaffiliated/inkybutton) has quit (Ping timeout: 245 seconds)
+2013-04-10 09:37:04	-->	inkybutton (~inkybutto@119.224.76.114) has joined #clojurescript
+2013-04-10 09:37:04	<--	inkybutton (~inkybutto@119.224.76.114) has quit (Changing host)
+2013-04-10 09:37:04	-->	inkybutton (~inkybutto@unaffiliated/inkybutton) has joined #clojurescript
+2013-04-10 10:17:21	-->	cemerick (~cemerick@c-71-192-116-188.hsd1.ma.comcast.net) has joined #clojurescript
+2013-04-10 10:22:22	--	jimt_ is now known as jimt
+2013-04-10 11:56:20	--	irc: disconnected from server
+2013-04-10 12:04:34	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #clojurescript
+2013-04-10 12:04:34	--	Nicks #clojurescript: [ahoops brainproxy cdh473 cemerick harrow ibdknox inkybutton j0ni jaimef jimt karnowski kgerman nilbert ponzao si14 supersym tos9 tyler_ wei_]
+2013-04-10 12:04:34	--	Channel #clojurescript: 19 nicks (0 ops, 0 halfops, 0 voices, 19 normals)
+2013-04-10 12:04:48	--	Mode #clojurescript [+cnt]
+2013-04-10 12:04:48	--	Channel created on Thu, 21 Jul 2011 18:34:20
+2013-04-10 12:36:01	-->	leoc (~leoc.git@p4FF79EE9.dip.t-dialin.net) has joined #clojurescript
+2013-04-10 14:04:42	<--	cemerick (~cemerick@c-71-192-116-188.hsd1.ma.comcast.net) has quit (Remote host closed the connection)
+2013-04-10 14:08:13	-->	alexguev (~alexguev@CPEbcc810003a2d-CMbcc810003a2a.cpe.net.cable.rogers.com) has joined #clojurescript
+2013-04-10 14:13:11	<--	wei_ (~wei@adsl-76-252-217-22.dsl.pltn13.sbcglobal.net) has quit (Quit: wei_)
+2013-04-10 14:23:30	-->	wei_ (~wei@adsl-76-252-217-22.dsl.pltn13.sbcglobal.net) has joined #clojurescript
+2013-04-10 14:25:34	<--	wei_ (~wei@adsl-76-252-217-22.dsl.pltn13.sbcglobal.net) has quit (Client Quit)
+2013-04-10 14:26:56	-->	wei_ (~wei@adsl-76-252-217-22.dsl.pltn13.sbcglobal.net) has joined #clojurescript
+2013-04-10 14:30:41	<--	wei_ (~wei@adsl-76-252-217-22.dsl.pltn13.sbcglobal.net) has quit (Client Quit)
+2013-04-10 14:54:42	-->	enquora (~enquora@S0106602ad083de8c.cg.shawcable.net) has joined #clojurescript
+2013-04-10 15:06:12	<--	inkybutton (~inkybutto@unaffiliated/inkybutton) has quit (Ping timeout: 264 seconds)
+2013-04-10 15:07:02	-->	normanrichards (~normanric@70.114.215.220) has joined #clojurescript
+2013-04-10 15:09:22	<--	enquora (~enquora@S0106602ad083de8c.cg.shawcable.net) has quit (Quit: Colloquy for iPad - http://colloquy.mobi)
+2013-04-10 15:35:33	<--	normanrichards (~normanric@70.114.215.220) has quit
+2013-04-10 15:53:27	-->	enquora (~davidr@S0106602ad083de8c.cg.shawcable.net) has joined #clojurescript
+2013-04-10 16:13:35	-->	bmaddy (~bmaddy@72.21.231.26) has joined #clojurescript
+2013-04-10 16:14:11	-->	jonasen (~jonasen@a100.ip13.netikka.fi) has joined #clojurescript
+2013-04-10 16:14:48	-->	normanrichards (~normanric@mobile-166-137-145-246.mycingular.net) has joined #clojurescript
+2013-04-10 16:45:24	-->	cemerick (~cemerick@c-71-192-116-188.hsd1.ma.comcast.net) has joined #clojurescript
+2013-04-10 16:47:49	<--	normanrichards (~normanric@mobile-166-137-145-246.mycingular.net) has quit (Read error: Connection reset by peer)
+2013-04-10 17:08:39	-->	normanrichards (~normanric@rrcs-108-178-120-144.sw.biz.rr.com) has joined #clojurescript
+2013-04-10 17:49:11	-->	momomomomo (~momomomom@38.126.164.90) has joined #clojurescript
+2013-04-10 17:50:55	<--	leoc (~leoc.git@p4FF79EE9.dip.t-dialin.net) has quit (Ping timeout: 264 seconds)
+2013-04-10 18:29:38	<--	momomomomo (~momomomom@38.126.164.90) has quit (Quit: momomomomo)
+2013-04-10 18:39:55	-->	momomomomo (~momomomom@38.126.164.90) has joined #clojurescript
+2013-04-10 19:24:12	<--	momomomomo (~momomomom@38.126.164.90) has quit (Quit: momomomomo)
+2013-04-10 19:50:49	-->	abadr (~abadr@ppp-239-56.32-151.iol.it) has joined #clojurescript
+2013-04-10 19:55:46	<--	bmaddy (~bmaddy@72.21.231.26) has quit (Remote host closed the connection)
+2013-04-10 20:06:21	-->	wei_ (~wei@adsl-76-252-217-22.dsl.pltn13.sbcglobal.net) has joined #clojurescript
+2013-04-10 20:26:38	<--	wei_ (~wei@adsl-76-252-217-22.dsl.pltn13.sbcglobal.net) has quit (Quit: wei_)
+2013-04-10 20:40:11	-->	wei_ (~wei@adsl-76-252-217-22.dsl.pltn13.sbcglobal.net) has joined #clojurescript
+2013-04-10 20:51:38	<--	abadr (~abadr@ppp-239-56.32-151.iol.it) has quit (Quit: abadr)

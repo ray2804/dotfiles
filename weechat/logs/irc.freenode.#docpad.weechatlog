@@ -10589,3 +10589,106 @@
 2013-04-09 22:32:30	<--	urlwolf_ (~quassel@e178124241.adsl.alicedsl.de) has quit (Ping timeout: 256 seconds)
 2013-04-09 23:57:03	-->	ashnur (~ashnur@79.117.88.8) has joined #docpad
 2013-04-09 23:58:19	ashnur	morning
+2013-04-10 03:54:17	-->	mikeumus (4a5a25fa@gateway/web/freenode/ip.74.90.37.250) has joined #docpad
+2013-04-10 03:55:36	mikeumus	Hey Gang, I'm getting this weird error while resurrecting an old DocPad project:  
+2013-04-10 03:55:37	mikeumus	error: An error occured: TypeError: Object #<CoffeescriptPlugin> has no method 'getConfig'
+2013-04-10 03:56:12	mikeumus	maybe I need to specify the docpad version instead of 6.x
+2013-04-10 03:58:56	mikeumus	humm...
+2013-04-10 04:00:32	mikeumus	that didn't do it.
+2013-04-10 04:04:22	-->	arvinsingla (~arvinsing@209-195-87-92.cpe.distributel.net) has joined #docpad
+2013-04-10 04:13:56	<--	arvinsingla (~arvinsing@209-195-87-92.cpe.distributel.net) has quit (Quit: arvinsingla)
+2013-04-10 04:48:30	<--	zenorocha (~zenorocha@38.122.109.194) has quit (Remote host closed the connection)
+2013-04-10 05:05:50	--	Notice(GitHub185): [docpad-documentation] mikeumus opened pull request #19: Mikeumus (master...mikeumus)  http://git.io/_dYBMw
+2013-04-10 06:11:47	-->	blevs (~textual@0x3ec6ea1b.inet.dsl.telianet.dk) has joined #docpad
+2013-04-10 06:13:42	<--	blevs (~textual@0x3ec6ea1b.inet.dsl.telianet.dk) has quit (Client Quit)
+2013-04-10 06:39:23	-->	zenorocha (~zenorocha@rrcs-74-62-51-210.west.biz.rr.com) has joined #docpad
+2013-04-10 06:42:53	mikeumus	it was that the coffeescript in it's 2.2.1 version only works with DocPad@6.30.2
+2013-04-10 06:43:17	mikeumus	I'm off to bed. Peace. 
+2013-04-10 06:43:33	<--	mikeumus (4a5a25fa@gateway/web/freenode/ip.74.90.37.250) has quit (Quit: Page closed)
+2013-04-10 07:12:46	<--	zenorocha (~zenorocha@rrcs-74-62-51-210.west.biz.rr.com) has quit (Remote host closed the connection)
+2013-04-10 07:18:41	--	irc: disconnected from server
+2013-04-10 07:24:56	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #docpad
+2013-04-10 07:24:56	--	Topic for #docpad is "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-04-10 07:24:56	--	Topic set by balupton (uid6783@gateway/web/irccloud.com/x-cbtpwjksctndjgtn) on Fri, 28 Dec 2012 12:22:24
+2013-04-10 07:24:56	--	Nicks #docpad: [ashnur balupton blevs Chase_the_Dev elf-pavlik EricLeslie jgm nexusIX supersym]
+2013-04-10 07:24:56	--	Channel #docpad: 9 nicks (0 ops, 0 halfops, 0 voices, 9 normals)
+2013-04-10 07:24:59	--	Mode #docpad [+t]
+2013-04-10 07:24:59	--	Channel created on Sat, 26 May 2012 12:12:13
+2013-04-10 07:57:46	<--	blevs (~textual@0x3ec6ea1b.inet.dsl.telianet.dk) has quit (Quit: Computer has gone to sleep.)
+2013-04-10 08:39:19	--	Notice(GitHub62): [docpad] balupton merged master into dev: http://git.io/vp7z8A
+2013-04-10 08:39:19	--	Notice(GitHub30): [docpad] balupton merged dev into master: http://git.io/vp7z8A
+2013-04-10 09:09:34	<--	ashnur (~ashnur@79.117.88.8) has quit (Ping timeout: 256 seconds)
+2013-04-10 10:29:58	-->	kaspertidemann (~Kasper@2605ds2-bav.0.fullrate.dk) has joined #docpad
+2013-04-10 10:57:00	-->	blevs (~textual@0x3ec6ea1b.inet.dsl.telianet.dk) has joined #docpad
+2013-04-10 10:58:40	<--	blevs (~textual@0x3ec6ea1b.inet.dsl.telianet.dk) has quit (Client Quit)
+2013-04-10 11:00:19	-->	blevs (~textual@0x3ec6ea1b.inet.dsl.telianet.dk) has joined #docpad
+2013-04-10 11:23:20	--	Notice(GitHub188): [docpad] balupton merged dev into master: http://git.io/EGeeVQ
+2013-04-10 11:23:21	--	Notice(GitHub109): [docpad] balupton merged master into dev: http://git.io/EGeeVQ
+2013-04-10 11:23:27	--	Notice(GitHub59): [docpad] balupton tagged v6.30.3 at dev: http://git.io/J7XJvg
+2013-04-10 11:32:47	-->	spanners (ydVeB9dNET@gateway/shell/pepperfish/x-yxxonmoxeqpgpksh) has joined #docpad
+2013-04-10 11:32:53	spanners	how do
+2013-04-10 11:56:20	--	irc: disconnected from server
+2013-04-10 12:04:27	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #docpad
+2013-04-10 12:04:27	--	Topic for #docpad is "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-04-10 12:04:27	--	Topic set by balupton (uid6783@gateway/web/irccloud.com/x-cbtpwjksctndjgtn) on Fri, 28 Dec 2012 12:22:24
+2013-04-10 12:04:27	--	Nicks #docpad: [balupton blevs Chase_the_Dev elf-pavlik EricLeslie jgm nexusIX spanners supersym]
+2013-04-10 12:04:27	--	Channel #docpad: 9 nicks (0 ops, 0 halfops, 0 voices, 9 normals)
+2013-04-10 12:04:40	--	Mode #docpad [+t]
+2013-04-10 12:04:40	--	Channel created on Sat, 26 May 2012 12:12:13
+2013-04-10 12:35:54	<--	EricLeslie (~EricLesli@68-189-103-1.dhcp.wtvl.ca.charter.com) has quit (Quit: Leaving)
+2013-04-10 13:11:07	supersym	yay
+2013-04-10 13:37:27	spanners	Is DocPad's Pygments support known to be slow and crashy?
+2013-04-10 14:50:51	supersym	I've never really used it
+2013-04-10 14:52:22	supersym	But mostly because if I write about source code, I do it via GitHub (which has highlighting in .md)
+2013-04-10 15:02:42	spanners	Hmm, maybe that's an option.
+2013-04-10 15:05:16	balupton	spanners: use the highlight.js plugin
+2013-04-10 15:05:48	supersym	yeah... cause you are using docpad afterall :)
+2013-04-10 15:05:52	balupton	spanners: we have a big warning about the pygments plugin on its webpage suggesting the highlight plugin instead - https://github.com/docpad/docpad-plugin-pygments
+2013-04-10 15:06:00	supersym	sorry balupton, not tryin to chase away people haha
+2013-04-10 15:06:31	supersym	great
+2013-04-10 15:06:31	 *	spanners has a look to see which assembly syntaxes it supports
+2013-04-10 15:06:33	spanners	ta
+2013-04-10 15:06:41	balupton	:)
+2013-04-10 15:06:44	supersym	assembly ><
+2013-04-10 15:06:47	supersym	lol
+2013-04-10 15:07:17	supersym	shouldnt be too hard to write your own if it doesnt
+2013-04-10 15:07:53	supersym	its the next best consistent notation next to binary or hex :P
+2013-04-10 15:08:03	spanners	I was hoping to avoid it, but ARM assembly highlighters aren't so common.
+2013-04-10 15:08:08	supersym	little bit if regex I recon
+2013-04-10 15:08:23	spanners	Yeah, I'd done one for the previous iteration of my site.
+2013-04-10 15:08:38	spanners	Was hoping to bin it all though and move to something cleaner.
+2013-04-10 15:17:04	supersym	right
+2013-04-10 15:17:36	supersym	well docpad is a good choice for cleaness :)
+2013-04-10 15:37:54	<--	blevs (~textual@0x3ec6ea1b.inet.dsl.telianet.dk) has quit (Quit: Computer has gone to sleep.)
+2013-04-10 15:39:29	supersym	can I have functions in the docpad metadata cson btw? I guess not
+2013-04-10 15:48:35	supersym	damn its on the tip of my tongue... but there should be a few notions I am missing about reading docpad rendering errors
+2013-04-10 15:49:04	supersym	then again, they are async... so it could be just that is the reason it renders a layout a few times after eachother
+2013-04-10 15:49:34	supersym	yeah I guess thats it... damn hunches with stack traces though...best you get is 'approximates'
+2013-04-10 15:50:17	supersym	guess I gotta dig through 2,3 files looking for a ` unexpected TERMINATOR'
+2013-04-10 15:50:36	spanners	Noone expects the Terminator.
+2013-04-10 15:50:55	spanners	That's the thing with time-travelling cyborgs.
+2013-04-10 15:51:02	supersym	right
+2013-04-10 15:51:10	supersym	they pop-up out of thin air
+2013-04-10 15:51:13	supersym	naked@
+2013-04-10 15:51:19	supersym	:S
+2013-04-10 15:51:45	spanners	That's my excuse too.
+2013-04-10 15:51:56	spanners	"yeah, i'm a terminator"
+2013-04-10 15:52:54	supersym	well that was easy :S
+2013-04-10 15:53:24	supersym	found it ... there i was anticipating a single typo while I just hadnt finished an expression...lol
+2013-04-10 15:56:46	supersym	i experiment too much, but its good that I compile everything in docpad :D
+2013-04-10 15:56:55	supersym	so none of those would make production anyway
+2013-04-10 16:00:11	supersym	oh and search engines *love* static HTML...nice that say LinkedIn doesnt need indexing from anyone, but my customers can't be put up with a clientside compiled templating solution over JSON/wire cause bye-bye chances of getting found
+2013-04-10 16:00:34	supersym	I'll stop being a fanboy now :)
+2013-04-10 16:17:09	-->	kaspertidemann (~Kasper@2605ds2-bav.0.fullrate.dk) has joined #docpad
+2013-04-10 16:36:19	-->	blevs (~textual@0x3ec6ea1b.inet.dsl.telianet.dk) has joined #docpad
+2013-04-10 16:47:12	supersym	balupton: I see clearly now why you picked coffee over jade :P
+2013-04-10 16:47:32	supersym	maybe its a tad more verbose but a lot more expressive
+2013-04-10 16:47:40	supersym	so it cleaned up real nice
+2013-04-10 16:52:29	-->	ashnur (~ashnur@79.117.89.23) has joined #docpad
+2013-04-10 17:23:52	<--	blevs (~textual@0x3ec6ea1b.inet.dsl.telianet.dk) has quit (Quit: Computer has gone to sleep.)
+2013-04-10 18:10:24	<--	kaspertidemann (~Kasper@2605ds2-bav.0.fullrate.dk) has quit (Quit: kaspertidemann)
+2013-04-10 18:42:52	spanners	.idle
+2013-04-10 18:42:56	spanners	xxxxx
+2013-04-10 18:43:30	ashnur	yes
+2013-04-10 20:05:17	<--	ashnur (~ashnur@79.117.89.23) has quit (Quit: WeeChat 0.4.0)
+2013-04-10 20:16:18	-->	steventrevathan (~steventre@64.119.141.126) has joined #docpad
