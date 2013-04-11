@@ -1,5 +1,5 @@
 ﻿###
-###  vlc 2.0.5
+###  vlc 2.0.6
 ###
 
 ###
@@ -576,6 +576,20 @@
 # Formatted Subtitles (boolean)
 #subsdec-formatted=1
 
+[twolame] # Libtwolame audio encoder
+
+# Encoding quality (float)
+#sout-twolame-quality=0.000000
+
+# Stereo mode (integer)
+#sout-twolame-mode=0
+
+# VBR mode (boolean)
+#sout-twolame-vbr=0
+
+# Psycho-acoustic model (integer)
+#sout-twolame-psy=3
+
 [speex] # Speex audio decoder
 
 # Mode (integer)
@@ -688,7 +702,7 @@
 #ffmpeg-hw=0
 
 # Threads (integer)
-#ffmpeg-threads=1
+#ffmpeg-threads=0
 
 # Codec name (string)
 #sout-ffmpeg-codec=
@@ -3456,7 +3470,7 @@ spdif=1
 #audio-time-stretch=1
 
 # Audio output module (string)
-aout=alsa
+aout=pulse
 
 # Audio filters (string)
 #audio-filter=

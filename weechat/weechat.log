@@ -16,3 +16,14 @@
 [2013-04-10 11:58:50] irc: connecting to server chat.freenode.net/6667...
 [2013-04-10 12:00:50] irc: connecting to server chat.freenode.net/6667...
 [2013-04-10 12:04:10] irc: connecting to server chat.freenode.net/6667...
+[2013-04-11 02:40:32] Writing configuration file plugins.conf 
+[2013-04-11 02:40:32] Writing configuration file aspell.conf 
+[2013-04-11 02:40:32] Writing configuration file charset.conf 
+[2013-04-11 02:40:32] Writing configuration file irc.conf 
+[2013-04-11 02:40:33] Writing configuration file script.conf 
+[2013-04-11 02:40:33] Writing configuration file xfer.conf 
+[2013-04-11 02:40:33] Writing configuration file rmodifier.conf 
+[2013-04-11 02:40:33] Writing configuration file alias.conf 
+[2013-04-11 02:40:33] Writing configuration file logger.conf 
+[2013-04-11 02:40:33] Writing configuration file relay.conf 
+[2013-04-11 02:40:33] Writing configuration file weechat.conf 

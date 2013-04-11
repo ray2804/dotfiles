@@ -42,6 +42,22 @@ fpath=(
   )
 
 
+# Alt-S inserts "sudo " at the start of line:
+insert_sudo () { zle beginning-of-line; zle -U "sudo " }
+zle -N insert-sudo insert_sudo
+bindkey "^[n" insert-sudo
+
+# Meta-u to chdir to the parent directory
+bindkey -s '\eu' '^Ucd ..; ls^M'
+
+# If AUTO_PUSHD is set, Meta-p pops the dir stack
+bindkey -s '\ep' '^Upopd >/dev/null; dirs -v^M'
+
+# Pipe the current command through less
+bindkey -s "\el" " 2>&1|less^M"
+
+
+
 
 
 

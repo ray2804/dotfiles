@@ -1,7 +1,7 @@
-autoload -Uz termcolors
-termcolors
 
-echo "${RED}docpad plugin loaded...${RESET}"
+autoload termcolors
+
+echo "docpad plugin loaded..."
 alias dpg="docpad generate"
 alias dpc="docpad clean"
 alias dpr="docpad run"

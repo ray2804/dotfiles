@@ -1,10 +1,24 @@
+
+# Play once
 autoload colors # import lazy loaded functions
 
-# Only when more than 8 color terminal
-[[ "$terminfo[colors]" -gt 8 ]] && colors
+supports_colors=0
+
+check_colors() {
+  # Only when more than 8 color terminal
+  [[ "$terminfo[colors]" -gt 8 ]] && colors
+  supports_colors=1
+}
 
 for COLOR in RED GREEN YELLOW BLUE MAGENTA CYAN BLACK WHITE; do
     eval $COLOR='$fg_no_bold[${(L)COLOR}]'
     eval BOLD_$COLOR='$fg_bold[${(L)COLOR}]'
 done
+
+[[ $supports_colors -eq 1 ]] &&\
+  cs="${GREEN}enabled${RESET}" || cs="${RED}disabled${RESET}"
+
+printf "%s\n" "Initialize personal z-shell autoload function bodies..."
+printf "\n%s %s\n" "Color support for the shell is:" $cs
+
 eval RESET='$reset_color'
