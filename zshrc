@@ -43,6 +43,14 @@ fpath=(
 
 
 
+
+
+# Term
+[[ -s $HOME/.tmuxinator/scripts/tmuxinator ]] &&\
+  source $HOME/.tmuxinator/scripts/tmuxinator
+
+
+
 # (¯`·._(¯`·._(¯`·._( Desktop )_.·´¯)_.·´¯)_.·´¯)
 
 
