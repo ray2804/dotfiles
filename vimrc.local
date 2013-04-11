@@ -1,4 +1,6 @@
 
+au BufRead,BufNewFile *.html.jade set filetype=jade
+au BufRead,BufNewFile *.md        set filetype=markdown
 
 set pastetoggle=<F2>
 
@@ -33,7 +35,6 @@ Bundle 'rainbow_parentheses.vim'
 "Bundle 'vim-xdefaults'
 ""autocmd Filetype xdefaults          call XDefaultsComment()
 
-au BufRead,BufNewFile *.html.jade        set filetype=jade
 
 " Homoiconic multiparadigm languages
 

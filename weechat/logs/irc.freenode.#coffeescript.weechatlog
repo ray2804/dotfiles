@@ -18106,3 +18106,35 @@
 2013-04-11 01:22:41	-->	azylman (~azylman@ec2-50-18-217-135.us-west-1.compute.amazonaws.com) has joined #coffeescript
 2013-04-11 01:23:24	<--	quartzmo (~quartzmo@173-8-92-49-utah.hfc.comcastbusiness.net) has quit (Remote host closed the connection)
 2013-04-11 01:26:16	<--	kofno (~kofno@cpe-24-165-210-251.neo.res.rr.com) has quit (Remote host closed the connection)
+2013-04-11 01:31:11	<--	danishkhan (~danishkha@204-16-157-26-static.ipnetworksinc.net) has quit (Remote host closed the connection)
+2013-04-11 01:33:06	-->	danishkhan (~danishkha@204-16-157-26-static.ipnetworksinc.net) has joined #coffeescript
+2013-04-11 01:34:11	<--	joshontheweb (~joshonthe@70-91-168-190-BusName-Colorado.hfc.comcastbusiness.net) has quit (Quit: Computer has gone to sleep.)
+2013-04-11 01:37:46	-->	michaelmartinez (~anonymous@c-69-244-58-56.hsd1.az.comcast.net) has joined #coffeescript
+2013-04-11 01:38:44	-->	moo (miohtama@lakka.kapsi.fi) has joined #coffeescript
+2013-04-11 01:38:50	<--	moo-_- (miohtama@lakka.kapsi.fi) has quit (Read error: Operation timed out)
+2013-04-11 01:38:50	<--	metaxa (metaxa@us.members.bombshellz.net) has quit (Read error: Operation timed out)
+2013-04-11 01:38:50	--	manacit is now known as Guest
+2013-04-11 01:38:50	--	Guest is now known as 15SAA8K85
+2013-04-11 01:39:08	--	moo is now known as Guest23841
+2013-04-11 01:39:35	-->	metaxa (metaxa@us.members.bombshellz.net) has joined #coffeescript
+2013-04-11 01:39:56	--	15SAA8K85 is now known as manacit
+2013-04-11 01:41:49	-->	mikec (~MagikoMyk@c-76-119-233-155.hsd1.ma.comcast.net) has joined #coffeescript
+2013-04-11 01:44:31	<--	yuya (~yuya@KD182250026172.au-net.ne.jp) has quit (Ping timeout: 260 seconds)
+2013-04-11 01:44:44	<--	themgt (~themgt@24-177-232-181.dhcp.gnvl.sc.charter.com) has quit (Quit: themgt)
+2013-04-11 01:45:26	-->	themgt (~themgt@24-177-232-181.dhcp.gnvl.sc.charter.com) has joined #coffeescript
+2013-04-11 01:46:00	<--	Dreamer3 (~Dreamer3@74-141-133-220.dhcp.insightbb.com) has quit (Quit: Leaving...)
+2013-04-11 01:48:28	-->	kofno (~kofno@cpe-24-165-210-251.neo.res.rr.com) has joined #coffeescript
+2013-04-11 01:49:11	<--	michaelmartinez (~anonymous@c-69-244-58-56.hsd1.az.comcast.net) has quit (Quit: Check it, Wreck it http://www.caffeineindustries.com/blog)
+2013-04-11 01:49:31	-->	michaelmartinez (~anonymous@c-69-244-58-56.hsd1.az.comcast.net) has joined #coffeescript
+2013-04-11 01:49:56	<--	albemuth (~albemuth@209.213.178.170) has quit (Quit: Computer has gone to sleep.)
+2013-04-11 01:51:37	-->	albemuth (~albemuth@209.213.178.170) has joined #coffeescript
+2013-04-11 01:51:57	<--	michaelmartinez (~anonymous@c-69-244-58-56.hsd1.az.comcast.net) has quit (Client Quit)
+2013-04-11 01:51:57	<--	albemuth (~albemuth@209.213.178.170) has quit (Client Quit)
+2013-04-11 01:53:35	-->	michaelmartinez (~anonymous@c-69-244-58-56.hsd1.az.comcast.net) has joined #coffeescript
+2013-04-11 01:54:17	-->	evangenieur (~evangenie@wmh38-2-82-236-97-170.fbx.proxad.net) has joined #coffeescript
+2013-04-11 01:56:10	-->	joshontheweb (~joshonthe@70-91-168-190-BusName-Colorado.hfc.comcastbusiness.net) has joined #coffeescript
+2013-04-11 01:56:57	-->	Tobsn (~Tobsn@192.166.203.10) has joined #coffeescript
+2013-04-11 01:58:13	-->	rsim (~rsim@78.84.31.166) has joined #coffeescript
+2013-04-11 02:01:22	<--	Tobsn (~Tobsn@192.166.203.10) has quit (Ping timeout: 256 seconds)
+2013-04-11 02:03:46	<--	rsim (~rsim@78.84.31.166) has quit (Ping timeout: 245 seconds)
+2013-04-11 02:04:17	<--	michaelmartinez (~anonymous@c-69-244-58-56.hsd1.az.comcast.net) has quit (Quit: Check it, Wreck it http://www.caffeineindustries.com/blog)
