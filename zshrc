@@ -35,9 +35,9 @@ source ~/.share/scripts/zsh/plugins/syntax/zsh-syntax-highlighting.zsh
 
 # Custom functions path and allow recursive search
 fpath=(
-  ~/.share/scripts/zsh/fn
-  ~/.share/scripts/zsh/fn/zsh-completions/src
-  ~/.share/scripts/zsh/fn/**/*~*/(CVS)#(/N)
+  ~/.share/scripts/zsh/autoloaded
+  ~/.share/scripts/zsh/autoloaded/zsh-completions/src
+  ~/.share/scripts/zsh/autoloaded/**/*~*/(CVS)#(/N)
   "${fpath[@]}"
   )
 
