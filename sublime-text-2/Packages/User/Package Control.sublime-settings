@@ -13,9 +13,11 @@
 		"ColorSchemeSelector",
 		"Enhanced Clojure",
 		"Figlet Big ASCII Text",
+		"Hayaku - tools for writing CSS faster",
 		"Jade",
 		"JS2Coffee",
 		"Package Control",
+		"Rails Migrations List",
 		"SideBarEnhancements",
 		"SmartMarkdown",
 		"Stylus",
@@ -23,6 +25,7 @@
 		"SublimeLinter",
 		"SublimeTransporter",
 		"SyncedSideBar",
-		"TextFormatting"
+		"TextFormatting",
+		"ZenCoding"
 	]
 }

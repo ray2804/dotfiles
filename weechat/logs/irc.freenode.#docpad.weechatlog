@@ -10714,3 +10714,514 @@
 2013-04-11 00:50:13	supersym	where cs or docpad fails, sublime to the rescue.. when I try to compile there it DOES give me the exact line number ^^
 2013-04-11 00:50:27	supersym	time saved: at least 10 minutes and a headache after a while
 2013-04-11 02:40:32	--	irc: disconnected from server
+2013-04-12 03:18:15	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #docpad
+2013-04-12 03:18:15	--	Topic for #docpad is "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-04-12 03:18:15	--	Topic set by balupton (uid6783@gateway/web/irccloud.com/x-cbtpwjksctndjgtn) on Fri, 28 Dec 2012 12:22:24
+2013-04-12 03:18:15	--	Nicks #docpad: [ashnur balupton Chase_the_Dev elf-pavlik EricLeslie jgm mikeumus nexusIX spanners supersym]
+2013-04-12 03:18:15	--	Channel #docpad: 10 nicks (0 ops, 0 halfops, 0 voices, 10 normals)
+2013-04-12 03:18:19	--	Mode #docpad [+t]
+2013-04-12 03:18:19	--	Channel created on Sat, 26 May 2012 12:12:13
+2013-04-12 03:23:18	supersym	ola
+2013-04-12 03:24:59	mikeumus	8)
+2013-04-12 03:34:49	-->	mikeumus_ (4a5a25fa@gateway/web/freenode/ip.74.90.37.250) has joined #docpad
+2013-04-12 03:37:58	<--	mikeumus (4a5a25fa@gateway/web/freenode/ip.74.90.37.250) has quit (Ping timeout: 245 seconds)
+2013-04-12 03:55:08	mikeumus_	nexusIX: Hey, did you ever get your ajax from stalling? You may need this: res.redirect('back')
+2013-04-12 03:55:29	nexusIX	Oh, hey, I was waiting to see you
+2013-04-12 03:55:33	nexusIX	I found out the problem
+2013-04-12 03:56:58	nexusIX	cres.on 'end', () -> 
+2013-04-12 03:57:01	nexusIX	     res.end()
+2013-04-12 03:57:23	nexusIX	put this above the cres.on 'close' in my original code
+2013-04-12 03:57:34	nexusIX	the 'close' event only fires when the connection shuts down abnormally
+2013-04-12 03:57:42	nexusIX	the 'end' event is the normal event on a connection closing
+2013-04-12 03:57:54	nexusIX	add that and it works fine
+2013-04-12 03:58:26	nexusIX	But the next aggravation is handling file uploads through the proxy
+2013-04-12 04:11:11	supersym	ahh...my little short-trip into the world of clojure really changed my understanding of docpad :D
+2013-04-12 04:17:03	mikeumus_	nexusIX: that's good to hear. 
+2013-04-12 04:17:25	mikeumus_	I haven't really checked out clojure much yet
+2013-04-12 04:18:08	mikeumus_	is there a way at github.com to diff two spaced versions like say: 6.30.3 and 6.21.10 ?
+2013-04-12 04:21:24	supersym	i have no experience with github diffs
+2013-04-12 04:21:32	supersym	i usually work with vimdiff
+2013-04-12 04:22:05	mikeumus_	vimdiff ehh? I'll check it out thanks.
+2013-04-12 04:33:10	mikeumus_	found it, it's through branches -> compare (button) 
+2013-04-12 04:44:46	supersym	:)
+2013-04-12 05:21:24	mikeumus_	I'm off to bed. Good night.  8)
+2013-04-12 05:21:29	<--	mikeumus_ (4a5a25fa@gateway/web/freenode/ip.74.90.37.250) has quit (Quit: Page closed)
+2013-04-12 05:34:34	supersym	nite
+2013-04-12 05:50:57	-->	taylor_ (4cb88a65@gateway/web/freenode/ip.76.184.138.101) has joined #docpad
+2013-04-12 06:04:00	<--	taylor_ (4cb88a65@gateway/web/freenode/ip.76.184.138.101) has quit (Quit: Page closed)
+2013-04-12 09:49:40	-->	kaspertidemann (~Kasper@2605ds2-bav.0.fullrate.dk) has joined #docpad
+2013-04-12 11:18:04	<--	kaspertidemann (~Kasper@2605ds2-bav.0.fullrate.dk) has quit (Quit: kaspertidemann)
+2013-04-12 12:05:36	-->	kaspertidemann (~Kasper@2605ds2-bav.0.fullrate.dk) has joined #docpad
+2013-04-12 12:09:20	supersym	sigh
+2013-04-12 12:11:49	spanners	Jade's commenting rules had me flummoxed last night.
+2013-04-12 12:16:48	supersym	they can be a pain yeah
+2013-04-12 12:17:47	supersym	i got issue with passing parameters to a getCollection function
+2013-04-12 12:17:53	supersym	somehow it just doesnt work =/
+2013-04-12 12:21:33	supersym	ahhh yea
+2013-04-12 12:21:36	supersym	finally
+2013-04-12 12:21:39	supersym	silly me
+2013-04-12 13:30:26	--	irc: disconnected from server
+2013-04-12 22:47:58	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #docpad
+2013-04-12 22:47:58	--	Topic for #docpad is "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-04-12 22:47:58	--	Topic set by balupton (uid6783@gateway/web/irccloud.com/x-cbtpwjksctndjgtn) on Fri, 28 Dec 2012 12:22:24
+2013-04-12 22:47:58	--	Nicks #docpad: [balupton Chase_the_Dev codehero elf-pavlik EricLeslie jgm kaspertidemann nexusIX spanners supersym urlwolf]
+2013-04-12 22:47:58	--	Channel #docpad: 11 nicks (0 ops, 0 halfops, 0 voices, 11 normals)
+2013-04-12 22:48:02	--	Mode #docpad [+t]
+2013-04-12 22:48:02	--	Channel created on Sat, 26 May 2012 12:12:13
+2013-04-12 22:51:35	-->	urlwolf_ (~quassel@g231115072.adsl.alicedsl.de) has joined #docpad
+2013-04-12 22:55:24	<--	urlwolf (~quassel@e178125135.adsl.alicedsl.de) has quit (Ping timeout: 258 seconds)
+2013-04-12 23:01:14	-->	steventrevathan (~steventre@50-78-10-125-static.hfc.comcastbusiness.net) has joined #docpad
+2013-04-12 23:45:53	<--	steventrevathan (~steventre@50-78-10-125-static.hfc.comcastbusiness.net) has quit (Quit: steventrevathan)
+2013-04-13 00:14:18	-->	ashnur (~ashnur@79.117.89.23) has joined #docpad
+2013-04-13 01:28:40	-->	steventrevathan (~steventre@c-71-232-16-234.hsd1.ma.comcast.net) has joined #docpad
+2013-04-13 01:37:47	<--	ashnur (~ashnur@79.117.89.23) has quit (Ping timeout: 260 seconds)
+2013-04-13 02:04:06	-->	ashnur (~ashnur@79.117.85.229) has joined #docpad
+2013-04-13 03:24:34	<--	kaspertidemann (~Kasper@2605ds2-bav.0.fullrate.dk) has quit (Quit: kaspertidemann)
+2013-04-13 04:03:33	<--	elf-pavlik (~elf-pavli@lorea/elf) has quit (Ping timeout: 240 seconds)
+2013-04-13 05:06:58	<--	codehero (~dbender@pool-96-236-148-85.pitbpa.fios.verizon.net) has left #docpad
+2013-04-13 05:25:34	-->	urlwolf (~quassel@g231115072.adsl.alicedsl.de) has joined #docpad
+2013-04-13 05:58:24	<--	urlwolf (~quassel@g231115072.adsl.alicedsl.de) has quit (Remote host closed the connection)
+2013-04-13 05:58:24	<--	urlwolf_ (~quassel@g231115072.adsl.alicedsl.de) has quit (Remote host closed the connection)
+2013-04-13 05:59:20	-->	urlwolf (~quassel@g231115072.adsl.alicedsl.de) has joined #docpad
+2013-04-13 06:01:38	-->	elf-pavlik (~elf-pavli@lorea/elf) has joined #docpad
+2013-04-13 06:55:48	-->	urlwolf_ (~quassel@g231115072.adsl.alicedsl.de) has joined #docpad
+2013-04-13 06:56:53	urlwolf_	the docpad install instructions for windows are not working
+2013-04-13 06:57:31	urlwolf_	other than Ben delarre, is there any win docpad user? I'm on linux, but considering installing it on a win box
+2013-04-13 06:57:48	urlwolf_	(just asked him how he manages)
+2013-04-13 07:23:11	<--	steventrevathan (~steventre@c-71-232-16-234.hsd1.ma.comcast.net) has quit (Quit: steventrevathan)
+2013-04-13 09:38:53	<--	urlwolf (~quassel@g231115072.adsl.alicedsl.de) has quit (Ping timeout: 245 seconds)
+2013-04-13 09:39:11	<--	urlwolf_ (~quassel@g231115072.adsl.alicedsl.de) has quit (Ping timeout: 252 seconds)
+2013-04-13 12:13:17	ashnur	dunno, last time i checked, it worked fine
+2013-04-13 12:13:30	ashnur	people say things and then don't explain them
+2013-04-13 13:19:28	-->	urlwolf_ (~quassel@g231115072.adsl.alicedsl.de) has joined #docpad
+2013-04-13 13:19:28	-->	urlwolf (~quassel@g231115072.adsl.alicedsl.de) has joined #docpad
+2013-04-13 13:52:23	supersym	i think i have it working on windows too
+2013-04-13 14:20:37	-->	kaspertidemann (~Kasper@2605ds2-bav.0.fullrate.dk) has joined #docpad
+2013-04-13 15:10:49	supersym	I love that I can write literate websites in coffee :)
+2013-04-13 15:13:05	ashnur	literate?
+2013-04-13 15:13:12	ashnur	you do your blogging in coffee? :D
+2013-04-13 15:13:33	ashnur	you tried to see in js what you wrote some weeks ago?
+2013-04-13 15:13:39	supersym	yeah if you have .litcoffee extension it gets compiled as coffee but only indented pieces
+2013-04-13 15:13:47	supersym	the rest is regular markup
+2013-04-13 15:13:52	supersym	erh markdown
+2013-04-13 15:14:13	ashnur	http://www.infoq.com/presentations/Simple-Made-Easy
+2013-04-13 15:14:18	supersym	so you write out the logic and reasoning behind stuff and then I use coffeecup for HTML but can be anything really
+2013-04-13 15:15:01	supersym	rich hickey
+2013-04-13 15:15:02	supersym	:)
+2013-04-13 15:15:16	ashnur	yes
+2013-04-13 15:15:37	supersym	you know I rarely listen to these talks from conferences etc. I should do that more often
+2013-04-13 15:16:06	supersym	oh yeah he is kinda like my personal hero since I learned a bit of clojure ;)
+2013-04-13 15:16:14	ashnur	hehe
+2013-04-13 15:16:25	ashnur	it is a really really great talk
+2013-04-13 15:16:34	supersym	the source code.... really work of a genius imho .. ofc more ppl were involved but you get the idea
+2013-04-13 15:16:39	supersym	:D
+2013-04-13 15:16:43	supersym	sweet
+2013-04-13 15:16:44	supersym	thnx
+2013-04-13 15:46:02	supersym	is docpad really slow with only me or?
+2013-04-13 15:46:21	supersym	also i keep getting that 'info: Currently on writeFiles at 7%'
+2013-04-13 15:47:45	ashnur	it was slow for me at some point with many documents
+2013-04-13 15:48:10	ashnur	but not"very" slow, just slowish. like it took 30 sec to generate around 100 docs
+2013-04-13 15:49:25	<--	ashnur (~ashnur@79.117.85.229) has quit (Quit: WeeChat 0.4.0)
+2013-04-13 16:23:52	<--	kaspertidemann (~Kasper@2605ds2-bav.0.fullrate.dk) has quit (Quit: kaspertidemann)
+2013-04-13 16:56:59	supersym	12 seconds or something
+2013-04-13 16:57:19	supersym	Generated all 194 files in 13.253 seconds
+2013-04-13 16:57:35	supersym	it used to be a lot faster before I used coffee and jade instead
+2013-04-13 16:57:50	supersym	im just not sure if i had a bug that was being surpressed somewhere
+2013-04-13 16:58:39	supersym	livereload too... just its ok since I can save a lot sometimes
+2013-04-13 17:02:54	supersym	anyway its normal then I guess
+2013-04-13 18:37:11	-->	ipetrovilya (~quassel@dyn-2-215.e-sky.ru) has joined #docpad
+2013-04-13 19:20:01	ipetrovilya	I'm trying to follow "From scratch" section of the [ http://docpad.org/docs/start ], but following it step by step and eventually running `docpad run` give no avail: 'out' directory is not created and accessing [ http://localhost:9778/hello.html ] gives unrendered tamplate. What do I miss?
+2013-04-13 19:22:37	ipetrovilya	The system is win7, the nodejs is 0.10.0.
+2013-04-13 20:13:03	supersym	it seems to me
+2013-04-13 20:13:35	supersym	that rendering is disrupted somewhere, why you don't get an out directory
+2013-04-13 20:13:48	supersym	you should really try docpad generate -d and see what it does
+2013-04-13 20:14:52	supersym	`docpad generate -d` that is, as a command, over 'run' since it makes a bit more sense while debugging... then see if you can get some more information what goes wrong
+2013-04-13 20:15:26	supersym	are you using powershell or cygwin?
+2013-04-13 20:21:18	ipetrovilya	powershell
+2013-04-13 20:26:37	ipetrovilya	result is the same with cygwin
+2013-04-13 20:29:28	ipetrovilya	`docpad generate -d` says files were rendered and written but I can't find where...
+2013-04-13 20:40:39	ipetrovilya	I'll elobarate this later, thanks for your help
+2013-04-13 21:14:23	supersym	sorry m8 i was gone for a while
+2013-04-13 21:32:28	urlwolf_	ipetrovilya: how do you get docpad running on win? all paths are unix paths
+2013-04-13 21:33:21	ipetrovilya	urlwolf_: it doesn't complain about paths and I expect it to work
+2013-04-13 21:33:22	urlwolf_	ashnur: I recommend that talk to everyone
+2013-04-13 21:33:34	urlwolf_	learning clojure here too ;)
+2013-04-13 21:34:10	urlwolf_	but if you go to bin/docpad it has a #!/usr/local/bin/node or similar
+2013-04-13 21:34:18	urlwolf_	for me it doesn't work
+2013-04-13 21:34:52	urlwolf_	did you have to add anything to your PATH manually?
+2013-04-13 21:34:56	urlwolf_	ipetrovilya: ?
+2013-04-13 21:35:15	ipetrovilya	urlwolf_:  nope
+2013-04-13 21:35:35	urlwolf_	damn
+2013-04-13 21:36:13	urlwolf_	you installed node, then npm -g install docpad@6.30, then said : docpad run?
+2013-04-13 21:36:20	urlwolf_	for me, it doesn't find docpad in the path
+2013-04-13 21:36:27	ipetrovilya	my npm on windows treats docpad just fine, I think it creates docpad.cmd somewhere
+2013-04-13 21:36:40	urlwolf_	mine doesn't
+2013-04-13 21:36:52	urlwolf_	could you check where docpad.cmd is please?
+2013-04-13 21:36:59	ipetrovilya	I'm currently in cygwin and the result of the problem is the same
+2013-04-13 21:37:14	ipetrovilya	ok, I'll reinstall it for you
+2013-04-13 21:37:39	-->	ashnur (~ashnur@79.117.85.229) has joined #docpad
+2013-04-13 21:40:29	ipetrovilya	urlwolf_:
+2013-04-13 21:40:29	ipetrovilya	C:\Users\ilya>where docpad
+2013-04-13 21:40:29	ipetrovilya	C:\Users\ilya\AppData\Roaming\npm\docpad
+2013-04-13 21:40:29	ipetrovilya	C:\Users\ilya\AppData\Roaming\npm\docpad.cmd
+2013-04-13 21:41:25	ipetrovilya	urlwolf_: this cmd script invokes node <path_to_docpad>\docpad
+2013-04-13 21:42:24	ipetrovilya	my DocPad is v6.30.3
+2013-04-13 21:42:31	urlwolf_	k
+2013-04-13 21:42:45	urlwolf_	need to boot windows, 1sec
+2013-04-13 21:46:41	urlwolf_	did you install with -g?
+2013-04-13 21:46:56	urlwolf_	I did, I don't have that folder in appdata
+2013-04-13 21:48:26	supersym	@urlwolf: nice ^^ its great for machine-learning /AI but will take a while to get up to speed with CL/Python on that front
+2013-04-13 21:48:28	ipetrovilya	urlwolf_:  yes, globally, with @6.30 at the end, nodejs is 0.10.0
+2013-04-13 21:48:54	urlwolf_	you needed a sysadmin cmd?
+2013-04-13 21:49:07	urlwolf_	privs or whatever is called?
+2013-04-13 21:49:15	urlwolf_	for me not even npm works
+2013-04-13 21:49:25	urlwolf_	it just list the node --help
+2013-04-13 21:49:26	urlwolf_	bahd
+2013-04-13 21:50:00	ipetrovilya	urlwolf_: cygwin is run under administrator, while my powershell isn't and npm works in both
+2013-04-13 21:50:09	supersym	well you might also just want to try and run ./node_modules/.bin/docpad instead of the global one
+2013-04-13 21:50:19	ipetrovilya	urlwolf_:  I had the same issue before 0.10.0
+2013-04-13 21:50:51	urlwolf_	0.10 made me waste hrs, and consider abandoning linux :)
+2013-04-13 21:50:54	supersym	anyway... you have the binary caus it renders... but you don't see the resulting files? cos that is weird
+2013-04-13 21:50:59	urlwolf_	here I am now with problems on win :)
+2013-04-13 21:51:02	supersym	lol
+2013-04-13 21:51:26	urlwolf_	node is the new perl
+2013-04-13 21:51:29	urlwolf_	but buggier
+2013-04-13 21:51:34	urlwolf_	and with more ego
+2013-04-13 21:51:37	supersym	lol
+2013-04-13 21:51:43	ipetrovilya	ruby is new perl
+2013-04-13 21:51:47	supersym	i hardly have issues now I know what to do
+2013-04-13 21:51:55	supersym	with node-gyp and native compilation
+2013-04-13 21:52:07	urlwolf_	supersym: are you on win?
+2013-04-13 21:52:21	supersym	either that, or i forgot my python version to set to 2.7 or i had fstab too restrictive
+2013-04-13 21:52:23	supersym	noooo
+2013-04-13 21:52:25	supersym	arch
+2013-04-13 21:52:35	supersym	but my gf has a laptop with windows
+2013-04-13 21:52:37	supersym	i can try
+2013-04-13 21:52:56	urlwolf_	I want to make music, linux for audio is severely retarded. I'm moving to win and a vbox linux for work
+2013-04-13 21:54:01	urlwolf_	ipetrovilya: is life on win with docpad tolerable?
+2013-04-13 21:54:37	ipetrovilya	urlwolf_: I'm new to docpad and doesn't work for me at all
+2013-04-13 21:54:43	ipetrovilya	*it
+2013-04-13 21:54:44	urlwolf_	hehe
+2013-04-13 21:54:47	urlwolf_	here we go...
+2013-04-13 21:56:33	urlwolf_	ok docpad installed
+2013-04-13 21:56:45	urlwolf_	but doing docpad run drops the node helpp
+2013-04-13 21:57:10	urlwolf_	now I have it on the same path as you ipetrovilya
+2013-04-13 21:57:16	urlwolf_	using cmd.exe
+2013-04-13 21:58:33	ipetrovilya	urlwolf_: for some reason arguments to your docpad.cmd are dropped, I would see the script insides for $@ or whatever they use for args...
+2013-04-13 21:59:32	urlwolf_	right
+2013-04-13 21:59:46	urlwolf_	so you never got past this either...?
+2013-04-13 22:00:01	urlwolf_	docpad.cmd run?
+2013-04-13 22:00:10	urlwolf_	syntax error line 1
+2013-04-13 22:00:17	urlwolf_	what a job they did
+2013-04-13 22:00:41	ipetrovilya	no, my arguments are accepted fine and `docpad run` prints out the expected messages
+2013-04-13 22:01:23	urlwolf_	for me it lists node's help
+2013-04-13 22:01:58	ipetrovilya	there should be `%*` in your script.cmd
+2013-04-13 22:02:16	ipetrovilya	like this: "%~dp0\node.exe"  "%~dp0\node_modules\docpad\bin\docpad" %*
+2013-04-13 22:02:46	urlwolf_	yes
+2013-04-13 22:03:25	urlwolf_	I have that %~dp0\node.exe
+2013-04-13 22:03:32	urlwolf_	still fails
+2013-04-13 22:03:44	ipetrovilya	you can write the absolute path to invoke docpad: node C:\Users\ilya\AppData\Roaming\npm\node_modules\docpad\bin\docpad run
+2013-04-13 22:04:02	ipetrovilya	s/ilya/<username>/
+2013-04-13 22:05:28	urlwolf_	navigated to that path, ran node docpad run
+2013-04-13 22:05:31	urlwolf_	same error
+2013-04-13 22:05:40	ipetrovilya	what is the error?
+2013-04-13 22:05:53	urlwolf_	Node commands ...
+2013-04-13 22:06:05	urlwolf_	as if you type : node
+2013-04-13 22:06:09	urlwolf_	alone
+2013-04-13 22:06:59	ipetrovilya	that's strange, I would create a simple test_script.js and then check my node with `node test_script.js`
+2013-04-13 22:07:10	ipetrovilya	console.log()
+2013-04-13 22:07:13	urlwolf_	that docpad file requires a ../out/bin/docpad that doesn't exist
+2013-04-13 22:07:16	ipetrovilya	console.log('smth') is fine
+2013-04-13 22:08:01	ipetrovilya	for some reason I have ../out/bin/docpad in place
+2013-04-13 22:08:51	ipetrovilya	C:\Users\<username>\AppData\Roaming\npm\node_modules\docpad\out\bin\docpad.js exists for sure
+2013-04-13 22:09:41	urlwolf_	same thing
+2013-04-13 22:09:45	urlwolf_	node help message
+2013-04-13 22:09:47	urlwolf_	bah
+2013-04-13 22:10:21	urlwolf_	oh, it's here too
+2013-04-13 22:11:14	urlwolf_	so the main problem is, why is node retarded and not picking up command line args?
+2013-04-13 22:11:42	urlwolf_	all paths are unix paths though
+2013-04-13 22:11:51	urlwolf_	reading this docpad.js
+2013-04-13 22:12:10	urlwolf_	is there any human alive who ran this even once on win?
+2013-04-13 22:12:40	urlwolf_	officially, docpad is the software I hate the most
+2013-04-13 22:12:48	ipetrovilya	can you, please, try "C:\Program Files\nodejs\node.exe test.js" with test.js: console.log('I work!')
+2013-04-13 22:14:12	ipetrovilya	ok, it's late time here, I'm going to create a stackoverflow question and post it to this chat
+2013-04-13 22:14:53	urlwolf_	I get a throw error
+2013-04-13 22:16:10	urlwolf_	ipetrovilya: thanks for your efforts
+2013-04-13 22:16:34	urlwolf_	maybe you can fill a ticket on docpad's issues too
+2013-04-13 22:19:47	ipetrovilya	http://stackoverflow.com/questions/15992471/how-to-create-project-from-scratch-in-bevry-docpad-on-windows-7
+2013-04-13 22:19:48	urlwolf_	picking docpad was the worst tech decision I made in the last year
+2013-04-13 22:20:07	ipetrovilya	urlwolf_: why so?
+2013-04-13 22:20:21	ipetrovilya	urlwolf_: what over solution could you suggest?
+2013-04-13 22:20:30	urlwolf_	wasted hrs configuring things in both linux and windows
+2013-04-13 22:20:34	urlwolf_	dozens of hrs
+2013-04-13 22:20:43	urlwolf_	for static site generation, it's the best
+2013-04-13 22:20:55	urlwolf_	it's just a one-man operation
+2013-04-13 22:21:18	urlwolf_	nowhere ready for prime time. And builds on node which is as stable as a tower of cards
+2013-04-13 22:21:37	urlwolf_	when node updates, you lose hrs trying to get all back in order
+2013-04-13 22:21:41	urlwolf_	my experience at least
+2013-04-13 22:22:47	ipetrovilya	thanks, I'm going to try something other tomorrow
+2013-04-13 22:23:04	urlwolf_	ipetrovilya: let me know if you find an alternative
+2013-04-13 22:31:04	urlwolf_	supersym: if you get to try it on windows, let us now
+2013-04-13 22:32:09	-->	kaspertidemann (~Kasper@2605ds2-bav.0.fullrate.dk) has joined #docpad
+2013-04-13 22:45:42	<--	kaspertidemann (~Kasper@2605ds2-bav.0.fullrate.dk) has left #docpad
+2013-04-13 22:51:28	-->	urlwolf___ (~quassel@g231115011.adsl.alicedsl.de) has joined #docpad
+2013-04-13 22:51:28	-->	urlwolf__ (~quassel@g231115011.adsl.alicedsl.de) has joined #docpad
+2013-04-13 22:55:20	<--	urlwolf_ (~quassel@g231115072.adsl.alicedsl.de) has quit (Ping timeout: 256 seconds)
+2013-04-13 22:55:20	<--	urlwolf (~quassel@g231115072.adsl.alicedsl.de) has quit (Ping timeout: 256 seconds)
+2013-04-13 23:32:04	<--	ipetrovilya (~quassel@dyn-2-215.e-sky.ru) has quit (Ping timeout: 245 seconds)
+2013-04-13 23:44:14	supersym	yeah I had some issues with windows too and im on a tight deadline
+2013-04-13 23:44:34	supersym	as far as static site generators go, none is as flexible and packed as docpad
+2013-04-13 23:45:09	supersym	and with node.js... its still like in alpha/infancy
+2013-04-13 23:46:09	supersym	stuff is bound to change = expect issues/bugs/refactoring + time ppl need to adjust their apps
+2013-04-13 23:46:38	supersym	have fun using ruby... there its the language that gives you the problems..only japanese ppl use it :S
+2013-04-13 23:47:18	supersym	there really aren't much 'stable' or 'industry strength' frameworks like this...
+2013-04-13 23:47:36	supersym	maybe django..i guess they have enough ppl working on quality code stuff
+2013-04-13 23:47:49	supersym	but do you need a full MVC?
+2013-04-13 23:55:42	supersym	anyway installing should be straight forward... get latest node.js for windows, set environment variables, npm i docpad
+2013-04-13 23:55:42	--	irc: disconnected from server
+2013-04-13 23:56:05	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #docpad
+2013-04-13 23:56:05	--	Topic for #docpad is "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-04-13 23:56:05	--	Topic set by balupton (uid6783@gateway/web/irccloud.com/x-cbtpwjksctndjgtn) on Fri, 28 Dec 2012 12:22:24
+2013-04-13 23:56:05	--	Nicks #docpad: [ashnur balupton Chase_the_Dev elf-pavlik EricLeslie jgm nexusIX spanners supersym urlwolf__ urlwolf___]
+2013-04-13 23:56:05	--	Channel #docpad: 11 nicks (0 ops, 0 halfops, 0 voices, 11 normals)
+2013-04-13 23:56:19	--	Mode #docpad [+t]
+2013-04-13 23:56:19	--	Channel created on Sat, 26 May 2012 12:12:13
+2013-04-14 00:06:20	--	irc: disconnected from server
+2013-04-14 00:06:48	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #docpad
+2013-04-14 00:06:48	--	Topic for #docpad is "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-04-14 00:06:48	--	Topic set by balupton (uid6783@gateway/web/irccloud.com/x-cbtpwjksctndjgtn) on Fri, 28 Dec 2012 12:22:24
+2013-04-14 00:06:48	--	Nicks #docpad: [ashnur balupton Chase_the_Dev elf-pavlik EricLeslie jgm nexusIX spanners supersym urlwolf__ urlwolf___]
+2013-04-14 00:06:48	--	Channel #docpad: 11 nicks (0 ops, 0 halfops, 0 voices, 11 normals)
+2013-04-14 00:06:51	--	Mode #docpad [+t]
+2013-04-14 00:06:51	--	Channel created on Sat, 26 May 2012 12:12:13
+2013-04-14 00:29:05	urlwolf___	I use django, yes
+2013-04-14 01:20:44	urlwolf__	now autoreload doesn't work (on linux)
+2013-04-14 01:21:02	urlwolf__	I'm out of excuses to myself to keep using docpad
+2013-04-14 01:29:07	supersym	I often found, 9 out of 10 times it to be myself tho
+2013-04-14 01:29:17	supersym	or whitespace/non-print chars :P
+2013-04-14 01:29:49	supersym	autoreload is slow though... as compiling is suddenly
+2013-04-14 01:31:05	supersym	debugging can be a pain though.. node stack traces etc. Anyway I'm prolly gonna get myself a nice clojure web stack going as soon as I can I guess.... doesn't make sense to use inferior languages once I've mastered that :P
+2013-04-14 01:31:29	urlwolf__	me too
+2013-04-14 01:31:49	urlwolf__	have you evaluated any stat site gen. in clojure?
+2013-04-14 01:31:53	supersym	Im working on a variant of backgammn we play here
+2013-04-14 01:32:17	supersym	but i decided to make it a bit more of a generic backgammon engine and going along nicely
+2013-04-14 01:32:23	urlwolf__	nice
+2013-04-14 01:32:24	supersym	there really arent
+2013-04-14 01:32:26	supersym	I mean
+2013-04-14 01:32:33	urlwolf__	I sense a change in the force
+2013-04-14 01:32:38	supersym	usually you'd end of writing your own dsl
+2013-04-14 01:32:41	urlwolf__	people moving to clojure
+2013-04-14 01:32:42	supersym	as you like it
+2013-04-14 01:32:45	supersym	but
+2013-04-14 01:32:53	urlwolf__	after being bitten by js/node more than once
+2013-04-14 01:33:02	urlwolf__	or have codebases in js that induce nausea
+2013-04-14 01:33:03	supersym	its cljs, compojure, ring, enlive, hiccup
+2013-04-14 01:33:19	supersym	yeah I have to get used to pure functional
+2013-04-14 01:33:28	supersym	but its great for meta/concurrent programming
+2013-04-14 01:33:43	supersym	utilize a machines full power.. but without the mutable state pains
+2013-04-14 01:33:59	urlwolf__	how long have you being learning clojure?
+2013-04-14 01:34:13	supersym	http://www.clojuresphere.com/
+2013-04-14 01:34:30	supersym	a week or 2,3 intense now
+2013-04-14 01:34:59	supersym	http://www.clojure-toolbox.com/
+2013-04-14 01:35:09	urlwolf__	I think this guy had a site generator: http://yogthos.net/archives
+2013-04-14 01:35:30	urlwolf__	luminus guy
+2013-04-14 01:35:34	supersym	right
+2013-04-14 01:36:34	urlwolf__	https://github.com/yogthos/yuggoth/tree/4b5ba229d8191560cbeaee458655b3bc6e842932
+2013-04-14 01:36:47	urlwolf__	but uses postgres
+2013-04-14 01:37:53	urlwolf__	https://code.google.com/p/molehil/
+2013-04-14 01:38:11	urlwolf__	https://github.com/liquidz/misaki
+2013-04-14 01:40:20	urlwolf__	last one looks good
+2013-04-14 01:41:15	urlwolf__	of course no community, no issues... but looks active
+2013-04-14 01:42:28	supersym	thanks ill check them sometime :)
+2013-04-14 01:42:41	urlwolf__	ping me with what you choose
+2013-04-14 01:42:42	supersym	yeah thats what I found one great truth about software
+2013-04-14 01:42:50	supersym	support is everything
+2013-04-14 01:42:54	supersym	for most ppl anyway
+2013-04-14 01:42:55	urlwolf__	ditto
+2013-04-14 01:43:10	urlwolf__	Ben is an incredible guy in that aspect
+2013-04-14 01:43:12	supersym	I tend to solve everything myself... or few times ask something on irc
+2013-04-14 01:43:15	supersym	yup
+2013-04-14 01:43:18	urlwolf__	but he has real clients
+2013-04-14 01:43:25	supersym	u need a community
+2013-04-14 01:43:25	urlwolf__	who pay him, unlike us users :)
+2013-04-14 01:43:28	supersym	you MUST
+2013-04-14 01:43:30	supersym	right
+2013-04-14 01:43:36	supersym	its one or the other
+2013-04-14 01:43:54	urlwolf__	now I will consider maturity above all else
+2013-04-14 01:44:12	supersym	yeah that is a foggy term
+2013-04-14 01:44:27	supersym	ppl still concider parts of the kernel pre-alpha
+2013-04-14 01:44:33	supersym	depends on who you ask
+2013-04-14 01:44:35	urlwolf__	support + bleeding edge, things breaking all the time... not worth it
+2013-04-14 01:44:39	supersym	true
+2013-04-14 01:44:47	supersym	i know that so much out of personal experience
+2013-04-14 01:45:16	urlwolf__	Counting closed tickets, personal commitment of the author, etc was my proxy
+2013-04-14 01:45:22	urlwolf__	with docpad, that has failed
+2013-04-14 01:45:27	supersym	http://www.playingwithwire.com/2007/01/why-gentoo-shouldnt-be-on-your-server/
+2013-04-14 01:45:34	urlwolf__	heh
+2013-04-14 01:45:37	supersym	that woke me up sometime. now i use arch :P
+2013-04-14 01:45:47	supersym	still bleeding edge but a bit more safe imho
+2013-04-14 01:45:49	urlwolf__	I was on sabayon for a long time
+2013-04-14 01:46:05	supersym	i tried that too
+2013-04-14 01:46:10	supersym	broke the pm twice
+2013-04-14 01:46:17	supersym	that was enough lol
+2013-04-14 01:46:19	urlwolf__	after seeing how the music community sucks on linux, I'm moving linux to a vm and starting on win7
+2013-04-14 01:46:34	supersym	some stuff linux is so behind
+2013-04-14 01:46:45	urlwolf__	and social ego stuff
+2013-04-14 01:46:48	urlwolf__	is pathetic
+2013-04-14 01:46:50	urlwolf__	jack audio
+2013-04-14 01:46:50	supersym	alsa... i had a hard time with needing to be a half sound-tech to get that running
+2013-04-14 01:46:54	supersym	yup
+2013-04-14 01:46:55	supersym	:D
+2013-04-14 01:46:57	urlwolf__	it's scary bad
+2013-04-14 01:47:22	supersym	did you see overtone? :)
+2013-04-14 01:47:30	urlwolf__	I'm becoming a conservative in software
+2013-04-14 01:47:32	urlwolf__	yup
+2013-04-14 01:47:34	urlwolf__	crazy
+2013-04-14 01:47:35	supersym	<3 lighttable by the way
+2013-04-14 01:47:42	urlwolf__	oh, it's usable?
+2013-04-14 01:47:49	supersym	bad-ass one of the major reasons I love programming clojure as well
+2013-04-14 01:47:55	supersym	oh... no its like pre-alpha too
+2013-04-14 01:48:02	supersym	but damn... that instarepl
+2013-04-14 01:48:08	urlwolf__	I'm using eclipse for clojure
+2013-04-14 01:48:09	supersym	I just hack away a few snippets now and then
+2013-04-14 01:48:14	supersym	and refactor/integrate
+2013-04-14 01:48:39	supersym	but its so good for instant insight/feedback that I won't need much tests unless I go really enterprise scale :P
+2013-04-14 01:48:40	urlwolf__	are you feeling enlightment after 2-3 weeks fulltime?
+2013-04-14 01:48:45	supersym	yup
+2013-04-14 01:48:48	urlwolf__	cool
+2013-04-14 01:48:55	supersym	I look at docpad/coffee in a whole different way
+2013-04-14 01:49:00	supersym	and i just got started
+2013-04-14 01:49:14	supersym	looking at the source code rich+inside guys wrote ... lol
+2013-04-14 01:49:18	urlwolf__	I won't touch another node project with a 10 foot pole
+2013-04-14 01:49:22	supersym	thats a whole different cookie :P
+2013-04-14 01:49:29	supersym	see the thing is
+2013-04-14 01:49:40	supersym	node is loaded with many code/projects
+2013-04-14 01:49:44	supersym	or npm that is
+2013-04-14 01:49:52	supersym	a lot isnt in clojure yet
+2013-04-14 01:49:59	supersym	and you can compile both ways anyway
+2013-04-14 01:49:59	urlwolf__	sure
+2013-04-14 01:50:12	urlwolf__	did you look at clojurescript?
+2013-04-14 01:50:14	supersym	it takes a bit slower starting up the jvm
+2013-04-14 01:50:28	supersym	but node-clojurescript has a server instance you can run and compile against
+2013-04-14 01:50:42	supersym	plus it automatically runs google closure compiler etc
+2013-04-14 01:50:48	urlwolf__	the js guys I know don't like it
+2013-04-14 01:50:50	supersym	so its ok in terms of speed
+2013-04-14 01:51:06	supersym	I dont know the inner workings but i worked with it
+2013-04-14 01:51:14	urlwolf__	because it doesn't play well with their (incipient) client side package managers
+2013-04-14 01:51:15	supersym	they wouldn't
+2013-04-14 01:51:28	urlwolf__	uses js as bytecode
+2013-04-14 01:51:31	supersym	see
+2013-04-14 01:51:35	urlwolf__	dumps illegible js
+2013-04-14 01:51:44	urlwolf__	like gmail's
+2013-04-14 01:51:46	supersym	thats all these things that make it a bit complicated
+2013-04-14 01:52:06	supersym	i dont know what they need to do and how much issues it is
+2013-04-14 01:52:08	urlwolf__	debugging must be hard
+2013-04-14 01:52:14	supersym	but imho you should stick to one thing if you can
+2013-04-14 01:52:22	supersym	then again meta-programming in clojure is easy
+2013-04-14 01:52:41	urlwolf__	But then Chris Langer loves it and makes an incredible ide on it alone
+2013-04-14 01:52:42	supersym	and you can just work on either the dom, or streams, with or without the jvm
+2013-04-14 01:52:54	supersym	but you'll need to write a lot of boilerplate stuff :P
+2013-04-14 01:53:00	supersym	yup
+2013-04-14 01:53:02	supersym	exactly
+2013-04-14 01:53:12	supersym	only problems I had with lighttable
+2013-04-14 01:53:16	supersym	is the same I have with any chrome
+2013-04-14 01:53:23	supersym	flash/pusleaudio freezes
+2013-04-14 01:53:30	supersym	and corruption of the lighttable cache
+2013-04-14 01:53:40	supersym	but everyone is pointing at someone else
+2013-04-14 01:54:00	supersym	chrome -> pulse, lighttable -> arch, I blame flash and chromium personally
+2013-04-14 01:54:16	supersym	that project uses +100 upstreams
+2013-04-14 01:54:22	supersym	are they fcking mad?
+2013-04-14 01:54:27	urlwolf__	pulse?
+2013-04-14 01:54:30	supersym	chrome
+2013-04-14 01:54:36	supersym	for a browser
+2013-04-14 01:54:39	supersym	its stupif
+2013-04-14 01:54:50	supersym	and adobe...which wont support linux flash anymore
+2013-04-14 01:55:20	urlwolf__	tonight I'm replacing my linux only SSD with a fresh one
+2013-04-14 01:55:25	supersym	but then again, clojure has java and java is ..... oh noes it's teh Oracle
+2013-04-14 01:55:34	urlwolf__	installing win7 and linux on a vm
+2013-04-14 01:55:56	urlwolf__	that far they have pushed me
+2013-04-14 01:56:12	urlwolf__	linux only guy for >5yr
+2013-04-14 01:56:24	urlwolf__	it's everything
+2013-04-14 01:56:27	urlwolf__	so many bugs
+2013-04-14 01:56:33	urlwolf__	no qa whatsoever
+2013-04-14 01:56:43	supersym	i like vagrant
+2013-04-14 01:56:59	urlwolf__	even though Im on ubuntu, which supposedly has more pairs of eyes
+2013-04-14 01:57:05	supersym	its a delicate balance
+2013-04-14 01:57:17	urlwolf__	vagrant? for day-to-day?
+2013-04-14 01:57:18	supersym	I cut away just enough flesh usually
+2013-04-14 01:57:27	supersym	but sometimes hit the bone too
+2013-04-14 01:57:41	supersym	but im reaching my endgame in stack of tools
+2013-04-14 01:57:50	supersym	stickin' with arch... its really just the best
+2013-04-14 01:58:02	supersym	no not for day to day i guess
+2013-04-14 01:58:23	supersym	oh.. and I have xmonad for window manager
+2013-04-14 01:58:28	supersym	I *love* it
+2013-04-14 01:58:33	urlwolf__	I was like you
+2013-04-14 01:58:40	urlwolf__	then, awesome
+2013-04-14 01:58:59	urlwolf__	then freaking java apps breaking made move to a normal wm
+2013-04-14 01:59:02	supersym	I dont like lua and its rigid handle of errors
+2013-04-14 01:59:04	supersym	yup
+2013-04-14 01:59:08	urlwolf__	now I don't care about tiling
+2013-04-14 01:59:26	urlwolf__	gnome shell, and even unity, is what I like now
+2013-04-14 01:59:33	supersym	haha
+2013-04-14 01:59:40	supersym	use what you need, dump what you dont
+2013-04-14 01:59:48	supersym	different times, different needs
+2013-04-14 02:00:08	supersym	pick the tool right for the job and more of those idioms
+2013-04-14 02:00:11	supersym	but its true
+2013-04-14 02:00:20	supersym	if windows makes you more productive, use that :)
+2013-04-14 02:00:26	urlwolf__	does vagrant offer premade vboxes?
+2013-04-14 02:00:32	supersym	I understand why ppl go back to plain old html even :P
+2013-04-14 02:00:36	supersym	yeah
+2013-04-14 02:00:44	urlwolf__	that could be a solution
+2013-04-14 02:00:54	supersym	http://www.vagrantbox.es/
+2013-04-14 02:01:04	supersym	you need to trust some sources tho
+2013-04-14 02:01:08	urlwolf__	yesterday, 3hrs and couldnt get ubuntu 12.04 with guest extensions
+2013-04-14 02:01:08	supersym	dropbox repos :P
+2013-04-14 02:01:16	urlwolf__	freaking bugs all the way
+2013-04-14 02:01:19	supersym	but its cool for quick bootstrapping
+2013-04-14 02:01:21	urlwolf__	disgusting
+2013-04-14 02:01:36	supersym	like me, you prolly should also learn puppet
+2013-04-14 02:01:43	supersym	or chef, but i like puppet more
+2013-04-14 02:01:57	supersym	also I use this now: https://github.com/clojens/dotfiles
+2013-04-14 02:02:11	supersym	those are my 5th done so less pretty/complete dotfiles
+2013-04-14 02:02:20	supersym	auto symlink the whole shebang
+2013-04-14 02:02:53	urlwolf__	cool
+2013-04-14 02:03:10	supersym	now I also have seperated every partition, /usr /srv /opt 
+2013-04-14 02:03:14	urlwolf__	which sources would you trust in vagrantbox.es
+2013-04-14 02:03:16	urlwolf__	?
+2013-04-14 02:03:50	supersym	any that are official ubuntu etc i'd say
+2013-04-14 02:03:59	supersym	to a certain degree
+2013-04-14 02:04:07	urlwolf__	from the urls, none :)
+2013-04-14 02:04:10	supersym	but anything there is too much to check anyway
+2013-04-14 02:04:22	supersym	http://cloud-images.ubuntu.com
+2013-04-14 02:04:35	supersym	those are
+2013-04-14 02:04:42	supersym	from canonical source
+2013-04-14 02:05:11	supersym	anyone with github account worth anything would be semi-trustworthy in a sense that they can be identified/tracked
+2013-04-14 02:05:42	supersym	but vagrant really is good for quick projects stuff thats why they have those ruby/rvm etc pre-made
+2013-04-14 02:05:57	supersym	anything beyond that... i dunno, and nothing confidential ofc
+2013-04-14 02:06:18	supersym	this is actually the biggest cyber threat/risk anyway
+2013-04-14 02:06:29	supersym	cloud making it too easy for ppl to start virtual machines and shit
+2013-04-14 02:06:44	supersym	and tying together the whole thing, like business networks
+2013-04-14 02:07:11	supersym	only 1 has to fail, and cloud9 etc all had security comprimised, some even say its not their priority at all
+2013-04-14 02:07:18	supersym	all it takes is 1 jailbreak
+2013-04-14 02:07:25	supersym	or leak
+2013-04-14 02:08:11	supersym	puppetlabs.com
+2013-04-14 02:08:14	supersym	those are cool too
+2013-04-14 02:08:25	supersym	official puppet domain
+2013-04-14 02:08:27	urlwolf__	puppet = too much effort
+2013-04-14 02:08:31	supersym	i know
+2013-04-14 02:08:41	supersym	but do it right, just once, and you'll love it :)
+2013-04-14 02:08:47	supersym	same reason i haven't tho
+2013-04-14 02:08:51	urlwolf__	I may grab these: http://cloud-images.ubuntu.com/vagrant/
+2013-04-14 02:08:57	urlwolf__	server though
+2013-04-14 02:09:01	supersym	:)
+2013-04-14 02:09:02	urlwolf__	I need desktop
+2013-04-14 02:09:56	urlwolf__	is vagrant a lot of overhead?
+2013-04-14 02:10:57	urlwolf__	what's the advantage over vbox alone?
+2013-04-14 02:14:33	urlwolf__	anyway, I gotta go
+2013-04-14 02:14:35	urlwolf__	let me know if you use misaki or anything else clojure for static sites
+2013-04-14 02:14:56	urlwolf__	nice to catch up, and to hear you are going clojure too
+2013-04-14 02:16:10	supersym	sure !
+2013-04-14 02:16:17	supersym	sorry.. deadline still ;)
+2013-04-14 02:16:23	supersym	i'll keep you posted
+2013-04-14 02:58:56	<--	urlwolf__ (~quassel@g231115011.adsl.alicedsl.de) has quit (Remote host closed the connection)
+2013-04-14 05:42:38	<--	urlwolf___ (~quassel@g231115011.adsl.alicedsl.de) has quit (Ping timeout: 255 seconds)
