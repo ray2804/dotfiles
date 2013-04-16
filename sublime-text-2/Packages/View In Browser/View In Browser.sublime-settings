@@ -1,0 +1,37 @@
+{
+	"supportedBrowsers": {
+		"firefox": [
+			{
+				"osname": "posix",
+				"platform": ".*",
+				"command": "firefox"
+			},
+			{
+				"osname": "nt",
+				"platform": "linux",
+				"command": "firefox"
+			}
+		],
+		"chrome": [
+      {
+        "osname": "Arch",
+        "platform": "linux",
+        "command": "google-chrome"
+      },
+			{
+				"osname": "posix",
+				"platform": "linux.*",
+				"command": "chromium"
+			}
+		],
+		"chromium": [
+			{
+				"osname": "posix",
+				"platform": "linux.*",
+				"command": "chromium"
+			}
+		]
+	},
+
+	"selectedBrowser": "firefox"
+}

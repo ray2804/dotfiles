@@ -832,3 +832,12 @@
 2013-04-12 22:47:43		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
 2013-04-14 00:06:20		fifo: pipe closed
 2013-04-14 00:06:33		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2013-04-14 11:35:57		fifo: pipe closed
+2013-04-14 11:35:58	=!=	Error writing configuration file "/home/baal/Dotfiles/weechat/script.conf"
+2013-04-14 11:35:58	=!=	Error writing configuration file "/home/baal/Dotfiles/weechat/xfer.conf"
+2013-04-14 11:35:58	=!=	Error writing configuration file "/home/baal/Dotfiles/weechat/rmodifier.conf"
+2013-04-14 11:35:58	=!=	Error writing configuration file "/home/baal/Dotfiles/weechat/alias.conf"
+2013-04-14 11:35:58	=!=	Error writing configuration file "/home/baal/Dotfiles/weechat/logger.conf"
+2013-04-14 16:37:00		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2013-04-16 04:37:44		fifo: pipe closed
+2013-04-16 05:29:31		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer

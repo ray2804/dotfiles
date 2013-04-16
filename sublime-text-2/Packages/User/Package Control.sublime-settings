@@ -22,10 +22,14 @@
 		"SmartMarkdown",
 		"Stylus",
 		"sublime-better-coffeescript",
+		"Sublime-HTMLPrettify",
 		"SublimeLinter",
 		"SublimeTransporter",
 		"SyncedSideBar",
 		"TextFormatting",
+		"TidyHTML5",
+		"TrailingSpaces",
+		"View In Browser",
 		"ZenCoding"
 	]
 }

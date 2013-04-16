@@ -6,10 +6,10 @@
 		"/home/baal/tmp",
 		"/srv/customers/tredius"
 	],
-	"last_window_id": 17,
+	"last_window_id": 18,
 	"settings":
 	{
-		"new_window_height": 1020.0,
+		"new_window_height": 727.0,
 		"new_window_settings":
 		{
 			"auto_complete":
@@ -65,7 +65,31 @@
 						"Package Control: Install Package"
 					],
 					[
+						"pre",
+						"HTMLPrettify: Prettify"
+					],
+					[
 						"Package Control: inst",
+						"Package Control: Install Package"
+					],
+					[
+						"prett",
+						"HTMLPrettify: Prettify"
+					],
+					[
+						"pretty",
+						"HTMLPrettify: Prettify"
+					],
+					[
+						"tidy",
+						"TidyHTML"
+					],
+					[
+						"pret",
+						"HTMLPrettify: Prettify"
+					],
+					[
+						"INST",
 						"Package Control: Install Package"
 					],
 					[
@@ -97,7 +121,7 @@
 						"Package Control: Install Package"
 					]
 				],
-				"width": 485.0
+				"width": 521.0
 			},
 			"console":
 			{
@@ -114,37 +138,89 @@
 			},
 			"file_history":
 			[
+				"/home/baal/customers/tredius/bron/documenten/diensten/debiteurenbeheer/stappenplan.html.coffee",
+				"/home/baal/Dotfiles/sublime-text-2/Packages/User/Preferences.sublime-settings",
+				"/home/baal/Dotfiles/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
+				"/home/baal/customers/tredius/docs/bijlagen/Tredius Debiteurenbeheer recap.txt",
+				"/home/baal/customers/tredius/bron/documenten/stijlen/basisstijlen.styl",
 				"/home/baal/customers/tredius/docpad.coffee",
+				"/home/baal/customers/tredius/bron/documenten/diensten/belastingadvies.html.jade",
+				"/home/baal/customers/tredius/bron/documenten/diensten/debiteurenbeheer/index.html.coffee",
+				"/home/baal/customers/tredius/bron/partials/blok/multimedia.html.coffee",
+				"/home/baal/customers/tredius/bron/documenten/diensten/debiteurenbeheer/werkwijze-stappenplan.html.coffee",
+				"/home/baal/customers/tredius/bron/documenten/diensten/debiteurenbeheer/onze-werkwijze.html.coffee",
+				"/home/baal/customers/tredius/bron/documenten/diensten/debiteurenbeheer/incasso-en-factoring.html.coffee",
+				"/home/baal/customers/tredius/bron/partials/menu/horizontaal.html.coffee",
 				"/home/baal/customers/tredius/bron/documenten/t-time/nieuwsbrief/2013/april/index.html.coffee",
-				"/home/baal/customers/tredius/bron/sjablonen/standaard.html.coffee",
+				"/home/baal/customers/tredius/bron/partials/blok/navigatie.html.coffee",
+				"/home/baal/customers/tredius/bron/documenten/t-time/nieuwsbrief/2013/april/verzuimboete-aangifte.html.md",
+				"/home/baal/customers/tredius/bron/documenten/t-time/nieuwsbrief/2013/april/invoer-verhuurdersheffing.html.md",
+				"/home/baal/customers/tredius/bron/documenten/stijlen/algemeen.css.styl",
 				"/home/baal/customers/tredius/bron/documenten/t-time/index.html.coffee",
+				"/home/baal/customers/tredius/bron/documenten/diensten/debiteurenbeheer/stub.html.coffee",
+				"/home/baal/customers/tredius/bron/documenten/diensten/debiteurenbeheer/debiteurenbeheer.html.coffee",
+				"/home/baal/customers/tredius/bron/partials/contactpersoon.html.jade",
+				"/home/baal/customers/tredius/bron/documenten/diensten/debiteurenbeheer/debiteurenbeheer-abonnement.html.jade",
+				"/home/baal/customers/tredius/bron/documenten/t-time/nieuwsbrief/2013/april/willekeurige-afschrijving.html.md",
+				"/home/baal/customers/tredius/bron/documenten/t-time/nieuwsbrief/2013/april/testimonial-interview-rene-goeth.html.md",
+				"/home/baal/customers/tredius/bron/sjablonen/nieuwsmail.html.coffee",
+				"/home/baal/customers/tredius/x.html",
+				"/home/baal/customers/tredius/nieuws123.html",
+				"/home/baal/Dotfiles/sublime-text-2/Packages/View In Browser/View In Browser.sublime-settings",
+				"/home/baal/sli/slice.html",
+				"/home/baal/customers/tredius/bron/documenten/t-time/nieuwsbrief/2013/april/mailsjabloon.html",
+				"/home/baal/customers/tredius/bron/documenten/t-time/nieuwsbrief/2013/april/untitled.html",
+				"/home/baal/customers/tredius/plugins/docpad-plugin-absolutepath/absolutepath.plugin.coffee",
+				"/home/baal/customers/tredius/bron/sjablonen/standaard.html.coffee",
+				"/home/baal/nieuwsbrief.html",
+				"/home/baal/customers/tredius/bron/documenten/diensten/risico-en-pensioenadvies.html.jade",
+				"/home/baal/customers/tredius/bron/documenten/diensten/juridisch-abonnement.html.jade",
+				"/home/baal/customers/tredius/bron/documenten/overtuiging.html.jade",
+				"/home/baal/customers/tredius/bron/documenten/werken-bij/vacatures.html.jade",
+				"/home/baal/customers/tredius/bron/documenten/werken-bij/index.html.jade",
+				"/home/baal/customers/tredius/bron/documenten/contact.html.jade",
+				"/home/baal/customers/tredius/bron/documenten/index.html.jade",
+				"/home/baal/customers/tredius/bron/partials/blok/voettekst.html.coffee",
+				"/home/baal/customers/tredius/Cakefile",
+				"/home/baal/customers/tredius/plugins/FOO/package.json",
+				"/home/baal/customers/tredius/bron/documenten/stijlen/ttime.styl",
+				"/home/baal/customers/tredius/plugins/docpad-plugin-pathtoroot/pathtoroot.plugin.coffee",
+				"/home/baal/customers/tredius/plugins/docpad-plugin-pathtoroot/package.json",
+				"/home/baal/customers/tredius/plugins/docpad-plugin-absolutepath/package.json",
+				"/home/baal/customers/tredius/docs/nonops.pdf.coffee",
+				"/home/baal/customers/tredius/bron/documenten/t-time/nieuwsbrief/2013/april/mailindex.html.coffee",
+				"/home/baal/customers/tredius/node_modules/docpad-plugin-cleanurls/out/cleanurls.plugin.js",
+				"/home/baal/customers/tredius/bron/documenten/t-time/videos/55430952.html.coffee",
+				"/home/baal/customers/tredius/bron/documenten/t-time/videos/55430884.html.coffee",
+				"/home/baal/customers/tredius/bron/documenten/t-time/videos/55430791.html.coffee",
+				"/home/baal/customers/tredius/bron/documenten/t-time/videos/55430735.html.coffee",
+				"/home/baal/customers/tredius/bron/documenten/t-time/videos/55429476.html.coffee",
+				"/home/baal/customers/tredius/bron/documenten/werken-bij/wie-ben-jij.html.jade",
+				"/home/baal/customers/tredius/bron/partials/blok/navbar.html.coffee",
+				"/home/baal/customers/tredius/bron/documenten/stijlen/kleurenschemas.styl",
+				"/home/baal/customers/tredius/bron/documenten/t-time/specials/2012/eindejaarsbericht-12.html.md",
+				"/home/baal/customers/tredius/bron/documenten/t-time/specials/2012/werkkostenregeling.html.md",
+				"/home/baal/customers/tredius/bron/bestanden/stijlen/pictogrammen.css",
+				"/home/baal/customers/tredius/bron/documenten/t-time/columns/2013/juni.html.md",
+				"/home/baal/customers/tredius/bron/bestanden/demos/icoontjes.html",
+				"/home/baal/customers/tredius/bron/documenten/t-time/columns/2012/november.html.md",
+				"/home/baal/customers/tredius/bron/documenten/t-time/columns/2012/juni.html.md",
+				"/home/baal/customers/tredius/bron/documenten/t-time/columns/2013/mei.html.md",
 				"/home/baal/customers/tredius/bron/documenten/t-time/columns/2012/december.html.md",
 				"/home/baal/customers/tredius/bron/documenten/t-time/columns/2012/september.html.md",
-				"/home/baal/customers/tredius/bron/documenten/t-time/columns/2012/juni.html.md",
-				"/home/baal/customers/tredius/bron/documenten/t-time/columns/2012/november.html.md",
 				"/home/baal/customers/tredius/uitvoer/stijlen/algemeen.css",
-				"/home/baal/customers/tredius/bron/partials/blok/multimedia.html.coffee",
 				"/home/baal/customers/tredius/bron/documenten/assets/minijs-slider.js.coffee",
 				"/home/baal/customers/tredius/bron/documenten/assets/minijs.jquery.slider.js.coffee",
 				"/home/baal/customers/tredius/easing.txt",
 				"/home/baal/customers/tredius/bron/documenten/stijlen/voorpagina.styl",
-				"/home/baal/customers/tredius/bron/documenten/stijlen/basisstijlen.styl",
 				"/home/baal/customers/tredius/bron/documenten/stijlen/plugins.styl",
-				"/home/baal/customers/tredius/bron/documenten/stijlen/ttime.styl",
 				"/home/baal/Dotfiles/sublime-text-2/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
 				"/home/baal/customers/tredius/bron/documenten/t-time/columns/jun2012.html.jade",
 				"/home/baal/customers/tredius/TODO-media-buttons.styl",
-				"/home/baal/customers/tredius/bron/documenten/t-time/videos/55429476.html.coffee",
-				"/home/baal/customers/tredius/bron/documenten/t-time/videos/55430735.html.coffee",
-				"/home/baal/customers/tredius/bron/documenten/t-time/videos/55430791.html.coffee",
-				"/home/baal/customers/tredius/bron/documenten/t-time/videos/55430884.html.coffee",
-				"/home/baal/customers/tredius/bron/documenten/t-time/videos/55430952.html.coffee",
-				"/home/baal/customers/tredius/bron/partials/blok/voettekst.html.coffee",
 				"/home/baal/customers/tredius/TODO-gridfixbug.txt",
 				"/home/baal/.bin/less2stylus.js",
 				"/home/baal/customers/tredius/bron/documenten/t-time/nieuwsbrief/index.html.coffee",
 				"/home/baal/customers/tredius/README.md",
-				"/home/baal/customers/tredius/bron/documenten/stijlen/kleurenschemas.styl",
 				"/home/baal/customers/tredius/src/documenten/t-time/videos/55429476.html.coffee",
 				"/home/baal/customers/tredius/src/documenten/t-time/videos/55430952.html.coffee",
 				"/home/baal/customers/tredius/src/documenten/t-time/videos/55430791.html.coffee",
@@ -189,59 +265,7 @@
 				"/home/baal/customers/tredius/src/documents/werken-bij/wie-ben-jij.html.jade",
 				"/home/baal/customers/tredius/src/documents/werken-bij/stages.html.md",
 				"/home/baal/customers/tredius/src/documents/diensten/belastingadvies.html.jade",
-				"/home/baal/customers/tredius/src/documents/diensten/juridisch-advies.html.jade",
-				"/home/baal/customers/tredius/src/documents/diensten/overstapservice.html.jade",
-				"/home/baal/customers/tredius/src/documents/diensten/risicoadvies-en-verzekeringen.html.jade",
-				"/home/baal/customers/tredius/src/documents/diensten/salaris-en-personeel.html.jade",
-				"/home/baal/customers/tredius/src/documents/diensten/juridisch-abonnement.html.jade",
-				"/home/baal/customers/tredius/src/documents/diensten/debiteurenbeheer/stub.html.coffee",
-				"/home/baal/customers/tredius/src/documents/diensten/accountancy.html.jade",
-				"/home/baal/customers/tredius/src/documents/diensten/risicoadvies-en-pensioen.html.jade",
-				"/home/baal/customers/tredius/src/documents/diensten/pensioen.jade",
-				"/home/baal/customers/tredius/src/documents/diensten/pensioenadvies.html.jade",
-				"/home/baal/customers/tredius/src/documents/diensten/pensioen.html.jade",
-				"/home/baal/customers/tredius/out/stijlen/algemeen.css",
-				"/home/baal/customers/tredius/src/documents/stijlen/algemeen.css.styl",
-				"/home/baal/customers/tredius/src/documents/stijlen/navigatie.styl",
-				"/home/baal/customers/tredius/src/documents/stijlen/voetblokken.styl",
-				"/home/baal/customers/tredius/src/documents/t-time/nieuwsbrief/2013/april/willekeurige-afschrijving.html.md",
-				"/home/baal/customers/tredius/src/documents/t-time/nieuwsbrief/2013/april/verzuimboete-aangifte.html.md",
-				"/home/baal/customers/tredius/src/documents/diensten/debiteurenbeheer/__stub__.html.coffee",
-				"/home/baal/customers/tredius/src/documents/t-time/nieuwsbrief/2013/april/invoer-verhuurdersheffing.html.md",
-				"/home/baal/customers/tredius/src/documents/t-time/nieuwsbrief/2013/april/interview-rene-goeth.html.md",
-				"/home/baal/customers/tredius/src/documents/t-time/nieuwsbrief/2013/april/interview-rene-goeth.html.coffee",
-				"/home/baal/customers/tredius/src/documents/t-time/nieuwsbrief/2013/april/1301c-verzuimboete-aangifte.html.md",
-				"/home/baal/customers/tredius/src/documents/t-time/nieuwsbrief/nieuwsbrief.html.coffee",
-				"/home/baal/customers/tredius/lib/vimeoAjaxCoffee",
-				"/home/baal/Dotfiles/sublime-text-2/Packages/User/Preferences.sublime-settings",
-				"/home/baal/customers/tredius/lib/records/base64",
-				"/home/baal/customers/tredius/src/documents/t-time/nieuwsbrief/2013/april/1301b-invoer-verhuurdersheffing.html.md",
-				"/home/baal/customers/tredius/src/documents/t-time/nieuwsbrief/2013/april/1301a-willekeurige-afschrijving.html.md",
-				"/home/baal/customers/tredius/src/documents/t-time/nieuwsbrief/2013/april/verhuurdersheffing-ingevoerd.html.md",
-				"/home/baal/customers/tredius/src/documents/t-time/nieuwsbrief/2013/april/1301a-invoer-verhuurdersheffing.html.md",
-				"/home/baal/customers/tredius/src/layouts/handleiding.litcoffee",
-				"/home/baal/Dotfiles/sublime-text-2/Packages/Color Scheme - Default/Monokai.tmTheme",
-				"/home/baal/Dotfiles/sublime-text-2/Packages/Color Scheme - Default/Monokai Bright.tmTheme",
-				"/home/baal/customers/tredius/src/layouts/standaard2.html.litcoffee",
-				"/home/baal/customers/tredius/lib/records/bak-out/index.html",
-				"/home/baal/tmp/docpad.coffee",
-				"/home/baal/tmp/src/layouts/default.html.coffee",
-				"/home/baal/customer/tredius",
-				"/srv/customers/tredius/lib/records/postzegel.txt",
-				"/srv/customers/tredius/docpad.coffee",
-				"/srv/customers/tredius/src/layouts/standaard.html.coffee",
-				"/srv/customers/tredius/lib/records/nieuwsbrief.html.jade",
-				"/srv/customers/tredius/src/partials/blok/voettekst.html.coffee",
-				"/srv/customers/tredius/src/partials/blok/multimedia.html.coffee",
-				"/srv/customers/tredius/src/documents/t-time/nieuwsbrief/2013/april/verhuurdersheffing-ingevoerd.html.md",
-				"/srv/customers/tredius/src/documents/t-time/nieuwsbrief/2013/april/fiscale-regels-willekeurige-afschrijving.html.md",
-				"/srv/customers/tredius/src/documents/t-time/nieuwsbrief/2013/april/verzuimboete-aangifte-belastingen.html.md",
-				"/srv/customers/tredius/src/layouts/nieuwsbrief.html.jade",
-				"/srv/customers/tredius/src/documents/diensten/accountancy.html.jade",
-				"/srv/customers/tredius/src/partials/blok/navigatie.html.coffee",
-				"/srv/customers/tredius/src/layouts/page.html.coffee",
-				"/srv/customers/tredius/src/documents/t-time/nieuwsbrief/blog.html.coffee",
-				"/home/baal/Dotfiles/sublime-text-2/Packages/sublime-better-coffeescript/CoffeeScript.sublime-settings"
+				"/home/baal/customers/tredius/src/documents/diensten/juridisch-advies.html.jade"
 			],
 			"find":
 			{
@@ -252,6 +276,7 @@
 				"height": 0.0,
 				"where_history":
 				[
+					"~/customers/tredius/bron/documenten/stijlen",
 					"~/customers/tredius/bron/",
 					"~/customers/tredius/bron/documenten/",
 					"~/customers/tredius/bron/documenten/stijl",
@@ -267,9 +292,32 @@
 			},
 			"find_state":
 			{
-				"case_sensitive": false,
+				"case_sensitive": true,
 				"find_history":
 				[
+					"mediaband",
+					"./",
+					"bannier",
+					"logo",
+					"margin 0 auto;",
+					"auto",
+					"center",
+					"600px",
+					"Tredius v",
+					"940px",
+					"T-TIM",
+					"Inlogg",
+					"inloggen",
+					"&raquo;",
+					"com",
+					"none",
+					"#{@document.pathtoroot}",
+					"#{document.pathtoroot}",
+					"#{@document.pathtoroot}",
+					"pwd +",
+					"#{@document.pathtoroot}",
+					":",
+					";",
 					"h ",
 					".ttColumnTegel-vak",
 					"clear",
@@ -360,9 +408,16 @@
 				"highlight": true,
 				"in_selection": false,
 				"preserve_case": false,
-				"regex": true,
+				"regex": false,
 				"replace_history":
 				[
+					"800px",
+					"600px",
+					"»",
+					"",
+					" ",
+					"",
+					" ",
 					"",
 					" ",
 					"ttVideoC",
@@ -410,7 +465,7 @@
 				"cols":
 				[
 					0.0,
-					0.739267213771,
+					0.677360183222,
 					1.0
 				],
 				"rows":
@@ -461,10 +516,10 @@
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 307.0,
+			"side_bar_width": 317.0,
 			"status_bar_visible": true
 		},
-		"new_window_width": 1276.0
+		"new_window_width": 1528.0
 	},
 	"windows":
 	[
@@ -513,6 +568,78 @@
 			},
 			"buffers":
 			[
+				{
+					"file": "/home/baal/customers/tredius/bron/documenten/diensten/debiteurenbeheer/abonnement.html.coffee",
+					"settings":
+					{
+						"buffer_size": 1441,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/baal/customers/tredius/bron/partials/blok/navigatie.html.coffee",
+					"settings":
+					{
+						"buffer_size": 5347,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/baal/customers/tredius/docpad.coffee",
+					"settings":
+					{
+						"buffer_size": 11289,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/baal/customers/tredius/bron/documenten/diensten/debiteurenbeheer/index.html.coffee",
+					"settings":
+					{
+						"buffer_size": 1836,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/baal/customers/tredius/bron/partials/blok/multimedia.html.coffee",
+					"settings":
+					{
+						"buffer_size": 3473,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/baal/customers/tredius/bron/documenten/diensten/debiteurenbeheer/stappenplan.html.coffee",
+					"settings":
+					{
+						"buffer_size": 2983,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/baal/customers/tredius/bron/documenten/stijlen/debiteurenbeheer.styl",
+					"settings":
+					{
+						"buffer_size": 240,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/baal/customers/tredius/bron/documenten/stijlen/basisstijlen.styl",
+					"settings":
+					{
+						"buffer_size": 4249,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/baal/customers/tredius/bron/documenten/stijlen/voorpagina.styl",
+					"settings":
+					{
+						"buffer_size": 11631,
+						"line_ending": "Unix"
+					}
+				}
 			],
 			"build_system": "",
 			"command_palette":
@@ -525,7 +652,31 @@
 						"Package Control: Install Package"
 					],
 					[
+						"pre",
+						"HTMLPrettify: Prettify"
+					],
+					[
 						"Package Control: inst",
+						"Package Control: Install Package"
+					],
+					[
+						"prett",
+						"HTMLPrettify: Prettify"
+					],
+					[
+						"pretty",
+						"HTMLPrettify: Prettify"
+					],
+					[
+						"tidy",
+						"TidyHTML"
+					],
+					[
+						"pret",
+						"HTMLPrettify: Prettify"
+					],
+					[
+						"INST",
 						"Package Control: Install Package"
 					],
 					[
@@ -557,7 +708,7 @@
 						"Package Control: Install Package"
 					]
 				],
-				"width": 485.0
+				"width": 521.0
 			},
 			"console":
 			{
@@ -574,37 +725,89 @@
 			},
 			"file_history":
 			[
+				"/home/baal/customers/tredius/bron/documenten/diensten/debiteurenbeheer/stappenplan.html.coffee",
+				"/home/baal/Dotfiles/sublime-text-2/Packages/User/Preferences.sublime-settings",
+				"/home/baal/Dotfiles/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
+				"/home/baal/customers/tredius/docs/bijlagen/Tredius Debiteurenbeheer recap.txt",
+				"/home/baal/customers/tredius/bron/documenten/stijlen/basisstijlen.styl",
 				"/home/baal/customers/tredius/docpad.coffee",
+				"/home/baal/customers/tredius/bron/documenten/diensten/belastingadvies.html.jade",
+				"/home/baal/customers/tredius/bron/documenten/diensten/debiteurenbeheer/index.html.coffee",
+				"/home/baal/customers/tredius/bron/partials/blok/multimedia.html.coffee",
+				"/home/baal/customers/tredius/bron/documenten/diensten/debiteurenbeheer/werkwijze-stappenplan.html.coffee",
+				"/home/baal/customers/tredius/bron/documenten/diensten/debiteurenbeheer/onze-werkwijze.html.coffee",
+				"/home/baal/customers/tredius/bron/documenten/diensten/debiteurenbeheer/incasso-en-factoring.html.coffee",
+				"/home/baal/customers/tredius/bron/partials/menu/horizontaal.html.coffee",
 				"/home/baal/customers/tredius/bron/documenten/t-time/nieuwsbrief/2013/april/index.html.coffee",
-				"/home/baal/customers/tredius/bron/sjablonen/standaard.html.coffee",
+				"/home/baal/customers/tredius/bron/partials/blok/navigatie.html.coffee",
+				"/home/baal/customers/tredius/bron/documenten/t-time/nieuwsbrief/2013/april/verzuimboete-aangifte.html.md",
+				"/home/baal/customers/tredius/bron/documenten/t-time/nieuwsbrief/2013/april/invoer-verhuurdersheffing.html.md",
+				"/home/baal/customers/tredius/bron/documenten/stijlen/algemeen.css.styl",
 				"/home/baal/customers/tredius/bron/documenten/t-time/index.html.coffee",
+				"/home/baal/customers/tredius/bron/documenten/diensten/debiteurenbeheer/stub.html.coffee",
+				"/home/baal/customers/tredius/bron/documenten/diensten/debiteurenbeheer/debiteurenbeheer.html.coffee",
+				"/home/baal/customers/tredius/bron/partials/contactpersoon.html.jade",
+				"/home/baal/customers/tredius/bron/documenten/diensten/debiteurenbeheer/debiteurenbeheer-abonnement.html.jade",
+				"/home/baal/customers/tredius/bron/documenten/t-time/nieuwsbrief/2013/april/willekeurige-afschrijving.html.md",
+				"/home/baal/customers/tredius/bron/documenten/t-time/nieuwsbrief/2013/april/testimonial-interview-rene-goeth.html.md",
+				"/home/baal/customers/tredius/bron/sjablonen/nieuwsmail.html.coffee",
+				"/home/baal/customers/tredius/x.html",
+				"/home/baal/customers/tredius/nieuws123.html",
+				"/home/baal/Dotfiles/sublime-text-2/Packages/View In Browser/View In Browser.sublime-settings",
+				"/home/baal/sli/slice.html",
+				"/home/baal/customers/tredius/bron/documenten/t-time/nieuwsbrief/2013/april/mailsjabloon.html",
+				"/home/baal/customers/tredius/bron/documenten/t-time/nieuwsbrief/2013/april/untitled.html",
+				"/home/baal/customers/tredius/plugins/docpad-plugin-absolutepath/absolutepath.plugin.coffee",
+				"/home/baal/customers/tredius/bron/sjablonen/standaard.html.coffee",
+				"/home/baal/nieuwsbrief.html",
+				"/home/baal/customers/tredius/bron/documenten/diensten/risico-en-pensioenadvies.html.jade",
+				"/home/baal/customers/tredius/bron/documenten/diensten/juridisch-abonnement.html.jade",
+				"/home/baal/customers/tredius/bron/documenten/overtuiging.html.jade",
+				"/home/baal/customers/tredius/bron/documenten/werken-bij/vacatures.html.jade",
+				"/home/baal/customers/tredius/bron/documenten/werken-bij/index.html.jade",
+				"/home/baal/customers/tredius/bron/documenten/contact.html.jade",
+				"/home/baal/customers/tredius/bron/documenten/index.html.jade",
+				"/home/baal/customers/tredius/bron/partials/blok/voettekst.html.coffee",
+				"/home/baal/customers/tredius/Cakefile",
+				"/home/baal/customers/tredius/plugins/FOO/package.json",
+				"/home/baal/customers/tredius/bron/documenten/stijlen/ttime.styl",
+				"/home/baal/customers/tredius/plugins/docpad-plugin-pathtoroot/pathtoroot.plugin.coffee",
+				"/home/baal/customers/tredius/plugins/docpad-plugin-pathtoroot/package.json",
+				"/home/baal/customers/tredius/plugins/docpad-plugin-absolutepath/package.json",
+				"/home/baal/customers/tredius/docs/nonops.pdf.coffee",
+				"/home/baal/customers/tredius/bron/documenten/t-time/nieuwsbrief/2013/april/mailindex.html.coffee",
+				"/home/baal/customers/tredius/node_modules/docpad-plugin-cleanurls/out/cleanurls.plugin.js",
+				"/home/baal/customers/tredius/bron/documenten/t-time/videos/55430952.html.coffee",
+				"/home/baal/customers/tredius/bron/documenten/t-time/videos/55430884.html.coffee",
+				"/home/baal/customers/tredius/bron/documenten/t-time/videos/55430791.html.coffee",
+				"/home/baal/customers/tredius/bron/documenten/t-time/videos/55430735.html.coffee",
+				"/home/baal/customers/tredius/bron/documenten/t-time/videos/55429476.html.coffee",
+				"/home/baal/customers/tredius/bron/documenten/werken-bij/wie-ben-jij.html.jade",
+				"/home/baal/customers/tredius/bron/partials/blok/navbar.html.coffee",
+				"/home/baal/customers/tredius/bron/documenten/stijlen/kleurenschemas.styl",
+				"/home/baal/customers/tredius/bron/documenten/t-time/specials/2012/eindejaarsbericht-12.html.md",
+				"/home/baal/customers/tredius/bron/documenten/t-time/specials/2012/werkkostenregeling.html.md",
+				"/home/baal/customers/tredius/bron/bestanden/stijlen/pictogrammen.css",
+				"/home/baal/customers/tredius/bron/documenten/t-time/columns/2013/juni.html.md",
+				"/home/baal/customers/tredius/bron/bestanden/demos/icoontjes.html",
+				"/home/baal/customers/tredius/bron/documenten/t-time/columns/2012/november.html.md",
+				"/home/baal/customers/tredius/bron/documenten/t-time/columns/2012/juni.html.md",
+				"/home/baal/customers/tredius/bron/documenten/t-time/columns/2013/mei.html.md",
 				"/home/baal/customers/tredius/bron/documenten/t-time/columns/2012/december.html.md",
 				"/home/baal/customers/tredius/bron/documenten/t-time/columns/2012/september.html.md",
-				"/home/baal/customers/tredius/bron/documenten/t-time/columns/2012/juni.html.md",
-				"/home/baal/customers/tredius/bron/documenten/t-time/columns/2012/november.html.md",
 				"/home/baal/customers/tredius/uitvoer/stijlen/algemeen.css",
-				"/home/baal/customers/tredius/bron/partials/blok/multimedia.html.coffee",
 				"/home/baal/customers/tredius/bron/documenten/assets/minijs-slider.js.coffee",
 				"/home/baal/customers/tredius/bron/documenten/assets/minijs.jquery.slider.js.coffee",
 				"/home/baal/customers/tredius/easing.txt",
 				"/home/baal/customers/tredius/bron/documenten/stijlen/voorpagina.styl",
-				"/home/baal/customers/tredius/bron/documenten/stijlen/basisstijlen.styl",
 				"/home/baal/customers/tredius/bron/documenten/stijlen/plugins.styl",
-				"/home/baal/customers/tredius/bron/documenten/stijlen/ttime.styl",
 				"/home/baal/Dotfiles/sublime-text-2/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
 				"/home/baal/customers/tredius/bron/documenten/t-time/columns/jun2012.html.jade",
 				"/home/baal/customers/tredius/TODO-media-buttons.styl",
-				"/home/baal/customers/tredius/bron/documenten/t-time/videos/55429476.html.coffee",
-				"/home/baal/customers/tredius/bron/documenten/t-time/videos/55430735.html.coffee",
-				"/home/baal/customers/tredius/bron/documenten/t-time/videos/55430791.html.coffee",
-				"/home/baal/customers/tredius/bron/documenten/t-time/videos/55430884.html.coffee",
-				"/home/baal/customers/tredius/bron/documenten/t-time/videos/55430952.html.coffee",
-				"/home/baal/customers/tredius/bron/partials/blok/voettekst.html.coffee",
 				"/home/baal/customers/tredius/TODO-gridfixbug.txt",
 				"/home/baal/.bin/less2stylus.js",
 				"/home/baal/customers/tredius/bron/documenten/t-time/nieuwsbrief/index.html.coffee",
 				"/home/baal/customers/tredius/README.md",
-				"/home/baal/customers/tredius/bron/documenten/stijlen/kleurenschemas.styl",
 				"/home/baal/customers/tredius/src/documenten/t-time/videos/55429476.html.coffee",
 				"/home/baal/customers/tredius/src/documenten/t-time/videos/55430952.html.coffee",
 				"/home/baal/customers/tredius/src/documenten/t-time/videos/55430791.html.coffee",
@@ -649,59 +852,7 @@
 				"/home/baal/customers/tredius/src/documents/werken-bij/wie-ben-jij.html.jade",
 				"/home/baal/customers/tredius/src/documents/werken-bij/stages.html.md",
 				"/home/baal/customers/tredius/src/documents/diensten/belastingadvies.html.jade",
-				"/home/baal/customers/tredius/src/documents/diensten/juridisch-advies.html.jade",
-				"/home/baal/customers/tredius/src/documents/diensten/overstapservice.html.jade",
-				"/home/baal/customers/tredius/src/documents/diensten/risicoadvies-en-verzekeringen.html.jade",
-				"/home/baal/customers/tredius/src/documents/diensten/salaris-en-personeel.html.jade",
-				"/home/baal/customers/tredius/src/documents/diensten/juridisch-abonnement.html.jade",
-				"/home/baal/customers/tredius/src/documents/diensten/debiteurenbeheer/stub.html.coffee",
-				"/home/baal/customers/tredius/src/documents/diensten/accountancy.html.jade",
-				"/home/baal/customers/tredius/src/documents/diensten/risicoadvies-en-pensioen.html.jade",
-				"/home/baal/customers/tredius/src/documents/diensten/pensioen.jade",
-				"/home/baal/customers/tredius/src/documents/diensten/pensioenadvies.html.jade",
-				"/home/baal/customers/tredius/src/documents/diensten/pensioen.html.jade",
-				"/home/baal/customers/tredius/out/stijlen/algemeen.css",
-				"/home/baal/customers/tredius/src/documents/stijlen/algemeen.css.styl",
-				"/home/baal/customers/tredius/src/documents/stijlen/navigatie.styl",
-				"/home/baal/customers/tredius/src/documents/stijlen/voetblokken.styl",
-				"/home/baal/customers/tredius/src/documents/t-time/nieuwsbrief/2013/april/willekeurige-afschrijving.html.md",
-				"/home/baal/customers/tredius/src/documents/t-time/nieuwsbrief/2013/april/verzuimboete-aangifte.html.md",
-				"/home/baal/customers/tredius/src/documents/diensten/debiteurenbeheer/__stub__.html.coffee",
-				"/home/baal/customers/tredius/src/documents/t-time/nieuwsbrief/2013/april/invoer-verhuurdersheffing.html.md",
-				"/home/baal/customers/tredius/src/documents/t-time/nieuwsbrief/2013/april/interview-rene-goeth.html.md",
-				"/home/baal/customers/tredius/src/documents/t-time/nieuwsbrief/2013/april/interview-rene-goeth.html.coffee",
-				"/home/baal/customers/tredius/src/documents/t-time/nieuwsbrief/2013/april/1301c-verzuimboete-aangifte.html.md",
-				"/home/baal/customers/tredius/src/documents/t-time/nieuwsbrief/nieuwsbrief.html.coffee",
-				"/home/baal/customers/tredius/lib/vimeoAjaxCoffee",
-				"/home/baal/Dotfiles/sublime-text-2/Packages/User/Preferences.sublime-settings",
-				"/home/baal/customers/tredius/lib/records/base64",
-				"/home/baal/customers/tredius/src/documents/t-time/nieuwsbrief/2013/april/1301b-invoer-verhuurdersheffing.html.md",
-				"/home/baal/customers/tredius/src/documents/t-time/nieuwsbrief/2013/april/1301a-willekeurige-afschrijving.html.md",
-				"/home/baal/customers/tredius/src/documents/t-time/nieuwsbrief/2013/april/verhuurdersheffing-ingevoerd.html.md",
-				"/home/baal/customers/tredius/src/documents/t-time/nieuwsbrief/2013/april/1301a-invoer-verhuurdersheffing.html.md",
-				"/home/baal/customers/tredius/src/layouts/handleiding.litcoffee",
-				"/home/baal/Dotfiles/sublime-text-2/Packages/Color Scheme - Default/Monokai.tmTheme",
-				"/home/baal/Dotfiles/sublime-text-2/Packages/Color Scheme - Default/Monokai Bright.tmTheme",
-				"/home/baal/customers/tredius/src/layouts/standaard2.html.litcoffee",
-				"/home/baal/customers/tredius/lib/records/bak-out/index.html",
-				"/home/baal/tmp/docpad.coffee",
-				"/home/baal/tmp/src/layouts/default.html.coffee",
-				"/home/baal/customer/tredius",
-				"/srv/customers/tredius/lib/records/postzegel.txt",
-				"/srv/customers/tredius/docpad.coffee",
-				"/srv/customers/tredius/src/layouts/standaard.html.coffee",
-				"/srv/customers/tredius/lib/records/nieuwsbrief.html.jade",
-				"/srv/customers/tredius/src/partials/blok/voettekst.html.coffee",
-				"/srv/customers/tredius/src/partials/blok/multimedia.html.coffee",
-				"/srv/customers/tredius/src/documents/t-time/nieuwsbrief/2013/april/verhuurdersheffing-ingevoerd.html.md",
-				"/srv/customers/tredius/src/documents/t-time/nieuwsbrief/2013/april/fiscale-regels-willekeurige-afschrijving.html.md",
-				"/srv/customers/tredius/src/documents/t-time/nieuwsbrief/2013/april/verzuimboete-aangifte-belastingen.html.md",
-				"/srv/customers/tredius/src/layouts/nieuwsbrief.html.jade",
-				"/srv/customers/tredius/src/documents/diensten/accountancy.html.jade",
-				"/srv/customers/tredius/src/partials/blok/navigatie.html.coffee",
-				"/srv/customers/tredius/src/layouts/page.html.coffee",
-				"/srv/customers/tredius/src/documents/t-time/nieuwsbrief/blog.html.coffee",
-				"/home/baal/Dotfiles/sublime-text-2/Packages/sublime-better-coffeescript/CoffeeScript.sublime-settings"
+				"/home/baal/customers/tredius/src/documents/diensten/juridisch-advies.html.jade"
 			],
 			"find":
 			{
@@ -712,6 +863,7 @@
 				"height": 0.0,
 				"where_history":
 				[
+					"~/customers/tredius/bron/documenten/stijlen",
 					"~/customers/tredius/bron/",
 					"~/customers/tredius/bron/documenten/",
 					"~/customers/tredius/bron/documenten/stijl",
@@ -727,9 +879,32 @@
 			},
 			"find_state":
 			{
-				"case_sensitive": false,
+				"case_sensitive": true,
 				"find_history":
 				[
+					"mediaband",
+					"./",
+					"bannier",
+					"logo",
+					"margin 0 auto;",
+					"auto",
+					"center",
+					"600px",
+					"Tredius v",
+					"940px",
+					"T-TIM",
+					"Inlogg",
+					"inloggen",
+					"&raquo;",
+					"com",
+					"none",
+					"#{@document.pathtoroot}",
+					"#{document.pathtoroot}",
+					"#{@document.pathtoroot}",
+					"pwd +",
+					"#{@document.pathtoroot}",
+					":",
+					";",
 					"h ",
 					".ttColumnTegel-vak",
 					"clear",
@@ -820,9 +995,16 @@
 				"highlight": true,
 				"in_selection": false,
 				"preserve_case": false,
-				"regex": true,
+				"regex": false,
 				"replace_history":
 				[
+					"800px",
+					"600px",
+					"»",
+					"",
+					" ",
+					"",
+					" ",
 					"",
 					" ",
 					"ttVideoC",
@@ -851,13 +1033,1056 @@
 			"groups":
 			[
 				{
+					"selected": 2,
 					"sheets":
 					[
+						{
+							"buffer": 0,
+							"file": "/home/baal/customers/tredius/bron/documenten/diensten/debiteurenbeheer/abonnement.html.coffee",
+							"settings":
+							{
+								"buffer_size": 1441,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1275,
+										1275
+									]
+								],
+								"settings":
+								{
+									"annotations":
+									[
+										"TODO",
+										"README",
+										"FIXME"
+									],
+									"csslint_options":
+									{
+										"adjoining-classes": "warning",
+										"box-model": true,
+										"box-sizing": "warning",
+										"compatible-vendor-prefixes": "warning",
+										"display-property-grouping": true,
+										"duplicate-background-images": "warning",
+										"duplicate-properties": true,
+										"empty-rules": true,
+										"errors": true,
+										"fallback-colors": "warning",
+										"floats": "warning",
+										"font-faces": "warning",
+										"font-sizes": "warning",
+										"gradients": "warning",
+										"ids": "warning",
+										"import": "warning",
+										"important": "warning",
+										"known-properties": true,
+										"outline-none": "warning",
+										"overqualified-elements": "warning",
+										"qualified-headings": "warning",
+										"regex-selectors": "warning",
+										"rules-count": "warning",
+										"shorthand": "warning",
+										"star-property-hack": "warning",
+										"text-indent": "warning",
+										"underscore-property-hack": "warning",
+										"unique-headings": "warning",
+										"universal-selector": "warning",
+										"vendor-prefix": true,
+										"zero-units": "warning"
+									},
+									"gjslint_ignore":
+									[
+										110
+									],
+									"gjslint_options":
+									[
+									],
+									"javascript_linter": "jshint",
+									"jshint_options":
+									{
+										"browser": true,
+										"evil": true,
+										"regexdash": true,
+										"sub": true,
+										"trailing": true,
+										"wsh": true
+									},
+									"pep8": true,
+									"pep8_ignore":
+									[
+										"E501"
+									],
+									"perl_linter": "perlcritic",
+									"pyflakes_ignore":
+									[
+									],
+									"pyflakes_ignore_import_*": true,
+									"sublimelinter": true,
+									"sublimelinter_delay": 2,
+									"sublimelinter_disable":
+									[
+									],
+									"sublimelinter_executable_map":
+									{
+									},
+									"sublimelinter_fill_outlines": false,
+									"sublimelinter_gutter_marks": false,
+									"sublimelinter_mark_style": "outline",
+									"sublimelinter_notes": false,
+									"sublimelinter_objj_check_ascii": false,
+									"sublimelinter_popup_errors_on_save": false,
+									"sublimelinter_syntax_map":
+									{
+										"C++": "c",
+										"Python Django": "python",
+										"Ruby on Rails": "ruby"
+									},
+									"sublimelinter_wrap_find": true,
+									"syntax": "Packages/CoffeeScript/CoffeeScript.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/baal/customers/tredius/bron/partials/blok/navigatie.html.coffee",
+							"settings":
+							{
+								"buffer_size": 5347,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										3169,
+										3169
+									]
+								],
+								"settings":
+								{
+									"annotations":
+									[
+										"TODO",
+										"README",
+										"FIXME"
+									],
+									"csslint_options":
+									{
+										"adjoining-classes": "warning",
+										"box-model": true,
+										"box-sizing": "warning",
+										"compatible-vendor-prefixes": "warning",
+										"display-property-grouping": true,
+										"duplicate-background-images": "warning",
+										"duplicate-properties": true,
+										"empty-rules": true,
+										"errors": true,
+										"fallback-colors": "warning",
+										"floats": "warning",
+										"font-faces": "warning",
+										"font-sizes": "warning",
+										"gradients": "warning",
+										"ids": "warning",
+										"import": "warning",
+										"important": "warning",
+										"known-properties": true,
+										"outline-none": "warning",
+										"overqualified-elements": "warning",
+										"qualified-headings": "warning",
+										"regex-selectors": "warning",
+										"rules-count": "warning",
+										"shorthand": "warning",
+										"star-property-hack": "warning",
+										"text-indent": "warning",
+										"underscore-property-hack": "warning",
+										"unique-headings": "warning",
+										"universal-selector": "warning",
+										"vendor-prefix": true,
+										"zero-units": "warning"
+									},
+									"gjslint_ignore":
+									[
+										110
+									],
+									"gjslint_options":
+									[
+									],
+									"javascript_linter": "jshint",
+									"jshint_options":
+									{
+										"browser": true,
+										"evil": true,
+										"regexdash": true,
+										"sub": true,
+										"trailing": true,
+										"wsh": true
+									},
+									"pep8": true,
+									"pep8_ignore":
+									[
+										"E501"
+									],
+									"perl_linter": "perlcritic",
+									"pyflakes_ignore":
+									[
+									],
+									"pyflakes_ignore_import_*": true,
+									"sublimelinter": true,
+									"sublimelinter_delay": 2,
+									"sublimelinter_disable":
+									[
+									],
+									"sublimelinter_executable_map":
+									{
+									},
+									"sublimelinter_fill_outlines": false,
+									"sublimelinter_gutter_marks": false,
+									"sublimelinter_mark_style": "outline",
+									"sublimelinter_notes": false,
+									"sublimelinter_objj_check_ascii": false,
+									"sublimelinter_popup_errors_on_save": false,
+									"sublimelinter_syntax_map":
+									{
+										"C++": "c",
+										"Python Django": "python",
+										"Ruby on Rails": "ruby"
+									},
+									"sublimelinter_wrap_find": true,
+									"syntax": "Packages/CoffeeScript/CoffeeScript.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 71.0,
+								"translation.y": 453.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/home/baal/customers/tredius/docpad.coffee",
+							"settings":
+							{
+								"buffer_size": 11289,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										4255,
+										4255
+									]
+								],
+								"settings":
+								{
+									"annotations":
+									[
+										"TODO",
+										"README",
+										"FIXME"
+									],
+									"csslint_options":
+									{
+										"adjoining-classes": "warning",
+										"box-model": true,
+										"box-sizing": "warning",
+										"compatible-vendor-prefixes": "warning",
+										"display-property-grouping": true,
+										"duplicate-background-images": "warning",
+										"duplicate-properties": true,
+										"empty-rules": true,
+										"errors": true,
+										"fallback-colors": "warning",
+										"floats": "warning",
+										"font-faces": "warning",
+										"font-sizes": "warning",
+										"gradients": "warning",
+										"ids": "warning",
+										"import": "warning",
+										"important": "warning",
+										"known-properties": true,
+										"outline-none": "warning",
+										"overqualified-elements": "warning",
+										"qualified-headings": "warning",
+										"regex-selectors": "warning",
+										"rules-count": "warning",
+										"shorthand": "warning",
+										"star-property-hack": "warning",
+										"text-indent": "warning",
+										"underscore-property-hack": "warning",
+										"unique-headings": "warning",
+										"universal-selector": "warning",
+										"vendor-prefix": true,
+										"zero-units": "warning"
+									},
+									"gjslint_ignore":
+									[
+										110
+									],
+									"gjslint_options":
+									[
+									],
+									"javascript_linter": "jshint",
+									"jshint_options":
+									{
+										"browser": true,
+										"evil": true,
+										"regexdash": true,
+										"sub": true,
+										"trailing": true,
+										"wsh": true
+									},
+									"pep8": true,
+									"pep8_ignore":
+									[
+										"E501"
+									],
+									"perl_linter": "perlcritic",
+									"pyflakes_ignore":
+									[
+									],
+									"pyflakes_ignore_import_*": true,
+									"sublimelinter": true,
+									"sublimelinter_delay": 2,
+									"sublimelinter_disable":
+									[
+									],
+									"sublimelinter_executable_map":
+									{
+									},
+									"sublimelinter_fill_outlines": false,
+									"sublimelinter_gutter_marks": false,
+									"sublimelinter_mark_style": "outline",
+									"sublimelinter_notes": false,
+									"sublimelinter_objj_check_ascii": false,
+									"sublimelinter_popup_errors_on_save": false,
+									"sublimelinter_syntax_map":
+									{
+										"C++": "c",
+										"Python Django": "python",
+										"Ruby on Rails": "ruby"
+									},
+									"sublimelinter_wrap_find": true,
+									"syntax": "Packages/CoffeeScript/CoffeeScript.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 1386.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "/home/baal/customers/tredius/bron/documenten/diensten/debiteurenbeheer/index.html.coffee",
+							"settings":
+							{
+								"buffer_size": 1836,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										933,
+										933
+									]
+								],
+								"settings":
+								{
+									"annotations":
+									[
+										"TODO",
+										"README",
+										"FIXME"
+									],
+									"csslint_options":
+									{
+										"adjoining-classes": "warning",
+										"box-model": true,
+										"box-sizing": "warning",
+										"compatible-vendor-prefixes": "warning",
+										"display-property-grouping": true,
+										"duplicate-background-images": "warning",
+										"duplicate-properties": true,
+										"empty-rules": true,
+										"errors": true,
+										"fallback-colors": "warning",
+										"floats": "warning",
+										"font-faces": "warning",
+										"font-sizes": "warning",
+										"gradients": "warning",
+										"ids": "warning",
+										"import": "warning",
+										"important": "warning",
+										"known-properties": true,
+										"outline-none": "warning",
+										"overqualified-elements": "warning",
+										"qualified-headings": "warning",
+										"regex-selectors": "warning",
+										"rules-count": "warning",
+										"shorthand": "warning",
+										"star-property-hack": "warning",
+										"text-indent": "warning",
+										"underscore-property-hack": "warning",
+										"unique-headings": "warning",
+										"universal-selector": "warning",
+										"vendor-prefix": true,
+										"zero-units": "warning"
+									},
+									"gjslint_ignore":
+									[
+										110
+									],
+									"gjslint_options":
+									[
+									],
+									"javascript_linter": "jshint",
+									"jshint_options":
+									{
+										"browser": true,
+										"evil": true,
+										"regexdash": true,
+										"sub": true,
+										"trailing": true,
+										"wsh": true
+									},
+									"pep8": true,
+									"pep8_ignore":
+									[
+										"E501"
+									],
+									"perl_linter": "perlcritic",
+									"pyflakes_ignore":
+									[
+									],
+									"pyflakes_ignore_import_*": true,
+									"sublimelinter": true,
+									"sublimelinter_delay": 2,
+									"sublimelinter_disable":
+									[
+									],
+									"sublimelinter_executable_map":
+									{
+									},
+									"sublimelinter_fill_outlines": false,
+									"sublimelinter_gutter_marks": false,
+									"sublimelinter_mark_style": "outline",
+									"sublimelinter_notes": false,
+									"sublimelinter_objj_check_ascii": false,
+									"sublimelinter_popup_errors_on_save": false,
+									"sublimelinter_syntax_map":
+									{
+										"C++": "c",
+										"Python Django": "python",
+										"Ruby on Rails": "ruby"
+									},
+									"sublimelinter_wrap_find": true,
+									"syntax": "Packages/CoffeeScript/CoffeeScript.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 4,
+							"file": "/home/baal/customers/tredius/bron/partials/blok/multimedia.html.coffee",
+							"settings":
+							{
+								"buffer_size": 3473,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"annotations":
+									[
+										"TODO",
+										"README",
+										"FIXME"
+									],
+									"csslint_options":
+									{
+										"adjoining-classes": "warning",
+										"box-model": true,
+										"box-sizing": "warning",
+										"compatible-vendor-prefixes": "warning",
+										"display-property-grouping": true,
+										"duplicate-background-images": "warning",
+										"duplicate-properties": true,
+										"empty-rules": true,
+										"errors": true,
+										"fallback-colors": "warning",
+										"floats": "warning",
+										"font-faces": "warning",
+										"font-sizes": "warning",
+										"gradients": "warning",
+										"ids": "warning",
+										"import": "warning",
+										"important": "warning",
+										"known-properties": true,
+										"outline-none": "warning",
+										"overqualified-elements": "warning",
+										"qualified-headings": "warning",
+										"regex-selectors": "warning",
+										"rules-count": "warning",
+										"shorthand": "warning",
+										"star-property-hack": "warning",
+										"text-indent": "warning",
+										"underscore-property-hack": "warning",
+										"unique-headings": "warning",
+										"universal-selector": "warning",
+										"vendor-prefix": true,
+										"zero-units": "warning"
+									},
+									"gjslint_ignore":
+									[
+										110
+									],
+									"gjslint_options":
+									[
+									],
+									"javascript_linter": "jshint",
+									"jshint_options":
+									{
+										"browser": true,
+										"evil": true,
+										"regexdash": true,
+										"sub": true,
+										"trailing": true,
+										"wsh": true
+									},
+									"pep8": true,
+									"pep8_ignore":
+									[
+										"E501"
+									],
+									"perl_linter": "perlcritic",
+									"pyflakes_ignore":
+									[
+									],
+									"pyflakes_ignore_import_*": true,
+									"sublimelinter": true,
+									"sublimelinter_delay": 2,
+									"sublimelinter_disable":
+									[
+									],
+									"sublimelinter_executable_map":
+									{
+									},
+									"sublimelinter_fill_outlines": false,
+									"sublimelinter_gutter_marks": false,
+									"sublimelinter_mark_style": "outline",
+									"sublimelinter_notes": false,
+									"sublimelinter_objj_check_ascii": false,
+									"sublimelinter_popup_errors_on_save": false,
+									"sublimelinter_syntax_map":
+									{
+										"C++": "c",
+										"Python Django": "python",
+										"Ruby on Rails": "ruby"
+									},
+									"sublimelinter_wrap_find": true,
+									"syntax": "Packages/CoffeeScript/CoffeeScript.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 420.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 5,
+							"file": "/home/baal/customers/tredius/bron/documenten/diensten/debiteurenbeheer/stappenplan.html.coffee",
+							"settings":
+							{
+								"buffer_size": 2983,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										2035,
+										2035
+									]
+								],
+								"settings":
+								{
+									"annotations":
+									[
+										"TODO",
+										"README",
+										"FIXME"
+									],
+									"csslint_options":
+									{
+										"adjoining-classes": "warning",
+										"box-model": true,
+										"box-sizing": "warning",
+										"compatible-vendor-prefixes": "warning",
+										"display-property-grouping": true,
+										"duplicate-background-images": "warning",
+										"duplicate-properties": true,
+										"empty-rules": true,
+										"errors": true,
+										"fallback-colors": "warning",
+										"floats": "warning",
+										"font-faces": "warning",
+										"font-sizes": "warning",
+										"gradients": "warning",
+										"ids": "warning",
+										"import": "warning",
+										"important": "warning",
+										"known-properties": true,
+										"outline-none": "warning",
+										"overqualified-elements": "warning",
+										"qualified-headings": "warning",
+										"regex-selectors": "warning",
+										"rules-count": "warning",
+										"shorthand": "warning",
+										"star-property-hack": "warning",
+										"text-indent": "warning",
+										"underscore-property-hack": "warning",
+										"unique-headings": "warning",
+										"universal-selector": "warning",
+										"vendor-prefix": true,
+										"zero-units": "warning"
+									},
+									"gjslint_ignore":
+									[
+										110
+									],
+									"gjslint_options":
+									[
+									],
+									"javascript_linter": "jshint",
+									"jshint_options":
+									{
+										"browser": true,
+										"evil": true,
+										"regexdash": true,
+										"sub": true,
+										"trailing": true,
+										"wsh": true
+									},
+									"pep8": true,
+									"pep8_ignore":
+									[
+										"E501"
+									],
+									"perl_linter": "perlcritic",
+									"pyflakes_ignore":
+									[
+									],
+									"pyflakes_ignore_import_*": true,
+									"sublimelinter": true,
+									"sublimelinter_delay": 2,
+									"sublimelinter_disable":
+									[
+									],
+									"sublimelinter_executable_map":
+									{
+									},
+									"sublimelinter_fill_outlines": false,
+									"sublimelinter_gutter_marks": false,
+									"sublimelinter_mark_style": "outline",
+									"sublimelinter_notes": false,
+									"sublimelinter_objj_check_ascii": false,
+									"sublimelinter_popup_errors_on_save": false,
+									"sublimelinter_syntax_map":
+									{
+										"C++": "c",
+										"Python Django": "python",
+										"Ruby on Rails": "ruby"
+									},
+									"sublimelinter_wrap_find": true,
+									"syntax": "Packages/CoffeeScript/CoffeeScript.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 294.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						}
 					]
 				},
 				{
+					"selected": 1,
 					"sheets":
 					[
+						{
+							"buffer": 6,
+							"file": "/home/baal/customers/tredius/bron/documenten/stijlen/debiteurenbeheer.styl",
+							"settings":
+							{
+								"buffer_size": 240,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										240,
+										240
+									]
+								],
+								"settings":
+								{
+									"annotations":
+									[
+										"TODO",
+										"README",
+										"FIXME"
+									],
+									"auto_indent": true,
+									"csslint_options":
+									{
+										"adjoining-classes": "warning",
+										"box-model": true,
+										"box-sizing": "warning",
+										"compatible-vendor-prefixes": "warning",
+										"display-property-grouping": true,
+										"duplicate-background-images": "warning",
+										"duplicate-properties": true,
+										"empty-rules": true,
+										"errors": true,
+										"fallback-colors": "warning",
+										"floats": "warning",
+										"font-faces": "warning",
+										"font-sizes": "warning",
+										"gradients": "warning",
+										"ids": "warning",
+										"import": "warning",
+										"important": "warning",
+										"known-properties": true,
+										"outline-none": "warning",
+										"overqualified-elements": "warning",
+										"qualified-headings": "warning",
+										"regex-selectors": "warning",
+										"rules-count": "warning",
+										"shorthand": "warning",
+										"star-property-hack": "warning",
+										"text-indent": "warning",
+										"underscore-property-hack": "warning",
+										"unique-headings": "warning",
+										"universal-selector": "warning",
+										"vendor-prefix": true,
+										"zero-units": "warning"
+									},
+									"gjslint_ignore":
+									[
+										110
+									],
+									"gjslint_options":
+									[
+									],
+									"javascript_linter": "jshint",
+									"jshint_options":
+									{
+										"browser": true,
+										"evil": true,
+										"regexdash": true,
+										"sub": true,
+										"trailing": true,
+										"wsh": true
+									},
+									"pep8": true,
+									"pep8_ignore":
+									[
+										"E501"
+									],
+									"perl_linter": "perlcritic",
+									"pyflakes_ignore":
+									[
+									],
+									"pyflakes_ignore_import_*": true,
+									"sublimelinter": true,
+									"sublimelinter_delay": 2,
+									"sublimelinter_disable":
+									[
+									],
+									"sublimelinter_executable_map":
+									{
+									},
+									"sublimelinter_fill_outlines": false,
+									"sublimelinter_gutter_marks": false,
+									"sublimelinter_mark_style": "outline",
+									"sublimelinter_notes": false,
+									"sublimelinter_objj_check_ascii": false,
+									"sublimelinter_popup_errors_on_save": false,
+									"sublimelinter_syntax_map":
+									{
+										"C++": "c",
+										"Python Django": "python",
+										"Ruby on Rails": "ruby"
+									},
+									"sublimelinter_wrap_find": true,
+									"syntax": "Packages/Stylus/Stylus.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 7,
+							"file": "/home/baal/customers/tredius/bron/documenten/stijlen/basisstijlen.styl",
+							"settings":
+							{
+								"buffer_size": 4249,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1988,
+										1988
+									]
+								],
+								"settings":
+								{
+									"annotations":
+									[
+										"TODO",
+										"README",
+										"FIXME"
+									],
+									"csslint_options":
+									{
+										"adjoining-classes": "warning",
+										"box-model": true,
+										"box-sizing": "warning",
+										"compatible-vendor-prefixes": "warning",
+										"display-property-grouping": true,
+										"duplicate-background-images": "warning",
+										"duplicate-properties": true,
+										"empty-rules": true,
+										"errors": true,
+										"fallback-colors": "warning",
+										"floats": "warning",
+										"font-faces": "warning",
+										"font-sizes": "warning",
+										"gradients": "warning",
+										"ids": "warning",
+										"import": "warning",
+										"important": "warning",
+										"known-properties": true,
+										"outline-none": "warning",
+										"overqualified-elements": "warning",
+										"qualified-headings": "warning",
+										"regex-selectors": "warning",
+										"rules-count": "warning",
+										"shorthand": "warning",
+										"star-property-hack": "warning",
+										"text-indent": "warning",
+										"underscore-property-hack": "warning",
+										"unique-headings": "warning",
+										"universal-selector": "warning",
+										"vendor-prefix": true,
+										"zero-units": "warning"
+									},
+									"gjslint_ignore":
+									[
+										110
+									],
+									"gjslint_options":
+									[
+									],
+									"javascript_linter": "jshint",
+									"jshint_options":
+									{
+										"browser": true,
+										"evil": true,
+										"regexdash": true,
+										"sub": true,
+										"trailing": true,
+										"wsh": true
+									},
+									"pep8": true,
+									"pep8_ignore":
+									[
+										"E501"
+									],
+									"perl_linter": "perlcritic",
+									"pyflakes_ignore":
+									[
+									],
+									"pyflakes_ignore_import_*": true,
+									"sublimelinter": true,
+									"sublimelinter_delay": 2,
+									"sublimelinter_disable":
+									[
+									],
+									"sublimelinter_executable_map":
+									{
+									},
+									"sublimelinter_fill_outlines": false,
+									"sublimelinter_gutter_marks": false,
+									"sublimelinter_mark_style": "outline",
+									"sublimelinter_notes": false,
+									"sublimelinter_objj_check_ascii": false,
+									"sublimelinter_popup_errors_on_save": false,
+									"sublimelinter_syntax_map":
+									{
+										"C++": "c",
+										"Python Django": "python",
+										"Ruby on Rails": "ruby"
+									},
+									"sublimelinter_wrap_find": true,
+									"syntax": "Packages/Stylus/Stylus.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 1713.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 8,
+							"file": "/home/baal/customers/tredius/bron/documenten/stijlen/voorpagina.styl",
+							"settings":
+							{
+								"buffer_size": 11631,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										416,
+										416
+									]
+								],
+								"settings":
+								{
+									"annotations":
+									[
+										"TODO",
+										"README",
+										"FIXME"
+									],
+									"csslint_options":
+									{
+										"adjoining-classes": "warning",
+										"box-model": true,
+										"box-sizing": "warning",
+										"compatible-vendor-prefixes": "warning",
+										"display-property-grouping": true,
+										"duplicate-background-images": "warning",
+										"duplicate-properties": true,
+										"empty-rules": true,
+										"errors": true,
+										"fallback-colors": "warning",
+										"floats": "warning",
+										"font-faces": "warning",
+										"font-sizes": "warning",
+										"gradients": "warning",
+										"ids": "warning",
+										"import": "warning",
+										"important": "warning",
+										"known-properties": true,
+										"outline-none": "warning",
+										"overqualified-elements": "warning",
+										"qualified-headings": "warning",
+										"regex-selectors": "warning",
+										"rules-count": "warning",
+										"shorthand": "warning",
+										"star-property-hack": "warning",
+										"text-indent": "warning",
+										"underscore-property-hack": "warning",
+										"unique-headings": "warning",
+										"universal-selector": "warning",
+										"vendor-prefix": true,
+										"zero-units": "warning"
+									},
+									"gjslint_ignore":
+									[
+										110
+									],
+									"gjslint_options":
+									[
+									],
+									"javascript_linter": "jshint",
+									"jshint_options":
+									{
+										"browser": true,
+										"evil": true,
+										"regexdash": true,
+										"sub": true,
+										"trailing": true,
+										"wsh": true
+									},
+									"pep8": true,
+									"pep8_ignore":
+									[
+										"E501"
+									],
+									"perl_linter": "perlcritic",
+									"pyflakes_ignore":
+									[
+									],
+									"pyflakes_ignore_import_*": true,
+									"sublimelinter": true,
+									"sublimelinter_delay": 2,
+									"sublimelinter_disable":
+									[
+									],
+									"sublimelinter_executable_map":
+									{
+									},
+									"sublimelinter_fill_outlines": false,
+									"sublimelinter_gutter_marks": false,
+									"sublimelinter_mark_style": "outline",
+									"sublimelinter_notes": false,
+									"sublimelinter_objj_check_ascii": false,
+									"sublimelinter_popup_errors_on_save": false,
+									"sublimelinter_syntax_map":
+									{
+										"C++": "c",
+										"Python Django": "python",
+										"Ruby on Rails": "ruby"
+									},
+									"sublimelinter_wrap_find": true,
+									"syntax": "Packages/Stylus/Stylus.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 252.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						}
 					]
 				}
 			],
@@ -889,7 +2114,7 @@
 				"cols":
 				[
 					0.0,
-					0.739267213771,
+					0.677360183222,
 					1.0
 				],
 				"rows":
@@ -915,7 +2140,7 @@
 			{
 				"height": 94.0
 			},
-			"position": "0,0,0,0,0,0,0,1276,1020,2880,1024",
+			"position": "0,0,0,0,0,1296,180,2824,907,2880,1024",
 			"replace":
 			{
 				"height": 62.0
@@ -941,7 +2166,7 @@
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 307.0,
+			"side_bar_width": 317.0,
 			"status_bar_visible": true,
 			"window_id": 17,
 			"workspace_name": ""

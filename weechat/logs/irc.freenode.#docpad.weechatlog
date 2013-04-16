@@ -11225,3 +11225,135 @@
 2013-04-14 02:16:23	supersym	i'll keep you posted
 2013-04-14 02:58:56	<--	urlwolf__ (~quassel@g231115011.adsl.alicedsl.de) has quit (Remote host closed the connection)
 2013-04-14 05:42:38	<--	urlwolf___ (~quassel@g231115011.adsl.alicedsl.de) has quit (Ping timeout: 255 seconds)
+2013-04-14 08:06:40	-->	ipetrovilya (~quassel@dyn-27-166.e-sky.ru) has joined #docpad
+2013-04-14 11:30:59	<--	ipetrovilya (~quassel@dyn-27-166.e-sky.ru) has quit (Read error: Connection reset by peer)
+2013-04-14 11:35:57	--	irc: disconnected from server
+2013-04-14 16:37:13	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #docpad
+2013-04-14 16:37:13	--	Topic for #docpad is "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-04-14 16:37:13	--	Topic set by balupton (uid6783@gateway/web/irccloud.com/x-cbtpwjksctndjgtn) on Fri, 28 Dec 2012 12:22:24
+2013-04-14 16:37:13	--	Nicks #docpad: [ashnur balupton Chase_the_Dev elf-pavlik EricLeslie jgm nexusIX spanners supersym urlwolf]
+2013-04-14 16:37:13	--	Channel #docpad: 10 nicks (0 ops, 0 halfops, 0 voices, 10 normals)
+2013-04-14 16:37:17	--	Mode #docpad [+t]
+2013-04-14 16:37:17	--	Channel created on Sat, 26 May 2012 12:12:13
+2013-04-14 16:48:29	-->	ipetrovilya (~quassel@dyn-53-225.e-sky.ru) has joined #docpad
+2013-04-14 17:19:07	<--	ashnur (~ashnur@79.117.85.229) has quit (Quit: WeeChat 0.4.0)
+2013-04-14 17:49:24	<--	urlwolf (~quassel@g231115011.adsl.alicedsl.de) has quit (Remote host closed the connection)
+2013-04-14 17:52:58	supersym	do we have a format/canonical solution for the gh-pages relative url mess?
+2013-04-14 17:53:17	supersym	great new plugin for pushing to gh-pages btw @balupton thumbs up :)
+2013-04-14 18:21:05	supersym	god I hate my designer friend... why the fck does he want HTML emails
+2013-04-14 18:21:13	supersym	*cry*
+2013-04-14 18:57:14	-->	kaspertidemann (~Kasper@2605ds2-bav.0.fullrate.dk) has joined #docpad
+2013-04-14 20:08:04	<--	kaspertidemann (~Kasper@2605ds2-bav.0.fullrate.dk) has quit (Quit: kaspertidemann)
+2013-04-14 22:32:25	-->	urlwolf (~quassel@g231115011.adsl.alicedsl.de) has joined #docpad
+2013-04-14 22:51:27	-->	urlwolf_ (~quassel@e179044074.adsl.alicedsl.de) has joined #docpad
+2013-04-14 22:55:48	<--	urlwolf (~quassel@g231115011.adsl.alicedsl.de) has quit (Ping timeout: 256 seconds)
+2013-04-14 22:58:04	--	Notice(GitHub10): [docpad-documentation] mgroves84 opened pull request #21: Updated docs to match move from Make to Cake (master...master)  http://git.io/-Q7jMw
+2013-04-14 23:44:31	-->	ashnur (~ashnur@79.117.85.229) has joined #docpad
+2013-04-14 23:54:29	<--	urlwolf_ (~quassel@e179044074.adsl.alicedsl.de) has quit (Remote host closed the connection)
+2013-04-15 00:07:23	<--	ipetrovilya (~quassel@dyn-53-225.e-sky.ru) has quit (Ping timeout: 255 seconds)
+2013-04-15 00:20:37	-->	kaspertidemann (~Kasper@2605ds2-bav.0.fullrate.dk) has joined #docpad
+2013-04-15 00:21:15	-->	mgroves (4c1625e2@gateway/web/freenode/ip.76.22.37.226) has joined #docpad
+2013-04-15 00:23:58	mgroves	Is there special setup to get the tests to run for docpad plugins? 
+2013-04-15 00:24:38	ashnur	yes and no
+2013-04-15 00:24:45	supersym	not that I know of... but checkout some of baluptons projects
+2013-04-15 00:25:45	ashnur	yes, because the official reccomendations are saying that you should clone the docpad repo and use that, but actually, i could test my plugin just by installing docpad in that dir, and installing the devdependencies for the tests
+2013-04-15 00:25:47	supersym	or anyway... it used to be the idea, to have plugins pass a certain few test.
+2013-04-15 00:25:59	mgroves	I am trying to write my own plugin but having problems getting the tests to work. so I pulled down docpad-plugin-partials and that fails the same way
+2013-04-15 00:26:00	supersym	:)
+2013-04-15 00:26:01	ashnur	but it's certainly worth checking the docpad.org site out for this
+2013-04-15 00:26:12	supersym	some might be older tests
+2013-04-15 00:26:24	supersym	balupton used a few different ones to try out I guess
+2013-04-15 00:27:00	mgroves	ok I'll keep digging 
+2013-04-15 00:43:25	<--	mgroves (4c1625e2@gateway/web/freenode/ip.76.22.37.226) has quit (Quit: Page closed)
+2013-04-15 00:54:47	<--	kaspertidemann (~Kasper@2605ds2-bav.0.fullrate.dk) has quit (Quit: kaspertidemann)
+2013-04-15 01:03:12	--	Notice(GitHub127): [docpad-documentation] balupton pushed 2 new commits to master: http://git.io/iz0ltQ
+2013-04-15 01:03:12	--	Notice(GitHub127): docpad-documentation/master 329bc03 Mark Groves: Updated docs to match move from Make to Cake
+2013-04-15 01:03:12	--	Notice(GitHub127): docpad-documentation/master a6bb39f Benjamin Arthur Lupton: Merge pull request #21 from mgroves84/master...
+2013-04-15 01:03:57	--	Notice(GitHub43): [docpad-documentation] balupton pushed 2 new commits to master: http://git.io/l2UgSg
+2013-04-15 01:03:57	--	Notice(GitHub43): docpad-documentation/master 52e4730 gliesche: Update showcase.html.md...
+2013-04-15 01:03:57	--	Notice(GitHub43): docpad-documentation/master 3cf9db1 Benjamin Arthur Lupton: Merge pull request #20 from gliesche/patch-1...
+2013-04-15 05:18:12	-->	ipetrovilya (~quassel@dyn-7-154.e-sky.ru) has joined #docpad
+2013-04-15 05:27:54	<--	ipetrovilya (~quassel@dyn-7-154.e-sky.ru) has quit (Ping timeout: 245 seconds)
+2013-04-15 05:59:49	-->	ipetrovilya (~quassel@212.220.105.4) has joined #docpad
+2013-04-15 07:40:09	-->	ipetrovilya_ (~quassel@212.220.105.4) has joined #docpad
+2013-04-15 07:42:04	<--	ipetrovilya (~quassel@212.220.105.4) has quit (Ping timeout: 245 seconds)
+2013-04-15 07:44:12	-->	ipetrovilya (~quassel@212.220.105.4) has joined #docpad
+2013-04-15 07:46:50	<--	ipetrovilya_ (~quassel@212.220.105.4) has quit (Ping timeout: 246 seconds)
+2013-04-15 12:14:45	<--	ashnur (~ashnur@79.117.85.229) has quit (Quit: WeeChat 0.4.0)
+2013-04-15 12:15:06	-->	ashnur (~ashnur@79.117.85.229) has joined #docpad
+2013-04-15 13:25:46	-->	ipetrovilya_ (~quassel@212.220.105.4) has joined #docpad
+2013-04-15 13:26:01	<--	ipetrovilya_ (~quassel@212.220.105.4) has quit (Read error: Connection reset by peer)
+2013-04-15 14:04:37	<--	ashnur (~ashnur@79.117.85.229) has quit (Quit: WeeChat 0.4.0)
+2013-04-15 14:06:41	<--	ipetrovilya (~quassel@212.220.105.4) has quit (Read error: Connection reset by peer)
+2013-04-15 14:10:22	-->	ashnur (~ashnur@79.117.85.229) has joined #docpad
+2013-04-15 14:28:30	--	irc: disconnected from server
+2013-04-15 14:28:57	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #docpad
+2013-04-15 14:28:58	--	Topic for #docpad is "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-04-15 14:28:58	--	Topic set by balupton (uid6783@gateway/web/irccloud.com/x-cbtpwjksctndjgtn) on Fri, 28 Dec 2012 12:22:24
+2013-04-15 14:28:58	--	Nicks #docpad: [ashnur balupton Chase_the_Dev elf-pavlik EricLeslie jgm nexusIX RevisionZero spanners supersym]
+2013-04-15 14:28:58	--	Channel #docpad: 10 nicks (0 ops, 0 halfops, 0 voices, 10 normals)
+2013-04-15 14:29:09	--	Mode #docpad [+t]
+2013-04-15 14:29:10	--	Channel created on Sat, 26 May 2012 12:12:13
+2013-04-15 14:29:13	RevisionZero	Anyone have any experience using the AssociatedFiles plugin for docpad?
+2013-04-15 14:29:33	ashnur	i tried but realized i don't need it
+2013-04-15 14:32:03	RevisionZero	Oh, what did you do instead? I made a 'projects' dir with a bunch of sub-dir folders for each project, each sub-dir contains a info.html.md and my hope was to also store any images per project in each sub-dir folder. However, I am running into a bit of trouble trying to auto-load the images that are in each respective sub-dir for use in a 'gallery' type display per project. 
+2013-04-15 14:32:37	RevisionZero	I originally defined a thumbnail in the info.html.md metadata but I was hoping for a more automatic approach
+2013-04-15 14:33:29	ashnur	i wanted a different feature than what it was providing
+2013-04-15 14:36:04	ashnur	my solution was that i had dirs for each article, which i had in documents and in files, in the html i had relative urls
+2013-04-15 14:41:27	RevisionZero	Oh I see. Yea I may be able to apply a similiar approach here. I just was hoping to remove the need to define anything when it comes to assets per project, such as images. Would you mind if I post a snippet of code and see if you have any ideas as to a solution though? I think it may be something simple I am overlooking, as everything but the associatedFiles aspect is 100% working
+2013-04-15 14:42:41	ashnur	if you use gist 
+2013-04-15 14:42:43	ashnur	then no
+2013-04-15 14:42:45	ashnur	;)
+2013-04-15 14:43:22	ashnur	not sure how much help i can give though, so better to not have to high expectations :)
+2013-04-15 14:44:05	RevisionZero	haha, got a thing against Gist? I don't expect much, so don't worry you won't disappoint. =P
+2013-04-15 14:44:31	ashnur	no. i like gist, that's what i am saying
+2013-04-15 14:45:13	RevisionZero	Oh, wow yea I misread that, oops. I see what you were saying now. Ok, one min and Ill post a link
+2013-04-15 14:47:50	RevisionZero	Ok, so I have tried a few variants of this. However, essentially this explains what I am trying to do. https://gist.github.com/austinkettner/5387798
+2013-04-15 14:48:16	RevisionZero	Using the associatedFiles plugin, however I am unsure how to do a single document 'associatedFiles' call
+2013-04-15 14:48:58	ashnur	i don't know either
+2013-04-15 14:49:11	ashnur	as I said, i avoided that plugin completely
+2013-04-15 14:49:44	RevisionZero	Darn, well thanks for taking a look anyhow ashnur. I appreciate it.
+2013-04-15 14:49:48	ashnur	i just stored the images in a dir with the same name, so i could query them very easily
+2013-04-15 14:50:30	RevisionZero	Oh so naming the images all the same every time in each article folder?
+2013-04-15 14:50:41	RevisionZero	that way you knew image1.png always existed?
+2013-04-15 14:50:58	ashnur	no, the image names came from their original name
+2013-04-15 14:51:23	ashnur	but you do not have two images with the same name in an article
+2013-04-15 14:51:26	ashnur	very unlikely
+2013-04-15 14:51:44	ashnur	and you do not have two article-folders with the same name, that is for sure
+2013-04-15 14:51:59	ashnur	so the naming issue just solves itself 
+2013-04-15 14:52:45	RevisionZero	Oh got ya. How did you reference the files relatively, did you reference them from the article.html file? Just curious on the syntax for relative references
+2013-04-15 14:55:12	ashnur	when you upload the images, you usually embed them into the html 
+2013-04-15 14:55:33	ashnur	or any kind of source file you store
+2013-04-15 14:55:52	ashnur	it's just a matter of saving relative to the article
+2013-04-15 14:56:28	ashnur	it's also the easiest way, because otherwise if the article name changes, the urls should also be changed, so i wanted to avoid that too
+2013-04-15 14:58:30	RevisionZero	Oh, yea that is a good point about the article changing. Cool, I will have to do something like this, its a good suggestion.
+2013-04-15 16:24:44	-->	kaspertidemann (~Kasper@2605ds2-bav.0.fullrate.dk) has joined #docpad
+2013-04-15 16:28:26	<--	RevisionZero (~textual@cpe-76-188-201-62.neo.res.rr.com) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2013-04-15 16:51:32	-->	steventrevathan (~steventre@64.119.141.126) has joined #docpad
+2013-04-15 18:07:18	-->	ipetrovilya (~quassel@dyn-1-151.e-sky.ru) has joined #docpad
+2013-04-15 18:27:26	<--	ashnur (~ashnur@79.117.85.229) has quit (Quit: WeeChat 0.4.0)
+2013-04-15 19:32:15	<--	kaspertidemann (~Kasper@2605ds2-bav.0.fullrate.dk) has quit (Quit: kaspertidemann)
+2013-04-15 20:02:00	-->	kaspertidemann (~Kasper@2605ds2-bav.0.fullrate.dk) has joined #docpad
+2013-04-15 20:39:23	<--	ipetrovilya (~quassel@dyn-1-151.e-sky.ru) has quit (Read error: Connection reset by peer)
+2013-04-16 00:16:32	<--	steventrevathan (~steventre@64.119.141.126) has quit (Quit: steventrevathan)
+2013-04-16 00:45:15	<--	kaspertidemann (~Kasper@2605ds2-bav.0.fullrate.dk) has quit (Quit: kaspertidemann)
+2013-04-16 01:38:37	-->	ashnur (~ashnur@79.117.85.229) has joined #docpad
+2013-04-16 02:23:18	-->	steventrevathan (~steventre@c-71-232-16-234.hsd1.ma.comcast.net) has joined #docpad
+2013-04-16 02:37:31	<--	steventrevathan (~steventre@c-71-232-16-234.hsd1.ma.comcast.net) has quit (Read error: Connection reset by peer)
+2013-04-16 02:37:51	-->	steventrevathan (~steventre@c-71-232-16-234.hsd1.ma.comcast.net) has joined #docpad
+2013-04-16 02:38:41	<--	steventrevathan (~steventre@c-71-232-16-234.hsd1.ma.comcast.net) has quit (Client Quit)
+2013-04-16 02:39:25	supersym	cls
+2013-04-16 02:39:49	-->	steventrevathan (~steventre@c-71-232-16-234.hsd1.ma.comcast.net) has joined #docpad
+2013-04-16 03:14:29	-->	ipetrovilya (~quassel@dyn-8-135.e-sky.ru) has joined #docpad
+2013-04-16 03:25:05	<--	ipetrovilya (~quassel@dyn-8-135.e-sky.ru) has quit (Remote host closed the connection)
+2013-04-16 04:18:09	-->	ipetrovilya (~quassel@dyn-8-135.e-sky.ru) has joined #docpad
+2013-04-16 04:37:44	--	irc: disconnected from server
+2013-04-16 05:29:45	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #docpad
+2013-04-16 05:29:45	--	Topic for #docpad is "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-04-16 05:29:45	--	Topic set by balupton (uid6783@gateway/web/irccloud.com/x-cbtpwjksctndjgtn) on Fri, 28 Dec 2012 12:22:24
+2013-04-16 05:29:45	--	Nicks #docpad: [ashnur balupton Chase_the_Dev elf-pavlik EricLeslie ipetrovilya jgm nexusIX spanners supersym]
+2013-04-16 05:29:45	--	Channel #docpad: 10 nicks (0 ops, 0 halfops, 0 voices, 10 normals)
+2013-04-16 05:29:49	--	Mode #docpad [+t]
+2013-04-16 05:29:49	--	Channel created on Sat, 26 May 2012 12:12:13
+2013-04-16 05:32:13	<--	ipetrovilya (~quassel@dyn-8-135.e-sky.ru) has quit (Ping timeout: 240 seconds)
+2013-04-16 05:53:30	-->	ipetrovilya (~quassel@212.220.105.4) has joined #docpad
