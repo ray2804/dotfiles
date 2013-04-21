@@ -654,10 +654,13 @@
 			"buffers":
 			[
 				{
-					"file": "/home/baal/customers/tredius/bron/bouwstenen/widgets/formulieren.html.coffee",
+					"contents": "\nlog = (args...) -> console.log args...\n\nlazy_list = ['achternaam', 'bedrijfsnaam','telefoon']\n\n\n# Dictionary with form defaults API\nform_defaults = [\n\n    { key: \"achternaam\", lbl: ['naam'], len: 24, api: 'col2'\n    , regex: \"[a-zA-Z]{3,23}\", require: true, default: null, example: null},\n\n    { key: \"bedrijfsnaam\", lbl: ['bedrijf'], len: 24, api: 'col4'\n    , regex: \"[a-zA-Z]{3,23}\", require: true, default: null, example: null},\n\n    { key: \"telefoon\", lbl: ['tel','vast'], len: 13, api: 'col'\n    , regex: \"\\d{10,13}\", require: true, default: null, example: null},\n\n    { key: \"mobiel\", lbl: ['gsm','mob'], len: 13, api: 'col'\n    , regex: \"\\d{10,13}\", require: true, default: null, example: null},\n\n    { key: \"email\", lbl: ['mail'], len: 25, api: 'Email'\n    , regex: \"[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,4}\", require: true, default: null, example: null},\n\n    { key: \"postcode\", lbl: ['pc'], len: 8, api: 'col13'\n    , regex: \"[0-9]{4}[A-Z]{2}\", require: true, default: null, example: null}\n\n    { key: \"woonplaats\", lbl: ['plaats'], len: 30, api: 'col11'\n    , regex: \"[a-zA-Z]+\", require: true, default: null, example: null}\n\n    { key: \"straat\", lbl: ['straat'], len: 30, api: 'col9'\n    , regex: \"[a-zA-Z]+\", require: true, default: null, example: null}\n]\n\n#fields = (field.caption for field in form_defaults)\nfor field in form_defaults\n    console.log 'Veld %s met synoniemen %s', field.caption, field.synonyms\n\n\n#    for item in lazy_list\n#        console.log form_defaults[item]?\nfor own key, value in form_defaults\n    log key\n#console.log form_defaults.hasOwnProperty(name)",
+					"file": "/home/baal/customers/tredius/bron/bouwstenen/widgets/tester2.html.coffee",
+					"file_size": 1552,
+					"file_write_time": 1366580562000000,
 					"settings":
 					{
-						"buffer_size": 11352,
+						"buffer_size": 1591,
 						"line_ending": "Unix"
 					}
 				},
@@ -665,18 +668,23 @@
 					"file": "/home/baal/customers/tredius/bron/documenten/diensten/debiteurenbeheer/abonnement.html.coffee",
 					"settings":
 					{
-						"buffer_size": 2579,
+						"buffer_size": 2580,
 						"line_ending": "Unix"
 					}
 				},
 				{
-					"contents": "\nlog = (args...) -> console.log args...\n\n\nautoexec = do ->\n    \n\n#\n# Define first a lookup function. We receive elements from a collection\n# which (array) may contain several strings or objects. If it is a\n# string, we will look up the value in a internal hash map, if found it\n# will returned else we pass a default value. If it is an object, we\n# also look it up, but only by its key this time. If found, we replace\n# that objects hash keys with those provided, If not found, we return\n# the provided values.\n#\ni = 0\nlookup = (item) ->\n\n    log item + ' ' + i++\n\n    # Internal STUB\n    hash = {\n        achternaam:\n            patroon: 'abcd'\n            verplicht: true\n        default:\n            patroon: 'dcba'\n            verplicht: false\n        postcode:\n            patroon: 'ABCD'\n            verplicht: false\n    }\n\n    # Or equals operator\n    hash or= {}\n\n    # Existential operator not really needed here but may be\n    hash ?= {}\n\n    # Array values are iterated untill all are done.\n    switch typeof item\n\n        # Lazily reference fields by providing a string.\n        # e.g. ['name', 'address', 'city']\n        when 'string'\n\n            # If the string is found in our hash map we return those\n            # defaults, if not it means we don't have it defined and it\n            # may return the 'default' key.\n            if hash[item]? then log hash[item] else log hash['default']\n\n\n        # TODO overide keys which aren't in input\n        # TODO return field names as object key\n\n        # Should we receive an object, we will look it up by means of\n        # the key name. If found, we may thus overide any default\n        # values. If not found, we will just use the values provided and\n        # hope for the best (may not have all required values, we can\n        # augment with defaults though to keep it super-sane)\n        when 'object'\n            log hash[key] for key of item when hash[key]?\n            log value for key, value of item when not hash[key]?\n\n        # Numbers, null, etc.\n        else\n            return null\n\n\n\n\n\n\nlookup item for item in @.collection",
-					"file": "/home/baal/customers/tredius/bron/bouwstenen/widgets/tester.html.coffee",
-					"file_size": 1965,
-					"file_write_time": 1366558045000000,
+					"file": "/home/baal/customers/tredius/docpad.coffee",
 					"settings":
 					{
-						"buffer_size": 2103,
+						"buffer_size": 14326,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/baal/customers/tredius/bron/bouwstenen/widgets/formulieren.html.coffee",
+					"settings":
+					{
+						"buffer_size": 11352,
 						"line_ending": "Unix"
 					}
 				},
@@ -777,13 +785,19 @@
 			},
 			"file_history":
 			[
+				"/home/baal/customers/tredius/plugins/docpad-plugin-AABBCC/package.xjson",
+				"/home/baal/customers/tredius/plugins/docpad-plugin-AABBCC/package.json",
+				"/home/baal/customers/tredius/plugins/docpad-plugin-strenc/package.json",
+				"/home/baal/Dotfiles/sublime-text-2/Packages/User/AutoCopyright.sublime-settings",
+				"/home/baal/customers/tredius/bron/bouwstenen/widgets/formulieren.html.coffee",
+				"/home/baal/customers/tredius/bron/documenten/diensten/debiteurenbeheer/abonnement.html.coffee",
+				"/home/baal/customers/tredius/bron/bouwstenen/widgets/tester.html.coffee",
 				"/home/baal/customers/tredius/bron/documenten/diensten/juridisch/abonnement.html.coffee",
 				"/home/baal/customers/tredius/bron/bouwstenen/widgets/producten.html.coffee",
 				"/home/baal/customers/tredius/bron/bouwstenen/widgets/visitekaartje.html.coffee",
 				"/home/baal/customers/tredius/docpad.coffee",
 				"/home/baal/customers/tredius/bron/partials/widgets/formulieren.html.coffee",
 				"/home/baal/customers/tredius/bron/partials/widgets/producten.html.coffee",
-				"/home/baal/customers/tredius/bron/bouwstenen/widgets/formulieren.html.coffee",
 				"/home/baal/customers/tredius/plugins/docpad-plugin-semantic/semantic.plugin.litcoffee",
 				"/home/baal/customers/tredius/plugins/docpad-plugin-semantic/semantic.plugin.md",
 				"/home/baal/Dotfiles/sublime-text-2/Packages/sublime-github/GitHub.sublime-settings",
@@ -799,7 +813,6 @@
 				"/home/baal/customers/tredius/bron/documenten/stijlen/basisstijlen.styl",
 				"/home/baal/customers/tredius/bron/partials/blok/multimedia.html.coffee",
 				"/home/baal/customers/tredius/bron/documenten/stijlen/formulieren.styl",
-				"/home/baal/customers/tredius/bron/documenten/diensten/debiteurenbeheer/abonnement.html.coffee",
 				"/home/baal/customers/tredius/bron/documenten/contact2.html.coffee",
 				"/home/baal/customers/tredius/bron/documenten/stijlen/algemeen.css.styl",
 				"/home/baal/customers/tredius/bron/partials/widgets/product.html.coffee",
@@ -899,12 +912,7 @@
 				"/home/baal/Dotfiles/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
 				"/home/baal/customers/tredius/docs/bijlagen/Tredius Debiteurenbeheer recap.txt",
 				"/home/baal/customers/tredius/bron/documenten/diensten/debiteurenbeheer/werkwijze-stappenplan.html.coffee",
-				"/home/baal/customers/tredius/bron/documenten/diensten/debiteurenbeheer/onze-werkwijze.html.coffee",
-				"/home/baal/customers/tredius/bron/documenten/diensten/debiteurenbeheer/incasso-en-factoring.html.coffee",
-				"/home/baal/customers/tredius/bron/partials/menu/horizontaal.html.coffee",
-				"/home/baal/customers/tredius/bron/documenten/diensten/debiteurenbeheer/stub.html.coffee",
-				"/home/baal/customers/tredius/bron/documenten/diensten/debiteurenbeheer/debiteurenbeheer.html.coffee",
-				"/home/baal/customers/tredius/bron/partials/contactpersoon.html.jade"
+				"/home/baal/customers/tredius/bron/documenten/diensten/debiteurenbeheer/onze-werkwijze.html.coffee"
 			],
 			"find":
 			{
@@ -937,6 +945,20 @@
 				"case_sensitive": true,
 				"find_history":
 				[
+					"required",
+					"caption",
+					"pattern",
+					"length",
+					"synonyms",
+					"numchars",
+					"apiname",
+					"field_defaults",
+					"name",
+					"name: 'col2'",
+					"\" ",
+					" },",
+					"instrument",
+					"name",
 					"          ,",
 					"sane",
 					"hash",
@@ -1050,21 +1072,7 @@
 					"ttColumn",
 					"article",
 					"revolver",
-					"embedVideo",
-					" ",
-					"</option>",
-					"<option>",
-					"hidden",
-					"h3",
-					"15px",
-					"ib-container",
-					"ttcol",
-					"headline",
-					"{",
-					"}",
-					"{",
-					":",
-					";"
+					"embedVideo"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -1147,264 +1155,44 @@
 			"groups":
 			[
 				{
-					"selected": 2,
+					"selected": 0,
 					"sheets":
 					[
 						{
 							"buffer": 0,
-							"file": "/home/baal/customers/tredius/bron/bouwstenen/widgets/formulieren.html.coffee",
+							"file": "/home/baal/customers/tredius/bron/bouwstenen/widgets/tester2.html.coffee",
 							"settings":
 							{
-								"buffer_size": 11352,
+								"buffer_size": 1591,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										5601,
-										5601
+										1496,
+										1496
 									]
 								],
 								"settings":
 								{
+									"BracketHighlighterBusy": false,
 									"annotations":
 									[
 										"TODO",
 										"README",
 										"FIXME"
 									],
-									"csslint_options":
-									{
-										"adjoining-classes": "warning",
-										"box-model": true,
-										"box-sizing": "warning",
-										"compatible-vendor-prefixes": "warning",
-										"display-property-grouping": true,
-										"duplicate-background-images": "warning",
-										"duplicate-properties": true,
-										"empty-rules": true,
-										"errors": true,
-										"fallback-colors": "warning",
-										"floats": "warning",
-										"font-faces": "warning",
-										"font-sizes": "warning",
-										"gradients": "warning",
-										"ids": "warning",
-										"import": "warning",
-										"important": "warning",
-										"known-properties": true,
-										"outline-none": "warning",
-										"overqualified-elements": "warning",
-										"qualified-headings": "warning",
-										"regex-selectors": "warning",
-										"rules-count": "warning",
-										"shorthand": "warning",
-										"star-property-hack": "warning",
-										"text-indent": "warning",
-										"underscore-property-hack": "warning",
-										"unique-headings": "warning",
-										"universal-selector": "warning",
-										"vendor-prefix": true,
-										"zero-units": "warning"
-									},
-									"gjslint_ignore":
+									"bh_regions":
 									[
-										110
-									],
-									"gjslint_options":
-									[
-									],
-									"javascript_linter": "jshint",
-									"jshint_options":
-									{
-										"browser": true,
-										"evil": true,
-										"regexdash": true,
-										"sub": true,
-										"trailing": true,
-										"wsh": true
-									},
-									"pep8": true,
-									"pep8_ignore":
-									[
-										"E501"
-									],
-									"perl_linter": "perlcritic",
-									"pyflakes_ignore":
-									[
-									],
-									"pyflakes_ignore_import_*": true,
-									"sublimelinter": true,
-									"sublimelinter_delay": 2,
-									"sublimelinter_disable":
-									[
-									],
-									"sublimelinter_executable_map":
-									{
-									},
-									"sublimelinter_fill_outlines": false,
-									"sublimelinter_gutter_marks": false,
-									"sublimelinter_mark_style": "outline",
-									"sublimelinter_notes": false,
-									"sublimelinter_objj_check_ascii": false,
-									"sublimelinter_popup_errors_on_save": false,
-									"sublimelinter_syntax_map":
-									{
-										"C++": "c",
-										"Python Django": "python",
-										"Ruby on Rails": "ruby"
-									},
-									"sublimelinter_wrap_find": true,
-									"syntax": "Packages/CoffeeScript/CoffeeScript.tmLanguage",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 1638.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"file": "/home/baal/customers/tredius/bron/documenten/diensten/debiteurenbeheer/abonnement.html.coffee",
-							"settings":
-							{
-								"buffer_size": 2579,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										859,
-										859
-									]
-								],
-								"settings":
-								{
-									"annotations":
-									[
-										"TODO",
-										"README",
-										"FIXME"
-									],
-									"csslint_options":
-									{
-										"adjoining-classes": "warning",
-										"box-model": true,
-										"box-sizing": "warning",
-										"compatible-vendor-prefixes": "warning",
-										"display-property-grouping": true,
-										"duplicate-background-images": "warning",
-										"duplicate-properties": true,
-										"empty-rules": true,
-										"errors": true,
-										"fallback-colors": "warning",
-										"floats": "warning",
-										"font-faces": "warning",
-										"font-sizes": "warning",
-										"gradients": "warning",
-										"ids": "warning",
-										"import": "warning",
-										"important": "warning",
-										"known-properties": true,
-										"outline-none": "warning",
-										"overqualified-elements": "warning",
-										"qualified-headings": "warning",
-										"regex-selectors": "warning",
-										"rules-count": "warning",
-										"shorthand": "warning",
-										"star-property-hack": "warning",
-										"text-indent": "warning",
-										"underscore-property-hack": "warning",
-										"unique-headings": "warning",
-										"universal-selector": "warning",
-										"vendor-prefix": true,
-										"zero-units": "warning"
-									},
-									"gjslint_ignore":
-									[
-										110
-									],
-									"gjslint_options":
-									[
-									],
-									"javascript_linter": "jshint",
-									"jshint_options":
-									{
-										"browser": true,
-										"evil": true,
-										"regexdash": true,
-										"sub": true,
-										"trailing": true,
-										"wsh": true
-									},
-									"pep8": true,
-									"pep8_ignore":
-									[
-										"E501"
-									],
-									"perl_linter": "perlcritic",
-									"pyflakes_ignore":
-									[
-									],
-									"pyflakes_ignore_import_*": true,
-									"sublimelinter": true,
-									"sublimelinter_delay": 2,
-									"sublimelinter_disable":
-									[
-									],
-									"sublimelinter_executable_map":
-									{
-									},
-									"sublimelinter_fill_outlines": false,
-									"sublimelinter_gutter_marks": false,
-									"sublimelinter_mark_style": "outline",
-									"sublimelinter_notes": false,
-									"sublimelinter_objj_check_ascii": false,
-									"sublimelinter_popup_errors_on_save": false,
-									"sublimelinter_syntax_map":
-									{
-										"C++": "c",
-										"Python Django": "python",
-										"Ruby on Rails": "ruby"
-									},
-									"sublimelinter_wrap_find": true,
-									"syntax": "Packages/CoffeeScript/CoffeeScript.tmLanguage",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 168.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 2,
-							"file": "/home/baal/customers/tredius/bron/bouwstenen/widgets/tester.html.coffee",
-							"settings":
-							{
-								"buffer_size": 2103,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										63,
-										63
-									]
-								],
-								"settings":
-								{
-									"annotations":
-									[
-										"TODO",
-										"README",
-										"FIXME"
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close"
 									],
 									"csslint_options":
 									{
@@ -1495,6 +1283,240 @@
 								"zoom_level": 1.0
 							},
 							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/baal/customers/tredius/bron/documenten/diensten/debiteurenbeheer/abonnement.html.coffee",
+							"settings":
+							{
+								"buffer_size": 2580,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										2098,
+										2098
+									]
+								],
+								"settings":
+								{
+									"BracketHighlighterBusy": false,
+									"annotations":
+									[
+										"TODO",
+										"README",
+										"FIXME"
+									],
+									"csslint_options":
+									{
+										"adjoining-classes": "warning",
+										"box-model": true,
+										"box-sizing": "warning",
+										"compatible-vendor-prefixes": "warning",
+										"display-property-grouping": true,
+										"duplicate-background-images": "warning",
+										"duplicate-properties": true,
+										"empty-rules": true,
+										"errors": true,
+										"fallback-colors": "warning",
+										"floats": "warning",
+										"font-faces": "warning",
+										"font-sizes": "warning",
+										"gradients": "warning",
+										"ids": "warning",
+										"import": "warning",
+										"important": "warning",
+										"known-properties": true,
+										"outline-none": "warning",
+										"overqualified-elements": "warning",
+										"qualified-headings": "warning",
+										"regex-selectors": "warning",
+										"rules-count": "warning",
+										"shorthand": "warning",
+										"star-property-hack": "warning",
+										"text-indent": "warning",
+										"underscore-property-hack": "warning",
+										"unique-headings": "warning",
+										"universal-selector": "warning",
+										"vendor-prefix": true,
+										"zero-units": "warning"
+									},
+									"gjslint_ignore":
+									[
+										110
+									],
+									"gjslint_options":
+									[
+									],
+									"javascript_linter": "jshint",
+									"jshint_options":
+									{
+										"browser": true,
+										"evil": true,
+										"regexdash": true,
+										"sub": true,
+										"trailing": true,
+										"wsh": true
+									},
+									"pep8": true,
+									"pep8_ignore":
+									[
+										"E501"
+									],
+									"perl_linter": "perlcritic",
+									"pyflakes_ignore":
+									[
+									],
+									"pyflakes_ignore_import_*": true,
+									"sublimelinter": true,
+									"sublimelinter_delay": 2,
+									"sublimelinter_disable":
+									[
+									],
+									"sublimelinter_executable_map":
+									{
+									},
+									"sublimelinter_fill_outlines": false,
+									"sublimelinter_gutter_marks": false,
+									"sublimelinter_mark_style": "outline",
+									"sublimelinter_notes": false,
+									"sublimelinter_objj_check_ascii": false,
+									"sublimelinter_popup_errors_on_save": false,
+									"sublimelinter_syntax_map":
+									{
+										"C++": "c",
+										"Python Django": "python",
+										"Ruby on Rails": "ruby"
+									},
+									"sublimelinter_wrap_find": true,
+									"syntax": "Packages/CoffeeScript/CoffeeScript.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 462.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/home/baal/customers/tredius/docpad.coffee",
+							"settings":
+							{
+								"buffer_size": 14326,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										505,
+										505
+									]
+								],
+								"settings":
+								{
+									"BracketHighlighterBusy": false,
+									"annotations":
+									[
+										"TODO",
+										"README",
+										"FIXME"
+									],
+									"csslint_options":
+									{
+										"adjoining-classes": "warning",
+										"box-model": true,
+										"box-sizing": "warning",
+										"compatible-vendor-prefixes": "warning",
+										"display-property-grouping": true,
+										"duplicate-background-images": "warning",
+										"duplicate-properties": true,
+										"empty-rules": true,
+										"errors": true,
+										"fallback-colors": "warning",
+										"floats": "warning",
+										"font-faces": "warning",
+										"font-sizes": "warning",
+										"gradients": "warning",
+										"ids": "warning",
+										"import": "warning",
+										"important": "warning",
+										"known-properties": true,
+										"outline-none": "warning",
+										"overqualified-elements": "warning",
+										"qualified-headings": "warning",
+										"regex-selectors": "warning",
+										"rules-count": "warning",
+										"shorthand": "warning",
+										"star-property-hack": "warning",
+										"text-indent": "warning",
+										"underscore-property-hack": "warning",
+										"unique-headings": "warning",
+										"universal-selector": "warning",
+										"vendor-prefix": true,
+										"zero-units": "warning"
+									},
+									"gjslint_ignore":
+									[
+										110
+									],
+									"gjslint_options":
+									[
+									],
+									"javascript_linter": "jshint",
+									"jshint_options":
+									{
+										"browser": true,
+										"evil": true,
+										"regexdash": true,
+										"sub": true,
+										"trailing": true,
+										"wsh": true
+									},
+									"pep8": true,
+									"pep8_ignore":
+									[
+										"E501"
+									],
+									"perl_linter": "perlcritic",
+									"pyflakes_ignore":
+									[
+									],
+									"pyflakes_ignore_import_*": true,
+									"sublimelinter": true,
+									"sublimelinter_delay": 2,
+									"sublimelinter_disable":
+									[
+									],
+									"sublimelinter_executable_map":
+									{
+									},
+									"sublimelinter_fill_outlines": false,
+									"sublimelinter_gutter_marks": false,
+									"sublimelinter_mark_style": "outline",
+									"sublimelinter_notes": false,
+									"sublimelinter_objj_check_ascii": false,
+									"sublimelinter_popup_errors_on_save": false,
+									"sublimelinter_syntax_map":
+									{
+										"C++": "c",
+										"Python Django": "python",
+										"Ruby on Rails": "ruby"
+									},
+									"sublimelinter_wrap_find": true,
+									"syntax": "Packages/CoffeeScript/CoffeeScript.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
 						}
 					]
 				},
@@ -1504,6 +1526,123 @@
 					[
 						{
 							"buffer": 3,
+							"file": "/home/baal/customers/tredius/bron/bouwstenen/widgets/formulieren.html.coffee",
+							"settings":
+							{
+								"buffer_size": 11352,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										5284,
+										5284
+									]
+								],
+								"settings":
+								{
+									"BracketHighlighterBusy": false,
+									"annotations":
+									[
+										"TODO",
+										"README",
+										"FIXME"
+									],
+									"csslint_options":
+									{
+										"adjoining-classes": "warning",
+										"box-model": true,
+										"box-sizing": "warning",
+										"compatible-vendor-prefixes": "warning",
+										"display-property-grouping": true,
+										"duplicate-background-images": "warning",
+										"duplicate-properties": true,
+										"empty-rules": true,
+										"errors": true,
+										"fallback-colors": "warning",
+										"floats": "warning",
+										"font-faces": "warning",
+										"font-sizes": "warning",
+										"gradients": "warning",
+										"ids": "warning",
+										"import": "warning",
+										"important": "warning",
+										"known-properties": true,
+										"outline-none": "warning",
+										"overqualified-elements": "warning",
+										"qualified-headings": "warning",
+										"regex-selectors": "warning",
+										"rules-count": "warning",
+										"shorthand": "warning",
+										"star-property-hack": "warning",
+										"text-indent": "warning",
+										"underscore-property-hack": "warning",
+										"unique-headings": "warning",
+										"universal-selector": "warning",
+										"vendor-prefix": true,
+										"zero-units": "warning"
+									},
+									"gjslint_ignore":
+									[
+										110
+									],
+									"gjslint_options":
+									[
+									],
+									"javascript_linter": "jshint",
+									"jshint_options":
+									{
+										"browser": true,
+										"evil": true,
+										"regexdash": true,
+										"sub": true,
+										"trailing": true,
+										"wsh": true
+									},
+									"pep8": true,
+									"pep8_ignore":
+									[
+										"E501"
+									],
+									"perl_linter": "perlcritic",
+									"pyflakes_ignore":
+									[
+									],
+									"pyflakes_ignore_import_*": true,
+									"sublimelinter": true,
+									"sublimelinter_delay": 2,
+									"sublimelinter_disable":
+									[
+									],
+									"sublimelinter_executable_map":
+									{
+									},
+									"sublimelinter_fill_outlines": false,
+									"sublimelinter_gutter_marks": false,
+									"sublimelinter_mark_style": "outline",
+									"sublimelinter_notes": false,
+									"sublimelinter_objj_check_ascii": false,
+									"sublimelinter_popup_errors_on_save": false,
+									"sublimelinter_syntax_map":
+									{
+										"C++": "c",
+										"Python Django": "python",
+										"Ruby on Rails": "ruby"
+									},
+									"sublimelinter_wrap_find": true,
+									"syntax": "Packages/CoffeeScript/CoffeeScript.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 588.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 4,
 							"file": "/home/baal/customers/tredius/plugins/docpad-plugin-semantic/cheatsheet-example",
 							"settings":
 							{
@@ -1649,7 +1788,7 @@
 				"cols":
 				[
 					0.0,
-					0.729647612213,
+					0.715529965154,
 					1.0
 				],
 				"rows":
@@ -1675,7 +1814,7 @@
 			{
 				"height": 94.0
 			},
-			"position": "0,0,0,0,0,1586,295,2748,854,2880,1024",
+			"position": "0,0,0,0,0,1319,135,2740,866,2880,1024",
 			"replace":
 			{
 				"height": 62.0
