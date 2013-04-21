@@ -11357,3 +11357,480 @@
 2013-04-16 05:29:49	--	Channel created on Sat, 26 May 2012 12:12:13
 2013-04-16 05:32:13	<--	ipetrovilya (~quassel@dyn-8-135.e-sky.ru) has quit (Ping timeout: 240 seconds)
 2013-04-16 05:53:30	-->	ipetrovilya (~quassel@212.220.105.4) has joined #docpad
+2013-04-16 11:25:53	-->	blevs (~textual@0x3ec6ea1b.inet.dsl.telianet.dk) has joined #docpad
+2013-04-16 13:29:26	-->	kaspertidemann (~Kasper@2605ds2-bav.0.fullrate.dk) has joined #docpad
+2013-04-16 13:57:33	-->	phaer (~user@chello080108051063.9.11.vie.surfer.at) has joined #docpad
+2013-04-16 14:03:01	phaer	Hi, i have some json files which i'd like to use as template data. 
+2013-04-16 14:04:30	phaer	Can i specify the header as json? I see only cson and yaml in the docs
+2013-04-16 14:04:44	<--	ipetrovilya (~quassel@212.220.105.4) has quit (Remote host closed the connection)
+2013-04-16 14:11:04	ashnur	yes
+2013-04-16 14:11:10	ashnur	i think you can
+2013-04-16 14:15:57	phaer	ashnur: How? "--- json" says "unkown meta parser 'json'" which leads me to belive, i can't
+2013-04-16 14:17:02	ashnur	oh. then you should probably add that meta parser
+2013-04-16 14:17:43	phaer	yes, but my favourite solution would be to have a file like "data.html.json" rendered using the template specified in a "layout" property of the top level json object.
+2013-04-16 14:18:26	phaer	do i need a custom plugin for that?
+2013-04-16 14:18:27	ashnur	http://docpad.org/docs/meta-data
+2013-04-16 14:19:17	ashnur	phaer: if you are doing things no one else did before, i wouldn't expect to be available. but extending docpad is usually very simple, not much harder than configuring it :)
+2013-04-16 14:19:36	ashnur	i am still not sure this json meta thing isn't done somewhere already
+2013-04-16 14:19:51	phaer	ashnur: Of couse, i just aked to know if anyone did it before :)
+2013-04-16 14:21:14	phaer	ashnur: not sure if i am using the correct terms. I don't really need it as metadata. I'd even prefer having plain json files and a template which gets the properties of the json objects as variables.
+2013-04-16 14:24:55	ashnur	you can read json files with fs.readFile, then JSON.parse them
+2013-04-16 14:25:15	ashnur	which gives back the object which you can pass to the template
+2013-04-16 14:57:13	--	Notice(GitHub98): [docpad] balupton merged dev into master: http://git.io/UmxWig
+2013-04-16 14:57:15	--	Notice(GitHub12): [docpad] balupton merged master into dev: http://git.io/UmxWig
+2013-04-16 14:57:20	--	Notice(GitHub51): [docpad] balupton tagged v6.30.4 at dev: http://git.io/J-m3UA
+2013-04-16 14:57:31	<--	phaer (~user@chello080108051063.9.11.vie.surfer.at) has quit (Ping timeout: 264 seconds)
+2013-04-16 15:12:23	-->	steventrevathan (~steventre@64.119.141.126) has joined #docpad
+2013-04-16 15:24:55	<--	blevs (~textual@0x3ec6ea1b.inet.dsl.telianet.dk) has quit (Quit: Computer has gone to sleep.)
+2013-04-16 15:30:37	balupton	"supersym> can I have functions in the docpad metadata cson btw? I guess not" you sure can - https://github.com/docpad/kitchensink.docpad/blob/master/src/documents/nifties/coffee-parser.html.md.eco
+2013-04-16 15:43:03	-->	phaer (~user@chello080108051063.9.11.vie.surfer.at) has joined #docpad
+2013-04-16 15:54:12	-->	KendrickVT (~Adium@66.129.76.132) has joined #docpad
+2013-04-16 16:38:17	<--	ashnur (~ashnur@79.117.85.229) has quit (Quit: WeeChat 0.4.0)
+2013-04-16 17:29:24	<--	kaspertidemann (~Kasper@2605ds2-bav.0.fullrate.dk) has quit (Quit: kaspertidemann)
+2013-04-16 17:38:24	--	Notice(GitHub1): [docpad-documentation] balupton pushed 1 new commit to master: http://git.io/U50tkQ
+2013-04-16 17:38:24	--	Notice(GitHub1): docpad-documentation/master df5ecb0 Benjamin Arthur Lupton: Fixed typos reported by Dan Nye, thanks Dan!...
+2013-04-16 17:51:10	<--	KendrickVT (~Adium@66.129.76.132) has quit (Ping timeout: 246 seconds)
+2013-04-16 17:51:44	-->	blevs (~textual@0x3ec6ea1b.inet.dsl.telianet.dk) has joined #docpad
+2013-04-16 17:53:07	-->	KendrickVT (~Adium@66.129.76.132) has joined #docpad
+2013-04-16 18:03:10	<--	blevs (~textual@0x3ec6ea1b.inet.dsl.telianet.dk) has quit (Quit: Computer has gone to sleep.)
+2013-04-16 18:13:02	-->	ashnur (~ashnur@79.117.66.210) has joined #docpad
+2013-04-16 18:22:30	<--	EricLeslie (~EricLesli@68-189-103-1.dhcp.wtvl.ca.charter.com) has quit (Ping timeout: 248 seconds)
+2013-04-16 18:22:50	<--	steventrevathan (~steventre@64.119.141.126) has quit (Quit: steventrevathan)
+2013-04-16 18:49:51	<--	KendrickVT (~Adium@66.129.76.132) has quit (Ping timeout: 252 seconds)
+2013-04-16 19:02:29	-->	blevs (~textual@0x3ec6ea1b.inet.dsl.telianet.dk) has joined #docpad
+2013-04-16 19:13:48	-->	slindberg (~slindberg@24-104-79-38-ip-static.hfc.comcastbusiness.net) has joined #docpad
+2013-04-16 19:20:58	-->	kaspertidemann (~Kasper@2605ds2-bav.0.fullrate.dk) has joined #docpad
+2013-04-16 19:28:04	-->	zenorocha (~zenorocha@38.122.109.194) has joined #docpad
+2013-04-16 19:28:31	<--	ashnur (~ashnur@79.117.66.210) has quit (Quit: WeeChat 0.4.0)
+2013-04-16 19:29:55	-->	steventrevathan (~steventre@50-195-55-165-static.hfc.comcastbusiness.net) has joined #docpad
+2013-04-16 19:39:31	<--	steventrevathan (~steventre@50-195-55-165-static.hfc.comcastbusiness.net) has quit (Quit: steventrevathan)
+2013-04-16 19:55:37	zenorocha	hey guys
+2013-04-16 19:57:35	zenorocha	what do you think of installing docpad globally through "scripts": "preinstall" on package.json?
+2013-04-16 20:00:41	supersym	@balupton: thanks :)
+2013-04-16 20:01:07	supersym	btw: I got myself some nice form now muahaha... native HTML5 browser form validation with custom CSS
+2013-04-16 20:01:23	supersym	a big style pain and bleeding edge, but works like a charm :D
+2013-04-16 20:02:00	supersym	I'm thinking I should really go vanilla js on my client side scripts btw
+2013-04-16 20:02:07	supersym	*hides for ashnur*
+2013-04-16 20:02:24	supersym	speed differences are insane
+2013-04-16 20:18:45	<--	kaspertidemann (~Kasper@2605ds2-bav.0.fullrate.dk) has quit (Quit: kaspertidemann)
+2013-04-16 20:20:45	-->	KendrickVT (~Adium@66.129.76.132) has joined #docpad
+2013-04-16 20:36:49	-->	kaspertidemann (~Kasper@2605ds2-bav.0.fullrate.dk) has joined #docpad
+2013-04-16 20:49:48	--	Notice(GitHub139): [docpad-documentation] balupton pushed 1 new commit to master: http://git.io/7ASozw
+2013-04-16 20:49:48	--	Notice(GitHub139): docpad-documentation/master 9e2a265 Benjamin Arthur Lupton: Updated the plugin documentation for the latest changes, was quite out of date
+2013-04-16 20:50:47	--	Notice(GitHub24): [docpad-documentation] balupton pushed 1 new commit to master: http://git.io/0vAYCQ
+2013-04-16 20:50:47	--	Notice(GitHub24): docpad-documentation/master b8ae3ee Benjamin Arthur Lupton: fixed json highlighting
+2013-04-16 20:51:53	--	Notice(GitHub15): [docpad-documentation] balupton pushed 1 new commit to master: http://git.io/FeMn6g
+2013-04-16 20:51:53	--	Notice(GitHub15): docpad-documentation/master 54fe024 Benjamin Arthur Lupton: Fixed old wiki reference
+2013-04-16 20:52:25	--	Notice(GitHub19): [docpad-documentation] balupton pushed 1 new commit to master: http://git.io/HjdXhw
+2013-04-16 20:52:25	--	Notice(GitHub19): docpad-documentation/master 3c19f16 Benjamin Arthur Lupton: typo
+2013-04-16 20:52:48	<--	zenorocha (~zenorocha@38.122.109.194) has quit (Remote host closed the connection)
+2013-04-16 20:53:58	--	Notice(GitHub33): [docpad-documentation] balupton pushed 1 new commit to master: http://git.io/Y2KNZQ
+2013-04-16 20:53:58	--	Notice(GitHub33): docpad-documentation/master 275a2e6 Benjamin Arthur Lupton: cleaned up dir listings
+2013-04-16 20:55:58	<--	KendrickVT (~Adium@66.129.76.132) has quit (Ping timeout: 252 seconds)
+2013-04-16 21:00:35	--	Notice(GitHub51): [docpad-documentation] balupton pushed 1 new commit to master: http://git.io/CKJi_g
+2013-04-16 21:00:35	--	Notice(GitHub51): docpad-documentation/master 0e2d327 Benjamin Arthur Lupton: Added roll your own to the plugins listing, and removed the old listing
+2013-04-16 21:07:32	<--	slindberg (~slindberg@24-104-79-38-ip-static.hfc.comcastbusiness.net) has quit (Ping timeout: 245 seconds)
+2013-04-16 21:23:07	-->	zenorocha (~zenorocha@38.122.109.194) has joined #docpad
+2013-04-16 21:32:48	<--	zenorocha (~zenorocha@38.122.109.194) has quit (Ping timeout: 276 seconds)
+2013-04-16 21:45:52	<--	phaer (~user@chello080108051063.9.11.vie.surfer.at) has quit (Ping timeout: 256 seconds)
+2013-04-16 21:50:37	<--	blevs (~textual@0x3ec6ea1b.inet.dsl.telianet.dk) has quit (Quit: Computer has gone to sleep.)
+2013-04-16 22:05:48	-->	KendrickVT (~Adium@66.129.76.132) has joined #docpad
+2013-04-16 22:10:27	supersym	balupton maybe you know, i can't google it anyway... if
+2013-04-16 22:11:31	supersym	coffeecup, I need to pass an argument (key) with no value e.g. h1 title: 'this that', something, 'Hello world' -> <h1 title="this that" something> ...
+2013-04-16 22:12:19	-->	phaer (~user@chello080108051063.9.11.vie.surfer.at) has joined #docpad
+2013-04-16 22:24:43	-->	zenorocha (~zenorocha@38.122.109.194) has joined #docpad
+2013-04-16 22:27:03	-->	KendrickVT1 (~Adium@66.129.76.132) has joined #docpad
+2013-04-16 22:28:22	<--	KendrickVT (~Adium@66.129.76.132) has quit (Ping timeout: 252 seconds)
+2013-04-16 22:53:34	-->	steventrevathan (~steventre@c-71-232-16-234.hsd1.ma.comcast.net) has joined #docpad
+2013-04-16 23:56:37	<--	kaspertidemann (~Kasper@2605ds2-bav.0.fullrate.dk) has quit (Quit: kaspertidemann)
+2013-04-17 00:08:16	-->	zenoroch_ (~zenorocha@38.122.109.194) has joined #docpad
+2013-04-17 00:09:49	-->	ashnur (~ashnur@79.117.82.129) has joined #docpad
+2013-04-17 00:10:18	<--	zenorocha (~zenorocha@38.122.109.194) has quit (Ping timeout: 264 seconds)
+2013-04-17 00:10:55	<--	steventrevathan (~steventre@c-71-232-16-234.hsd1.ma.comcast.net) has quit (Quit: steventrevathan)
+2013-04-17 00:13:43	<--	phaer (~user@chello080108051063.9.11.vie.surfer.at) has quit (Ping timeout: 264 seconds)
+2013-04-17 00:25:34	-->	steventrevathan (~steventre@c-71-232-16-234.hsd1.ma.comcast.net) has joined #docpad
+2013-04-17 01:00:46	<--	KendrickVT1 (~Adium@66.129.76.132) has quit (Quit: Leaving.)
+2013-04-17 01:20:22	<--	steventrevathan (~steventre@c-71-232-16-234.hsd1.ma.comcast.net) has quit (Quit: steventrevathan)
+2013-04-17 01:23:00	-->	zenorocha (~zenorocha@38.122.109.194) has joined #docpad
+2013-04-17 01:26:53	<--	zenoroch_ (~zenorocha@38.122.109.194) has quit (Ping timeout: 256 seconds)
+2013-04-17 01:42:58	-->	steventrevathan (~steventre@c-71-232-16-234.hsd1.ma.comcast.net) has joined #docpad
+2013-04-17 02:01:00	-->	KendrickVT (~Adium@66.129.76.132) has joined #docpad
+2013-04-17 02:03:27	<--	steventrevathan (~steventre@c-71-232-16-234.hsd1.ma.comcast.net) has quit (Quit: steventrevathan)
+2013-04-17 02:05:24	<--	KendrickVT (~Adium@66.129.76.132) has quit (Ping timeout: 252 seconds)
+2013-04-17 02:31:04	-->	KendrickVT (~Adium@66.129.76.132) has joined #docpad
+2013-04-17 02:34:28	<--	zenorocha (~zenorocha@38.122.109.194) has quit (Remote host closed the connection)
+2013-04-17 02:35:24	<--	KendrickVT (~Adium@66.129.76.132) has quit (Ping timeout: 245 seconds)
+2013-04-17 03:17:33	balupton	supersym: perhaps: something:''
+2013-04-17 03:30:23	-->	KendrickVT (~Adium@66.129.76.132) has joined #docpad
+2013-04-17 03:34:33	<--	KendrickVT (~Adium@66.129.76.132) has quit (Ping timeout: 240 seconds)
+2013-04-17 05:01:10	-->	KendrickVT (~Adium@66.129.76.132) has joined #docpad
+2013-04-17 05:05:25	<--	KendrickVT (~Adium@66.129.76.132) has quit (Ping timeout: 252 seconds)
+2013-04-17 06:01:46	-->	KendrickVT (~Adium@66.129.76.132) has joined #docpad
+2013-04-17 06:06:09	<--	KendrickVT (~Adium@66.129.76.132) has quit (Read error: Operation timed out)
+2013-04-17 07:02:27	-->	KendrickVT (~Adium@66.129.76.132) has joined #docpad
+2013-04-17 07:04:24	<--	KendrickVT (~Adium@66.129.76.132) has quit (Read error: Operation timed out)
+2013-04-17 08:02:59	-->	KendrickVT (~Adium@66.129.76.132) has joined #docpad
+2013-04-17 08:07:32	-->	ipetrovilya (~quassel@212.220.105.4) has joined #docpad
+2013-04-17 08:07:43	<--	KendrickVT (~Adium@66.129.76.132) has quit (Ping timeout: 264 seconds)
+2013-04-17 08:57:12	-->	blevs (~textual@0x3ec6ea1b.inet.dsl.telianet.dk) has joined #docpad
+2013-04-17 09:03:40	-->	KendrickVT (~Adium@66.129.76.132) has joined #docpad
+2013-04-17 09:07:43	<--	KendrickVT (~Adium@66.129.76.132) has quit (Read error: Operation timed out)
+2013-04-17 09:28:25	-->	botton (~willie@router.isis.poly.edu) has joined #docpad
+2013-04-17 09:28:25	<--	botton (~willie@router.isis.poly.edu) has left #docpad
+2013-04-17 10:00:57	<--	ipetrovilya (~quassel@212.220.105.4) has quit (Ping timeout: 276 seconds)
+2013-04-17 10:03:54	-->	KendrickVT (~Adium@66.129.76.132) has joined #docpad
+2013-04-17 10:08:15	<--	KendrickVT (~Adium@66.129.76.132) has quit (Ping timeout: 252 seconds)
+2013-04-17 10:14:41	-->	ipetrovilya (~quassel@212.220.105.4) has joined #docpad
+2013-04-17 10:25:08	<--	ipetrovilya (~quassel@212.220.105.4) has quit (Remote host closed the connection)
+2013-04-17 10:40:57	<--	blevs (~textual@0x3ec6ea1b.inet.dsl.telianet.dk) has quit (Quit: Computer has gone to sleep.)
+2013-04-17 11:04:32	-->	KendrickVT (~Adium@66.129.76.132) has joined #docpad
+2013-04-17 11:08:10	<--	KendrickVT (~Adium@66.129.76.132) has quit (Read error: Operation timed out)
+2013-04-17 11:47:30	--	irc: disconnected from server
+2013-04-17 11:47:52	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #docpad
+2013-04-17 11:47:52	--	Topic for #docpad is "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-04-17 11:47:52	--	Topic set by balupton (uid6783@gateway/web/irccloud.com/x-cbtpwjksctndjgtn) on Fri, 28 Dec 2012 12:22:24
+2013-04-17 11:47:52	--	Nicks #docpad: [ashnur balupton Chase_the_Dev elf-pavlik jgm nexusIX spanners supersym]
+2013-04-17 11:47:52	--	Channel #docpad: 8 nicks (0 ops, 0 halfops, 0 voices, 8 normals)
+2013-04-17 11:48:06	--	Mode #docpad [+t]
+2013-04-17 11:48:06	--	Channel created on Sat, 26 May 2012 12:12:13
+2013-04-17 12:05:15	-->	KendrickVT (~Adium@66.129.76.132) has joined #docpad
+2013-04-17 12:10:04	<--	KendrickVT (~Adium@66.129.76.132) has quit (Ping timeout: 272 seconds)
+2013-04-17 12:50:01	supersym	olla
+2013-04-17 12:50:18	supersym	balupton: lol... thanks :D
+2013-04-17 13:04:35	--	irc: disconnected from server
+2013-04-17 13:53:17	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #docpad
+2013-04-17 13:53:17	--	Topic for #docpad is "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-04-17 13:53:17	--	Topic set by balupton (uid6783@gateway/web/irccloud.com/x-cbtpwjksctndjgtn) on Fri, 28 Dec 2012 12:22:24
+2013-04-17 13:53:17	--	Nicks #docpad: [ashnur balupton Chase_the_Dev elf-pavlik jgm nexusIX spanners supersym]
+2013-04-17 13:53:17	--	Channel #docpad: 8 nicks (0 ops, 0 halfops, 0 voices, 8 normals)
+2013-04-17 13:53:21	--	Mode #docpad [+t]
+2013-04-17 13:53:21	--	Channel created on Sat, 26 May 2012 12:12:13
+2013-04-17 13:54:39	supersym	balupton: nop does the same, didnt know u could do single quoted multiline tho... thats cool
+2013-04-17 13:54:57	supersym	ps seems like docpad is the only working tool I have left to compile js2coffee
+2013-04-17 13:55:18	supersym	js2coffee itself being broken it seems (and the website was)
+2013-04-17 13:55:47	supersym	just to mention the value of 'support' in IT thanks for maintaining these awesome tools for us Ben :)
+2013-04-17 13:56:07	-->	kaspertidemann (~Kasper@2605ds2-bav.0.fullrate.dk) has joined #docpad
+2013-04-17 14:00:21	supersym	oh no... lolz
+2013-04-17 14:00:30	supersym	it doesnt :P Oh well.... I am so lazy
+2013-04-17 14:22:58	<--	ashnur (~ashnur@79.117.82.129) has quit (Quit: WeeChat 0.4.0)
+2013-04-17 14:51:06	<--	kaspertidemann (~Kasper@2605ds2-bav.0.fullrate.dk) has quit (Quit: kaspertidemann)
+2013-04-17 14:54:10	-->	kaspertidemann (~Kasper@2605ds2-bav.0.fullrate.dk) has joined #docpad
+2013-04-17 15:26:58	-->	RevisionZero (~textual@cpe-76-188-201-62.neo.res.rr.com) has joined #docpad
+2013-04-17 15:30:36	RevisionZero	Hey guys, does anyone know how to format the Date String returned from " doc.date.toDateString() ", essentially just want to separate out the day/month from the year, so they are separate elements. However, I can't find any API information on how to do this
+2013-04-17 15:33:44	supersym	just use regex
+2013-04-17 15:33:52	supersym	can you paste the result>
+2013-04-17 15:33:54	supersym	?
+2013-04-17 15:34:08	supersym	(or split or..)
+2013-04-17 15:34:28	supersym	but i dont know what string it gives else I could write it for you :)
+2013-04-17 15:36:10	RevisionZero	Ah, I didn't even think about Regex, its something I need to learn in greater detail. The string it returns is "Sun Apr 07 2013"
+2013-04-17 15:36:30	RevisionZero	If you know the regex for that, then I would definitely appreciate it! =)
+2013-04-17 15:43:12	supersym	just split(' ')
+2013-04-17 15:43:22	supersym	"This is a sentence".split(' ')
+2013-04-17 15:43:38	supersym	will return an array of ['This', 'is', 'a', 'sentence']
+2013-04-17 15:45:25	supersym	then day = arrDate[0], year = arrDate[3]
+2013-04-17 15:45:31	supersym	etc
+2013-04-17 15:49:33	nexusIX	hi everyone, does anyone have an idea about how I could use symlinks to mirror the same Docpad config files for multiple applications?
+2013-04-17 15:49:51	nexusIX	I have three applications, and I want to use the same docpad.coffee, routes.coffee and node_modules for each one
+2013-04-17 15:49:52	RevisionZero	Thanks a bunch supersym, I am going to give this a go.
+2013-04-17 15:50:46	nexusIX	But if I symlink the files from another directory, __dirname is equal to the location of the original file, not the symlink, and it needs to be the other way
+2013-04-17 16:23:54	supersym	tried hardlink?
+2013-04-17 16:28:51	RevisionZero	Hey supersym, just got your suggestion implemented, and it works great. Thanks so much for the help. I really appreciate it!
+2013-04-17 16:29:02	supersym	:) sure np
+2013-04-17 17:23:40	-->	steventrevathan (~steventre@64.119.141.126) has joined #docpad
+2013-04-17 17:25:41	<--	kaspertidemann (~Kasper@2605ds2-bav.0.fullrate.dk) has quit (Quit: kaspertidemann)
+2013-04-17 17:26:52	<--	RevisionZero (~textual@cpe-76-188-201-62.neo.res.rr.com) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2013-04-17 17:30:08	-->	fozz_ (be0c3389@gateway/web/freenode/ip.190.12.51.137) has joined #docpad
+2013-04-17 17:30:14	fozz_	hi guys
+2013-04-17 17:30:34	fozz_	balupton?
+2013-04-17 17:30:52	fozz_	update twitter-bootstrap
+2013-04-17 17:31:56	<--	fozz_ (be0c3389@gateway/web/freenode/ip.190.12.51.137) has left #docpad
+2013-04-17 17:32:20	-->	fizz (be0c3389@gateway/web/freenode/ip.190.12.51.137) has joined #docpad
+2013-04-17 17:33:26	fizz	posts: (database) ->
+2013-04-17 17:33:32	fizz	wghere si database from¿
+2013-04-17 17:33:34	fizz	is
+2013-04-17 17:35:23	supersym	its from queryengine i think
+2013-04-17 17:35:34	supersym	Docpad <- QueryEngine <- Backbone
+2013-04-17 17:43:35	fizz	y
+2013-04-17 17:54:16	supersym	else just do a $ grep -irn 'database' node_modules/docpad 
+2013-04-17 17:54:31	supersym	I always find that helpful as the source doesn't lie...only obfuscate :P
+2013-04-17 18:11:20	-->	blevs (~textual@0x3ec6ea1b.inet.dsl.telianet.dk) has joined #docpad
+2013-04-17 19:17:23	-->	ashnur (~ashnur@79.117.82.129) has joined #docpad
+2013-04-17 19:29:54	supersym	sweet
+2013-04-17 19:30:05	supersym	my first really finished working plugin :)
+2013-04-17 19:30:34	supersym	finds emails in docpad articles/posts and obfuscates/mailmunges them
+2013-04-17 19:31:54	supersym	4 options, 1 - translate chars to html entitities, 2 adds in span elements with garbled texts/randoms, 3- add in mailto: prefix, 4-write as javascript inside html document
+2013-04-17 19:41:15	<--	blevs (~textual@0x3ec6ea1b.inet.dsl.telianet.dk) has quit (Quit: Computer has gone to sleep.)
+2013-04-17 19:50:22	fizz	nice
+2013-04-17 19:50:24	fizz	work
+2013-04-17 19:50:31	fizz	supersym
+2013-04-17 19:50:33	fizz	:)
+2013-04-17 19:52:40	supersym	hehe
+2013-04-17 20:03:50	supersym	does it matter for SEO/Google that we generate pages from scratch now and then? Anyone know that?
+2013-04-17 20:04:06	supersym	I should really google some of this stuff
+2013-04-17 20:04:16	supersym	dunno if moving around html matters for the engines either
+2013-04-17 20:08:05	-->	kaspertidemann (~Kasper@2605ds2-bav.0.fullrate.dk) has joined #docpad
+2013-04-17 20:43:23	<--	fizz (be0c3389@gateway/web/freenode/ip.190.12.51.137) has quit (Ping timeout: 245 seconds)
+2013-04-17 20:54:01	<--	kaspertidemann (~Kasper@2605ds2-bav.0.fullrate.dk) has quit (Quit: kaspertidemann)
+2013-04-17 21:22:08	<--	ashnur (~ashnur@79.117.82.129) has quit (Quit: WeeChat 0.4.0)
+2013-04-17 21:25:10	<--	spanners (ydVeB9dNET@gateway/shell/pepperfish/x-yxxonmoxeqpgpksh) has quit (Quit: logprune)
+2013-04-17 22:10:40	-->	atomatom (~Thunderbi@d66-183-219-243.bchsia.telus.net) has joined #docpad
+2013-04-17 22:15:07	atomatom	hi, just dipping my toes into docpad.  like it.  but shortly after installing it plugins stopped working.   see https://gist.github.com/anonymous/3abd3fa2e44cf3c01a06
+2013-04-17 22:15:32	atomatom	i'm not a node/npm expert, so any ideas on how to reset it back to working would be appreciated
+2013-04-17 22:15:50	atomatom	i did have reloading working before, and that is also broken
+2013-04-17 22:16:37	-->	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has joined #docpad
+2013-04-17 22:35:17	-->	ashnur (~ashnur@79.117.82.129) has joined #docpad
+2013-04-17 22:41:46	<--	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has quit (Quit: Leaving...)
+2013-04-17 22:47:44	<--	steventrevathan (~steventre@64.119.141.126) has quit (Quit: steventrevathan)
+2013-04-17 23:07:32	-->	kaspertidemann (~Kasper@2605ds2-bav.0.fullrate.dk) has joined #docpad
+2013-04-17 23:12:09	-->	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has joined #docpad
+2013-04-17 23:21:34	<--	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has quit (Ping timeout: 256 seconds)
+2013-04-17 23:45:09	<--	kaspertidemann (~Kasper@2605ds2-bav.0.fullrate.dk) has quit (Quit: kaspertidemann)
+2013-04-17 23:47:32	-->	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has joined #docpad
+2013-04-17 23:52:30	<--	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has quit (Ping timeout: 245 seconds)
+2013-04-18 00:48:00	-->	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has joined #docpad
+2013-04-18 00:52:46	<--	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has quit (Ping timeout: 256 seconds)
+2013-04-18 01:18:51	-->	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has joined #docpad
+2013-04-18 01:23:28	<--	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has quit (Ping timeout: 245 seconds)
+2013-04-18 01:39:50	--	irc: disconnected from server
+2013-04-18 15:19:00	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #docpad
+2013-04-18 15:19:00	--	Topic for #docpad is "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-04-18 15:19:00	--	Topic set by balupton (uid6783@gateway/web/irccloud.com/x-cbtpwjksctndjgtn) on Fri, 28 Dec 2012 12:22:24
+2013-04-18 15:19:00	--	Nicks #docpad: [ashnur atomatom balupton Chase_the_Dev elf-pavlik jgm nexusIX spanners SteveMc supersym]
+2013-04-18 15:19:00	--	Channel #docpad: 10 nicks (0 ops, 0 halfops, 0 voices, 10 normals)
+2013-04-18 15:19:00	--	Notice(holmes.freenode.net): [freenode-info] help freenode weed out clonebots -- please register your IRC nick and auto-identify: http://freenode.net/faq.shtml#nicksetup
+2013-04-18 15:19:04	--	Mode #docpad [+t]
+2013-04-18 15:19:04	--	Channel created on Sat, 26 May 2012 12:12:13
+2013-04-18 15:38:33	<--	SteveMc (3effccb9@gateway/web/freenode/ip.62.255.204.185) has quit (Quit: Page closed)
+2013-04-18 16:08:15	nexusIX	Hey supersym, in answer to your previous question about SEO, search engines are mostly concerned with the content of the page, not how often it is generated
+2013-04-18 16:08:58	nexusIX	The search spiders just see the text of the page, they don't necessarily know if you made it with Docpad or another site compiler or with a template language like PHP or Python
+2013-04-18 17:23:18	-->	kaspertidemann (~Kasper@2605ds2-bav.0.fullrate.dk) has joined #docpad
+2013-04-18 17:40:43	-->	steventrevathan (~steventre@64.119.141.126) has joined #docpad
+2013-04-18 18:17:40	<--	ashnur (~ashnur@79.117.82.129) has quit (Quit: WeeChat 0.4.0)
+2013-04-18 18:18:01	<--	steventrevathan (~steventre@64.119.141.126) has quit (Quit: steventrevathan)
+2013-04-18 18:46:54	supersym	hey nexus... thanks :)
+2013-04-18 18:50:13	supersym	since I have quite some vocabularies mixed up now, some cases double even until everyone in the world catches up
+2013-04-18 18:50:56	supersym	i want to read more about this anyway, specialize a bit more in this facet of web development
+2013-04-18 18:51:27	supersym	it'll increase my value as in something I could offer extra besides regular web development, to do web 3.0 and SEO
+2013-04-18 18:52:16	supersym	RDFa is a bit complicated though, as can ontologies in general be complicated
+2013-04-18 18:52:57	supersym	you'll have to be a linguist to get some of that stuff,... though I was pondering already how to some of those extra tags in a docpad plugin
+2013-04-18 18:53:34	supersym	atm I just append my meta-data with a thing: 's:Article' or 's:Video
+2013-04-18 18:54:33	supersym	and then populate those as the documents get loaded in with docpad layouts... and have all xmlns for body/html in docpad.coffee just to seperate out the stuff some more
+2013-04-18 18:55:07	supersym	I guess if done right, search engines will love me as soon as it becomes a bigger part of their algorithms
+2013-04-18 19:10:18	<--	kaspertidemann (~Kasper@2605ds2-bav.0.fullrate.dk) has quit (Quit: kaspertidemann)
+2013-04-18 19:15:08	supersym	I guess my plugin should also obfuscate form actions ...
+2013-04-18 19:15:23	supersym	that makes a lot of sense
+2013-04-18 21:41:19	-->	ashnur (~ashnur@79.117.82.129) has joined #docpad
+2013-04-18 21:54:10	-->	Sacha_ (~Playgroun@206.223.188.98) has joined #docpad
+2013-04-18 21:54:35	Sacha_	Has anyone had issues with DocPad choking on a large amount of SASS/SCSS? (>5000 lines)?
+2013-04-18 22:04:16	ashnur	never tried such big file
+2013-04-18 22:08:32	Sacha_	I should forward this project to balupton when i'm done with it. It's been such a gigantic pain. 
+2013-04-18 22:10:22	Sacha_	The SASS/SCSS plugin just seems to drop large amounts of styling randomly, never rendering it or cutting off the file past a certain point
+2013-04-18 22:11:22	ashnur	well, since i learned about stylus i do not know why would anyone use sass/scss
+2013-04-18 22:12:10	ashnur	i've been using it with a php project where we had a build step for doing everything and we had a ruby implementation of sass
+2013-04-18 22:12:29	ashnur	i hated it even then, but knew its better than plain css
+2013-04-18 22:12:38	ashnur	but with stylus everything is much nicer
+2013-04-18 22:15:58	supersym	If I had problems with stylus, I tend to look up the compiled CSS
+2013-04-18 22:16:14	supersym	often it was my own mistake somewhere, but docpad/stylus didnt see it as such
+2013-04-18 22:16:35	supersym	and the css would come out partial or mangled
+2013-04-18 22:18:03	supersym	but randomly really, nop... also I use 10 or so stylus files all imported into 1 css
+2013-04-18 22:20:39	supersym	i also dont think there is a scss2stylus so if you'd want to convert, you'd prolly have to first compile to css as a intermediate step
+2013-04-18 22:20:56	supersym	either way, cutting up your file will be a smart move anyday with 5000 lines
+2013-04-18 22:21:02	supersym	there is no need for that
+2013-04-18 22:21:21	supersym	as sass also supports import...heck native css does
+2013-04-18 22:21:47	supersym	so seperate logic/concerns a bit more and improve maintainability by having perhaps buttons.scss forms.scss and such
+2013-04-18 22:25:25	supersym	anyway, as for a test case / benchmark it could be nice to see though... 
+2013-04-18 22:31:52	ashnur	khmm
+2013-04-18 22:32:15	ashnur	no one said there is a problem with stylus :-S
+2013-04-18 22:32:36	supersym	nooo but that doesnt really matter does it
+2013-04-18 22:32:55	supersym	what matters is regardless pre-processor you use
+2013-04-18 22:33:04	supersym	there is no need to stick 5000 lines in 1 file :S
+2013-04-18 22:34:38	ashnur	:D
+2013-04-18 22:34:39	supersym	and either css pre-processor can be graceful in what is sees as an error
+2013-04-18 22:36:26	supersym	also significant whitespace doesnt help either
+2013-04-18 22:38:57	supersym	but I dont think scss has that or does it
+2013-04-18 22:39:02	supersym	anyway might be helpful
+2013-04-18 22:39:15	supersym	If I cant find mistakes or docpad/compiler isnt helpful
+2013-04-18 22:39:37	supersym	is to try and compile it in say Sublime2 ... it will pinpoint the exact location of any errors
+2013-04-18 22:42:03	supersym	also it would make sense to try and compile the file without docpad in between :P
+2013-04-18 23:21:33	-->	steventrevathan (~steventre@64.119.141.126) has joined #docpad
+2013-04-18 23:41:33	<--	steventrevathan (~steventre@64.119.141.126) has quit (Quit: steventrevathan)
+2013-04-18 23:50:50	-->	j___ (cc34fa05@gateway/web/freenode/ip.204.52.250.5) has joined #docpad
+2013-04-18 23:51:08	<--	j___ (cc34fa05@gateway/web/freenode/ip.204.52.250.5) has quit (Client Quit)
+2013-04-18 23:55:42	-->	steventrevathan (~steventre@64.119.141.126) has joined #docpad
+2013-04-19 00:09:34	--	Notice(GitHub32): [docpad-documentation] ko opened pull request #22: Fix their typo. (master...patch-1)  http://git.io/QlXBBw
+2013-04-19 00:23:30	Sacha_	supersym, ashnur
+2013-04-19 00:23:42	Sacha_	mind you, i'm having issues even when i break up those 5000 lines to several files
+2013-04-19 00:24:02	supersym	hmm
+2013-04-19 00:24:02	Sacha_	it's not the quantity of lines in a file that seems to be the problem
+2013-04-19 00:24:05	supersym	ok :)
+2013-04-19 00:24:12	Sacha_	but rathe sheer amount that is causing an issue
+2013-04-19 00:24:17	supersym	i see
+2013-04-19 00:24:30	supersym	so scss compiles normal? do you use import?
+2013-04-19 00:24:35	Sacha_	yep
+2013-04-19 00:24:50	supersym	and it leaves out complete files or part of it?
+2013-04-19 00:24:52	Sacha_	no errors that i'm aware of -- it even compiles correctly most of the time
+2013-04-19 00:24:54	Sacha_	yes
+2013-04-19 00:25:01	Sacha_	it'll compile some files, won't bother with others
+2013-04-19 00:25:14	Sacha_	or cutoff files halfway through for no apparent reason
+2013-04-19 00:25:22	supersym	right... now i vaguely remember having similiar problem with scss all of a sudden
+2013-04-19 00:25:28	supersym	i dont know
+2013-04-19 00:25:48	supersym	or it was with google fonts and importing, or external sheets i dont remember anyway
+2013-04-19 00:25:55	Sacha_	yeah, i've gotten around it by compiling manually
+2013-04-19 00:26:03	supersym	did you try with -d switch?
+2013-04-19 00:26:08	supersym	docpad generate
+2013-04-19 00:26:12	Sacha_	but it would be nice to be able to use as intended
+2013-04-19 00:26:16	supersym	yup
+2013-04-19 00:26:20	Sacha_	what does -d switch do?
+2013-04-19 00:26:24	supersym	its a bug somewhere anyway
+2013-04-19 00:26:43	supersym	debug output, most verbose docpad.debug at level 7 i believe, 6 is normal
+2013-04-19 00:27:00	supersym	either way it'll show the details of every file compiled instead of just summary
+2013-04-19 00:27:52	supersym	also, you should really check the stuff in out/ against the scss files and try to find some common ground
+2013-04-19 00:28:08	supersym	e.g. a specific situation where it happens as it might be a corner case somewhere
+2013-04-19 00:28:24	supersym	but since you said its random.... makes it very hard =/
+2013-04-19 00:29:16	supersym	clues might be hidden in the vicinity of stuff with asynchronous processing.... its extra hard to pinpoint problem areas
+2013-04-19 00:30:05	supersym	in the end, you could of course use grunt or even the native scss executable to just get it done
+2013-04-19 00:30:24	supersym	but integrated with docpad would be preferable ofc like u said
+2013-04-19 01:32:48	Sacha_	i do think it is an async thing… it has a general feel of "something docpad is doing gets interrupted by something else docpad is doing"
+2013-04-19 01:32:55	Sacha_	will investigate further
+2013-04-19 01:36:19	<--	Sacha_ (~Playgroun@206.223.188.98) has left #docpad
+2013-04-19 02:37:40	supersym	i dont get what the deal is with functions and docpad
+2013-04-19 02:37:58	supersym	i try to define them in coffee, or elsewhere and just refuses...all it takes are hash keys
+2013-04-19 02:38:32	supersym	function is not a string... no I bloody well know but it returns a string so whats the issue
+2013-04-19 02:40:23	supersym	why doesnt it evaluate
+2013-04-19 02:41:52	supersym	ahh... text
+2013-04-19 02:41:58	supersym	probably
+2013-04-19 02:48:13	supersym	=> ... ofc
+2013-04-19 02:48:20	supersym	yesss nice
+2013-04-19 02:49:38	supersym	and need to be defined before usage so on top of the document... ok keep in mind
+2013-04-19 02:51:55	<--	steventrevathan (~steventre@64.119.141.126) has quit (Quit: steventrevathan)
+2013-04-19 03:19:55	--	Notice(GitHub72): [docpad-documentation] balupton pushed 2 new commits to master: http://git.io/idRCKg
+2013-04-19 03:19:55	--	Notice(GitHub72): docpad-documentation/master 9cf881c ko: Fix their typo.
+2013-04-19 03:19:55	--	Notice(GitHub72): docpad-documentation/master 26f0a00 Benjamin Arthur Lupton: Merge pull request #22 from ko/patch-1...
+2013-04-19 03:28:30	supersym	@balupton: is there no way to pass in docpad or any variables for that matter to 'coffeescript ->' client-side scripts?
+2013-04-19 03:28:47	supersym	not the actual variable ofc but their values that is
+2013-04-19 03:29:17	supersym	coffeescript -> document.getElementById(@.customId)
+2013-04-19 03:29:49	supersym	I guess it would be confusing, which 'this' it would have to replace...
+2013-04-19 03:30:47	supersym	perhaps use the 'script' function and then do string interpolation
+2013-04-19 03:34:20	supersym	oh and I guess I can workaround since I dont need to know the form name uphand, submit input click will give submit which has .form parent included in DOM... I was just wondering
+2013-04-19 04:46:37	-->	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has joined #docpad
+2013-04-19 05:22:39	<--	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has quit (Remote host closed the connection)
+2013-04-19 07:26:37	-->	ipetrovilya (~quassel@212.220.105.4) has joined #docpad
+2013-04-19 09:00:00	<--	ipetrovilya (~quassel@212.220.105.4) has quit (Remote host closed the connection)
+2013-04-19 10:24:49	supersym	so ... partials make a great form generator :D
+2013-04-19 11:26:53	--	irc: disconnected from server
+2013-04-19 11:27:20	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #docpad
+2013-04-19 11:27:21	--	Topic for #docpad is "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-04-19 11:27:21	--	Topic set by balupton (uid6783@gateway/web/irccloud.com/x-cbtpwjksctndjgtn) on Fri, 28 Dec 2012 12:22:24
+2013-04-19 11:27:21	--	Nicks #docpad: [ashnur atomatom balupton Chase_the_Dev elf-pavlik jgm nexusIX spanners supersym]
+2013-04-19 11:27:21	--	Channel #docpad: 9 nicks (0 ops, 0 halfops, 0 voices, 9 normals)
+2013-04-19 11:27:32	--	Mode #docpad [+t]
+2013-04-19 11:27:33	--	Channel created on Sat, 26 May 2012 12:12:13
+2013-04-19 15:12:54	supersym	anyone who can help with stylus?
+2013-04-19 15:15:57	supersym	balupton: docpad doesnt do any interpolation with .styl files does it?
+2013-04-19 15:16:29	supersym	that would certainly be interesting, to share some common ancestor data source (like meta-data or collections etc)
+2013-04-19 15:16:58	supersym	e.g. to generate document or category based stylesheets, make theming easy :)
+2013-04-19 15:18:51	supersym	dont know what characters would be available though, for docpad instance variable notation
+2013-04-19 16:54:54	-->	rexrexrex (42d13e6e@gateway/web/freenode/ip.66.209.62.110) has joined #docpad
+2013-04-19 16:55:21	rexrexrex	Hi all :)
+2013-04-19 16:55:54	rexrexrex	Can I ask questions at this place?
+2013-04-19 17:00:03	<--	rexrexrex (42d13e6e@gateway/web/freenode/ip.66.209.62.110) has quit (Ping timeout: 245 seconds)
+2013-04-19 17:04:13	spanners	evidently
+2013-04-19 17:52:49	-->	jgm_ (~quassel@primary.mcdee.net) has joined #docpad
+2013-04-19 17:53:35	<--	jgm (~quassel@primary.mcdee.net) has quit (Ping timeout: 252 seconds)
+2013-04-19 18:11:47	<--	atomatom (~Thunderbi@d66-183-219-243.bchsia.telus.net) has quit (Quit: atomatom)
+2013-04-19 18:56:37	-->	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has joined #docpad
+2013-04-19 19:33:21	--	irc: disconnected from server
+2013-04-21 01:07:02	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #docpad
+2013-04-21 01:07:02	--	Topic for #docpad is "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-04-21 01:07:02	--	Topic set by balupton (uid6783@gateway/web/irccloud.com/x-cbtpwjksctndjgtn) on Fri, 28 Dec 2012 12:22:24
+2013-04-21 01:07:02	--	Nicks #docpad: [balupton Chase_the_Dev elf-pavlik jgm nexusIX shama spanners supersym zenorocha]
+2013-04-21 01:07:02	--	Channel #docpad: 9 nicks (0 ops, 0 halfops, 0 voices, 9 normals)
+2013-04-21 01:07:06	--	Mode #docpad [+t]
+2013-04-21 01:07:06	--	Channel created on Sat, 26 May 2012 12:12:13
+2013-04-21 01:11:08	supersym	hey guys
+2013-04-21 01:38:11	-->	ashnur (~ashnur@79.117.67.86) has joined #docpad
+2013-04-21 01:52:40	<--	zenorocha (~zenorocha@p5098aabd.dip0.t-ipconnect.de) has quit (Read error: Connection reset by peer)
+2013-04-21 01:52:41	-->	zenoroch_ (~zenorocha@p5098aabd.dip0.t-ipconnect.de) has joined #docpad
+2013-04-21 02:11:49	<--	zenoroch_ (~zenorocha@p5098aabd.dip0.t-ipconnect.de) has quit (Read error: Connection reset by peer)
+2013-04-21 02:11:56	-->	zenorocha (~zenorocha@pd95bc861.dip0.t-ipconnect.de) has joined #docpad
+2013-04-21 02:23:11	<--	zenorocha (~zenorocha@pd95bc861.dip0.t-ipconnect.de) has quit (Ping timeout: 246 seconds)
+2013-04-21 02:23:38	-->	zenorocha (~zenorocha@pd95bc861.dip0.t-ipconnect.de) has joined #docpad
+2013-04-21 02:31:44	-->	zenoroch_ (~zenorocha@pd95bc861.dip0.t-ipconnect.de) has joined #docpad
+2013-04-21 02:32:03	<--	zenorocha (~zenorocha@pd95bc861.dip0.t-ipconnect.de) has quit (Read error: Connection reset by peer)
+2013-04-21 02:46:28	supersym	huh?...weird
+2013-04-21 02:47:12	supersym	ahhh yes typo
+2013-04-21 02:53:09	supersym	now what would be a nice and elegant manner to share class definitions in docpad.... I mean do I even want to. The default values are nice though, then again I could also use the coffee idiomatic variant of named arguments
+2013-04-21 02:53:44	supersym	which I havent found for classes yet
+2013-04-21 02:54:27	supersym	and if I want something named, I could just use a hashmap with key/vals
+2013-04-21 02:58:36	supersym	found it... :)
+2013-04-21 03:00:44	supersym	except sharing class defs though...instances, sure...perhaps plugins would be suitable tho
+2013-04-21 03:03:31	<--	zenoroch_ (~zenorocha@pd95bc861.dip0.t-ipconnect.de) has quit (Ping timeout: 264 seconds)
+2013-04-21 03:11:49	-->	zenorocha (~zenorocha@pd95bc861.dip0.t-ipconnect.de) has joined #docpad
+2013-04-21 03:21:09	<--	zenorocha (~zenorocha@pd95bc861.dip0.t-ipconnect.de) has quit (Read error: Connection reset by peer)
+2013-04-21 03:21:14	-->	zenoroch_ (~zenorocha@p5098aabd.dip0.t-ipconnect.de) has joined #docpad
+2013-04-21 03:32:07	<--	zenoroch_ (~zenorocha@p5098aabd.dip0.t-ipconnect.de) has quit (Read error: Connection reset by peer)
+2013-04-21 03:32:16	-->	zenorocha (~zenorocha@p5098aabd.dip0.t-ipconnect.de) has joined #docpad
+2013-04-21 03:41:08	<--	zenorocha (~zenorocha@p5098aabd.dip0.t-ipconnect.de) has quit (Read error: Connection reset by peer)
+2013-04-21 03:41:24	-->	zenorocha (~zenorocha@pd95bc861.dip0.t-ipconnect.de) has joined #docpad
+2013-04-21 03:51:36	-->	zenoroch_ (~zenorocha@pd95bc861.dip0.t-ipconnect.de) has joined #docpad
+2013-04-21 03:52:19	<--	zenorocha (~zenorocha@pd95bc861.dip0.t-ipconnect.de) has quit (Read error: Connection reset by peer)
+2013-04-21 04:31:37	<--	zenoroch_ (~zenorocha@pd95bc861.dip0.t-ipconnect.de) has quit (Read error: Connection reset by peer)
+2013-04-21 04:31:44	-->	zenorocha (~zenorocha@pd95bc861.dip0.t-ipconnect.de) has joined #docpad
+2013-04-21 04:50:28	-->	zenoroch_ (~zenorocha@pd95bc861.dip0.t-ipconnect.de) has joined #docpad
+2013-04-21 04:50:34	<--	zenorocha (~zenorocha@pd95bc861.dip0.t-ipconnect.de) has quit (Read error: Connection reset by peer)
+2013-04-21 05:41:20	-->	zenorocha (~zenorocha@p5098aabd.dip0.t-ipconnect.de) has joined #docpad
+2013-04-21 05:41:20	<--	zenoroch_ (~zenorocha@pd95bc861.dip0.t-ipconnect.de) has quit (Read error: Connection reset by peer)
+2013-04-21 06:11:00	-->	zenoroch_ (~zenorocha@pd95bc861.dip0.t-ipconnect.de) has joined #docpad
+2013-04-21 06:11:00	<--	zenorocha (~zenorocha@p5098aabd.dip0.t-ipconnect.de) has quit (Read error: Connection reset by peer)
+2013-04-21 06:30:42	<--	zenoroch_ (~zenorocha@pd95bc861.dip0.t-ipconnect.de) has quit (Read error: Connection reset by peer)
+2013-04-21 06:30:44	-->	zenorocha (~zenorocha@p5098aabd.dip0.t-ipconnect.de) has joined #docpad
+2013-04-21 06:48:26	<--	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has quit (Ping timeout: 252 seconds)
+2013-04-21 06:51:17	<--	zenorocha (~zenorocha@p5098aabd.dip0.t-ipconnect.de) has quit (Read error: Connection reset by peer)
+2013-04-21 06:51:33	-->	zenorocha (~zenorocha@pd95bc861.dip0.t-ipconnect.de) has joined #docpad
+2013-04-21 06:55:31	-->	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has joined #docpad
+2013-04-21 07:02:42	<--	zenorocha (~zenorocha@pd95bc861.dip0.t-ipconnect.de) has quit (Read error: Connection reset by peer)
+2013-04-21 07:02:47	-->	zenoroch_ (~zenorocha@pd95bc861.dip0.t-ipconnect.de) has joined #docpad
+2013-04-21 07:08:12	<--	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has quit (Ping timeout: 256 seconds)
+2013-04-21 07:10:54	<--	zenoroch_ (~zenorocha@pd95bc861.dip0.t-ipconnect.de) has quit (Read error: Connection reset by peer)
+2013-04-21 07:10:59	-->	zenorocha (~zenorocha@pd95bc861.dip0.t-ipconnect.de) has joined #docpad
+2013-04-21 07:33:42	<--	zenorocha (~zenorocha@pd95bc861.dip0.t-ipconnect.de) has quit (Ping timeout: 276 seconds)
+2013-04-21 07:34:08	-->	zenorocha (~zenorocha@pd95bc861.dip0.t-ipconnect.de) has joined #docpad
+2013-04-21 07:43:33	<--	zenorocha (~zenorocha@pd95bc861.dip0.t-ipconnect.de) has quit (Ping timeout: 248 seconds)
+2013-04-21 07:43:35	-->	zenoroch_ (~zenorocha@p5098aabd.dip0.t-ipconnect.de) has joined #docpad
+2013-04-21 07:52:46	<--	zenoroch_ (~zenorocha@p5098aabd.dip0.t-ipconnect.de) has quit (Read error: Connection reset by peer)
+2013-04-21 07:52:49	-->	zenorocha (~zenorocha@pd95bc861.dip0.t-ipconnect.de) has joined #docpad
+2013-04-21 08:03:12	<--	zenorocha (~zenorocha@pd95bc861.dip0.t-ipconnect.de) has quit (Ping timeout: 264 seconds)
+2013-04-21 08:03:39	-->	zenorocha (~zenorocha@pd95bc861.dip0.t-ipconnect.de) has joined #docpad
+2013-04-21 08:13:53	<--	zenorocha (~zenorocha@pd95bc861.dip0.t-ipconnect.de) has quit (Ping timeout: 240 seconds)
+2013-04-21 08:14:21	-->	zenorocha (~zenorocha@p5098aabd.dip0.t-ipconnect.de) has joined #docpad
+2013-04-21 08:32:44	-->	zenoroch_ (~zenorocha@pd95bc861.dip0.t-ipconnect.de) has joined #docpad
+2013-04-21 08:33:45	<--	zenorocha (~zenorocha@p5098aabd.dip0.t-ipconnect.de) has quit (Ping timeout: 252 seconds)
+2013-04-21 08:34:33	supersym	@balupton: I was talking about custom defined functions in meta-data earlier. I can't access docpad in the global scope it seems, meta-data like #{new Data()} works, heck even passing @ as value... but then
+2013-04-21 08:36:05	supersym	@ which is empty so it seems btw
+2013-04-21 08:37:20	<--	zenoroch_ (~zenorocha@pd95bc861.dip0.t-ipconnect.de) has quit (Ping timeout: 252 seconds)
+2013-04-21 08:38:32	supersym	oh well it does make sense I guess, from the perspective of 'meta-data' as it shouldn't rely on any instance/stateful data
+2013-04-21 10:48:09	supersym	sweeeet... 'styler = @.stylus' = variable string interpolation inside documents :)
+2013-04-21 10:48:31	supersym	now I can make my forms/products/whatever style dynamically
+2013-04-21 12:12:20	supersym	and I guess its time to abstract out docpad-plugin-semantic with this project but I don't really feel anywhere near ready... too vast, volatile, near infinite flexible
+2013-04-21 12:13:16	supersym	then again, enough patterns emerged to start pulling out those attributes I have everywhere so might as well start thinking on a nice way to save our community some work in that field
+2013-04-21 12:32:49	supersym	anyone interested may checkout my project btw: https://github.com/solobit/tredius/tree/develop/
+2013-04-21 12:33:12	supersym	plugins/ folder has a few custom ones like -semantic and -mailmunge that I currently need to get working
+2013-04-21 14:05:04	-->	zenorocha (~zenorocha@p5098aabd.dip0.t-ipconnect.de) has joined #docpad
+2013-04-21 14:33:20	<--	zenorocha (~zenorocha@p5098aabd.dip0.t-ipconnect.de) has quit (Ping timeout: 256 seconds)
+2013-04-21 14:33:47	-->	zenorocha (~zenorocha@p5098aabd.dip0.t-ipconnect.de) has joined #docpad
+2013-04-21 14:41:10	-->	zenoroch_ (~zenorocha@p5098aabd.dip0.t-ipconnect.de) has joined #docpad
+2013-04-21 14:41:38	<--	zenorocha (~zenorocha@p5098aabd.dip0.t-ipconnect.de) has quit (Read error: Connection reset by peer)
+2013-04-21 15:13:13	<--	zenoroch_ (~zenorocha@p5098aabd.dip0.t-ipconnect.de) has quit (Ping timeout: 240 seconds)
+2013-04-21 15:37:13	supersym	plugins/ folder has a few custom ones like -semantic and -mailmunge that I currently need to get working
+2013-04-21 15:37:22	supersym	oops
+2013-04-21 15:37:23	supersym	:)
+2013-04-21 16:20:55	-->	zenorocha (~zenorocha@p5098aabd.dip0.t-ipconnect.de) has joined #docpad
+2013-04-21 16:25:24	<--	zenorocha (~zenorocha@p5098aabd.dip0.t-ipconnect.de) has quit (Ping timeout: 264 seconds)
+2013-04-21 17:19:59	<--	ashnur (~ashnur@79.117.67.86) has quit (Quit: WeeChat 0.4.0)
+2013-04-21 17:25:59	-->	zenorocha (~zenorocha@p5098aabd.dip0.t-ipconnect.de) has joined #docpad
+2013-04-21 17:51:06	<--	zenorocha (~zenorocha@p5098aabd.dip0.t-ipconnect.de) has quit (Read error: Connection reset by peer)
+2013-04-21 17:51:19	-->	zenorocha (~zenorocha@pd95bc861.dip0.t-ipconnect.de) has joined #docpad
+2013-04-21 18:13:16	-->	zenoroch_ (~zenorocha@p5098aabd.dip0.t-ipconnect.de) has joined #docpad
+2013-04-21 18:13:43	<--	zenorocha (~zenorocha@pd95bc861.dip0.t-ipconnect.de) has quit (Ping timeout: 264 seconds)
+2013-04-21 18:21:15	<--	zenoroch_ (~zenorocha@p5098aabd.dip0.t-ipconnect.de) has quit (Read error: Connection reset by peer)
+2013-04-21 18:21:15	-->	zenorocha (~zenorocha@pd95bc861.dip0.t-ipconnect.de) has joined #docpad

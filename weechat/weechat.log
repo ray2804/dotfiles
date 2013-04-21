@@ -1,13 +1,13 @@
-[2013-04-16 05:29:31] WeeChat 0.4.0 (compiled on Mar 23 2013 12:22:32)
-[2013-04-16 05:29:31] Reading configuration file weechat.conf
-[2013-04-16 05:29:31] Reading configuration file plugins.conf
-[2013-04-16 05:29:31] Reading configuration file relay.conf
-[2013-04-16 05:29:31] Reading configuration file logger.conf
-[2013-04-16 05:29:31] Reading configuration file alias.conf
-[2013-04-16 05:29:31] Reading configuration file rmodifier.conf
-[2013-04-16 05:29:31] Reading configuration file xfer.conf
-[2013-04-16 05:29:31] Reading configuration file script.conf
-[2013-04-16 05:29:31] Reading configuration file irc.conf
-[2013-04-16 05:29:31] irc: connecting to server chat.freenode.net/6667...
-[2013-04-16 05:29:31] Reading configuration file charset.conf
-[2013-04-16 05:29:31] Reading configuration file aspell.conf
+[2013-04-21 20:55:27] WeeChat 0.4.0 (compiled on Mar 23 2013 12:22:32)
+[2013-04-21 20:55:27] Reading configuration file weechat.conf
+[2013-04-21 20:55:27] Reading configuration file plugins.conf
+[2013-04-21 20:55:27] Reading configuration file relay.conf
+[2013-04-21 20:55:27] Reading configuration file logger.conf
+[2013-04-21 20:55:27] Reading configuration file alias.conf
+[2013-04-21 20:55:27] Reading configuration file rmodifier.conf
+[2013-04-21 20:55:27] Reading configuration file xfer.conf
+[2013-04-21 20:55:27] Reading configuration file script.conf
+[2013-04-21 20:55:27] Reading configuration file irc.conf
+[2013-04-21 20:55:27] irc: connecting to server chat.freenode.net/6667...
+[2013-04-21 20:55:27] Reading configuration file charset.conf
+[2013-04-21 20:55:27] Reading configuration file aspell.conf

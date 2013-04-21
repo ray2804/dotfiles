@@ -1,0 +1,26 @@
+[
+    {
+        "caption": "SuperSelect: Select Previous Match",
+        "command": "expand_prev"
+    },
+    {
+        "caption": "SuperSelect: Select Next Match",
+        "command": "expand_next"
+    },
+    {
+        "caption": "SuperSelect: Skip And Select Previous",
+        "command": "skip_and_select_prev"
+    },
+    {
+        "caption": "SuperSelect: Skip And Select Next",
+        "command": "skip_and_select_next"
+    },
+    {
+        "caption": "SuperSelect: Invert selection among matching regions",
+        "command": "invert_selections"
+    },
+    {
+        "caption": "SuperSelect: Select Sequential String",
+        "command": "select_sequential_string"
+    }
+]

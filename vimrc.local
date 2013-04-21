@@ -21,6 +21,9 @@ Bundle 'filetype.vim'
 Bundle 'Markdown'
 Bundle 'utl.vim'
 
+" Short hand
+Bundle 'ZenCoding.vim'
+
 " Web technologies
 "
 Bundle 'vim-coffee-script'
