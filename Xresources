@@ -267,7 +267,7 @@ URxvt*color15:                  #cdcfce
 ! ---------------
 
 URxvt.perl-lib:                 ${HOME}/data/code/scripts/perl/urxvtcd
-URxvt.perl-ext-common:          default,matcher,keyboard-select
+URxvt.perl-ext-common:          default,matcher,keyboard-select,clipboard
 ! URxvt.perl-ext-common:  default,tabbed,keyboard-select,url-select,clipboard
 !,font-size,fullscreen,clipboard
 
@@ -277,7 +277,7 @@ URxvt.perl-ext-common:          default,matcher,keyboard-select
 
 ! Prevent urls with these chars from breaking browser launch
 URxvt*cutchars:                 `"()'*<>[]{|}'"
-URxvt*urlLauncher:              /usr/bin/zurl
+URxvt*urlLauncher:              /usr/bin/chromium
 
 !URxvt.urlLauncher:              dwb
 URxvt.url-select.launcher:      dwb

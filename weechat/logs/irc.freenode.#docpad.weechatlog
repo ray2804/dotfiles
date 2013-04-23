@@ -11875,3 +11875,245 @@
 2013-04-21 23:30:59	<--	KendrickVT (~Adium@cpe-075-176-064-223.carolina.res.rr.com) has quit (Quit: Leaving.)
 2013-04-21 23:33:04	<--	zenorocha (~zenorocha@p5098aabd.dip0.t-ipconnect.de) has quit (Ping timeout: 256 seconds)
 2013-04-21 23:33:27	-->	zenorocha (~zenorocha@p5098aabd.dip0.t-ipconnect.de) has joined #docpad
+2013-04-21 23:53:33	<--	zenorocha (~zenorocha@p5098aabd.dip0.t-ipconnect.de) has quit (Ping timeout: 240 seconds)
+2013-04-21 23:54:06	-->	zenorocha (~zenorocha@p5098aabd.dip0.t-ipconnect.de) has joined #docpad
+2013-04-22 00:01:16	-->	KendrickVT (~Adium@cpe-075-176-064-223.carolina.res.rr.com) has joined #docpad
+2013-04-22 00:04:00	<--	zenorocha (~zenorocha@p5098aabd.dip0.t-ipconnect.de) has quit (Ping timeout: 272 seconds)
+2013-04-22 00:09:23	<--	KendrickVT (~Adium@cpe-075-176-064-223.carolina.res.rr.com) has quit (Ping timeout: 252 seconds)
+2013-04-22 00:24:08	<--	spanners (kKQuV44Y12@gateway/shell/pepperfish/x-ofiorbnzhswkaiwq) has left #docpad
+2013-04-22 00:36:17	-->	KendrickVT (~Adium@cpe-075-176-064-223.carolina.res.rr.com) has joined #docpad
+2013-04-22 00:40:54	<--	KendrickVT (~Adium@cpe-075-176-064-223.carolina.res.rr.com) has quit (Ping timeout: 252 seconds)
+2013-04-22 00:53:16	-->	KendrickVT (~Adium@cpe-075-176-064-223.carolina.res.rr.com) has joined #docpad
+2013-04-22 01:14:31	<--	kaspertidemann (~Kasper@2605ds2-bav.0.fullrate.dk) has quit (Quit: kaspertidemann)
+2013-04-22 01:21:16	-->	ae_ (53a3ffaf@gateway/web/freenode/ip.83.163.255.175) has joined #docpad
+2013-04-22 01:31:15	<--	ae_ (53a3ffaf@gateway/web/freenode/ip.83.163.255.175) has left #docpad
+2013-04-22 02:20:30	<--	KendrickVT (~Adium@cpe-075-176-064-223.carolina.res.rr.com) has quit (Quit: Leaving.)
+2013-04-22 02:29:47	-->	KendrickVT (~Adium@cpe-075-176-064-223.carolina.res.rr.com) has joined #docpad
+2013-04-22 04:20:13	-->	ipetrovilya (~quassel@dyn-19-177.e-sky.ru) has joined #docpad
+2013-04-22 04:25:21	<--	ipetrovilya (~quassel@dyn-19-177.e-sky.ru) has quit (Ping timeout: 252 seconds)
+2013-04-22 04:26:22	-->	ipetrovilya (~quassel@dyn-19-177.e-sky.ru) has joined #docpad
+2013-04-22 04:27:35	<--	ipetrovilya (~quassel@dyn-19-177.e-sky.ru) has quit (Read error: Connection reset by peer)
+2013-04-22 04:32:41	-->	ipetrovilya (~quassel@dyn-19-177.e-sky.ru) has joined #docpad
+2013-04-22 05:02:38	supersym	so quiet
+2013-04-22 05:03:13	<--	ipetrovilya (~quassel@dyn-19-177.e-sky.ru) has quit (Ping timeout: 240 seconds)
+2013-04-22 05:51:31	<--	ashnur (~ashnur@79.117.67.86) has quit (Ping timeout: 264 seconds)
+2013-04-22 06:56:27	<--	KendrickVT (~Adium@cpe-075-176-064-223.carolina.res.rr.com) has quit (Quit: Leaving.)
+2013-04-22 07:39:45	-->	KendrickVT (~Adium@cpe-075-176-064-223.carolina.res.rr.com) has joined #docpad
+2013-04-22 07:44:08	<--	KendrickVT (~Adium@cpe-075-176-064-223.carolina.res.rr.com) has quit (Ping timeout: 255 seconds)
+2013-04-22 08:02:35	<--	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has quit (Remote host closed the connection)
+2013-04-22 08:40:17	-->	KendrickVT (~Adium@cpe-075-176-064-223.carolina.res.rr.com) has joined #docpad
+2013-04-22 08:40:19	<--	KendrickVT (~Adium@cpe-075-176-064-223.carolina.res.rr.com) has quit (Read error: Connection reset by peer)
+2013-04-22 08:40:31	-->	KendrickVT (~Adium@cpe-075-176-064-223.carolina.res.rr.com) has joined #docpad
+2013-04-22 08:45:05	<--	KendrickVT (~Adium@cpe-075-176-064-223.carolina.res.rr.com) has quit (Ping timeout: 256 seconds)
+2013-04-22 09:41:03	-->	KendrickVT (~Adium@cpe-075-176-064-223.carolina.res.rr.com) has joined #docpad
+2013-04-22 09:45:38	<--	KendrickVT (~Adium@cpe-075-176-064-223.carolina.res.rr.com) has quit (Ping timeout: 255 seconds)
+2013-04-22 10:21:12	-->	ashnur (~ashnur@79.117.81.37) has joined #docpad
+2013-04-22 10:41:20	-->	KendrickVT1 (~Adium@cpe-075-176-064-223.carolina.res.rr.com) has joined #docpad
+2013-04-22 10:45:57	<--	KendrickVT1 (~Adium@cpe-075-176-064-223.carolina.res.rr.com) has quit (Ping timeout: 252 seconds)
+2013-04-22 11:42:06	-->	KendrickVT1 (~Adium@cpe-075-176-064-223.carolina.res.rr.com) has joined #docpad
+2013-04-22 11:46:16	<--	KendrickVT1 (~Adium@cpe-075-176-064-223.carolina.res.rr.com) has quit (Ping timeout: 245 seconds)
+2013-04-22 12:42:37	-->	KendrickVT1 (~Adium@cpe-075-176-064-223.carolina.res.rr.com) has joined #docpad
+2013-04-22 12:46:50	<--	KendrickVT1 (~Adium@cpe-075-176-064-223.carolina.res.rr.com) has quit (Ping timeout: 252 seconds)
+2013-04-22 13:36:10	supersym	echooo
+2013-04-22 13:41:17	ashnur	nope
+2013-04-22 13:43:08	-->	KendrickVT1 (~Adium@cpe-075-176-064-223.carolina.res.rr.com) has joined #docpad
+2013-04-22 13:46:14	-->	KendrickVT (~Adium@cpe-075-176-064-223.carolina.res.rr.com) has joined #docpad
+2013-04-22 13:46:35	<--	KendrickVT (~Adium@cpe-075-176-064-223.carolina.res.rr.com) has quit (Client Quit)
+2013-04-22 13:47:10	<--	KendrickVT1 (~Adium@cpe-075-176-064-223.carolina.res.rr.com) has quit (Read error: Connection reset by peer)
+2013-04-22 14:26:01	--	irc: disconnected from server
+2013-04-22 15:13:26	-->	supersym (~supersym@5418dbd7.cm-5-1d.dynamic.ziggo.nl) has joined #docpad
+2013-04-22 15:13:26	--	Topic for #docpad is "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-04-22 15:13:26	--	Topic set by balupton (uid6783@gateway/web/irccloud.com/x-cbtpwjksctndjgtn) on Fri, 28 Dec 2012 12:22:24
+2013-04-22 15:13:26	--	Nicks #docpad: [ashnur balupton Chase_the_Dev elf-pavlik jgm nexusIX spanners supersym]
+2013-04-22 15:13:26	--	Channel #docpad: 8 nicks (0 ops, 0 halfops, 0 voices, 8 normals)
+2013-04-22 15:13:29	--	Mode #docpad [+t]
+2013-04-22 15:13:30	--	Channel created on Sat, 26 May 2012 12:12:13
+2013-04-22 15:31:21	spanners	Hmm. The fault doesn't occur if I use marked instead of robotskirt.
+2013-04-22 15:42:55	supersym	hi :)
+2013-04-22 15:43:10	supersym	i went offline for 2 minutes and ppl pop up
+2013-04-22 15:43:21	spanners	hi ss
+2013-04-22 15:43:26	supersym	I was alone for dayyyyss :( Days I tell you
+2013-04-22 15:43:39	spanners	aw
+2013-04-22 15:43:40	supersym	well ok maybe not... like a day and night
+2013-04-22 15:43:44	supersym	:)
+2013-04-22 15:43:50	spanners	I'm fighting with markdown
+2013-04-22 15:44:31	spanners	Robotskirt is putting in <br/>s for hard-wrapped text, which I'm convinced it shouldn't be doing.
+2013-04-22 15:44:32	supersym	markdown :(
+2013-04-22 15:44:50	supersym	markdown doesnt do that
+2013-04-22 15:45:09	spanners	So I flip back to marked and now that's pumping crud into my bulleted lists.
+2013-04-22 15:45:53	supersym	2 spaces thing
+2013-04-22 15:46:02	supersym	you do know about that rule right?
+2013-04-22 15:46:11	spanners	Indeed I do.
+2013-04-22 15:46:19	supersym	ok good... just checking :)
+2013-04-22 15:46:27	spanners	If I write:
+2013-04-22 15:46:31	spanners	foo bar baz
+2013-04-22 15:46:35	spanners	quux moo cheese
+2013-04-22 15:46:40	spanners	bzzt bzzt trees.
+2013-04-22 15:46:44	spanners	Then I expect out:
+2013-04-22 15:46:57	spanners	<p>foo bar baz quux moo cheese bzzt bzzt trees.</p>
+2013-04-22 15:47:24	supersym	no it shouldnt do that from what I read
+2013-04-22 15:47:32	spanners	But robotskirt is giving me output with <br/> tags in it.
+2013-04-22 15:47:33	supersym	its very scarse the documentation
+2013-04-22 15:47:39	supersym	that seems incorrect
+2013-04-22 15:47:53	spanners	Markdown spec is clear: http://daringfireball.net/projects/markdown/syntax#p
+2013-04-22 15:47:57	supersym	The implication of the "one or more consecutive lines of text" rule is
+2013-04-22 15:47:57	supersym	that Markdown supports "hard-wrapped" text paragraphs. 
+2013-04-22 15:48:17	supersym	This differs
+2013-04-22 15:48:17	supersym	significantly from most other text-to-HTML formatters (including Movable
+2013-04-22 15:48:17	supersym	Type's "Convert Line Breaks" option) which translate every line break
+2013-04-22 15:48:17	supersym	character in a paragraph into a <code>&lt;br /&gt;</code> tag.</p>
+2013-04-22 15:48:25	spanners	So hitting that, I flipped back to the marked plugin, and it stopped happening.
+2013-04-22 15:48:30	supersym	they dont say that they dont
+2013-04-22 15:48:34	supersym	but that text implies it :P
+2013-04-22 15:48:43	supersym	right
+2013-04-22 15:48:54	spanners	I can also try it using Mou.app
+2013-04-22 15:49:30	spanners	(and that just confirms that I'm right)
+2013-04-22 15:49:30	supersym	seems like a bug to me then...
+2013-04-22 15:49:38	supersym	I can check the source for a sec
+2013-04-22 15:49:54	supersym	doing regex all the way anyway so shouldnt be too hard to locate the rules
+2013-04-22 15:50:10	spanners	I tried robotskirt's in-built copy oof sundown too, and that didn't show the problem...
+2013-04-22 15:51:47	supersym	you can clone the project and grep into it
+2013-04-22 15:51:58	spanners	The robotskirt plugin?
+2013-04-22 15:52:05	supersym	original src/markdown.c:82:
+2013-04-22 15:52:17	supersym	src/robotskirt.cc:569:    RENDFUNC_DATA(linebreak)
+2013-04-22 15:56:10	supersym	anyway I dont program in C but robotskirt doesnt do much extra to markdown.c besides wrap it
+2013-04-22 15:56:46	supersym	seriously.. Markdown blows donkeyballs tho :(
+2013-04-22 15:57:05	spanners	Your preference is?
+2013-04-22 15:58:11	supersym	man its hard...
+2013-04-22 15:58:42	supersym	GFM is missing those few little extras like footnotes etc, or only has [x] checkboxes for issue pages
+2013-04-22 15:58:54	supersym	multi-markdown i havent used it much
+2013-04-22 15:59:22	supersym	i dont write too much in markdown but pasted mass texts for this site in them, didnt have to do much more than h1, h2
+2013-04-22 15:59:59	supersym	I would have liked a elegant solution to class names tho... but no one really has that
+2013-04-22 16:00:20	spanners	I could try frobbing the Sundown extension flags (LAX_SPACING etc.)
+2013-04-22 16:00:26	supersym	in the end for this kind of purpose: i fear nothing beats org.mode
+2013-04-22 16:00:50	supersym	its for docpad yes? dont we have multimarkdown plugin now
+2013-04-22 16:00:54	spanners	yes
+2013-04-22 16:01:29	spanners	The benefit of Robotskirt is that I can layer stuff on top of it via the config.
+2013-04-22 16:02:46	-->	kaspertidemann (~Kasper@2605ds2-bav.0.fullrate.dk) has joined #docpad
+2013-04-22 16:03:04	supersym	 if (offset < 2 || data[-1] != ' ' || data[-2] != ' ') 
+2013-04-22 16:03:11	supersym	that does seem correct tho
+2013-04-22 16:03:23	supersym	markdown.c
+2013-04-22 16:03:53	supersym	ah..i see yes
+2013-04-22 16:03:57	supersym	lots of options
+2013-04-22 16:04:13	supersym	let me check here ok
+2013-04-22 16:04:44	spanners	sure, thanks
+2013-04-22 16:07:41	spanners	well well well
+2013-04-22 16:07:47	supersym	does the same here
+2013-04-22 16:07:52	supersym	found it?
+2013-04-22 16:08:20	spanners	I copied the default config from https://github.com/docpad/docpad-plugin-robotskirt into my config and now it /seems/ to be ok
+2013-04-22 16:10:01	supersym	yup
+2013-04-22 16:10:10	spanners	you see the same?
+2013-04-22 16:10:23	supersym	I changed the setting in node_modules/.. and now it doesnt hard-wrap either
+2013-04-22 16:10:36	supersym	so all is ok :)
+2013-04-22 16:13:30	 *	spanners eats a chocolate to celebrate
+2013-04-22 16:14:24	supersym	:D
+2013-04-22 16:14:49	supersym	I just finished my first real docpad plugin... but I am a bit doubtful about the second
+2013-04-22 16:16:00	supersym	I feel I'm probably best off with an abstraction into Backbone models, or, possibly combined with (but meta-data can do to) a directory file structure imposed
+2013-04-22 16:16:19	supersym	(I'm thinking out a ARIA/localized form generator structure)
+2013-04-22 16:17:38	supersym	I am using partials now but my defaults for fields are becoming huge hash maps with multiple arrays to loop through... I just feel I would be better off using meta-data but probably even query-engine
+2013-04-22 16:18:36	supersym	and the localization...it would be smarter/more elegant/lean to wrap it inside a localization feature of docpad, but i dont think its that advanced yet
+2013-04-22 16:21:29	supersym	guess im gonna go for the easy way now: forms/nl/fields.coffee|txt|whatever so I can wrap up some special processing functions for the input oninvalid events etc
+2013-04-22 16:22:10	supersym	then query the path/lang + document collection
+2013-04-22 16:22:22	supersym	good I think I know what to do:P
+2013-04-22 16:40:42	 *	spanners nods as if understanding
+2013-04-22 17:04:42	supersym	yeah neither do I.. and often wonder if its worth the pain :P
+2013-04-22 17:10:21	spanners	Partway through this DocPad conversion of my site I did wonder the same.
+2013-04-22 17:15:08	supersym	those can be fun
+2013-04-22 17:15:19	supersym	man sometimes I was sweating and hoping I could rid all the bugs :P
+2013-04-22 17:15:34	supersym	but saved me so much pains as well
+2013-04-22 17:16:16	spanners	I'm finding it slow to generate atm
+2013-04-22 17:17:07	spanners	info: Generated all 251 files in 76.733 seconds
+2013-04-22 17:17:27	spanners	(of which 114 are .mds, the rest are just JPEGs, PNGs and zips)
+2013-04-22 17:17:34	supersym	same here
+2013-04-22 17:17:36	supersym	wow
+2013-04-22 17:17:42	supersym	thats a lot slower
+2013-04-22 17:17:52	supersym	yeah with me its pdf
+2013-04-22 17:18:05	supersym	i wonder what he does with them :S
+2013-04-22 17:18:34	spanners	It's possible that I've done something pathological when generating sidebar content.
+2013-04-22 17:18:46	spanners	I'll have to disable all that and find the culprit.
+2013-04-22 17:19:03	spanners	Adding in ignores for the non-generated stuff helps a bit.
+2013-04-22 17:37:42	supersym	grr I hate coffeescript regex
+2013-04-22 17:38:16	supersym	the compiler is different from the sublime2 one as well, which doesnt complain about @ etc
+2013-04-22 17:59:46	-->	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has joined #docpad
+2013-04-22 18:30:23	<--	kaspertidemann (~Kasper@2605ds2-bav.0.fullrate.dk) has quit (Quit: kaspertidemann)
+2013-04-22 18:41:47	<--	ashnur (~ashnur@79.117.81.37) has quit (Quit: WeeChat 0.4.0)
+2013-04-22 19:12:49	-->	zenorocha (~zenorocha@tmo-098-162.customers.d1-online.com) has joined #docpad
+2013-04-22 19:34:36	<--	zenorocha (~zenorocha@tmo-098-162.customers.d1-online.com) has quit (Remote host closed the connection)
+2013-04-22 19:35:13	-->	zenorocha (~zenorocha@tmo-098-162.customers.d1-online.com) has joined #docpad
+2013-04-22 19:42:01	supersym	by god... now I know why regex and DOM dont really mix,.. what a pile of....
+2013-04-22 19:42:33	supersym	add in coffee and you get the coffee that makes you run for the toilet real fast
+2013-04-22 19:43:46	<--	zenorocha (~zenorocha@tmo-098-162.customers.d1-online.com) has quit (Ping timeout: 256 seconds)
+2013-04-22 19:47:26	-->	kaspertidemann (~Kasper@2605ds2-bav.0.fullrate.dk) has joined #docpad
+2013-04-22 19:54:15	--	irc: disconnected from server
+2013-04-22 20:26:09	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #docpad
+2013-04-22 20:26:09	--	Topic for #docpad is "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-04-22 20:26:09	--	Topic set by balupton (uid6783@gateway/web/irccloud.com/x-cbtpwjksctndjgtn) on Fri, 28 Dec 2012 12:22:24
+2013-04-22 20:26:09	--	Nicks #docpad: [balupton Chase_the_Dev elf-pavlik jgm nexusIX shama spanners supersym]
+2013-04-22 20:26:09	--	Channel #docpad: 8 nicks (0 ops, 0 halfops, 0 voices, 8 normals)
+2013-04-22 20:26:13	--	Mode #docpad [+t]
+2013-04-22 20:26:13	--	Channel created on Sat, 26 May 2012 12:12:13
+2013-04-22 20:31:43	supersym	happpy now :) cheerio to the rescue
+2013-04-22 20:54:37	-->	kaspertidemann (~Kasper@2605ds2-bav.0.fullrate.dk) has joined #docpad
+2013-04-22 22:37:04	supersym	docpad + cheerio seems like a nice mix so far :)
+2013-04-22 22:41:30	-->	ryker (~ryker@c-67-176-243-86.hsd1.in.comcast.net) has joined #docpad
+2013-04-22 22:47:44	-->	zenorocha (~zenorocha@tmo-098-162.customers.d1-online.com) has joined #docpad
+2013-04-22 22:54:29	-->	ashnur (~ashnur@79.117.81.37) has joined #docpad
+2013-04-22 22:56:01	ryker	hi all.  anyone here familiar with the ghpages plugin?
+2013-04-22 22:56:22	ryker	I just used it for the first time and it pushed to a new branch called gh-pages
+2013-04-22 22:56:28	ryker	is that what it's supposed to do?
+2013-04-22 22:56:51	ryker	I expected it to push to master
+2013-04-22 22:56:58	ashnur	yes
+2013-04-22 22:57:15	ashnur	ryker: you should really read the github pages documentation
+2013-04-22 22:57:45	ashnur	before you use a plugin which is made to comply with the things written in there
+2013-04-22 22:58:20	ryker	ashnur: I didn't see any real documentation for the plugin
+2013-04-22 22:58:25	ryker	oh
+2013-04-22 22:58:30	ryker	the github pages documentation
+2013-04-22 22:58:32	ryker	nvm
+2013-04-22 23:00:32	ryker	thx ashnur.
+2013-04-22 23:09:44	supersym	hehe
+2013-04-22 23:20:56	ryker	ashnur: ok, so for a project page, it should be deployed to gh-pages.  I'm trying to deploy a personal page, which should be pushed to master to work.
+2013-04-22 23:21:17	--	irc: disconnected from server
+2013-04-23 07:29:49	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #docpad
+2013-04-23 07:29:49	--	Topic for #docpad is "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-04-23 07:29:49	--	Topic set by balupton (uid6783@gateway/web/irccloud.com/x-cbtpwjksctndjgtn) on Fri, 28 Dec 2012 12:22:24
+2013-04-23 07:29:49	--	Nicks #docpad: [ashnur balupton Chase_the_Dev elf-pavlik jgm nexusIX shama spanners supersym]
+2013-04-23 07:29:49	--	Channel #docpad: 9 nicks (0 ops, 0 halfops, 0 voices, 9 normals)
+2013-04-23 07:29:49	--	Notice(adams.freenode.net): [freenode-info] please register your nickname...don't forget to auto-identify! http://freenode.net/faq.shtml#nicksetup
+2013-04-23 07:29:52	--	Mode #docpad [+t]
+2013-04-23 07:29:52	--	Channel created on Sat, 26 May 2012 12:12:13
+2013-04-23 08:13:26	<--	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has quit (Remote host closed the connection)
+2013-04-23 11:21:44	spanners	I wonder if using "findAllLive" rather than "findAll" is the root cause of my performance issue.
+2013-04-23 11:22:58	ashnur	it is
+2013-04-23 11:23:03	ashnur	i can tell you right now
+2013-04-23 11:46:42	spanners	OK, I'll try frobbing it.
+2013-04-23 12:06:07	spanners	Still slow.
+2013-04-23 12:06:39	spanners	Clearly getCollection is getting battered and I need to cache the results .. somehow.
+2013-04-23 12:07:38	ashnur	too bad 
+2013-04-23 12:07:54	ashnur	but I suspect you have gained some speed from it anyway?
+2013-04-23 12:13:05	spanners	I've fixed other pieces at the same time so it's gotten even slower.
+2013-04-23 12:35:25	spanners	Maybe a cacheable partial would help.
+2013-04-23 13:00:21	spanners	yep, that works (generation time 118s -> 8s)
+2013-04-23 13:00:33	spanners	But I lose the ability to highlight the current page.
+2013-04-23 13:53:24	supersym	cachable partial? how did you implement that?
+2013-04-23 14:28:34	-->	kaspertidemann (~Kasper@2605ds2-bav.0.fullrate.dk) has joined #docpad
+2013-04-23 14:41:05	<--	kaspertidemann (~Kasper@2605ds2-bav.0.fullrate.dk) has quit (Quit: kaspertidemann)
+2013-04-23 15:12:50	spanners	supersym: "If your partial only needs to be rendered once per (re)generation then you can specify cacheable: true in the partial's meta data, doing so greatly improves performance."
+2013-04-23 15:17:15	supersym	I actually have no idea if it needs that
+2013-04-23 15:17:51	supersym	but let me try :)
+2013-04-23 15:19:22	supersym	ah right... like those I use for footer etc are done without passing in dynamic info so rendered once... I get it
+2013-04-23 15:20:48	supersym	a good 2 seconds tho... still nice :P
+2013-04-23 15:29:46	spanners	:-)
+2013-04-23 16:00:41	supersym	hmmm nop...it sometimes prints stuff double
+2013-04-23 16:00:45	supersym	thats no good :P
+2013-04-23 16:01:21	supersym	oh well I only generate static anyway so Im cool with longer generation times
+2013-04-23 16:44:01	-->	kaspertidemann (~Kasper@2605ds2-bav.0.fullrate.dk) has joined #docpad
+2013-04-23 16:47:01	<--	kaspertidemann (~Kasper@2605ds2-bav.0.fullrate.dk) has quit (Client Quit)
+2013-04-23 16:47:16	-->	kaspertidemann (~Kasper@2605ds2-bav.0.fullrate.dk) has joined #docpad
+2013-04-23 16:51:16	<--	kaspertidemann (~Kasper@2605ds2-bav.0.fullrate.dk) has quit (Client Quit)
+2013-04-23 16:51:36	-->	kaspertidemann (~Kasper@2605ds2-bav.0.fullrate.dk) has joined #docpad
+2013-04-23 17:45:13	supersym	damn youtube has sooo many commercials nowadays
+2013-04-23 17:45:16	supersym	*cry*
+2013-04-23 17:45:24	<--	kaspertidemann (~Kasper@2605ds2-bav.0.fullrate.dk) has quit (Quit: kaspertidemann)
+2013-04-23 17:45:47	supersym	guess I should spend some time later on downloading my playlist cos this is just annoying every other song
+2013-04-23 18:02:15	-->	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has joined #docpad
+2013-04-23 18:33:47	--	irc: disconnected from server

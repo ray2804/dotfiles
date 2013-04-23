@@ -1,7 +1,7 @@
 /* Sublime GitHub default settings */
 {
     "accounts": {
-        "GitHub": {
+        "supersym": {
             "base_uri": "https://api.github.com",
             "github_token": ""
         }

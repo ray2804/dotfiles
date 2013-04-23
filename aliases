@@ -5,6 +5,7 @@ alias v="vim"
 
 # Config file moderations frequent
 alias aa="${EDITOR} ~/.aliases"
+alias gg="git add . && git commit -am"
 
 # Package managers and downloaders
 # Best on top
