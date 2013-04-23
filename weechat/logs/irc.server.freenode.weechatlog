@@ -10063,4 +10063,348 @@
 2013-04-23 18:33:54	--	- (http://freenode.net/policy.shtml).  Your use of the network
 2013-04-23 18:33:54	--	- indicates your acceptance of this policy.
 2013-04-23 18:33:54	--	-
-2013-04-23 18:33:54	--	- Please join #freenode for any network-related que
+2013-04-23 18:33:54	--	- Please join #freenode for any network-related questions or
+2013-04-23 18:33:54	--	- queries, there are numerous freenode volunteers and helpful
+2013-04-23 18:33:54	--	- users who would be happy to try answer any questions you might
+2013-04-23 18:33:54	--	- have.
+2013-04-23 18:33:54	--	-
+2013-04-23 18:33:54	--	- Check out www.fossevents.org to find out what is happening in
+2013-04-23 18:33:54	--	- your area, join us at FOSSCON (www.fosscon.org) for talks and
+2013-04-23 18:33:54	--	- real-life collaboration or bring a picnic and come join
+2013-04-23 18:33:54	--	- like-minded geeks for a geeknic (www.geeknic.org) somewhere
+2013-04-23 18:33:54	--	- close to you.
+2013-04-23 18:33:54	--	- Lastly, massive thanks to the OSU Open Source Lab
+2013-04-23 18:33:54	--	- (http://osuosl.org/) and Private Internet Access
+2013-04-23 18:33:54	--	- (https://www.privateinternetaccess.com/) for their sustained,
+2013-04-23 18:33:54	--	- long term support and dedication they show to the FOSS
+2013-04-23 18:33:54	--	- communities.
+2013-04-23 18:33:54	--	-
+2013-04-23 18:33:54	--	- ***************************************************************
+2013-04-23 18:33:54	--	- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+2013-04-23 18:33:54	--	- ***************************************************************
+2013-04-23 18:33:54	--	End of /MOTD command.
+2013-04-23 18:33:54	--	User mode [+i] by supersym
+2013-04-23 18:33:54	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2013-04-23 18:34:00	--	NickServ (NickServ@services.): You are now identified for supersym.
+2013-04-23 18:34:00	--	ChanServ (ChanServ@services.): [#node.js] Visit the wiki page https://github.com/joyent/node/wiki
+2013-04-23 18:34:46	--	irc: disconnected from server
+2013-04-23 18:34:52	--	irc: connecting to server chat.freenode.net/6667...
+2013-04-23 18:34:52	--	irc: connected to chat.freenode.net/6667 (174.143.119.91)
+2013-04-23 18:34:52	--	asimov.freenode.net (asimov.freenode.net): *** Looking up your hostname...
+2013-04-23 18:34:52	--	asimov.freenode.net (asimov.freenode.net): *** Checking Ident
+2013-04-23 18:34:52	--	asimov.freenode.net (asimov.freenode.net): *** Found your hostname
+2013-04-23 18:35:01	--	asimov.freenode.net (asimov.freenode.net): *** No Ident response
+2013-04-23 18:35:01	--	Welcome to the freenode Internet Relay Chat Network supersym
+2013-04-23 18:35:01	--	MSG(nickserv): identify ***************
+2013-04-23 18:35:01	--	Your host is asimov.freenode.net[174.143.119.91/6667], running version ircd-seven-1.1.3
+2013-04-23 18:35:01	--	This server was created Sun Dec 11 2011 at 22:15:09 UTC
+2013-04-23 18:35:01	--	asimov.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+2013-04-23 18:35:01	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2013-04-23 18:35:01	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2013-04-23 18:35:01	--	EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2013-04-23 18:35:01	--	There are 200 users and 88195 invisible on 31 servers
+2013-04-23 18:35:01	--	33 :IRC Operators online
+2013-04-23 18:35:01	--	7 :unknown connection(s)
+2013-04-23 18:35:01	--	48164 :channels formed
+2013-04-23 18:35:01	--	I have 4636 clients and 1 servers
+2013-04-23 18:35:01	--	4636 10617 :Current local users 4636, max 10617
+2013-04-23 18:35:01	--	88395 89735 :Current global users 88395, max 89735
+2013-04-23 18:35:01	--	Highest connection count: 10618 (10617 clients) (4535047 connections received)
+2013-04-23 18:35:01	--	- asimov.freenode.net Message of the Day -
+2013-04-23 18:35:01	--	- Welcome to asimov.freenode.net in TX, USA!  Thanks to
+2013-04-23 18:35:01	--	- Rackspace (www.rackspace.com) for sponsoring
+2013-04-23 18:35:01	--	- this server!
+2013-04-23 18:35:01	--	-
+2013-04-23 18:35:01	--	- ASIMOV, ISAAC [1920-1992].  One of the brightest stars of the
+2013-04-23 18:35:01	--	- science fiction universe.  Author of I Robot, the
+2013-04-23 18:35:01	--	- Foundation series (which "grew like Topsy"), Pebble in the
+2013-04-23 18:35:01	--	- Sky and hundreds of works of science fact and science
+2013-04-23 18:35:01	--	- fiction.
+2013-04-23 18:35:01	--	-
+2013-04-23 18:35:01	--	- Welcome to freenode - supporting the free and open source
+2013-04-23 18:35:01	--	- software communities since 1998.
+2013-04-23 18:35:01	--	-
+2013-04-23 18:35:01	--	- By connecting to freenode you indicate that you have read and
+2013-04-23 18:35:01	--	- agree to adhere to our policies and procedures as per the
+2013-04-23 18:35:01	--	- website (http://freenode.net/).
+2013-04-23 18:35:01	--	-
+2013-04-23 18:35:01	--	- We would like to remind you that unauthorised public logging
+2013-04-23 18:35:01	--	- of channels on the network is prohibited. Public channel
+2013-04-23 18:35:01	--	- logging should only take place where the channel owner(s) has
+2013-04-23 18:35:01	--	- requested this and users of the channel are all made aware
+2013-04-23 18:35:01	--	- (if you are publically logging your channel, you may wish to
+2013-04-23 18:35:01	--	- keep a notice in the topic and perhaps as an on-join message).
+2013-04-23 18:35:01	--	-
+2013-04-23 18:35:01	--	- freenode runs an open proxy scanner. For details on freenode
+2013-04-23 18:35:01	--	- network policy, please take a look at our policy page
+2013-04-23 18:35:01	--	- (http://freenode.net/policy.shtml).  Your use of the network
+2013-04-23 18:35:01	--	- indicates your acceptance of this policy.
+2013-04-23 18:35:01	--	-
+2013-04-23 18:35:01	--	- Please join #freenode for any network-related questions or
+2013-04-23 18:35:01	--	- queries, there are numerous freenode volunteers and helpful
+2013-04-23 18:35:01	--	- users who would be happy to try answer any questions you might
+2013-04-23 18:35:01	--	- have.
+2013-04-23 18:35:01	--	-
+2013-04-23 18:35:01	--	- Check out www.fossevents.org to find out what is happening in
+2013-04-23 18:35:01	--	- your area, join us at FOSSCON (www.fosscon.org) for talks and
+2013-04-23 18:35:01	--	- real-life collaboration or bring a picnic and come join
+2013-04-23 18:35:01	--	- like-minded geeks for a geeknic (www.geeknic.org) somewhere
+2013-04-23 18:35:01	--	- close to you.
+2013-04-23 18:35:01	--	- Lastly, massive thanks to the OSU Open Source Lab
+2013-04-23 18:35:01	--	- (http://osuosl.org/) and Private Internet Access
+2013-04-23 18:35:01	--	- (https://www.privateinternetaccess.com/) for their sustained,
+2013-04-23 18:35:01	--	- long term support and dedication they show to the FOSS
+2013-04-23 18:35:01	--	- communities.
+2013-04-23 18:35:01	--	-
+2013-04-23 18:35:01	--	- ***************************************************************
+2013-04-23 18:35:01	--	- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+2013-04-23 18:35:01	--	- ***************************************************************
+2013-04-23 18:35:01	--	End of /MOTD command.
+2013-04-23 18:35:01	--	User mode [+i] by supersym
+2013-04-23 18:35:01	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2013-04-23 18:35:07	--	NickServ (NickServ@services.): You are now identified for supersym.
+2013-04-23 18:35:07	--	ChanServ (ChanServ@services.): [#node.js] Visit the wiki page https://github.com/joyent/node/wiki
+2013-04-23 18:45:56	--	irc: disconnected from server
+2013-04-23 18:45:57	--	irc: connecting to server chat.freenode.net/6667...
+2013-04-23 18:45:58	--	irc: connected to chat.freenode.net/6667 (216.155.130.130)
+2013-04-23 18:45:58	--	verne.freenode.net (verne.freenode.net): *** Looking up your hostname...
+2013-04-23 18:45:58	--	verne.freenode.net (verne.freenode.net): *** Checking Ident
+2013-04-23 18:45:58	--	verne.freenode.net (verne.freenode.net): *** Found your hostname
+2013-04-23 18:46:05	--	verne.freenode.net (verne.freenode.net): *** No Ident response
+2013-04-23 18:46:05	--	Welcome to the freenode Internet Relay Chat Network supersym
+2013-04-23 18:46:05	--	MSG(nickserv): identify ***************
+2013-04-23 18:46:05	--	Your host is verne.freenode.net[216.155.130.130/6667], running version ircd-seven-1.1.3
+2013-04-23 18:46:05	--	This server was created Sun Dec 11 2011 at 17:15:56 EST
+2013-04-23 18:46:05	--	verne.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+2013-04-23 18:46:05	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2013-04-23 18:46:05	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2013-04-23 18:46:05	--	EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2013-04-23 18:46:05	--	There are 199 users and 88292 invisible on 31 servers
+2013-04-23 18:46:05	--	32 :IRC Operators online
+2013-04-23 18:46:05	--	5 :unknown connection(s)
+2013-04-23 18:46:05	--	48147 :channels formed
+2013-04-23 18:46:05	--	I have 4828 clients and 1 servers
+2013-04-23 18:46:05	--	4828 6745 :Current local users 4828, max 6745
+2013-04-23 18:46:05	--	88491 89735 :Current global users 88491, max 89735
+2013-04-23 18:46:05	--	Highest connection count: 6746 (6745 clients) (1236120 connections received)
+2013-04-23 18:46:05	--	- verne.freenode.net Message of the Day -
+2013-04-23 18:46:05	--	- Welcome to verne.freenode.net in Newark, NJ, US.
+2013-04-23 18:46:05	--	- Thanks to Choopa 'www.choopa.com' for providing this server!
+2013-04-23 18:46:05	--	-
+2013-04-23 18:46:05	--	- VERNE, Jules (1828-1905). Born in Nantes, France, Verne was
+2013-04-23 18:46:05	--	- a pioneering french author known for novels such as Twenty
+2013-04-23 18:46:05	--	- Thousand Leagues Under the Sea, A Journey to the Center of the
+2013-04-23 18:46:05	--	- Earth, and Around the World in Eighty Days. Often lauded as the
+2013-04-23 18:46:05	--	- Father of science fiction, Verne wrote about concepts such as
+2013-04-23 18:46:05	--	- space travel, skyscrapers, and worldwide communications
+2013-04-23 18:46:05	--	- networks long before these ideas became popularised or realised.
+2013-04-23 18:46:05	--	-
+2013-04-23 18:46:05	--	- Welcome to freenode - supporting the free and open source
+2013-04-23 18:46:05	--	- software communities since 1998.
+2013-04-23 18:46:05	--	-
+2013-04-23 18:46:05	--	- By connecting to freenode you indicate that you have read and
+2013-04-23 18:46:05	--	- agree to adhere to our policies and procedures as per the
+2013-04-23 18:46:05	--	- website (http://freenode.net/).
+2013-04-23 18:46:05	--	-
+2013-04-23 18:46:05	--	- We would like to remind you that unauthorised public logging
+2013-04-23 18:46:05	--	- of channels on the network is prohibited. Public channel
+2013-04-23 18:46:05	--	- logging should only take place where the channel owner(s) has
+2013-04-23 18:46:05	--	- requested this and users of the channel are all made aware
+2013-04-23 18:46:05	--	- (if you are publically logging your channel, you may wish to
+2013-04-23 18:46:05	--	- keep a notice in the topic and perhaps as an on-join message).
+2013-04-23 18:46:05	--	-
+2013-04-23 18:46:05	--	- freenode runs an open proxy scanner. For details on freenode
+2013-04-23 18:46:05	--	- network policy, please take a look at our policy page
+2013-04-23 18:46:05	--	- (http://freenode.net/policy.shtml).  Your use of the network
+2013-04-23 18:46:05	--	- indicates your acceptance of this policy.
+2013-04-23 18:46:05	--	-
+2013-04-23 18:46:05	--	- Please join #freenode for any network-related questions or
+2013-04-23 18:46:05	--	- queries, there are numerous freenode volunteers and helpful
+2013-04-23 18:46:05	--	- users who would be happy to try answer any questions you might
+2013-04-23 18:46:05	--	- have.
+2013-04-23 18:46:05	--	-
+2013-04-23 18:46:05	--	- Check out www.fossevents.org to find out what is happening in
+2013-04-23 18:46:05	--	- your area, join us at FOSSCON (www.fosscon.org) for talks and
+2013-04-23 18:46:05	--	- real-life collaboration or bring a picnic and come join
+2013-04-23 18:46:05	--	- like-minded geeks for a geeknic (www.geeknic.org) somewhere
+2013-04-23 18:46:05	--	- close to you.
+2013-04-23 18:46:05	--	- Lastly, massive thanks to the OSU Open Source Lab
+2013-04-23 18:46:05	--	- (http://osuosl.org/) and Private Internet Access
+2013-04-23 18:46:05	--	- (https://www.privateinternetaccess.com/) for their sustained,
+2013-04-23 18:46:05	--	- long term support and dedication they show to the FOSS
+2013-04-23 18:46:05	--	- communities.
+2013-04-23 18:46:05	--	-
+2013-04-23 18:46:05	--	- ***************************************************************
+2013-04-23 18:46:05	--	- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+2013-04-23 18:46:05	--	- ***************************************************************
+2013-04-23 18:46:05	--	End of /MOTD command.
+2013-04-23 18:46:05	--	User mode [+i] by supersym
+2013-04-23 18:46:05	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2013-04-23 18:46:12	--	NickServ (NickServ@services.): You are now identified for supersym.
+2013-04-23 18:46:12	--	ChanServ (ChanServ@services.): [#node.js] Visit the wiki page https://github.com/joyent/node/wiki
+2013-04-23 18:46:27	--	irc: disconnected from server
+2013-04-23 18:47:02	--	irc: connecting to server chat.freenode.net/6667...
+2013-04-23 18:47:02	--	irc: connected to chat.freenode.net/6667 (193.219.128.49)
+2013-04-23 18:47:02	--	sendak.freenode.net (sendak.freenode.net): *** Looking up your hostname...
+2013-04-23 18:47:02	--	sendak.freenode.net (sendak.freenode.net): *** Checking Ident
+2013-04-23 18:47:03	--	sendak.freenode.net (sendak.freenode.net): *** Found your hostname
+2013-04-23 18:47:04	--	irc: disconnected from server
+2013-04-23 18:47:25	--	irc: connecting to server chat.freenode.net/6667...
+2013-04-23 18:47:25	--	irc: connected to chat.freenode.net/6667 (195.148.124.79)
+2013-04-23 18:47:25	--	rajaniemi.freenode.net (rajaniemi.freenode.net): *** Looking up your hostname...
+2013-04-23 18:47:25	--	rajaniemi.freenode.net (rajaniemi.freenode.net): *** Checking Ident
+2013-04-23 18:47:25	--	rajaniemi.freenode.net (rajaniemi.freenode.net): *** Found your hostname
+2013-04-23 18:47:35	--	rajaniemi.freenode.net (rajaniemi.freenode.net): *** No Ident response
+2013-04-23 18:47:35	--	Welcome to the freenode Internet Relay Chat Network supersym
+2013-04-23 18:47:35	--	MSG(nickserv): identify ***************
+2013-04-23 18:47:35	--	Your host is rajaniemi.freenode.net[195.148.124.79/6667], running version ircd-seven-1.1.3
+2013-04-23 18:47:35	--	This server was created Mon Dec 31 2012 at 23:37:13 EET
+2013-04-23 18:47:35	--	rajaniemi.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+2013-04-23 18:47:35	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2013-04-23 18:47:35	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2013-04-23 18:47:35	--	EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2013-04-23 18:47:35	--	There are 200 users and 88293 invisible on 31 servers
+2013-04-23 18:47:35	--	32 :IRC Operators online
+2013-04-23 18:47:35	--	8 :unknown connection(s)
+2013-04-23 18:47:35	--	48149 :channels formed
+2013-04-23 18:47:35	--	I have 4985 clients and 1 servers
+2013-04-23 18:47:35	--	4985 5811 :Current local users 4985, max 5811
+2013-04-23 18:47:35	--	88493 89734 :Current global users 88493, max 89734
+2013-04-23 18:47:35	--	Highest connection count: 5812 (5811 clients) (340646 connections received)
+2013-04-23 18:47:35	--	- rajaniemi.freenode.net Message of the Day -
+2013-04-23 18:47:35	--	- Welcome to rajaniemi.freenode.net in Helsinki, Finland.  Our thanks to
+2013-04-23 18:47:35	--	- Aalto University for sponsoring this server!
+2013-04-23 18:47:35	--	-
+2013-04-23 18:47:35	--	- RAJANIEMI, Hannu  (1978-). Born in Ylivieska, Finland, Rajaniemi is the
+2013-04-23 18:47:35	--	- author of two novels and several short stories, and his debut novel 'The
+2013-04-23 18:47:35	--	- Quantum Thief' was nominated for the 2011 Locus Award for Best First
+2013-04-23 18:47:35	--	- Novel.  Rajaniemi lives in Edinburgh, Scotland where he is founding
+2013-04-23 18:47:35	--	- director of ThinkTank Maths, a commercial research
+2013-04-23 18:47:35	--	-
+2013-04-23 18:47:35	--	-
+2013-04-23 18:47:35	--	- Welcome to freenode - supporting the free and open source
+2013-04-23 18:47:35	--	- software communities since 1998.
+2013-04-23 18:47:35	--	-
+2013-04-23 18:47:35	--	- By connecting to freenode you indicate that you have read and
+2013-04-23 18:47:35	--	- agree to adhere to our policies and procedures as per the
+2013-04-23 18:47:35	--	- website (http://freenode.net/).
+2013-04-23 18:47:35	--	-
+2013-04-23 18:47:35	--	- We would like to remind you that unauthorised public logging
+2013-04-23 18:47:35	--	- of channels on the network is prohibited. Public channel
+2013-04-23 18:47:35	--	- logging should only take place where the channel owner(s) has
+2013-04-23 18:47:35	--	- requested this and users of the channel are all made aware
+2013-04-23 18:47:35	--	- (if you are publically logging your channel, you may wish to
+2013-04-23 18:47:35	--	- keep a notice in the topic and perhaps as an on-join message).
+2013-04-23 18:47:35	--	-
+2013-04-23 18:47:35	--	- freenode runs an open proxy scanner. For details on freenode
+2013-04-23 18:47:35	--	- network policy, please take a look at our policy page
+2013-04-23 18:47:35	--	- (http://freenode.net/policy.shtml).  Your use of the network
+2013-04-23 18:47:35	--	- indicates your acceptance of this policy.
+2013-04-23 18:47:35	--	-
+2013-04-23 18:47:35	--	- Please join #freenode for any network-related questions or
+2013-04-23 18:47:35	--	- queries, there are numerous freenode volunteers and helpful
+2013-04-23 18:47:35	--	- users who would be happy to try answer any questions you might
+2013-04-23 18:47:35	--	- have.
+2013-04-23 18:47:35	--	-
+2013-04-23 18:47:35	--	- Check out www.fossevents.org to find out what is happening in
+2013-04-23 18:47:35	--	- your area, join us at FOSSCON (www.fosscon.org) for talks and
+2013-04-23 18:47:35	--	- real-life collaboration or bring a picnic and come join
+2013-04-23 18:47:35	--	- like-minded geeks for a geeknic (www.geeknic.org) somewhere
+2013-04-23 18:47:35	--	- close to you.
+2013-04-23 18:47:35	--	- Lastly, massive thanks to the OSU Open Source Lab
+2013-04-23 18:47:35	--	- (http://osuosl.org/) and Private Internet Access
+2013-04-23 18:47:35	--	- (https://www.privateinternetaccess.com/) for their sustained,
+2013-04-23 18:47:35	--	- long term support and dedication they show to the FOSS
+2013-04-23 18:47:35	--	- communities.
+2013-04-23 18:47:35	--	-
+2013-04-23 18:47:35	--	- ***************************************************************
+2013-04-23 18:47:35	--	- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+2013-04-23 18:47:35	--	- ***************************************************************
+2013-04-23 18:47:35	--	End of /MOTD command.
+2013-04-23 18:47:35	--	User mode [+i] by supersym
+2013-04-23 18:47:35	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2013-04-23 18:47:41	--	#python: #python-unregistered :Forwarding to another channel
+2013-04-23 18:47:42	--	NickServ (NickServ@services.): You are now identified for supersym.
+2013-04-23 18:47:42	--	ChanServ (ChanServ@services.): [#node.js] Visit the wiki page https://github.com/joyent/node/wiki
+2013-04-23 18:47:42	--	ChanServ (ChanServ@services.): [#linguistics] ongi etorri·croeso·хуш омадед·fáilte·ברוכה הבאה·bienvenue·أهلا وسهلا·witaj·добро пожаловать·bine ai venit·歡迎·ne izuvajte se·добредојде·dobrodošli·خوش آمدید·bem-vindo·добре дошли·akwaaba·ようこそ·welkom·환영합니다·tervetuloa·xin chào·velkommen·hoşgeldiniz·merħba·selamat datang
+2013-04-23 19:13:17	--	irc: disconnected from server
+2013-04-23 19:59:02	--	irc: connecting to server chat.freenode.net/6667...
+2013-04-23 19:59:03	--	irc: connected to chat.freenode.net/6667 (140.211.167.105)
+2013-04-23 19:59:03	--	niven.freenode.net (niven.freenode.net): *** Looking up your hostname...
+2013-04-23 19:59:03	--	niven.freenode.net (niven.freenode.net): *** Checking Ident
+2013-04-23 19:59:03	--	niven.freenode.net (niven.freenode.net): *** Found your hostname
+2013-04-23 19:59:10	--	niven.freenode.net (niven.freenode.net): *** No Ident response
+2013-04-23 19:59:10	--	Welcome to the freenode Internet Relay Chat Network supersym
+2013-04-23 19:59:10	--	MSG(nickserv): identify ***************
+2013-04-23 19:59:10	--	Your host is niven.freenode.net[140.211.167.105/6667], running version ircd-seven-1.1.3
+2013-04-23 19:59:10	--	This server was created Tue Sep 25 2012 at 08:52:30 UTC
+2013-04-23 19:59:10	--	niven.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+2013-04-23 19:59:10	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2013-04-23 19:59:10	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2013-04-23 19:59:10	--	EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2013-04-23 19:59:10	--	There are 203 users and 88842 invisible on 31 servers
+2013-04-23 19:59:10	--	32 :IRC Operators online
+2013-04-23 19:59:10	--	6 :unknown connection(s)
+2013-04-23 19:59:10	--	48134 :channels formed
+2013-04-23 19:59:10	--	I have 4364 clients and 2 servers
+2013-04-23 19:59:10	--	4364 5623 :Current local users 4364, max 5623
+2013-04-23 19:59:10	--	89045 89735 :Current global users 89045, max 89735
+2013-04-23 19:59:10	--	Highest connection count: 5625 (5623 clients) (1778659 connections received)
+2013-04-23 19:59:10	--	- niven.freenode.net Message of the Day -
+2013-04-23 19:59:10	--	- Welcome to niven.freenode.net in Corvallis, Oregon, US.  Our
+2013-04-23 19:59:10	--	- thanks to Oregon State University for sponsoring this server!
+2013-04-23 19:59:10	--	-
+2013-04-23 19:59:10	--	- NIVEN, LAWRENCE VAN COTT [1938-].  Architect of Known Space,
+2013-04-23 19:59:10	--	- the setting of Protector, World of Ptaavs and the
+2013-04-23 19:59:10	--	- Ringworld series.  Author of "Flash Crowd", a canonical
+2013-04-23 19:59:10	--	- sociological hard science fiction short story dealing with
+2013-04-23 19:59:10	--	- effects of near instantaneous transportation on a modern
+2013-04-23 19:59:10	--	- technological society.  In addition, he is well known for his
+2013-04-23 19:59:10	--	- collaborations with Jerry Pournelle, including The Mote in
+2013-04-23 19:59:10	--	- God's Eye and Lucifer's Hammer.
+2013-04-23 19:59:10	--	-
+2013-04-23 19:59:10	--	- Welcome to freenode - supporting the free and open source
+2013-04-23 19:59:11	--	- software communities since 1998.
+2013-04-23 19:59:11	--	-
+2013-04-23 19:59:11	--	- By connecting to freenode you indicate that you have read and
+2013-04-23 19:59:11	--	- agree to adhere to our policies and procedures as per the
+2013-04-23 19:59:11	--	- website (http://freenode.net/).
+2013-04-23 19:59:11	--	-
+2013-04-23 19:59:11	--	- We would like to remind you that unauthorised public logging
+2013-04-23 19:59:11	--	- of channels on the network is prohibited. Public channel
+2013-04-23 19:59:11	--	- logging should only take place where the channel owner(s) has
+2013-04-23 19:59:11	--	- requested this and users of the channel are all made aware
+2013-04-23 19:59:11	--	- (if you are publically logging your channel, you may wish to
+2013-04-23 19:59:11	--	- keep a notice in the topic and perhaps as an on-join message).
+2013-04-23 19:59:11	--	-
+2013-04-23 19:59:11	--	- freenode runs an open proxy scanner. For details on freenode
+2013-04-23 19:59:11	--	- network policy, please take a look at our policy page
+2013-04-23 19:59:11	--	- (http://freenode.net/policy.shtml).  Your use of the network
+2013-04-23 19:59:11	--	- indicates your acceptance of this policy.
+2013-04-23 19:59:11	--	-
+2013-04-23 19:59:11	--	- Please join #freenode for any network-related questions or
+2013-04-23 19:59:11	--	- queries, there are numerous freenode volunteers and helpful
+2013-04-23 19:59:11	--	- users who would be happy to try answer any questions you might
+2013-04-23 19:59:11	--	- have.
+2013-04-23 19:59:11	--	-
+2013-04-23 19:59:11	--	- Check out www.fossevents.org to find out what is happening in
+2013-04-23 19:59:11	--	- your area, join us at FOSSCON (www.fosscon.org) for talks and
+2013-04-23 19:59:11	--	- real-life collaboration or bring a picnic and come join
+2013-04-23 19:59:11	--	- like-minded geeks for a geeknic (www.geeknic.org) somewhere
+2013-04-23 19:59:11	--	- close to you.
+2013-04-23 19:59:11	--	- Lastly, massive thanks to the OSU Open Source Lab
+2013-04-23 19:59:11	--	- (http://osuosl.org/) and Private Internet Access
+2013-04-23 19:59:11	--	- (https://www.privateinternetaccess.com/) for their sustained,
+2013-04-23 19:59:11	--	- long term support and dedication they show to the FOSS
+2013-04-23 19:59:11	--	- communities.
+2013-04-23 19:59:11	--	-
+2013-04-23 19:59:11	--	- ***************************************************************
+2013-04-23 19:59:11	--	- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+2013-04-23 19:59:11	--	- ***************************************************************
+2013-04-23 19:59:11	--	End of /MOTD command.
+2013-04-23 19:59:11	--	User mode [+i] by supersym
+2013-04-23 19:59:11	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2013-04-23 19:59:17	--	#python: #python-unregistered :Forwarding to another channel
+2013-04-23 19:59:18	--	NickServ (NickServ@services.): You are now identified for supersym.
+2013-04-23 19:59:18	--	ChanServ (ChanServ@services.): [#node.js] Visit the wiki page https://github.com/joyent/node/wiki
+2013-04-23 19:59:18	--	ChanServ (ChanServ@services.): [#linguistics] ongi etorri·croeso·хуш омадед·fáilte·ברוכה הבאה·bienvenue·أهلا وسهلا·witaj·добро пожаловать·bine ai venit·歡迎·ne izuvajte se·добредојде·dobrodošli·خوش آمدید·bem-vindo·добре дошли·akwaaba·ようこそ·welkom·환영합니다·tervetuloa·xin chào·velkommen·hoşgeldiniz·merħba·selamat datang

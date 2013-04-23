@@ -1,0 +1,13 @@
+[
+    {
+        "caption": "Themr: Default", 
+        "args": {
+            "t": "Default.sublime-theme"
+        }, 
+        "command": "switch_theme"
+    }, 
+    {
+        "caption": "Themr: Reload themes", 
+        "command": "reload_themes"
+    }
+]

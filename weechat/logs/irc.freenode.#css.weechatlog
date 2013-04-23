@@ -43,3 +43,747 @@
 2013-04-23 18:33:16	<--	tk_ (~tk@p205.net120137250.tokai.or.jp) has quit (Quit: ばいばい)
 2013-04-23 18:33:34	-->	rodacato (~adriancas@187.191.22.162) has joined #css
 2013-04-23 18:33:47	--	irc: disconnected from server
+2013-04-23 18:47:42	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #css
+2013-04-23 18:47:42	--	Topic for #css is "Cascading Style Sheets: Useful material and specs: http://www.w3.org/Style/CSS/ | IE Problems: specify VERSION | Validate first: http://jigsaw.w3.org/css-validator/ | Always have a URI | Paste FULL code: http://webdevout.net/test | No tables for layout: http://xrl.us/kd35 | Freelancers: #css-lance | Auch #css.de | aiming for 100% validation in your css is generally counter productive"
+2013-04-23 18:47:42	--	Topic set by jedimind (~pud@unaffiliated/jedimind) on Wed, 28 Mar 2012 23:04:03
+2013-04-23 18:47:42	--	Nicks #css: [21WAAGXOE 50UACESZ0 [[zz]] [Tritium] \mSg _cheney _goTAN _if aaron_f aca20031 acidjazz AdamPDotty Adawerk adnap Adys aep ajpiano alexwhitman alexzan ali1234 alicia_ba aliensky AllStruck amcsi_work amogorkon amph1bius An_Ony_Moose Andre_designer AndreasEri angeldeath anli Arieh aro artgoeshere Articate ashadow awc737 bacilla balr0g Bananobot banzounet barneybook bel3atar Benjojo bigLanky Bilge binaryfever bitg bitgod bitZero__ blaz0r` BlippSquipp boaz boodle boytoy brookQuint brunus BTG_Delta BuenGenio Caelum capella carlos_antonio caveat- cebor cH40z-Lord chalcedony chaos95 cheese1756 Cheffness chipotle_ chisler ciluu Circlefusion cjeria ckj classix clone1018 clorith cmrn coaster cod3r codepal codewatcher CoJaBo Columcille Cork CoverSlide crazedpsyc crazydiamond Creepy crios Cyberpew Cylent D-Boy d_d_d danielfilho danielfilho|w darkc0met datarecall Davey David_Bradbury dbaron de_henne deed02392 DEEF derekpioneer Derimagia Dev03 Devastator dewdrop dfr didiergm dirtydawg dismist djinni` djsounds02 donkeybox DonRichie drakythe Draxelis drey druiz dtcrshr DuncanChud dytrivedi e-anima Edico edlinde_ eighty4 ejnahc ejv elegos eLenoAr ElGrotto elky elliottcable em eN_Joy Erakso erichynds ericwood Etanol eternicode eth00 euphoriaa Evixion exicer ezakimak Fabianius factor faen Famic famicom fasta fatguylaughing FC03 felipe_ FernandoBasso fikst filleokus fireh Flannel Fli-c flyth Fofr_ foo Forbidd3n FortuneDays fRAiLtY- franksta-imac frankstallone Freeaqingme freeed frozenice g105b Garbee garry gates_ gde33 ghoti Giddeon gkatsev goodfriend grafi graft granden Grephix gtc guampa Guest85204 Guest89186 gurky haBuu Hardcore HardDisk_WP heath HeN heqs herbnerder hex`` hg_5 hohum hugo_moss HyP3r iaj iamdustan icecandy idoru ikonia illmatix ilteris ilteris_ Internet13 ircnode0_ iSeeDeadPixels Itrace ix007 j_wright JackBauer24 jaequery jagger|away jaredrhine jayne jbermudes JBreit jcastelli JDigital jedimind Jelco_ JelmerD JeremyFreeman jfinn jgiorgi jim Joefish johnline Johnny- jon8 Jonathan1cClare JonathanMcClare jonez jonkemp joseph jParkton JPeterson jpkeisala jrockjiggz_PC jsmonkey jtm jtrucks Juandev JWhy k1ng K3|Chris KakashiDK kanzure karnowski karstensrage_ kborchers kevinfagan Khisanth kkimlabs KolakCC Korvin kotyy krawchyk Kricir kristofers Kronuz l1ght lahwran lakcaj laptoke Leddy Leeol LekeFly levifig Linkeh LiST0R Logicgate Loserbait luigi69 luruke m4ng0s ma- maahacka MacWinner Maelstrom malcolmva marcogmonteiro marienz mariusz marthinal martinlampe Marwin maslowbeer MaSOuD Maurice MCHammer McMAGIC--Copy meckanism medusa Meffen Melsom mephux meshuga- metateck mh0 mikalv MikeD_ Mikuso milligan Milossh Milos|Work minted` mitchdotpro mitzev_ ML74 mlq mojito_ MooingLemur MoTiOnXml Moult MrGate_ mrhanky MrNibbles msdossys mtcrutch_ Munter myndzi n3ssi3 Nanobot naquad NC-17 Nebros needlz_ nemesit|znc nemo nesti neteffect netman nfk nicetry_ NiLon niloy NimeshNeema NivenHuH nomad411 Norbo11 Nuck oakdog8 obert ohcibi OnlyMax onscreen- oogaw oohnoitz oojacoboo opalepatrick Orbitrix Orginator Parhs Patabugen patteh peder perlbot perlite PhonicUK phrozen77 phryk Phunky pikpik pl0sh plamb platzhirsch1 poutine Praise preaction PrgmrBill Proshot pythonsnake radio23 raj rakl rannmann rathis_ ravenzz Raziel2p reaper763 redfox_ reecefowell RegularJohn relipse Renari reZo rfoust richardwh1uk Rix rizzuh rocky rodacato romanovic Romnous RudyValencia ryan-- ryanseddon s00pcan sadtaco sahbeewah sam113101 samu say2joe sCoRpi se-lite SebastianFlyte sebrock sedovsek Sefyroth Selvvir ServerSage SeySayux sgkim126w Sherlack Shi silentpost silverdiamond sinned SirCmpwn SirFunk sirspazzolot skcin7 sky sluther Snakes snearch solsson Somatt_wrk_ Someguy123 Sopheria sosby sp sparr speak speakman sphenxes sriley stefancrs stepdad stickDeath stiiian Storm3y_ sunbeam supersym Symmetria syntax Synthead sysdef systemovich t0x1n tallest_red tapout taqutor tashi Teal`c____ TelFiRE TeslaTest tfitts the_dave TheCowboy TheEternalAbyss TheFuzzball therealkoopa thesisb TheWarden thnee Timmooo tirengarfio__ tiwula todd_dsm tomalak tomaw Torimodo torpet tote tplaner trepmal trucMuche tuv tuvwx twisted` Tycale tylersmith ub|k ujjain ul71m0 UniZero_ unreal-dude vanseverk vazakl- viduthalai1947 viktech VinnyFonseca vnn_ vsgill wagle warreng webfox weeb1e wereHamster Whiskey widoz Wobbley Woet Woho worker_poke xa0z xckpd7 XDS2010 xec xfire Xgc xgoo xhoy xid yeltzooo YolarP_ yorick yx zafu Zauberfisch|idle zergion zettam1 Zitter zivester ziyadb znf zombiebeard]
+2013-04-23 18:47:42	--	Channel #css: 537 nicks (0 ops, 0 halfops, 0 voices, 537 normals)
+2013-04-23 18:48:01	--	Mode #css [+CFcnpt]
+2013-04-23 18:48:01	--	Channel created on Sun, 26 Nov 2006 07:42:45
+2013-04-23 18:48:30	<--	JackBauer24 (~JackBauer@89-76-72-190.dynamic.chello.pl) has quit (Quit: Konversation terminated!)
+2013-04-23 18:48:39	aliensky	can somebody tell me what happened to my site?
+2013-04-23 18:48:45	aliensky	www.numerologija.org
+2013-04-23 18:48:47	-->	seismo (~seismo@p5B0E89F6.dip0.t-ipconnect.de) has joined #css
+2013-04-23 18:48:56	-->	danielwrobert (~danielwro@wsip-68-15-24-46.sd.sd.cox.net) has joined #css
+2013-04-23 18:48:56	aliensky	it does not show u in internet explorer
+2013-04-23 18:49:33	--	Woho is now known as Motig
+2013-04-23 18:50:52	-->	alabala (alabala@unaffiliated/alabala) has joined #css
+2013-04-23 18:51:44	-->	thirdknife (~thirdknif@39.47.18.28) has joined #css
+2013-04-23 18:52:01	Creepy	``v
+2013-04-23 18:52:04	Creepy	`v
+2013-04-23 18:52:18	Selvvir	Creepy, « www.numerologija.org » markup • errors: 3 • warnings: 0 • charset: utf-8 • validation result: http://goo.gl/J4CSd
+2013-04-23 18:52:20	Selvvir	Creepy, « www.numerologija.org » CSS • errors: 6 • warnings: 14 • profile: css3 • validation result: http://goo.gl/baXvs
+2013-04-23 18:52:31	jParkton	looks fine in Chrome
+2013-04-23 18:52:50	<--	sluther (~sluther@70-36-236-87.dsl.static.sonic.net) has quit (Ping timeout: 252 seconds)
+2013-04-23 18:52:52	<--	cebor (~cebor@unaffiliated/cebor) has quit (Ping timeout: 258 seconds)
+2013-04-23 18:53:15	-->	Ittindi (~Ittindi@unaffiliated/ittindi) has joined #css
+2013-04-23 18:53:19	Creepy	IE10 is fine too
+2013-04-23 18:54:27	jParkton	aliensky, what do you see is wrong
+2013-04-23 18:54:33	-->	sluther (~sluther@70-36-236-87.dsl.static.sonic.net) has joined #css
+2013-04-23 18:54:35	jParkton	or did you just want some traffic
+2013-04-23 18:54:37	-->	lifeiscontent (~lifeiscon@c-67-169-70-107.hsd1.ca.comcast.net) has joined #css
+2013-04-23 18:54:49	aliensky	no, no, in IE it gives me error
+2013-04-23 18:54:56	aliensky	homepage
+2013-04-23 18:55:00	jParkton	Can you paste the error?
+2013-04-23 18:55:12	<--	silentpost (~silentpos@user-24-214-140-5.knology.net) has quit (Remote host closed the connection)
+2013-04-23 18:55:46	Creepy	and tell us the IE version -.-
+2013-04-23 18:55:54	Creepy	which prob would help to debug any issues -.-
+2013-04-23 18:56:12	aliensky	If I open this it works   http://www.numerologija.org/index.html
+2013-04-23 18:56:21	aliensky	ig I open only domain I get error
+2013-04-23 18:56:24	aliensky	http://www.numerologija.org
+2013-04-23 18:56:27	-->	drale2k (~drale2k@chello084113196096.1.14.vie.surfer.at) has joined #css
+2013-04-23 18:56:42	<--	g105b (~g105b@cpc3-derb14-2-0-cust187.8-3.cable.virginmedia.com) has quit (Ping timeout: 258 seconds)
+2013-04-23 18:56:42	jParkton	ok and what is the error
+2013-04-23 18:57:15	<--	johnline (~hupert@46-65-14-134.zone16.bethere.co.uk) has quit (Quit: FAK U JAMIE OLIVE)
+2013-04-23 18:58:19	aliensky	there is none, but only the banner shows up
+2013-04-23 18:58:34	jParkton	which version of IE?
+2013-04-23 18:58:54	aliensky	and small code below banner that says     <a href="index.htm
+2013-04-23 18:58:59	aliensky	only that       <a href="index.htm
+2013-04-23 18:59:04	<--	LekeFly (~LekeFly@77.40.158.20) has quit (Quit: LekeFly)
+2013-04-23 18:59:11	jParkton	.NET
+2013-04-23 18:59:12	<--	brookQuint (brookQuint@cpe-065-184-216-175.ec.res.rr.com) has quit
+2013-04-23 18:59:20	-->	brookQuint (brookQuint@cpe-065-184-216-175.ec.res.rr.com) has joined #css
+2013-04-23 18:59:22	aliensky	i am using IE 9
+2013-04-23 18:59:43	-->	Brewster (~Brewster@vps-1112589-12502.manage.myhosting.com) has joined #css
+2013-04-23 18:59:50	<--	sluther (~sluther@70-36-236-87.dsl.static.sonic.net) has quit (Ping timeout: 256 seconds)
+2013-04-23 19:00:18	aliensky	I get only 52 lines of code, if I check the source
+2013-04-23 19:00:20	aliensky	why?
+2013-04-23 19:00:30	aliensky	after 52 line it is cut off
+2013-04-23 19:00:32	aliensky	so weird
+2013-04-23 19:00:52	-->	cebor (~cebor@unaffiliated/cebor) has joined #css
+2013-04-23 19:00:59	-->	sluther (~sluther@70-36-236-87.dsl.static.sonic.net) has joined #css
+2013-04-23 19:01:13	-->	Giddeon2 (Giddeon@pool-96-255-106-253.washdc.fios.verizon.net) has joined #css
+2013-04-23 19:01:19	Creepy	i suggest you validate your code first
+2013-04-23 19:01:22	Creepy	and check this again
+2013-04-23 19:01:25	Brewster	hey I'm trying to make a navbar with css sprites but for some reason the width and height of each button seems to be limited by the width and height of the text in each button which I would like to be nothing. I am using this right here as a guide: http://stylemeltdown.com/image-sprite-navigation-with-css/
+2013-04-23 19:01:42	aliensky	https://www.dropbox.com/s/lkjvk6pe4jrwj5y/code.JPG?m
+2013-04-23 19:01:45	aliensky	i did validate
+2013-04-23 19:01:58	Creepy	you didnt
+2013-04-23 19:02:23	aliensky	what do you mean, the only glitsh is in the facebook iframe code
+2013-04-23 19:02:53	<--	Giddeon (~Giddeon@pool-96-255-106-253.washdc.fios.verizon.net) has quit (Ping timeout: 240 seconds)
+2013-04-23 19:02:58	aliensky	ok it wirks now
+2013-04-23 19:03:05	aliensky	I dont know my IE went crazy or something
+2013-04-23 19:03:08	aliensky	dont get it
+2013-04-23 19:03:10	Brewster	this is my css: http://pastebin.com/mjg1uSx9 this is my html: http://pastebin.com/KM7AdyNX
+2013-04-23 19:03:12	Creepy	its IE
+2013-04-23 19:03:12	Creepy	:P
+2013-04-23 19:03:14	aliensky	maybe cache thing
+2013-04-23 19:03:18	-->	ShawnRisk (~Adium@bas1-toronto26-1279685048.dsl.bell.ca) has joined #css
+2013-04-23 19:03:28	<--	thirdknife (~thirdknif@39.47.18.28) has quit (Ping timeout: 252 seconds)
+2013-04-23 19:03:46	-->	Iszak (~Iszak@unaffiliated/supavisah) has joined #css
+2013-04-23 19:04:10	-->	mbull9 (~mbull9@bc175169.bendcable.com) has joined #css
+2013-04-23 19:04:12	-->	Baut (~ItaloLope@200.235.131.180) has joined #css
+2013-04-23 19:04:31	<--	chipotle_ (~chipotle@unaffiliated/chipotle) has quit (Quit: cya)
+2013-04-23 19:04:45	Brewster	I feel like I missed something when learning css because the only problems I seem to have have to do with something not working even when I follow tutorials word for word
+2013-04-23 19:04:45	-->	mmlac-bv (~mmlac@208.65.181.227.static.etheric.net) has joined #css
+2013-04-23 19:04:47	<--	silverdiamond (~silverdia@cpc1-cwma5-0-0-cust64.7-3.cable.virginmedia.com) has quit (Quit: Leaving)
+2013-04-23 19:05:01	Brewster	or character for character
+2013-04-23 19:05:03	ShawnRisk	Creepy: nemo: I have fixed everything but how do I make the image not compress?  It is 1500px by 593px.
+2013-04-23 19:05:18	<--	systemovich (~systemovi@41-135-63-12.dsl.mweb.co.za) has quit (Remote host closed the connection)
+2013-04-23 19:05:33	-->	V8Energy (~V8Energy@209.195.125.98) has joined #css
+2013-04-23 19:05:35	Creepy	`paste @ Brewster
+2013-04-23 19:05:36	Selvvir	Brewster, Live pastebins: http://www.webdevout.net/test, http://www.jsfiddle.net/, http://pastehtml.com/, http://tinkerbin.com/
+2013-04-23 19:05:38	Creepy	second
+2013-04-23 19:05:52	aliensky	anybody knows what is the best system for community site?
+2013-04-23 19:05:55	Brewster	y u no like pastebin.com?
+2013-04-23 19:05:56	aliensky	that is light
+2013-04-23 19:05:58	-->	Somebody (~somebody@82-169-11-49.ip.telfort.nl) has joined #css
+2013-04-23 19:05:58	--	Somebody is now known as leonvv
+2013-04-23 19:06:09	aliensky	I was thinking about wordpress with forum
+2013-04-23 19:06:12	aliensky	but dunno
+2013-04-23 19:06:15	Creepy	because it does not have any livepreview of the code and of the images but
+2013-04-23 19:06:19	Creepy	thats not the point now
+2013-04-23 19:06:29	aliensky	drupal is too heavy
+2013-04-23 19:06:33	Creepy	i guess the problem is you used display:inline on the li elements
+2013-04-23 19:06:39	Creepy	and you should use inline-block
+2013-04-23 19:06:42	<--	sluther (~sluther@70-36-236-87.dsl.static.sonic.net) has quit (Ping timeout: 264 seconds)
+2013-04-23 19:06:45	<--	Ittindi (~Ittindi@unaffiliated/ittindi) has quit (Ping timeout: 276 seconds)
+2013-04-23 19:06:52	Creepy	but yeah was only a quick fly over
+2013-04-23 19:07:39	-->	Kunda (~Kunda@172-11-122-212.lightspeed.austtx.sbcglobal.net) has joined #css
+2013-04-23 19:07:43	-->	garciawebdev (~garciaweb@190.244.74.107) has joined #css
+2013-04-23 19:07:45	<--	Andre_designer (~Thunderbi@82-170-146-165.ip.telfort.nl) has quit (Quit: Andre_designer)
+2013-04-23 19:08:43	Brewster	that's a neat tool
+2013-04-23 19:08:45	<--	Kunda (~Kunda@172-11-122-212.lightspeed.austtx.sbcglobal.net) has left #css
+2013-04-23 19:08:53	Brewster	pastehtml that is
+2013-04-23 19:08:57	-->	sluther (~sluther@70-36-236-87.dsl.static.sonic.net) has joined #css
+2013-04-23 19:10:10	-->	brettfrable (~brettfrab@rrcs-208-125-34-154.nys.biz.rr.com) has joined #css
+2013-04-23 19:11:21	-->	Ittindi (~Ittindi@unaffiliated/ittindi) has joined #css
+2013-04-23 19:11:46	Brewster	Creepy: that didn't work :/
+2013-04-23 19:12:25	Creepy	then you have to paste your code and upload the images
+2013-04-23 19:12:28	<--	Kricir (~kricir@c-24-245-9-49.hsd1.mn.comcast.net) has quit (Remote host closed the connection)
+2013-04-23 19:12:37	Creepy	or give us a lin and we can check it
+2013-04-23 19:13:04	-->	Kricir (~kricir@c-24-245-9-49.hsd1.mn.comcast.net) has joined #css
+2013-04-23 19:13:17	--	irc: disconnected from server
+2013-04-23 19:59:18	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #css
+2013-04-23 19:59:18	--	Topic for #css is "Cascading Style Sheets: Useful material and specs: http://www.w3.org/Style/CSS/ | IE Problems: specify VERSION | Validate first: http://jigsaw.w3.org/css-validator/ | Always have a URI | Paste FULL code: http://webdevout.net/test | No tables for layout: http://xrl.us/kd35 | Freelancers: #css-lance | Auch #css.de | aiming for 100% validation in your css is generally counter productive"
+2013-04-23 19:59:18	--	Topic set by jedimind (~pud@unaffiliated/jedimind) on Wed, 28 Mar 2012 23:04:03
+2013-04-23 19:59:18	--	Nicks #css: [21WAAGXOE 50UACESZ0 [[zz]] [Tritium] \mSg _cheney _if aaron_f aca20031 acidjazz AdamPDotty Adawerk adnap Adys aep ajpiano alabala alexwhitman alexzan ali1234 alicia_ba aliensky AllStruck amcsi_work amogorkon amph1bius An_Ony_Moose AndreasEri angeldeath anli Anselmoo Arieh aro artgoeshere Articate ashadow awc737 bacilla balr0g Bananobot banzounet barneybook Baut bel3atar Benjojo bigLanky Bilge binaryfever bitg bitgod bitZero__ blaz0r` BlippSquipp boaz boodle Bosox20051 boytoy brettfrable Brewster brunus BTG_Delta BuenGenio Caelum capella carlos_antonio caveat- cH40z-Lord chalcedony chaos95 cheese1756 Cheffness chisler chuck8 ciluu Circlefusion cjeria ckj classix clone1018 clorith cmrn coaster cod3r codepal codewatcher CoJaBo Columcille Cork CoverSlide crazedpsyc crazydiamond Creepy crios Cyberpew Cylent D-Boy d_d_d danielfilho danielfilho|w danielwrobert darkc0met datarecall Davey David_Bradbury dbaron de_henne deed02392 DEEF derekpioneer Derimagia Dev03 Devastator dewdrop dfr didiergm dirtydawg dismist djinni` djsounds02 donkeybox DonRichie drakythe Draxelis Dreamscape drey druiz dtcrshr DuncanChud dytrivedi e-anima Edico edlinde_ eighty4 ejnahc ejv eKKo elegos eLenoAr ElGrotto elky elliottcable em eN_Joy Erakso erichynds ericwood Etanol eternicode eth00 euphoriaa Evixion ezakimak Fabianius factor faen Famic famicom fasta fatguylaughing FC03 felipe_ FernandoBasso filleokus fireh Flannel Fli-c flyth Fofr_ foo Forbidd3n FortuneDays fRAiLtY- franksta-imac frankstallone Freeaqingme freeed frozenice Gabri Garbee garciawebdev garry gates_ gde33 ghoti Giddeon2 gkatsev goodfriend grafi graft granden Grephix gtc guampa Guest85204 Guest89186 gurky haBuu Hardcore HardDisk_WP heath HeN heqs herbnerder hg_5 hohum hugo_moss HyP3r iaj iamdustan icecandy idoru ikonia illmatix ilteris ilteris_ Internet13 ircnode0_ iSeeDeadPixels Itrace Ittindi ix007 j_wright JackBauer24 jaequery jagger|away jaredrhine jayne jbermudes JBreit jcastelli JDigital jedimind Jelco_ JelmerD JeremyFreeman jfinn jgiorgi jim jim_j Joefish Johnny- jon8 Jonathan1cClare JonathanMcClare jonez joseph jParkton JPeterson jpkeisala jrockjiggz_PC jsmonkey jtm jtrucks Juandev JWhy k1ng K3|Chris KakashiDK kanzure karnowski karstensrage_ kborchers kevinfagan Khisanth kkimlabs KolakCC Korvin kotyy krawchyk kristofers Kronuz l1ght lahwran lakcaj laptoke Leddy Leeol leonvv levifig lifeiscontent Linkeh LiST0R Logicgate Loserbait luigi69 luruke ma- maahacka Maelstrom malcolmva marcogmonteiro marienz mariusz marthinal martinlampe Marwin maslowbeer MaSOuD MasterProgram Maurice MCHammer McMAGIC--Copy meckanism medusa Meffen Melsom mephux meshuga- metateck mh0 mikalv MikeD_ Mikuso milligan Milossh Milos|Work minted` mitchdotpro mitzev_ ML74 mlq mmlac-bv mojito_ MooingLemur Motig MoTiOnXml Moult MrGate_ mrhanky MrNibbles msdossys mtcrutch_ Munter myndzi n3ssi3 Nanobot naquad NC-17 Nebros needlz_ nemesit|znc nemo nessib nesti neteffect netman nfk nicetry_ NiLon niloy NimeshNeema NivenHuH noahsussman Norbo11 Nuck oakdog8 obert ohcibi OnlyMax onscreen- oogaw oohnoitz oojacoboo opalepatrick Orbitrix Orginator Parhs patteh peder perlbot perlite PhonicUK phrozen77 phryk pikpik pl0sh plamb platzhirsch1 poutine Praise preaction PrgmrBill Proshot pythonsnake radio23 raj rakl rannmann rathis_ ravenzz Raziel2p reaper763 redfox_ reecefowell RegularJohn Renari reZo rfoust richardwh1uk Rix rizzuh rodacato romanovic Romnous RudyValencia ryan-- ryanseddon s00pcan sadtaco sahbeewah sam113101 samu say2joe sCoRpi se-lite SebastianFlyte sebrock Sefyroth seismo Selvvir ServerSage SeySayux sgkim126w ShawnRisk Sherlack sinned SirCmpwn SirFunk sirspazzolot skcin7 sky sluther Snakes snearch solsson Somatt_wrk_ Someguy123 Sopheria sosby sp sparr speak speakman sriley stefancrs stepdad stickDeath stiiian Storm3y_ sunbeam supersym Symmetria syntax Synthead sysdef t0x1n tallest_red tapout taqutor tashi_ tdignan Teal`c____ TeslaTest tfitts the_dave TheEternalAbyss TheFuzzball therealkoopa thesisb TheWarden thnee Timmooo tirengarfio__ tiwula todd_dsm tomalak tomaw Torimodo torpet tote tplaner trepmal trucMuche tuv tuvwx twisted` Tycale tylersmith ub|k ujjain ul71m0 UniZero_ unreal-dude V8Energy vanseverk vazakl- viduthalai1947 viktech VinnyFonseca vnn_ vsgill wagle warreng webfox weeb1e wereHamster Whiskey widoz Wobbley Woet worker_poke xa0z xckpd7 XDS2010 xec xfire Xgc xgoo xhoy xid yeltzooo YolarP_ yorick yx zafu zagamqt Zauberfisch|idle zergion zettam1 Zitter zivester ziyadb znf]
+2013-04-23 19:59:18	--	Channel #css: 533 nicks (0 ops, 0 halfops, 0 voices, 533 normals)
+2013-04-23 19:59:30	jParkton	that main sliderish image?
+2013-04-23 19:59:34	<--	JackBauer24 (~JackBauer@89-76-72-190.dynamic.chello.pl) has quit (Remote host closed the connection)
+2013-04-23 19:59:37	--	Mode #css [+CFcnpt]
+2013-04-23 19:59:38	--	Channel created on Sun, 26 Nov 2006 07:42:45
+2013-04-23 19:59:58	ShawnRisk	jParkton: which page are you looking at?
+2013-04-23 20:00:18	<--	sluther (~sluther@70-36-236-87.dsl.static.sonic.net) has quit (Ping timeout: 252 seconds)
+2013-04-23 20:00:26	<--	Davey (~Davey@orchestra/staff/Davey) has quit (Quit: Computer has gone to sleep.)
+2013-04-23 20:00:32	<--	KolakCC (KolakCC@unaffiliated/kolakcc) has quit (Quit: Off for today..)
+2013-04-23 20:00:40	-->	hcavalle (~harrison@static-96-251-72-193.lsanca.fios.verizon.net) has joined #css
+2013-04-23 20:01:01	jParkton	the one that you linked login
+2013-04-23 20:01:14	<--	chuck8 (~Chuck@109.129.7.234) has quit (Ping timeout: 256 seconds)
+2013-04-23 20:01:43	<--	graft (~graft@unaffiliated/graft) has quit (Ping timeout: 246 seconds)
+2013-04-23 20:01:44	ShawnRisk	jParkton: this is the site I am working on: http://savewolflake.org/
+2013-04-23 20:01:48	-->	Qbix1 (~Qbix@ool-44c7d192.dyn.optonline.net) has joined #css
+2013-04-23 20:01:55	Qbix1	hey everyone
+2013-04-23 20:01:57	Qbix1	what's up jedimind
+2013-04-23 20:02:09	-->	jonkemp (~jonkemp@199.19.132.9) has joined #css
+2013-04-23 20:02:18	-->	fikst (~fikst@d5152BB56.access.telenet.be) has joined #css
+2013-04-23 20:02:19	jedimind	nod
+2013-04-23 20:02:26	-->	sluther (~sluther@70-36-236-87.dsl.static.sonic.net) has joined #css
+2013-04-23 20:02:41	-->	arronhunt (~textual@99-42-82-152.lightspeed.irvnca.sbcglobal.net) has joined #css
+2013-04-23 20:02:44	ravenzz	ShawnRisk remove the height attribute from the image
+2013-04-23 20:02:46	-->	thirdknife (~thirdknif@39.47.225.129) has joined #css
+2013-04-23 20:02:51	<--	JDigital (~JD@host86-129-78-16.range86-129.btcentralplus.com) has quit (Quit: But Gungash is also dead. I hated him - he stole my lunch two days ago, and it was an excellent boiled egg and some of Tashi's delicious spicebread. Take his soul, Dark Lord, and crush it beneath your contemptuous heel.)
+2013-04-23 20:02:52	ravenzz	the width too
+2013-04-23 20:03:06	<--	rakl (~rakl@sonic.mochaleaf.com) has quit (Quit: sleeping)
+2013-04-23 20:03:58	-->	Sonderblade (~Sonderbla@h-52-183.a157.priv.bahnhof.se) has joined #css
+2013-04-23 20:03:59	<--	Sonderblade (~Sonderbla@h-52-183.a157.priv.bahnhof.se) has quit (Max SendQ exceeded)
+2013-04-23 20:04:39	jParkton	http://pastebin.com/2ewemGfm
+2013-04-23 20:04:43	-->	Sonderblade (~Sonderbla@h-52-183.a157.priv.bahnhof.se) has joined #css
+2013-04-23 20:04:50	ShawnRisk	ravenzz: you are saying from the img tag get rid of the height and width in the html and the width within the css?
+2013-04-23 20:04:55	jParkton	both of those are effecting your image size
+2013-04-23 20:05:16	-->	rakl (~rakl@sonic.mochaleaf.com) has joined #css
+2013-04-23 20:05:21	jParkton	img{ height:543;} rm -rf that
+2013-04-23 20:05:37	ShawnRisk	okay
+2013-04-23 20:05:39	ShawnRisk	I get it
+2013-04-23 20:05:41	--	50UACESZ0 is now known as chee
+2013-04-23 20:05:41	ShawnRisk	let me try
+2013-04-23 20:05:42	jParkton	and width
+2013-04-23 20:05:51	ravenzz	ShawnRisk set it as a background-image
+2013-04-23 20:06:08	--	chee is now known as Guest
+2013-04-23 20:06:10	ShawnRisk	ravenzz: this is a module I am using with the cms I am using
+2013-04-23 20:06:13	-->	LekeFly (~LekeFly@195.79-160-47.customer.lyse.net) has joined #css
+2013-04-23 20:06:32	--	Guest is now known as chee
+2013-04-23 20:06:35	jParkton	pfft
+2013-04-23 20:06:41	-->	TelFiRE (~telfire@67.139.187.38) has joined #css
+2013-04-23 20:06:46	jParkton	man you have soo many image resizes going on
+2013-04-23 20:06:53	jParkton	#headerimage
+2013-04-23 20:06:59	jParkton	img{}
+2013-04-23 20:07:04	jParkton	#header
+2013-04-23 20:07:24	jParkton	remove everything that has a height / width and start from scratch
+2013-04-23 20:07:31	<--	noahsussman (~noahsussm@216.239.55.52) has quit (Remote host closed the connection)
+2013-04-23 20:07:39	ravenzz	ShawnRisk let me fiddle it for you
+2013-04-23 20:07:55	<--	sluther (~sluther@70-36-236-87.dsl.static.sonic.net) has quit (Ping timeout: 260 seconds)
+2013-04-23 20:08:08	-->	systemovich (~systemovi@41-135-63-12.dsl.mweb.co.za) has joined #css
+2013-04-23 20:08:13	ShawnRisk	ravenzz: okay
+2013-04-23 20:08:15	jParkton	just remove that whole img element
+2013-04-23 20:08:18	ShawnRisk	jParkton: I will try that
+2013-04-23 20:08:24	jParkton	and anything refering to img
+2013-04-23 20:08:26	jParkton	lol
+2013-04-23 20:08:45	-->	no_gravity (~user@p5B03C482.dip0.t-ipconnect.de) has joined #css
+2013-04-23 20:09:08	no_gravity	Good Evening! Im experimenting with different headline-styles for my websites. Which one do you guys prefer: www.movie-map.com or www.music-map.com ?
+2013-04-23 20:09:17	-->	noahsussman (~noahsussm@216.239.55.52) has joined #css
+2013-04-23 20:09:21	jParkton	neither
+2013-04-23 20:09:30	-->	JDigital (~JD@host86-129-78-16.range86-129.btcentralplus.com) has joined #css
+2013-04-23 20:09:33	-->	sluther (~sluther@70-36-236-87.dsl.static.sonic.net) has joined #css
+2013-04-23 20:09:53	-->	opus13 (~opus13@c-71-229-220-131.hsd1.co.comcast.net) has joined #css
+2013-04-23 20:10:41	-->	dailylinux (~linuxit@88.87.53.18) has joined #css
+2013-04-23 20:11:23	ShawnRisk	neither too
+2013-04-23 20:11:25	jParkton	Use a google web font and some effects
+2013-04-23 20:11:45	<--	MasterProgram (~MasterPro@qncy-90054-wrls-109x168.adams.net) has quit (Quit: Leaving)
+2013-04-23 20:11:47	-->	JackBauer24 (~JackBauer@89-76-72-190.dynamic.chello.pl) has joined #css
+2013-04-23 20:12:15	no_gravity	It is a google web font. But rendered as a png.
+2013-04-23 20:12:33	<--	martinlampe (~User@158.255.52.76) has quit (Quit: Leaving.)
+2013-04-23 20:12:36	<--	JackBauer24 (~JackBauer@89-76-72-190.dynamic.chello.pl) has quit (Remote host closed the connection)
+2013-04-23 20:12:37	jParkton	for what reason
+2013-04-23 20:12:54	jParkton	imgs load slower than a font does
+2013-04-23 20:13:09	-->	JackBauer24 (~JackBauer@89-76-72-190.dynamic.chello.pl) has joined #css
+2013-04-23 20:13:23	nemo	jParkton: wellll, maybe, maybe not, but certainly more accessible.
+2013-04-23 20:13:37	jParkton	and less nubly
+2013-04-23 20:14:09	-->	martinlampe (~User@158.255.52.76) has joined #css
+2013-04-23 20:14:11	jParkton	it really depends on if your going for "I want you to come baclk later" or "Bwahahah, I haz interwebs"
+2013-04-23 20:14:38	jParkton	if its the later then google search "Worst web designs ever"
+2013-04-23 20:14:43	<--	marcogmonteiro (~marcogmon@62.28.236.130) has quit (Quit: Textual IRC Client: http://www.textualapp.com/)
+2013-04-23 20:14:57	<--	sluther (~sluther@70-36-236-87.dsl.static.sonic.net) has quit (Ping timeout: 252 seconds)
+2013-04-23 20:14:58	-->	Sample (~iankp@unaffiliated/sample) has joined #css
+2013-04-23 20:15:19	-->	dr_ick (~dr_ick@c-24-20-12-152.hsd1.or.comcast.net) has joined #css
+2013-04-23 20:15:47	<--	dr_ick (~dr_ick@c-24-20-12-152.hsd1.or.comcast.net) has quit (Client Quit)
+2013-04-23 20:17:20	<--	Gabri (~gabri@91.72.64.50) has quit (Remote host closed the connection)
+2013-04-23 20:17:28	-->	sluther (~sluther@70-36-236-87.dsl.static.sonic.net) has joined #css
+2013-04-23 20:18:08	ravenzz	ShawnRisk http://jsfiddle.net/va4XV/embedded/result/ ?
+2013-04-23 20:18:29	David_Bradbury	Using a Google web font and adding effects is not solid grounds for creating any sort of design
+2013-04-23 20:19:21	-->	Kricir (~kricir@c-24-245-9-49.hsd1.mn.comcast.net) has joined #css
+2013-04-23 20:19:41	jParkton	neither is injecting asinine comments soley to be argumentative
+2013-04-23 20:21:32	David_Bradbury	I understand you're trying to retort, but your sentence doesn't make sense. I'll rephrase. You're giving bad advice. No argument to be had.
+2013-04-23 20:21:50	-->	Yoofie (~yoofie@75.114.176.65) has joined #css
+2013-04-23 20:22:03	jParkton	and you'r an asshole
+2013-04-23 20:22:03	-->	maZtaiR (~maZtaiR@unaffiliated/maztah) has joined #css
+2013-04-23 20:22:05	jParkton	point taken
+2013-04-23 20:22:26	David_Bradbury	Yes I am.
+2013-04-23 20:22:29	<--	sluther (~sluther@70-36-236-87.dsl.static.sonic.net) has quit (Ping timeout: 248 seconds)
+2013-04-23 20:23:50	jParkton	How is telling someone to use a different font in a header bad advice
+2013-04-23 20:23:58	-->	sluther (~sluther@70-36-236-87.dsl.static.sonic.net) has joined #css
+2013-04-23 20:24:22	-->	Dunstkreis (~Miranda@p54BB2A96.dip0.t-ipconnect.de) has joined #css
+2013-04-23 20:25:43	jParkton	I should have used bigger, more intelligent sounding words?
+2013-04-23 20:25:54	<--	TelFiRE (~telfire@67.139.187.38) has quit (Quit: TelFiRE)
+2013-04-23 20:26:06	-->	daanavitch (~daanavitc@178-118-247-206.access.telenet.be) has joined #css
+2013-04-23 20:26:12	David_Bradbury	Your suggestion was to quote: "Use a google web font and some effects" - How does that help anybody? Design is not the product of choosing a Google font and some effects. In fact choosing a different font and adding some effects could make his design worse.
+2013-04-23 20:26:28	<--	garry (~garry@host81-156-59-158.range81-156.btcentralplus.com) has quit
+2013-04-23 20:26:44	jParkton	What would you suggest?
+2013-04-23 20:27:03	jParkton	Oh you didn't.. you just stand by to downplay everyone else?
+2013-04-23 20:27:13	-->	exicer (~exicer@host86-140-166-160.range86-140.btcentralplus.com) has joined #css
+2013-04-23 20:27:18	jParkton	sounds trollish, but then again I wouldnt know
+2013-04-23 20:27:39	-->	b0x (~b0x@unaffiliated/b0x) has joined #css
+2013-04-23 20:27:54	Dreamscape	hey could anyone tell me how i can center my menu on this? http://www.louiseredknapp.eu
+2013-04-23 20:28:00	-->	TelFiRE (~telfire@67.139.187.38) has joined #css
+2013-04-23 20:28:40	ravenzz	you can't
+2013-04-23 20:28:55	ravenzz	unless you switch from float to display: table
+2013-04-23 20:29:11	<--	MrNibbles (~MrNibbles@mrnibbles.vm.bytemark.co.uk) has quit (Excess Flood)
+2013-04-23 20:29:13	Dreamscape	Ok thanks
+2013-04-23 20:29:15	<--	sluther (~sluther@70-36-236-87.dsl.static.sonic.net) has quit (Ping timeout: 252 seconds)
+2013-04-23 20:29:40	<--	thirdknife (~thirdknif@39.47.225.129) has quit (Ping timeout: 268 seconds)
+2013-04-23 20:30:12	-->	GarethAdams (~GarethAda@88-105-49-200.dynamic.dsl.as9105.com) has joined #css
+2013-04-23 20:30:12	<--	GarethAdams (~GarethAda@88-105-49-200.dynamic.dsl.as9105.com) has quit (Changing host)
+2013-04-23 20:30:12	-->	GarethAdams (~GarethAda@pdpc/supporter/active/GarethAdams) has joined #css
+2013-04-23 20:30:24	-->	sluther (~sluther@70-36-236-87.dsl.static.sonic.net) has joined #css
+2013-04-23 20:30:34	Dreamscape	While I'm here, do you have any idea how i could make these spread across the page? http://www.louiseredknapp.eu/discography they are to the left at the moment. sorry I'm new to CSS etc
+2013-04-23 20:31:03	<--	noahsussman (~noahsussm@216.239.55.52) has quit (Remote host closed the connection)
+2013-04-23 20:31:40	David_Bradbury	jParkton: I was actually beginning to, but believe it or not I have other things going on at the same time. Also, this is being discussed in ##design, a more appropriate channel
+2013-04-23 20:32:07	-->	brookQuint (brookQuint@cpe-065-184-216-175.ec.res.rr.com) has joined #css
+2013-04-23 20:32:46	jParkton	That I agree with
+2013-04-23 20:33:03	-->	thirdknife (~thirdknif@39.47.225.129) has joined #css
+2013-04-23 20:33:19	jParkton	But no I don't believe your that busy. I think you have too much ego and too high an estimation of yourself and your opinion
+2013-04-23 20:33:29	jParkton	but I am an ignorant redneck what do I know
+2013-04-23 20:34:24	David_Bradbury	I think that you make a lot of assumptions and put a lot of words into other people's mouths.
+2013-04-23 20:34:28	GarethAdams	ooh, seems like this was a fun time to log into in #css
+2013-04-23 20:34:45	goodfriend	umm guys
+2013-04-23 20:35:08	jParkton	I totally do
+2013-04-23 20:35:10	goodfriend	Is it possible to make a border filled by gradient? in csss
+2013-04-23 20:35:13	goodfriend	*css
+2013-04-23 20:35:21	jParkton	yes
+2013-04-23 20:35:38	David_Bradbury	goodfriend: http://caniuse.com/#search=border-image
+2013-04-23 20:35:53	<--	sluther (~sluther@70-36-236-87.dsl.static.sonic.net) has quit (Ping timeout: 255 seconds)
+2013-04-23 20:36:18	-->	MrNibbles (~MrNibbles@mrnibbles.vm.bytemark.co.uk) has joined #css
+2013-04-23 20:36:19	gde33	David_Bradbury: best not put commas behind urls or channel links
+2013-04-23 20:36:39	<--	Milossh (~milos@unaffiliated/milossh) has quit (Quit: Computer has gone to sleep.)
+2013-04-23 20:36:44	codewatcher	@Dreamscape your main has a width of 725px therefore they cant spread over the whole page
+2013-04-23 20:36:46	goodfriend	i dont see any comma behind that url bro :D
+2013-04-23 20:36:47	David_Bradbury	http://stackoverflow.com/questions/2717127/css3-gradient-borders
+2013-04-23 20:36:54	-->	m3pow (~chatzilla@176.223.44.107) has joined #css
+2013-04-23 20:36:57	-->	sluther (~sluther@70-36-236-87.dsl.static.sonic.net) has joined #css
+2013-04-23 20:37:01	David_Bradbury	gde33: Whoops, my bad
+2013-04-23 20:37:08	<--	JackBauer24 (~JackBauer@89-76-72-190.dynamic.chello.pl) has quit (Quit: Konversation terminated!)
+2013-04-23 20:37:10	goodfriend	David_Bradbury : thx
+2013-04-23 20:37:12	David_Bradbury	It was for an earlier channel link goodfriend :)
+2013-04-23 20:37:29	goodfriend	oh
+2013-04-23 20:37:30	ShawnRisk	I believe I have fixed the issues
+2013-04-23 20:38:02	goodfriend	I've been searching stackoverflow lately a lot.. should have come to mind first
+2013-04-23 20:38:11	<--	martinlampe (~User@158.255.52.76) has quit (Ping timeout: 252 seconds)
+2013-04-23 20:38:13	goodfriend	but it's so much easier just to ask in chat :D
+2013-04-23 20:38:27	-->	penguin1 (~penguin1@ltea-047-064-105-212.pools.arcor-ip.net) has joined #css
+2013-04-23 20:38:32	-->	weidou (~Thunderbi@stgt-5f70d90e.pool.mediaWays.net) has joined #css
+2013-04-23 20:38:38	<--	weidou (~Thunderbi@stgt-5f70d90e.pool.mediaWays.net) has quit (Client Quit)
+2013-04-23 20:38:43	--	cod3r is now known as baba
+2013-04-23 20:39:03	jParkton	plus nobody likes to be belittled and talked down to when seeking help, which is all Stack is good for
+2013-04-23 20:39:27	jParkton	powder puff programmers who cant fight in real life so they take to the internet to pass on their hatred lol
+2013-04-23 20:39:33	GarethAdams	I don't think I've ever talked down to anyone when answering their questions on stackoverflow
+2013-04-23 20:39:38	goodfriend	uhm well I have never had a chance to ask there
+2013-04-23 20:39:38	<--	TelFiRE (~telfire@67.139.187.38) has quit (Quit: TelFiRE)
+2013-04-23 20:39:41	jParkton	Sweet
+2013-04-23 20:39:48	goodfriend	I always find the answer there already D:
+2013-04-23 20:39:52	jParkton	You are a good man GarethAdams
+2013-04-23 20:40:06	jParkton	goodfriend, I agree
+2013-04-23 20:40:07	<--	Baut (~ItaloLope@200.235.131.180) has quit (Read error: Connection reset by peer)
+2013-04-23 20:40:19	GarethAdams	I think you must have a small sample size if you think that's all stackoverflow is good for
+2013-04-23 20:40:21	goodfriend	btw in stackoverflow in rules there is something about being kind
+2013-04-23 20:40:23	<--	codewatcher (~quassel@85-127-162-140.dynamic.xdsl-line.inode.at) has quit (Read error: Connection reset by peer)
+2013-04-23 20:40:23	jParkton	I also think the whole don't reask something again is an ignorant policy
+2013-04-23 20:40:30	goodfriend	people should read more than write
+2013-04-23 20:40:41	goodfriend	uhm
+2013-04-23 20:41:26	gde33	jParkton: to some extend, not all the way I hope
+2013-04-23 20:41:29	goodfriend	btw if u find a question to ask can u tel me to ask for u? :D I need rep points so i can vote for answers :( and I really don't know what to ask that haven't been asked already.. :(
+2013-04-23 20:41:45	gde33	some answers can be quite outdated
+2013-04-23 20:41:54	GarethAdams	goodfriend: try answering a question! ;)
+2013-04-23 20:42:02	goodfriend	GarethAdams : I did! :D
+2013-04-23 20:42:12	<--	ujjain (ujjain@unaffiliated/ujjain) has quit (Quit: Ik ga weg)
+2013-04-23 20:42:16	goodfriend	and it was just edited for better grammar :DDDD
+2013-04-23 20:42:19	-->	Swindlefingers (~Swindlefi@165.225.134.104) has joined #css
+2013-04-23 20:42:22	jParkton	lol
+2013-04-23 20:42:26	jParkton	hey it's a start
+2013-04-23 20:42:32	-->	K_ (~karuna@183.83.0.184) has joined #css
+2013-04-23 20:42:40	goodfriend	those native english speaking people just thinks its funny to correct the others i think :D
+2013-04-23 20:42:57	<--	sluther (~sluther@70-36-236-87.dsl.static.sonic.net) has quit (Ping timeout: 276 seconds)
+2013-04-23 20:42:58	jParkton	Yeah, grammar assholes are the worst
+2013-04-23 20:43:11	goodfriend	i edited one answer too
+2013-04-23 20:43:15	goodfriend	or question
+2013-04-23 20:43:17	jParkton	like they didnt teach you "context clues" in your BA in English
+2013-04-23 20:43:19	David_Bradbury	I think it is because they want it to be easier to understand and don't mean it personally.
+2013-04-23 20:43:21	jParkton	fartknockers
+2013-04-23 20:43:22	goodfriend	just wanted to add some tags there :D
+2013-04-23 20:43:22	GarethAdams	proper communication is *vital* in an asynchronous, multiperson environment
+2013-04-23 20:43:40	jParkton	not really
+2013-04-23 20:43:40	goodfriend	well when I write u instead of you
+2013-04-23 20:43:47	goodfriend	I think everyone understands... :D
+2013-04-23 20:43:59	-->	eded (~eded@cpc6-gill16-2-0-cust80.basl.cable.virginmedia.com) has joined #css
+2013-04-23 20:43:59	goodfriend	but ok it's not proper .. zZz
+2013-04-23 20:44:09	-->	martinlampe (~User@158.255.54.128) has joined #css
+2013-04-23 20:44:11	GarethAdams	well so long as you think everyone understands
+2013-04-23 20:44:15	GarethAdams	I guess they must do ;)
+2013-04-23 20:44:29	jParkton	Funny we have a couple of Indians and a Paki, an asian etc and all speak poor English. Interesting enough I can totally understand what they meant. I don't need to ask them to search for a better word
+2013-04-23 20:44:29	goodfriend	well as long as they can read englist letters :P
+2013-04-23 20:44:37	GarethAdams	where do you draw the line?
+2013-04-23 20:44:52	jParkton	I don't
+2013-04-23 20:44:56	jParkton	lines are divisive
+2013-04-23 20:44:59	jParkton	lol
+2013-04-23 20:45:08	GarethAdams	is 'u' the only thing that can be abbreviated? is m8 ok?
+2013-04-23 20:45:13	goodfriend	lol I just forgot why i wanted those gradient borders.
+2013-04-23 20:45:15	goodfriend	X_X
+2013-04-23 20:45:20	GarethAdams	can I stop typing vowels?
+2013-04-23 20:45:52	-->	sluther (~sluther@70-36-236-87.dsl.static.sonic.net) has joined #css
+2013-04-23 20:45:53	jParkton	http://www.douglastwitchell.com/scrambled_words.asp
+2013-04-23 20:45:59	GarethAdams	well exactly
+2013-04-23 20:46:04	goodfriend	I guess typing the whole word makes it look more likely to be true and good answer :D
+2013-04-23 20:46:15	GarethAdams	but that concentrates on people who have a good familiarity with English
+2013-04-23 20:46:19	jParkton	If you cannot read and comprehend that mixed up letter thingy, you need to start getting prepped for Alzheimers
+2013-04-23 20:46:32	goodfriend	But I didn't notice i wrote u not you until he corrected me so...
+2013-04-23 20:46:37	<--	jtm (jtm@ool-4a5a01ae.dyn.optonline.net) has quit (Read error: Connection reset by peer)
+2013-04-23 20:46:53	GarethAdams	how does 'm8' sound to someone from another country who normally calls 8 something other than 'eight'?
+2013-04-23 20:47:02	GarethAdams	'mocho'?
+2013-04-23 20:47:10	jParkton	and similarly the ones who read the words of a non native speaker and often have something devisive to say about it are English speakers
+2013-04-23 20:47:12	-->	drale2k (~drale2k@chello084113196096.1.14.vie.surfer.at) has joined #css
+2013-04-23 20:47:14	<--	Dunstkreis (~Miranda@p54BB2A96.dip0.t-ipconnect.de) has quit (Quit: ><///(°> *blubb* <*)))><)
+2013-04-23 20:47:20	jParkton	haha
+2013-04-23 20:47:25	jParkton	Mocho
+2013-04-23 20:47:30	jParkton	I like it
+2013-04-23 20:47:31	-->	jtm (~jtm@ool-4a5a01ae.dyn.optonline.net) has joined #css
+2013-04-23 20:47:32	GarethAdams	I've found non-native English speakers don't complain because they worry that they're stupid
+2013-04-23 20:47:33	goodfriend	when I see m8 or sk8 I usually get is as an English word so :D
+2013-04-23 20:47:43	leonvv	Sounds good in dutch
+2013-04-23 20:47:50	jParkton	lol
+2013-04-23 20:47:57	goodfriend	mosum/mosm
+2013-04-23 20:47:57	-->	Davey (~Davey@orchestra/staff/Davey) has joined #css
+2013-04-23 20:48:01	gde33	de m8 van koning willum
+2013-04-23 20:48:16	<--	brookQuint (brookQuint@cpe-065-184-216-175.ec.res.rr.com) has quit (Ping timeout: 256 seconds)
+2013-04-23 20:48:20	jParkton	die koning est moot
+2013-04-23 20:48:24	GarethAdams	my point is, correcting spelling isn't anything personal, it's just reducing potential confusion
+2013-04-23 20:48:28	leonvv	Actually if you speak m8(macht) in dutch, it means the same as "power"
+2013-04-23 20:48:49	-->	chuck8 (~Chuck@109.129.7.234) has joined #css
+2013-04-23 20:49:08	GarethAdams	and to be honest, when I decide to help someone it's based a lot on how much effort they've put into writing a question
+2013-04-23 20:49:18	goodfriend	I just think that If we are registered people there we should at least have a chance to accept the edit before it is updated to the new version
+2013-04-23 20:49:24	gde33	8erlijk
+2013-04-23 20:49:25	GarethAdams	if they haven't taken time to be clear with the question, why should I waste time putting effort into an answer?
+2013-04-23 20:49:33	goodfriend	yeah true
+2013-04-23 20:49:39	jParkton	I can understand to an extent but when someone corrects English it should not be simply "Haha you say wrong, you dumb foreigner" it should be more for clarity, ask questions don't just point and laugh
+2013-04-23 20:49:55	David_Bradbury	Do people do that?
+2013-04-23 20:49:56	GarethAdams	jParkton: have you seen that comment on stackoverflow?
+2013-04-23 20:50:08	nemo	leonvv: heh. so.  what does my domain (m8y) sound like in dutch
+2013-04-23 20:50:13	gde33	jParkton: it would be more funny with the dumb foreiner bit
+2013-04-23 20:50:15	jParkton	I am an ignorant redneck what do I know of English
+2013-04-23 20:50:21	<--	eded (~eded@cpc6-gill16-2-0-cust80.basl.cable.virginmedia.com) has quit (Remote host closed the connection)
+2013-04-23 20:50:38	leonvv	nemo: power plus some random y lol ^^
+2013-04-23 20:50:42	nemo	boring
+2013-04-23 20:50:59	jParkton	GarethAdams, no it is usually much bigger and more difficult words but effectivly the same meaning is conveyed
+2013-04-23 20:51:01	nemo	trying to see if it sounds like anything in french, and the closest word I can think of is seagull + y
+2013-04-23 20:51:04	nemo	boo
+2013-04-23 20:51:12	nemo	and that's stretching it
+2013-04-23 20:51:24	<--	sluther (~sluther@70-36-236-87.dsl.static.sonic.net) has quit (Ping timeout: 276 seconds)
+2013-04-23 20:51:36	 *	David_Bradbury thinks jParkton reads into things far too sensitively
+2013-04-23 20:51:47	GarethAdams	careful, he might take that personally
+2013-04-23 20:51:53	<--	K_ (~karuna@183.83.0.184) has quit (Quit: K_)
+2013-04-23 20:51:57	gde33	long ago some one on the internet wrote that css might one day become a real programming language. I'm still wondering how that is going to happen.
+2013-04-23 20:52:00	jParkton	Point in case
+2013-04-23 20:52:05	GarethAdams	jParkton: I've yet to see that, you must be pretty unlucky
+2013-04-23 20:52:27	goodfriend	i dont think that will come
+2013-04-23 20:52:29	jParkton	gde33, would be nice
+2013-04-23 20:52:33	goodfriend	we have JavaScript
+2013-04-23 20:52:35	goodfriend	enough :DD
+2013-04-23 20:52:35	nemo	gde33: well. it is possible to write turing complete CSS :)
+2013-04-23 20:52:37	jParkton	but highly doubtful
+2013-04-23 20:52:39	nemo	gde33: insane, but possible
+2013-04-23 20:52:43	gde33	how?
+2013-04-23 20:52:51	jParkton	SaSS / LeSS is close
+2013-04-23 20:52:52	-->	nerk (~nerk@S0106001f124eee00.pk.shawcable.net) has joined #css
+2013-04-23 20:52:56	jParkton	but still not OOP
+2013-04-23 20:53:03	-->	sluther (~sluther@70-36-236-87.dsl.static.sonic.net) has joined #css
+2013-04-23 20:53:12	jParkton	somewhat procedural
+2013-04-23 20:53:15	nemo	gde33: http://lambda-the-ultimate.org/node/4222
+2013-04-23 20:53:22	nemo	gde33: rule 110 which is turing complete
+2013-04-23 20:53:34	nemo	but... why.
+2013-04-23 20:53:41	nemo	I mean, apart from coolness
+2013-04-23 20:53:52	<--	jParkton (~jParkton@184-155-128-3.cpe.cableone.net) has quit (Quit: Leaving)
+2013-04-23 20:53:54	David_Bradbury	gde33: Right now the people at the w3c are actively trying to prevent it from becoming a real programming language, that may be a long ways off. In the meanwhile pre-processors and the like have filled the void.
+2013-04-23 20:54:06	nemo	http://eli.fox-epste.in/rule110-full.html
+2013-04-23 20:54:17	gde33	the art of programming was always to use all languages for the wrong things
+2013-04-23 20:54:30	nemo	David_Bradbury: well. they have good reasons
+2013-04-23 20:55:09	David_Bradbury	nemo: Oh I understand that (even if I disagree with some of them) - And I don't mean to imply that they are wrong or that it will change eventually
+2013-04-23 20:55:45	-->	Questutis (~quatrux@78-60-148-13.static.zebra.lt) has joined #css
+2013-04-23 20:56:27	goodfriend	[20:54:14] gde33: the art of programming was always to use all languages for the wrong things // nice :D
+2013-04-23 20:56:36	<--	hcavalle (~harrison@static-96-251-72-193.lsanca.fios.verizon.net) has quit (Quit: Nettalk6 - www.ntalk.de)
+2013-04-23 20:57:09	David_Bradbury	It sure would be nice to be able to do very basic things like you'd do in a design document like defining a pallet or style inheritance
+2013-04-23 20:57:18	David_Bradbury	though*
+2013-04-23 20:57:18	goodfriend	My art of programming is to find the worst way how to solve a problem.
+2013-04-23 20:57:35	gde33	I would like to do something to other elements on hover
+2013-04-23 20:57:49	gde33	then can make nice menus
+2013-04-23 20:57:54	goodfriend	somthing is not defined
+2013-04-23 20:58:05	goodfriend	*something
+2013-04-23 20:58:06	gde33	goodfriend: yes
+2013-04-23 20:58:13	<--	sluther (~sluther@70-36-236-87.dsl.static.sonic.net) has quit (Ping timeout: 252 seconds)
+2013-04-23 20:58:26	-->	K_ (~karuna@183.83.0.184) has joined #css
+2013-04-23 20:58:27	<--	leonvv (~somebody@82-169-11-49.ip.telfort.nl) has quit (Remote host closed the connection)
+2013-04-23 20:58:30	Qbix1	hey everyone
+2013-04-23 20:58:33	goodfriend	hello
+2013-04-23 20:58:46	Qbix1	is there a point in making tables for showing [ icon ] [ username ] type things?
+2013-04-23 20:58:56	Qbix1	or perhaps semi tabular data
+2013-04-23 20:59:08	<--	no_gravity (~user@p5B03C482.dip0.t-ipconnect.de) has quit (Quit: leaving)
+2013-04-23 20:59:25	GarethAdams	"semi tabular data" - I'm intruiged
+2013-04-23 20:59:50	GarethAdams	(I imagine the answer will be, that's not a thing you use tables for)
+2013-04-23 20:59:56	-->	sluther (~sluther@70-36-236-87.dsl.static.sonic.net) has joined #css
+2013-04-23 21:00:13	<--	K_ (~karuna@183.83.0.184) has quit (Remote host closed the connection)
+2013-04-23 21:00:32	sunbeam	is it possible to have text-shadow opacity?
+2013-04-23 21:00:32	-->	K_ (~karuna@183.83.0.184) has joined #css
+2013-04-23 21:00:40	ravenzz	Qbix1 icon or avatar? In both cases the answer would be no
+2013-04-23 21:00:50	<--	angeldeath (~angeldeat@201.210.1.210) has quit (Quit: Konversation terminated!)
+2013-04-23 21:00:56	ravenzz	sunbeam use rgba colors
+2013-04-23 21:01:00	Qbix1	so even if I have something like this:
+2013-04-23 21:01:07	GarethAdams	don't paste more than 3 lines!
+2013-04-23 21:01:14	Qbix1	[ icon ] username      80     40     [ edit ]
+2013-04-23 21:01:14	GarethAdams	(a URL is best)
+2013-04-23 21:01:21	Qbix1	a lot of lines like that
+2013-04-23 21:01:22	David_Bradbury	`paste
+2013-04-23 21:01:22	Selvvir	David_Bradbury, Live pastebins: http://www.webdevout.net/test, http://www.jsfiddle.net/, http://pastehtml.com/, http://tinkerbin.com/
+2013-04-23 21:01:24	Qbix1	even that wouldn't be good for a table?
+2013-04-23 21:01:36	Qbix1	isn't that a table of info?
+2013-04-23 21:01:44	GarethAdams	the icon doesn't constitute data
+2013-04-23 21:01:54	-->	Iszak (~Iszak@unaffiliated/supavisah) has joined #css
+2013-04-23 21:01:56	-->	roilr (~roil@unaffiliated/roilr) has joined #css
+2013-04-23 21:02:21	gde33	I gave it some thought, the css programming language only has access to visited link information as it's advantage
+2013-04-23 21:02:29	GarethAdams	Qbix1: I imagine a background image on the corresponding table cell may work best?
+2013-04-23 21:02:48	<--	viktech (~viktech__@CPE-65-26-203-215.wi.res.rr.com) has quit (Quit: Leaving)
+2013-04-23 21:02:52	ravenzz	that
+2013-04-23 21:03:10	ravenzz	Qbix1 what is 80 and 40 ?
+2013-04-23 21:03:13	Qbix1	Gareth - why doesn't the icon constitute information? it's the user's icon
+2013-04-23 21:03:20	GarethAdams	Qbix1: you mean an avatar?
+2013-04-23 21:03:21	Qbix1	I'm just putting 80 and 40 s examples of various info I could have per user
+2013-04-23 21:03:23	GarethAdams	that's a bit different
+2013-04-23 21:03:24	Qbix1	yes
+2013-04-23 21:03:35	Qbix1	avatar
+2013-04-23 21:03:49	Qbix1	why do people slavishly avoid tables if they work well across all browsers?
+2013-04-23 21:03:56	ravenzz	..
+2013-04-23 21:03:57	-->	viktech (~viktech__@CPE-65-26-203-215.wi.res.rr.com) has joined #css
+2013-04-23 21:04:06	GarethAdams	the key to tabular data is that every item in a column, and every item in a row, are related in some way
+2013-04-23 21:04:11	Qbix1	tables for layout is one thing. But why do people go out of their way to use divs and li's for things that clearly have several fields?
+2013-04-23 21:04:21	GarethAdams	Qbix1: they don't, if they're clever :)
+2013-04-23 21:04:22	Qbix1	yes, which is the case here
+2013-04-23 21:04:28	Qbix1	the avatar is always the avatar, the name is always the name, etc.
+2013-04-23 21:04:34	GarethAdams	that's fine
+2013-04-23 21:04:50	Qbix1	but here's my biggest question about tables in terms of practicality:
+2013-04-23 21:04:53	<--	sluther (~sluther@70-36-236-87.dsl.static.sonic.net) has quit (Ping timeout: 240 seconds)
+2013-04-23 21:05:00	ravenzz	Qbix1 you said icon
+2013-04-23 21:05:03	GarethAdams	my earlier suggestion supported your table idea: "a background image on the corresponding table cell"
+2013-04-23 21:05:04	Qbix1	those who try to avoid tables, are they trying to impress those reading the source? or semantic bots? what?
+2013-04-23 21:05:15	ravenzz	not avatar. Also you didn't answer me whan I asked
+2013-04-23 21:05:17	Qbix1	yes, I know Gareth. I wasn't talking about you being one of those people :)
+2013-04-23 21:05:19	GarethAdams	Qbix1: I guess they've misunderstood the discussion
+2013-04-23 21:05:35	<--	ShawnRisk (~Adium@bas1-toronto26-1279685048.dsl.bell.ca) has left #css
+2013-04-23 21:05:46	Qbix1	if the table is quick and it works, why do css designers avoid it, I am just wondering
+2013-04-23 21:05:49	goodfriend	Qbix1 : which usage of tables u mean?
+2013-04-23 21:06:05	Qbix1	I mean they err on the side of avoiding tables, when the data could be thought of as tabular such as above
+2013-04-23 21:06:12	GarethAdams	Qbix1: you'll have to find one of them. I don't think anyone that stupid is in here :)
+2013-04-23 21:06:12	Qbix1	I've seen it many times.
+2013-04-23 21:06:15	ravenzz	Qbix1 don't be mad, we are trying to understand what are you trying to markup
+2013-04-23 21:06:24	Qbix1	I'm not mad :)
+2013-04-23 21:06:30	-->	sluther (~sluther@70-36-236-87.dsl.static.sonic.net) has joined #css
+2013-04-23 21:06:32	Qbix1	I am not talking about the people in here.
+2013-04-23 21:06:40	goodfriend	well if its about putting some data there or sth like that tables are good
+2013-04-23 21:06:43	GarethAdams	Qbix1: your original question sounded like the icon/username display that e.g. LiveJournal uses - http://doctorwho.livejournal.com/
+2013-04-23 21:06:44	gde33	fixed size divs floating left works for some data
+2013-04-23 21:06:51	Qbix1	I just was wondering this for a few years, because I come up against it sometimes when I ask html designers to do things
+2013-04-23 21:06:55	goodfriend	but using tables for layout not nice :D
+2013-04-23 21:07:14	Qbix1	aha I see :)
+2013-04-23 21:07:25	Qbix1	dr who ftw :)
+2013-04-23 21:07:37	goodfriend	because header is not a data :D
+2013-04-23 21:07:40	GarethAdams	actually it was just the first link on http://www.livejournal.com/ but yes
+2013-04-23 21:07:45	gde33	how should I make the chat at the top without a table? http://bwhaha.go-here.nl/
+2013-04-23 21:08:03	goodfriend	i dont like your link :D
+2013-04-23 21:08:07	-->	zombiebeard (~robertadi@mds-65-64-83-45.meridiandata.com) has joined #css
+2013-04-23 21:08:28	gde33	http://bwhaha.com ?
+2013-04-23 21:08:32	<--	Ittindi (~Ittindi@unaffiliated/ittindi) has quit (Remote host closed the connection)
+2013-04-23 21:08:43	goodfriend	the domain name makes me feel like I will find some stuff i dont want
+2013-04-23 21:08:46	goodfriend	dunno why
+2013-04-23 21:08:51	sunbeam	is it not possible to define the spread of the text-shadow?
+2013-04-23 21:08:58	goodfriend	it is
+2013-04-23 21:09:00	goodfriend	radius
+2013-04-23 21:09:19	goodfriend	sunbeam : try this http://css3generator.com/
+2013-04-23 21:11:12	-->	Liquide (Liquide@h50n5-n-d4.ias.bredband.telia.com) has joined #css
+2013-04-23 21:11:21	GarethAdams	Qbix1: note that my definition of tabular data means that generic grids don't fit it - the relation between items in the 3rd row would be for example 'items 21-30 of the list' which isn't a strong relationship
+2013-04-23 21:12:23	sunbeam	tried goodfriend
+2013-04-23 21:12:32	goodfriend	not working?
+2013-04-23 21:12:40	goodfriend	show me link
+2013-04-23 21:12:49	goodfriend	or tell what browser u using
+2013-04-23 21:13:34	-->	graft (~graft@udp084615uds.ucsf.edu) has joined #css
+2013-04-23 21:13:34	<--	graft (~graft@udp084615uds.ucsf.edu) has quit (Changing host)
+2013-04-23 21:13:34	-->	graft (~graft@unaffiliated/graft) has joined #css
+2013-04-23 21:13:44	<--	ckj (~ckj@199.87.87.247) has quit (Quit: Leaving...)
+2013-04-23 21:14:09	-->	jcromartie (~textual@c-76-100-141-78.hsd1.md.comcast.net) has joined #css
+2013-04-23 21:15:04	-->	g105b (~g105b@cpc3-derb14-2-0-cust187.8-3.cable.virginmedia.com) has joined #css
+2013-04-23 21:15:45	-->	edlinde__ (~manukaul@1104ds2-arno.0.fullrate.dk) has joined #css
+2013-04-23 21:15:59	<--	edlinde_ (~manukaul@1104ds2-arno.0.fullrate.dk) has quit (Read error: Connection reset by peer)
+2013-04-23 21:16:54	<--	Kricir (~kricir@c-24-245-9-49.hsd1.mn.comcast.net) has quit (Remote host closed the connection)
+2013-04-23 21:17:02	-->	relipse (~relipse@adsl-69-210-32-235.dsl.milwwi.ameritech.net) has joined #css
+2013-04-23 21:17:24	<--	sluther (~sluther@70-36-236-87.dsl.static.sonic.net) has quit (Ping timeout: 276 seconds)
+2013-04-23 21:17:41	<--	BuenGenio (~BuenGenio@cm218-252-100-149.hkcable.com.hk) has quit (Read error: Connection reset by peer)
+2013-04-23 21:19:54	-->	sluther (~sluther@70-36-236-87.dsl.static.sonic.net) has joined #css
+2013-04-23 21:20:16	-->	noahsussman (~noahsussm@216.239.55.52) has joined #css
+2013-04-23 21:20:52	<--	maslowbeer (~maslowbee@pool-71-177-17-63.lsanca.dsl-w.verizon.net) has quit (Quit: Leaving)
+2013-04-23 21:22:09	<--	HyP3r (~hyp3r@p3EE25BAA.dip0.t-ipconnect.de) has quit (Quit: Nettalk6 - www.ntalk.de)
+2013-04-23 21:24:03	-->	hg_5_ (~chatzilla@91.234.245.245) has joined #css
+2013-04-23 21:25:06	-->	ckj (~ckj@38.104.194.126) has joined #css
+2013-04-23 21:25:21	<--	hg_5 (~chatzilla@unaffiliated/hg-5/x-8664886) has quit (Ping timeout: 252 seconds)
+2013-04-23 21:25:47	<--	Erakso (~Oskar@c-5bf8e253.016-113-6e6b702.cust.bredbandsbolaget.se) has quit (Quit: Leaving)
+2013-04-23 21:26:03	-->	hg_5 (~chatzilla@unaffiliated/hg-5/x-8664886) has joined #css
+2013-04-23 21:27:28	<--	K_ (~karuna@183.83.0.184) has quit (Quit: K_)
+2013-04-23 21:27:36	-->	d3m0n (~demon@67.198.198.66) has joined #css
+2013-04-23 21:27:51	-->	rosspenman (~rosspenma@116.140.125.91.dyn.plus.net) has joined #css
+2013-04-23 21:28:17	graft	anyone good with arel? I want to join three tables together, where a has a foreign key to b which has a foreign key to c, how can i do this?
+2013-04-23 21:28:29	graft	err wrong channel
+2013-04-23 21:29:39	<--	ML74 (~ML74@94.12.97.51) has quit (Read error: Operation timed out)
+2013-04-23 21:29:41	<--	hg_5_ (~chatzilla@91.234.245.245) has quit (Ping timeout: 248 seconds)
+2013-04-23 21:31:11	<--	noahsussman (~noahsussm@216.239.55.52) has quit (Remote host closed the connection)
+2013-04-23 21:31:43	<--	thirdknife (~thirdknif@39.47.225.129) has quit (Ping timeout: 264 seconds)
+2013-04-23 21:32:03	-->	vinex08 (vinex08@120.29.83.112) has joined #css
+2013-04-23 21:32:12	<--	MaSOuD (DC@unaffiliated/masoud) has quit (Remote host closed the connection)
+2013-04-23 21:32:37	vinex08	customized design for Mailchimp newsletter - RSS Driven -- is this possible?
+2013-04-23 21:32:44	<--	Sample (~iankp@unaffiliated/sample) has quit (Quit: *ping*)
+2013-04-23 21:32:48	-->	MaSOuD (~DC@unaffiliated/masoud) has joined #css
+2013-04-23 21:32:50	-->	Successful (~ircap@c83-251-225-255.bredband.comhem.se) has joined #css
+2013-04-23 21:32:52	<--	drale2k (~drale2k@chello084113196096.1.14.vie.surfer.at) has quit (Quit: Leaving...)
+2013-04-23 21:33:06	-->	hg_5_ (~chatzilla@91.234.245.245) has joined #css
+2013-04-23 21:33:24	<--	MaSOuD (~DC@unaffiliated/masoud) has quit (Client Quit)
+2013-04-23 21:34:31	<--	erichynds (~ehynds@64.206.121.41) has quit (Quit: erichynds)
+2013-04-23 21:34:38	<--	xfire (~xfire@host36-215-dynamic.9-79-r.retail.telecomitalia.it) has quit (Quit: Ex-Chat)
+2013-04-23 21:34:43	<--	oakdog8 (~oakdog8@unaffiliated/oakdog8) has quit (Remote host closed the connection)
+2013-04-23 21:35:07	<--	relipse (~relipse@adsl-69-210-32-235.dsl.milwwi.ameritech.net) has quit (Ping timeout: 256 seconds)
+2013-04-23 21:36:12	<--	hg_5 (~chatzilla@unaffiliated/hg-5/x-8664886) has quit (Ping timeout: 264 seconds)
+2013-04-23 21:36:41	<--	fRAiLtY- (~fRAiLtY-@141.0.47.90) has quit (Ping timeout: 245 seconds)
+2013-04-23 21:37:03	-->	fRAiLtY- (~fRAiLtY-@141.0.47.90) has joined #css
+2013-04-23 21:38:09	<--	hg_5_ (~chatzilla@91.234.245.245) has quit (Ping timeout: 252 seconds)
+2013-04-23 21:40:04	<--	thesisb (~thesisb@108.60.123.170) has quit (Quit: Leaving...)
+2013-04-23 21:43:14	<--	MCHammer (~mchammer@212.48.107.10) has quit (Remote host closed the connection)
+2013-04-23 21:44:20	-->	thirdknife (~thirdknif@39.47.215.140) has joined #css
+2013-04-23 21:45:08	<--	Iszak (~Iszak@unaffiliated/supavisah) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2013-04-23 21:46:18	-->	[ent] (Spectrum@c-24-20-117-109.hsd1.or.comcast.net) has joined #css
+2013-04-23 21:50:26	Draxelis	I have  ul li ul li.  how to make hover stay on ul li, when mouse is on  ul li ul li ?
+2013-04-23 21:51:28	-->	`e (~cul@host103-238-dynamic.45-79-r.retail.telecomitalia.it) has joined #css
+2013-04-23 21:52:47	-->	calbasi (~joan@34.72.14.37.dynamic.jazztel.es) has joined #css
+2013-04-23 21:53:01	GarethAdams	Draxelis: can you demonstrate the issue using minimal code on http://jsfiddle.net/?
+2013-04-23 21:55:41	Draxelis	GarethAdams, hm I'll try. But the problem has to be dealt every time someone is building a dropdown navigation. So basically I have a hover effect on ul  li elements, but when I move mouse to ul.dropdown   the hover effect of ul li buttons disappears
+2013-04-23 21:55:46	<--	Marwin (~quassel@p5DC921BE.dip0.t-ipconnect.de) has quit (Remote host closed the connection)
+2013-04-23 21:55:46	Draxelis	it should remain
+2013-04-23 21:55:54	<--	calbasi (~joan@34.72.14.37.dynamic.jazztel.es) has left #css
+2013-04-23 21:56:14	Draxelis	not sure how to do it ;/
+2013-04-23 21:56:45	<--	Fofr_ (uid2287@gateway/web/irccloud.com/x-desdlknqiahmdsyh) has quit (Quit: Connection closed for inactivity)
+2013-04-23 21:56:48	--	xa0z is now known as lnterex
+2013-04-23 21:56:56	GarethAdams	Draxelis: well if you can demonstrate your problem with code then someone could easily show a solution by editing that code
+2013-04-23 21:57:28	Draxelis	ok
+2013-04-23 21:57:29	Draxelis	:)
+2013-04-23 21:57:33	Draxelis	will do
+2013-04-23 21:57:36	`e	Draxelis, https://gist.github.com/
+2013-04-23 21:57:37	GarethAdams	Draxelis: otherwise, what kind of answer are you looking for? we'd be writing answer code that doesn't necessarily match up to what you already have :)
+2013-04-23 21:58:03	-->	ultra- (~ultra@CPE-72-133-51-212.new.res.rr.com) has joined #css
+2013-04-23 21:58:11	GarethAdams	`e: gist doesn't live-preview the code you enter
+2013-04-23 21:58:18	Draxelis	that would be fairly easy. I'm not sure how to make the ul li stay however while I hover over child lis
+2013-04-23 21:58:19	Draxelis	:)
+2013-04-23 21:58:20	ultra-	sorry this is very much a beginner question, but can two sections made using <div> be side by side?
+2013-04-23 21:59:02	`e	ultra-, using css property "float"
+2013-04-23 21:59:03	GarethAdams	ultra-: yes, there are different ways and the correct way depends on what the relation between the <div>s are
+2013-04-23 21:59:20	<--	thirdknife (~thirdknif@39.47.215.140) has quit (Ping timeout: 264 seconds)
+2013-04-23 21:59:28	ultra-	well, i was using a table and i decided to use this in place of it… the right side will have an image, the left will take up the rest of the space
+2013-04-23 22:00:00	ultra-	image of known width, and all my thumbnails have the same width (uses a lightbox for full size)
+2013-04-23 22:00:05	`e	<div style="float:left">text</div><div style="float:right">image</div>
+2013-04-23 22:00:07	<--	lnterex (~deathtrip@75-129-227-168.dhcp.mtvr.il.charter.com) has left #css
+2013-04-23 22:00:11	<--	arronhunt (~textual@99-42-82-152.lightspeed.irvnca.sbcglobal.net) has quit (Quit: ["Textual IRC Client: www.textualapp.com"])
+2013-04-23 22:00:30	ultra-	ok i get it, thank you
+2013-04-23 22:00:58	GarethAdams	the float:left on the left div is unnecessary
+2013-04-23 22:01:27	ultra-	it'll help me see what's going on, if it's not gonna hurt anything by being there
+2013-04-23 22:01:35	GarethAdams	it may
+2013-04-23 22:01:38	<--	franksta-imac (~frankstal@72.10.55.185) has quit
+2013-04-23 22:01:43	<--	Milos|Work (~Milos@office.hd.net.nz) has quit (Read error: Connection reset by peer)
+2013-04-23 22:01:44	GarethAdams	your situation is still very vague
+2013-04-23 22:02:38	-->	Milos|Work (~Milos@office.hd.net.nz) has joined #css
+2013-04-23 22:02:50	ultra-	it did do the job
+2013-04-23 22:03:08	-->	drale2k (~drale2k@chello084113196096.1.14.vie.surfer.at) has joined #css
+2013-04-23 22:03:34	`e	GarethAdams, ya you're right, @ Draxelis http://cssdesk.com/
+2013-04-23 22:04:06	<--	platzhirsch1 (~Konrad@f053042234.adsl.alicedsl.de) has left #css
+2013-04-23 22:04:08	`e	paste your code here, then click share, copy/paste the link here
+2013-04-23 22:04:13	-->	reber (~reber@tga83-1-82-241-55-21.fbx.proxad.net) has joined #css
+2013-04-23 22:04:26	<--	DEEF (~Nutroe@95.166.105.188) has quit
+2013-04-23 22:04:26	GarethAdams	`e: was there a problem with the jsfiddle link I gave above?
+2013-04-23 22:04:31	<--	reber (~reber@tga83-1-82-241-55-21.fbx.proxad.net) has quit (Remote host closed the connection)
+2013-04-23 22:04:32	<--	xgoo (~xgoo@114.79.16.51) has quit (Ping timeout: 255 seconds)
+2013-04-23 22:04:50	ultra-	actually, using float:left is the only way that works
+2013-04-23 22:05:11	`e	I wasen't here before, didn't see :)
+2013-04-23 22:05:17	ultra-	if i remove it, (just use a <div> tag for the first), the second one is right-justified, but underneath the first
+2013-04-23 22:05:18	`e	*wasn't
+2013-04-23 22:05:24	ultra-	if i use float:left, they're side by side
+2013-04-23 22:05:44	GarethAdams	ultra-: you should read up on how floats work
+2013-04-23 22:06:33	-->	Andre_designer (~Thunderbi@82-170-146-165.ip.telfort.nl) has joined #css
+2013-04-23 22:06:34	ultra-	i will
+2013-04-23 22:06:53	ultra-	i'm guessing that b/c i didn't specify a width on the first, it defaulted to 100%
+2013-04-23 22:06:59	ultra-	so the second one naturally ends up underneath
+2013-04-23 22:07:07	<--	sebrock (~sebrock@c83-248-171-65.bredband.comhem.se) has quit (Quit: sebrock)
+2013-04-23 22:07:14	GarethAdams	not quite
+2013-04-23 22:07:15	ultra-	float must be autosizing to a specific side (like using gravity in android programming)
+2013-04-23 22:07:33	<--	Nebros (52dc01ce@gateway/web/freenode/ip.82.220.1.206) has quit (Ping timeout: 245 seconds)
+2013-04-23 22:07:46	GarethAdams	floats take their element out of the document flow, so later elements don't take them into account when being positioned
+2013-04-23 22:08:11	GarethAdams	if the image was above the text in the HTML then that would work visually too
+2013-04-23 22:08:22	-->	sebrock (~sebrock@c83-248-171-65.bredband.comhem.se) has joined #css
+2013-04-23 22:08:41	GarethAdams	the issue with floating the left-hand content as well is that taking the text out of the document flow may cause you other problems later on with positioning
+2013-04-23 22:09:06	ultra-	so something could end up on top of it
+2013-04-23 22:09:34	<--	g105b (~g105b@cpc3-derb14-2-0-cust187.8-3.cable.virginmedia.com) has quit (Quit: Leaving)
+2013-04-23 22:09:38	<--	nessib (~nessib@bb121-6-222-44.singnet.com.sg) has quit (Read error: Connection reset by peer)
+2013-04-23 22:09:52	`e	problems you can resolve using clear:both
+2013-04-23 22:10:02	`e	usually
+2013-04-23 22:10:20	GarethAdams	to be honest, display:table-cell sounds like a better approach in your scenario
+2013-04-23 22:10:28	-->	thesisb (~thesisb@108.60.123.170) has joined #css
+2013-04-23 22:10:34	GarethAdams	but if float is working for you already…
+2013-04-23 22:11:53	-->	Kricir (~kricir@c-24-245-9-49.hsd1.mn.comcast.net) has joined #css
+2013-04-23 22:11:54	-->	Itrace_ (~Itrace@74-84-110-222.client.mchsi.com) has joined #css
+2013-04-23 22:12:13	ultra-	well, i'm not a web developer and i'm only doing this until i can afford to pay someone, but i still want to do it the right way.
+2013-04-23 22:12:23	<--	Itrace (~Itrace@74-84-110-222.client.mchsi.com) has quit (Read error: Connection reset by peer)
+2013-04-23 22:12:23	--	Itrace_ is now known as Itrace
+2013-04-23 22:12:42	ultra-	i've only been doing this a few days and i'm learning a lot quicker than i thought i would
+2013-04-23 22:13:37	<--	Andre_designer (~Thunderbi@82-170-146-165.ip.telfort.nl) has quit (Quit: Andre_designer)
+2013-04-23 22:13:52	`e	ultra-, I've worked on websites for 11 years almost every day, and still today i'm learning something new
+2013-04-23 22:13:52	<--	Itrace (~Itrace@74-84-110-222.client.mchsi.com) has quit (Read error: Connection reset by peer)
+2013-04-23 22:14:08	<--	sebrock (~sebrock@c83-248-171-65.bredband.comhem.se) has quit (Quit: sebrock)
+2013-04-23 22:14:12	`e	(something like english :D)
+2013-04-23 22:14:27	<--	cheese1756 (~cheese175@unaffiliated/cheese1756) has quit (Quit: ZNC - http://znc.in)
+2013-04-23 22:14:28	ultra-	yeah… i'm a programmer (not professionally, but i'm releasing an app soon) and it's the same way with me
+2013-04-23 22:14:31	-->	Itrace (~Itrace@74-84-110-222.client.mchsi.com) has joined #css
+2013-04-23 22:14:34	-->	atan (~atan@unaffiliated/atan) has joined #css
+2013-04-23 22:14:35	<--	rfoust (~rfoust@wl-atc-pat.netcom.duke.edu) has quit (Quit: Computer has gone to sleep.)
+2013-04-23 22:14:41	<--	krawchyk (~krawchyk@65.220.49.251) has quit (Remote host closed the connection)
+2013-04-23 22:14:53	<--	sluther (~sluther@70-36-236-87.dsl.static.sonic.net) has quit (Ping timeout: 255 seconds)
+2013-04-23 22:16:41	<--	thesisb (~thesisb@108.60.123.170) has quit (Ping timeout: 255 seconds)
+2013-04-23 22:17:22	-->	sluther (~sluther@70-36-236-87.dsl.static.sonic.net) has joined #css
+2013-04-23 22:17:27	<--	amph1bius (~amph1bius@75.98.192.134) has quit
+2013-04-23 22:17:33	<--	Successful (~ircap@c83-251-225-255.bredband.comhem.se) has quit (Ping timeout: 240 seconds)
+2013-04-23 22:18:27	-->	ljubak (1000@cable-178-148-233-48.dynamic.sbb.rs) has joined #css
+2013-04-23 22:19:18	-->	cheese1756 (~cheese175@unaffiliated/cheese1756) has joined #css
+2013-04-23 22:19:30	<--	ljubak (1000@cable-178-148-233-48.dynamic.sbb.rs) has left #css
+2013-04-23 22:20:25	<--	FernandoBasso (~Fernando_@187.39.168.19) has quit (Quit: Leaving.)
+2013-04-23 22:22:47	<--	sluther (~sluther@70-36-236-87.dsl.static.sonic.net) has quit (Ping timeout: 260 seconds)
+2013-04-23 22:23:55	--	Proshot is now known as statarb3
+2013-04-23 22:24:02	<--	statarb3 (~CoreD@546A56AA.cm-12-3b.dynamic.ziggo.nl) has quit (Changing host)
+2013-04-23 22:24:02	-->	statarb3 (~CoreD@unaffiliated/statarb3) has joined #css
+2013-04-23 22:24:53	-->	sluther (~sluther@70-36-236-87.dsl.static.sonic.net) has joined #css
+2013-04-23 22:25:00	<--	MoTiOnXml (anders@static-5-103-128-27.seas-nve.net) has quit
+2013-04-23 22:26:09	-->	indyrl (~IndyRL@c-69-136-166-85.hsd1.in.comcast.net) has joined #css
+2013-04-23 22:26:15	<--	perlite (~perlite@114-36-250-138.dynamic.hinet.net) has quit (Read error: Connection reset by peer)
+2013-04-23 22:26:36	-->	TelFiRE (~telfire@67.139.187.38) has joined #css
+2013-04-23 22:28:25	-->	perlite (~perlite@114-36-234-12.dynamic.hinet.net) has joined #css
+2013-04-23 22:28:57	-->	thesisb (~thesisb@108.60.123.170) has joined #css
+2013-04-23 22:29:15	-->	alfatau (~alfatau@93-39-246-92.ip78.fastwebnet.it) has joined #css
+2013-04-23 22:30:15	<--	sluther (~sluther@70-36-236-87.dsl.static.sonic.net) has quit (Ping timeout: 252 seconds)
+2013-04-23 22:30:19	-->	sphenxes (~sphenxes@91-119-217-208.dynamic.xdsl-line.inode.at) has joined #css
+2013-04-23 22:30:36	alfatau	hello, i'm trying to create my first simple website. i want to create a 2 side-by-side columns, where the right one is only 150px and the left one should fill the remaining width space on the browser window. can you help me? i'm using divs
+2013-04-23 22:30:56	-->	jParkton (~jParkton@184-155-128-3.cpe.cableone.net) has joined #css
+2013-04-23 22:31:20	<--	rakl (~rakl@sonic.mochaleaf.com) has quit (Quit: sleeping)
+2013-04-23 22:31:26	-->	sluther (~sluther@70-36-236-87.dsl.static.sonic.net) has joined #css
+2013-04-23 22:32:38	-->	dan2k3k4 (~dan2k3k4@unaffiliated/dan2k3k4) has joined #css
+2013-04-23 22:33:27	<--	Edico (~puck@unaffiliated/edico) has left #css
+2013-04-23 22:34:27	<--	Sopheria (~Musashi@199.36.12.18) has quit (Quit: Leaving)
+2013-04-23 22:35:30	ultra-	i'm reading about ie 6 not supporting display:table… is this still a problem?
+2013-04-23 22:36:12	jParkton	most likely
+2013-04-23 22:36:20	ultra-	sucks
+2013-04-23 22:36:33	-->	rfoust (~rfoust@cpe-098-026-007-087.nc.res.rr.com) has joined #css
+2013-04-23 22:36:53	-->	chovy (~chovy@pdpc/supporter/active/chovy) has joined #css
+2013-04-23 22:37:10	chovy	how do i use  a hand cursor in ie?
+2013-04-23 22:37:41	<--	Davey (~Davey@orchestra/staff/Davey) has quit (Quit: Computer has gone to sleep.)
+2013-04-23 22:39:12	<--	sluther (~sluther@70-36-236-87.dsl.static.sonic.net) has quit (Ping timeout: 264 seconds)
+2013-04-23 22:40:50	<--	sparr (~kvirc@pdpc/supporter/active/sparr) has quit (Read error: Operation timed out)
+2013-04-23 22:40:53	-->	sluther (~sluther@70-36-236-87.dsl.static.sonic.net) has joined #css
+2013-04-23 22:41:06	-->	macksi (~macksi@ip-95-222-128-40.unitymediagroup.de) has joined #css
+2013-04-23 22:43:21	-->	Sherlack_ (~Sherlack@24.55.112.250) has joined #css
+2013-04-23 22:43:57	-->	LEI (~lei@APlessis-Bouchard-151-1-50-30.w82-121.abo.wanadoo.fr) has joined #css
+2013-04-23 22:44:48	-->	Milossh (~milos@unaffiliated/milossh) has joined #css
+2013-04-23 22:44:59	<--	alfatau (~alfatau@93-39-246-92.ip78.fastwebnet.it) has quit (Quit: KVIrc 4.2.0 Equilibrium http://www.kvirc.net/)
+2013-04-23 22:45:22	<--	rosspenman (~rosspenma@116.140.125.91.dyn.plus.net) has quit (Quit: rosspenman)
+2013-04-23 22:46:18	<--	chuck8 (~Chuck@109.129.7.234) has quit (Ping timeout: 264 seconds)
+2013-04-23 22:46:35	<--	Sherlack (~Sherlack@24.55.112.250) has quit (Ping timeout: 260 seconds)
+2013-04-23 22:46:48	<--	penguin1 (~penguin1@ltea-047-064-105-212.pools.arcor-ip.net) has quit (Quit: ChatZilla 0.9.90-rdmsoft [XULRunner 18.0.2/20130201065344])
+2013-04-23 22:48:13	-->	rakl (~rakl@sonic.mochaleaf.com) has joined #css
+2013-04-23 22:48:30	GarethAdams	ultra-: "is it a problem"? Well, IE6 still doesn't support it, but statcounter reports that less than 0.3% of global browsers are IE6
+2013-04-23 22:49:02	ultra-	sorry, what i meant was does IE support it now
+2013-04-23 22:49:07	GarethAdams	ultra-: whether that matters to you depends on whether your user are likely to have a higher percentage than that (maybe you're developing for a company that thinks it can't afford to upgrade)
+2013-04-23 22:49:29	ultra-	nah, this is a website about an audio app for ipad
+2013-04-23 22:49:35	GarethAdams	ultra-: http://caniuse.com/#search=table
+2013-04-23 22:49:46	ultra-	oh nice
+2013-04-23 22:50:24	<--	sluther (~sluther@70-36-236-87.dsl.static.sonic.net) has quit (Ping timeout: 252 seconds)
+2013-04-23 22:50:39	ultra-	looks supported enough to me
+2013-04-23 22:51:00	<--	macksi (~macksi@ip-95-222-128-40.unitymediagroup.de) has quit (Quit: macksi)
+2013-04-23 22:51:54	-->	hellyeah (~kvirc@78.169.194.79) has joined #css
+2013-04-23 22:51:55	hellyeah	hey
+2013-04-23 22:52:03	hellyeah	how can write something like that http://www.bilgi.edu.tr/
+2013-04-23 22:52:08	hellyeah	look at the top of page
+2013-04-23 22:52:15	<--	mtcrutch_ (~mtcrutch@157.166.167.129) has quit (Remote host closed the connection)
+2013-04-23 22:52:19	hellyeah	logo some straight line and menu
+2013-04-23 22:52:23	-->	sluther (~sluther@70-36-236-87.dsl.static.sonic.net) has joined #css
+2013-04-23 22:52:24	hellyeah	can you give me some tips
+2013-04-23 22:52:25	GarethAdams	hellyeah: you've got all the code right there!
+2013-04-23 22:52:28	--	statarb3 is now known as Proshot
+2013-04-23 22:52:55	hellyeah	GarethAdams:  with inspector in firefox?
+2013-04-23 22:53:06	-->	mtcrutch (~mtcrutch@157.166.167.129) has joined #css
+2013-04-23 22:53:08	GarethAdams	that'll work :)
+2013-04-23 22:53:11	hellyeah	i just want to learn how i can handle that situtation
+2013-04-23 22:53:52	hellyeah	i dont know how to search this on google
+2013-04-23 22:54:51	<--	indyrl (~IndyRL@c-69-136-166-85.hsd1.in.comcast.net) has left #css
