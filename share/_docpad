@@ -1,0 +1,19 @@
+#compdef docpad
+#autoload
+
+#
+#        ____                             __
+#       / __ \____  _________  ____ _____/ /
+#      / / / / __ \/ ___/ __ \/ __ `/ __  /
+#     / /_/ / /_/ / /__/ /_/ / /_/ / /_/ /
+#    /_____/\____/\___/ .___/\__,_/\__,_/
+#                    /_/
+# Oh-My-ZSH Plugin for Docpad site generator
+# Author: Rob Jentzema 2013 <at gmail dot com>
+
+
+#_arguments -s : \
+#    '-h' '--help' \
+#    '-V' '--version' #\
+#    ':foobars:(foo bar baz)'
+

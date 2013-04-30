@@ -16,6 +16,9 @@ Bundle 'Gist.vim'
 Bundle 'Directory-specific-settings'
 Bundle 'filetype.vim'
 
+" Indent
+Bundle 'csindent.vim'
+
 " Markup
 "
 Bundle 'Markdown'

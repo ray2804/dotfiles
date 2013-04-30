@@ -2,6 +2,8 @@
 alias riemann="/opt/riemann/bin/riemann /opt/riemann/etc/riemann.config"
 alias s="yareps"
 alias v="vim"
+alias pp="popd && popd"
+alias koffie="clear; nesh -c"
 
 # Config file moderations frequent
 alias aa="${EDITOR} ~/.aliases"

@@ -9,7 +9,7 @@
     // The color and width of the indent guides may be customized by editing
     // the corresponding .tmTheme file, and specifying the colors "guide",
     // "activeGuide" and "stackGuide"
-	"draw_indent_guides": false,
+	"draw_indent_guides": true,
 
     // Valid values are "smooth", "phase", "blink", "wide" and "solid".
 	"caret_style": "wide",
@@ -18,8 +18,8 @@
     // specific settings file, for example, "Preferences (Linux).sublime-settings".
     // Because of this, setting them here will have no effect: you must set them
     // in your User File Preferences.
-	"font_face": "Consolas",
-	"font_size": 17,
+	"font_face": "DroidSansMono",
+	"font_size": 10,
 
     // Set to false to hide the gutter altogether
 	"gutter": false,

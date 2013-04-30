@@ -16,6 +16,16 @@ ZSH="${HOME}/.oh-my-zsh"
 # Set this to "random" for a new theme every time
 #ZSH_THEME="afowler 3den"
 ZSH_THEME="af-magic"
+#ZSH_THEME="alanpeabody"
+#ZSH_THEME="dieter"
+#ZSH_THEME="eastwood"
+#ZSH_THEME="gallois"
+#ZSH_THEME="fishy"
+#ZSH_THEME="miloshadzic"
+#ZSH_THEME="mrtazz"
+#ZSH_THEME="terminalparty"
+#ZSH_THEME="muse"
+
 
 plugins=(git github archlinux npm coffee cp systemd history git-flow \
   cpanm history-substring-search mvn node ssh-agent sublime rvm \
@@ -121,6 +131,37 @@ export PATH="/usr/lib/colorgcc/bin:${PATH}"
 
 # Build tools .............................................................
 export PATH="/opt/maven2/bin:${PATH}"
+
+
+
+
+
+# -----------------------------------------------------------
+# AUTOCOMPLETE TWEAKS
+unsetopt menu_complete   # do not autoselect the first completion entry
+unsetopt flowcontrol
+setopt auto_menu         # show completion menu on succesive tab press
+setopt complete_in_word
+setopt always_to_end
+zstyle ':completion:*' add-space true
+zstyle ':completion:*' completer _expand _complete _match _prefix _approximate _list
+zstyle ':completion:*' menu select=1
+zstyle ':completion:*' file-sort name
+zstyle ':completion:*' list-colors ${(s.:.)ZLS_COLORS}
+zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}' 'r:|[._-]=** r:|=**' 'l:|=** r:|=**'
+#zstyle ':completion:*' matcher-list 'r:|[._-]=** r:|=**' 'l:|=** r:|=**'
+zstyle ':completion:*' menu select
+zstyle ':completion:*:approximate:*' max-errors 'reply=( $(( ($#PREFIX+$#SUFFIX)/3 )) numeric )'
+zstyle ':completion:*' group 1
+zstyle ':completion:*' format '%B---- %d%b'
+zstyle ':completion:*:corrections' format '%B---- %d (errors %e)%b'
+zstyle ':completion:*:descriptions' format "%B---- %d%b"
+zstyle ':completion:*:messages' format '%B%U---- %d%u%b'
+zstyle ':completion:*:warnings' format "%B$fg[red]%}---- no match for: $fg[white]%d%b"
+zstyle ':completion:*' group-name ''
+# -----------------------------------------------------------
+
+
 
 
 ############### ############### ###############

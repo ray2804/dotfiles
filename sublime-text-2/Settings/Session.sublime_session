@@ -1,6 +1,8 @@
 {
 	"folder_history":
 	[
+		"/home/baal/Dotfiles/acme/node/samples",
+		"/home/baal/projects/ccc/modules/forms",
 		"/home/baal/customers/tredius",
 		"/home/baal/projects",
 		"/home/baal/customers/tredius/uitvoer/diensten/debiteurenbeheer",
@@ -9,10 +11,10 @@
 		"/home/baal/tmp",
 		"/srv/customers/tredius"
 	],
-	"last_window_id": 28,
+	"last_window_id": 30,
 	"settings":
 	{
-		"new_window_height": 708.0,
+		"new_window_height": 589.0,
 		"new_window_settings":
 		{
 			"auto_complete":
@@ -81,19 +83,39 @@
 					]
 				]
 			},
-			"build_system": "Packages/Nodejs/Nodejs.sublime-build",
+			"build_system": "Packages/CoffeeScriptBundle.tmbundle/Commands/CoffeeScript.sublime-build",
 			"command_palette":
 			{
-				"height": 392.0,
+				"height": 112.0,
 				"selected_items":
 				[
 					[
+						"pack",
+						"Preferences: Package Control Settings – Default"
+					],
+					[
 						"inst",
-						"Package Control: Install Package"
+						"Tag: Insert as Tag"
 					],
 					[
 						"Package Control: inst",
 						"Package Control: Install Package"
+					],
+					[
+						"gol",
+						"Golden Ratio"
+					],
+					[
+						"npm",
+						"Nodejs::NPM::Update"
+					],
+					[
+						"node",
+						"Nodejs::Run::Current File"
+					],
+					[
+						"upper",
+						"Convert Case: Upper Case"
 					],
 					[
 						"qu",
@@ -168,11 +190,11 @@
 						"Package Control: Install Package"
 					]
 				],
-				"width": 560.0
+				"width": 485.0
 			},
 			"console":
 			{
-				"height": 146.0
+				"height": 92.0
 			},
 			"distraction_free":
 			{
@@ -185,6 +207,51 @@
 			},
 			"file_history":
 			[
+				"/home/baal/Dotfiles/sublime-text-2/Packages/Package Control/Package Control.sublime-settings",
+				"/home/baal/Dotfiles/sublime-text-2/Packages/knockdown/Markdown (Github Flavored).sublime-settings",
+				"/home/baal/Dotfiles/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+				"/home/baal/Dotfiles/sublime-text-2/Packages/User/Preferences.sublime-settings",
+				"/home/baal/Dotfiles/acme/node/samples/progress-01.litcoffee",
+				"/home/baal/projects/ccc/modules/forms/README.md",
+				"/home/baal/customers/tredius/frm/formalistic.coffee",
+				"/home/baal/customers/tredius/docs/archief/jade-era/a1/voettekst.html.coffee",
+				"/home/baal/Dotfiles/sublime-text-2/Packages/AdvancedNewFile/AdvancedNewFile.sublime-settings",
+				"/home/baal/Dotfiles/sublime-text-2/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+				"/home/baal/Dotfiles/sublime-text-2/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+				"/home/baal/Dotfiles/sublime-text-2/Packages/SmartMarkdown/SmartMarkdown.sublime-settings",
+				"/home/baal/Dotfiles/sublime-text-2/Packages/CoffeeCompile/CoffeeCompile.sublime-settings",
+				"/home/baal/Dotfiles/sublime-text-2/Packages/GoldenRatio/GoldenRatio.sublime-settings",
+				"/home/baal/Dotfiles/sublime-text-2/Packages/Alignment/Base File.sublime-settings",
+				"/home/baal/Dotfiles/sublime-text-2/Packages/Tag/Tag Package.sublime-settings",
+				"/home/baal/Dotfiles/sublime-text-2/Packages/NodeEval/NodeEval.sublime-settings",
+				"/home/baal/Dotfiles/sublime-text-2/Packages/Clientside/Clientside.sublime-settings",
+				"/home/baal/Dotfiles/sublime-text-2/Packages/User/Nodejs.sublime-settings",
+				"/home/baal/Dotfiles/sublime-text-2/Packages/WordCount/WordCount.sublime-settings",
+				"/home/baal/Dotfiles/sublime-text-2/Packages/sublime-better-coffeescript/CoffeeScript.sublime-settings",
+				"/home/baal/Dotfiles/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
+				"/home/baal/Dotfiles/sublime-text-2/Packages/BracketHighlighter/bh_core.sublime-settings",
+				"/home/baal/Dotfiles/sublime-text-2/Packages/Terminal/Terminal.sublime-settings",
+				"/home/baal/Dotfiles/sublime-text-2/Packages/Camaleon/Camaleon.sublime-settings",
+				"/home/baal/Dotfiles/sublime-text-2/Packages/CoffeeComplete Plus (Autocompletion)/CoffeeComplete Plus.sublime-settings",
+				"/home/baal/Dotfiles/sublime-text-2/Packages/User/Camaleon.sublime-settings",
+				"/home/baal/customers/tredius/node_modules/forms/package.json",
+				"/home/baal/customers/tredius/node_modules/forms/index.js",
+				"/home/baal/customers/tredius/package.json",
+				"/home/baal/customers/tredius/modules/plugins/docpad-plugin-coffeekup/out/coffeekup.plugin.js",
+				"/home/baal/customers/tredius/node_modules/coffeecup-helpers/src/textField.coffee",
+				"/home/baal/customers/tredius/test/cs-help.coffee",
+				"/home/baal/customers/tredius/node_modules/coffeecup-helpers/src/controls/textControl.coffee",
+				"/home/baal/customers/tredius/node_modules/docpad-plugin-coffeekup/src/coffeekup.test.coffee",
+				"/home/baal/customers/tredius/node_modules/docpad-plugin-coffeekup/src/coffeekup.plugin.coffee",
+				"/home/baal/.share/scripts/coffee/yankee.coffee",
+				"/home/baal/customers/tredius/docpad.litcoffee",
+				"/home/baal/customers/tredius/test/comodo.coffee",
+				"/home/baal/Dotfiles/sublime-text-2/Packages/Nodejs/Nodejs.sublime-settings",
+				"/home/baal/.oh-my-zsh/custom/_docpad",
+				"/home/baal/Dotfiles/sublime-text-2/Packages/ASCII Decorator/ASCII Decorator.sublime-settings",
+				"/home/baal/customers/tredius/bron/bestanden/assets/jquery.circlemenu.js",
+				"/home/baal/.oh-my-zsh/custom/docpad.plugin.zsh",
+				"/home/baal/customers/tredius/bron/bestanden/stijlen/circlemenu.css",
 				"/home/baal/customers/tredius/bron/documenten/werken-bij/index.html.coffee",
 				"/home/baal/customers/tredius/bron/documenten/stijlen/voorpagina.styl",
 				"/home/baal/customers/tredius/bron/documenten/stijlen/contactgegevens.styl",
@@ -267,52 +334,7 @@
 				"/home/baal/Dotfiles/sublime-text-2/Packages/BufferScroll/BufferScroll.sublime-settings",
 				"/home/baal/customers/tredius/bron/bouwstenen/widgets/tester2.html.coffee",
 				"/home/baal/Dotfiles/sublime-text-2/Packages/User/GitHub.sublime-settings",
-				"/home/baal/Dotfiles/sublime-text-2/Packages/sublime-github/GitHub.sublime-settings",
-				"/home/baal/Dotfiles/sublime-text-2/Settings/SideBarEnhancements.json",
-				"/home/baal/Dotfiles/sublime-text-2/Packages/CoffeeComplete Plus (Autocompletion)/CoffeeComplete Plus.sublime-settings",
-				"/home/baal/customers/tredius/plugins/docpad-plugin-AABBCC/package.xjson",
-				"/home/baal/customers/tredius/plugins/docpad-plugin-AABBCC/package.json",
-				"/home/baal/customers/tredius/plugins/docpad-plugin-strenc/package.json",
-				"/home/baal/Dotfiles/sublime-text-2/Packages/User/AutoCopyright.sublime-settings",
-				"/home/baal/customers/tredius/bron/bouwstenen/widgets/producten.html.coffee",
-				"/home/baal/customers/tredius/bron/partials/widgets/formulieren.html.coffee",
-				"/home/baal/customers/tredius/bron/partials/widgets/producten.html.coffee",
-				"/home/baal/customers/tredius/plugins/docpad-plugin-semantic/semantic.plugin.litcoffee",
-				"/home/baal/customers/tredius/plugins/docpad-plugin-semantic/semantic.plugin.md",
-				"/home/baal/customers/tredius/plugins/docpad-plugin-semantic/semantic.plugin.coffee",
-				"/home/baal/customers/tredius/plugins/docpad-plugin-semantic/pakketje.json",
-				"/home/baal/customers/tredius/README.md",
-				"/home/baal/customers/tredius/docs/klad",
-				"/home/baal/customers/tredius/bron/partials/adreskaart.html.coffee",
-				"/home/baal/customers/tredius/bron/partials/widgets/README.md",
-				"/home/baal/customers/tredius/bron/partials/widgets/visitekaartje.html.coffee",
-				"/home/baal/customers/tredius/bron/documenten/assets/validatie.js.coffee",
-				"/home/baal/customers/tredius/bron/partials/blok/multimedia.html.coffee",
-				"/home/baal/customers/tredius/bron/documenten/contact2.html.coffee",
-				"/home/baal/customers/tredius/bron/documenten/stijlen/algemeen.css.styl",
-				"/home/baal/customers/tredius/bron/partials/widgets/product.html.coffee",
-				"/home/baal/customers/tredius/bron/documenten/diensten/estateplanning.html.jade",
-				"/home/baal/customers/tredius/bron/documenten/t-time/columns/2012/december.html.md",
-				"/home/baal/customers/tredius/bron/documenten/t-time/columns/2012/juni.html.md",
-				"/home/baal/customers/tredius/bron/documenten/t-time/columns/2012/november.html.md",
-				"/home/baal/customers/tredius/bron/documenten/t-time/columns/2012/september.html.md",
-				"/home/baal/customers/tredius/bron/documenten/t-time/nieuwsbrief/2012/jan2012.html.jade",
-				"/home/baal/customers/tredius/bron/documenten/stijlen/semantisch.styl",
-				"/home/baal/customers/tredius/bron/documenten/stijlen/kleurenschemas.styl",
-				"/home/baal/customers/tredius/bron/documenten/stijlen/paginahoofd.styl",
-				"/home/baal/customers/tredius/bron/documenten/stijlen/debiteurenbeheer.styl",
-				"/home/baal/customers/tredius/bron/documenten/diensten/juridisch/advies.html.jade",
-				"/home/baal/customers/tredius/bron/partials/blok/navigatie.html.coffee",
-				"/home/baal/customers/tredius/bron/documenten/diensten/juridisch/juridisch-advies.html.jade",
-				"/home/baal/customers/tredius/bron/documenten/diensten/juridisch/juridisch-abonnement.html.coffee",
-				"/home/baal/customers/tredius/bron/documenten/diensten/juridisch-abonnement.html.coffee",
-				"/home/baal/customers/tredius/bron/documenten/diensten/juridisch-abonnement2.html.coffee",
-				"/home/baal/customers/tredius/bron/documenten/diensten/juridisch-abonnement.html.jade",
-				"/home/baal/customers/tredius/docpad.env",
-				"/home/baal/Dotfiles/sublime-text-2/Packages/User/Preferences.sublime-settings",
-				"/home/baal/customers/tredius/plugins/docpad-plugin-mailmunge/package.json",
-				"/home/baal/customers/tredius/plugins/docpad-plugin-mailmunge/litcoffee.mailmunge.plugin",
-				"/home/baal/customers/tredius/plugins/docpad-plugin-mailmunge/mailmunge.plugin.litcoffee"
+				"/home/baal/Dotfiles/sublime-text-2/Packages/sublime-github/GitHub.sublime-settings"
 			],
 			"find":
 			{
@@ -320,7 +342,7 @@
 			},
 			"find_in_files":
 			{
-				"height": 90.0,
+				"height": 0.0,
 				"where_history":
 				[
 					"~/customers/tredius/bron/",
@@ -345,6 +367,9 @@
 				"case_sensitive": true,
 				"find_history":
 				[
+					"item",
+					"array",
+					"response",
 					".lijstkop",
 					".LijstVET",
 					".lijstkop",
@@ -469,10 +494,7 @@
 					"apiname",
 					"field_defaults",
 					"name",
-					"name: 'col2'",
-					"\" ",
-					" },",
-					"instrument"
+					"name: 'col2'"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -643,7 +665,7 @@
 				"cols":
 				[
 					0.0,
-					0.585728431003,
+					0.886625850318,
 					1.0
 				],
 				"rows":
@@ -667,7 +689,15 @@
 			},
 			"output.exec":
 			{
+				"height": 214.0
+			},
+			"output.git":
+			{
 				"height": 94.0
+			},
+			"output.unsaved_changes":
+			{
+				"height": 205.0
 			},
 			"replace":
 			{
@@ -694,10 +724,10 @@
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 284.0,
+			"side_bar_width": 170.0,
 			"status_bar_visible": true
 		},
-		"new_window_width": 1500.0
+		"new_window_width": 1272.0
 	},
 	"windows":
 	[
@@ -770,20 +800,48 @@
 			},
 			"buffers":
 			[
+				{
+					"file": "/home/baal/Dotfiles/sublime-text-2/Packages/User/Preferences.sublime-settings",
+					"settings":
+					{
+						"buffer_size": 545,
+						"line_ending": "Unix"
+					}
+				}
 			],
-			"build_system": "Packages/Nodejs/Nodejs.sublime-build",
+			"build_system": "Packages/CoffeeScriptBundle.tmbundle/Commands/CoffeeScript.sublime-build",
 			"command_palette":
 			{
-				"height": 392.0,
+				"height": 112.0,
 				"selected_items":
 				[
 					[
+						"pack",
+						"Preferences: Package Control Settings – Default"
+					],
+					[
 						"inst",
-						"Package Control: Install Package"
+						"Tag: Insert as Tag"
 					],
 					[
 						"Package Control: inst",
 						"Package Control: Install Package"
+					],
+					[
+						"gol",
+						"Golden Ratio"
+					],
+					[
+						"npm",
+						"Nodejs::NPM::Update"
+					],
+					[
+						"node",
+						"Nodejs::Run::Current File"
+					],
+					[
+						"upper",
+						"Convert Case: Upper Case"
 					],
 					[
 						"qu",
@@ -858,11 +916,11 @@
 						"Package Control: Install Package"
 					]
 				],
-				"width": 560.0
+				"width": 485.0
 			},
 			"console":
 			{
-				"height": 146.0
+				"height": 92.0
 			},
 			"distraction_free":
 			{
@@ -875,6 +933,51 @@
 			},
 			"file_history":
 			[
+				"/home/baal/Dotfiles/sublime-text-2/Packages/Package Control/Package Control.sublime-settings",
+				"/home/baal/Dotfiles/sublime-text-2/Packages/knockdown/Markdown (Github Flavored).sublime-settings",
+				"/home/baal/Dotfiles/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+				"/home/baal/Dotfiles/sublime-text-2/Packages/User/Preferences.sublime-settings",
+				"/home/baal/Dotfiles/acme/node/samples/progress-01.litcoffee",
+				"/home/baal/projects/ccc/modules/forms/README.md",
+				"/home/baal/customers/tredius/frm/formalistic.coffee",
+				"/home/baal/customers/tredius/docs/archief/jade-era/a1/voettekst.html.coffee",
+				"/home/baal/Dotfiles/sublime-text-2/Packages/AdvancedNewFile/AdvancedNewFile.sublime-settings",
+				"/home/baal/Dotfiles/sublime-text-2/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+				"/home/baal/Dotfiles/sublime-text-2/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+				"/home/baal/Dotfiles/sublime-text-2/Packages/SmartMarkdown/SmartMarkdown.sublime-settings",
+				"/home/baal/Dotfiles/sublime-text-2/Packages/CoffeeCompile/CoffeeCompile.sublime-settings",
+				"/home/baal/Dotfiles/sublime-text-2/Packages/GoldenRatio/GoldenRatio.sublime-settings",
+				"/home/baal/Dotfiles/sublime-text-2/Packages/Alignment/Base File.sublime-settings",
+				"/home/baal/Dotfiles/sublime-text-2/Packages/Tag/Tag Package.sublime-settings",
+				"/home/baal/Dotfiles/sublime-text-2/Packages/NodeEval/NodeEval.sublime-settings",
+				"/home/baal/Dotfiles/sublime-text-2/Packages/Clientside/Clientside.sublime-settings",
+				"/home/baal/Dotfiles/sublime-text-2/Packages/User/Nodejs.sublime-settings",
+				"/home/baal/Dotfiles/sublime-text-2/Packages/WordCount/WordCount.sublime-settings",
+				"/home/baal/Dotfiles/sublime-text-2/Packages/sublime-better-coffeescript/CoffeeScript.sublime-settings",
+				"/home/baal/Dotfiles/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
+				"/home/baal/Dotfiles/sublime-text-2/Packages/BracketHighlighter/bh_core.sublime-settings",
+				"/home/baal/Dotfiles/sublime-text-2/Packages/Terminal/Terminal.sublime-settings",
+				"/home/baal/Dotfiles/sublime-text-2/Packages/Camaleon/Camaleon.sublime-settings",
+				"/home/baal/Dotfiles/sublime-text-2/Packages/CoffeeComplete Plus (Autocompletion)/CoffeeComplete Plus.sublime-settings",
+				"/home/baal/Dotfiles/sublime-text-2/Packages/User/Camaleon.sublime-settings",
+				"/home/baal/customers/tredius/node_modules/forms/package.json",
+				"/home/baal/customers/tredius/node_modules/forms/index.js",
+				"/home/baal/customers/tredius/package.json",
+				"/home/baal/customers/tredius/modules/plugins/docpad-plugin-coffeekup/out/coffeekup.plugin.js",
+				"/home/baal/customers/tredius/node_modules/coffeecup-helpers/src/textField.coffee",
+				"/home/baal/customers/tredius/test/cs-help.coffee",
+				"/home/baal/customers/tredius/node_modules/coffeecup-helpers/src/controls/textControl.coffee",
+				"/home/baal/customers/tredius/node_modules/docpad-plugin-coffeekup/src/coffeekup.test.coffee",
+				"/home/baal/customers/tredius/node_modules/docpad-plugin-coffeekup/src/coffeekup.plugin.coffee",
+				"/home/baal/.share/scripts/coffee/yankee.coffee",
+				"/home/baal/customers/tredius/docpad.litcoffee",
+				"/home/baal/customers/tredius/test/comodo.coffee",
+				"/home/baal/Dotfiles/sublime-text-2/Packages/Nodejs/Nodejs.sublime-settings",
+				"/home/baal/.oh-my-zsh/custom/_docpad",
+				"/home/baal/Dotfiles/sublime-text-2/Packages/ASCII Decorator/ASCII Decorator.sublime-settings",
+				"/home/baal/customers/tredius/bron/bestanden/assets/jquery.circlemenu.js",
+				"/home/baal/.oh-my-zsh/custom/docpad.plugin.zsh",
+				"/home/baal/customers/tredius/bron/bestanden/stijlen/circlemenu.css",
 				"/home/baal/customers/tredius/bron/documenten/werken-bij/index.html.coffee",
 				"/home/baal/customers/tredius/bron/documenten/stijlen/voorpagina.styl",
 				"/home/baal/customers/tredius/bron/documenten/stijlen/contactgegevens.styl",
@@ -957,52 +1060,7 @@
 				"/home/baal/Dotfiles/sublime-text-2/Packages/BufferScroll/BufferScroll.sublime-settings",
 				"/home/baal/customers/tredius/bron/bouwstenen/widgets/tester2.html.coffee",
 				"/home/baal/Dotfiles/sublime-text-2/Packages/User/GitHub.sublime-settings",
-				"/home/baal/Dotfiles/sublime-text-2/Packages/sublime-github/GitHub.sublime-settings",
-				"/home/baal/Dotfiles/sublime-text-2/Settings/SideBarEnhancements.json",
-				"/home/baal/Dotfiles/sublime-text-2/Packages/CoffeeComplete Plus (Autocompletion)/CoffeeComplete Plus.sublime-settings",
-				"/home/baal/customers/tredius/plugins/docpad-plugin-AABBCC/package.xjson",
-				"/home/baal/customers/tredius/plugins/docpad-plugin-AABBCC/package.json",
-				"/home/baal/customers/tredius/plugins/docpad-plugin-strenc/package.json",
-				"/home/baal/Dotfiles/sublime-text-2/Packages/User/AutoCopyright.sublime-settings",
-				"/home/baal/customers/tredius/bron/bouwstenen/widgets/producten.html.coffee",
-				"/home/baal/customers/tredius/bron/partials/widgets/formulieren.html.coffee",
-				"/home/baal/customers/tredius/bron/partials/widgets/producten.html.coffee",
-				"/home/baal/customers/tredius/plugins/docpad-plugin-semantic/semantic.plugin.litcoffee",
-				"/home/baal/customers/tredius/plugins/docpad-plugin-semantic/semantic.plugin.md",
-				"/home/baal/customers/tredius/plugins/docpad-plugin-semantic/semantic.plugin.coffee",
-				"/home/baal/customers/tredius/plugins/docpad-plugin-semantic/pakketje.json",
-				"/home/baal/customers/tredius/README.md",
-				"/home/baal/customers/tredius/docs/klad",
-				"/home/baal/customers/tredius/bron/partials/adreskaart.html.coffee",
-				"/home/baal/customers/tredius/bron/partials/widgets/README.md",
-				"/home/baal/customers/tredius/bron/partials/widgets/visitekaartje.html.coffee",
-				"/home/baal/customers/tredius/bron/documenten/assets/validatie.js.coffee",
-				"/home/baal/customers/tredius/bron/partials/blok/multimedia.html.coffee",
-				"/home/baal/customers/tredius/bron/documenten/contact2.html.coffee",
-				"/home/baal/customers/tredius/bron/documenten/stijlen/algemeen.css.styl",
-				"/home/baal/customers/tredius/bron/partials/widgets/product.html.coffee",
-				"/home/baal/customers/tredius/bron/documenten/diensten/estateplanning.html.jade",
-				"/home/baal/customers/tredius/bron/documenten/t-time/columns/2012/december.html.md",
-				"/home/baal/customers/tredius/bron/documenten/t-time/columns/2012/juni.html.md",
-				"/home/baal/customers/tredius/bron/documenten/t-time/columns/2012/november.html.md",
-				"/home/baal/customers/tredius/bron/documenten/t-time/columns/2012/september.html.md",
-				"/home/baal/customers/tredius/bron/documenten/t-time/nieuwsbrief/2012/jan2012.html.jade",
-				"/home/baal/customers/tredius/bron/documenten/stijlen/semantisch.styl",
-				"/home/baal/customers/tredius/bron/documenten/stijlen/kleurenschemas.styl",
-				"/home/baal/customers/tredius/bron/documenten/stijlen/paginahoofd.styl",
-				"/home/baal/customers/tredius/bron/documenten/stijlen/debiteurenbeheer.styl",
-				"/home/baal/customers/tredius/bron/documenten/diensten/juridisch/advies.html.jade",
-				"/home/baal/customers/tredius/bron/partials/blok/navigatie.html.coffee",
-				"/home/baal/customers/tredius/bron/documenten/diensten/juridisch/juridisch-advies.html.jade",
-				"/home/baal/customers/tredius/bron/documenten/diensten/juridisch/juridisch-abonnement.html.coffee",
-				"/home/baal/customers/tredius/bron/documenten/diensten/juridisch-abonnement.html.coffee",
-				"/home/baal/customers/tredius/bron/documenten/diensten/juridisch-abonnement2.html.coffee",
-				"/home/baal/customers/tredius/bron/documenten/diensten/juridisch-abonnement.html.jade",
-				"/home/baal/customers/tredius/docpad.env",
-				"/home/baal/Dotfiles/sublime-text-2/Packages/User/Preferences.sublime-settings",
-				"/home/baal/customers/tredius/plugins/docpad-plugin-mailmunge/package.json",
-				"/home/baal/customers/tredius/plugins/docpad-plugin-mailmunge/litcoffee.mailmunge.plugin",
-				"/home/baal/customers/tredius/plugins/docpad-plugin-mailmunge/mailmunge.plugin.litcoffee"
+				"/home/baal/Dotfiles/sublime-text-2/Packages/sublime-github/GitHub.sublime-settings"
 			],
 			"find":
 			{
@@ -1010,7 +1068,7 @@
 			},
 			"find_in_files":
 			{
-				"height": 90.0,
+				"height": 0.0,
 				"where_history":
 				[
 					"~/customers/tredius/bron/",
@@ -1035,6 +1093,9 @@
 				"case_sensitive": true,
 				"find_history":
 				[
+					"item",
+					"array",
+					"response",
 					".lijstkop",
 					".LijstVET",
 					".lijstkop",
@@ -1159,10 +1220,7 @@
 					"apiname",
 					"field_defaults",
 					"name",
-					"name: 'col2'",
-					"\" ",
-					" },",
-					"instrument"
+					"name: 'col2'"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -1308,14 +1366,175 @@
 			"folders":
 			[
 				{
-					"path": "/home/baal/customers/tredius"
+					"path": "/home/baal/Dotfiles/acme/node/samples"
 				}
 			],
 			"groups":
 			[
 				{
+					"selected": 0,
 					"sheets":
 					[
+						{
+							"buffer": 0,
+							"file": "/home/baal/Dotfiles/sublime-text-2/Packages/User/Preferences.sublime-settings",
+							"settings":
+							{
+								"buffer_size": 545,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										313,
+										313
+									]
+								],
+								"settings":
+								{
+									"BracketHighlighterBusy": false,
+									"annotations":
+									[
+										"TODO",
+										"README",
+										"FIXME"
+									],
+									"bh_regions":
+									[
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close"
+									],
+									"buffer_scroll_name": "006f29db",
+									"csslint_options":
+									{
+										"adjoining-classes": "warning",
+										"box-model": true,
+										"box-sizing": "warning",
+										"compatible-vendor-prefixes": "warning",
+										"display-property-grouping": true,
+										"duplicate-background-images": "warning",
+										"duplicate-properties": true,
+										"empty-rules": true,
+										"errors": true,
+										"fallback-colors": "warning",
+										"floats": "warning",
+										"font-faces": "warning",
+										"font-sizes": "warning",
+										"gradients": "warning",
+										"ids": "warning",
+										"import": "warning",
+										"important": "warning",
+										"known-properties": true,
+										"outline-none": "warning",
+										"overqualified-elements": "warning",
+										"qualified-headings": "warning",
+										"regex-selectors": "warning",
+										"rules-count": "warning",
+										"shorthand": "warning",
+										"star-property-hack": "warning",
+										"text-indent": "warning",
+										"underscore-property-hack": "warning",
+										"unique-headings": "warning",
+										"universal-selector": "warning",
+										"vendor-prefix": true,
+										"zero-units": "warning"
+									},
+									"gjslint_ignore":
+									[
+										110
+									],
+									"gjslint_options":
+									[
+									],
+									"javascript_linter": "jshint",
+									"jshint_options":
+									{
+										"browser": true,
+										"evil": true,
+										"regexdash": true,
+										"sub": true,
+										"trailing": true,
+										"wsh": true
+									},
+									"pep8": true,
+									"pep8_ignore":
+									[
+										"E501"
+									],
+									"perl_linter": "perlcritic",
+									"pyflakes_ignore":
+									[
+									],
+									"pyflakes_ignore_import_*": true,
+									"sublimelinter": true,
+									"sublimelinter_delay": 2,
+									"sublimelinter_disable":
+									[
+									],
+									"sublimelinter_executable_map":
+									{
+									},
+									"sublimelinter_fill_outlines": false,
+									"sublimelinter_gutter_marks": true,
+									"sublimelinter_mark_style": "outline",
+									"sublimelinter_notes": false,
+									"sublimelinter_objj_check_ascii": false,
+									"sublimelinter_popup_errors_on_save": true,
+									"sublimelinter_syntax_map":
+									{
+										"C++": "c",
+										"Python Django": "python",
+										"Ruby on Rails": "ruby"
+									},
+									"sublimelinter_wrap_find": true,
+									"syntax": "Packages/AAAPackageDev/Support/Sublime Settings.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 168.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						}
 					]
 				},
 				{
@@ -1352,7 +1571,7 @@
 				"cols":
 				[
 					0.0,
-					0.585728431003,
+					0.886625850318,
 					1.0
 				],
 				"rows":
@@ -1376,9 +1595,17 @@
 			},
 			"output.exec":
 			{
+				"height": 214.0
+			},
+			"output.git":
+			{
 				"height": 94.0
 			},
-			"position": "0,0,0,0,0,1383,103,2883,811,2880,1024",
+			"output.unsaved_changes":
+			{
+				"height": 205.0
+			},
+			"position": "0,0,0,0,0,1312,108,2584,697,2880,1024",
 			"replace":
 			{
 				"height": 62.0
@@ -1404,9 +1631,9 @@
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 284.0,
+			"side_bar_width": 170.0,
 			"status_bar_visible": true,
-			"window_id": 28,
+			"window_id": 30,
 			"workspace_name": ""
 		}
 	],

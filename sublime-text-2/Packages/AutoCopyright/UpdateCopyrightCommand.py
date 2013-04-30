@@ -1,13 +1,13 @@
 #
-# Copyright (c) 2012 by Lifted Studios.  All Rights Reserved.
+# Copyright (c) 2012-2013 by Lifted Studios.  All Rights Reserved.
 #
 
-import constants
+import AutoCopyright.constants
 import datetime
 import re
 
-from CopyrightCommand import CopyrightCommand
-from Exception import MissingOwnerException
+from AutoCopyright.CopyrightCommand import CopyrightCommand
+from AutoCopyright.Exception import MissingOwnerException
 
 
 class UpdateCopyrightCommand(CopyrightCommand):
@@ -49,7 +49,7 @@ class UpdateCopyrightCommand(CopyrightCommand):
 
     def get_owners(self):
         """Gets the list of owners from the settings."""
-        owners = self.settings.get(constants.SETTING_OWNERS)
+        owners = self.settings.get(AutoCopyright.constants.SETTING_OWNERS)
 
         if not owners or len(owners) == 0:
             raise MissingOwnerException()
