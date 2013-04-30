@@ -2,7 +2,7 @@
 alias riemann="/opt/riemann/bin/riemann /opt/riemann/etc/riemann.config"
 alias s="yareps"
 alias v="vim"
-alias pp="popd && popd"
+alias poop="popd && popd"
 alias koffie="clear; nesh -c"
 
 # Config file moderations frequent
@@ -35,4 +35,14 @@ alias getinfo-time="timedatectl status"
 alias getinfo-keys="xev"
 
 
+
+alias aa="vim $0"
+alias pp="sudo powerpill"
+alias resrc="source ~/.zshrc; rehash; clear"
+alias mntboot="sudo mount -o remount,rw /boot"
+alias mntro="sudo mount -o remount,ro /boot"
+alias mkbootcfg="mntboot && sudo grub-mkconfig -o /boot/grub/grub.cfg"
+alias mkinitcpio="mntboot && sudo mkinitcpio -p linux"
+alias checksecurity="sudo checksec.sh --proc-all"
+alias rmpaclock="sudo rm -rf /var/lib/pacman/db.lck"
 
