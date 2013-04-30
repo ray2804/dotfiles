@@ -1,5 +1,0 @@
-[
-  { 
-      "keys": ["ctrl+g"], "command": "move_caret" 
-  }
-]

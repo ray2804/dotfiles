@@ -1,8 +1,0 @@
-<template>
-	<file>FileTemplate.xml</file>
-	<filename>$name.file-template</filename>
-	<path>Templates/</path>
-	<arguments>
-		<name>Name:</name>
-	</arguments>
-</template>

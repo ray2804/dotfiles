@@ -1,7 +1,0 @@
-{
-    // resize group automatically on focus
-    "auto_resize": true,
-    
-    // ratio itself, proportion of window/active group, 1.05 min
-    "golden_ratio": 1.618  
-}
