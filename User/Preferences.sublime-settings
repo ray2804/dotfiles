@@ -1,0 +1,32 @@
+{
+	"caret_style": "smooth",
+	"close_windows_when_empty": true,
+	"color_scheme": "Packages/Color Schemes by carlcalderon/Tyrann/Tyrann.tmTheme",
+	"dictionary": "Packages/Language - English/en_US.dic",
+	"draw_white_space": "all",
+	"font_face": "DroidSansMono",
+	"font_size": 8,
+	"hot_exit": false,
+	"ignored_packages":
+	[
+	],
+	"ignored_words":
+	[
+		"ba"
+	],
+	"repository_channels":
+	[
+		"http://sublime.wbond.net/repositories.json"
+	],
+	"rulers":
+	[
+		72,
+		79
+	],
+	"tab_size": 4,
+	"theme": "zenburn.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": false,
+	"wide_caret": true,
+	"word_wrap": "auto"
+}

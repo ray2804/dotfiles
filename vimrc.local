@@ -2,6 +2,13 @@
 au BufRead,BufNewFile *.html.jade set filetype=jade
 au BufRead,BufNewFile *.md        set filetype=markdown
 
+set sts=4
+set sw=4
+set ts=4
+
+:nnoremap <F5> "=strftime("%c")<CR>P
+:inoremap <F5> <C-R>=strftime("%c")<CR>"
+
 set pastetoggle=<F2>
 
 " Stub and mock data
@@ -16,8 +23,7 @@ Bundle 'Gist.vim'
 Bundle 'Directory-specific-settings'
 Bundle 'filetype.vim'
 
-" Indent
-Bundle 'csindent.vim'
+Bundle 'vim-litcoffee'
 
 " Markup
 "

@@ -1,0 +1,29 @@
+2013-05-03 23:04:23	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #awk
+2013-05-03 23:04:23	--	Topic for #awk is "Paste at: http://xrl.us/awkpaste http://is.gd/gcKOU | Wiki: http://awk.freeshell.org/ | Reference: http://xrl.us/gnuref | FAQ: http://awk.freeshell.org/Frequently_Asked_Questions | Tutorial: http://xrl.us/awktut | POSIX: http://xrl.us/awk1p | Regex: #regex | awk-libs: http://awk-libs.e36freak.com | Be PATIENT, someone will answer you soon"
+2013-05-03 23:04:23	--	Topic set by e36freak (~daniel.mi@auriga.kiwilight.com) on Fri, 12 Apr 2013 20:08:26
+2013-05-03 23:04:23	--	Nicks #awk: [[0x1a] [arx] _val_ aarwine anunnaki Archtivity averagecase axisys baba bekks biax biertie BlastHardcheese bramgn byte48 c00kiemon5ter Caelum caveat- ccxCZ chasmo chattr classix cowyn CrtxReavr cthuluh cuba33ci daemoneye Dereckk djinni dualbus e36freak eban eightyeight el-linedash elge eloib emg emss enzotib errr excelsior faroe fbsd Felden felipe_ folivora frots Fullma gcw|msrv01 geirha ghoti gnomon go|dfish h34d3r iaj ichii386 idoru igli Iridos jaimef jamespat jasonwryan JC_SoCal johnmilton JonasF joshbaptiste_ karnath karolisl kermit kesroesweyth kingsley krisfremen krzee leeder-krenon lewellyn lickalott LycoLoco M3aCu1pa macbr mattcen mdwilson MeaCulpa mete moparisthebest murder mute muteki natechan nesthib Netas3k ningrat ormaaj paul pgas phre polysix pr3d4t0r prince_jammys Rado ramok retrospectacus rockyrock sente serban sexyshape shbot SiegeX sig-wall skered- skizzhg SLot sluggr smash^ stybla sumark supersym tapout thatJasonSmith thelamest tm todd_dsm trifler ttmrichter tuxcrafter unfo- V_Mobile Varazir Vorpal waldner WaRLoRD786 Whiskey Will|- wN wNz yitz_ yiyus zendeavor zfx zivester]
+2013-05-03 23:04:23	--	Channel #awk: 139 nicks (0 ops, 0 halfops, 0 voices, 139 normals)
+2013-05-03 23:04:26	--	Mode #awk [+Ccgnptz]
+2013-05-03 23:04:26	--	Channel created on Sun, 26 Nov 2006 07:42:48
+2013-05-03 23:13:30	<--	kermit (~zip55413@pdpc/supporter/bronze/kermit) has quit (Quit: Leaving.)
+2013-05-03 23:17:32	<--	johnmilton (~brandon@c-68-44-112-161.hsd1.nj.comcast.net) has quit (Quit: Leaving)
+2013-05-03 23:17:53	-->	Nethox (~x@133.Red-80-37-144.staticIP.rima-tde.net) has joined #awk
+2013-05-03 23:25:27	-->	kermit (~zip55413@pdpc/supporter/bronze/kermit) has joined #awk
+2013-05-03 23:40:52	-->	shesek (~shesek@2.55.133.244) has joined #awk
+2013-05-03 23:42:33	<--	jamespat (~chatzilla@nat-lmt.mentorg.com) has quit (Quit: ChatZilla 0.9.90 [Firefox 20.0.1/20130409194949])
+2013-05-03 23:55:38	-->	coolcusty (~kcenac@pool-108-54-16-108.nycmny.east.verizon.net) has joined #awk
+2013-05-03 23:58:48	<--	kermit (~zip55413@pdpc/supporter/bronze/kermit) has quit (Quit: Leaving.)
+2013-05-04 00:01:53	-->	kermit (unknown@pdpc/supporter/bronze/kermit) has joined #awk
+2013-05-04 00:12:35	<--	byte48 (~byte48@unaffiliated/byte48) has quit (Quit: Perl for ever!)
+2013-05-04 00:15:28	-->	byte48 (~byte48@unaffiliated/byte48) has joined #awk
+2013-05-04 00:25:54	<--	wN (jack@redhat/jwaterwo) has quit (Ping timeout: 264 seconds)
+2013-05-04 00:28:50	-->	wN (jack@redhat/jwaterwo) has joined #awk
+2013-05-04 00:33:33	-->	e66 (~quassel@27.147.181.37) has joined #awk
+2013-05-04 00:48:12	<--	averagecase (~av@dslb-188-109-006-167.pools.arcor-ip.net) has quit (Quit: Verlassend)
+2013-05-04 00:53:00	<--	baba (~fire@unaffiliated/security) has quit (Ping timeout: 260 seconds)
+2013-05-04 00:53:26	-->	megha (~fire@unaffiliated/security) has joined #awk
+2013-05-04 01:04:11	-->	Bonzo (~coffee@unaffiliated/ridout) has joined #awk
+2013-05-04 01:10:02	<--	e66 (~quassel@27.147.181.37) has quit (Read error: Connection reset by peer)
+2013-05-04 01:31:10	<--	krzee (~k@openvpn/community/support/krzee) has quit (Excess Flood)
+2013-05-04 01:32:21	-->	krzee (~k@openvpn/community/support/krzee) has joined #awk
+2013-05-04 01:52:33	--	irc: disconnected from server

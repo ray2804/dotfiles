@@ -2,6 +2,7 @@
 alias riemann="/opt/riemann/bin/riemann /opt/riemann/etc/riemann.config"
 alias s="yareps"
 alias v="vim"
+alias dp="docpad"
 alias poop="popd && popd"
 alias koffie="clear; nesh -c"
 

@@ -1,5 +1,7 @@
 #!/bin/bash
 #
+# vim: ft=sh:fdm=marker:fmr={{{,}}}:nospell:ai
+#
 # I stole from https://raw.github.com/oxyc/bash-boilerplate/master/script.sh
 # A lot of this is based on options.bash by Daniel Mills.
 # @see https://github.com/e36freak/tools/blob/master/options.bash

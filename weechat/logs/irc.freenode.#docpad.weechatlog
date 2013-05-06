@@ -12274,3 +12274,1104 @@
 2013-04-25 23:15:32	<--	nexusIX (~egoIX@c-66-235-0-222.sea.wa.customer.broadstripe.net) has quit (*.net *.split)
 2013-04-25 23:21:03	-->	nexusIX (~egoIX@c-66-235-0-222.sea.wa.customer.broadstripe.net) has joined #docpad
 2013-04-26 00:36:51	--	irc: disconnected from server
+2013-04-30 10:43:30	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #docpad
+2013-04-30 10:43:30	--	Topic for #docpad is "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-04-30 10:43:30	--	Topic set by balupton (uid6783@gateway/web/irccloud.com/x-cbtpwjksctndjgtn) on Fri, 28 Dec 2012 12:22:24
+2013-04-30 10:43:30	--	Nicks #docpad: [ashnur balupton elf-pavlik EricLeslie jean_ jgm kaspertidemann nexusIX spanners supersym]
+2013-04-30 10:43:30	--	Channel #docpad: 10 nicks (0 ops, 0 halfops, 0 voices, 10 normals)
+2013-04-30 10:43:34	--	Mode #docpad [+t]
+2013-04-30 10:43:34	--	Channel created on Sat, 26 May 2012 12:12:13
+2013-04-30 10:53:23	-->	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has joined #docpad
+2013-04-30 10:58:34	<--	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has quit (Ping timeout: 272 seconds)
+2013-04-30 11:17:14	<--	ashnur (~ashnur@79.117.84.202) has quit (Quit: WeeChat 0.4.0)
+2013-04-30 11:19:28	<--	kaspertidemann (~Kasper@213.150.61.84) has quit (Quit: kaspertidemann)
+2013-04-30 11:20:40	-->	ashnur (~ashnur@79.117.84.202) has joined #docpad
+2013-04-30 11:36:32	<--	ashnur (~ashnur@79.117.84.202) has quit (Quit: WeeChat 0.4.0)
+2013-04-30 11:36:50	-->	ashnur (~ashnur@79.117.84.202) has joined #docpad
+2013-04-30 11:53:51	-->	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has joined #docpad
+2013-04-30 11:58:29	<--	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has quit (Ping timeout: 248 seconds)
+2013-04-30 12:09:08	-->	kaspertidemann (~Kasper@213.150.61.84) has joined #docpad
+2013-04-30 12:24:42	-->	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has joined #docpad
+2013-04-30 12:29:18	<--	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has quit (Ping timeout: 245 seconds)
+2013-04-30 12:55:29	-->	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has joined #docpad
+2013-04-30 13:00:08	<--	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has quit (Ping timeout: 245 seconds)
+2013-04-30 13:26:21	-->	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has joined #docpad
+2013-04-30 13:31:13	<--	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has quit (Ping timeout: 248 seconds)
+2013-04-30 13:57:12	-->	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has joined #docpad
+2013-04-30 14:02:00	<--	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has quit (Ping timeout: 264 seconds)
+2013-04-30 14:28:02	-->	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has joined #docpad
+2013-04-30 14:32:31	<--	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has quit (Ping timeout: 245 seconds)
+2013-04-30 14:45:48	-->	steventrevathan (~steventre@64.119.141.126) has joined #docpad
+2013-04-30 14:59:06	-->	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has joined #docpad
+2013-04-30 15:03:38	<--	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has quit (Ping timeout: 252 seconds)
+2013-04-30 15:29:43	-->	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has joined #docpad
+2013-04-30 15:34:42	<--	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has quit (Ping timeout: 257 seconds)
+2013-04-30 15:35:12	<--	steventrevathan (~steventre@64.119.141.126) has quit (Quit: steventrevathan)
+2013-04-30 15:53:42	<--	kaspertidemann (~Kasper@213.150.61.84) has quit (Quit: kaspertidemann)
+2013-04-30 16:00:38	-->	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has joined #docpad
+2013-04-30 16:05:14	<--	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has quit (Ping timeout: 252 seconds)
+2013-04-30 16:10:18	-->	kaspertidemann (~Kasper@213.150.61.84) has joined #docpad
+2013-04-30 16:29:02	--	irc: disconnected from server
+2013-05-01 02:26:01	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #docpad
+2013-05-01 02:26:01	--	Topic for #docpad is "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-05-01 02:26:01	--	Topic set by balupton (uid6783@gateway/web/irccloud.com/x-cbtpwjksctndjgtn) on Fri, 28 Dec 2012 12:22:24
+2013-05-01 02:26:01	--	Nicks #docpad: [ashnur balupton elf-pavlik EricLeslie jean_ jgm nexusIX shama spanners supersym]
+2013-05-01 02:26:01	--	Channel #docpad: 10 nicks (0 ops, 0 halfops, 0 voices, 10 normals)
+2013-05-01 02:26:05	--	Mode #docpad [+t]
+2013-05-01 02:26:05	--	Channel created on Sat, 26 May 2012 12:12:13
+2013-05-01 02:28:54	-->	abrams (~abrams@50-200-6-46-static.hfc.comcastbusiness.net) has joined #docpad
+2013-05-01 02:31:37	-->	cspotcode (~cspotcode@pool-74-104-169-3.bstnma.fios.verizon.net) has joined #docpad
+2013-05-01 02:35:26	cspotcode	Hi, can anyone explain why I must agree to Terms of Use and a Privacy Policy before using DocPad?  To me it sounds like DocPad regularly phones home with anonymous usage data, is that correct?
+2013-05-01 02:45:03	supersym	seems some metrics are passed on yes
+2013-05-01 02:45:18	supersym	mixpanel and stuff...
+2013-05-01 02:45:28	supersym	also bugs/crash reports i believe
+2013-05-01 02:46:19	cspotcode	Ok, I'd like to use DocPad at work, but our corporate policies forbid that kind of data leakage (not my policy, but I have to comply)  How can I prevent DocPad from sending metrics?
+2013-05-01 02:46:58	supersym	well im not sure if the terms allow for it, but balupton should be around...and ofc some form of licensing must be available if not :D
+2013-05-01 02:47:11	supersym	and you can always just take it out
+2013-05-01 02:47:27	supersym	if permited by the legals etc ofc :P
+2013-05-01 02:47:31	cspotcode	Yeah, if it's MIT licensed, I can do whatever I want, right?
+2013-05-01 02:47:35	supersym	yup
+2013-05-01 02:47:38	cspotcode	IANAL but that seems correct
+2013-05-01 02:48:21	supersym	you can resell it etc so hacking away shouldnt be a problem... I wonder what you sign for though,now you mention it :)
+2013-05-01 02:49:34	cspotcode	yeah... that's the problem, if I say "MIT License" at work, everyone will know what I'm talking about.  If I say "DocPad does it's own thing that's kinda shady" I'm sure docpad will be outright rejected as an option.  It's not worth involving the lawyers
+2013-05-01 02:50:10	supersym	https://github.com/bevry/docpad/issues/430
+2013-05-01 02:51:06	supersym	using the hashed and salted first MAC address of the machine 
+2013-05-01 02:51:21	supersym	no way of being able to identify them personally
+2013-05-01 02:51:38	cspotcode	Thanks, I actually already looked at that.  It doesn't explain how to disable the tracking, though, which is necessary in my case.
+2013-05-01 02:52:22	supersym	. Although Bevry owns the code, databases, and all rights to the Bevry application, you retain all rights to your data.
+2013-05-01 02:52:34	supersym	http://bevry.me/tos
+2013-05-01 02:52:40	supersym	that should help you :)
+2013-05-01 02:53:39	supersym	nothing about taking parts out
+2013-05-01 02:53:48	supersym	only that you cant use it for crime etc 
+2013-05-01 02:54:01	cspotcode	Right, I read the TOS and the Privacy Policy but they don't explain how to disable the transmission of metrics, and they don't explain if doing so is legal.
+2013-05-01 02:54:22	supersym	imho, first glance, you should be ok but you can always have someone from legals look it over...if they are strict at work that is
+2013-05-01 02:54:33	supersym	nooo...well thats up to you
+2013-05-01 02:54:43	supersym	look at the source
+2013-05-01 02:55:51	cspotcode	Yeah, I'm gonna dig into the source.  I don't mean to belabor the point, so please feel free to stop talking to me at any time.  :D
+2013-05-01 02:55:51	cspotcode	I am, however, curious about implications of the crime provision.  
+2013-05-01 02:56:16	supersym	oh no worries.... i can be a bit chatty :P
+2013-05-01 02:56:30	supersym	and needed a little distraction from work hehe
+2013-05-01 02:56:40	cspotcode	Haha, works for me.
+2013-05-01 02:56:45	supersym	well thats just disclaimers really
+2013-05-01 02:57:10	supersym	itunes tos says you can use it take build a nuclear weapon
+2013-05-01 02:57:17	supersym	cant
+2013-05-01 02:57:31	cspotcode	Haha, wow
+2013-05-01 02:57:43	supersym	basically, not a single vendor on earth can really give you any warrantee on software
+2013-05-01 02:57:54	supersym	its so damn complicated....in split seconds...
+2013-05-01 02:58:05	supersym	some bugs pop up only after +500k tests
+2013-05-01 02:58:21	cspotcode	The crime thing is interesting, though.  Suppose I'm hosting a public forum that uses docpad under the hood.  Then suppose a forum user does something illegal using my forum.  Am I liable?
+2013-05-01 02:58:35	supersym	extremely rare corner cases...thats why the best hackers are at medical and airport software...thats where lives are at stake
+2013-05-01 02:59:21	supersym	erh,...depends if you could have known
+2013-05-01 02:59:23	supersym	i think
+2013-05-01 02:59:28	supersym	but also per country really
+2013-05-01 02:59:50	supersym	thats why its stated in terms of 'your jurisdiction, your own laws'
+2013-05-01 03:00:02	supersym	using some encryption is illegal in quite some countries
+2013-05-01 03:00:17	supersym	its impossible to cover all grounds
+2013-05-01 03:01:23	cspotcode	It sounds like the DocPad terms of service are saying "If you use DocPad in New Zealand to break their laws, then you are breaking this license, which is enforced by US laws."  (assuming Bevry is based in the US)
+2013-05-01 03:02:15	supersym	that is correct
+2013-05-01 03:02:26	supersym	you can break your countries laws in other countries
+2013-05-01 03:02:46	supersym	if I would abuse children in thailand e.g. (bad example but happens too often)...
+2013-05-01 03:02:57	supersym	I am guilty and punishable in the netherlands
+2013-05-01 03:03:39	cspotcode	Is that because you're a citizen of the Netherlands?  Because if you're a citizen of Thailand I would think that the Netherlands wouldn't have jurisdiction
+2013-05-01 03:03:40	supersym	but ofc I can also be punished for spitting gum on the streets in singapore...something we dont have any punishment for :P
+2013-05-01 03:04:16	supersym	i still would get some beatings I fear...and as a UN soldier, we had to abide like 2,3 laws...international, home and region stuff
+2013-05-01 03:04:40	supersym	its more a practical question tho
+2013-05-01 03:04:47	supersym	who is gonna sue?
+2013-05-01 03:04:55	supersym	or ask to extradite
+2013-05-01 03:04:56	cspotcode	Right, and singapore doesn't consider it illegal to spit gum in the US (to use your example)
+2013-05-01 03:05:03	supersym	exactly
+2013-05-01 03:05:46	supersym	but like i said, more often its also about which have treaties and how bad you want someone extradited
+2013-05-01 03:05:55	supersym	see Julian Assange
+2013-05-01 03:06:22	supersym	or Joran vd Sloot (a native who supposedly killed a American girl in Aruba)
+2013-05-01 03:07:11	supersym	and ofc some have bigger muscles than others so if they wont give, you can always go take it
+2013-05-01 03:07:53	supersym	like the Mosad went to assassinate WWII war criminals in other countries :) 
+2013-05-01 03:07:55	supersym	anyhewwww
+2013-05-01 03:08:10	supersym	I digress
+2013-05-01 03:08:18	supersym	warned you :)
+2013-05-01 03:08:50	cspotcode	haha, no worries.  I think I'll avoid DocPad for the time being, at least until I learn more
+2013-05-01 03:09:07	cspotcode	Thanks for your time!  It is much appreciated.
+2013-05-01 03:09:32	supersym	check out the source code... it doesnt lie, only obfuscates truth but not lie
+2013-05-01 03:09:41	supersym	nothing fishy really
+2013-05-01 03:09:49	supersym	https://github.com/bevry/docpad/blob/master/src/lib/docpad.coffee#L119
+2013-05-01 03:09:51	cspotcode	yup, I'll do that, too
+2013-05-01 03:09:52	supersym	like airbrake
+2013-05-01 03:10:39	supersym	do a 'grep' on the source code and some general terms and you'll find those pieces of src code soon enough and can determine wether you like it or not
+2013-05-01 03:10:45	supersym	you're welcome
+2013-05-01 03:10:49	supersym	*back to work*
+2013-05-01 03:19:47	<--	abrams (~abrams@50-200-6-46-static.hfc.comcastbusiness.net) has quit (Quit: Leaving...)
+2013-05-01 04:36:06	-->	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has joined #docpad
+2013-05-01 04:37:54	<--	cspotcode (~cspotcode@pool-74-104-169-3.bstnma.fios.verizon.net) has quit (Quit: Leaving.)
+2013-05-01 04:50:34	-->	cspotcode (~cspotcode@pool-74-104-169-3.bstnma.fios.verizon.net) has joined #docpad
+2013-05-01 05:32:49	<--	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has quit (Quit: Leaving...)
+2013-05-01 05:40:26	-->	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has joined #docpad
+2013-05-01 05:41:00	<--	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has quit (Client Quit)
+2013-05-01 06:11:39	-->	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has joined #docpad
+2013-05-01 06:20:53	<--	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has quit (Ping timeout: 240 seconds)
+2013-05-01 06:46:57	-->	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has joined #docpad
+2013-05-01 06:51:45	<--	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has quit (Ping timeout: 248 seconds)
+2013-05-01 07:18:05	-->	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has joined #docpad
+2013-05-01 07:22:39	<--	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has quit (Ping timeout: 252 seconds)
+2013-05-01 07:32:44	<--	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has quit (Remote host closed the connection)
+2013-05-01 09:16:23	-->	nexus (~egoIX@c-66-235-0-222.sea.wa.customer.broadstripe.net) has joined #docpad
+2013-05-01 09:16:47	--	nexus is now known as Guest43616
+2013-05-01 11:54:41	supersym	docpad seems a bit confused now and then while running and renaming a file...
+2013-05-01 11:55:01	supersym	i guess the old is still in memory
+2013-05-01 12:49:45	<--	jgm (~quassel@primary.mcdee.net) has left #docpad ("http://quassel-irc.org - Chat comfortably. Anywhere.")
+2013-05-01 13:00:03	-->	kaspertidemann (~Kasper@213.150.61.84) has joined #docpad
+2013-05-01 13:51:19	<--	kaspertidemann (~Kasper@213.150.61.84) has quit (Quit: Standby...)
+2013-05-01 14:14:28	-->	kaspertidemann (~Kasper@213.150.61.84) has joined #docpad
+2013-05-01 14:28:41	<--	kaspertidemann (~Kasper@213.150.61.84) has quit (Quit: Standby...)
+2013-05-01 14:40:07	-->	kaspertidemann (~Kasper@213.150.61.84) has joined #docpad
+2013-05-01 15:18:40	<--	kaspertidemann (~Kasper@213.150.61.84) has quit (Quit: Standby...)
+2013-05-01 15:33:33	-->	kaspertidemann (~Kasper@213.150.61.84) has joined #docpad
+2013-05-01 15:56:06	<--	kaspertidemann (~Kasper@213.150.61.84) has quit (Quit: Standby...)
+2013-05-01 16:01:46	-->	kaspertidemann (~Kasper@213.150.61.84) has joined #docpad
+2013-05-01 16:10:09	<--	kaspertidemann (~Kasper@213.150.61.84) has quit (Quit: kaspertidemann)
+2013-05-01 16:54:03	<--	spanners (kKQuV44Y12@gateway/shell/pepperfish/x-ofiorbnzhswkaiwq) has left #docpad
+2013-05-01 17:02:14	-->	thanpolas (~thanpolas@athedsl-296352.home.otenet.gr) has joined #docpad
+2013-05-01 17:03:12	supersym	balupton: what would be a nice method to render from .litcoffee files? Atm I use a side-step cake/script method of .litcoffee -> docpad.js, and I recall you said some support for .litcoffee was added, I assume you ment to render file.litcoffee -> .js? What I would really like is to have literate coffeecup native supported but I dont think we can besides litcoffee -> js -> coffee <- coffeecup?
+2013-05-01 18:23:07	-->	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has joined #docpad
+2013-05-01 19:49:59	<--	jean_ (~jean@95.61.10.207) has quit (Ping timeout: 255 seconds)
+2013-05-01 19:50:40	-->	jean_ (~jean@95.61.10.207) has joined #docpad
+2013-05-01 20:03:45	thanpolas	how can i have custom "routes" ? e.g. /api instead of /api/index.html ?
+2013-05-01 20:05:00	-->	kaspertidemann (~Kasper@2605ds2-bav.0.fullrate.dk) has joined #docpad
+2013-05-01 20:08:58	<--	kaspertidemann (~Kasper@2605ds2-bav.0.fullrate.dk) has quit (Client Quit)
+2013-05-01 20:57:06	<--	ashnur (~ashnur@79.117.84.202) has quit (Quit: WeeChat 0.4.0)
+2013-05-01 22:39:00	supersym	yea
+2013-05-01 22:39:17	supersym	use either slug
+2013-05-01 22:39:41	supersym	or define server routes by adding during the server hooking event in docpad.config
+2013-05-01 22:40:56	supersym	serverExtend event, https://gist.github.com/balupton/3695936, literally googled 'docpad route' :P
+2013-05-01 22:52:43	-->	spanners (kKQuV44Y12@gateway/shell/pepperfish/x-ofiorbnzhswkaiwq) has joined #docpad
+2013-05-01 22:55:00	thanpolas	this looks like it only affects docpad in server mode
+2013-05-01 22:55:12	thanpolas	doesn't matter, i emulated routes with actual folders and index.html files
+2013-05-01 23:05:41	supersym	oh ok... yeah. else zappa.js seems really easy for client side routes
+2013-05-01 23:06:09	supersym	or use something like history.js... they would all do well in the browser/single page apps
+2013-05-01 23:10:54	thanpolas	no, don't want to go that way
+2013-05-01 23:21:00	supersym	yeah I dont either
+2013-05-01 23:21:04	supersym	kills seo
+2013-05-02 00:15:36	-->	ashnur (~ashnur@79.117.84.202) has joined #docpad
+2013-05-02 00:58:20	-->	abitwizardly (~abitwizar@171.66.38.249) has joined #docpad
+2013-05-02 01:00:19	abitwizardly	hey guys - if i want to pass a json object to a docpad template, is it fine to be doing that in docpad.coffee?
+2013-05-02 01:10:40	Guest43616	You mean like loading some configuration from a JSON object that gets passed into a docpad template?
+2013-05-02 01:11:51	Guest43616	abitwizardly, what I've done is include an external JSON file, then add its properties to the docpadConfig object
+2013-05-02 01:12:03	abitwizardly	ooh interesting
+2013-05-02 01:12:04	Guest43616	Then they can be passed into templates
+2013-05-02 01:12:18	abitwizardly	can you show me what you have in docpadconfig to pass that in?
+2013-05-02 01:12:36	Guest43616	siteConfig = require './site-config.json'
+2013-05-02 01:12:41	Guest43616	docpadConfig = {
+2013-05-02 01:12:47	Guest43616	     port: siteConfig.port
+2013-05-02 01:13:09	Guest43616	that's how I set the port a docpad app will run on
+2013-05-02 01:13:17	abitwizardly	ah okay - awesome :) i'll try that out, thanks!
+2013-05-02 01:13:28	Guest43616	and there are a bunch more variables
+2013-05-02 01:14:02	Guest43616	that said, has anyone used node-http-proxy in conjunction with docpad?
+2013-05-02 01:14:24	Guest43616	supersym, you were just discussing routes, my technique for custom routes has been to have an external express.js server process handle routes for things like database access
+2013-05-02 01:15:12	Guest43616	I want to use node-http-proxy to proxy requests to the routes, but when I use it it just doesn't work
+2013-05-02 01:17:03	Guest43616	I've tested node-http-proxy in node scripts by itself and it works there, but not inside docpad
+2013-05-02 01:18:06	Guest43616	I do this:
+2013-05-02 01:18:16	Guest43616	proxy = new http_proxy.RoutingProxy()
+2013-05-02 01:18:33	Guest43616	proxy.proxyRequest req, res, { host: config.serviceHost, port: config.servicePort }
+2013-05-02 01:19:11	Guest43616	inside the route that I want to forward to the routing server process, and it just doesn't work, I've tested everything I can think of
+2013-05-02 01:22:12	<--	Guest43616 (~egoIX@c-66-235-0-222.sea.wa.customer.broadstripe.net) has quit (Quit: Leaving)
+2013-05-02 01:22:43	nexusIX	Hey, Guest43616 was me, looks like I was double-logged in without realizing it
+2013-05-02 01:27:28	abitwizardly	hey Guest43616 - definitely a noob question, so i added
+2013-05-02 01:27:32	abitwizardly	featuresJSON = require './feature-requests.json'
+2013-05-02 01:27:35	abitwizardly	docpadConfig =
+2013-05-02 01:27:36	abitwizardly	etc
+2013-05-02 01:27:52	abitwizardly	then in post.html.jade
+2013-05-02 01:27:53	abitwizardly	i have
+2013-05-02 01:27:57	abitwizardly	script(type='text/javascript')
+2013-05-02 01:28:04	abitwizardly	  $(function(){
+2013-05-02 01:28:04	abitwizardly	    var featureRequests=#{featuresJSON};
+2013-05-02 01:29:41	abitwizardly	but featuresJSON is not defined
+2013-05-02 01:48:17	<--	abitwizardly (~abitwizar@171.66.38.249) has quit (Read error: Connection reset by peer)
+2013-05-02 03:02:38	<--	thanpolas (~thanpolas@athedsl-296352.home.otenet.gr) has quit (Ping timeout: 245 seconds)
+2013-05-02 03:48:14	--	Notice(GitHub19): [docpad] balupton pushed 2 new commits to dev-caterpillar: http://git.io/6zX4_w
+2013-05-02 03:48:14	--	Notice(GitHub19): docpad/dev-caterpillar 8656056 Benjamin Lupton: Got caterpillar v2 working...
+2013-05-02 03:48:14	--	Notice(GitHub19): docpad/dev-caterpillar cf1a258 Benjamin Lupton: v6.32.0. Bugfix. Improvement....
+2013-05-02 03:48:30	cspotcode	I'm poking around the docpad source code and noticed that it's trying to save a user configuration file into my DropBox folder.  Why does it do that?
+2013-05-02 03:57:31	balupton	cspotcode, to remember you've agreed to the TOS so we don't have to keep asking you, as well as to allow you to set configuration that applies to all projects :)
+2013-05-02 03:58:27	cspotcode	ah, sorry, I should have worded my question differently.  Why is it automatically trying to save into my dropbox folder instead of my normal user folder?
+2013-05-02 03:59:00	balupton	sure, so that's because we want your configuration shared across computers
+2013-05-02 03:59:14	balupton	will be a bit annoying if you have to keep agreeing to the tos when we already know you have
+2013-05-02 03:59:30	cspotcode	hmm, ok
+2013-05-02 03:59:32	cspotcode	thanks
+2013-05-02 04:00:26	balupton	supersym: oh, so does coffeekup/coffeecup support the litcoffee extension?
+2013-05-02 04:01:37	balupton	cspotcode: just noticed your earlier question about the metrics, you can add `reportStatistics: false` to that configuration file we were just talking about
+2013-05-02 04:02:16	cspotcode	oh, thanks!  It's not a big deal at home, but it's more important at work.
+2013-05-02 04:02:55	balupton	No worries, happy to provide a letter or blog post whatever to your boss to say it's work friendly and provide the details on how
+2013-05-02 04:03:06	balupton	You'll probably want to turn off reportErrors as well
+2013-05-02 04:03:15	balupton	More details are on the http://docpad.org/docs/config page :)
+2013-05-02 04:03:48	balupton	But yeah, maybe adding a section to the FAQ for - my company has strict security measures, how can I turn off data sending? - or something, would that help?
+2013-05-02 04:04:46	cspotcode	Yeah it might be helpful, although I'm personally not 100% sure we'll be using DocPad yet.  But it's something I've considered, so if it ever comes up in conversation, now I have a better idea of how things work.
+2013-05-02 04:05:01	cspotcode	Regardless, that config page is super-helpful, thanks
+2013-05-02 04:09:02	balupton	EricLeslie: for your question about redeploying the entire site just to add a blog post, what we do for the docpad website is have our documentation in it's own repo, then use the repocloner plugin to pull it in before generation, we then also setup a hook on github that notifies the docpad server that the documentation has updated and that it should do
+2013-05-02 04:09:02	balupton	another generation automatically, it works quite well
+2013-05-02 04:09:33	balupton	soon though, we'll have the ability for importers with docpad, so you can easily import documents form external locations - such as tumblr, wordpress, mongodb, whatever
+2013-05-02 04:09:45	balupton	right now importing is possible, but it is a bit difficult
+2013-05-02 04:13:23	--	Notice(GitHub173): [docpad] balupton merged dev into master: http://git.io/ffLHfw
+2013-05-02 04:13:23	--	Notice(GitHub160): [docpad] balupton merged dev-caterpillar into dev: http://git.io/ffLHfw
+2013-05-02 04:13:28	--	Notice(GitHub66): [docpad] balupton deleted dev-caterpillar at cf1a258: http://git.io/8QRWsA
+2013-05-02 04:14:00	--	Notice(GitHub195): [docpad] balupton tagged v6.32.0 at dev: http://git.io/LfiQLA
+2013-05-02 05:42:08	<--	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has quit (Remote host closed the connection)
+2013-05-02 09:05:53	supersym	balupton: no, you need to pipe litcoffee to js2coffee and then you can
+2013-05-02 09:07:05	supersym	balupton: you also might be interested to take a peek at https://github.com/twilson63/zeke by the way, less maintained then gradus coffeecup though, thats a shame...the patch is quite nice with the plugins
+2013-05-02 09:33:33	-->	kaspertidemann (~Kasper@213.150.61.84) has joined #docpad
+2013-05-02 11:17:12	<--	kaspertidemann (~Kasper@213.150.61.84) has quit (Quit: kaspertidemann)
+2013-05-02 11:53:13	-->	kaspertidemann (~Kasper@213.150.61.84) has joined #docpad
+2013-05-02 12:04:30	 *	spanners dumps his latest stumble onto StackOverflow
+2013-05-02 12:26:41	<--	nexusIX (~egoIX@c-66-235-0-222.sea.wa.customer.broadstripe.net) has quit (Ping timeout: 252 seconds)
+2013-05-02 12:28:54	-->	nexusIX (~egoIX@c-66-235-0-222.sea.wa.customer.broadstripe.net) has joined #docpad
+2013-05-02 12:42:05	<--	nexusIX (~egoIX@c-66-235-0-222.sea.wa.customer.broadstripe.net) has quit (Ping timeout: 252 seconds)
+2013-05-02 13:01:59	-->	nexusIX (~egoIX@c-66-235-0-222.sea.wa.customer.broadstripe.net) has joined #docpad
+2013-05-02 13:07:49	supersym	then again... not like coffeecup sees a lot of work when viewing the open issues
+2013-05-02 13:10:38	supersym	im thinking if I should just fork it... like just added stdio support in 1 minute ><
+2013-05-02 13:11:41	supersym	thats really the whole deal, still, about choosing wether or not to maintain a project, but I can do upstream remote in git to merge diffs anyway
+2013-05-02 14:52:09	<--	kaspertidemann (~Kasper@213.150.61.84) has quit (Quit: Standby...)
+2013-05-02 14:52:55	-->	kaspertidemann (~Kasper@213.150.61.84) has joined #docpad
+2013-05-02 15:06:41	<--	kaspertidemann (~Kasper@213.150.61.84) has quit (Quit: kaspertidemann)
+2013-05-02 15:07:09	-->	kaspertidemann (~Kasper@213.150.61.84) has joined #docpad
+2013-05-02 15:35:36	-->	steventrevathan (~steventre@64.119.141.126) has joined #docpad
+2013-05-02 15:38:06	<--	kaspertidemann (~Kasper@213.150.61.84) has quit (Quit: Standby...)
+2013-05-02 15:56:13	-->	thanpolas (~thanpolas@ppp-2-85-28-30.home.otenet.gr) has joined #docpad
+2013-05-02 17:46:12	<--	thanpolas (~thanpolas@ppp-2-85-28-30.home.otenet.gr) has quit (Ping timeout: 272 seconds)
+2013-05-02 17:57:36	-->	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has joined #docpad
+2013-05-02 18:11:40	<--	ashnur (~ashnur@79.117.84.202) has quit (Quit: WeeChat 0.4.0)
+2013-05-02 19:13:55	-->	kaspertidemann (~Kasper@2605ds2-bav.0.fullrate.dk) has joined #docpad
+2013-05-02 19:50:36	supersym	damn I so much get what balupton ment when he ment coffeescript gave him freedom, as opposed to using Jade for templating :p
+2013-05-02 19:51:26	supersym	Im still pondering how we could interpolate on coffeescript -> functions so we can mixin docpad (meta)data to client-side scripts
+2013-05-02 20:04:01	supersym	simple I see
+2013-05-02 20:04:43	supersym	just use 'script' element for now http://stackoverflow.com/a/11170168
+2013-05-02 20:07:03	supersym	coffeescript "return #{varX}" generates a client-side browser tag for script type=text/coffeescript instead of resolving to js
+2013-05-02 20:07:57	supersym	using the arrow we get the literal value of the variable name, so coffeecup doesnt go deeper than that as far as the scope goes
+2013-05-02 20:09:49	supersym	cc.render (x = 'a') => do (x) -> ul -> li -> script "myvar = #{x};" ; coffeescript -> console.log myvar
+2013-05-02 20:10:42	supersym	fun... oh well
+2013-05-02 20:11:35	supersym	btw I should recommend the package 'nesh' for anyone tired of the normal REPL (it has save options, clear screen, help inside etc)
+2013-05-02 22:11:59	nexusIX	 has anyone used node-http-proxy in conjunction with docpad?
+2013-05-02 22:12:12	nexusIX	I want to use node-http-proxy to proxy requests to the routes, but when I use it it just doesn't work
+2013-05-02 22:12:42	nexusIX	I set up the proxyt with: proxy = new http_proxy.RoutingProxy()
+2013-05-02 22:12:55	nexusIX	but when I do proxy.proxyRequest req, res, { host: config.serviceHost, port: config.servicePort }
+2013-05-02 22:13:06	nexusIX	It just doesn't work
+2013-05-02 22:20:29	-->	ashnur (~ashnur@79.117.84.202) has joined #docpad
+2013-05-02 23:31:24	<--	kaspertidemann (~Kasper@2605ds2-bav.0.fullrate.dk) has quit (Quit: kaspertidemann)
+2013-05-02 23:42:24	<--	steventrevathan (~steventre@64.119.141.126) has quit (Quit: steventrevathan)
+2013-05-03 00:16:29	supersym	that diesbt seen right
+2013-05-03 00:16:35	supersym	doesnt
+2013-05-03 00:16:41	supersym	*seem even bloody hell
+2013-05-03 00:17:46	ashnur	:D
+2013-05-03 00:17:56	supersym	oh wait,...thats nodejitsu...there is something about that
+2013-05-03 00:19:12	supersym	either way, with their code you do good to encapsulate in parens ... so few implicit method ( )
+2013-05-03 00:20:29	supersym	lemme check :P
+2013-05-03 00:36:02	supersym	I asume you listen to ports above 1024?
+2013-05-03 00:47:23	supersym	and you use express with docpad as a module?
+2013-05-03 00:50:37	supersym	guess not the last part... thing is, I wonder *where* you try to add the proxy... it must be within the scope of your server instance
+2013-05-03 00:51:19	supersym	so either use docpad, or express or regular http - it shouldnt matter, as long as the proxy is within its bounds to receive the res,req objects
+2013-05-03 00:52:23	supersym	but if you try to do both, run docpad on one part, and the example code from node-http-proxy, which lists the regular `native` method to create a http-server, then obviously you try to run 2 http-servers
+2013-05-03 00:53:09	supersym	also any debugging/errorstack info you got,...? try running docpaddoc
+2013-05-03 00:53:50	supersym	make that docpad generate -d (the minus d is for debugging, extra verbose output)
+2013-05-03 01:35:10	-->	steventrevathan (~steventre@64.119.141.126) has joined #docpad
+2013-05-03 04:31:38	<--	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has quit (Remote host closed the connection)
+2013-05-03 04:53:53	<--	steventrevathan (~steventre@64.119.141.126) has quit (Quit: steventrevathan)
+2013-05-03 05:59:46	nexusIX	hey supersym, if you're around I can give you some more info
+2013-05-03 05:59:54	nexusIX	I'm using ports above 1024
+2013-05-03 05:59:57	<--	cspotcode (~cspotcode@pool-74-104-169-3.bstnma.fios.verizon.net) has left #docpad
+2013-05-03 06:01:05	nexusIX	I'm calling the server in the routes.coffee file that comes with the HTML5 skeleton
+2013-05-03 06:01:19	nexusIX	here's some abridged code:
+2013-05-03 06:01:30	nexusIX	module.exports = ({server, docpad}, callback) ->
+2013-05-03 06:01:40	nexusIX	   		server.use (req,res,next) ->
+2013-05-03 06:01:50	nexusIX				req.app.post '*', (req, res) =>
+2013-05-03 06:02:12	nexusIX					proxy = new http_proxy.RoutingProxy()
+2013-05-03 06:02:25	nexusIX	proxy.proxyRequest req, res, { host: config.serviceHost, port: config.servicePort }
+2013-05-03 06:02:35	nexusIX	I messed up the indentation a bit there
+2013-05-03 06:02:42	nexusIX	module.exports = ({server, docpad}, callback) ->
+2013-05-03 06:02:47	nexusIX	  server.use (req,res,next) -
+2013-05-03 06:02:51	nexusIX	    req.app.post '*', (req, res) =>
+2013-05-03 06:03:00	nexusIX	      proxy = new http_proxy.RoutingProxy()
+2013-05-03 06:03:08	nexusIX	      proxy.proxyRequest req, res, { host: config.serviceHost, port: config.servicePort }
+2013-05-03 06:03:27	nexusIX	I've tried many permutations of this, it isn't an obvious bug
+2013-05-03 06:03:51	nexusIX	I've checked that the host and port are valid
+2013-05-03 06:04:15	nexusIX	I've created a little independent express.js script and put the same code in it to test, and it works
+2013-05-03 06:04:57	nexusIX	Also, I am not using docpad as a module, I'm using express inside docpad
+2013-05-03 06:05:12	nexusIX	I have a separate express server just for AJAX that I want to proxy requests to
+2013-05-03 06:36:09	-->	meget (5ec6dcad@gateway/web/freenode/ip.94.198.220.173) has joined #docpad
+2013-05-03 07:11:17	<--	ashnur (~ashnur@79.117.84.202) has quit (Ping timeout: 255 seconds)
+2013-05-03 07:16:53	-->	ashnur (~ashnur@79.117.79.237) has joined #docpad
+2013-05-03 07:38:31	-->	EricLeslie_ (~EricLesli@198-204-215-61.static.chico.ca.digitalpath.net) has joined #docpad
+2013-05-03 07:39:10	<--	EricLeslie_ (~EricLesli@198-204-215-61.static.chico.ca.digitalpath.net) has quit (Client Quit)
+2013-05-03 07:41:00	supersym	hey Nexus.. Im back :D
+2013-05-03 07:42:15	supersym	can you like do a pastebin or have a url of the entire thing? a bit easier that way to try and debug for me
+2013-05-03 08:02:07	<--	meget (5ec6dcad@gateway/web/freenode/ip.94.198.220.173) has quit (Ping timeout: 245 seconds)
+2013-05-03 08:11:09	nexusIX	Hey
+2013-05-03 08:11:18	nexusIX	just a moment supersym
+2013-05-03 08:15:06	nexusIX	here's the pastebin
+2013-05-03 08:15:09	nexusIX	http://pastebin.com/ipHfPBXA
+2013-05-03 08:22:24	nexusIX	oh, and there should be a next() at the bottom, I forgot it since I cut some stuff off below
+2013-05-03 08:23:00	nexusIX	I'm trying it again now and I tried putting the two lines that create and invoke the proxy inside a do () -> function, but no luck
+2013-05-03 08:24:11	supersym	also your indention varies
+2013-05-03 08:24:16	supersym	8 and 4 it seems
+2013-05-03 08:26:05	supersym	from module exports to the next is 8, then 4, but anyway
+2013-05-03 08:26:50	nexusIX	Yeah, I had pasted it together after taking it apart and putting it into another format
+2013-05-03 08:28:05	nexusIX	I just put it back together with consistent indentation and the proxy lines inside a do () ->, still no luck
+2013-05-03 08:28:26	nexusIX	It doesn't crash the node.js process, it doesn't throw an error message, it just does nothing
+2013-05-03 08:30:00	nexusIX	getting pages, Javascript and CSS that are compiled by Docpad works fine, but when I try to make a POST that will be proxied to my ajax server, it just spins and spins
+2013-05-03 08:31:10	supersym	which file is this?
+2013-05-03 08:31:46	supersym	docpad.config, a plugin or some other place you try to do this?
+2013-05-03 08:31:52	nexusIX	This is routes.coffee
+2013-05-03 08:31:57	nexusIX	I include it in docpad.config
+2013-05-03 08:32:08	supersym	ok check... thats what I thought you mentioned when you said "it doesnt do anything" literaly
+2013-05-03 08:32:08	nexusIX	It's patterned after the HTML5 skeleton
+2013-05-03 08:32:55	nexusIX	here's a pastebin of the currently running code: http://pastebin.com/DGXzEzVX
+2013-05-03 08:33:12	supersym	you should really then fire properly on event
+2013-05-03 08:33:16	supersym	like docpadReady
+2013-05-03 08:33:46	nexusIX	trigger the routes on that event?
+2013-05-03 08:34:24	nexusIX	The routes.coffee is invoked inside the serverExtend event
+2013-05-03 08:34:31	supersym	well this isnt going to work like that as far as I can see, but the entire file would be nice so I can hack around a bit
+2013-05-03 08:35:13	nexusIX	This docpad.coffee has tons of other stuff in it, but I can rig up a sample one to reproduce the error
+2013-05-03 08:35:56	supersym	yeah... what is providing the docpad instance from outside as arguments to module.exports?
+2013-05-03 08:36:31	supersym	did you copy this from a skeleton somewhere? it could be that docpad does allow this, and ben has demonstrated its use somewhere
+2013-05-03 08:36:48	supersym	# As we are now running in an event,
+2013-05-03 08:36:52	nexusIX	I based this docpad installation off of the HTML5 with Grunt skeleton
+2013-05-03 08:37:02	supersym	cool
+2013-05-03 08:37:15	nexusIX	not sure what you mean about what's providing the docpad instance as arguments to module.exports
+2013-05-03 08:37:29	nexusIX	I just have module.exports = docpadConfig at the bottom of docpad.coffee
+2013-05-03 08:37:37	nexusIX	I kept the way of invoking routes.coffee from that skeleton
+2013-05-03 08:38:27	nexusIX	are you asking what arguments get passed to routes.coffee?
+2013-05-03 08:39:54	supersym	no no... I know enough I think, ... see if you skeleton a new clone and look at the original docpad.coffee file,
+2013-05-03 08:40:23	supersym	you'll notice the top object hash holding configuration data, which in the bottom gets exported
+2013-05-03 08:40:52	supersym	so that means the other code in files that require this module, probably is expecting a hash, not a function
+2013-05-03 08:41:56	nexusIX	oh, so it expects everything in the docpadConfig object to be a javascript object, not a function, is that it?
+2013-05-03 08:42:21	supersym	probably yeah... so everything needs to be a key, which in turn can hold functions that can hold functions
+2013-05-03 08:42:38	supersym	thats why someFunc = -> doesnt work, but someFunc: -> does
+2013-05-03 08:42:50	nexusIX	I've got a bunch of functions in my docpadConfig, and they work, right now I have a crude proxy server running that I wrote myself with the HTTP library
+2013-05-03 08:43:07	supersym	yeah its ok, but only as a value of a hash key
+2013-05-03 08:43:53	supersym	dpCfg = { a: () -> 'stuff', b: 'more stuff', c: -> 'again stuff'; -> 'more stuff'}
+2013-05-03 08:44:00	supersym	thats all cool
+2013-05-03 08:45:02	supersym	anyway, so you want to hook to the events (key events: each key being a defined event in the API)
+2013-05-03 08:45:27	nexusIX	right, all the functions in the dpCfg must be values of keys
+2013-05-03 08:45:32	supersym	and probably docpadReady since I assume it is then when we loaded that same config file and fired up a server
+2013-05-03 08:45:53	supersym	but I need to check that bit
+2013-05-03 08:47:13	nexusIX	the post handling function that is currently working for me is like this:
+2013-05-03 08:47:19	nexusIX	req.app.post '*', (req, res) =>
+2013-05-03 08:47:27	nexusIX		if req.headers['content-type'].substr(0, 33) is 'application/x-www-form-urlencoded'
+2013-05-03 08:47:40	nexusIX			post_to_service req.url, req, req.body, res
+2013-05-03 08:48:00	nexusIX	so it is a named function
+2013-05-03 08:48:17	nexusIX	I can try doing that with the proxy
+2013-05-03 08:48:33	supersym	sec
+2013-05-03 08:49:16	supersym	    docpadReady: (opts) ->
+2013-05-03 08:49:16	supersym	      {server} = opts
+2013-05-03 08:49:16	supersym	      docpad = @docpad
+2013-05-03 08:49:34	supersym	that provides the correct instance of docpad the earliest moment possible
+2013-05-03 08:49:41	supersym	under events:
+2013-05-03 08:51:10	nexusIX	Ok, I'll try putting the routes.coffee in there
+2013-05-03 08:51:59	supersym	also..getConfig()?
+2013-05-03 08:54:19	supersym	I cant seem to find that,...try using just docpad.config
+2013-05-03 08:54:56	nexusIX	haven't had problems getting config variables from that function
+2013-05-03 08:55:21	supersym	oh wait no it works here too
+2013-05-03 08:55:38	supersym	a little tip
+2013-05-03 08:55:48	supersym	get npm i -g nesh
+2013-05-03 08:55:53	nexusIX	got it
+2013-05-03 08:56:00	supersym	and run it using nesh -c (for coffee hehe)
+2013-05-03 08:56:10	supersym	you'll get color and saveable REPL
+2013-05-03 08:56:30	supersym	then you can easily write up quick requires, initialize and then inspect objects and their state
+2013-05-03 08:56:50	supersym	I always have it open for debugging docpad purposes
+2013-05-03 08:56:55	nexusIX	cool, so it's an advanced node shell
+2013-05-03 08:57:00	supersym	because with all the nesting, the scope can become a bit hard sometimes
+2013-05-03 08:57:10	supersym	yeah early but really nice already
+2013-05-03 08:57:16	supersym	.help and .cls
+2013-05-03 08:57:23	supersym	etc
+2013-05-03 08:57:54	supersym	so what I do when I have a problem, is to eliminate all the rest
+2013-05-03 08:58:10	supersym	I also use sublime, which allows for right-click context menu "coffeecompile"
+2013-05-03 08:58:16	supersym	to check for syntax errors
+2013-05-03 08:58:26	supersym	since coffee-script stack dumps are far from helpful
+2013-05-03 08:58:52	supersym	ensure that this is all correct, but preferebly even try to begin with a clean slate to reproduce the circumstances of this problem
+2013-05-03 08:59:30	supersym	thing just is, scope changes so much, so you need to know exactly how to address everything... is it @document, or @.document or just document? inside documents
+2013-05-03 08:59:43	supersym	and how about inside partials? again, very different
+2013-05-03 09:00:09	supersym	are we on server-side, or client-side... etc
+2013-05-03 09:00:34	nexusIX	Hmm, I added the function to docpadReady, but it doesn't seem the server variable is being passed correctly
+2013-05-03 09:00:44	supersym	because we use 1 language to write both we need to be extra watchful
+2013-05-03 09:00:45	nexusIX	TypeError: Cannot call method 'use' of undefined
+2013-05-03 09:00:54	supersym	no
+2013-05-03 09:01:06	supersym	you need to extract that from config...server is empty, sorry
+2013-05-03 09:01:25	nexusIX	{server} = opts
+2013-05-03 09:01:28	nexusIX	that's how I do it
+2013-05-03 09:01:37	nexusIX	same as I do in serverExtend
+2013-05-03 09:01:40	nexusIX	but it doesn't work this time
+2013-05-03 09:02:43	nexusIX	docpadReady: (opts) ->
+2013-05-03 09:02:47	nexusIX		{server} = opts
+2013-05-03 09:02:50	nexusIX		docpad = @docpad
+2013-05-03 09:02:54	supersym	you need to extract that from config...server is empty, sorry
+2013-05-03 09:02:54	nexusIX	require(__dirname+'/routes.coffee') {docpad, server}, (query_object) =>
+2013-05-03 09:02:57	supersym	my bad
+2013-05-03 09:03:10	supersym	don't require inside docpad config
+2013-05-03 09:03:23	supersym	although you can inside events I guess
+2013-05-03 09:03:44	nexusIX	Ok, that's how they do it in the HTML5 skeleton
+2013-05-03 09:03:58	supersym	but often I find if i need to, I am better of abstracting it into a plugin, this case, its ok I guess
+2013-05-03 09:04:15	supersym	just like a readFileSync would be allowed use here I guess
+2013-05-03 09:04:48	nexusIX	Best to require outside? Define a function outside the docpadConfig object and then have it as the value of docpadReady?
+2013-05-03 09:06:04	supersym	# Server Extend
+2013-05-03 09:06:04	supersym	        # Used to add our own custom routes to the server before the docpad routes are added
+2013-05-03 09:06:04	supersym	        serverExtend: (opts) ->
+2013-05-03 09:06:04	supersym	            # Extract the server from the options
+2013-05-03 09:06:04	supersym	            {server} = opts
+2013-05-03 09:06:04	supersym	            docpad = @docpad
+2013-05-03 09:06:15	supersym	that probably would be the correct way... :P
+2013-05-03 09:06:37	nexusIX	Yes, that way works
+2013-05-03 09:06:50	supersym	I dont seem to be able to get the instance in docpadReady, probably only loads the config nothing else, although 'docpad' has a server key with a function
+2013-05-03 09:06:55	nexusIX	because the serverExtend event is passed the server object
+2013-05-03 09:07:03	nexusIX	and the docpadReady event isn't, I'm guessing
+2013-05-03 09:07:07	nexusIX	that's why the other way doesn't work
+2013-05-03 09:07:08	supersym	yuuup
+2013-05-03 09:07:20	supersym	I'd say too
+2013-05-03 09:08:06	nexusIX	as oer https://docpad.org/docs/events, docpadReady is passed the docpad object, that's the entire docpad instance
+2013-05-03 09:08:11	nexusIX	*as per
+2013-05-03 09:08:32	supersym	serverBefore
+2013-05-03 09:08:32	supersym	Called just before we start setting up the server
+2013-05-03 09:08:32	supersym	serverAfter
+2013-05-03 09:08:32	supersym	Called just after we finished setting up the server. Often used to extend the server with routes that will be triggered after the DocPad routes. Options:
+2013-05-03 09:08:32	supersym	server the express.js server instance we are using
+2013-05-03 09:09:10	nexusIX	serverBefore gets no server object, serverAfter does
+2013-05-03 09:09:14	nexusIX	I can try using serverAfter
+2013-05-03 09:09:25	supersym	yeah, if you know the key to use? you should be able to extract it, provided it is already loaded
+2013-05-03 09:09:41	supersym	loading a hash with keys which have functions doesnt trigger those functions automagically
+2013-05-03 09:10:35	supersym	so that means it could still not be triggered to create a http server when we load that object
+2013-05-03 09:10:41	supersym	Im not sure
+2013-05-03 09:11:05	nexusIX	right, if the server object is available when docpadReady fires, I just have to know the key
+2013-05-03 09:11:34	supersym	yup... and the hash is pretty big, im looking but cant find and there isnt a getServer() function, I checked
+2013-05-03 09:11:59	supersym	ok
+2013-05-03 09:12:04	supersym	do docpad.server()
+2013-05-03 09:12:06	supersym	that works
+2013-05-03 09:12:23	nexusIX	Ok, this is a change, I'm getting a 404 error from my POST now
+2013-05-03 09:12:34	nexusIX	This is when I use serverAfter
+2013-05-03 09:12:53	nexusIX	so I can use server = docpad.server() ?
+2013-05-03 09:13:40	nexusIX	the 404 error suggests the routes aren't being applied at all
+2013-05-03 09:13:42	supersym	yes
+2013-05-03 09:14:26	supersym	yes to the server = docpad.server()
+2013-05-03 09:15:11	supersym	inspect the hash that function returns
+2013-05-03 09:15:27	supersym	it has a lot of key/value paits,...like .... getServer() :P
+2013-05-03 09:15:57	supersym	or just the keys like console.log key for key of docpad.server()
+2013-05-03 09:16:38	supersym	makes me think by the way, off-topic, is it would be cool to have a docpad IRC bot with running test instance inside the chatroom :P
+2013-05-03 09:16:44	supersym	like coffeebot and clojurebot
+2013-05-03 09:16:58	supersym	god I have soooo many ideas and so little time
+2013-05-03 09:17:41	nexusIX	Still getting an error, just a min...
+2013-05-03 09:17:48	supersym	its just exposing these hashes to a API module probably even, so you can inspect them on your server real time JSON
+2013-05-03 09:19:06	nexusIX	TypeError: Object #<DocPad> has no method 'use'
+2013-05-03 09:19:18	nexusIX	that's when I do server = docpad.server()
+2013-05-03 09:19:34	nexusIX	so it appears I'm not getting the server from that function, but the docpad object
+2013-05-03 09:20:14	nexusIX	and the object returned by that method has no getServer function
+2013-05-03 09:23:36	nexusIX	there is a server() function in the returned object, running it gets me the top-level docpad object again
+2013-05-03 09:23:41	supersym	console.log "(key) #{key} (#{typeof val}) #{if not val? then '*' else ''}" for key, val of server
+2013-05-03 09:24:02	supersym	that helps a bit to get cleaner insight, you can just add that after server = docpad.server()
+2013-05-03 09:24:29	supersym	then do a docpad generate, the null or empty key values are now marked
+2013-05-03 09:25:03	supersym	(key) serverHttp (object) *
+2013-05-03 09:25:21	supersym	so to me it seems, we still don't have the HTTP server yet
+2013-05-03 09:25:37	supersym	oh wait
+2013-05-03 09:25:43	supersym	thats docpadReady I am still in...
+2013-05-03 09:25:52	supersym	correct, our assumptions were
+2013-05-03 09:25:58	supersym	(yoda voice)
+2013-05-03 09:27:23	nexusIX	yeah, can't find it in docpadReady
+2013-05-03 09:27:48	nexusIX	It would be nice to be able to recursively search the object for methods like use(), handle(), etc., those are the server's methods
+2013-05-03 09:30:19	supersym	https://github.com/bevry/docpad/issues/442
+2013-05-03 09:31:04	nexusIX	right, balupton says that serverExtend is the proper place for routing
+2013-05-03 09:31:18	nexusIX	may be worth asking him is server is available in docpadReady, it may not be
+2013-05-03 09:32:56	supersym	no it isnt
+2013-05-03 09:33:14	nexusIX	that's what I thought
+2013-05-03 09:33:23	supersym	not the httpserver anyway, like i just demonstrated the serverHttp object is either null or undefined
+2013-05-03 09:34:34	supersym	https://github.com/bevry/docpad/issues/308
+2013-05-03 09:34:47	supersym	check that, it should give some clues about server instance too
+2013-05-03 09:35:19	supersym	docpad config allows for arbitrary creating under the server key
+2013-05-03 09:35:38	supersym	dpCfg = { server: someserver.someMethod() }
+2013-05-03 09:35:59	nexusIX	interesting
+2013-05-03 09:38:13	nexusIX	installing express in my docpad app folder...
+2013-05-03 09:42:19	nexusIX	with that change, docpad wouldn't even load any pages
+2013-05-03 09:43:25	nexusIX	Well, I'm just about out of ideas and I need to take off, your help is much appreciated
+2013-05-03 09:43:51	nexusIX	If you can think of anything else, let me know, I'll let you know if I find a solution
+2013-05-03 09:44:37	nexusIX	It'd be really nice to have a simple proxy within docpad instead of the crude method I'm using, I have to pull the query from the request, then re-convert it to a POST string and send it to the AJAX server
+2013-05-03 09:45:35	supersym	yeah... but docpad does support this natively from what I know
+2013-05-03 09:45:43	supersym	check out baluptons web site I think
+2013-05-03 09:46:16	supersym	anyway, I have some work too so if I won't get around to it, balupton might... in any case you could open a stackoverflow topic
+2013-05-03 09:46:30	supersym	and, your welcome of course :)
+2013-05-03 09:46:36	supersym	you're
+2013-05-03 09:47:15	nexusIX	thanks, later
+2013-05-03 09:47:51	supersym	this educational for me as well as I didnt get around to playing with these events yet
+2013-05-03 09:47:55	supersym	cu
+2013-05-03 09:48:28	nexusIX	right, I can get a sample docpad app put together to demonstrate this problem and post it up
+2013-05-03 09:48:32	nexusIX	have a good one
+2013-05-03 09:48:46	supersym	cheers and gl
+2013-05-03 10:14:33	-->	kaspertidemann (~Kasper@213.150.61.84) has joined #docpad
+2013-05-03 11:10:35	<--	kaspertidemann (~Kasper@213.150.61.84) has quit (*.net *.split)
+2013-05-03 11:10:40	<--	balupton (uid6783@gateway/web/irccloud.com/x-diwyxuyhwkhenuym) has quit (*.net *.split)
+2013-05-03 11:11:08	-->	kaspertidemann (~Kasper@213.150.61.84) has joined #docpad
+2013-05-03 11:11:10	-->	balupton (uid6783@gateway/web/irccloud.com/x-ppdfamlovzcaqchp) has joined #docpad
+2013-05-03 11:12:04	<--	kaspertidemann (~Kasper@213.150.61.84) has quit (Remote host closed the connection)
+2013-05-03 11:56:16	<--	ashnur (~ashnur@79.117.79.237) has quit (Ping timeout: 245 seconds)
+2013-05-03 12:00:55	-->	thanpolas (~thanpolas@ppp-2-85-55-26.home.otenet.gr) has joined #docpad
+2013-05-03 12:01:16	<--	thanpolas (~thanpolas@ppp-2-85-55-26.home.otenet.gr) has quit (Read error: Connection reset by peer)
+2013-05-03 12:01:45	-->	thanpolas (~thanpolas@ppp-2-85-55-26.home.otenet.gr) has joined #docpad
+2013-05-03 12:05:12	-->	thanpola_ (~thanpolas@ppp-2-85-20-238.home.otenet.gr) has joined #docpad
+2013-05-03 12:08:03	<--	thanpolas (~thanpolas@ppp-2-85-55-26.home.otenet.gr) has quit (Ping timeout: 245 seconds)
+2013-05-03 12:14:26	-->	kaspertidemann (~Kasper@213.150.61.84) has joined #docpad
+2013-05-03 12:23:24	--	irc: disconnected from server
+2013-05-03 13:33:32	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #docpad
+2013-05-03 13:33:32	--	Topic for #docpad is "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-05-03 13:33:32	--	Topic set by balupton (uid6783@gateway/web/irccloud.com/x-cbtpwjksctndjgtn) on Fri, 28 Dec 2012 12:22:24
+2013-05-03 13:33:32	--	Nicks #docpad: [balupton elf-pavlik EricLeslie jean_ kaspertidemann nexusIX spanners supersym]
+2013-05-03 13:33:32	--	Channel #docpad: 8 nicks (0 ops, 0 halfops, 0 voices, 8 normals)
+2013-05-03 13:33:37	--	Mode #docpad [+t]
+2013-05-03 13:33:37	--	Channel created on Sat, 26 May 2012 12:12:13
+2013-05-03 13:34:37	supersym	the documentation mentions that, with events, we have 'finished generating your website' and after 'before parsing files' isnt parsing files == generating site?
+2013-05-03 13:35:06	supersym	this confuses me somewhat, what is being generated if not the documents that need parsing
+2013-05-03 14:00:21	-->	ashnur (~ashnur@79.117.74.240) has joined #docpad
+2013-05-03 14:08:54	<--	kaspertidemann (~Kasper@213.150.61.84) has quit (Quit: Standby...)
+2013-05-03 14:35:10	-->	kaspertidemann (~Kasper@213.150.61.84) has joined #docpad
+2013-05-03 14:49:10	-->	steventrevathan (~steventre@64.119.141.126) has joined #docpad
+2013-05-03 15:03:04	<--	kaspertidemann (~Kasper@213.150.61.84) has quit (Quit: Standby...)
+2013-05-03 15:10:49	-->	thanpolas (~thanpolas@ppp-94-68-125-30.home.otenet.gr) has joined #docpad
+2013-05-03 15:15:21	<--	thanpolas (~thanpolas@ppp-94-68-125-30.home.otenet.gr) has quit (Remote host closed the connection)
+2013-05-03 17:10:16	-->	thanpolas (~thanpolas@ppp-94-68-125-30.home.otenet.gr) has joined #docpad
+2013-05-03 17:19:10	<--	thanpolas (~thanpolas@ppp-94-68-125-30.home.otenet.gr) has quit (Read error: Connection reset by peer)
+2013-05-03 17:20:09	-->	thanpolas (~thanpolas@ppp-94-68-125-30.home.otenet.gr) has joined #docpad
+2013-05-03 17:29:37	<--	thanpolas (~thanpolas@ppp-94-68-125-30.home.otenet.gr) has quit (Ping timeout: 252 seconds)
+2013-05-03 17:34:13	-->	scothis (uid10474@gateway/web/irccloud.com/x-bfcmlzfzdzbuffit) has joined #docpad
+2013-05-03 17:35:09	scothis	is it possible to run the docpad server on pre-generated content?
+2013-05-03 17:35:26	scothis	if I run `docpad action server` the server starts, but http requests hang
+2013-05-03 18:32:54	-->	thanpolas (~thanpolas@ppp-94-68-125-30.home.otenet.gr) has joined #docpad
+2013-05-03 18:53:52	-->	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has joined #docpad
+2013-05-03 19:02:38	<--	thanpolas (~thanpolas@ppp-94-68-125-30.home.otenet.gr) has quit (Remote host closed the connection)
+2013-05-03 19:09:57	EricLeslie	How do I configure docpad to listen on a specific IP? I am setting it up on a server where one NIC has multiple IP addresses
+2013-05-03 19:10:15	EricLeslie	I can see where the port gets set, but I don't see any docs about the IP
+2013-05-03 19:19:32	<--	ashnur (~ashnur@79.117.74.240) has quit (Quit: WeeChat 0.4.0)
+2013-05-03 19:19:48	-->	ashnur (~ashnur@79.117.68.198) has joined #docpad
+2013-05-03 19:56:15	<--	ashnur (~ashnur@79.117.68.198) has quit (Ping timeout: 256 seconds)
+2013-05-03 20:13:23	-->	ashnur (~ashnur@79.117.87.51) has joined #docpad
+2013-05-03 20:58:35	supersym	EricLeslie: I think you'd do this either in a Procfile, or you use Apache/Nginx/Whatever your static http server is
+2013-05-03 20:58:59	supersym	for the rest I think it just listens to 0.0.0.0 in production but let me check
+2013-05-03 20:59:57	supersym	https://github.com/bevry/docpad-documentation/blob/master/01-start/05-deploy.html.md
+2013-05-03 21:00:29	supersym	since either the PaaS uses Procfile and their arbitrarily assigned dynamic IP addresses
+2013-05-03 21:00:50	supersym	or you control your own server, in which case you'd set nginx/apache etc to listen
+2013-05-03 21:01:04	supersym	or.. you run your own Node.js cloud instance, I do that
+2013-05-03 21:01:39	supersym	varnish on 80 as forward proxy, 81 nginx for static content and some redirects, 82 apache for any php/cgi I need
+2013-05-03 21:02:06	supersym	but Varnish filters out any Node.js/websocket traffic and sends it to 127.0.0.1 on say port 1337
+2013-05-03 21:03:36	supersym	since your http server is always running locally
+2013-05-03 21:03:59	supersym	or by proxy, in which case, you still have that IP and can forward proxy those requests 
+2013-05-03 21:04:52	supersym	I googled for Node.js http server IP and no example I found was setting any IP, only time I've seen that is in routing
+2013-05-03 21:04:56	supersym	like https://github.com/nodejitsu/node-http-proxy
+2013-05-03 21:05:47	supersym	scothis: do you mean like a pure HTML document? Sure, just be sure to put it in the files/ path and not in documents or layouts (doesnt make sense if there is nothing to render)
+2013-05-03 21:08:19	scothis	sypersym: I mean the content in the out directory
+2013-05-03 21:08:42	supersym	balupton: on the .litcoffee thing, I wrote up a quick gist 'n script https://gist.github.com/supersym/5509550
+2013-05-03 21:08:43	scothis	is it possible to run docpad to serve files without regenerating the site?
+2013-05-03 21:09:38	supersym	one way, my way I guess, of doing these things - I don't see a small patch/plugin to be much extra than that in the sense that we can just still use existing projects that are maintained upstream
+2013-05-03 21:10:19	<--	steventrevathan (~steventre@64.119.141.126) has quit (Quit: steventrevathan)
+2013-05-03 21:20:27	supersym	scothis: not yet but soon
+2013-05-03 21:21:13	scothis	thx, just wanted to make sure I wasn't missing something obvious
+2013-05-03 21:21:26	supersym	unless you have say a client-side js script that XHR/AJAX fetches say a dropbox .md file
+2013-05-03 21:21:32	supersym	and render that on the client side
+2013-05-03 21:21:34	supersym	that works
+2013-05-03 21:22:13	supersym	or drop in html files in the out/ folder using upload I guess
+2013-05-03 21:22:22	supersym	that should work too
+2013-05-03 21:23:27	supersym	or, you have a running docpad instance and are able to pinpoint the file exactly, then do a docpad render on it, and place it inside the folder structure
+2013-05-03 21:24:43	supersym	so theoretically you can have say a webform for uploading a .md file, then have some script either listen to that event, or even watch for new files under a (unsecure?) upload folder
+2013-05-03 21:25:16	supersym	then on that trigger a render on it and move the outputted file in place
+2013-05-03 21:25:43	supersym	a little, not too much though imho, backend work on your machine is required tho
+2013-05-03 21:28:35	<--	ashnur (~ashnur@79.117.87.51) has quit (Quit: WeeChat 0.4.0)
+2013-05-03 21:28:58	supersym	but with me, it works tho, I have docpad running in one terminal and created a new file out/a.html and then it just calls it fine
+2013-05-03 21:29:25	supersym	as long as its a .html, .css or .js file obviously
+2013-05-03 21:29:42	supersym	anything else will need client-side rendering of the template language like .jade or .coffee
+2013-05-03 21:30:03	supersym	trade-off is you miss out on any SEO/indexing really
+2013-05-03 21:30:37	supersym	since Google et. al. don't really read the contents of those .md or .coffee files as normal markup
+2013-05-03 21:31:31	supersym	so you'd have out/a.md and then include in the head of the layout e.g.  http://jashkenas.github.io/coffee-script/#scripts
+2013-05-03 21:32:18	supersym	or perhaps http://stackoverflow.com/questions/2443689/client-side-html-markdown-conversion
+2013-05-03 21:32:42	supersym	http://stackoverflow.com/questions/6575743/using-jade-templates-jade-lang-com-client-side
+2013-05-03 23:51:59	<--	nexusIX (~egoIX@c-66-235-0-222.sea.wa.customer.broadstripe.net) has quit (Ping timeout: 256 seconds)
+2013-05-04 00:03:54	-->	nexusIX (~egoIX@c-66-235-0-222.sea.wa.customer.broadstripe.net) has joined #docpad
+2013-05-04 01:40:00	supersym	updated my litcoffee untangle with another method using awk: https://gist.github.com/supersym/5509550#file-lcs-awk
+2013-05-04 01:52:33	--	irc: disconnected from server
+2013-05-04 05:07:26	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #docpad
+2013-05-04 05:07:26	--	Topic for #docpad is "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-05-04 05:07:26	--	Topic set by balupton (uid6783@gateway/web/irccloud.com/x-cbtpwjksctndjgtn) on Fri, 28 Dec 2012 12:22:24
+2013-05-04 05:07:26	--	Nicks #docpad: [ashnur balupton elf-pavlik EricLeslie jean_ nexusIX scothis spanners supersym]
+2013-05-04 05:07:26	--	Channel #docpad: 9 nicks (0 ops, 0 halfops, 0 voices, 9 normals)
+2013-05-04 05:07:30	--	Mode #docpad [+t]
+2013-05-04 05:07:30	--	Channel created on Sat, 26 May 2012 12:12:13
+2013-05-04 05:08:36	supersym	yay... I am getting 'awk' finally :P damn those manuals are hard to read, just watch the patterns instead et voila :)
+2013-05-04 11:39:46	<--	ashnur (~ashnur@79.117.87.51) has quit (Quit: WeeChat 0.4.0)
+2013-05-04 12:30:49	supersym	damn its definitly the partials making my rending very slugish
+2013-05-04 13:05:22	supersym	and that solved it, removed one, soon two, partials from layout :P
+2013-05-04 14:43:18	supersym	ahh... Imma go and use roots on top of stylus I think
+2013-05-04 15:43:58	<--	jean_ (~jean@95.61.10.207) has quit (Remote host closed the connection)
+2013-05-04 20:45:01	-->	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has joined #docpad
+2013-05-04 20:48:11	-->	ashnur (~ashnur@79.117.87.51) has joined #docpad
+2013-05-04 20:54:01	--	Notice(GitHub124): [docpad-documentation] hurrymaplelad opened pull request #25: List Teacup as a rendering plugin (dev...patch-1)  http://git.io/75kaig
+2013-05-04 22:28:05	<--	balupton (uid6783@gateway/web/irccloud.com/x-ppdfamlovzcaqchp) has quit (Ping timeout: 256 seconds)
+2013-05-04 22:30:03	-->	balupton (uid6783@gateway/web/irccloud.com/x-dytfnbyzibviujsa) has joined #docpad
+2013-05-05 00:18:12	-->	steventrevathan (~steventre@c-71-232-16-234.hsd1.ma.comcast.net) has joined #docpad
+2013-05-05 00:18:31	steventrevathan	hello docpadders
+2013-05-05 00:19:24	steventrevathan	I just added a staging app to heroku, and for some reason I'm getting this errors whenever I try starting up my app: http://pastie.org/7801824
+2013-05-05 00:19:42	steventrevathan	any wisdom is appreciated!
+2013-05-05 02:25:51	--	Notice(GitHub135): [docpad-documentation] balupton merged master into dev: http://git.io/oiq4uQ
+2013-05-05 02:26:22	--	Notice(GitHub107): [docpad-documentation] balupton deleted dev at b76b615: http://git.io/0P4UPQ
+2013-05-05 02:31:47	--	Notice(GitHub5): [docpad-documentation] hurrymaplelad opened pull request #26: List Teacup as a rendering plugin (master...patch-1)  http://git.io/608fFw
+2013-05-05 03:10:04	--	Notice(GitHub58): [docpad-documentation] balupton pushed 2 new commits to master: http://git.io/pPAZzA
+2013-05-05 03:10:04	--	Notice(GitHub58): docpad-documentation/master 62520ae Adam Hull: List Teacup as a rendering plugin
+2013-05-05 03:10:04	--	Notice(GitHub58): docpad-documentation/master c274eaa Benjamin Arthur Lupton: Merge pull request #26 from hurrymaplelad/patch-1...
+2013-05-05 04:09:32	--	Notice(GitHub63): [docpad-documentation] balupton pushed 1 new commit to master: http://git.io/uFAn-Q
+2013-05-05 04:09:32	--	Notice(GitHub63): docpad-documentation/master bfe5a1f Benjamin Arthur Lupton: Added a bunch of missing plugins
+2013-05-05 04:26:36	--	Notice(GitHub78): [docpad-documentation] balupton pushed 1 new commit to master: http://git.io/rMjbSw
+2013-05-05 04:26:36	--	Notice(GitHub78): docpad-documentation/master ba4968b Benjamin Arthur Lupton: Added some recent mentions of DocPad across the web
+2013-05-05 04:32:21	--	Notice(GitHub73): [docpad-documentation] balupton pushed 1 new commit to master: http://git.io/cNwr2g
+2013-05-05 04:32:21	--	Notice(GitHub73): docpad-documentation/master 683390e Benjamin Arthur Lupton: Updated talks
+2013-05-05 04:33:01	--	Notice(GitHub62): [docpad-documentation] balupton pushed 1 new commit to master: http://git.io/lMZ7fg
+2013-05-05 04:33:01	--	Notice(GitHub62): docpad-documentation/master 7613034 Benjamin Arthur Lupton: Update showcase.html.md
+2013-05-05 04:34:22	--	Notice(GitHub30): [docpad-documentation] balupton pushed 1 new commit to master: http://git.io/U7LO4Q
+2013-05-05 04:34:22	--	Notice(GitHub30): docpad-documentation/master 55e9575 Benjamin Arthur Lupton: Added query engine to apps
+2013-05-05 04:39:36	--	Notice(GitHub29): [docpad-documentation] balupton pushed 1 new commit to master: http://git.io/sovUgQ
+2013-05-05 04:39:36	--	Notice(GitHub29): docpad-documentation/master bcfff46 Benjamin Arthur Lupton: Update plugins.html.md
+2013-05-05 04:52:12	--	Notice(GitHub2): [docpad-documentation] balupton pushed 1 new commit to master: http://git.io/DTOCpQ
+2013-05-05 04:52:12	--	Notice(GitHub2): docpad-documentation/master f6f084c Benjamin Arthur Lupton: Talked about Importers a bit more
+2013-05-05 04:53:02	--	Notice(GitHub146): [docpad-documentation] balupton pushed 1 new commit to master: http://git.io/5aeiyg
+2013-05-05 04:53:02	--	Notice(GitHub146): docpad-documentation/master 973b001 Benjamin Arthur Lupton: Update plugins.html.md
+2013-05-05 04:54:17	--	Notice(GitHub158): [docpad-documentation] balupton pushed 1 new commit to master: http://git.io/JhiJDA
+2013-05-05 04:54:17	--	Notice(GitHub158): docpad-documentation/master 09d9432 Benjamin Arthur Lupton: Update plugins.html.md
+2013-05-05 05:11:55	balupton	steventrevathan: do you have docpad inside your website's package.json dependencies?
+2013-05-05 06:03:43	<--	ashnur (~ashnur@79.117.87.51) has quit (Quit: WeeChat 0.4.0)
+2013-05-05 06:04:02	-->	ashnur (~ashnur@79.117.87.51) has joined #docpad
+2013-05-05 08:31:26	supersym	I say good morning!
+2013-05-05 08:31:39	ashnur	i say good morning too
+2013-05-05 08:31:44	supersym	:)
+2013-05-05 08:32:45	supersym	ashnur... you use stylus right
+2013-05-05 08:33:10	supersym	ever tried roots-css for a library on top (a bit like nib)?
+2013-05-05 08:33:44	ashnur	yes
+2013-05-05 08:33:47	ashnur	i use it
+2013-05-05 08:33:52	ashnur	what is roots-css?
+2013-05-05 08:34:10	ashnur	i haven't used nib. i yet to need those advanced features
+2013-05-05 08:34:55	supersym	yeah I guess I can live without them as well....I didnt understand why it wouldnt import with me
+2013-05-05 08:35:27	supersym	god...i just hate styling forms so much now
+2013-05-05 08:35:36	supersym	I want some vendor mixins for that
+2013-05-05 08:37:33	supersym	stylus documentation is also a bit... missing I guess, at points, although a bit better than many other projects I've seen now :P
+2013-05-05 08:38:39	ashnur	http://formalize.me/
+2013-05-05 08:38:46	ashnur	there are some other form styling libs
+2013-05-05 08:38:59	supersym	thanks
+2013-05-05 08:39:07	ashnur	no, styling documentation is very good, it's just hard to find the thing you need when you need it
+2013-05-05 08:43:44	supersym	styling documentation is good, stylus has more/better than may be expected, but sometimes I don't get the jumps TJ/someone makes in them
+2013-05-05 08:44:01	supersym	also it asumes you even understand the difference between a mixin and a functies
+2013-05-05 08:44:06	supersym	function etc
+2013-05-05 08:44:15	supersym	I still find the notion 'vague'
+2013-05-05 08:45:01	supersym	I guess a function should 'return ' something as usual, but for the rest it sounds like a whole lot of newspeak in that document
+2013-05-05 08:45:30	supersym	and why 'transparent' mixins?
+2013-05-05 08:45:51	supersym	you can't just introduce a bunch of new terms with no introduction like that
+2013-05-05 08:47:26	supersym	more and more I've come to believe software is all about 'support' in that regard, and explicitly stating the expected 'base level' of knowledge of the reader and the level/scope of the documentation (for who it is intended) is a must imho
+2013-05-05 08:47:38	ashnur	apparently you can. and trust me. it is done everywhere. people are using the same words in the same context for different things. i hate it too. you just have to remember what the word for that person means in that context (because it's not like they would not use it for something else too)
+2013-05-05 08:48:14	supersym	right
+2013-05-05 08:51:53	supersym	well if I really am frustrated (and yes more people are http://betterfm.org/index.php/Main_Page
+2013-05-05 08:52:25	supersym	hehe i just realized the name for that is funny too :P better fcking manual :P
+2013-05-05 08:53:04	supersym	don't be a jerk :D
+2013-05-05 08:57:26	supersym	this seems very recent,...I really need to finish this forms thing anyway cause my fingers are itching to hack and contribute to some projects :D
+2013-05-05 08:58:07	supersym	'cargo cult programming' lol... a new thing learned
+2013-05-05 09:03:12	<--	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has quit (Remote host closed the connection)
+2013-05-05 09:33:33	supersym	ok that formalize css looks roughly like the same properties i use
+2013-05-05 09:34:06	supersym	i didnt really miss something, guess I can finish them and test in some browser to see how they render
+2013-05-05 10:17:00	supersym	I dont seem to be able and render stylus from the REPL... their example though shows reading a file and pass it as a string variable
+2013-05-05 10:17:13	supersym	stylus("box-shadow(5px)").render((err,css) -> console.log css)
+2013-05-05 10:19:03	supersym	aha
+2013-05-05 13:45:09	--	irc: disconnected from server
+2013-05-05 13:45:33	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #docpad
+2013-05-05 13:45:33	--	Topic for #docpad is "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-05-05 13:45:33	--	Topic set by balupton (uid6783@gateway/web/irccloud.com/x-cbtpwjksctndjgtn) on Fri, 28 Dec 2012 12:22:24
+2013-05-05 13:45:33	--	Nicks #docpad: [balupton elf-pavlik Eric_ nexusIX scothis spanners steventrevathan supersym]
+2013-05-05 13:45:33	--	Channel #docpad: 8 nicks (0 ops, 0 halfops, 0 voices, 8 normals)
+2013-05-05 13:45:55	--	Mode #docpad [+t]
+2013-05-05 13:45:55	--	Channel created on Sat, 26 May 2012 12:12:13
+2013-05-05 14:08:41	supersym	ahhhh ... I finally learned stylus functions properly
+2013-05-05 14:08:54	supersym	very nice, I can cut away about half my boilerplates :p
+2013-05-05 16:41:23	<--	steventrevathan (~steventre@c-71-232-16-234.hsd1.ma.comcast.net) has quit (Quit: steventrevathan)
+2013-05-05 16:47:18	-->	ipetrovilya (~quassel@dyn-53-251.e-sky.ru) has joined #docpad
+2013-05-05 16:55:46	<--	ipetrovilya (~quassel@dyn-53-251.e-sky.ru) has quit (Remote host closed the connection)
+2013-05-05 17:02:24	-->	ashnur (~ashnur@79.117.87.51) has joined #docpad
+2013-05-05 17:19:44	-->	ipetrovilya (~quassel@dyn-53-251.e-sky.ru) has joined #docpad
+2013-05-05 18:50:11	<--	ipetrovilya (~quassel@dyn-53-251.e-sky.ru) has quit (Ping timeout: 256 seconds)
+2013-05-05 19:12:29	-->	ipetrovilya (~quassel@dyn-52-191.e-sky.ru) has joined #docpad
+2013-05-05 19:59:35	-->	kaspertidemann (~Kasper@2605ds2-bav.0.fullrate.dk) has joined #docpad
+2013-05-05 20:12:24	<--	kaspertidemann (~Kasper@2605ds2-bav.0.fullrate.dk) has quit (Quit: kaspertidemann)
+2013-05-05 21:24:28	<--	ipetrovilya (~quassel@dyn-52-191.e-sky.ru) has quit (Read error: Connection reset by peer)
+2013-05-05 22:43:36	<--	ashnur (~ashnur@79.117.87.51) has quit (Quit: WeeChat 0.4.0)
+2013-05-06 00:00:12	-->	arcanin (~Mael@ppp-seco11pa2-46-193-129.230.wb.wifirst.net) has joined #docpad
+2013-05-06 00:00:45	arcanin	hi, my collections suddenly broke after a docpad update, is it a known issue ?
+2013-05-06 02:06:05	-->	ashnur (~ashnur@79.117.87.51) has joined #docpad
+2013-05-06 02:37:54	<--	ashnur (~ashnur@79.117.87.51) has quit (Quit: WeeChat 0.4.0)
+2013-05-06 02:40:11	-->	ashnur (~ashnur@79.117.87.51) has joined #docpad
+2013-05-06 02:40:53	supersym	not that I have experienced, a moment I did think so but it was instead a outdent too few
+2013-05-06 02:46:48	--	Notice(GitHub108): [docpad-documentation] balupton pushed 1 new commit to master: http://git.io/1IOeSg
+2013-05-06 02:46:48	--	Notice(GitHub108): docpad-documentation/master ccce047 Benjamin Arthur Lupton: Got the debugging instructions up to date *finally*
+2013-05-06 02:47:08	--	Notice(GitHub124): [docpad-documentation] balupton pushed 1 new commit to master: http://git.io/LB1D5Q
+2013-05-06 02:47:08	--	Notice(GitHub124): docpad-documentation/master e78f4a7 Benjamin Arthur Lupton: Update debug.html.md
+2013-05-06 03:21:14	--	Notice(GitHub145): [docpad-extras] balupton pushed 2 new commits to master: http://git.io/D-eRHg
+2013-05-06 03:21:14	--	Notice(GitHub145): docpad-extras/master 9a7799c Tadeusz Łazurski: Added my Coffeekup bootstrap skeleton to the list
+2013-05-06 03:21:14	--	Notice(GitHub145): docpad-extras/master 1281552 Benjamin Arthur Lupton: Merge pull request #32 from lzrski/patch-1...
+2013-05-06 03:22:32	--	Notice(GitHub44): [docpad-extras] balupton deleted backup at 42b888e: http://git.io/vo1-VQ
+2013-05-06 03:22:42	--	Notice(GitHub57): [docpad-extras] balupton deleted dev at c42e865: http://git.io/Rnap9g
+2013-05-06 03:22:47	--	Notice(GitHub75): [docpad-extras] balupton deleted somedocs at 5d09093: http://git.io/jT4V7w
+2013-05-06 03:24:27	--	Notice(GitHub154): [docpad-extras] balupton merged master into docpad-6.x: http://git.io/0Qv57Q
+2013-05-06 04:59:28	-->	philipp_ (76adb42a@gateway/web/freenode/ip.118.173.180.42) has joined #docpad
+2013-05-06 05:02:59	<--	philipp_ (76adb42a@gateway/web/freenode/ip.118.173.180.42) has quit (Client Quit)
+2013-05-06 05:04:22	-->	phl (~phl@node-zl6.pool-118-173.dynamic.totbb.net) has joined #docpad
+2013-05-06 05:05:02	--	phl is now known as philipp_
+2013-05-06 05:09:49	philipp_	hi there! can i ask a rather general question? i'm new to docpad and static site builders, but fascinated by them, as I'm coming from using wordpress for every little site. so I'm not an experienced programmer, but a designer used to fiddling around with HTML, CSS and PHP. what would be most crucial for me to learn to have a smooth docpad learning curve. coffeescript basics? I'm currently failing at logic operations and 
+2013-05-06 05:09:50	philipp_	just have no idea from where to approach them.
+2013-05-06 05:10:21	supersym	ok
+2013-05-06 05:10:52	philipp_	(* there was supposed to be a questionmark after my question :)
+2013-05-06 05:11:04	supersym	so you got docpad working for the rest? get the basics of the terminal commands, and know how to use npm right?
+2013-05-06 05:11:23	supersym	I can drill you quickly
+2013-05-06 05:11:26	supersym	:D
+2013-05-06 05:12:16	philipp_	yep! the documentation brought me until there. and I understand all the examples given there. but I', not really able to approach all the problems coming up when I really wanna use docpad 
+2013-05-06 05:12:34	supersym	ok let me show you a few tricks
+2013-05-06 05:13:11	supersym	the key to efficient usage is, however, a more than average understanding of javascript, but I did learn first Coffee and then really got in JavaScript
+2013-05-06 05:13:19	supersym	so if you arent too good at it, thats fine
+2013-05-06 05:13:46	supersym	note that if I send u stuff like $ something, it implies a command in the terminal window.... your operating system btw?
+2013-05-06 05:14:33	philipp_	OSX, and I found this book about coffeescript yesterday: http://autotelicum.github.io/Smooth-CoffeeScript/ looks pretty cool, but I wanted to check if that brings me forward
+2013-05-06 05:14:44	supersym	its good
+2013-05-06 05:14:51	supersym	well there is a difference, rather big one
+2013-05-06 05:15:01	supersym	smooth-cs is more about the language, than node.js
+2013-05-06 05:15:15	supersym	and docpad succesfully abstracts away differences in languages
+2013-05-06 05:15:56	supersym	so you can really pick any you like, but there are rules of course and often docpad is just a parser control system from many node.js packages wrapped in a plugin
+2013-05-06 05:16:59	philipp_	yeah, alright. so there are alternatives so solve the 'logic parts' to CS? but CS is perfectly fine if I decide liking it? :)
+2013-05-06 05:17:05	supersym	you need to realize that docpad is driven by models, in Backbone.js who go through QueryEngine to DocPad (although you won't need it too much, and it can be resource intensive performing queries on those models == DATA)
+2013-05-06 05:17:13	supersym	yup
+2013-05-06 05:17:29	supersym	so you can do: $ npm s docpad
+2013-05-06 05:17:57	supersym	from your bash terminal, and it will list all published to npm registrar modules for docpad
+2013-05-06 05:18:15	supersym	to see what languages it offers, and other nice plugins
+2013-05-06 05:18:20	supersym	now
+2013-05-06 05:18:32	supersym	everything is models, like I said
+2013-05-06 05:19:22	supersym	backbone models, but thats just really a convienance really, in the end, for docpad to function on a 'meta' level with your documents
+2013-05-06 05:19:45	supersym	so any file you make under src/documents/.. will get processed by this system of rendering steps
+2013-05-06 05:20:00	supersym	somefile.html.md will render .html from .md source
+2013-05-06 05:20:23	philipp_	yep, got that. and love it :)
+2013-05-06 05:20:38	supersym	somefile.css.styl will generate a .css file and so on, even somefile.html.md.eco or whatever
+2013-05-06 05:20:43	supersym	ok cool
+2013-05-06 05:20:51	supersym	so src/files ... that one doesnt render
+2013-05-06 05:21:01	supersym	its just for static/unrendered assets like images etc
+2013-05-06 05:21:17	supersym	although you may drop images in a src/documents/somefolder/topic/img too
+2013-05-06 05:21:33	philipp_	ok, and they'll be ignored?
+2013-05-06 05:21:42	supersym	that may be handy in the beginning to solve some naming issues (like 1 img folder with 1000 files becomes hard :P)
+2013-05-06 05:21:45	philipp_	or basically copied over as they are
+2013-05-06 05:21:49	supersym	ignored yes
+2013-05-06 05:22:18	supersym	but may conflict names!!! imagine a dir: src/documents/main.js.coffee and src/files/main.js
+2013-05-06 05:22:25	supersym	both will render to out/main.js
+2013-05-06 05:22:27	supersym	which wins?
+2013-05-06 05:23:00	supersym	so dont do that stuff, organize your files and name them properly so you (and other devs on projects) get that, standardize even if you can :)
+2013-05-06 05:23:14	philipp_	copy that :)
+2013-05-06 05:23:30	supersym	make a solid dir structure under src/documents and that will translate to the root directory (published in out/ but can be any name)
+2013-05-06 05:23:33	supersym	ok cool
+2013-05-06 05:23:38	supersym	now get some tools
+2013-05-06 05:24:14	supersym	$ npm i -g cson jsontool nesh stylus markdown coffee-script 
+2013-05-06 05:25:20	supersym	$ npm i -g coffeecup js2coffee
+2013-05-06 05:25:58	supersym	you shouldn't really have to use 'sudo' for these globally installed packages
+2013-05-06 05:26:09	philipp_	being new to package managers and stuff: where are all those things being installed? it's witchcraft!
+2013-05-06 05:26:20	supersym	those are dependencies
+2013-05-06 05:26:43	supersym	php doesnt really have them like node, npm is very good (not perfect) but close
+2013-05-06 05:26:57	supersym	but with php you end up with 3000 files in some simple websites
+2013-05-06 05:27:12	supersym	its insane the amount of boilerplating you need for that as a louzy 'mvc'
+2013-05-06 05:27:19	supersym	its utter crap..
+2013-05-06 05:27:30	supersym	and im not often strong voiced on those things
+2013-05-06 05:27:31	supersym	:D
+2013-05-06 05:27:42	supersym	those dependencies come from this
+2013-05-06 05:27:42	philipp_	hehe
+2013-05-06 05:28:03	supersym	http://package.json.nodejitsu.com/
+2013-05-06 05:28:15	supersym	know it... dependencies are those required to run your program
+2013-05-06 05:28:24	supersym	you can initialize this file doing $ npm init
+2013-05-06 05:28:28	supersym	and answer some questions
+2013-05-06 05:28:43	supersym	it will make a (not fully but ok start) package.json
+2013-05-06 05:28:52	supersym	*MUST* be JSON not JS!
+2013-05-06 05:29:05	supersym	every comma must be there, except that last ones
+2013-05-06 05:29:16	supersym	every field must be quoted properly except bools
+2013-05-06 05:29:18	supersym	and so on
+2013-05-06 05:29:43	supersym	you will get it soon enough but it can be a bit of pain, need to develop a quick eye for it
+2013-05-06 05:29:49	philipp_	that's all completely new to me, but I hope I'll just get it over time :)
+2013-05-06 05:30:12	supersym	same goes for coffeescript... its significant whitespace as they say, so invisible characters matter!
+2013-05-06 05:30:25	supersym	you need a good editor too
+2013-05-06 05:30:31	philipp_	I don't have to do the $ npm init for working with docpad now, do I?
+2013-05-06 05:30:31	supersym	you are using what now for text editor?
+2013-05-06 05:30:38	philipp_	sublime text 2
+2013-05-06 05:30:39	supersym	no
+2013-05-06 05:30:43	supersym	well
+2013-05-06 05:30:44	supersym	you can
+2013-05-06 05:30:47	supersym	it updates too
+2013-05-06 05:31:04	supersym	also, installing something with the --save flag or --save-dev writes to package.json
+2013-05-06 05:31:44	supersym	so doing a $ docpad skeleton (it will do a 'npm install' which runs the local package.json it finds) and then $ cd <new_project>
+2013-05-06 05:32:07	supersym	if you want to add another docpad module simply $ npm i docpad-plugin-ruby
+2013-05-06 05:32:23	supersym	wait: $ npm i docpad-plugin-ruby --save
+2013-05-06 05:32:59	supersym	then it saves to that package.json file.... see, you just 'git cloned' a remote repository from github
+2013-05-06 05:33:04	supersym	thats what skeletons are
+2013-05-06 05:33:21	philipp_	ok, I think I understand some of that :)
+2013-05-06 05:33:44	supersym	so npm package.json files of all those skeletons (remotely) have all these dependencies defined, pulling a skeleton means pulling in the dependencies
+2013-05-06 05:33:56	supersym	https://github.com/bevry/cson
+2013-05-06 05:34:05	supersym	typical structure of bevry published applications
+2013-05-06 05:34:11	supersym	package.json as mentioned
+2013-05-06 05:34:24	supersym	Cakefile (for automated build tasks in coffee)
+2013-05-06 05:35:10	supersym	automatically published README.md is nice format (github feature but npm complains it needs it too, uses it here: https://npmjs.org/
+2013-05-06 05:36:07	supersym	http://registry.npmjs.org/docpad
+2013-05-06 05:36:26	philipp_	yey!
+2013-05-06 05:36:34	supersym	that is where npm gets its info from, people write a piece of software for node.js, keep source on github and push to registry of node.js
+2013-05-06 05:36:39	supersym	basically anyone can do that
+2013-05-06 05:37:03	supersym	cool
+2013-05-06 05:37:10	philipp_	nifty!
+2013-05-06 05:37:30	supersym	so what you normally have is the program $ node
+2013-05-06 05:37:41	supersym	it is a JavaScript ReadEvalPrint-loop
+2013-05-06 05:38:16	supersym	type $ node    ... then next type in: console.log('Hello world!');
+2013-05-06 05:38:32	supersym	it works, exit by two times Ctrl+C
+2013-05-06 05:38:38	supersym	try $ coffee
+2013-05-06 05:39:01	supersym	same but then coffeescript, try: console.log 'Morning coffee!'
+2013-05-06 05:39:05	philipp_	ah ok, so that console.log(... is javascript
+2013-05-06 05:39:07	philipp_	?
+2013-05-06 05:39:12	supersym	notice the ( ); missing from coffeescript
+2013-05-06 05:39:15	supersym	its implicit
+2013-05-06 05:39:25	supersym	not always good (it makes stuff hard to read sometimes)
+2013-05-06 05:39:33	supersym	right
+2013-05-06 05:39:49	supersym	now two times Ctrl+C again to exit
+2013-05-06 05:39:54	supersym	finally try out $ nesh -c
+2013-05-06 05:40:19	supersym	that is the improved REPL/shell for coffeescript (nesh is javascript without the -c)
+2013-05-06 05:40:28	philipp_	ok cool, so I could also write the examples from the smooth-cs book in the terminal like this (with console.log instead of show). got it.
+2013-05-06 05:40:42	supersym	NOTE: always remember $ programname -h or $programname --help            of course
+2013-05-06 05:40:53	supersym	to look what options they have defined
+2013-05-06 05:40:58	supersym	not everyone does that!
+2013-05-06 05:41:30	supersym	and the only packages you should "npm install -g" are those you know have a terminal command you want to use everywhere on your machine
+2013-05-06 05:42:03	supersym	so $ npm i -g docpad       = global, everywhere you can do $ docpad skeleton or $ docpad action
+2013-05-06 05:42:23	supersym	$npm install docpad              = without global installs in a local folder named node_modules
+2013-05-06 05:42:39	supersym	npm is very good at looking up modules
+2013-05-06 05:43:03	supersym	every node.js file (be it .js or .coffee) is remarkably well sought up in a tree of dependencies
+2013-05-06 05:43:27	supersym	so its ok if you have 5 programs in node_modules who all reference the same program with the same version!
+2013-05-06 05:43:35	supersym	it will use the top one of the tree
+2013-05-06 05:43:57	supersym	try $ npm la
+2013-05-06 05:44:02	supersym	inside a docpad skeleton
+2013-05-06 05:44:07	supersym	it will show the dependency tree
+2013-05-06 05:44:32	supersym	dependency hell is FAR less than ruby/gems here in node.js
+2013-05-06 05:44:38	-->	phl (~phl@node-10l5.pool-118-173.dynamic.totbb.net) has joined #docpad
+2013-05-06 05:44:46	phl	test one two
+2013-05-06 05:44:53	supersym	but know what you install,...look up the package on github via $ npm info 
+2013-05-06 05:44:54	--	phl is now known as philipp__
+2013-05-06 05:45:15	supersym	$ npm info docpad
+2013-05-06 05:45:29	supersym	shows where the repository is (npm pulls in github repos)
+2013-05-06 05:45:30	philipp__	sorry I think my connection had a hickup! could you please copy & paste the last lines?
+2013-05-06 05:45:40	<--	philipp_ (~phl@node-zl6.pool-118-173.dynamic.totbb.net) has quit (Ping timeout: 256 seconds)
+2013-05-06 05:45:42	supersym	05:42:23  supersym | $npm install docpad              = without global installs in a local folder named node_modules                                            │
+2013-05-06 05:45:42	supersym	05:42:39  supersym | npm is very good at looking up modules                                                                                                     │
+2013-05-06 05:45:42	supersym	05:43:03  supersym | every node.js file (be it .js or .coffee) is remarkably well sought up in a tree of dependencies                                           │
+2013-05-06 05:45:42	supersym	05:43:27  supersym | so its ok if you have 5 programs in node_modules who all reference the same program with the same version!                                 │
+2013-05-06 05:45:42	supersym	05:43:35  supersym | it will use the top one of the tree                                                                                                        │
+2013-05-06 05:45:42	supersym	05:43:57  supersym | try $ npm la                                                                                                                               │
+2013-05-06 05:45:42	supersym	05:44:02  supersym | inside a docpad skeleton                                                                                                                   │
+2013-05-06 05:45:42	supersym	05:44:07  supersym | it will show the dependency tree                                                                                                           │
+2013-05-06 05:45:42	supersym	05:44:32  supersym | dependency hell is FAR less than ruby/gems here in node.js      
+2013-05-06 05:46:15	supersym	there are many different development techniques
+2013-05-06 05:46:35	supersym	and the node bandwagon is populated nicely so booming in terms of new apps etc
+2013-05-06 05:46:55	supersym	look it up, see how many commits, when last commit was made, how many stars it has, how many forks
+2013-05-06 05:47:05	supersym	determine for yourself!
+2013-05-06 05:47:22	supersym	stuff is prone not to work but knowing the load mechanism helps (a bit)
+2013-05-06 05:47:24	philipp__	sounds like a powerful 'setup'
+2013-05-06 05:47:37	supersym	normally you can just say do this: $ npm start
+2013-05-06 05:47:42	supersym	or $ npm test
+2013-05-06 05:47:57	supersym	and if package.json has that defined? than it runs the commands for you
+2013-05-06 05:48:19	supersym	because node can perform that on any file and the folder structure is entirely arbitrary
+2013-05-06 05:48:30	supersym	so there are differences
+2013-05-06 05:48:37	supersym	docpad uses a convention of:
+2013-05-06 05:48:44	supersym	src          = coffeescript source code
+2013-05-06 05:48:51	supersym	lib              = compiled javascript output
+2013-05-06 05:49:05	supersym	out                 = compiled output (can also be javascript)
+2013-05-06 05:49:23	supersym	some use app, or site
+2013-05-06 05:49:45	supersym	you should perhaps keep my last project for a reference a bit on options possible, but its mostly in dutch
+2013-05-06 05:50:24	philipp__	i'm german, so i might understand a bit :)
+2013-05-06 05:50:30	supersym	cool!
+2013-05-06 05:51:33	philipp__	so one of the practical problem I have:
+2013-05-06 05:51:40	supersym	shoot
+2013-05-06 05:51:52	supersym	imma fix a bug really quick so i can push a working example
+2013-05-06 05:53:28	philipp__	according to the tutorials the templates are html.eco files. and a lot of the interesting things are like <%= ... so that's embedded coffeescript?
+2013-05-06 05:54:21	supersym	yes
+2013-05-06 05:54:30	supersym	a somewhat limited one I think
+2013-05-06 05:54:33	supersym	but coffee yes
+2013-05-06 05:54:35	supersym	https://github.com/solobit/tredius/tree/master
+2013-05-06 05:55:03	supersym	so from the command line go make a new directory, move into it by $ cd $(mktemp -d)
+2013-05-06 05:55:12	philipp__	is there a reference what I can put in there, or does that all come out of docpad.coffee ?
+2013-05-06 05:55:19	supersym	you see something like /tmp/tmp.ks93tgh
+2013-05-06 05:55:35	supersym	github is your friend
+2013-05-06 05:55:47	supersym	use chrome or firefox? look for github extensions
+2013-05-06 05:56:06	supersym	build button is nice, you get a GREEN light with projects that are succeeding automated build tests
+2013-05-06 05:56:15	supersym	and notices 'failing' projects
+2013-05-06 05:56:22	supersym	now in the terminal do this
+2013-05-06 05:56:44	supersym	$ git clone https://github.com/solobit/tredius
+2013-05-06 05:56:52	supersym	and then $ cd tredius
+2013-05-06 05:57:05	supersym	now you do NOT have any packages installed, do this by $ npm install
+2013-05-06 05:57:12	supersym	saves space :)
+2013-05-06 05:57:29	supersym	use it to learn some tricks, I used baluptons web site
+2013-05-06 05:57:38	supersym	https://github.com/sstephenson/eco
+2013-05-06 05:57:45	supersym	thats the 'eco' project
+2013-05-06 05:58:21	supersym	chrome has extension to do from the address bar, a "gh [space]" and it will search the next strings in github
+2013-05-06 05:58:23	supersym	directly
+2013-05-06 05:58:33	philipp__	(receiving objects)
+2013-05-06 05:58:45	supersym	else just go to github.com and use their search or just plain google "projectname github"
+2013-05-06 05:59:15	philipp__	by the way, which terminal is balutpon using in the video? looks like it's in chrome too?
+2013-05-06 05:59:19	supersym	part of your node.js initiation from rookie -> pro is evaluating the projects for their merits, i cant stress it enough
+2013-05-06 05:59:26	supersym	some documentation sucks really bad
+2013-05-06 05:59:40	supersym	some make sure to check the directories for any called examples/ or test/
+2013-05-06 05:59:55	supersym	and check the source code to learn techniques and implementation details
+2013-05-06 06:00:05	supersym	for this, nesh is great
+2013-05-06 06:00:11	supersym	$ nesh -c
+2013-05-06 06:00:22	supersym	$ console.log process.env
+2013-05-06 06:00:36	supersym	it shows directly a JSON object already in memory
+2013-05-06 06:00:40	supersym	but now with colors
+2013-05-06 06:01:37	philipp__	{ TERM_PROGRAM: 'Apple_Terminal',
+2013-05-06 06:01:38	philipp__	  TERM: 'xterm-256color',
+2013-05-06 06:01:41	philipp__	?
+2013-05-06 06:02:27	philipp__	i'm in a folder called treduis now btw :)
+2013-05-06 06:02:55	supersym	in tredius folder, try doing $right
+2013-05-06 06:03:00	supersym	right
+2013-05-06 06:03:17	supersym	now type $ docpad = require 'docpad'
+2013-05-06 06:03:33	supersym	voila....secret knowledge about every package architecture
+2013-05-06 06:04:03	supersym	it is bare bones though
+2013-05-06 06:04:34	supersym	dp = docpad.createInstance()
+2013-05-06 06:04:43	supersym	that makes the actual docpad instance
+2013-05-06 06:05:24	supersym	this stuff is all done in the 'docpad' command line utility
+2013-05-06 06:05:34	supersym	but it is good to know because docpad doesnt have a REPL
+2013-05-06 06:05:42	philipp__	repl?
+2013-05-06 06:05:44	supersym	and documents can be outdated, this ISNT
+2013-05-06 06:05:49	supersym	ReadEvalPrint-loop
+2013-05-06 06:06:02	supersym	like it says, one by one
+2013-05-06 06:06:19	supersym	if you must parse a multiline command inside the nesh or coffee REPL
+2013-05-06 06:06:22	supersym	use Ctrl+V
+2013-05-06 06:06:24	supersym	so:
+2013-05-06 06:06:35	supersym	myFunction = (a, b) ->
+2013-05-06 06:06:43	supersym	(Ctrl+V)
+2013-05-06 06:06:58	supersym	[space][space]console.log a + b
+2013-05-06 06:07:19	supersym	do the Ctrl+V right after the arrow btw
+2013-05-06 06:07:26	supersym	myFunction = (a, b) -> (Ctrl+V here_
+2013-05-06 06:07:35	supersym	  console.log a + b
+2013-05-06 06:07:53	supersym	and then Ctrl+V again, then it evaluates that expression
+2013-05-06 06:08:07	supersym	then you can do myFunction 2, 3
+2013-05-06 06:08:16	philipp__	and it says [Function] ?
+2013-05-06 06:08:18	supersym	or, if you dont want multiline
+2013-05-06 06:08:25	supersym	$ myFunction 2, 3
+2013-05-06 06:08:45	supersym	$ myOtherFunction = (a, b) -> console.log a * b
+2013-05-06 06:09:58	supersym	https://gist.github.com/supersym/5430339
+2013-05-06 06:10:12	supersym	that is a compilation i quickly drew up a few days back
+2013-05-06 06:10:21	supersym	a few nice examples of how to do stuff
+2013-05-06 06:10:50	philipp__	oh nice
+2013-05-06 06:10:54	supersym	earlier I asked about the text editor you use?
+2013-05-06 06:11:14	philipp__	sublime text 2
+2013-05-06 06:11:17	supersym	great
+2013-05-06 06:11:42	supersym	Preferences -> Defaults User
+2013-05-06 06:11:43	supersym	add
+2013-05-06 06:11:45	supersym	"translate_tabs_to_spaces": true
+2013-05-06 06:12:05	supersym	"tab_size": 4
+2013-05-06 06:12:17	philipp__	settings default or settings user?
+2013-05-06 06:12:26	supersym	any but i'd say user
+2013-05-06 06:12:33	supersym	dont forget the trailing commas
+2013-05-06 06:12:39	supersym	JSON again
+2013-05-06 06:13:25	supersym	check sublime package list for any marked "coffeescript, node.js"
+2013-05-06 06:13:49	supersym	https://github.com/jashkenas/coffee-script-tmbundle
+2013-05-06 06:14:00	supersym	do Ctrl+Shift+P
+2013-05-06 06:14:14	supersym	Add Repository
+2013-05-06 06:14:21	supersym	parse in that URL
+2013-05-06 06:14:39	supersym	its the coffeescript makers package with support for literate coffeescript
+2013-05-06 06:14:43	supersym	.litcoffee files
+2013-05-06 06:15:02	supersym	now I must really take off to be
+2013-05-06 06:15:04	supersym	*d
+2013-05-06 06:15:16	supersym	practice a bit and come back tomorrow with any questions ;)
+2013-05-06 06:15:22	supersym	installed some sublime packages
+2013-05-06 06:15:40	philipp__	yeah, thanks a lot supersym, really great that you took so much time for me :)
+2013-05-06 06:15:41	supersym	try out stuff
+2013-05-06 06:15:45	supersym	most importantly
+2013-05-06 06:15:59	supersym	ensure you see in sublime the difference between tabs _____ and spaces ....
+2013-05-06 06:16:12	supersym	coffee can have or 2 or 4 space indent or tab i think
+2013-05-06 06:16:18	supersym	but nothing can mix!
+2013-05-06 06:16:25	supersym	thats significant whitespace
+2013-05-06 06:16:35	supersym	for omitting javascript { ... }
+2013-05-06 06:16:40	supersym	price to pay
+2013-05-06 06:16:47	supersym	can save you a lot fo time debugging
+2013-05-06 06:17:07	supersym	also right-click coffeecompile in sublime is cool with much better coffeescript error reporting
+2013-05-06 06:17:35	supersym	balupton: sorry for poluting the channel, I should write this up sometime or you can cheat from it ;)
+2013-05-06 06:18:03	philipp__	I'll print it out :D
+2013-05-06 06:18:30	supersym	http://stackoverflow.com/questions/8393915/file-module-node-js
+2013-05-06 06:18:34	supersym	Know that concept!
+2013-05-06 06:18:42	supersym	require = loading in new packages
+2013-05-06 06:18:51	supersym	each file is a module
+2013-05-06 06:19:17	supersym	you can write a.js file and do in b.js : var something = require('a.js');
+2013-05-06 06:19:46	supersym	or a entire package through conventions (often index.js file in package root under node_modules)
+2013-05-06 06:19:54	supersym	so node_modules/pkg1/index.js
+2013-05-06 06:20:09	supersym	and all you need to do from any subdirectory of your package.json project
+2013-05-06 06:20:22	supersym	require 'pkg1'
+2013-05-06 06:20:56	supersym	and they chain the rest of their files often from lib/ and so on
+2013-05-06 06:21:23	supersym	last words :)
+2013-05-06 06:21:27	supersym	bye now :)
+2013-05-06 06:22:09	philipp__	thanks, bye, gn8
+2013-05-06 07:36:31	<--	philipp__ (~phl@node-10l5.pool-118-173.dynamic.totbb.net) has quit (Remote host closed the connection)
+2013-05-06 07:37:06	-->	philipp_ (~psteinweb@node-10l5.pool-118-173.dynamic.totbb.net) has joined #docpad
+2013-05-06 07:41:38	<--	philipp_ (~psteinweb@node-10l5.pool-118-173.dynamic.totbb.net) has quit (Ping timeout: 256 seconds)
+2013-05-06 08:48:28	-->	philipp_ (~psteinweb@node-10l5.pool-118-173.dynamic.totbb.net) has joined #docpad
+2013-05-06 09:06:46	-->	kaspertidemann (~Kasper@213.150.61.84) has joined #docpad
+2013-05-06 09:07:41	<--	ashnur (~ashnur@79.117.87.51) has quit (Quit: WeeChat 0.4.0)
+2013-05-06 09:50:05	-->	ashnur (~ashnur@79.117.87.51) has joined #docpad
+2013-05-06 11:26:58	<--	kaspertidemann (~Kasper@213.150.61.84) has quit (Quit: kaspertidemann)
+2013-05-06 11:55:25	-->	kaspertidemann (~Kasper@213.150.61.84) has joined #docpad
+2013-05-06 12:45:04	<--	kaspertidemann (~Kasper@213.150.61.84) has quit (Read error: No route to host)
+2013-05-06 12:45:16	-->	kaspertidemann (~Kasper@213.150.61.84) has joined #docpad
+2013-05-06 12:46:05	<--	kaspertidemann (~Kasper@213.150.61.84) has quit (Remote host closed the connection)
+2013-05-06 12:46:22	-->	kaspertidemann (~Kasper@213.150.61.84) has joined #docpad
+2013-05-06 12:52:50	--	philipp_ is now known as psteinweber
+2013-05-06 13:20:01	<--	kaspertidemann (~Kasper@213.150.61.84) has quit (Ping timeout: 246 seconds)
+2013-05-06 13:43:24	--	Notice(GitHub124): [docpad-documentation] sapegin opened pull request #27: Add blog.sapegin.me. (master...patch-1)  http://git.io/Xdewcg
+2013-05-06 13:51:09	--	Notice(GitHub138): [docpad] balupton merged master into dev: http://git.io/hwMwzQ
+2013-05-06 13:51:11	--	Notice(GitHub152): [docpad] balupton merged dev into master: http://git.io/hwMwzQ
+2013-05-06 13:51:19	--	Notice(GitHub61): [docpad] balupton tagged v6.33.0 at dev: http://git.io/6Cpung
+2013-05-06 13:51:24	--	Notice(GitHub180): [docpad-documentation] balupton pushed 2 new commits to master: http://git.io/QSLFAA
+2013-05-06 13:51:24	--	Notice(GitHub180): docpad-documentation/master ffa782b Artem Sapegin: Add blog.sapegin.me.
+2013-05-06 13:51:24	--	Notice(GitHub180): docpad-documentation/master fca6585 Benjamin Arthur Lupton: Merge pull request #27 from sapegin/patch-1...
+2013-05-06 13:52:23	--	Notice(GitHub129): [docpad-documentation] balupton pushed 1 new commit to master: http://git.io/DB9epQ
+2013-05-06 13:52:23	--	Notice(GitHub129): docpad-documentation/master 5577a92 Benjamin Arthur Lupton: Alphabetical
+2013-05-06 14:04:59	<--	psteinweber (~psteinweb@node-10l5.pool-118-173.dynamic.totbb.net) has quit (Remote host closed the connection)
+2013-05-06 14:05:36	-->	psteinweber (~psteinweb@node-10l5.pool-118-173.dynamic.totbb.net) has joined #docpad
+2013-05-06 14:09:47	<--	psteinweber (~psteinweb@node-10l5.pool-118-173.dynamic.totbb.net) has quit (Ping timeout: 255 seconds)
+2013-05-06 14:13:15	-->	psteinweber (~psteinweb@node-10l5.pool-118-173.dynamic.totbb.net) has joined #docpad
+2013-05-06 15:32:31	<--	arcanin (~Mael@ppp-seco11pa2-46-193-129.230.wb.wifirst.net) has quit (Read error: Connection reset by peer)
+2013-05-06 15:34:17	-->	arcanin (~Mael@ppp-seco11pa2-46-193-129.230.wb.wifirst.net) has joined #docpad
+2013-05-06 15:36:56	-->	arcane (~Mael@ppp-seco11pa2-46-193-129.230.wb.wifirst.net) has joined #docpad
+2013-05-06 15:39:31	-->	arcanis (~Mael@ppp-seco11pa2-46-193-129.230.wb.wifirst.net) has joined #docpad
+2013-05-06 15:40:46	<--	arcanin (~Mael@ppp-seco11pa2-46-193-129.230.wb.wifirst.net) has quit (Ping timeout: 258 seconds)
+2013-05-06 15:41:33	<--	arcane (~Mael@ppp-seco11pa2-46-193-129.230.wb.wifirst.net) has quit (Ping timeout: 252 seconds)
+2013-05-06 15:46:04	psteinweber	any ideas how to render an umlaut (Ü) properly out of the meta title of an html.md ? Ü gets messed up and &Uuml; stays &Uuml;
+2013-05-06 15:46:28	psteinweber	(&Uuml; works when not in meta area)
+2013-05-06 15:58:35	supersym	ouch
+2013-05-06 15:58:47	supersym	you are using cson or yaml?
+2013-05-06 15:58:57	supersym	Just paste it inside double quotes I think
+2013-05-06 15:59:05	supersym	should all be utf-8 accepted
+2013-05-06 15:59:15	--	irc: disconnected from server
+2013-05-06 16:06:38	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #docpad
+2013-05-06 16:06:38	--	Topic for #docpad is "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-05-06 16:06:38	--	Topic set by balupton (uid6783@gateway/web/irccloud.com/x-cbtpwjksctndjgtn) on Fri, 28 Dec 2012 12:22:24
+2013-05-06 16:06:38	--	Nicks #docpad: [arcanis ashnur balupton elf-pavlik Eric_ nexusIX psteinweber scothis spanners steventrevathan supersym]
+2013-05-06 16:06:38	--	Channel #docpad: 11 nicks (0 ops, 0 halfops, 0 voices, 11 normals)
+2013-05-06 16:06:42	--	Mode #docpad [+t]
+2013-05-06 16:06:42	--	Channel created on Sat, 26 May 2012 12:12:13
+2013-05-06 16:07:00	psteinweber	tried both, in double quotes, single and without. same results throughout.
+2013-05-06 16:09:31	supersym	sec lemme test
+2013-05-06 16:16:01	supersym	works fine here
+2013-05-06 16:16:21	supersym	just paste in a Ü
+2013-05-06 16:16:24	psteinweber	do you have any doctypes defined or just an empty project?
+2013-05-06 16:16:59	supersym	I tried it on meta-data title for layout
+2013-05-06 16:17:00	psteinweber	ah and it works here before I do the first reload or page change too, then it switches to ugly!
+2013-05-06 16:17:38	supersym	ok lemme see
+2013-05-06 16:17:55	psteinweber	ah in fact only when I change the page it switches. reload is fine (after docpad restart)
+2013-05-06 16:18:52	supersym	works fine here with live reload etc
+2013-05-06 16:19:20	psteinweber	ok, maybe i should sleep :)
+2013-05-06 16:20:45	supersym	https://www.dropbox.com/s/zhdqb5ffismst23/uber.png
+2013-05-06 16:20:51	supersym	if that is what you mean
+2013-05-06 16:24:50	psteinweber	yeah: https://www.dropbox.com/s/d43wvjdxz8n6lgy/Screen%20Shot%202013-05-06%20at%2021.22.42.png
+2013-05-06 16:27:10	psteinweber	not photoshopped :)
+2013-05-06 16:27:40	<--	steventrevathan (~steventre@64.119.141.126) has quit (Quit: steventrevathan)
+2013-05-06 16:32:22	<--	psteinweber (~psteinweb@node-10l5.pool-118-173.dynamic.totbb.net) has quit (Quit: gotta go, gn8)
+2013-05-06 16:47:01	supersym	what browser is that?
+2013-05-06 16:48:00	supersym	also ensure
+2013-05-06 16:48:28	supersym	you have meta charset: 'utf-8' early in your html document
+2013-05-06 16:49:03	supersym	right click on that page and look at the source
+2013-05-06 16:49:13	supersym	make sure it is rendered as expected with a html5 document
+2013-05-06 16:49:37	supersym	https://github.com/h5bp/html5-boilerplate/blob/master/index.html
+2013-05-06 16:53:41	supersym	https://www.dropbox.com/s/7u645ye8bde6cz3/utf8.png
+2013-05-06 16:53:55	supersym	check your server response headers too
+2013-05-06 17:14:52	-->	steventrevathan (~steventre@64.119.141.126) has joined #docpad
+2013-05-06 17:37:09	-->	steventrevathan_ (~steventre@64.119.141.126) has joined #docpad
+2013-05-06 17:58:27	<--	ashnur (~ashnur@79.117.87.51) has quit (Quit: WeeChat 0.4.0)

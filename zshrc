@@ -40,6 +40,11 @@ source $ZSH/oh-my-zsh.sh
 # Here you CAN override the settings to persist these across updates
 unsetopt correct_all    # disable typo auto-correction
 
+# AUTO_TITLE: parameter not set error is prevent with autonaming windows
+# http://superuser.com/questions/306028/tmux-and-zsh-custom-prompt-bug-with-window-name
+DISABLE_AUTO_TITLE=true
+
+
 # Zshell command found/not-found green/red highlights as in fish shell
 source ~/.share/scripts/zsh/plugins/syntax/zsh-syntax-highlighting.zsh
 
@@ -65,9 +70,6 @@ bindkey -s '\ep' '^Upopd >/dev/null; dirs -v^M'
 
 # Pipe the current command through less
 bindkey -s "\el" " 2>&1|less^M"
-
-
-
 
 
 
@@ -117,8 +119,8 @@ export BROWSER=dwb
 # Use less to view man files etc
 export PAGER=less
 
-############### ############### ###############
-## Search paths ##
+
+# Paths
 
 # Keep /usr/bin first (or might get confused)
 export PATH=/var/tmp/bin:/usr/bin:/usr/local/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin
@@ -131,7 +133,6 @@ export PATH="/usr/lib/colorgcc/bin:${PATH}"
 
 # Build tools .............................................................
 export PATH="/opt/maven2/bin:${PATH}"
-
 
 
 
@@ -187,7 +188,9 @@ export PATH="${PATH}:/usr/bin/core_perl"
 
 # Java (JRE/JDK) ..........................................................
 #
-export JAVA_HOME=${JAVA_HOME:-/usr/lib/jvm/java-7-openjdk/jre}
+#export JAVA_HOME=${JAVA_HOME:-/usr/lib/jvm/java-7-openjdk/jre}
+#export JAVA_HOME=${JAVA_HOME:/usr/lib/jvm/java-7-openjdk/jre/bin/java}
+#export PATH=$PATH:/usr/lib/jvm/java-7-openjdk/jre/bin
 
 # Enable this for non-reparenting window managers
 # #export _JAVA_AWT_WM_NONREPARENTING=1
@@ -204,6 +207,10 @@ export PATH="${PATH}:${HOME}/.rvm/bin:${GEM_PATH}/bin"
 ###############################################
 source ${HOME}/.aliases
 #source ${HOME}/.welcome
+
+# Bash bundle
+#. .share/scripts/bash/bundle.sh
+
 
 export PATH=$PATH:$HOME/.rvm/gems/ruby-2.0.0-p0@global/bin:$HOME/.rvm/rubies/ruby-2.0.0-p0/bin:$HOME/.rvm/bin:/opt/maven2/bin:/usr/lib/colorgcc/bin:$HOME/Dotfiles/bin
 

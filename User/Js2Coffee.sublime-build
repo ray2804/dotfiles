@@ -1,0 +1,4 @@
+{
+    "cmd": ["js2coffee", "$file"],
+    "selector": "source.js"
+}

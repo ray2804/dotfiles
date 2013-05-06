@@ -1,0 +1,18 @@
+{
+    "working_dir": "${project_path:${folder}}",
+    "target" : "parallel_builder",
+
+    "cmd": {
+
+            "Documentation":{
+                "cmd": ["docco", "-o", "extra/documentatie", "-l", "linear", "$file"]
+            },
+            "LitCoffee2Js":{
+                "cmd": ["coffee", "-c", "$file"],
+                "selector": "source.coffee, source.litcoffee, source.coffee.md"
+            },
+            "Js2Coffee":{
+                "cmd": ["js2coffee", "$file.js"]
+            }
+    }
+}
