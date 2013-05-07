@@ -5,6 +5,7 @@ au BufRead,BufNewFile *.md        set filetype=markdown
 set sts=4
 set sw=4
 set ts=4
+set expandtab
 
 :nnoremap <F5> "=strftime("%c")<CR>P
 :inoremap <F5> <C-R>=strftime("%c")<CR>"
@@ -23,7 +24,9 @@ Bundle 'Gist.vim'
 Bundle 'Directory-specific-settings'
 Bundle 'filetype.vim'
 
+" Coffee-Script
 Bundle 'vim-litcoffee'
+Bundle 'coffee-check.vim'
 
 " Markup
 "
@@ -87,10 +90,6 @@ set shiftround " drop unused spaces"
 set autoindent
 set smartindent
 set smarttab
-set tabstop=2
-set shiftwidth=2
-set softtabstop=2
-set expandtab
 set autoread
 set smartcase
 " Override the 'ignorecase' option if the search pattern contains upper case

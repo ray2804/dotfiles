@@ -174,7 +174,7 @@ zstyle ':completion:*' group-name ''
 
 # Node.js (NPM) ...........................................................
 #
-export NODE_DIR="/usr/local/lib"
+export NODE_DIR="/usr/local/bin"
 export NODE_PATH="/usr/local/lib/node_modules"
 #export PATH="${PATH}:node_modules/.bin"
 
