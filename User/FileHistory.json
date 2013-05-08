@@ -58,19 +58,69 @@
     "global": {
         "opened": [
             {
-                "index": 2, 
+                "index": 5, 
                 "group": 0, 
-                "filename": "/home/baal/.config/sublime-text-2/Packages/User/Snippets/fenced-coffee.sublime-snippet"
+                "filename": "/home/baal/projects/named/clogs/src/taxonomy/Symbols.litcoffee"
             }, 
             {
-                "index": 1, 
+                "index": 4, 
                 "group": 0, 
-                "filename": "/home/baal/projects/named/clogs/src/documents/Book.litcoffee"
+                "filename": "/home/baal/projects/named/clogs/src/taxonomy/Document.litcoffee"
+            }, 
+            {
+                "index": 3, 
+                "group": 0, 
+                "filename": "/home/baal/projects/named/clogs/src/taxonomy/Nomenclature.litcoffee"
             }, 
             {
                 "index": -1, 
                 "group": 0, 
-                "filename": "/home/baal/projects/named/clogs/CONCEPT.md"
+                "filename": "/home/baal/projects/named/clogs/src/Archivist.litcoffee"
+            }, 
+            {
+                "index": -1, 
+                "group": 0, 
+                "filename": "/home/baal/projects/named/clogs/src/Inspector.litcoffee"
+            }, 
+            {
+                "index": -1, 
+                "group": 0, 
+                "filename": "/home/baal/projects/named/clogs/src/References.litcoffee"
+            }, 
+            {
+                "index": 2, 
+                "group": 0, 
+                "filename": "/home/baal/projects/named/clogs/doc/PRIO.litcoffee"
+            }, 
+            {
+                "index": -1, 
+                "group": 0, 
+                "filename": "/home/baal/projects/named/clogs/resources/Plagiarism.litcoffee"
+            }, 
+            {
+                "index": -1, 
+                "group": 0, 
+                "filename": "/home/baal/projects/named/clogs/resources/codex/jar/plantUmlDoclet.jar"
+            }, 
+            {
+                "index": -1, 
+                "group": 0, 
+                "filename": "/home/baal/projects/named/clogs/resources/codex/project.clj"
+            }, 
+            {
+                "index": -1, 
+                "group": 0, 
+                "filename": "/home/baal/projects/named/clogs/resources/codex/pom.xml"
+            }, 
+            {
+                "index": 1, 
+                "group": 0, 
+                "filename": "/home/baal/projects/named/clogs/src/structural/outline/Prelogue.litcoffee"
+            }, 
+            {
+                "index": 2, 
+                "group": 0, 
+                "filename": "/home/baal/.config/sublime-text-2/Packages/User/Snippets/fenced-coffee.sublime-snippet"
             }, 
             {
                 "index": 0, 
@@ -256,59 +306,29 @@
                 "index": -1, 
                 "group": 0, 
                 "filename": "/home/baal/customers/tredius/01-stylus/lib/cultivate/gradients.styl"
-            }, 
-            {
-                "index": -1, 
-                "group": 0, 
-                "filename": "/home/baal/customers/tredius/01-stylus/lib/cultivate/test/index.html.jade"
-            }, 
-            {
-                "index": -1, 
-                "group": 0, 
-                "filename": "/home/baal/customers/tredius/site/sjablonen/tags.html.coffee"
-            }, 
-            {
-                "index": -1, 
-                "group": 0, 
-                "filename": "/home/baal/customers/tredius/site/sjablonen/satelliet.jade"
-            }, 
-            {
-                "index": -1, 
-                "group": 0, 
-                "filename": "/home/baal/customers/tredius/01-stylus/lib/roots/animation.styl"
-            }, 
-            {
-                "index": -1, 
-                "group": 0, 
-                "filename": "/home/baal/customers/tredius/01-stylus/lib/roots/grid.styl"
-            }, 
-            {
-                "index": -1, 
-                "group": 0, 
-                "filename": "/home/baal/customers/tredius/01-stylus/lib/roots/tables.styl"
-            }, 
-            {
-                "index": -1, 
-                "group": 0, 
-                "filename": "/home/baal/customers/tredius/01-stylus/lib/roots/ui.styl"
-            }, 
-            {
-                "index": -1, 
-                "group": 0, 
-                "filename": "/home/baal/customers/tredius/01-stylus/lib/roots/code.styl"
-            }, 
-            {
-                "index": -1, 
-                "group": 0, 
-                "filename": "/home/baal/customers/tredius/01-stylus/lib/roots/positions.styl"
-            }, 
-            {
-                "index": -1, 
-                "group": 0, 
-                "filename": "/home/baal/customers/tredius/01-stylus/lib/roots/interaction.styl"
             }
         ], 
         "closed": [
+            {
+                "index": 0, 
+                "group": 0, 
+                "filename": "/home/baal/projects/named/clogs/tools/subl2/fenced-coffee.sublime-snippet"
+            }, 
+            {
+                "index": 0, 
+                "group": 0, 
+                "filename": "/home/baal/projects/named/clogs/CONCEPT.md"
+            }, 
+            {
+                "index": 1, 
+                "group": 0, 
+                "filename": "/home/baal/projects/named/clogs/src/documents/Book.litcoffee"
+            }, 
+            {
+                "index": 2, 
+                "group": 0, 
+                "filename": "/home/baal/projects/named/clogs/src/documents/Bundle.litcoffee"
+            }, 
             {
                 "index": 0, 
                 "group": 0, 
@@ -538,21 +558,6 @@
                 "index": 1, 
                 "group": 0, 
                 "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/typography.styl"
-            }, 
-            {
-                "index": 3, 
-                "group": 0, 
-                "filename": "/home/baal/customers/tredius/00-sjabloon/standaard.html.coffee"
-            }, 
-            {
-                "index": 4, 
-                "group": 0, 
-                "filename": "/home/baal/customers/tredius/01-stylus/voorpagina.styl"
-            }, 
-            {
-                "index": 4, 
-                "group": 0, 
-                "filename": "/home/baal/customers/tredius/01-stylus/ttime.styl"
             }
         ]
     }, 
@@ -786,9 +791,81 @@
     "34121415ea87b003cb7740e82818b5bb": {
         "opened": [
             {
+                "index": 5, 
+                "group": 0, 
+                "filename": "/home/baal/projects/named/clogs/src/taxonomy/Symbols.litcoffee"
+            }, 
+            {
+                "index": 4, 
+                "group": 0, 
+                "filename": "/home/baal/projects/named/clogs/src/taxonomy/Document.litcoffee"
+            }, 
+            {
+                "index": 3, 
+                "group": 0, 
+                "filename": "/home/baal/projects/named/clogs/src/taxonomy/Nomenclature.litcoffee"
+            }, 
+            {
+                "index": -1, 
+                "group": 0, 
+                "filename": "/home/baal/projects/named/clogs/src/Archivist.litcoffee"
+            }, 
+            {
+                "index": -1, 
+                "group": 0, 
+                "filename": "/home/baal/projects/named/clogs/src/Inspector.litcoffee"
+            }, 
+            {
+                "index": -1, 
+                "group": 0, 
+                "filename": "/home/baal/projects/named/clogs/src/References.litcoffee"
+            }, 
+            {
+                "index": 2, 
+                "group": 0, 
+                "filename": "/home/baal/projects/named/clogs/doc/PRIO.litcoffee"
+            }, 
+            {
+                "index": -1, 
+                "group": 0, 
+                "filename": "/home/baal/projects/named/clogs/resources/Plagiarism.litcoffee"
+            }, 
+            {
+                "index": -1, 
+                "group": 0, 
+                "filename": "/home/baal/projects/named/clogs/resources/codex/jar/plantUmlDoclet.jar"
+            }, 
+            {
+                "index": -1, 
+                "group": 0, 
+                "filename": "/home/baal/projects/named/clogs/resources/codex/project.clj"
+            }, 
+            {
+                "index": -1, 
+                "group": 0, 
+                "filename": "/home/baal/projects/named/clogs/resources/codex/pom.xml"
+            }, 
+            {
+                "index": 1, 
+                "group": 0, 
+                "filename": "/home/baal/projects/named/clogs/src/structural/outline/Prelogue.litcoffee"
+            }, 
+            {
                 "index": 2, 
                 "group": 0, 
                 "filename": "/home/baal/.config/sublime-text-2/Packages/User/Snippets/fenced-coffee.sublime-snippet"
+            }
+        ], 
+        "closed": [
+            {
+                "index": 0, 
+                "group": 0, 
+                "filename": "/home/baal/projects/named/clogs/tools/subl2/fenced-coffee.sublime-snippet"
+            }, 
+            {
+                "index": 0, 
+                "group": 0, 
+                "filename": "/home/baal/projects/named/clogs/CONCEPT.md"
             }, 
             {
                 "index": 1, 
@@ -796,12 +873,11 @@
                 "filename": "/home/baal/projects/named/clogs/src/documents/Book.litcoffee"
             }, 
             {
-                "index": -1, 
+                "index": 2, 
                 "group": 0, 
-                "filename": "/home/baal/projects/named/clogs/CONCEPT.md"
+                "filename": "/home/baal/projects/named/clogs/src/documents/Bundle.litcoffee"
             }
-        ], 
-        "closed": []
+        ]
     }, 
     "d41d8cd98f00b204e9800998ecf8427e": {
         "opened": [], 

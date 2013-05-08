@@ -13653,3 +13653,17 @@
 2013-05-08 05:56:13	mikeumus	I can't seem to get it to. 
 2013-05-08 06:01:14	mikeumus	wait I kind of got it, I'm getting class="icon-volume-down,file" now which is good
 2013-05-08 06:05:19	<--	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has quit (Remote host closed the connection)
+2013-05-08 06:23:27	<--	psteinweber (~psteinweb@node-yzx.pool-118-173.dynamic.totbb.net) has quit (Remote host closed the connection)
+2013-05-08 07:08:22	mikeumus	never mind I don't have it: https://github.com/bevry/docpad/issues/140#issuecomment-17586716
+2013-05-08 07:08:28	mikeumus	lol     8/
+2013-05-08 07:15:49	<--	colinwren (~colinwren@c-50-131-180-121.hsd1.ca.comcast.net) has left #docpad
+2013-05-08 07:17:14	mikeumus	Having a for in a for loop is acting funny I think is the problem? 
+2013-05-08 07:33:56	-->	psteinweber (~psteinweb@node-yzx.pool-118-173.dynamic.totbb.net) has joined #docpad
+2013-05-08 07:38:35	<--	psteinweber (~psteinweb@node-yzx.pool-118-173.dynamic.totbb.net) has quit (Ping timeout: 260 seconds)
+2013-05-08 07:59:51	mikeumus	Is there a way to just list all the html files in a folder?
+2013-05-08 08:51:16	-->	kaspertidemann (~Kasper@213.150.61.84) has joined #docpad
+2013-05-08 10:58:33	<--	kaspertidemann (~Kasper@213.150.61.84) has quit (Quit: Standby...)
+2013-05-08 11:20:34	<--	ashnur (~ashnur@79.117.87.70) has quit (Quit: WeeChat 0.4.0)
+2013-05-08 11:45:00	-->	thanpolas (~thanpolas@athedsl-221658.home.otenet.gr) has joined #docpad
+2013-05-08 11:47:57	<--	mikeumus (4a5a25fa@gateway/web/freenode/ip.74.90.37.250) has quit (Ping timeout: 245 seconds)
+2013-05-08 12:46:13	-->	kaspertidemann (~Kasper@213.150.61.84) has joined #docpad

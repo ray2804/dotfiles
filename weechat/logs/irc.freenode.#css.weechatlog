@@ -26222,3 +26222,1042 @@
 2013-05-08 06:11:03	Senji	Can I get the color value of a pixel at a random XY position on screen via js?
 2013-05-08 06:11:37	AMcBain	Senji, uhhh, now is that a question for #css ?
 2013-05-08 06:11:41	AMcBain	how*
+2013-05-08 06:11:58	Senji	i think there was something about that in CSSOM
+2013-05-08 06:12:16	AMcBain	Not even close.
+2013-05-08 06:12:17	Senji	but I figured you people might know something about this
+2013-05-08 06:12:32	AMcBain	annnd that's the wrong line of thinking.
+2013-05-08 06:12:58	-->	pythonirc101^^^^ (~pythonirc@lovasz.cs.fsu.edu) has joined #css
+2013-05-08 06:13:07	<--	TheEternalAbyss (~TheEterna@unaffiliated/theeternalabyss) has quit (Ping timeout: 264 seconds)
+2013-05-08 06:13:20	<--	MArcJ_ (~Adium@HSI-KBW-085-216-105-119.hsi.kabelbw.de) has quit (Quit: Leaving.)
+2013-05-08 06:16:53	-->	rakl (~rakl@208-90-212-125.PUBLIC.monkeybrains.net) has joined #css
+2013-05-08 06:17:11	-->	TheEternalAbyss (~TheEterna@unaffiliated/theeternalabyss) has joined #css
+2013-05-08 06:17:27	-->	KidBeta (~KidBeta@hpavc/kidbeta) has joined #css
+2013-05-08 06:17:27	<--	rakl (~rakl@208-90-212-125.PUBLIC.monkeybrains.net) has quit (Client Quit)
+2013-05-08 06:17:30	-->	gavilan2 (~Gavilan2@184.75.213.74) has joined #css
+2013-05-08 06:18:19	<--	r1card (~r1card@5.53.246.68) has quit
+2013-05-08 06:20:29	<--	ctienrsg (~chatzilla@bonn-d932d95b.pool.mediaWays.net) has quit (Read error: Connection reset by peer)
+2013-05-08 06:21:01	-->	ctienrsg (~chatzilla@bonn-d932d95b.pool.mediaWays.net) has joined #css
+2013-05-08 06:23:16	-->	Kricir (~kricir@c-24-245-9-49.hsd1.mn.comcast.net) has joined #css
+2013-05-08 06:27:01	raj	Someone in here suggested that I use `td#foo {width:1%;}` to have a table's cell (and accordingly its column) snug fit its contents (which are images). However, this causes issues in the absolutely positioned dialog box that contains the table. Is there an alternative to snugfitting with width:1%?
+2013-05-08 06:29:09	<--	banghous_ (~banghouse@cpe-67-243-169-145.nyc.res.rr.com) has quit (Remote host closed the connection)
+2013-05-08 06:29:18	-->	vptsar``` (~user@mail.bmr.gov.ua) has joined #css
+2013-05-08 06:31:23	<--	fatguylaughing (~fatguylau@ip68-228-160-124.ok.ok.cox.net) has quit (Quit: fatguylaughing)
+2013-05-08 06:32:33	<--	vptsar`` (~user@mail.bmr.gov.ua) has quit (Ping timeout: 245 seconds)
+2013-05-08 06:32:55	-->	zzizz (6cd7acab@gateway/web/freenode/ip.108.215.172.171) has joined #css
+2013-05-08 06:33:04	<--	petey (~petey@108-240-30-84.lightspeed.cicril.sbcglobal.net) has quit (Remote host closed the connection)
+2013-05-08 06:33:17	-->	KineticColor (~justinyou@c-67-169-3-71.hsd1.ca.comcast.net) has joined #css
+2013-05-08 06:33:26	KineticColor	Feedback anyone? http://www.littlenimbus.com/whmcs/
+2013-05-08 06:33:50	zzizz	no font channels here on freenode ey
+2013-05-08 06:33:54	raj	KineticColor, needs some tidying up
+2013-05-08 06:33:58	raj	like yoru 4.49/month
+2013-05-08 06:34:10	<--	Cyberpew (~Cyberpew@66.248.200.232) has quit (Ping timeout: 272 seconds)
+2013-05-08 06:34:19	-->	Andre_designer (~Thunderbi@82-170-146-165.ip.telfort.nl) has joined #css
+2013-05-08 06:34:23	<--	xmath279 (~xmath279@24.225.153.55) has quit (Quit: Computer has gone to sleep.)
+2013-05-08 06:34:28	KineticColor	Yeah the code is probably pretty ugly
+2013-05-08 06:34:30	AMcBain	KineticColor, markup seems to have some issues.
+2013-05-08 06:34:42	raj	I also think thunderbol, drive, clock, cc icons + text at the bottom shouldn't be so spaced out
+2013-05-08 06:35:17	AMcBain	Also, there is no h7.
+2013-05-08 06:35:21	<--	skunkhaze (~gdfg@213.163.108.139) has quit (Read error: Connection reset by peer)
+2013-05-08 06:35:22	AMcBain	h-tags stop at 6.
+2013-05-08 06:35:50	KineticColor	Yeah derp AMc
+2013-05-08 06:35:58	<--	jsleepy89 (~textual@129.21.107.194) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2013-05-08 06:36:00	KineticColor	I was just like MAKE IT SMALL
+2013-05-08 06:36:15	AMcBain	Perhaps, but that's not the right way to do that, semantically.
+2013-05-08 06:36:18	KineticColor	@raj haha I just changed that! Changed it back, how is it now?
+2013-05-08 06:36:26	AMcBain	Plus h7 means a browser can do whatever it wants since it isn't a real tag.
+2013-05-08 06:36:33	raj	better
+2013-05-08 06:36:36	raj	imo
+2013-05-08 06:36:48	raj	center your prices too, just like the icons
+2013-05-08 06:37:02	-->	weidou (~Thunderbi@stgt-4d03bb2c.pool.mediaWays.net) has joined #css
+2013-05-08 06:37:09	raj	they're shifted left
+2013-05-08 06:37:18	-->	Cyberpew|Away (~Cyberpew@66.248.200.232) has joined #css
+2013-05-08 06:37:43	--	Cyberpew|Away is now known as Cyberpew
+2013-05-08 06:39:01	-->	petey (~petey@108-240-30-84.lightspeed.cicril.sbcglobal.net) has joined #css
+2013-05-08 06:39:14	KineticColor	I think the cloud icon is just left heavy
+2013-05-08 06:39:22	--	ImBcmDth is now known as ImBcmSlp
+2013-05-08 06:39:31	<--	plambwk (~whoopie@173-11-7-213-oregon.hfc.comcastbusiness.net) has quit (Ping timeout: 264 seconds)
+2013-05-08 06:40:11	-->	_cheney- (~cheney@c-71-63-243-147.hsd1.mn.comcast.net) has joined #css
+2013-05-08 06:40:58	-->	paulkon (~paulkon@cpe-72-177-32-169.austin.res.rr.com) has joined #css
+2013-05-08 06:41:06	<--	paulkon (~paulkon@cpe-72-177-32-169.austin.res.rr.com) has left #css
+2013-05-08 06:42:10	BaDaSs	what's the best way to have a bunch of unordered list elements (<ul><li>First</li><li>Second</li><li>Third</li><li>Special</li></ul>) in an inline-block and have the special take the remaining width of the UL
+2013-05-08 06:43:12	-->	plambwk (~whoopie@173-11-7-213-oregon.hfc.comcastbusiness.net) has joined #css
+2013-05-08 06:43:24	<--	weidou (~Thunderbi@stgt-4d03bb2c.pool.mediaWays.net) has quit (Quit: weidou)
+2013-05-08 06:43:36	AMcBain	BaDaSs, just a guess here, but not entirely off the wall. Float n - 1 left. Set overflow hidden on the last one.
+2013-05-08 06:44:04	<--	_cheney-2 (~cheney@nat.sierrabravo.net) has quit (Ping timeout: 276 seconds)
+2013-05-08 06:44:35	<--	Wirewraith (~quassel@198-84-250-22.cpe.teksavvy.com) has quit (Remote host closed the connection)
+2013-05-08 06:46:40	BaDaSs	hmm?
+2013-05-08 06:47:20	raj	float the second to last element left
+2013-05-08 06:47:23	<--	ma- (~nnscript@c-98-235-158-159.hsd1.pa.comcast.net) has quit (Changing host)
+2013-05-08 06:47:23	-->	ma- (~nnscript@unaffiliated/ma-) has joined #css
+2013-05-08 06:47:33	raj	and overflow:hidden on last element
+2013-05-08 06:47:33	BaDaSs	http://jsfiddle.net/tpZh8/1/
+2013-05-08 06:47:37	dopie	wtf are turbo links
+2013-05-08 06:47:47	--	trepmal|away is now known as trepmal
+2013-05-08 06:48:05	<--	jdelgado (~jdelgado@50.23.115.105-static.reverse.softlayer.com) has quit (Ping timeout: 248 seconds)
+2013-05-08 06:49:12	BaDaSs	http://jsfiddle.net/tpZh8/2/
+2013-05-08 06:49:18	-->	astropirate (~astropira@184.75.214.138) has joined #css
+2013-05-08 06:49:18	<--	astropirate (~astropira@184.75.214.138) has quit (Changing host)
+2013-05-08 06:49:18	-->	astropirate (~astropira@unaffiliated/astropirate) has joined #css
+2013-05-08 06:49:21	BaDaSs	that's what happens with the 2nd to last one gets floated left btw
+2013-05-08 06:49:22	<--	Guest39553 (~info@95.141.28.51) has left #css
+2013-05-08 06:49:50	BaDaSs	http://jsfiddle.net/tpZh8/4/
+2013-05-08 06:49:59	BaDaSs	probably the worst advise I've gotten on here honestly
+2013-05-08 06:50:02	AMcBain	BaDaSs, not second to last. 1st to second to last. http://jsfiddle.net/tpZh8/3/
+2013-05-08 06:50:09	BaDaSs	oh i see
+2013-05-08 06:50:11	AMcBain	I suggested floating 1 to n - 1.
+2013-05-08 06:50:12	BaDaSs	1st through 4th
+2013-05-08 06:50:15	BaDaSs	ok
+2013-05-08 06:50:15	<--	dan2k3k4 (~dan2k3k4@unaffiliated/dan2k3k4) has quit (Remote host closed the connection)
+2013-05-08 06:50:25	<--	ctienrsg (~chatzilla@bonn-d932d95b.pool.mediaWays.net) has quit (Read error: Connection reset by peer)
+2013-05-08 06:50:40	AMcBain	You can add padding to the floated items and other niceties.
+2013-05-08 06:50:57	-->	ctienrsg (~chatzilla@bonn-d932d95b.pool.mediaWays.net) has joined #css
+2013-05-08 06:51:20	<--	hcavalle (~harrison@67.201.10.58) has quit (Ping timeout: 268 seconds)
+2013-05-08 06:52:29	<--	KidBeta (~KidBeta@hpavc/kidbeta) has quit (Read error: Operation timed out)
+2013-05-08 06:53:11	<--	petey (~petey@108-240-30-84.lightspeed.cicril.sbcglobal.net) has quit (Remote host closed the connection)
+2013-05-08 06:53:18	-->	MiracleBlue (~MiracleBl@unaffiliated/miracleblue) has joined #css
+2013-05-08 06:53:34	BaDaSs	http://jsfiddle.net/tpZh8/5/
+2013-05-08 06:53:40	-->	KidBeta (~KidBeta@hpavc/kidbeta) has joined #css
+2013-05-08 06:53:58	-->	[[zzz]] (~q@node-j33.pool-101-108.dynamic.totbb.net) has joined #css
+2013-05-08 06:54:41	BaDaSs	not sure what I did wrong?
+2013-05-08 06:56:16	AMcBain	BaDaSs, what was wrong with the old selector? and why'd you reintroduce inline-block?
+2013-05-08 06:56:20	alphanum	`seperator
+2013-05-08 06:56:50	BaDaSs	what do you mean old seperator?
+2013-05-08 06:57:09	<--	[[zz]] (~q@node-10qf.pool-180-180.dynamic.totbb.net) has quit (Ping timeout: 248 seconds)
+2013-05-08 06:57:12	AMcBain	selector, not separator.
+2013-05-08 06:57:26	alphanum	sry, trying to talk to bot
+2013-05-08 06:57:35	BaDaSs	oh
+2013-05-08 06:57:44	BaDaSs	what old selector lol
+2013-05-08 06:58:39	AMcBain	BaDaSs, I mean why did you introduce the nth-child? li, with overrides in li:last-child worked just fine. And it will work in older browsers than support nth-child, just by default. http://jsfiddle.net/tpZh8/9/
+2013-05-08 06:59:06	-->	AndreasEri (~andreas@46-236-80-128.customer.t3.se) has joined #css
+2013-05-08 06:59:28	BaDaSs	oh width: auto;
+2013-05-08 06:59:29	BaDaSs	gotcha
+2013-05-08 07:00:33	AMcBain	I did a bit more than that, I hope you see :P
+2013-05-08 07:00:38	BaDaSs	yes
+2013-05-08 07:00:43	BaDaSs	i did
+2013-05-08 07:00:50	BaDaSs	why is inline-block not valid for that though
+2013-05-08 07:00:58	BaDaSs	also, is it best to avoid flex boxes?
+2013-05-08 07:01:06	AMcBain	It's not that it's not valid, it's mroe that once you float it really doesn't mean anything.
+2013-05-08 07:01:29	<--	plambwk (~whoopie@173-11-7-213-oregon.hfc.comcastbusiness.net) has quit (Ping timeout: 246 seconds)
+2013-05-08 07:01:46	AMcBain	Pretty much all of what you'd want inline-block for doesn't matter when you float something.
+2013-05-08 07:02:37	BaDaSs	can i not get the same results without the float?
+2013-05-08 07:03:31	<--	deed02392 (~deed02392@ks353738.kimsufi.com) has quit (Ping timeout: 258 seconds)
+2013-05-08 07:03:40	<--	La0fer (~Laofers1@66.85.140.163) has quit (Ping timeout: 268 seconds)
+2013-05-08 07:04:17	BaDaSs	http://caylor.me/bulb/
+2013-05-08 07:04:26	AMcBain	Not without depending on a part of CSS that not all major browsers have implemented the final version of (or at all) or changing the markup so the items on the left are separate from the right and you can use CSS tables ...
+2013-05-08 07:04:35	BaDaSs	my #search li is dropping to the next line unless i specify the width of the contents :-/
+2013-05-08 07:04:39	AMcBain	(which might not actually quite work either, tables don't like to play nice)
+2013-05-08 07:05:30	AMcBain	BaDaSs, you're going to have to be more specific, I don't see what is wrapping.
+2013-05-08 07:05:36	-->	deed02392 (~deed02392@ks353738.kimsufi.com) has joined #css
+2013-05-08 07:05:59	AMcBain	It's also likely, like the paste, you removed something important when transferring back to the site.
+2013-05-08 07:06:14	BaDaSs	the #search li
+2013-05-08 07:06:27	BaDaSs	inspect element on the green gradient bar
+2013-05-08 07:06:34	BaDaSs	go down to li id="search"
+2013-05-08 07:06:40	vaerros_pc	`school
+2013-05-08 07:06:53	BaDaSs	`school
+2013-05-08 07:07:09	vaerros_pc	(not @ anyone in particular, but for myself)
+2013-05-08 07:07:10	AMcBain	"http://caylor.me/bulb/style/fonts/calibri/calibri.ttf" ... uh, you do know you can't just redistribute Calibri like that, right?
+2013-05-08 07:07:20	AMcBain	`bot help @ vaerros_pc
+2013-05-08 07:07:20	Selvvir	vaerros_pc, For information on how to use me, see https://selvvir.asmcbain.net/ . Also see `factoids
+2013-05-08 07:07:24	BaDaSs	you mean legally?
+2013-05-08 07:07:25	AMcBain	Also, he responds in private.
+2013-05-08 07:07:29	AMcBain	BaDaSs, yes.
+2013-05-08 07:07:32	<--	Raziel2p (~raziel@179.79-161-209.customer.lyse.net) has quit
+2013-05-08 07:07:43	-->	opalepatrick (~patrick@c126-34.i07-32.onvol.net) has joined #css
+2013-05-08 07:07:53	vaerros_pc	AMcBain: yeah just wasn't sure the name of the bot :)
+2013-05-08 07:07:59	vaerros_pc	used to have rivvles around
+2013-05-08 07:08:09	AMcBain	rivvles left with the owner.
+2013-05-08 07:08:13	AMcBain	It's still on IRC, afaik.
+2013-05-08 07:08:33	AMcBain	BaDaSs, a quick query select for "#search li" returns an empty node list on that page.
+2013-05-08 07:09:05	BaDaSs	it's there
+2013-05-08 07:09:16	BaDaSs	inspect element at the green bar on an empty spot
+2013-05-08 07:09:24	BaDaSs	or just view source and youll see it at the end of that layer
+2013-05-08 07:09:46	AMcBain	Ah. I see. #search doesn't have li children. It IS an li.
+2013-05-08 07:09:57	BaDaSs	yes
+2013-05-08 07:10:03	BaDaSs	it went on a new line
+2013-05-08 07:10:08	BaDaSs	even though I did width: auto;
+2013-05-08 07:10:09	AMcBain	but I still don't see the issue?
+2013-05-08 07:10:19	AMcBain	I see one line of green and one line of black.
+2013-05-08 07:10:25	AMcBain	Firefox 20
+2013-05-08 07:11:07	BaDaSs	its behind the black
+2013-05-08 07:11:12	BaDaSs	if you use chrome it shows you where it is
+2013-05-08 07:11:16	BaDaSs	in the inspect element
+2013-05-08 07:11:25	BaDaSs	when you hover over the html it highlights the element on the page
+2013-05-08 07:11:47	BaDaSs	the li#search dropped to the next line behind the black bar
+2013-05-08 07:11:56	AMcBain	Well, as I noted earlier before even seeing it, you forgot some stuff.
+2013-05-08 07:12:24	AMcBain	In order for overflow: hidden to have any effect, it can't be a float itself. You forgot the overflow: hidden; and the float: none;
+2013-05-08 07:12:27	AMcBain	for #search.
+2013-05-08 07:12:35	<--	zzizz (6cd7acab@gateway/web/freenode/ip.108.215.172.171) has quit (Quit: Page closed)
+2013-05-08 07:12:48	AMcBain	However, the selectors for the previous li are overly specific, so your existing simple selector #search isn't enough to "win".
+2013-05-08 07:12:53	BaDaSs	i added float: none;
+2013-05-08 07:12:55	BaDaSs	still nothing
+2013-05-08 07:13:00	AMcBain	because of the previous.
+2013-05-08 07:13:07	AMcBain	`specificity @ BaDaSs
+2013-05-08 07:13:07	Selvvir	BaDaSs, CSS Specificity • Tutorials: http://www.stuffandnonsense.co.uk/archives/css_specificity_wars.html , http://htmldog.com/guides/cssadvanced/specificity/ • Spec: http://w3.org/TR/CSS21/cascade.html#specificity
+2013-05-08 07:13:11	BaDaSs	and the overflow
+2013-05-08 07:13:18	<--	k_sze[work] (~chatzilla@101.78.178.186) has quit (Quit: ChatZilla 0.9.90-rdmsoft [XULRunner 18.0.2/20130201065344])
+2013-05-08 07:13:47	AMcBain	The selectors that provide the float: left; win over the one that tells it none.
+2013-05-08 07:14:04	AMcBain	"div#top-right-middle ul#nav > li" This is a selector for the non-#search li. You don't need all that.
+2013-05-08 07:14:19	AMcBain	"#nav > li" would have suited.
+2013-05-08 07:14:28	BaDaSs	oh wow
+2013-05-08 07:14:31	BaDaSs	learned something new
+2013-05-08 07:14:39	BaDaSs	thx for that
+2013-05-08 07:14:46	AMcBain	If you do that, then all it takes is li#search to "win".
+2013-05-08 07:14:58	-->	plambwk (~whoopie@173-11-7-213-oregon.hfc.comcastbusiness.net) has joined #css
+2013-05-08 07:14:59	BaDaSs	now ive got to figure out why its cutting off on the left side ><
+2013-05-08 07:15:18	AMcBain	because of the box model.
+2013-05-08 07:15:24	<--	illmatix (~test@184.71.62.238) has quit (Ping timeout: 258 seconds)
+2013-05-08 07:15:45	AMcBain	Oh. Well, and probably other things. You don't need to float the input right.
+2013-05-08 07:15:47	AMcBain	left*
+2013-05-08 07:15:48	<--	tallest_red (~CNZ@ip98-169-197-57.dc.dc.cox.net) has quit (Ping timeout: 276 seconds)
+2013-05-08 07:15:52	BaDaSs	its my padding-right
+2013-05-08 07:16:13	AMcBain	and float does nothing when you absolutely position something. so the submit input doesn't need to be floated right.
+2013-05-08 07:16:32	BaDaSs	ok
+2013-05-08 07:16:45	BaDaSs	that was left over from my frustration earlier
+2013-05-08 07:17:11	-->	rakl (~rakl@208-90-212-125.PUBLIC.monkeybrains.net) has joined #css
+2013-05-08 07:18:15	<--	culh (~culhudo@189.6.148.13) has quit
+2013-05-08 07:18:27	AMcBain	Well, some of the things that will get you close on the input are this: remove the height declaration. Add width: 100%; remove the margin-left, and add -moz-box-sizing: border-box; box-sizing: border-box;
+2013-05-08 07:18:52	AMcBain	The box sizing stuff should go in the order listed in the stylesheet. So when Firefox finally unprefixes box-sizing, the spec and conforming impl will win.
+2013-05-08 07:19:00	AMcBain	s/win/get used/
+2013-05-08 07:19:34	AMcBain	border-box for box-sizing means that the width should be the width of the element, not the width of the element's content area.
+2013-05-08 07:19:55	AMcBain	The latter means that if you add padding, the element gets larger. Anyone who ships packages a lot, knows this is a load of crock.
+2013-05-08 07:20:29	<--	ctienrsg (~chatzilla@bonn-d932d95b.pool.mediaWays.net) has quit (Read error: Connection reset by peer)
+2013-05-08 07:20:34	AMcBain	box-sizing works in all major browsers *and* IE8+ (unprefixed). Surprisingly.
+2013-05-08 07:20:39	-->	Yoofie_ (~yoofie@75.114.176.65) has joined #css
+2013-05-08 07:20:46	<--	Yoofie_ (~yoofie@75.114.176.65) has quit (Client Quit)
+2013-05-08 07:20:58	-->	ctienrsg (~chatzilla@bonn-d932d95b.pool.mediaWays.net) has joined #css
+2013-05-08 07:21:03	<--	vitorpacheco (~vitor@186-241-243-181.user.veloxzone.com.br) has quit (Remote host closed the connection)
+2013-05-08 07:21:13	-->	skystar (~skystar@247-151-53-37.pool.ukrtel.net) has joined #css
+2013-05-08 07:21:15	-->	skystar84 (~skystar@247-151-53-37.pool.ukrtel.net) has joined #css
+2013-05-08 07:21:25	-->	Yoofie_ (~yoofie@75.114.176.65) has joined #css
+2013-05-08 07:21:30	AMcBain	Mozilla held out prefixed in hopes of padding-box getting added as a value choice as they had implemented it already. It now is, I believe, but they haven't unprefixed. I'm sure there's a ticket somewhere on why.
+2013-05-08 07:21:39	<--	Yoofie_ (~yoofie@75.114.176.65) has quit (Client Quit)
+2013-05-08 07:22:10	BaDaSs	hmm
+2013-05-08 07:22:25	<--	Yoofie (~yoofie@75.114.176.65) has quit (Ping timeout: 276 seconds)
+2013-05-08 07:22:27	AMcBain	Either way, still quite usable at the moment.
+2013-05-08 07:22:38	AMcBain	and a great way to get input elements to behave.
+2013-05-08 07:23:20	BaDaSs	wow
+2013-05-08 07:23:23	BaDaSs	its really messed up now lol
+2013-05-08 07:24:01	-->	vitorpacheco (~vitor@186-241-243-181.user.veloxzone.com.br) has joined #css
+2013-05-08 07:24:09	BaDaSs	not after i added the border box
+2013-05-08 07:24:18	AMcBain	Right.
+2013-05-08 07:24:21	<--	skystar (~skystar@247-151-53-37.pool.ukrtel.net) has quit (Client Quit)
+2013-05-08 07:24:21	<--	skystar84 (~skystar@247-151-53-37.pool.ukrtel.net) has quit (Client Quit)
+2013-05-08 07:24:29	BaDaSs	seems to function well now
+2013-05-08 07:24:32	BaDaSs	thanks for your help man
+2013-05-08 07:24:34	AMcBain	You'll have to figure out how to solve that last pixel bit on the right yourself ;)
+2013-05-08 07:24:38	AMcBain	No problem.
+2013-05-08 07:25:06	<--	obert (~quassel@host44-202-dynamic.55-82-r.retail.telecomitalia.it) has quit (Remote host closed the connection)
+2013-05-08 07:25:11	BaDaSs	could I use auto margins?
+2013-05-08 07:25:18	AMcBain	for ... ?
+2013-05-08 07:26:43	BaDaSs	well, i guess it won't matter if its 100% width
+2013-05-08 07:30:45	--	elky` is now known as elky
+2013-05-08 07:32:08	<--	plambwk (~whoopie@173-11-7-213-oregon.hfc.comcastbusiness.net) has quit (Ping timeout: 245 seconds)
+2013-05-08 07:37:48	<--	astropirate (~astropira@unaffiliated/astropirate) has quit (Remote host closed the connection)
+2013-05-08 07:38:45	<--	jonez (~jam@unaffiliated/jonez) has quit (Ping timeout: 248 seconds)
+2013-05-08 07:38:50	-->	plambwk (~whoopie@173-11-7-213-oregon.hfc.comcastbusiness.net) has joined #css
+2013-05-08 07:41:14	-->	maZtaiR (~maZtaiR@unaffiliated/maztah) has joined #css
+2013-05-08 07:44:24	<--	morficus (~morficus@108-205-132-58.lightspeed.livnmi.sbcglobal.net) has quit (Remote host closed the connection)
+2013-05-08 07:44:41	<--	Forbidd3n (Forbidd3n@c-71-200-232-90.hsd1.fl.comcast.net) has quit (Ping timeout: 256 seconds)
+2013-05-08 07:46:54	-->	ul71m0 (~ul71m0@cable-89-216-169-39.dynamic.sbb.rs) has joined #css
+2013-05-08 07:47:01	<--	ilteris (~ilteris_@cpe-68-173-79-187.nyc.res.rr.com) has quit (Quit: ciao)
+2013-05-08 07:47:09	-->	MoTiOnXml (anders@static-5-103-128-27.seas-nve.net) has joined #css
+2013-05-08 07:48:36	<--	awc737 (~awc737@2604:180:1::e9e7:263f) has quit (Read error: Operation timed out)
+2013-05-08 07:50:29	<--	ctienrsg (~chatzilla@bonn-d932d95b.pool.mediaWays.net) has quit (Read error: Connection reset by peer)
+2013-05-08 07:50:52	-->	DEEF (~Mes@95.166.105.188) has joined #css
+2013-05-08 07:51:00	-->	ctienrsg (~chatzilla@bonn-d932d95b.pool.mediaWays.net) has joined #css
+2013-05-08 07:51:06	-->	awc737_away (~awc737@2604:180:1::e9e7:263f) has joined #css
+2013-05-08 07:51:08	--	awc737_away is now known as awc737
+2013-05-08 07:51:29	-->	jonez (~jam@unaffiliated/jonez) has joined #css
+2013-05-08 07:52:20	-->	hawtin (~dgfdfgd@188.214.33.238) has joined #css
+2013-05-08 07:53:03	<--	unstable (unstable@tor/regular/sid) has left #css
+2013-05-08 07:53:06	-->	Juandev (~Juandev@89.24.182.66) has joined #css
+2013-05-08 07:53:37	<--	maZtaiR (~maZtaiR@unaffiliated/maztah) has quit (Quit: Computer has gone to sleep.)
+2013-05-08 07:54:30	-->	KidBeta_ (~KidBeta@hpavc/kidbeta) has joined #css
+2013-05-08 07:54:31	<--	KidBeta (~KidBeta@hpavc/kidbeta) has quit (Read error: Connection reset by peer)
+2013-05-08 07:54:36	--	KidBeta_ is now known as KidBeta
+2013-05-08 07:54:37	<--	ma- (~nnscript@unaffiliated/ma-) has quit (Ping timeout: 245 seconds)
+2013-05-08 07:55:06	<--	m3pow (~chatzilla@176.223.44.41) has quit (Quit: ChatZilla 0.9.90 [Firefox 20.0/20130417085609])
+2013-05-08 07:55:34	-->	Joe7 (~Joe7@BC0609F0.catv.pool.telekom.hu) has joined #css
+2013-05-08 07:56:36	-->	AndreasLHC (~andreas@remote.hjelseth.com) has joined #css
+2013-05-08 07:56:46	<--	hawtin (~dgfdfgd@188.214.33.238) has quit (Ping timeout: 252 seconds)
+2013-05-08 07:56:55	<--	DEEF (~Mes@95.166.105.188) has quit
+2013-05-08 07:56:57	-->	relix (~david@97.248.35.213.dyn.estpak.ee) has joined #css
+2013-05-08 07:57:31	-->	rizzuh (~rizzuh@unaffiliated/rizzuh) has joined #css
+2013-05-08 08:00:03	<--	reZo (gareth@203.160.125.127) has quit (Ping timeout: 260 seconds)
+2013-05-08 08:02:04	<--	trepmal (~trepmal@24-113-149-143.wavecable.com) has quit (Quit: Be back later)
+2013-05-08 08:03:19	-->	k_sze[work] (~chatzilla@101.78.178.186) has joined #css
+2013-05-08 08:03:40	--	k_sze[work] is now known as Guest33260
+2013-05-08 08:04:54	--	Guest33260 is now known as Kira
+2013-05-08 08:05:11	--	Kira is now known as k_sze[work]
+2013-05-08 08:09:05	-->	Anticom (~Anticom@zeilhard.sh-medien-statistik.de) has joined #css
+2013-05-08 08:10:25	-->	obert (~quassel@host44-202-dynamic.55-82-r.retail.telecomitalia.it) has joined #css
+2013-05-08 08:11:30	--	codeM0n3y is now known as MrGate
+2013-05-08 08:11:30	-->	tallest_red (~CNZ@ip98-169-197-57.dc.dc.cox.net) has joined #css
+2013-05-08 08:14:17	<--	plambwk (~whoopie@173-11-7-213-oregon.hfc.comcastbusiness.net) has quit (Ping timeout: 255 seconds)
+2013-05-08 08:14:19	<--	Joe7 (~Joe7@BC0609F0.catv.pool.telekom.hu) has quit (Ping timeout: 264 seconds)
+2013-05-08 08:15:49	-->	Bosox20051 (~Bosox2005@unaffiliated/bosox20051) has joined #css
+2013-05-08 08:16:32	<--	Juandev (~Juandev@89.24.182.66) has quit
+2013-05-08 08:17:01	<--	Iszak (~Iszak@unaffiliated/supavisah) has quit (Ping timeout: 276 seconds)
+2013-05-08 08:17:14	--	Joefish]off is now known as Joefish
+2013-05-08 08:20:22	-->	de_henne (~quassel@g226121018.adsl.alicedsl.de) has joined #css
+2013-05-08 08:20:27	<--	ctienrsg (~chatzilla@bonn-d932d95b.pool.mediaWays.net) has quit (Read error: Connection reset by peer)
+2013-05-08 08:20:55	<--	sooley (~sooley@365networks.ca) has quit (Ping timeout: 264 seconds)
+2013-05-08 08:20:57	-->	ctienrsg (~chatzilla@bonn-d932d95b.pool.mediaWays.net) has joined #css
+2013-05-08 08:21:32	-->	Iszak (~Iszak@unaffiliated/supavisah) has joined #css
+2013-05-08 08:21:36	<--	Iszak (~Iszak@unaffiliated/supavisah) has quit (Max SendQ exceeded)
+2013-05-08 08:21:38	<--	rizzuh (~rizzuh@unaffiliated/rizzuh) has quit (Ping timeout: 246 seconds)
+2013-05-08 08:22:16	-->	Iszak (~Iszak@unaffiliated/supavisah) has joined #css
+2013-05-08 08:22:55	-->	synju (29a20764@gateway/web/freenode/ip.41.162.7.100) has joined #css
+2013-05-08 08:23:38	-->	kroyeren (~kroyeren@81.27.221.202) has joined #css
+2013-05-08 08:24:24	synju	hey guys I'm having trouble trying to get a div "login_login_button_wrapper" to align to the bottom right of the outer div... "login_wrapper". please help: http://cssdesk.com/2eLYu
+2013-05-08 08:24:25	<--	de_henne (~quassel@g226121018.adsl.alicedsl.de) has quit (Remote host closed the connection)
+2013-05-08 08:25:54	-->	Gavilan3 (~Gavilan2@184.75.213.74) has joined #css
+2013-05-08 08:25:56	-->	plambwk (~whoopie@173-11-7-213-oregon.hfc.comcastbusiness.net) has joined #css
+2013-05-08 08:26:53	-->	lucido (~chris@171.6.138.26) has joined #css
+2013-05-08 08:27:58	<--	alicia_bance (~none@224.sub-75-253-11.myvzw.com) has quit (Remote host closed the connection)
+2013-05-08 08:30:12	-->	sooley (~sooley@365networks.ca) has joined #css
+2013-05-08 08:30:23	<--	gavilan2 (~Gavilan2@184.75.213.74) has quit (Ping timeout: 276 seconds)
+2013-05-08 08:31:57	-->	Misiur (~Templar@acej230.neoplus.adsl.tpnet.pl) has joined #css
+2013-05-08 08:32:55	<--	AndreasEri (~andreas@46-236-80-128.customer.t3.se) has quit (Ping timeout: 264 seconds)
+2013-05-08 08:33:25	synju	Anyone?
+2013-05-08 08:34:41	-->	Zitter (~danilo@host207-180-dynamic.32-79-r.retail.telecomitalia.it) has joined #css
+2013-05-08 08:34:55	<--	buddyq (~buddy@99-67-237-174.lightspeed.austtx.sbcglobal.net) has quit (Quit: Buddy tie tie - Sleeping)
+2013-05-08 08:35:25	-->	marthinal (~chatzilla@121.Red-95-121-3.dynamicIP.rima-tde.net) has joined #css
+2013-05-08 08:35:26	-->	divno (~divno@cpe-76-87-92-158.socal.res.rr.com) has joined #css
+2013-05-08 08:35:50	-->	de_henne (~quassel@g226121018.adsl.alicedsl.de) has joined #css
+2013-05-08 08:36:17	vaerros_pc	AMcBain: so what happened to riven?
+2013-05-08 08:36:41	AMcBain	Left.
+2013-05-08 08:36:58	vaerros_pc	interesting guy that was
+2013-05-08 08:37:13	<--	lucido (~chris@171.6.138.26) has quit (Quit: Leaving)
+2013-05-08 08:37:44	<--	KidBeta (~KidBeta@hpavc/kidbeta) has quit (Ping timeout: 246 seconds)
+2013-05-08 08:38:05	-->	Misiur1 (~Templar@adur44.neoplus.adsl.tpnet.pl) has joined #css
+2013-05-08 08:38:19	synju	Can anyone help me?
+2013-05-08 08:38:40	-->	NivenHuH (~NivenWuss@199-83-223-84.PUBLIC.monkeybrains.net) has joined #css
+2013-05-08 08:38:42	vaerros_pc	synju: looking at it now
+2013-05-08 08:38:50	synju	okay, thank you
+2013-05-08 08:39:27	vaerros_pc	yeah...you definitely don't need to absolutely position all these elements
+2013-05-08 08:39:29	<--	Misiur (~Templar@acej230.neoplus.adsl.tpnet.pl) has quit (Ping timeout: 246 seconds)
+2013-05-08 08:39:32	-->	cebor (~cebor@unaffiliated/cebor) has joined #css
+2013-05-08 08:39:56	<--	Davey (~Davey@orchestra/staff/Davey) has quit (Quit: Computer has gone to sleep.)
+2013-05-08 08:40:50	<--	zamabe (zamabe@unaffiliated/zamabe) has quit (Remote host closed the connection)
+2013-05-08 08:40:55	-->	dan2k3k4 (~dan2k3k4@unaffiliated/dan2k3k4) has joined #css
+2013-05-08 08:41:05	synju	lol ok
+2013-05-08 08:41:32	synju	well I can't have them inheriting relative.
+2013-05-08 08:41:32	vaerros_pc	I'm serious
+2013-05-08 08:41:36	synju	ok
+2013-05-08 08:41:36	-->	ZombieL (~ZombieLof@unaffiliated/zombieloffe) has joined #css
+2013-05-08 08:41:47	-->	JackH (~none@client-86-29-47-62.glfd.adsl.virginmedia.com) has joined #css
+2013-05-08 08:42:00	vaerros_pc	it's not a property with an inherited value
+2013-05-08 08:42:28	synju	so the divs wont inherit "relative" ?
+2013-05-08 08:42:32	synju	hmm
+2013-05-08 08:42:33	<--	alphanum (Random@unaffiliated/alpha-num-ber) has quit (Ping timeout: 245 seconds)
+2013-05-08 08:43:03	<--	Gavilan3 (~Gavilan2@184.75.213.74) has quit
+2013-05-08 08:43:21	synju	took out absolute on all of them, now the top / left alignment doesnt work at all
+2013-05-08 08:44:01	vaerros_pc	it doesn't work b/c your existing approach relied on, well, the existing approach
+2013-05-08 08:45:00	synju	hmm ok I'll try the relative approach
+2013-05-08 08:45:14	-->	AndreasEri (~andreas@46-236-80-128.customer.t3.se) has joined #css
+2013-05-08 08:46:43	<--	plambwk (~whoopie@173-11-7-213-oregon.hfc.comcastbusiness.net) has quit (Ping timeout: 260 seconds)
+2013-05-08 08:47:08	<--	Avee (~Aveeee@24.212.195.69) has quit (Ping timeout: 245 seconds)
+2013-05-08 08:47:13	<--	neataroni (~textual@c-24-21-247-52.hsd1.or.comcast.net) has quit (Ping timeout: 256 seconds)
+2013-05-08 08:49:15	-->	Crrrl (~Adium@84-55-127-146.customers.ownit.se) has joined #css
+2013-05-08 08:49:25	vaerros_pc	synju: a structure you could instead try is removing the wrapper elements you have, making your inputs and logo width: 100% and auto(well, don't specify it), put an appropriate padding on the container
+2013-05-08 08:49:31	<--	dhruvasagar (~dhruvasag@122.167.251.21) has quit (Ping timeout: 276 seconds)
+2013-05-08 08:49:49	-->	gab82 (~gab82@host127-35-static.28-87-b.business.telecomitalia.it) has joined #css
+2013-05-08 08:50:29	<--	ctienrsg (~chatzilla@bonn-d932d95b.pool.mediaWays.net) has quit (Read error: Connection reset by peer)
+2013-05-08 08:50:32	vaerros_pc	and then you could just float the login button to the right
+2013-05-08 08:51:01	-->	ctienrsg (~chatzilla@bonn-d932d95b.pool.mediaWays.net) has joined #css
+2013-05-08 08:51:26	-->	daanavitch (~daanavitc@d8D86D71B.access.telenet.be) has joined #css
+2013-05-08 08:54:36	<--	NivenHuH (~NivenWuss@199-83-223-84.PUBLIC.monkeybrains.net) has quit (Quit: ["Textual IRC Client: www.textualapp.com"])
+2013-05-08 08:55:15	<--	Cyberpew (~Cyberpew@66.248.200.232) has quit (Ping timeout: 276 seconds)
+2013-05-08 08:57:00	<--	Khisanth (~Khisanth@50.14.244.111) has quit (Ping timeout: 256 seconds)
+2013-05-08 08:58:36	-->	Creepy (~Creepy@p5B16ABA7.dip0.t-ipconnect.de) has joined #css
+2013-05-08 08:58:42	-->	gavilan2 (~Gavilan2@184.75.213.106) has joined #css
+2013-05-08 09:00:10	-->	alansaul-laptop (~alansaul-@94-194-117-73.zone8.bethere.co.uk) has joined #css
+2013-05-08 09:04:07	<--	opalepatrick (~patrick@c126-34.i07-32.onvol.net) has quit (Quit: Ex-Chat)
+2013-05-08 09:04:40	-->	gabriel9|work (~quassel@89.111.237.28) has joined #css
+2013-05-08 09:04:56	-->	plambwk (~whoopie@173-11-7-213-oregon.hfc.comcastbusiness.net) has joined #css
+2013-05-08 09:05:33	-->	alphanum (Random@ip68-110-98-9.ph.ph.cox.net) has joined #css
+2013-05-08 09:05:46	<--	Andre_designer (~Thunderbi@82-170-146-165.ip.telfort.nl) has quit (Quit: Andre_designer)
+2013-05-08 09:06:00	-->	HugoDaniel (~hugo@bl9-123-30.dsl.telepac.pt) has joined #css
+2013-05-08 09:08:53	<--	AndreasEri (~andreas@46-236-80-128.customer.t3.se) has quit (Ping timeout: 248 seconds)
+2013-05-08 09:09:39	-->	amaroks (~Thunderbi@195.88.177.9) has joined #css
+2013-05-08 09:09:43	-->	KidBeta (~KidBeta@hpavc/kidbeta) has joined #css
+2013-05-08 09:10:36	-->	Khisanth (~Khisanth@50.14.244.111) has joined #css
+2013-05-08 09:10:41	<--	Misiur1 (~Templar@adur44.neoplus.adsl.tpnet.pl) has quit (Quit: Leaving.)
+2013-05-08 09:10:58	-->	Misiur (~Templar@adur44.neoplus.adsl.tpnet.pl) has joined #css
+2013-05-08 09:11:42	-->	dhruvasagar (~dhruvasag@122.172.249.87) has joined #css
+2013-05-08 09:12:07	-->	daanavit_ (~daanavitc@d8D86D71B.access.telenet.be) has joined #css
+2013-05-08 09:12:37	<--	daanavitch (~daanavitc@d8D86D71B.access.telenet.be) has quit (Read error: Connection reset by peer)
+2013-05-08 09:14:34	-->	Dunstkreis (~Miranda@p54BB27F0.dip0.t-ipconnect.de) has joined #css
+2013-05-08 09:15:20	<--	vaerros_pc (~Vaerros@ip174-70-100-167.no.no.cox.net) has quit (Quit: Leaving.)
+2013-05-08 09:16:13	-->	leb (~textual@c-24-7-83-224.hsd1.ca.comcast.net) has joined #css
+2013-05-08 09:16:13	-->	fabioportieri (5960f409@gateway/web/freenode/ip.89.96.244.9) has joined #css
+2013-05-08 09:16:19	-->	dape8708 (~dani@freenode/sponsor/dape) has joined #css
+2013-05-08 09:16:32	-->	Cyberpew|Away (~Cyberpew@66.248.200.232) has joined #css
+2013-05-08 09:16:52	dape8708	hello, can i use a selector to match all class that have p-* ? like p-video, p-sound ?
+2013-05-08 09:16:54	--	Cyberpew|Away is now known as Cyberpew
+2013-05-08 09:16:58	<--	MiracleBlue (~MiracleBl@unaffiliated/miracleblue) has quit (Quit: MiracleBlue)
+2013-05-08 09:17:06	-->	Lethalman (~luca@net77-43-20-100.mclink.it) has joined #css
+2013-05-08 09:18:57	fabioportieri	should be *[class^="p-"]
+2013-05-08 09:19:06	fabioportieri	not tested
+2013-05-08 09:19:18	-->	fikst (~fikst@d54C442D5.access.telenet.be) has joined #css
+2013-05-08 09:19:40	-->	fRAiLtY- (~fRAiLtY-@141.0.47.90) has joined #css
+2013-05-08 09:19:54	fabioportieri	morning btw
+2013-05-08 09:19:59	dape8708	thank you, let me try
+2013-05-08 09:20:18	<--	xec_ (~xec@188.95.241.142) has quit (Changing host)
+2013-05-08 09:20:18	-->	xec_ (~xec@unaffiliated/xec) has joined #css
+2013-05-08 09:20:29	<--	ctienrsg (~chatzilla@bonn-d932d95b.pool.mediaWays.net) has quit (Read error: Connection reset by peer)
+2013-05-08 09:20:34	<--	HugoDaniel (~hugo@bl9-123-30.dsl.telepac.pt) has quit (Ping timeout: 268 seconds)
+2013-05-08 09:21:01	-->	ctienrsg (~chatzilla@bonn-d932d95b.pool.mediaWays.net) has joined #css
+2013-05-08 09:21:29	<--	schnoodles-osx (~schnoodle@203.153.207.203) has quit (Remote host closed the connection)
+2013-05-08 09:21:44	<--	gavilan2 (~Gavilan2@184.75.213.106) has quit (Ping timeout: 276 seconds)
+2013-05-08 09:22:33	-->	ravenzz (~raven@109.202.139.114) has joined #css
+2013-05-08 09:22:33	<--	ravenzz (~raven@109.202.139.114) has quit (Changing host)
+2013-05-08 09:22:33	-->	ravenzz (~raven@unaffiliated/ravenzz) has joined #css
+2013-05-08 09:23:22	dape8708	fabioportieri, works, thanks a lot, i just found a page with help on the syntax
+2013-05-08 09:23:29	<--	plambwk (~whoopie@173-11-7-213-oregon.hfc.comcastbusiness.net) has quit (Ping timeout: 256 seconds)
+2013-05-08 09:23:42	xec_	no need for the leading star (*) btw
+2013-05-08 09:23:52	-->	pedrogpimenta (~pedrogpim@188.red-80-28-153.adsl.static.ccgg.telefonica.net) has joined #css
+2013-05-08 09:24:19	fabioportieri	you're welcome
+2013-05-08 09:24:38	-->	Joe7 (~Joe7@BC0609F0.catv.pool.telekom.hu) has joined #css
+2013-05-08 09:25:48	<--	Misiur (~Templar@adur44.neoplus.adsl.tpnet.pl) has left #css
+2013-05-08 09:26:33	-->	plambwk (~whoopie@173-11-7-213-oregon.hfc.comcastbusiness.net) has joined #css
+2013-05-08 09:27:46	-->	gavilan2 (~Gavilan2@184.75.221.82) has joined #css
+2013-05-08 09:29:29	<--	KineticColor (~justinyou@c-67-169-3-71.hsd1.ca.comcast.net) has quit (Quit: KineticColor)
+2013-05-08 09:30:01	-->	justinyoung (~justinyou@c-67-169-3-71.hsd1.ca.comcast.net) has joined #css
+2013-05-08 09:30:22	<--	alansaul-laptop (~alansaul-@94-194-117-73.zone8.bethere.co.uk) has quit (Quit: Computer has gone to sleep.)
+2013-05-08 09:30:27	<--	alphanum (Random@ip68-110-98-9.ph.ph.cox.net) has quit (Changing host)
+2013-05-08 09:30:27	-->	alphanum (Random@unaffiliated/alpha-num-ber) has joined #css
+2013-05-08 09:31:09	-->	m3pow (~chatzilla@176.223.56.221) has joined #css
+2013-05-08 09:33:02	<--	mbay (~W7Mich@modemcable014.206-57-74.mc.videotron.ca) has quit
+2013-05-08 09:33:31	<--	ChrisPartridge (~pher0x@219-90-195-66.static.adam.com.au) has quit (Ping timeout: 264 seconds)
+2013-05-08 09:33:51	<--	Selvvir (~copy@66-189-215-97.dhcp.knwc.wa.charter.com) has quit (Remote host closed the connection)
+2013-05-08 09:33:55	-->	Umren (~Ruiz@95-28-142-197.broadband.corbina.ru) has joined #css
+2013-05-08 09:34:15	-->	Proshot (~CoreD@546A56AA.cm-12-3b.dynamic.ziggo.nl) has joined #css
+2013-05-08 09:34:28	-->	MCHammer (~mchammer@212.48.107.10) has joined #css
+2013-05-08 09:34:45	<--	cebor (~cebor@unaffiliated/cebor) has quit (Ping timeout: 268 seconds)
+2013-05-08 09:35:09	<--	fikst (~fikst@d54C442D5.access.telenet.be) has quit (Quit: Leaving)
+2013-05-08 09:36:26	<--	RudyValencia (self@unaffiliated/rudyvalencia) has quit (Quit: Hacked by Chinese)
+2013-05-08 09:36:29	-->	alicia_b (~none@224.sub-75-253-11.myvzw.com) has joined #css
+2013-05-08 09:36:58	<--	alicia_b (~none@224.sub-75-253-11.myvzw.com) has quit (Client Quit)
+2013-05-08 09:37:16	-->	alicia_b (~none@224.sub-75-253-11.myvzw.com) has joined #css
+2013-05-08 09:37:39	<--	alicia_b (~none@224.sub-75-253-11.myvzw.com) has quit (Client Quit)
+2013-05-08 09:37:58	-->	alicia_b (~none@224.sub-75-253-11.myvzw.com) has joined #css
+2013-05-08 09:38:59	<--	anthonym2 (~anthonym@d58-106-73-160.sbr800.nsw.optusnet.com.au) has quit (Ping timeout: 260 seconds)
+2013-05-08 09:39:56	-->	Sonderblade (~boo@130.144.241.83.in-addr.dgcsystems.net) has joined #css
+2013-05-08 09:43:00	AMcBain	Selvvir will be back when I can unfuck my server.
+2013-05-08 09:43:07	<--	Joe7 (~Joe7@BC0609F0.catv.pool.telekom.hu) has left #css
+2013-05-08 09:43:09	AMcBain	Debian can die in flames. Bastards.
+2013-05-08 09:45:28	ravenzz	debian is awesome
+2013-05-08 09:45:40	ravenzz	what happened?
+2013-05-08 09:45:44	AMcBain	NO. They HOSED my server. It is NOT awesome.
+2013-05-08 09:46:06	-->	reisio (~reisio@unaffiliated/reisio) has joined #css
+2013-05-08 09:46:13	AMcBain	I upgraded to Wheezy from Squeeze. The upgrade from Lenny to Squeeze had been greate, and easy.
+2013-05-08 09:46:17	AMcBain	This one, not so much.
+2013-05-08 09:46:39	reisio	switch to a proper distro :)
+2013-05-08 09:46:54	AMcBain	Says the man who not only 3 lines up said Debian was awesome.
+2013-05-08 09:46:55	<--	plambwk (~whoopie@173-11-7-213-oregon.hfc.comcastbusiness.net) has quit (Ping timeout: 260 seconds)
+2013-05-08 09:47:15	fabioportieri	which would be a proper distro?
+2013-05-08 09:48:02	ravenzz	AMcBain that would be me not resio :P
+2013-05-08 09:48:16	-->	plambwk (~whoopie@173-11-7-213-oregon.hfc.comcastbusiness.net) has joined #css
+2013-05-08 09:48:24	ravenzz	reisio*
+2013-05-08 09:48:40	reisio	AMcBain: it is awesome
+2013-05-08 09:48:44	reisio	just not as awesome as a proper distro
+2013-05-08 09:48:52	AMcBain	fabioportieri, anything else right now!
+2013-05-08 09:49:04	reisio	Gentoo, dear ones, Gentoo
+2013-05-08 09:49:36	AMcBain	Ew?
+2013-05-08 09:50:29	<--	ctienrsg (~chatzilla@bonn-d932d95b.pool.mediaWays.net) has quit (Read error: Connection reset by peer)
+2013-05-08 09:50:30	-->	hawtin (~dgfdfgd@188.214.33.238) has joined #css
+2013-05-08 09:50:45	<--	dopie (~dopie@69-84-122-215-dhcp.mia.fl.atlanticbb.net) has quit (Quit: Nettalk6 - www.ntalk.de)
+2013-05-08 09:50:55	reisio	8 years, no versions
+2013-05-08 09:51:00	-->	ctienrsg (~chatzilla@bonn-d932d95b.pool.mediaWays.net) has joined #css
+2013-05-08 09:51:22	AMcBain	busybox which it drops me to if I miss the 'c' at the grub prompt doesn't even recognize my USB keyboard.
+2013-05-08 09:52:10	reisio	:/
+2013-05-08 09:52:23	reisio	that's pretty silly given how long the release takes to happen
+2013-05-08 09:52:23	-->	Edico (~puck@unaffiliated/edico) has joined #css
+2013-05-08 09:52:31	<--	jaequery (~jaequery@cpe-76-174-169-220.socal.res.rr.com) has quit (Quit: Computer has gone to sleep.)
+2013-05-08 09:52:35	reisio	one would imagine some of that time goes to testin/QA
+2013-05-08 09:53:14	-->	Marwin (~quassel@p4FE9B752.dip0.t-ipconnect.de) has joined #css
+2013-05-08 09:53:29	-->	memesys (~NotYou@dsl-tkubrasgw1-54fa1f-121.dhcp.inet.fi) has joined #css
+2013-05-08 09:53:40	<--	k1ng (~k1ng@unaffiliated/k1ng) has quit (Ping timeout: 272 seconds)
+2013-05-08 09:53:49	<--	alicia_b (~none@224.sub-75-253-11.myvzw.com) has quit (Quit: Ex-Chat)
+2013-05-08 09:54:08	-->	alicia_b (~none@224.sub-75-253-11.myvzw.com) has joined #css
+2013-05-08 09:54:10	<--	dhruvasagar (~dhruvasag@122.172.249.87) has quit (Read error: Connection reset by peer)
+2013-05-08 09:56:32	AMcBain	reisio, I would have thought so too! but hey, upgrade killed it all. WHOO. That's just /lovely/.
+2013-05-08 09:56:46	AMcBain	Let's send them a pineapple and tell them where they can stick it.
+2013-05-08 09:56:59	reisio	and as a bonus, you probably can't install Xfce without installing most of GNOME
+2013-05-08 09:57:48	-->	dhruvasagar (~dhruvasag@122.166.154.174) has joined #css
+2013-05-08 10:00:32	-->	k1ng (~k1ng@unaffiliated/k1ng) has joined #css
+2013-05-08 10:01:15	-->	alansaul-laptop (~alansaul-@94-194-117-73.zone8.bethere.co.uk) has joined #css
+2013-05-08 10:01:23	<--	Kricir (~kricir@c-24-245-9-49.hsd1.mn.comcast.net) has quit (Ping timeout: 246 seconds)
+2013-05-08 10:01:30	 *	hawtin morning
+2013-05-08 10:01:34	fabioportieri	friggin linux
+2013-05-08 10:01:41	reisio	friggin linux
+2013-05-08 10:01:49	reisio	hawtin: mornin'
+2013-05-08 10:04:28	-->	marcogmonteiro (~marcogmon@62.28.236.130) has joined #css
+2013-05-08 10:04:57	-->	Misan (~misan@62.99.234.20) has joined #css
+2013-05-08 10:04:57	memesys	sounds like friggin ubuntu to me
+2013-05-08 10:05:18	hawtin	mornin
+2013-05-08 10:05:22	reisio	hawtin: mornin'
+2013-05-08 10:05:34	memesys	hawtin: mifflin
+2013-05-08 10:05:46	reisio	haughton
+2013-05-08 10:05:51	hawtin	:)
+2013-05-08 10:06:45	-->	skcin7 (~skcin7@c-68-38-156-213.hsd1.nj.comcast.net) has joined #css
+2013-05-08 10:07:02	<--	curvedmark (~curvedmar@122.247.216.58) has quit (Quit: Quit)
+2013-05-08 10:07:12	-->	calbasi (~joan@34.72.14.37.dynamic.jazztel.es) has joined #css
+2013-05-08 10:09:42	<--	tdignan (~quassel@pdpc/supporter/professional/tdignan) has quit (Ping timeout: 264 seconds)
+2013-05-08 10:10:52	Misan	good morning
+2013-05-08 10:11:17	<--	dbaron (~dbaron@50.0.192.124) has quit (Ping timeout: 248 seconds)
+2013-05-08 10:12:21	hawtin	morning
+2013-05-08 10:13:46	hawtin	anyone dealt with black border in opera for submit buttons?
+2013-05-08 10:14:41	<--	alansaul-laptop (~alansaul-@94-194-117-73.zone8.bethere.co.uk) has quit (Quit: Computer has gone to sleep.)
+2013-05-08 10:14:43	-->	MiracleBlue (~MiracleBl@unaffiliated/miracleblue) has joined #css
+2013-05-08 10:14:58	fabioportieri	.buttonStyle1:focus {     border:none; } @ hawtin
+2013-05-08 10:15:19	hawtin	already tried everything
+2013-05-08 10:15:28	hawtin	focus active !important
+2013-05-08 10:15:35	hawtin	still there
+2013-05-08 10:15:37	-->	nfk (~nfk@85.255.72.64) has joined #css
+2013-05-08 10:15:37	<--	nfk (~nfk@85.255.72.64) has quit (Changing host)
+2013-05-08 10:15:37	-->	nfk (~nfk@unaffiliated/kamijou-touma/x-3149615) has joined #css
+2013-05-08 10:15:53	<--	kevinfagan (~kevinfaga@198.211.121.155) has quit (Excess Flood)
+2013-05-08 10:15:55	-->	effortDee (~effortDee@host81-133-26-238.in-addr.btopenworld.com) has joined #css
+2013-05-08 10:15:55	fabioportieri	outline: 0 maybe?
+2013-05-08 10:16:02	hawtin	that 2
+2013-05-08 10:16:18	hawtin	and both combined
+2013-05-08 10:16:22	MrGate	irc:quite !important;
+2013-05-08 10:16:27	-->	LekeFly (~LekeFly@77.40.158.20) has joined #css
+2013-05-08 10:16:29	fabioportieri	using button instead of input ?
+2013-05-08 10:16:58	-->	kevinfagan (~kevinfaga@198.211.121.155) has joined #css
+2013-05-08 10:18:09	hawtin	I have way too many inuts
+2013-05-08 10:18:12	hawtin	inputs*
+2013-05-08 10:18:27	hawtin	i'll leave it like that
+2013-05-08 10:18:38	hawtin	anyway opera is having 2-3% of the market
+2013-05-08 10:18:48	hawtin	if there's no other way
+2013-05-08 10:19:50	fabioportieri	that's why i only rely on internet explorer 7
+2013-05-08 10:20:29	<--	ctienrsg (~chatzilla@bonn-d932d95b.pool.mediaWays.net) has quit (Read error: Connection reset by peer)
+2013-05-08 10:20:36	-->	mp2236 (c0a4ac25@gateway/web/freenode/ip.192.164.172.37) has joined #css
+2013-05-08 10:20:59	-->	ctienrsg (~chatzilla@bonn-d932d95b.pool.mediaWays.net) has joined #css
+2013-05-08 10:21:31	<--	memesys (~NotYou@dsl-tkubrasgw1-54fa1f-121.dhcp.inet.fi) has left #css
+2013-05-08 10:22:13	fabioportieri	joking
+2013-05-08 10:22:14	-->	NwS (~NwS@ppp-94-68-164-222.home.otenet.gr) has joined #css
+2013-05-08 10:23:33	-->	dopie (~dopie@69-84-122-215-dhcp.mia.fl.atlanticbb.net) has joined #css
+2013-05-08 10:24:26	hawtin	:))
+2013-05-08 10:26:21	-->	alex88 (~alex88@unaffiliated/alex88) has joined #css
+2013-05-08 10:26:24	alex88	hi guys, http://jsfiddle.net/MmcEj/ is there a way to make the text in the middle always use the full available length? with % it scales but most of the time it's not using the full available width
+2013-05-08 10:27:46	-->	dailylinux (~Daily@rhelbox2.uio.no) has joined #css
+2013-05-08 10:28:59	<--	drale2k (~drale2k@chello084113196096.1.14.vie.surfer.at) has quit (Quit: Leaving...)
+2013-05-08 10:29:34	-->	jbell_ (~jbell@ool-44c1d40c.dyn.optonline.net) has joined #css
+2013-05-08 10:29:45	-->	mazzachre (~mazzachre@nat1.semler.dk) has joined #css
+2013-05-08 10:30:06	<--	VikingV (~VikingIV@c-98-253-225-31.hsd1.il.comcast.net) has quit (Ping timeout: 264 seconds)
+2013-05-08 10:31:07	<--	sooley (~sooley@365networks.ca) has quit (Ping timeout: 264 seconds)
+2013-05-08 10:31:09	-->	fikst (~fikst@d5152EA8A.static.telenet.be) has joined #css
+2013-05-08 10:31:49	<--	dhruvasagar (~dhruvasag@122.166.154.174) has quit (Ping timeout: 246 seconds)
+2013-05-08 10:31:55	-->	sooley (~sooley@365networks.ca) has joined #css
+2013-05-08 10:31:55	-->	schnoodles-osx (~schnoodle@203.153.207.203) has joined #css
+2013-05-08 10:34:28	--	MiracleBlue is now known as Oprah
+2013-05-08 10:34:33	-->	alansaul-laptop (~alansaul-@186.79.125.91.dyn.plus.net) has joined #css
+2013-05-08 10:34:38	--	Oprah is now known as MiracleBlue
+2013-05-08 10:34:43	<--	m3pow (~chatzilla@176.223.56.221) has quit (Ping timeout: 264 seconds)
+2013-05-08 10:34:48	hawtin	alex88
+2013-05-08 10:34:54	hawtin	yes you can do that
+2013-05-08 10:35:00	alex88	hawtin: any tip?
+2013-05-08 10:35:05	hawtin	media queries
+2013-05-08 10:35:08	-->	anthonym (anthonym@d175-39-10-236.sbr800.nsw.optusnet.com.au) has joined #css
+2013-05-08 10:35:09	-->	HugoDaniel (~hugo@bl9-123-30.dsl.telepac.pt) has joined #css
+2013-05-08 10:35:10	hawtin	x_x
+2013-05-08 10:35:22	alex88	hawtin: no fluid way without putting n media queries?
+2013-05-08 10:35:25	<--	anthonym (anthonym@d175-39-10-236.sbr800.nsw.optusnet.com.au) has left #css
+2013-05-08 10:35:40	-->	anthonym (anthonym@d175-39-10-236.sbr800.nsw.optusnet.com.au) has joined #css
+2013-05-08 10:35:46	hawtin	no don't think so
+2013-05-08 10:35:55	<--	anthonym (anthonym@d175-39-10-236.sbr800.nsw.optusnet.com.au) has quit (Changing host)
+2013-05-08 10:35:56	-->	anthonym (anthonym@pdpc/supporter/professional/anthonym) has joined #css
+2013-05-08 10:35:56	hawtin	or maybe I dont know
+2013-05-08 10:35:58	<--	anthonym (anthonym@pdpc/supporter/professional/anthonym) has left #css
+2013-05-08 10:36:04	-->	anthonym (anthonym@pdpc/supporter/professional/anthonym) has joined #css
+2013-05-08 10:36:10	hawtin	and you don't have to put n media queries
+2013-05-08 10:36:14	hawtin	put the most common resolutions
+2013-05-08 10:36:15	<--	schnoodles-osx (~schnoodle@203.153.207.203) has quit (Ping timeout: 252 seconds)
+2013-05-08 10:36:20	hawtin	x_x
+2013-05-08 10:36:26	alex88	with a % for each media query maybe..
+2013-05-08 10:36:49	hawtin	you can put whatever you like % em px pt
+2013-05-08 10:36:53	alex88	just seen also that chrome doesn't let window resize to iphone width which is 320px :)
+2013-05-08 10:36:54	alex88	yeah ofc
+2013-05-08 10:36:59	hawtin	resize your browser and see
+2013-05-08 10:37:15	-->	RudyValencia (~self@unaffiliated/rudyvalencia) has joined #css
+2013-05-08 10:37:22	hawtin	depends on what iphone you are talking about
+2013-05-08 10:37:37	hawtin	iphone 4s has 480px width and iphone5 has 640px
+2013-05-08 10:38:07	hawtin	and most of them nowadays have 480px and up
+2013-05-08 10:38:16	<--	jbell_ (~jbell@ool-44c1d40c.dyn.optonline.net) has quit (Quit: Leaving)
+2013-05-08 10:38:36	<--	alansaul-laptop (~alansaul-@186.79.125.91.dyn.plus.net) has quit (Client Quit)
+2013-05-08 10:40:04	-->	alansaul-laptop (~alansaul-@186.79.125.91.dyn.plus.net) has joined #css
+2013-05-08 10:40:15	-->	b0xa (~b0x@unaffiliated/b0x) has joined #css
+2013-05-08 10:40:28	-->	reaper764 (~scott@176.251.187.153) has joined #css
+2013-05-08 10:40:59	-->	anthonym2 (~anthonym@d58-106-162-44.sbr800.nsw.optusnet.com.au) has joined #css
+2013-05-08 10:41:05	<--	anthonym2 (~anthonym@d58-106-162-44.sbr800.nsw.optusnet.com.au) has left #css
+2013-05-08 10:41:05	alex88	hawtin: that's the screen resolution, try to $(window).width() and you'll get 320px
+2013-05-08 10:41:10	alex88	on both of them
+2013-05-08 10:41:14	<--	anthonym (anthonym@pdpc/supporter/professional/anthonym) has quit (Disconnected by services)
+2013-05-08 10:41:23	<--	b0x (~b0x@unaffiliated/b0x) has quit (Ping timeout: 245 seconds)
+2013-05-08 10:41:28	-->	anthonym (~anthonym@pdpc/supporter/professional/anthonym) has joined #css
+2013-05-08 10:41:36	<--	plambwk (~whoopie@173-11-7-213-oregon.hfc.comcastbusiness.net) has quit (Ping timeout: 252 seconds)
+2013-05-08 10:43:49	<--	reaper763 (~scott@5.71.8.244) has quit (Ping timeout: 268 seconds)
+2013-05-08 10:45:07	-->	Criztian (~criztian@cust.dyn.95-152-98-86.swisscomdata.ch) has joined #css
+2013-05-08 10:45:18	<--	rakl (~rakl@208-90-212-125.PUBLIC.monkeybrains.net) has quit (Quit: sleeping)
+2013-05-08 10:45:25	justinyoung	I own a hosting company
+2013-05-08 10:45:31	justinyoung	I am trying to drive traffic to my site
+2013-05-08 10:45:40	justinyoung	Any idea on what I should write an article on?
+2013-05-08 10:45:40	<--	Criztian (~criztian@cust.dyn.95-152-98-86.swisscomdata.ch) has quit (Remote host closed the connection)
+2013-05-08 10:45:44	hawtin	alex88 you are quite right 1 css pixel = 2 physical pixels
+2013-05-08 10:45:50	<--	Baracoot (~quassel@c-76-99-184-67.hsd1.de.comcast.net) has quit (Remote host closed the connection)
+2013-05-08 10:45:54	alex88	hawtin: correct ;)
+2013-05-08 10:45:56	justinyoung	I have an extensive knowledge in web-dev, design, and UI/UX
+2013-05-08 10:45:59	hawtin	so you are on the money but still don't see a problem in using the media queries
+2013-05-08 10:46:10	-->	Criztian (~criztian@cust.dyn.95-152-98-86.swisscomdata.ch) has joined #css
+2013-05-08 10:46:19	justinyoung	Anyone?
+2013-05-08 10:46:20	hawtin	justinyoung
+2013-05-08 10:46:37	hawtin	maybe save some money and use google ad words
+2013-05-08 10:46:42	justinyoung	I am
+2013-05-08 10:46:42	hawtin	much more easy
+2013-05-08 10:46:46	alex88	hawtin: have to to them on multiple text containers, with a solution I would have set that to all of them without bothering about sizes in each case
+2013-05-08 10:46:48	justinyoung	But its pretty dismal
+2013-05-08 10:47:05	justinyoung	Web hosting is a super impacted ad field
+2013-05-08 10:47:12	hawtin	yep
+2013-05-08 10:47:14	justinyoung	Most web host company owners are pretty savvy
+2013-05-08 10:47:43	justinyoung	So site partnerships, social networking, and blog posts are the way to go
+2013-05-08 10:48:01	-->	plambwk (~whoopie@173-11-7-213-oregon.hfc.comcastbusiness.net) has joined #css
+2013-05-08 10:48:06	justinyoung	FB ads get me 2x as many views per a dollar
+2013-05-08 10:48:13	<--	alphanum (Random@unaffiliated/alpha-num-ber) has quit (Ping timeout: 256 seconds)
+2013-05-08 10:48:14	justinyoung	actually closer to 3x
+2013-05-08 10:48:23	justinyoung	+ the Facebook page hits
+2013-05-08 10:48:25	hawtin	fb ads are just non-sense
+2013-05-08 10:48:36	justinyoung	Idk, I got my first customer via fb ads
+2013-05-08 10:49:09	hawtin	you can make a partnership with well-known web-design sites that are commercial and well trusted
+2013-05-08 10:49:18	hawtin	cause from there you will get exactly what you need
+2013-05-08 10:49:31	reisio	there are more efficient ways to pull the wool over people's eyes than advertizing
+2013-05-08 10:49:39	hawtin	like smashing magazine net magazine and other
+2013-05-08 10:50:09	hawtin	reisio please share
+2013-05-08 10:50:17	reisio	hawtin: politics
+2013-05-08 10:50:21	hawtin	:))
+2013-05-08 10:50:29	reisio	outright theft, etc.
+2013-05-08 10:50:29	<--	ctienrsg (~chatzilla@bonn-d932d95b.pool.mediaWays.net) has quit (Read error: Connection reset by peer)
+2013-05-08 10:50:45	<--	Senji (~Senji@46.10.81.168) has quit (Ping timeout: 248 seconds)
+2013-05-08 10:50:59	<--	dape8708 (~dani@freenode/sponsor/dape) has left #css ("Leaving")
+2013-05-08 10:51:00	hawtin	that's a way to go about it
+2013-05-08 10:51:00	-->	ctienrsg (~chatzilla@bonn-d932d95b.pool.mediaWays.net) has joined #css
+2013-05-08 10:51:25	-->	AndreasEri (~andreas@46-236-80-128.customer.t3.se) has joined #css
+2013-05-08 10:51:32	hawtin	but people are so .. they don;t even know whats up with them in this world
+2013-05-08 10:51:53	-->	m3pow (~chatzilla@46.102.13.225) has joined #css
+2013-05-08 10:51:54	hawtin	advertising is the way to go for commercial use
+2013-05-08 10:52:40	-->	sphenxes (~sphenxes@91-119-64-127.dynamic.xdsl-line.inode.at) has joined #css
+2013-05-08 10:52:48	justinyoung	Feedbacks: http://www.littlenimbus.com/whmcs/serverstatus.php?view=resolved
+2013-05-08 10:53:05	justinyoung	haha you guys are weird
+2013-05-08 10:53:10	hawtin	justinyoung use google keyword tools to see what kind of articles you can drive to your site
+2013-05-08 10:53:32	hawtin	more searches more visitors more money
+2013-05-08 10:53:49	justinyoung	Like figure out what gets the most searches?
+2013-05-08 10:53:55	justinyoung	Id figure things like
+2013-05-08 10:54:05	hawtin	yes
+2013-05-08 10:54:11	justinyoung	How to setup a custom email address domain
+2013-05-08 10:54:38	justinyoung	My $0.99 hosting plan might be good for that
+2013-05-08 10:55:00	hawtin	::)
+2013-05-08 10:55:29	<--	dopie (~dopie@69-84-122-215-dhcp.mia.fl.atlanticbb.net) has quit (Quit: Nettalk6 - www.ntalk.de)
+2013-05-08 10:56:01	hawtin	you may want to add a 2-3 dollar there. most of people may think that there's a trick to it.
+2013-05-08 10:56:12	-->	AladinBouzerd (~aladinbou@41.108.99.191) has joined #css
+2013-05-08 10:57:01	<--	Zauberfisch-idle (~Zauberfis@2a01:4f8:100:73c3::3) has quit (Ping timeout: 246 seconds)
+2013-05-08 10:57:33	justinyoung	Huh @hawtin?
+2013-05-08 10:58:02	hawtin	nothing i'll go back to work
+2013-05-08 10:58:04	hawtin	gl
+2013-05-08 10:58:08	hawtin	dont mind me
+2013-05-08 10:58:11	justinyoung	wuhh
+2013-05-08 10:58:32	-->	Kricir (~kricir@c-24-245-9-49.hsd1.mn.comcast.net) has joined #css
+2013-05-08 10:59:26	-->	drale2k (~drale2k@chello084113196096.1.14.vie.surfer.at) has joined #css
+2013-05-08 10:59:37	<--	AndreasEri (~andreas@46-236-80-128.customer.t3.se) has quit (Ping timeout: 245 seconds)
+2013-05-08 10:59:46	-->	oksushi (~oksushi@203-206-167-31.perm.iinet.net.au) has joined #css
+2013-05-08 11:03:03	<--	Kricir (~kricir@c-24-245-9-49.hsd1.mn.comcast.net) has quit (Ping timeout: 252 seconds)
+2013-05-08 11:03:21	-->	Noctrl- (~NoCtrl-@117.177.241.83.in-addr.dgcsystems.net) has joined #css
+2013-05-08 11:04:00	-->	threesome (~threesome@ip-94-113-12-74.net.upcbroadband.cz) has joined #css
+2013-05-08 11:04:36	<--	Noctrl (~NoCtrl-@117.177.241.83.in-addr.dgcsystems.net) has quit (Read error: Connection reset by peer)
+2013-05-08 11:04:42	<--	drale2k (~drale2k@chello084113196096.1.14.vie.surfer.at) has quit (Ping timeout: 252 seconds)
+2013-05-08 11:04:48	-->	scrupul0us1 (~bellwood@ny1-olr-noc1.turnkeyinternet.net) has joined #css
+2013-05-08 11:05:44	-->	franksta_ (~frankstal@pool-74-105-106-200.nwrknj.fios.verizon.net) has joined #css
+2013-05-08 11:06:34	-->	Moult_ (~dion@static.88-198-98-200.clients.your-server.de) has joined #css
+2013-05-08 11:06:40	-->	tashi__ (tashi@irc.dark-brightness.de) has joined #css
+2013-05-08 11:06:45	-->	romanovic_ (~romanovic@puritynine.com) has joined #css
+2013-05-08 11:06:48	-->	opalepatrick (~patrick@c126-34.i07-32.onvol.net) has joined #css
+2013-05-08 11:07:05	-->	Milos|Work_ (~Milos@office.hd.net.nz) has joined #css
+2013-05-08 11:07:29	-->	b0x (~b0x@unaffiliated/b0x) has joined #css
+2013-05-08 11:07:44	-->	needlz_ (~needlz@62.75.242.210) has joined #css
+2013-05-08 11:07:49	-->	clone1018_ (quasselcor@freq.in) has joined #css
+2013-05-08 11:08:40	-->	norm_ (~norm@ip-128-239-142-7.v4.wm.edu) has joined #css
+2013-05-08 11:09:10	-->	MikeD- (~mdoughert@nat1.pbp.com) has joined #css
+2013-05-08 11:09:11	-->	rizzuh (~rizzuh@unaffiliated/rizzuh) has joined #css
+2013-05-08 11:09:16	<--	b0xa (~b0x@unaffiliated/b0x) has quit (Ping timeout: 276 seconds)
+2013-05-08 11:09:20	-->	plabs (~Randal@pool-173-69-164-246.bltmmd.fios.verizon.net) has joined #css
+2013-05-08 11:09:49	-->	oogaw (wagoo@131-205.193-178.cust.bluewin.ch) has joined #css
+2013-05-08 11:10:26	-->	Adys_ (~adys@unaffiliated/adys) has joined #css
+2013-05-08 11:10:29	-->	GarethAdams (~garethada@pdpc/supporter/active/GarethAdams) has joined #css
+2013-05-08 11:10:36	-->	gkatsev_ (~gkatsev@oftn/board/gkatsev) has joined #css
+2013-05-08 11:10:39	-->	mogsy_ (~mogsy@90-229-167-160-no53.tbcn.telia.com) has joined #css
+2013-05-08 11:11:18	-->	mashlol_ (~mashlol@74.117.156.125) has joined #css
+2013-05-08 11:11:27	-->	balr0g_ (uid10099@gateway/web/irccloud.com/x-dxcndmwwanrevdby) has joined #css
+2013-05-08 11:11:31	-->	ilteris__ (~ilteris@cpe-67-243-59-135.nyc.res.rr.com) has joined #css
+2013-05-08 11:11:49	-->	oohnoitz` (septicore@gateway/shell/xzibition.com/x-ttvjexazzqvauybm) has joined #css
+2013-05-08 11:11:50	-->	Praise- (~Fat@unaffiliated/praise) has joined #css
+2013-05-08 11:11:54	-->	weeb1e (~quassel@41.86.98.15) has joined #css
+2013-05-08 11:12:03	-->	webfox (~webfox@177.41.191.47) has joined #css
+2013-05-08 11:12:06	-->	Joefish_ (~Joefish@109.230.231.118.serverbiz.org) has joined #css
+2013-05-08 11:12:26	-->	artgoeshere_ (~artgoeshe@154.51.136.40) has joined #css
+2013-05-08 11:12:26	<--	vsgill_ (~vsgill@host81-148-25-149.in-addr.btopenworld.com) has quit (Quit: so long...)
+2013-05-08 11:12:55	-->	kborchers_ (~kborchers@unaffiliated/kborchers) has joined #css
+2013-05-08 11:13:22	-->	HackeMate (~hxm@unaffiliated/hackemate) has joined #css
+2013-05-08 11:13:28	HackeMate	hello
+2013-05-08 11:13:34	-->	ojseph (~joe@rrcs-24-73-142-82.se.biz.rr.com) has joined #css
+2013-05-08 11:13:35	-->	Symmetri1 (aalston@symmetria.tenet.ac.za) has joined #css
+2013-05-08 11:13:41	-->	_if_ (~if@94-76-243-32.static.as29550.net) has joined #css
+2013-05-08 11:13:45	-->	AllStruck_ (~AllStruck@50.56.239.226) has joined #css
+2013-05-08 11:13:52	<--	Symmetria (aalston@symmetria.tenet.ac.za) has quit (Disconnected by services)
+2013-05-08 11:13:54	-->	alexwhitman_ (~alexwhitm@87-194-159-116.bethere.co.uk) has joined #css
+2013-05-08 11:13:56	--	Symmetri1 is now known as Symmetria
+2013-05-08 11:13:58	HackeMate	i have created a div simulating a toolbar, like the google's top bar, but the next <h1> appears under this toolbar
+2013-05-08 11:14:00	<--	Marwin (~quassel@p4FE9B752.dip0.t-ipconnect.de) has quit (Remote host closed the connection)
+2013-05-08 11:14:06	HackeMate	i used position absolute, where do i fail?
+2013-05-08 11:14:13	-->	vnn (vnn@tarvos.tamentis.com) has joined #css
+2013-05-08 11:14:29	<--	alexwhitman_ (~alexwhitm@87-194-159-116.bethere.co.uk) has quit (Client Quit)
+2013-05-08 11:14:38	-->	Zauberfisch-idle (~Zauberfis@2a01:4f8:100:73c3::3) has joined #css
+2013-05-08 11:14:42	<--	euphoriaa (znc@unaffiliated/euphoriaa) has quit (Disconnected by services)
+2013-05-08 11:14:47	-->	euphoriaa (znc@ns1.log1x.com) has joined #css
+2013-05-08 11:14:51	-->	zenodub_ (~zenodub@zenodub.com) has joined #css
+2013-05-08 11:14:54	<--	euphoriaa (znc@ns1.log1x.com) has quit (Changing host)
+2013-05-08 11:14:54	-->	euphoriaa (znc@unaffiliated/euphoriaa) has joined #css
+2013-05-08 11:14:58	<--	Cyberpew (~Cyberpew@66.248.200.232) has quit (*.net *.split)
+2013-05-08 11:14:58	<--	alexwhitman (~alexwhitm@87-194-159-116.bethere.co.uk) has quit (*.net *.split)
+2013-05-08 11:14:58	<--	TheCowboy (~TheCowboy@ip68-100-63-120.dc.dc.cox.net) has quit (*.net *.split)
+2013-05-08 11:14:58	<--	poutine (~poutine@never.go.full.trollbot.org) has quit (*.net *.split)
+2013-05-08 11:14:58	<--	mogsy (~mogsy@90-229-167-160-no53.tbcn.telia.com) has quit (*.net *.split)
+2013-05-08 11:14:58	<--	Milos|Work (~Milos@office.hd.net.nz) has quit (*.net *.split)
+2013-05-08 11:14:58	<--	tashi_ (tashi@irc.dark-brightness.de) has quit (*.net *.split)
+2013-05-08 11:14:58	<--	Moult (~dion@gentoo/developer/moult) has quit (*.net *.split)
+2013-05-08 11:14:58	<--	Wagoo (wagoo@131-205.193-178.cust.bluewin.ch) has quit (*.net *.split)
+2013-05-08 11:15:01	<--	Gingersnap (~Aww@unaffiliated/aww) has quit (*.net *.split)
+2013-05-08 11:15:01	<--	nemesit|znc (~nemesit|z@84.200.7.95) has quit (*.net *.split)
+2013-05-08 11:15:01	<--	Internet13 (chatzilla@cpc20-croy20-2-0-cust129.19-2.cable.virginmedia.com) has quit (*.net *.split)
+2013-05-08 11:15:01	<--	scrupul0us (~bellwood@ny1-olr-noc1.turnkeyinternet.net) has quit (*.net *.split)
+2013-05-08 11:15:02	<--	Joefish (~Joefish@109.230.231.118.serverbiz.org) has quit (*.net *.split)
+2013-05-08 11:15:02	<--	norm (~norm@ip-128-239-142-7.v4.wm.edu) has quit (*.net *.split)
+2013-05-08 11:15:02	<--	frankstallone (~frankstal@pool-74-105-106-200.nwrknj.fios.verizon.net) has quit (*.net *.split)
+2013-05-08 11:15:02	<--	gkatsev (~gkatsev@oftn/board/gkatsev) has quit (*.net *.split)
+2013-05-08 11:15:02	<--	needlz (~needlz@62.75.242.210) has quit (*.net *.split)
+2013-05-08 11:15:02	<--	clone1018 (quasselcor@208.68.38.201) has quit (*.net *.split)
+2013-05-08 11:15:02	<--	artgoeshere (~artgoeshe@154.51.136.40) has quit (*.net *.split)
+2013-05-08 11:15:02	<--	Romnous (~romnous@unaffiliated/romnous) has quit (*.net *.split)
+2013-05-08 11:15:02	<--	romanovic (~romanovic@puritynine.com) has quit (*.net *.split)
+2013-05-08 11:15:02	<--	kborchers (~kborchers@unaffiliated/kborchers) has quit (*.net *.split)
+2013-05-08 11:15:02	-->	alexwhitman_ (~alexwhitm@87-194-159-116.bethere.co.uk) has joined #css
+2013-05-08 11:15:02	--	norm_ is now known as norm
+2013-05-08 11:15:02	--	kborchers_ is now known as kborchers
+2013-05-08 11:15:16	<--	JoeyJoeJo (~brian@pool-71-171-107-196.clppva.fios.verizon.net) has quit (Ping timeout: 256 seconds)
+2013-05-08 11:15:18	-->	nemesit|znc (~nemesit|z@84.200.7.95) has joined #css
+2013-05-08 11:15:22	--	Milos|Work_ is now known as Milos|Work
+2013-05-08 11:15:22	--	tashi__ is now known as tashi_
+2013-05-08 11:15:41	<--	mogsy_ (~mogsy@90-229-167-160-no53.tbcn.telia.com) has quit (Quit: Leaving)
+2013-05-08 11:15:54	-->	mogsy_ (~mogsy@90-229-167-160-no53.tbcn.telia.com) has joined #css
+2013-05-08 11:15:54	HackeMate	ah, relative
+2013-05-08 11:16:04	-->	JoeyJoeJo (~brian@pool-71-171-107-196.clppva.fios.verizon.net) has joined #css
+2013-05-08 11:16:05	<--	KidBeta (~KidBeta@hpavc/kidbeta) has quit (Quit: Computer has gone to sleep.)
+2013-05-08 11:16:15	-->	Cyberpew|Away (~Cyberpew@66.248.200.232) has joined #css
+2013-05-08 11:16:17	<--	mogsy_ (~mogsy@90-229-167-160-no53.tbcn.telia.com) has quit (Read error: Connection reset by peer)
+2013-05-08 11:16:31	--	Cyberpew|Away is now known as Cyberpew
+2013-05-08 11:16:31	-->	mogsy (~mogsy@90-229-167-160-no53.tbcn.telia.com) has joined #css
+2013-05-08 11:16:48	-->	poutine_ (~poutine@never.go.full.trollbot.org) has joined #css
+2013-05-08 11:17:53	--	alexwhitman_ is now known as alexwhitman
+2013-05-08 11:17:53	pedrogpimenta	HackeMate: that's extremely vague. could you point to a site or a codepen or something?
+2013-05-08 11:17:54	-->	Internet13 (chatzilla@cpc20-croy20-2-0-cust129.19-2.cable.virginmedia.com) has joined #css
+2013-05-08 11:18:41	HackeMate	yes sorry, look at this http://conoced.me/prueba.xhtml the "b" is under the div
+2013-05-08 11:18:48	<--	AladinBouzerd (~aladinbou@41.108.99.191) has quit (Ping timeout: 245 seconds)
+2013-05-08 11:18:59	HackeMate	i use aloha-editor and i think its aloha-webkit class does the mess
+2013-05-08 11:19:50	-->	Milossh (~milos@unaffiliated/milossh) has joined #css
+2013-05-08 11:19:55	-->	Famic_ (famic@hidden.dns.ug) has joined #css
+2013-05-08 11:19:56	--	HackeMate is now known as hxm
+2013-05-08 11:20:16	<--	Jaac (~justme@unaffiliated/jaac) has quit (Remote host closed the connection)
+2013-05-08 11:20:29	<--	ctienrsg (~chatzilla@bonn-d932d95b.pool.mediaWays.net) has quit (Read error: Connection reset by peer)
+2013-05-08 11:20:30	-->	Jaac (~justme@unaffiliated/jaac) has joined #css
+2013-05-08 11:20:35	pedrogpimenta	hxm: where do you want "prueba" to be?
+2013-05-08 11:20:53	hxm	just after the div, not under it
+2013-05-08 11:20:58	-->	ctienrsg (~chatzilla@bonn-d932d95b.pool.mediaWays.net) has joined #css
+2013-05-08 11:21:02	<--	oohnoitz (septicore@gateway/shell/xzibition.com/x-ylbazjkyidxayovn) has quit (*.net *.split)
+2013-05-08 11:21:02	<--	Woet (~Woet@unaffiliated/woet) has quit (*.net *.split)
+2013-05-08 11:21:02	<--	webfox_ (~webfox@177.41.191.47) has quit (*.net *.split)
+2013-05-08 11:21:02	<--	joseph (~joe@unaffiliated/joseph) has quit (*.net *.split)
+2013-05-08 11:21:02	<--	MikeD_ (~mdoughert@nat1.pbp.com) has quit (*.net *.split)
+2013-05-08 11:21:02	<--	Adys (~adys@unaffiliated/adys) has quit (*.net *.split)
+2013-05-08 11:21:02	<--	procyonlabs (~Randal@pool-173-69-164-246.bltmmd.fios.verizon.net) has quit (*.net *.split)
+2013-05-08 11:21:02	<--	SirFunk (SirFunk@2600:3c03::f03c:91ff:fe93:11b3) has quit (*.net *.split)
+2013-05-08 11:21:02	<--	cH40z-Lord (~chaoslord@static-87-79-66-116.netcologne.de) has quit (*.net *.split)
+2013-05-08 11:21:02	<--	Praise (~Fat@unaffiliated/praise) has quit (*.net *.split)
+2013-05-08 11:21:02	<--	zenodub (~zenodub@zenodub.com) has quit (*.net *.split)
+2013-05-08 11:21:04	<--	tirengarfio_ (~tirengarf@64.Red-79-157-113.dynamicIP.rima-tde.net) has quit (*.net *.split)
+2013-05-08 11:21:04	<--	ilteris_ (~ilteris@cpe-67-243-59-135.nyc.res.rr.com) has quit (*.net *.split)
+2013-05-08 11:21:04	<--	AllStruck (~AllStruck@50.56.239.226) has quit (*.net *.split)
+2013-05-08 11:21:04	<--	balr0g (uid10099@gateway/web/irccloud.com/x-fcgswxjfcomnosaa) has quit (*.net *.split)
+2013-05-08 11:21:04	<--	Toerkeium (~Miranda@bw-54-211.dnsba.com) has quit (*.net *.split)
+2013-05-08 11:21:04	<--	miosx (~miosx@nat/hp/x-cugyfwazpplkgpwx) has quit (*.net *.split)
+2013-05-08 11:21:04	<--	mashlol (~mashlol@74.117.156.125) has quit (*.net *.split)
+2013-05-08 11:21:04	<--	_if (~if@94-76-243-32.static.as29550.net) has quit (*.net *.split)
+2013-05-08 11:21:04	<--	Famic (famic@hidden.dns.ug) has quit (*.net *.split)
+2013-05-08 11:21:05	<--	weeb1e_ (~quassel@41.86.98.15) has quit (*.net *.split)
+2013-05-08 11:21:05	<--	vnn_ (vnn@tarvos.tamentis.com) has quit (*.net *.split)
+2013-05-08 11:21:05	<--	aca20031 (~aca@2607:5300:60:2c95::1) has quit (*.net *.split)
+2013-05-08 11:21:05	--	AllStruck_ is now known as AllStruck
+2013-05-08 11:21:25	hxm	i want the #page-toolbar be a reversed space for buttons
+2013-05-08 11:21:29	-->	cH40z-Lord (~chaoslord@static-87-79-66-116.netcologne.de) has joined #css
+2013-05-08 11:22:23	-->	dhruvasagar (~dhruvasag@122.166.165.17) has joined #css
+2013-05-08 11:22:28	pedrogpimenta	hxm: because the toolbar is position:absolute, other divs don't care about it's size or position, they don't account for it
+2013-05-08 11:22:30	-->	Romnous (~romnous@romnous.student.utwente.nl) has joined #css
+2013-05-08 11:22:30	<--	Romnous (~romnous@romnous.student.utwente.nl) has quit (Changing host)
+2013-05-08 11:22:30	-->	Romnous (~romnous@unaffiliated/romnous) has joined #css
+2013-05-08 11:22:49	pedrogpimenta	that's why it goes under the div
+2013-05-08 11:23:17	pedrogpimenta	also, content doesn't go under, it goes above
+2013-05-08 11:23:34	hxm	i used relative, but then i dont get the toolbar at the top right up
+2013-05-08 11:23:36	pedrogpimenta	(try adding different colors to it, so it is clear)
+2013-05-08 11:23:37	hxm	i see a margin
+2013-05-08 11:23:41	--	balr0g_ is now known as balr0g
+2013-05-08 11:24:05	-->	alicia_ba (~none@224.sub-75-253-11.myvzw.com) has joined #css
+2013-05-08 11:24:11	<--	alicia_b (~none@224.sub-75-253-11.myvzw.com) has quit (Disconnected by services)
+2013-05-08 11:24:34	-->	TheCowboy (~TheCowboy@ip68-100-63-120.dc.dc.cox.net) has joined #css
+2013-05-08 11:25:00	-->	tirengarfio_ (~tirengarf@64.Red-79-157-113.dynamicIP.rima-tde.net) has joined #css
+2013-05-08 11:25:27	<--	JackH (~none@client-86-29-47-62.glfd.adsl.virginmedia.com) has quit (Quit: « ExcursionX » Info«v» Channel«#Excursion on EF.Net»)
+2013-05-08 11:26:49	<--	mven (~mven@ip68-224-15-53.lv.lv.cox.net) has quit (Ping timeout: 276 seconds)
+2013-05-08 11:27:51	<--	relix (~david@97.248.35.213.dyn.estpak.ee) has quit (Quit: relix)
+2013-05-08 11:30:26	-->	drale2k (~drale2k@chello084113196096.1.14.vie.surfer.at) has joined #css
+2013-05-08 11:34:16	-->	Guddu (~Guddu@unaffiliated/guddu) has joined #css
+2013-05-08 11:34:40	Guddu	Could someone tell me from where this text Sub is coming up http://jsfiddle.net/5xGnt/
+2013-05-08 11:35:12	<--	MaSOuD (DC@unaffiliated/masoud) has quit
+2013-05-08 11:35:45	pedrogpimenta	hxm: you need to define body margin and padding to 0
+2013-05-08 11:35:58	-->	amogorkon (~quassel@piratenpartei/bw/amogorkon) has joined #css
+2013-05-08 11:36:13	pedrogpimenta	hxm: and then I see there's something with your h1 that's also creating a space above the toolbar
+2013-05-08 11:37:09	-->	DoniRS (~DoniRS@ip4da37ebf.direct-adsl.nl) has joined #css
+2013-05-08 11:37:25	pedrogpimenta	Guddu: because you have a button which type is "submit", so the browser puts it ther
+2013-05-08 11:37:45	Guddu	pedrogpimenta, But then how do i get to see only image and not the text?
+2013-05-08 11:38:07	pedrogpimenta	Guddu: text-indent:-9999px; (that's one way)
+2013-05-08 11:38:08	Guddu	pedrogpimenta, It is showing up like that in all browsers
+2013-05-08 11:38:19	-->	mven (~mven@ip68-224-15-53.lv.lv.cox.net) has joined #css
+2013-05-08 11:38:35	<--	ElGrotto (~ElGrotto@unaffiliated/elgrotto) has quit (Ping timeout: 255 seconds)
+2013-05-08 11:38:37	Guddu	pedrogpimenta, Why does this work then? http://jsfiddle.net/jw8ac/
+2013-05-08 11:39:00	Guddu	Because type=image?
+2013-05-08 11:39:11	pedrogpimenta	Guddu: exactly
+2013-05-08 11:39:24	pedrogpimenta	type is not submit, so the browser doesn't show the text
+2013-05-08 11:39:27	<--	dhruvasagar (~dhruvasag@122.166.165.17) has quit (Read error: Operation timed out)
+2013-05-08 11:39:47	-->	HyP3r (~hyp3r@p3EE25790.dip0.t-ipconnect.de) has joined #css
+2013-05-08 11:40:11	-->	MaSOuD (DC@unaffiliated/masoud) has joined #css
+2013-05-08 11:40:43	Guddu	pedrogpimenta, input type=image will also submit the form in the same way right?
+2013-05-08 11:41:46	pedrogpimenta	Guddu: i'm not sure. I think it needs to be submit, so you can assign it an 'action'
+2013-05-08 11:41:55	<--	plambwk (~whoopie@173-11-7-213-oregon.hfc.comcastbusiness.net) has quit (Ping timeout: 264 seconds)
+2013-05-08 11:41:57	GarethAdams	type=image *will* submit the form, but if you have both a name/value set on the input don't expect it to be sent properly in IE
+2013-05-08 11:42:22	pedrogpimenta	Guddu: GarethAdams seems to know more than me :)
+2013-05-08 11:42:42	Guddu	Thanks
+2013-05-08 11:42:54	-->	widoz (~wido@host32-111-dynamic.35-79-r.retail.telecomitalia.it) has joined #css
+2013-05-08 11:45:01	-->	ph88 (2e2c9618@gateway/web/freenode/ip.46.44.150.24) has joined #css
+2013-05-08 11:45:03	<--	Dunstkreis (~Miranda@p54BB27F0.dip0.t-ipconnect.de) has quit (Quit: ><///(°> *blubb* <*)))><)
+2013-05-08 11:45:40	<--	NwS (~NwS@ppp-94-68-164-222.home.otenet.gr) has quit (Ping timeout: 246 seconds)
+2013-05-08 11:45:50	<--	leb (~textual@c-24-7-83-224.hsd1.ca.comcast.net) has quit (Quit: Computer has gone to sleep.)
+2013-05-08 11:45:59	-->	KolakCC (KolakCC@unaffiliated/kolakcc) has joined #css
+2013-05-08 11:46:50	-->	memesys (~NotYou@dsl-tkubrasgw1-54fa1f-121.dhcp.inet.fi) has joined #css
+2013-05-08 11:46:52	Guddu	pedrogpimenta, GarethAdams Could you tell me why this buttons image shows up like this in IE http://imgur.com/7P2YvGW while in Chrome it looks just fine http://imgur.com/ieTWZ5O
+2013-05-08 11:48:21	pedrogpimenta	Guddu: no idea. is that like a clickable button inside the button image?
+2013-05-08 11:48:22	-->	alphanum (Random@ip68-98-32-208.ph.ph.cox.net) has joined #css
+2013-05-08 11:48:48	Guddu	pedrogpimenta, Looks like a image icon to me
+2013-05-08 11:48:56	Guddu	IE sucks big time pedrogpimenta
+2013-05-08 11:49:04	Guddu	:-(
+2013-05-08 11:49:12	Guddu	I have no clue how iw ill solve that
+2013-05-08 11:49:14	Guddu	:'(
+2013-05-08 11:49:18	pedrogpimenta	Guddu: yes i know. right now I'm correcting stuff for a website on IE
+2013-05-08 11:49:30	pedrogpimenta	gradients are a pain in the back
+2013-05-08 11:49:44	pedrogpimenta	but at least i can do it
+2013-05-08 11:49:47	Guddu	pedrogpimenta, DO you know of a way to have both the Button and the image button aligned vertically?
+2013-05-08 11:50:10	pedrogpimenta	Guddu: does it need to be a button? can't it be a simple link?
+2013-05-08 11:50:13	Guddu	Right now the image button shows up a little above the vertical level of the button itself
+2013-05-08 11:50:26	pedrogpimenta	Guddu: give it some top-margin
+2013-05-08 11:50:28	Guddu	pedrogpimenta, I am submitting a form via click on that image
+2013-05-08 11:50:29	<--	ctienrsg (~chatzilla@bonn-d932d95b.pool.mediaWays.net) has quit (Read error: Connection reset by peer)
+2013-05-08 11:50:57	-->	ctienrsg (~chatzilla@bonn-d932d95b.pool.mediaWays.net) has joined #css
+2013-05-08 11:51:03	<--	marcogmonteiro (~marcogmon@62.28.236.130) has quit (Ping timeout: 252 seconds)
+2013-05-08 11:51:22	pedrogpimenta	Guddu: i don't know then. try searching for "image above image button on IE" or seomthing. I've never seen that
+2013-05-08 11:51:44	Guddu	pedrogpimenta, I give it a margin-top and both buttons keep going down together :(
+2013-05-08 11:52:16	pedrogpimenta	Guddu: isn't that the icon that shows up when you hover an image on IE? there's got to be a way to get rid of that
+2013-05-08 11:52:40	Guddu	pedrogpimenta, Yes...Trying to check that
+2013-05-08 11:52:51	pedrogpimenta	Guddu: apply the margin-top to input[type=image] only, not all inputs
+2013-05-08 11:53:19	-->	RET (~Chris@unaffiliated/kotret) has joined #css
+2013-05-08 11:53:47	-->	Squarepy (~Squarepy@unaffiliated/squarepy) has joined #css
+2013-05-08 11:54:01	-->	AladinBouzerd (~aladinbou@41.108.99.191) has joined #css
+2013-05-08 11:54:14	RET	all the sticky footer examles are based on margins and paddings that are determined by the footers height - is there ANY solution that does not pay attention on the footers height?
+2013-05-08 11:54:14	-->	TigerParket (~tigerpark@adsl196-213-184-217-196.adsl196-14.iam.net.ma) has joined #css
+2013-05-08 11:55:01	Guddu	pedrogpimenta, I am applying it only to my image button. In fact I am changing that in Chromes Insepctor to see how it behaves and it moves both bttons dowsn
+2013-05-08 11:55:23	Guddu	http://dpaste.com/1122760/
+2013-05-08 11:56:08	pedrogpimenta	Guddu: try forcing all margin and padding on both buttons
+2013-05-08 11:56:26	-->	dxgriffiths (~anonymous@203.206.174.152) has joined #css
+2013-05-08 11:57:02	<--	Bosox20051 (~Bosox2005@unaffiliated/bosox20051) has quit (Ping timeout: 255 seconds)
+2013-05-08 11:57:39	-->	needsomehelp (~NeedSomeH@188.151.23.146) has joined #css
+2013-05-08 11:58:20	-->	mitzev_ (~mitzev_@61.173.80.125) has joined #css
+2013-05-08 11:59:06	-->	Kricir (~kricir@c-24-245-9-49.hsd1.mn.comcast.net) has joined #css
+2013-05-08 12:00:03	-->	edgeuplink (~edgeup@a81-84-242-11.static.cpe.netcabo.pt) has joined #css
+2013-05-08 12:00:04	-->	JackH (~none@client-86-29-47-62.glfd.adsl.virginmedia.com) has joined #css
+2013-05-08 12:00:13	memesys	RET: what is the problem with the footer for you?
+2013-05-08 12:00:39	-->	plambwk (~whoopie@173-11-7-213-oregon.hfc.comcastbusiness.net) has joined #css
+2013-05-08 12:00:42	RET	memesys: i need the footer to be of unknown height
+2013-05-08 12:01:19	RET	so that it will expand smoothly if i add some content there, without readjusting the css
+2013-05-08 12:01:46	-->	KidBeta (~KidBeta@hpavc/kidbeta) has joined #css
+2013-05-08 12:03:08	RET	im searching for a no-js-solution, atm reading http://pixelsvsbytes.com/blog/2011/09/sticky-css-footers-the-flexible-way/
+2013-05-08 12:03:33	<--	Kricir (~kricir@c-24-245-9-49.hsd1.mn.comcast.net) has quit (Ping timeout: 252 seconds)
+2013-05-08 12:04:12	<--	vptsar``` (~user@mail.bmr.gov.ua) has quit (Ping timeout: 245 seconds)
+2013-05-08 12:04:25	<--	Kocho (~Chris@unaffiliated/kocho) has quit (Quit: medos left the chat room.)
+2013-05-08 12:04:48	-->	Acrack (~Adium@ADijon-651-1-266-120.w90-6.abo.wanadoo.fr) has joined #css
+2013-05-08 12:05:37	<--	TigerParket (~tigerpark@adsl196-213-184-217-196.adsl196-14.iam.net.ma) has quit (Remote host closed the connection)
+2013-05-08 12:05:40	-->	CaptainHeavy (~chatzilla@host81-148-52-113.in-addr.btopenworld.com) has joined #css
+2013-05-08 12:07:22	CaptainHeavy	hey everyone :)  I'm looking to position a text area inside a div class.  At the moment I've given the text area its own id and I'd like to tell the text area to be positioned to the right of its containing div.  What's the best way to do this?
+2013-05-08 12:07:54	reisio	margin
+2013-05-08 12:09:19	-->	ElGrotto (~ElGrotto@unaffiliated/elgrotto) has joined #css
+2013-05-08 12:10:42	<--	reisio (~reisio@unaffiliated/reisio) has quit (Quit: Why iiiiissss his head so big!)
+2013-05-08 12:11:57	CaptainHeavy	reisio: cool, thank you :)
+2013-05-08 12:11:58	-->	esion (~chatzilla@host86-184-245-217.range86-184.btcentralplus.com) has joined #css
+2013-05-08 12:13:59	-->	NET||abuse (~luke@176.27.229.221) has joined #css
+2013-05-08 12:14:17	NET||abuse	hi folks, i've a challenge,, how do i get the symbols here http://jsfiddle.net/lukeab/bw4T3/2/   to be in line with the values
+2013-05-08 12:14:30	<--	drale2k (~drale2k@chello084113196096.1.14.vie.surfer.at) has quit (Ping timeout: 252 seconds)
+2013-05-08 12:14:37	NET||abuse	the + and the = symbols need to be inline with the pound values.
+2013-05-08 12:14:44	NET||abuse	not the labels below them.
+2013-05-08 12:15:31	NET||abuse	margin-bottom seems to have no effect.
+2013-05-08 12:15:54	NET||abuse	the .symbol css class is at the bottom of the css tab
+2013-05-08 12:16:13	NET||abuse	line-height causes other problems.
+2013-05-08 12:18:13	oksushi	NET||abuse: umm, why are you using <label> there?
+2013-05-08 12:18:29	oksushi	doesn’t look like a form…
+2013-05-08 12:18:38	-->	e-anima (~eanima@p4FF8A151.dip0.t-ipconnect.de) has joined #css
+2013-05-08 12:19:00	NET||abuse	yeh, i oculd use a span. i guess something in my head thought label was semantic in that case
+2013-05-08 12:19:08	NET||abuse	but your right, that's not the real use
+2013-05-08 12:19:20	NET||abuse	shouldn't really affect anything though no?
+2013-05-08 12:19:32	oksushi	well, you have an HTML problem to solve first
+2013-05-08 12:20:29	<--	ctienrsg (~chatzilla@bonn-d932d95b.pool.mediaWays.net) has quit (Read error: Connection reset by peer)
+2013-05-08 12:20:53	<--	BuenGenio (~BuenGenio@202.82.246.209) has quit (Ping timeout: 248 seconds)
+2013-05-08 12:20:57	-->	ctienrsg (~chatzilla@bonn-d932d95b.pool.mediaWays.net) has joined #css
+2013-05-08 12:21:03	<--	calbasi (~joan@34.72.14.37.dynamic.jazztel.es) has left #css
+2013-05-08 12:22:06	-->	ParanoidGal (~ParanoidG@host81-159-95-2.range81-159.btcentralplus.com) has joined #css
+2013-05-08 12:23:57	NET||abuse	oksushi: ok, so they are now spans's class="label"
+2013-05-08 12:24:10	NET||abuse	but still, the symbol how to vertically align it to the value's ?
+2013-05-08 12:24:27	-->	sghe (~sghe@2-229-53-194.ip195.fastwebnet.it) has joined #css
+2013-05-08 12:24:29	oksushi	what’s the URL?
+2013-05-08 12:24:36	NET||abuse	http://jsfiddle.net/lukeab/bw4T3/4/
+2013-05-08 12:24:38	NET||abuse	sorry :)
+2013-05-08 12:24:49	<--	esion (~chatzilla@host86-184-245-217.range86-184.btcentralplus.com) has quit (Ping timeout: 256 seconds)
+2013-05-08 12:25:04	-->	TigerParket (~tigerpark@adsl196-213-184-217-196.adsl196-14.iam.net.ma) has joined #css
+2013-05-08 12:25:52	<--	jrockjiggz (jrockjiggz@CPE602ad0785526-CM602ad0785523.cpe.net.cable.rogers.com) has quit
+2013-05-08 12:26:22	-->	curvedmark (~curvedmar@122.247.216.58) has joined #css
+2013-05-08 12:26:24	CaptainHeavy	OK, following on from the earlier question I have a text area and some text (a username) that is placed inside a div, I want to get the text to appear to the left of the text box (which will be on the right), how would that be done?
+2013-05-08 12:26:58	-->	esion (~chatzilla@host86-184-245-217.range86-184.btcentralplus.com) has joined #css
+2013-05-08 12:27:16	-->	dhruvasagar (~dhruvasag@122.166.165.17) has joined #css
+2013-05-08 12:28:10	oksushi	NET||abuse: I’d do something like http://jsfiddle.net/bw4T3/6/
+2013-05-08 12:28:19	oksushi	`live @ CaptainHeavy
+2013-05-08 12:28:37	oksushi	oh, no bot. CaptainHeavy, please supply a link to your page
+2013-05-08 12:29:13	NET||abuse	oksushi: what did you do?  just doesn't seem to be any different.
+2013-05-08 12:29:27	NET||abuse	the symbols are still not inline witht he values.
+2013-05-08 12:29:31	-->	tk__ (~tk@p087.net120137248.tokai.or.jp) has joined #css
+2013-05-08 12:29:40	ole	does anybody know what I can do to get around the chrome bug that containers with floating elements dont "auto size" correctly?
+2013-05-08 12:29:51	oksushi	NET||abuse: then manipulate the bottom values
+2013-05-08 12:30:16	oksushi	ole: example URL showing the bug?
+2013-05-08 12:30:20	ole	no matter what, chrome seems to calculate the box to be 3 pixels less than it should be to not jump the last element down
+2013-05-08 12:30:22	-->	WeThePeople (~WeThePeop@63.91.27.121) has joined #css
+2013-05-08 12:30:50	-->	reZo (gareth@203.160.125.127) has joined #css
+2013-05-08 12:30:53	NET||abuse	oksushi: i'm not sure what you mean?
+2013-05-08 12:30:53	CaptainHeavy	Ah, its on localhost at the moment.  I'll try to describe it a bit better: there's a div with class 'addNote' that contains two other divs with ID's 'noteUserDetails' and 'addNoteText'.  I've floated 'noteUserDetails' to the left and 'addNoteText' to the right but now the 'addNote' div doesn't "cover" i.e. the background does not vertically span, the two contained divs
+2013-05-08 12:30:54	-->	Woet (~Woet@2604:4300:a:32:20c:29ff:fe65:460d) has joined #css
+2013-05-08 12:30:54	<--	Woet (~Woet@2604:4300:a:32:20c:29ff:fe65:460d) has quit (Changing host)
+2013-05-08 12:30:54	-->	Woet (~Woet@unaffiliated/woet) has joined #css
+2013-05-08 12:31:07	oksushi	CaptainHeavy: descriptions kinda suck.
+2013-05-08 12:31:13	-->	SirFunk (SirFunk@2600:3c03::f03c:91ff:fe93:11b3) has joined #css
+2013-05-08 12:31:15	oksushi	CaptainHeavy: webdevout.net/test
+2013-05-08 12:31:15	-->	aca20031 (~aca@2607:5300:60:2c95::1) has joined #css
+2013-05-08 12:31:17	CaptainHeavy	oksushi: I know, sorry :(
+2013-05-08 12:32:20	-->	kristofers (~kristofer@27.79-160-186.customer.lyse.net) has joined #css
+2013-05-08 12:33:10	justinyoung	Who was complaining about no contact form before?!
+2013-05-08 12:33:15	justinyoung	http://www.littlenimbus.com/whmcs/contact.php haha!
+2013-05-08 12:33:20	justinyoung	Feedbacks?
+2013-05-08 12:33:27	CaptainHeavy	oksushi: just converting the code I have from PHP to HTML (there's convenience functions implemented for generating text inputs etc)
+2013-05-08 12:33:33	<--	Milossh (~milos@unaffiliated/milossh) has quit (Quit: Computer has gone to sleep.)
+2013-05-08 12:33:36	justinyoung	Also idk why recaptcha is crushing itself
+2013-05-08 12:33:45	oksushi	justinyoung: don’t spam here, last warning
+2013-05-08 12:33:58	memesys	CaptainHeavy: viewsource in your browser, copy html there
+2013-05-08 12:34:09	justinyoung	sushi I am not spamming
+2013-05-08 12:34:12	CaptainHeavy	memesys: christ yes of course, idiot haha
+2013-05-08 12:34:26	oksushi	You've been spamming your new hosting company site for a couple of days now
+2013-05-08 12:34:28	memesys	CaptainHeavy: no not idiot :)
+2013-05-08 12:34:39	justinyoung	fair enough
+2013-05-08 12:34:40	<--	dhruvasagar (~dhruvasag@122.166.165.17) has quit (Ping timeout: 246 seconds)
+2013-05-08 12:34:41	memesys	a couple of days? you let him go that long?
+2013-05-08 12:34:50	justinyoung	but that last message wasn't spam
+2013-05-08 12:34:51	oksushi	not spamming in here :)
+2013-05-08 12:35:45	justinyoung	So I can't link work related to my hosting company?
+2013-05-08 12:35:49	justinyoung	That's hardly fair
+2013-05-08 12:36:16	-->	d_d_d (~d_d_d@119.192.24.164) has joined #css
+2013-05-08 12:36:22	CaptainHeavy	ah first thing, I'm ID'ing the textarea not the div, hang on...
+2013-05-08 12:36:28	oksushi	if you have a specific CSS question…
+2013-05-08 12:36:37	Guddu	Could someone help me with this? Basically the Two Buttons are not showing up Verticallly aligned. What could be the issue? http://jsfiddle.net/exTSj/
+2013-05-08 12:36:41	-->	dhruvasagar (~dhruvasag@122.167.225.149) has joined #css
+2013-05-08 12:37:12	oksushi	Guddu: the issue is that you didn't set vertical-align
+2013-05-08 12:37:39	Guddu	Thanks oksushi I am lookkng at it now
+2013-05-08 12:37:42	justinyoung	fair enough
+2013-05-08 12:37:44	<--	TigerParket (~tigerpark@adsl196-213-184-217-196.adsl196-14.iam.net.ma) has quit (Remote host closed the connection)
+2013-05-08 12:38:27	Guddu	oksushi,  :-) Thanks
+2013-05-08 12:39:23	justinyoung	oksushi, real css question time http://www.littlenimbus.com/whmcs/cart.php?a=view any idea on how to get these form elements to do block behavior?
+2013-05-08 12:39:26	justinyoung	the inputs
+2013-05-08 12:39:50	oksushi	What is 'block behaviour'?
+2013-05-08 12:40:19	oksushi	justinyoung: "This order form is provided in a secure environment and to help protect against fraud your current IP address " umm, no it’s not
+2013-05-08 12:40:34	<--	WeThePeople (~WeThePeop@63.91.27.121) has quit (Changing host)
+2013-05-08 12:40:34	-->	WeThePeople (~WeThePeop@unaffiliated/wethepeople) has joined #css
+2013-05-08 12:40:38	justinyoung	haha I need to get my https certificate
+2013-05-08 12:41:09	justinyoung	oksushi 100% width of parent div
+2013-05-08 12:41:59	Guddu	Oksushi Could you please tell me why this buttons image shows up like this in IE http://imgur.com/7P2YvGW while in Chrome it looks just fine http://imgur.com/ieTWZ5O
+2013-05-08 12:42:02	<--	plambwk (~whoopie@173-11-7-213-oregon.hfc.comcastbusiness.net) has quit (Ping timeout: 255 seconds)
+2013-05-08 12:42:10	oksushi	justinyoung: you are setting the width on them
+2013-05-08 12:42:12	Guddu	Its as if some thumbnail is showing up over the image
+2013-05-08 12:42:30	justinyoung	Yeah right now I am but they will just get smaller if I do
+2013-05-08 12:42:34	oksushi	Guddu: It’s IE, man.
+2013-05-08 12:42:42	Guddu	oksushi, :(
+2013-05-08 12:42:42	oksushi	justinyoung: …
+2013-05-08 12:42:51	justinyoung	I mean
+2013-05-08 12:42:55	justinyoung	take it off
+2013-05-08 12:43:08	justinyoung	I don't want to just hardcode the width in px
+2013-05-08 12:43:17	oksushi	You just showed why CSS Frameworks kind of suck
+2013-05-08 12:43:18	justinyoung	seems hacky
+2013-05-08 12:43:29	justinyoung	blergh
+2013-05-08 12:43:38	justinyoung	But I love bootstrap in every other way
+2013-05-08 12:44:18	<--	dailylinux (~Daily@rhelbox2.uio.no) has quit (Read error: Connection reset by peer)
+2013-05-08 12:44:24	oksushi	You love it because it’s allowed you to build a UI without understanding CSS
+2013-05-08 12:44:37	justinyoung	I understand css
+2013-05-08 12:44:38	oksushi	which of course is unmaintainable
+2013-05-08 12:44:49	justinyoung	What makes you say that
+2013-05-08 12:44:51	oksushi	your previous question shows that you don’t
+2013-05-08 12:45:05	justinyoung	Not really
+2013-05-08 12:45:15	justinyoung	I know I could just set the width sushi
+2013-05-08 12:45:27	justinyoung	and do a number of other hacky things
+2013-05-08 12:45:47	memesys	there goes that word again. hacky
+2013-05-08 12:46:05	justinyoung	yeah
+2013-05-08 12:46:36	<--	alansaul-laptop (~alansaul-@186.79.125.91.dyn.plus.net) has quit (Quit: Computer has gone to sleep.)
+2013-05-08 12:47:33	<--	elju_ (~nonintuit@106.53.143.24.cm.sunflower.com) has quit (Ping timeout: 248 seconds)
+2013-05-08 12:48:32	-->	dailylinux (~Daily@rhelbox2.uio.no) has joined #css
+2013-05-08 12:48:59	CaptainHeavy	gah, this may be tricky to demo as it uses the twitter bootstrap and a css file specific to the site itself
+2013-05-08 12:49:11	<--	AladinBouzerd (~aladinbou@41.108.99.191) has quit (Ping timeout: 256 seconds)
+2013-05-08 12:49:55	-->	TigerParket (~tigerpark@adsl196-213-184-217-196.adsl196-14.iam.net.ma) has joined #css
+2013-05-08 12:50:29	<--	ctienrsg (~chatzilla@bonn-d932d95b.pool.mediaWays.net) has quit (Read error: Connection reset by peer)
+2013-05-08 12:50:59	-->	ctienrsg (~chatzilla@bonn-d932d95b.pool.mediaWays.net) has joined #css
+2013-05-08 12:51:08	Guddu	oksushi,
+2013-05-08 12:51:11	Guddu	I was able to solve it
+2013-05-08 12:51:20	oksushi	gj
+2013-05-08 12:52:10	Guddu	Instead of putting the image in CSS Definition (background-url) i put it in src of input HTML. <input type="image" src="excel_export.png"
+2013-05-08 12:52:12	<--	TigerParket (~tigerpark@adsl196-213-184-217-196.adsl196-14.iam.net.ma) has quit (Remote host closed the connection)
+2013-05-08 12:52:14	Guddu	Thanks oksushi
+2013-05-08 12:52:44	-->	plambwk (~whoopie@173-11-7-213-oregon.hfc.comcastbusiness.net) has joined #css
+2013-05-08 12:53:48	<--	RET (~Chris@unaffiliated/kotret) has quit (Ping timeout: 245 seconds)
+2013-05-08 12:54:24	<--	k_sze[work] (~chatzilla@101.78.178.186) has quit (Quit: ChatZilla 0.9.90-rdmsoft [XULRunner 18.0.2/20130201065344])
+2013-05-08 12:55:48	<--	dhruvasagar (~dhruvasag@122.167.225.149) has quit (Ping timeout: 252 seconds)
+2013-05-08 12:56:38	-->	megha (~fire@unaffiliated/security) has joined #css
+2013-05-08 12:58:28	<--	baba (~fire@unaffiliated/security) has quit (Ping timeout: 276 seconds)
+2013-05-08 12:59:40	-->	Kricir (~kricir@c-24-245-9-49.hsd1.mn.comcast.net) has joined #css
+2013-05-08 13:00:24	-->	e-anima2 (~eanima@p5DD8D7A8.dip0.t-ipconnect.de) has joined #css
+2013-05-08 13:00:56	<--	e-anima (~eanima@p4FF8A151.dip0.t-ipconnect.de) has quit (Ping timeout: 246 seconds)
+2013-05-08 13:03:20	-->	Sefyroth (~Sefyroth@unaffiliated/sefyroth) has joined #css

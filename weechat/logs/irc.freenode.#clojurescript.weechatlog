@@ -3702,3 +3702,11 @@
 2013-05-08 05:57:04	<--	slagyr (~slagyr@c-67-184-199-69.hsd1.il.comcast.net) has quit (Quit: slagyr)
 2013-05-08 05:59:15	-->	bmaddy (~bmaddy@72.21.231.26) has joined #clojurescript
 2013-05-08 06:03:37	<--	bmaddy (~bmaddy@72.21.231.26) has quit (Remote host closed the connection)
+2013-05-08 07:10:07	<--	kgerman (kgerman@nat/ibm/x-wzyyrfdvsmxrkkfl) has quit (Ping timeout: 264 seconds)
+2013-05-08 10:40:52	-->	inkybutton (~inkybutto@unaffiliated/inkybutton) has joined #clojurescript
+2013-05-08 10:46:40	-->	bmaddy (~bmaddy@72.21.231.26) has joined #clojurescript
+2013-05-08 10:47:07	<--	bmaddy (~bmaddy@72.21.231.26) has quit (Remote host closed the connection)
+2013-05-08 10:49:09	-->	leoc (~leoc.git@p5DDB98D6.dip0.t-ipconnect.de) has joined #clojurescript
+2013-05-08 11:39:29	-->	cemerick (~cemerick@c-71-192-116-188.hsd1.ma.comcast.net) has joined #clojurescript
+2013-05-08 12:40:51	-->	bmaddy (~bmaddy@72.21.231.26) has joined #clojurescript
+2013-05-08 12:44:07	<--	bmaddy (~bmaddy@72.21.231.26) has quit (Remote host closed the connection)
