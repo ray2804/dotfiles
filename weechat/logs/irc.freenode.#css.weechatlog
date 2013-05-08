@@ -25552,3 +25552,673 @@
 2013-05-07 17:14:30	<--	populvuh (~populvuh@unaffiliated/populvuh) has quit (Ping timeout: 264 seconds)
 2013-05-07 17:14:44	nanny	An old developer wrote some HTML like this: div.wrapper > table > tr > td > table > tr > td > div > div > span > font[style="color:green;"] > b > i. Seriously. Is there any possible way for me to style the text in <i> without changing the HTML? I tried .wrapper span { font-style:normal !important; } but it doesn't work.
 2013-05-07 17:15:33	-->	Yoofie_ (~yoofie@75.114.176.65) has joined #css
+2013-05-07 17:16:23	<--	MCHammer (~mchammer@212.48.107.10) has quit (Remote host closed the connection)
+2013-05-07 17:16:41	AbbasX2	nanny try .wrapper span i{ color: blue;}
+2013-05-07 17:17:08	<--	TankaTonka (c0b0e601@gateway/web/freenode/ip.192.176.230.1) has quit (Ping timeout: 245 seconds)
+2013-05-07 17:17:11	AbbasX2	although i havent used the <i> tag in ages, not sure if its easily stylable
+2013-05-07 17:17:39	<--	fabioportieri (5960f409@gateway/web/freenode/ip.89.96.244.9) has quit (Quit: Page closed)
+2013-05-07 17:17:46	nanny	Thanks, that works. Not sure why I didn't think of that.
+2013-05-07 17:17:55	nanny	Can you believe this HTML was written less than 2 years ago?
+2013-05-07 17:18:59	<--	Norbo11 (~Norbo11@cpc2-croy19-2-0-cust825.croy.cable.virginmedia.com) has quit
+2013-05-07 17:19:18	<--	Yoofie (~yoofie@75.114.176.65) has quit (Ping timeout: 245 seconds)
+2013-05-07 17:20:26	<--	johnline (johnline@cpc4-lewi16-2-0-cust513.2-4.cable.virginmedia.com) has quit (Ping timeout: 252 seconds)
+2013-05-07 17:21:00	-->	JimmyXander (~EmberHear@wsip-72-215-233-253.ri.ri.cox.net) has joined #css
+2013-05-07 17:21:08	JimmyXander	Hello all!
+2013-05-07 17:21:17	 *	JimmyXander dances
+2013-05-07 17:21:19	<--	nanny (~nandrysha@75-147-94-245-Philadelphia.hfc.comcastbusiness.net) has left #css ("Leaving")
+2013-05-07 17:21:44	ShawnRisk	On http://savewolflake.org/, reisio gave me this code: #bottomimage { position: absolute !important; bottom: auto !important; top: 100px; right: 0; } and using without the !important but there is now whitespace on the right side of the front page. How do I remove that?
+2013-05-07 17:22:16	<--	hcavalle (~harrison@208.57.201.113) has quit (Ping timeout: 268 seconds)
+2013-05-07 17:22:23	memesys	darkmutt: here's what i've got for you for now. i need to go but good luck with the rest http://www.webdevout.net/test?02h
+2013-05-07 17:22:26	<--	memesys (~NotYou@dsl-tkubrasgw1-54fa1f-121.dhcp.inet.fi) has left #css
+2013-05-07 17:22:54	darkmutt	thank you memesys
+2013-05-07 17:23:05	<--	JimmyXander (~EmberHear@wsip-72-215-233-253.ri.ri.cox.net) has quit (Client Quit)
+2013-05-07 17:23:06	-->	Andre_designer (~Thunderbi@82-170-146-165.ip.telfort.nl) has joined #css
+2013-05-07 17:23:52	-->	tinyfly (~tinyfly@adsl-75-58-147-172.dsl.rcsntx.sbcglobal.net) has joined #css
+2013-05-07 17:24:56	-->	donatien_alphons (~poorman@h21.214.189.173.dynamic.ip.windstream.net) has joined #css
+2013-05-07 17:25:29	-->	brethore (~brethore@212.99.106.196) has joined #css
+2013-05-07 17:25:44	<--	brunus (~brunus@159.71.64.86.rev.sfr.net) has quit (Quit: Quitte)
+2013-05-07 17:25:55	ctienrsg	found out that I don't now anything about @-import-rules (even though i never needed that). Is it outdated and or worth learning?
+2013-05-07 17:26:49	<--	xec (xec@unaffiliated/xec) has quit (Ping timeout: 256 seconds)
+2013-05-07 17:26:56	<--	Sopheria (~Musashi@199.36.12.18) has quit (Quit: Leaving)
+2013-05-07 17:27:46	darkmutt	`css opacity
+2013-05-07 17:28:18	<--	gavilan2 (~Gavilan2@184.75.213.218) has quit (Ping timeout: 264 seconds)
+2013-05-07 17:28:29	<--	50UACJL2S (~pythonirc@lovasz.cs.fsu.edu) has quit (Remote host closed the connection)
+2013-05-07 17:28:51	-->	plambwk (~whoopie@173-11-7-213-oregon.hfc.comcastbusiness.net) has joined #css
+2013-05-07 17:29:24	<--	eternicode (~andrew@ppp-69-208-154-49.dsl.ipltin.ameritech.net) has quit (Read error: Connection reset by peer)
+2013-05-07 17:29:56	-->	eternicode (~andrew@ppp-69-208-154-49.dsl.ipltin.ameritech.net) has joined #css
+2013-05-07 17:29:58	-->	zeropx (~zeropx@68-189-93-242.static.snlo.ca.charter.com) has joined #css
+2013-05-07 17:30:04	-->	17WABI9FE (~pythonirc@lovasz.cs.fsu.edu) has joined #css
+2013-05-07 17:30:14	<--	zeropx (~zeropx@68-189-93-242.static.snlo.ca.charter.com) has quit (Client Quit)
+2013-05-07 17:30:19	-->	effortDee (~effortDee@host81-133-26-238.in-addr.btopenworld.com) has joined #css
+2013-05-07 17:30:30	-->	zeropx (~zeropx@68-189-93-242.static.snlo.ca.charter.com) has joined #css
+2013-05-07 17:31:23	<--	sasori (~chatzilla@cm105.gamma248.maxonline.com.sg) has quit (Read error: Connection timed out)
+2013-05-07 17:32:08	-->	sasori (~chatzilla@cm105.gamma248.maxonline.com.sg) has joined #css
+2013-05-07 17:35:21	<--	mtcrutch (~mtcrutch@157.166.167.129) has quit (Remote host closed the connection)
+2013-05-07 17:36:00	<--	anthonym (~anthonym@pdpc/supporter/professional/anthonym) has quit (Ping timeout: 256 seconds)
+2013-05-07 17:36:12	-->	mtcrutch (~mtcrutch@157.166.167.129) has joined #css
+2013-05-07 17:36:17	-->	vptsar` (~user@mail.bmr.gov.ua) has joined #css
+2013-05-07 17:36:38	-->	rhauck (~Adium@12.238.188.253) has joined #css
+2013-05-07 17:37:12	ShawnRisk	any thoughts on my question?
+2013-05-07 17:38:01	<--	Erakso (~darklands@194.237.81.4) has quit (Quit: Leaving)
+2013-05-07 17:38:17	-->	anthonym (~anthonym@pdpc/supporter/professional/anthonym) has joined #css
+2013-05-07 17:41:30	<--	jonez (~jam@unaffiliated/jonez) has quit (Ping timeout: 272 seconds)
+2013-05-07 17:42:04	<--	TigerParket (~tigerpark@41.141.65.168) has quit (Read error: Connection reset by peer)
+2013-05-07 17:42:52	-->	TigerParket (~tigerpark@41.251.40.220) has joined #css
+2013-05-07 17:43:10	darkmutt	any ideas how to force margin NOT to collapse against the border of the window?
+2013-05-07 17:45:19	<--	JustAPoring (5bc7621d@gateway/web/freenode/ip.91.199.98.29) has quit (Quit: Page closed)
+2013-05-07 17:46:36	-->	BuenGenio_ (~BuenGenio@n219078213141.netvigator.com) has joined #css
+2013-05-07 17:46:38	darkmutt	Any way to stretch an element beyond the top,bottom,left,right properties? it stops working well like that once It should be that a window needs to be scrolled
+2013-05-07 17:47:20	<--	plambwk (~whoopie@173-11-7-213-oregon.hfc.comcastbusiness.net) has quit (Ping timeout: 256 seconds)
+2013-05-07 17:47:31	-->	illmatix (~test@184.71.62.238) has joined #css
+2013-05-07 17:47:52	ryan---	code and design properly ? :P
+2013-05-07 17:48:53	-->	b0xa (~b0x@node-jpt.pool-1-0.dynamic.totbb.net) has joined #css
+2013-05-07 17:48:53	<--	b0xa (~b0x@node-jpt.pool-1-0.dynamic.totbb.net) has quit (Changing host)
+2013-05-07 17:48:53	-->	b0xa (~b0x@unaffiliated/b0x) has joined #css
+2013-05-07 17:49:23	<--	BuenGenio (~BuenGenio@n219078213141.netvigator.com) has quit (Ping timeout: 255 seconds)
+2013-05-07 17:49:34	<--	sasori (~chatzilla@cm105.gamma248.maxonline.com.sg) has quit (Read error: Connection timed out)
+2013-05-07 17:49:54	-->	Assimilater (~Assim_Bui@97.75.164.194) has joined #css
+2013-05-07 17:50:10	<--	b0x (~b0x@unaffiliated/b0x) has quit (Ping timeout: 256 seconds)
+2013-05-07 17:50:25	ShawnRisk	darkmutt: here: http://reference.sitepoint.com/css/collapsingmargins
+2013-05-07 17:50:50	darkmutt	awesome ShawnRisk , any idea perhaps about the seconds question?
+2013-05-07 17:51:21	<--	todd_dsm (~todd_dsm@174-30-66-232.desm.qwest.net) has quit (Quit: Leaving)
+2013-05-07 17:52:07	-->	sasori (~chatzilla@cm105.gamma248.maxonline.com.sg) has joined #css
+2013-05-07 17:52:08	-->	trusktr (~trusktr@130.86.99.218) has joined #css
+2013-05-07 17:52:26	darkmutt	ryan---, what do you mean by properly if i knew how to do that i wouldn't ask since i ask means i want to learn how to do that and searching online didn't help me yet
+2013-05-07 17:52:36	<--	Assim_Build (~Assim_Wor@97.75.164.194) has quit (Ping timeout: 256 seconds)
+2013-05-07 17:53:05	-->	xec (xec@unaffiliated/xec) has joined #css
+2013-05-07 17:53:19	-->	jonez (~jam@unaffiliated/jonez) has joined #css
+2013-05-07 17:53:37	<--	trepmal (~trepmal@24-113-149-143.wavecable.com) has quit (Ping timeout: 246 seconds)
+2013-05-07 17:54:11	ShawnRisk	darkmutt: why would you need to do that?
+2013-05-07 17:54:23	-->	JoshuaJones (~JoshuaJon@wsip-64-58-147-200.oc.oc.cox.net) has joined #css
+2013-05-07 17:54:25	darkmutt	well i have a simple lightbox functionality pretty much working
+2013-05-07 17:54:31	darkmutt	except for tha black background with opacity
+2013-05-07 17:54:53	ShawnRisk	On http://savewolflake.org/, reisio gave me this code: #bottomimage { position: absolute !important; bottom: auto !important; top: 100px; right: 0; } and using without the !important but there is now whitespace on the right side of the front page. How do I remove that?
+2013-05-07 17:54:53	darkmutt	since setting it to 100% both doesn't fill all the area after scrolling setting it to top,left,right,bottom doesn't either
+2013-05-07 17:54:58	darkmutt	so i'm not sure how to make it
+2013-05-07 17:55:20	ShawnRisk	darkmutt: might be your current css code that you need to look at
+2013-05-07 17:55:42	darkmutt	change bottom: value and there won't be a whitespace
+2013-05-07 17:56:38	-->	Rellac (~chatzilla@host81-152-161-76.range81-152.btcentralplus.com) has joined #css
+2013-05-07 17:56:56	<--	quietschie (~quietschi@vpn2-dynip132.informatik.uni-stuttgart.de) has quit (Remote host closed the connection)
+2013-05-07 17:57:23	Rellac	hi, I'm having trouble trying to wrap some text around an image. In theory this should be simple with floating but it just wont do what I tell it to
+2013-05-07 17:57:29	Rellac	you can see my code here
+2013-05-07 17:57:30	Rellac	file:///C:/Users/Daniel/Dropbox/Public/Work/HTML/Group%20Project/pages/danny.htm
+2013-05-07 17:57:35	Rellac	GAH
+2013-05-07 17:57:43	Rellac	wwas meant to be a dropbox link lol uno momento
+2013-05-07 17:57:58	Rellac	https://dl.dropboxusercontent.com/u/38103219/Work/HTML/Group%20Project/pages/danny.htm
+2013-05-07 17:58:00	Rellac	there we go
+2013-05-07 17:58:10	ShawnRisk	darkmutt: that didn't work out, if I get rid of the right: 0; that works but then my elements go missing
+2013-05-07 17:58:46	-->	plambwk (~whoopie@173-11-7-213-oregon.hfc.comcastbusiness.net) has joined #css
+2013-05-07 17:59:05	ShawnRisk	darkmutt: normally lightbox functionality works out of the box.
+2013-05-07 18:00:24	<--	brettfra_ (~brettfrab@rrcs-208-125-34-154.nys.biz.rr.com) has quit (Remote host closed the connection)
+2013-05-07 18:00:27	darkmutt	i didn't say get rid of right: 0 ;
+2013-05-07 18:00:30	<--	AbbasX2 (KaChingX@39.47.13.251) has quit (Ping timeout: 252 seconds)
+2013-05-07 18:00:37	darkmutt	just change the value of bottom: auto to bottom: 0
+2013-05-07 18:00:40	darkmutt	that should work
+2013-05-07 18:00:50	-->	brettfrable (~brettfrab@rrcs-208-125-34-154.nys.biz.rr.com) has joined #css
+2013-05-07 18:00:55	<--	jasonrunsfaster (~textual@cpe-74-78-176-200.twcny.res.rr.com) has quit (Quit: My iMac has gone to sleep. ZZZzzz…)
+2013-05-07 18:01:18	-->	daanavitch (~daanavitc@178-118-247-206.access.telenet.be) has joined #css
+2013-05-07 18:01:55	-->	hhee (~Miranda@runa244.resolve.corbina.ru) has joined #css
+2013-05-07 18:02:08	ShawnRisk	darkmutt: nope, did you look at the site?
+2013-05-07 18:03:05	-->	BaconDick (~cameronge@cpc17-walt15-2-0-cust606.13-2.cable.virginmedia.com) has joined #css
+2013-05-07 18:03:24	<--	gab82 (~gab82@host127-35-static.28-87-b.business.telecomitalia.it) has quit (Quit: Leaving)
+2013-05-07 18:03:35	<--	brethore (~brethore@212.99.106.196) has left #css
+2013-05-07 18:04:50	<--	mbrzuzy (~mbrzuzy@static-173-212-179-161.ptr.terago.net) has quit (Quit: Computer has gone to sleep.)
+2013-05-07 18:05:03	darkmutt	not a clue ShawnRisk I'm having a VERY similar problem that only appears in a very similar case
+2013-05-07 18:05:13	darkmutt	if i mix mine the cure to yours will be the exact same or alike
+2013-05-07 18:05:35	<--	brettfrable (~brettfrab@rrcs-208-125-34-154.nys.biz.rr.com) has quit (Ping timeout: 255 seconds)
+2013-05-07 18:05:54	ShawnRisk	oh
+2013-05-07 18:06:23	-->	RegularJohn (~DinoBob@c83-250-111-212.bredband.comhem.se) has joined #css
+2013-05-07 18:06:41	-->	alejo (~alejo@209.213.178.170) has joined #css
+2013-05-07 18:07:12	-->	memesys (~NotYou@dsl-tkubrasgw1-54fa1f-121.dhcp.inet.fi) has joined #css
+2013-05-07 18:07:30	memesys	darkmutt: back and here is something you can probably work with http://www.webdevout.net/test?02p&raw
+2013-05-07 18:08:10	ShawnRisk	memesys: ideas on mine?
+2013-05-07 18:08:25	memesys	ShawnRisk: what is your url again?
+2013-05-07 18:08:31	darkmutt	thanks memesys though I already fixed it from your last link :D now I have a slightly different problem
+2013-05-07 18:08:41	memesys	ShawnRisk: i will do my best but it's a bit hectic here just now :)
+2013-05-07 18:08:46	<--	BaconDick (~cameronge@cpc17-walt15-2-0-cust606.13-2.cable.virginmedia.com) has left #css
+2013-05-07 18:08:54	memesys	darkmutt: okay! :D
+2013-05-07 18:09:02	ShawnRisk	memesys: you see the question or need the url and question?
+2013-05-07 18:09:17	memesys	ShawnRisk: i just joined the channel.
+2013-05-07 18:09:22	ShawnRisk	oh
+2013-05-07 18:09:25	<--	TigerParket (~tigerpark@41.251.40.220) has quit (Remote host closed the connection)
+2013-05-07 18:09:31	<--	sasori (~chatzilla@cm105.gamma248.maxonline.com.sg) has quit (Read error: Connection timed out)
+2013-05-07 18:09:32	ShawnRisk	memesys: On http://savewolflake.org/, reisio gave me this code: irc://irc.freenode.net:6667/#bottomimage { position: absolute !important; bottom: auto !important; top: 100px; right: 0; } and using without the !important but there is now whitespace on the right side of the front page. How do I remove that?
+2013-05-07 18:09:37	memesys	ShawnRisk: turn on your joins and parts ;)
+2013-05-07 18:09:43	ShawnRisk	they are on
+2013-05-07 18:09:45	<--	JohnnyCache (~JohnnyCas@unaffiliated/doubleblack) has quit
+2013-05-07 18:09:46	ShawnRisk	I missed that
+2013-05-07 18:09:53	memesys	okay :)
+2013-05-07 18:10:08	-->	Deef_ (~Mes@95.166.105.188) has joined #css
+2013-05-07 18:10:11	memesys	ShawnRisk: what is the freenode irc url doing in there?
+2013-05-07 18:10:34	ShawnRisk	oops
+2013-05-07 18:10:40	ShawnRisk	suppose to be #bottomimage
+2013-05-07 18:10:42	ShawnRisk	memesys: ^
+2013-05-07 18:10:49	memesys	okay
+2013-05-07 18:11:52	Rellac	so can any of you sexy gentlemen please let me know why i'm having issues wrapping text around an image? this should be pretty simple but I just can't get it working
+2013-05-07 18:12:09	-->	sasori (~chatzilla@cm105.gamma248.maxonline.com.sg) has joined #css
+2013-05-07 18:12:10	-->	JohnnyCache (~JohnnyCas@bzq-84-111-55-89.red.bezeqint.net) has joined #css
+2013-05-07 18:12:28	<--	JohnnyCache (~JohnnyCas@bzq-84-111-55-89.red.bezeqint.net) has quit (Changing host)
+2013-05-07 18:12:28	-->	JohnnyCache (~JohnnyCas@unaffiliated/doubleblack) has joined #css
+2013-05-07 18:12:28	darkmutt	memesys how would I make a div/background fill all of the window AND beyond , so that no matter how much i scroll it's still the same bg?
+2013-05-07 18:12:40	darkmutt	ps: I can't use body element for it :/
+2013-05-07 18:12:47	memesys	darkmutt: use html element?
+2013-05-07 18:13:10	darkmutt	can't I have to use a class on a div because I'm using it for lightbox darken functionality
+2013-05-07 18:13:25	-->	ma- (~nnscript@c-98-235-158-159.hsd1.pa.comcast.net) has joined #css
+2013-05-07 18:13:26	<--	amogorkon (~quassel@piratenpartei/bw/amogorkon) has quit (Read error: Connection reset by peer)
+2013-05-07 18:14:18	memesys	darkmutt: i'm not sure because it sounds like a simple question at first and then suddenly i find out more information after making a suggestion.
+2013-05-07 18:14:26	memesys	not sure what to suggest just now
+2013-05-07 18:14:57	<--	Davey (~Davey@orchestra/staff/Davey) has quit (Quit: Computer has gone to sleep.)
+2013-05-07 18:15:29	darkmutt	well every time i needed to do something like that i used body by myself so it was quite easy with an element that stretched with content it's also quite easy but i have an element that's not a parent of the one stretching with the content and i've got no...
+2013-05-07 18:15:31	darkmutt	waaaait XD
+2013-05-07 18:16:30	darkmutt	ok that didn't work still no idea
+2013-05-07 18:16:37	<--	fRAiLtY- (~fRAiLtY-@141.0.47.90) has quit (Quit: fRAiLtY-)
+2013-05-07 18:17:01	<--	widoz (~wido@host74-107-dynamic.56-79-r.retail.telecomitalia.it) has quit (Quit: access denied)
+2013-05-07 18:17:13	-->	rakl (~rakl@sonic.mochaleaf.com) has joined #css
+2013-05-07 18:17:20	<--	plambwk (~whoopie@173-11-7-213-oregon.hfc.comcastbusiness.net) has quit (Ping timeout: 260 seconds)
+2013-05-07 18:17:36	-->	Questutis (~quatrux@78-60-148-13.static.zebra.lt) has joined #css
+2013-05-07 18:17:42	memesys	ShawnRisk: why isn't the image set as a background image?
+2013-05-07 18:17:45	-->	cjeria (~cjeria@sonic.mochaleaf.com) has joined #css
+2013-05-07 18:17:58	memesys	ShawnRisk: #headerinside img?  why isn't that just a background image?
+2013-05-07 18:18:17	ShawnRisk	memesys: it is not my fault, it is the CMS module I am using.
+2013-05-07 18:18:30	-->	Davey (~Davey@orchestra/staff/Davey) has joined #css
+2013-05-07 18:18:52	<--	esion (~chatzilla@host86-184-245-217.range86-184.btcentralplus.com) has quit (Quit: ChatZilla 0.9.90 [Firefox 20.0.1/20130409194949])
+2013-05-07 18:19:08	memesys	ShawnRisk: i'm not sure how to help you there. the image should be a background on the body or something. makes no sense that it's stuck in the html like that when it's not part of the content
+2013-05-07 18:19:31	ShawnRisk	memesys: there is no way to fix this?
+2013-05-07 18:19:52	<--	dan2k3k4 (~dan2k3k4@unaffiliated/dan2k3k4) has quit (Ping timeout: 246 seconds)
+2013-05-07 18:20:03	-->	schemula (~schemula@c-174-49-119-230.hsd1.ga.comcast.net) has joined #css
+2013-05-07 18:20:31	<--	Deef_ (~Mes@95.166.105.188) has quit
+2013-05-07 18:20:49	-->	xnotte (bc53c092@gateway/web/freenode/ip.188.83.192.146) has joined #css
+2013-05-07 18:20:52	memesys	ShawnRisk: there may be but not in the way i'd fix it. i'd fix the markup and make the image be a background image on the body or html element and not put it directly into the html. there might be somebody else here who does it like the way it is now and can help you
+2013-05-07 18:21:21	memesys	darkmutt: i don't know at this point my brain is fried. had a long work day :D
+2013-05-07 18:21:27	-->	trepmal (~trepmal@64.146.180.161) has joined #css
+2013-05-07 18:21:41	xnotte	i have a div with a h3 inside. i have that div with height: 30px and line-height: 30px. if i set a border, It doesn't vertically align
+2013-05-07 18:21:49	ShawnRisk	memesys: I understand but you see the images changing on refresh, how do I do that without the module?
+2013-05-07 18:21:55	darkmutt	thanks for trying though memesys
+2013-05-07 18:22:24	memesys	ShawnRisk: the cms you're working with sounds badly coded to me. i honestly don't know
+2013-05-07 18:22:35	memesys	darkmutt: good luck!
+2013-05-07 18:22:35	<--	Anticom (~Anticom@zeilhard.sh-medien-statistik.de) has quit (Ping timeout: 252 seconds)
+2013-05-07 18:22:42	memesys	good luck everybody!
+2013-05-07 18:22:43	<--	memesys (~NotYou@dsl-tkubrasgw1-54fa1f-121.dhcp.inet.fi) has left #css
+2013-05-07 18:23:19	darkmutt	this annoys me a bit though with top,bottom,left,right:0px with all to 0px the element is stretched to the windows borders but when the window needs to be scrolled
+2013-05-07 18:23:26	darkmutt	the element won't stretch any furtehr
+2013-05-07 18:24:09	<--	Dunstkreis (~Miranda@p54BB245B.dip0.t-ipconnect.de) has quit (Quit: ><///(°> *blubb* <*)))><)
+2013-05-07 18:24:15	<--	Ose (~chatzilla@unaffiliated/ose) has quit (Read error: Connection reset by peer)
+2013-05-07 18:26:24	-->	plambwk (~whoopie@173-11-7-213-oregon.hfc.comcastbusiness.net) has joined #css
+2013-05-07 18:26:58	-->	dangerousdave (~dangerous@78.156.71.46) has joined #css
+2013-05-07 18:30:38	<--	xec_ (~xec@unaffiliated/xec) has quit (Read error: Connection reset by peer)
+2013-05-07 18:30:38	-->	Deef_ (~Mes@95.166.105.188) has joined #css
+2013-05-07 18:30:38	darkmutt	hah position fixed and all to 0px did the trick :D
+2013-05-07 18:30:38	-->	Ringtailed-Fox (~Ringtaile@d24-57-38-211.home.cgocable.net) has joined #css
+2013-05-07 18:30:38	-->	garciawebdev (~garciaweb@190.244.74.107) has joined #css
+2013-05-07 18:30:38	ShawnRisk	darkmutt: nice
+2013-05-07 18:30:38	<--	Assimilater (~Assim_Bui@97.75.164.194) has left #css
+2013-05-07 18:30:38	<--	rhauck (~Adium@12.238.188.253) has quit (Quit: Leaving.)
+2013-05-07 18:30:39	<--	sasori (~chatzilla@cm105.gamma248.maxonline.com.sg) has quit (Read error: Connection timed out)
+2013-05-07 18:30:39	-->	TigerParket (~tigerpark@41.251.40.220) has joined #css
+2013-05-07 18:30:39	-->	xec_ (~xec@188.95.241.142) has joined #css
+2013-05-07 18:30:39	-->	danielwrobert (~danielwro@wsip-68-15-24-46.sd.sd.cox.net) has joined #css
+2013-05-07 18:31:54	-->	Sendoushi (~Musok@78-130-62-120.net.novis.pt) has joined #css
+2013-05-07 18:32:07	<--	batoo (~batoo@c-2ec38cc0-74736162.cust.telenor.se) has quit (Ping timeout: 256 seconds)
+2013-05-07 18:32:07	<--	RingtailedFox (~Ringtaile@d24-57-38-211.home.cgocable.net) has quit (Ping timeout: 256 seconds)
+2013-05-07 18:32:11	-->	sasori (~chatzilla@cm105.gamma248.maxonline.com.sg) has joined #css
+2013-05-07 18:32:15	-->	batoo (~batoo@c-2ec38cc0-74736162.cust.telenor.se) has joined #css
+2013-05-07 18:32:24	<--	gates_ (uid4892@gateway/web/irccloud.com/x-qiglcheqffumanec) has quit
+2013-05-07 18:32:28	<--	jennseattle (~jennifer@c-24-19-134-66.hsd1.wa.comcast.net) has quit (Read error: Operation timed out)
+2013-05-07 18:32:47	-->	AbbasX8 (~KaChingX@39.47.13.251) has joined #css
+2013-05-07 18:32:49	-->	gates (uid4892@gateway/web/irccloud.com/x-tgvdilqrdffrnmeg) has joined #css
+2013-05-07 18:32:56	<--	Deef_ (~Mes@95.166.105.188) has quit
+2013-05-07 18:32:58	<--	Ultraviolence (62db2ddf@gateway/web/freenode/ip.98.219.45.223) has quit (Ping timeout: 245 seconds)
+2013-05-07 18:33:28	-->	jennseattle (~jennifer@c-24-19-134-66.hsd1.wa.comcast.net) has joined #css
+2013-05-07 18:33:30	--	AbbasX8 is now known as AbbasX4
+2013-05-07 18:34:17	-->	Ose (~chatzilla@unaffiliated/ose) has joined #css
+2013-05-07 18:34:37	-->	Deef_ (~Mes@95.166.105.188) has joined #css
+2013-05-07 18:36:17	-->	misan (~misan@2001:858:5:3a23:9fe7:6cd3:f7a:c763) has joined #css
+2013-05-07 18:37:59	<--	dhruvasagar (~dhruvasag@122.167.251.21) has quit (Ping timeout: 255 seconds)
+2013-05-07 18:40:12	<--	Patabugen (~Patabugen@pdpc/supporter/active/patabugen) has quit (Ping timeout: 256 seconds)
+2013-05-07 18:40:17	-->	dhruvasagar (~dhruvasag@122.167.251.21) has joined #css
+2013-05-07 18:40:20	-->	dopie (~dopie@69-84-122-215-dhcp.mia.fl.atlanticbb.net) has joined #css
+2013-05-07 18:41:16	-->	jdelgado (~jdelgado@50.23.115.105-static.reverse.softlayer.com) has joined #css
+2013-05-07 18:41:34	-->	icecandy (~icecandy@unaffiliated/icecandy) has joined #css
+2013-05-07 18:41:35	-->	blaz0r` (~nnscript@host-184-166-204-242.chy-wy.client.bresnan.net) has joined #css
+2013-05-07 18:41:48	<--	contreu (contreu@79.112.12.127) has quit (Ping timeout: 258 seconds)
+2013-05-07 18:42:06	xnotte	i have a div with a h3 inside. i have that div with height: 30px and line-height: 30px. if i set a border, It doesn't vertically align
+2013-05-07 18:42:11	-->	amogorkon (~quassel@piratenpartei/bw/amogorkon) has joined #css
+2013-05-07 18:42:13	<--	alejo (~alejo@209.213.178.170) has quit (Ping timeout: 245 seconds)
+2013-05-07 18:42:19	<--	marthinal (~chatzilla@146.Red-83-52-241.dynamicIP.rima-tde.net) has quit (Remote host closed the connection)
+2013-05-07 18:42:27	-->	NivenHuH (~NivenWuss@sonic.mochaleaf.com) has joined #css
+2013-05-07 18:43:53	<--	effortDee (~effortDee@host81-133-26-238.in-addr.btopenworld.com) has quit (Ping timeout: 245 seconds)
+2013-05-07 18:44:53	-->	Norbo11 (~Norbo11@cpc2-croy19-2-0-cust825.croy.cable.virginmedia.com) has joined #css
+2013-05-07 18:45:22	-->	edoop (~user3023@host83-36-dynamic.1-87-r.retail.telecomitalia.it) has joined #css
+2013-05-07 18:46:00	--	AbbasX4 is now known as AbbasX2
+2013-05-07 18:46:34	<--	Yoofie_ (~yoofie@75.114.176.65) has quit (Quit: ChatZilla 0.9.90-rdmsoft [XULRunner 18.0.2/20130201065344])
+2013-05-07 18:47:21	<--	Deef_ (~Mes@95.166.105.188) has quit
+2013-05-07 18:48:46	<--	Milossh (~milos@unaffiliated/milossh) has quit (Quit: Computer has gone to sleep.)
+2013-05-07 18:49:28	<--	batoo (~batoo@c-2ec38cc0-74736162.cust.telenor.se) has quit (Ping timeout: 258 seconds)
+2013-05-07 18:49:31	-->	paxcoder (~paxcoder@unaffiliated/paxcoder) has joined #css
+2013-05-07 18:49:39	-->	DEEF (~Mes@95.166.105.188) has joined #css
+2013-05-07 18:49:40	<--	sasori (~chatzilla@cm105.gamma248.maxonline.com.sg) has quit (Read error: Connection timed out)
+2013-05-07 18:49:41	paxcoder	how to select everything that doesn't have a certain attribute?
+2013-05-07 18:49:51	<--	aliensky (~aliensky@189-74-161-156.gnale700.dsl.brasiltelecom.net.br) has quit (Ping timeout: 258 seconds)
+2013-05-07 18:50:29	<--	ctienrsg (~chatzilla@bonn-d932d91c.pool.mediaWays.net) has quit (Read error: Connection reset by peer)
+2013-05-07 18:50:37	paxcoder	eg. tried :not(input[type])
+2013-05-07 18:51:01	-->	ctienrsg (~chatzilla@bonn-d932d91c.pool.mediaWays.net) has joined #css
+2013-05-07 18:51:13	-->	norm (~norm@ip-128-239-142-7.v4.wm.edu) has joined #css
+2013-05-07 18:51:41	-->	dbaron (~dbaron@50.0.192.124) has joined #css
+2013-05-07 18:52:03	-->	Adawerk (~ada@169.241.49.57) has joined #css
+2013-05-07 18:52:06	-->	sasori (~chatzilla@cm105.gamma248.maxonline.com.sg) has joined #css
+2013-05-07 18:52:10	norm	i've got an inline element (<span>) that contains another, hidden inline element (<a>). javascript changes the <a> from display: none to display: inline. so the outer span suddenly grows. is there a way to animate this growth?
+2013-05-07 18:52:12	<--	Y_Less (~Y_Less@host-109-97.eg.le.ac.uk) has quit (Read error: Connection reset by peer)
+2013-05-07 18:52:29	-->	Y_Less (~Y_Less@host-109-97.eg.le.ac.uk) has joined #css
+2013-05-07 18:52:29	norm	i'm not actually changing the "width" of the container, but that's what i want to emulate
+2013-05-07 18:53:03	<--	icecandy (~icecandy@unaffiliated/icecandy) has quit (Remote host closed the connection)
+2013-05-07 18:53:10	misan	display is not able to be animated via transition/animation
+2013-05-07 18:53:19	misan	you better manipulate height/width or opacity.
+2013-05-07 18:53:28	misan	or experiment with JS solutions
+2013-05-07 18:53:41	<--	daanavitch (~daanavitc@178-118-247-206.access.telenet.be) has quit (Remote host closed the connection)
+2013-05-07 18:53:46	norm	can i animate a transition from width 0 to width auto?
+2013-05-07 18:53:48	-->	pxlprfct (~OliverWil@90.201.206.60) has joined #css
+2013-05-07 18:53:49	-->	rymnio (~chatzilla@91.234.245.245) has joined #css
+2013-05-07 18:53:49	-->	znf (~ibm86@2001:470:1f0b:83e:20b:6aff:fe57:4d0f) has joined #css
+2013-05-07 18:53:56	norm	i've only messed with transitioning from two specified values, not "auto"
+2013-05-07 18:53:59	misan	Yep :)
+2013-05-07 18:54:06	norm	oh sweet, i'll give that a shot thanks
+2013-05-07 18:54:12	misan	have fun
+2013-05-07 18:54:53	<--	BaDaSs (~badass@unaffiliated/badass) has quit (Read error: Connection reset by peer)
+2013-05-07 18:55:02	<--	BillTheButcher (BTB@h-41-171.a212.priv.bahnhof.se) has quit (Ping timeout: 245 seconds)
+2013-05-07 18:55:09	-->	batoo (~batoo@46.195.140.192) has joined #css
+2013-05-07 18:55:20	-->	BaDaSs (~badass@c-50-150-6-117.hsd1.ga.comcast.net) has joined #css
+2013-05-07 18:55:21	<--	BaDaSs (~badass@c-50-150-6-117.hsd1.ga.comcast.net) has quit (Changing host)
+2013-05-07 18:55:21	-->	BaDaSs (~badass@unaffiliated/badass) has joined #css
+2013-05-07 18:55:42	-->	Evixion (~Evixion@67.235.111.165) has joined #css
+2013-05-07 18:56:44	<--	batoo (~batoo@46.195.140.192) has quit (Client Quit)
+2013-05-07 18:56:54	<--	ili (~ili@124-171-206-154.dyn.iinet.net.au) has quit (Read error: Connection reset by peer)
+2013-05-07 18:56:58	-->	aliensky (~aliensky@200-96-149-222.gnale700.dsl.brasiltelecom.net.br) has joined #css
+2013-05-07 18:57:36	-->	ili (~ili@124-171-206-154.dyn.iinet.net.au) has joined #css
+2013-05-07 18:57:43	-->	alejo (~alejo@209.213.178.170) has joined #css
+2013-05-07 18:58:52	<--	oohnoitz (septicore@gateway/shell/xzibition.com/x-bvomesiyrxixnozn) has quit (Read error: Connection reset by peer)
+2013-05-07 18:59:02	-->	oohnoitz (septicore@gateway/shell/xzibition.com/x-ylbazjkyidxayovn) has joined #css
+2013-05-07 18:59:07	paxcoder	btw. i'm using input:not([type])
+2013-05-07 18:59:45	<--	JackH (~none@host86-176-251-135.range86-176.btcentralplus.com) has quit (Ping timeout: 248 seconds)
+2013-05-07 19:17:30	--	irc: disconnected from server
+2013-05-07 19:18:12	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #css
+2013-05-07 19:18:12	--	Topic for #css is "Cascading Style Sheets: Useful material and specs: http://www.w3.org/Style/CSS/ | IE Problems: specify VERSION | Validate first: http://jigsaw.w3.org/css-validator/ | Always have a URI | Paste FULL code: http://webdevout.net/test | No tables for layout: http://xrl.us/kd35 | Freelancers: #css-lance | Auch #css.de | aiming for 100% validation in your css is generally counter productive"
+2013-05-07 19:18:12	--	Topic set by jedimind (~pud@unaffiliated/jedimind) on Wed, 28 Mar 2012 23:04:03
+2013-05-07 19:18:13	--	Nicks #css: [17WABI9FE [Tritium] \mSg _cheney _cheney_ _if aaas AbbasX2 aca20031 acidjazz Adawerk adnap Adys aep ajpiano alabala AladinBouzerd aleksandar alexwhitman alicia_ba aliensky AllStruck amogorkon An_Ony_Moose Andre_designer AndreaRu AndreasEri angeldeath__ aniasis anthonym Arieh artgoeshere Articate asdfz0mg Asone awc737 Azerus b0xa baba bacilla balr0g Bananobot banzounet barneybook Benjojo BGentled bigLanky Bilge bitg bitZero__ blaz0r` BlippSquipp BlueShark boaz bolson_ boxer brettfrable Brewster BTG_Delta bubblehead BuenGenio_ Caelum CamonZ capella carlos_antonio caveat- cH40z-Lord chalcedony chaos95 chee cheese1756 Cheffness ciluu Circlefusion cjeria classix clone1018 clorith cmrn coaster CoJaBo Columcille Cork CoverSlide crazedpsyc Creepy ctienrsg Cyclohexane Cylent D-Boy d_d_d dailylinux Dandalion dangerousdave danielwrobert darkc0met DarkGhost darkmutt Davey dbaron de_henne deed02392 DEEF DerBoki Devastator dewdrop dhruvasagar digia digitalfiz dirtydawg djinni` donatien_alphons DoniRS donkeybox dopie Dorf drager dragonshed drakythe drale2k dravine drey dytrivedi e-anima ebrooks ecky--ptang-zoob edgeuplink Edico eighty4 ejnahc ejnahc__ ejv elegos eLenoAr ElGrotto elky elliottcable em eN_Joy ericwood Etanol eternicode eth00 euphoriaa Evixion ezakimak ezrafree Fabianius faen Famic famicom fasta fatguylaughing felipe_ fikst filleokus fireh Flannel Fli-c flyth Fofr_ foo Forbidd3n FortuneDays franksta-imac frankstallone Freeaqingme freeed Garbee garciawebdev gates gde33 ghoti Gingersnap gkatsev goodfriend grafi granden graphettion Grephix gtc Guest62682 Guest79055 Guest89186 gurky Guschtel h34d3r haBuu_ Hardcore HardDisk_WP hattkunskapz heath HeN heqs_ herbnerder hhee hk416 hugo_moss HugoDaniel HyP3r iaj_ idoru ikonia ili illmatix ilteris_ ImBcmDth Internet13 ircnode0_ iSeeDeadPixels Iszak ix007 j_wright Jaac jagger|away jalcine jamesdotnet Jan\ jaredrhine jasonrunsfaster jayne jbermudes JBreit2 jcastelli jcromartie jdelgado jedimind Jelco_ JelmerD jennseattle JeremyFreeman jfinn Joefish JoeyJoeJo Johnny- JohnnyCache joikus__ jon8 Jonathan1cClare JonathanMcClare jonez joseph JoshuaJones jParkton JPeterson jpkeisala jrockjiggz JSharpe_ jtm jtrucks JWhy k-man k1ng K3|Chris kaihau kamoricks kanzure karnowski kborchers kerosene kevinfagan Khisanth kkimlabs KolakCC Kricir kristofers Kronuz l1ght La0fer lahwran lakcaj laptoke Leddy Leeol2 levifig Linkeh LiST0R lmm LocalPCGuy Logicgate_ Loserbait luigi69 luruke m4ng0s ma- MACscr Mad_Wack Mage malcolmva MArcJ_ marcogmonteiro marienz mariusz marthinal MartynKeigher mashlol MaSOuD maya_ mbay mechanicalduck meckanism medusa Meeh Meffen Melsom mephux meshuga- MikeChelen MikeD_ milligan Milos|Work miosx MiracleBlue misan mitchdotpro mitzev_ MoeLoubani1 mogsy monokrome MooingLemur MoTiOnXml Moult MrGate mrhanky MrNibbles mtcrutch Munter myndzi naquad NC-17 needlz nemesit|znc nemo Nenor nesti netman NiLon NimeshNeema Noctrl Norbo11 norm Nothing4You Nuck NwS obert Ogre ohcibi oivvio ole onscreen- oohnoitz oojacoboo opalepatrick Orbitrix Orginator Ose patteh paxcoder peder perlbot perlite PhonicUK phrozen77 phryk pikpik plambwk poutine Praise preaction_ preflex PrgmrBill procyonlabs Proshot pxlprfct pythonsnake Questutis r1card radio23 raj rakl rannmann rathis_ ravenzz Raziel2p reaper763 redfox_ reecefowell RegularJohn relix Rellac Renari richardwhiuk Ringtailed-Fox Rix rizzuh robert_ rocky romanovic Romnous ronaldlokers RudyValencia ryan--- ryanseddon rymnio_ s00pcan samu sasori_ schemula sCoRpi scrupul0us SebastianFlyte Sefyroth Selvvir Sendoushi ServerSage SeySayux sgkim126w ShawnRisk Shi SirCmpwn SirFunk sky Snakes_ snnd Somatt_wrk Someguy123 Sonderblade sooley sosby sphenxes sproates sriley stepdad stephan48 stickDeath Storm3y supersym Symmetria syntax sysdef t0x1n t_p tallest_red tapout tashi_ tdignan teleject TheBeats thebigkiwi TheCowboy TheEternalAbyss TheFuzzball thelamest TheWarden thnee threesome TigerParket Timmooo tinyfly tirengarfio_ tklun Toerkeium tomalak tomaw torpet tote tplaner trepmal troessner trucMuche trusktr twisted` TwoWholeWorms Tycale ub|k unreal-dude Validatorian vazakl- viduthalai1947 VikingIV VikingV viktech_ vitorpacheco vnn_ vptsar` vsgill wagle Wagoo waxtrx webfox_ weeb1e_ wereHamster Whiskey WillMarshall Wobbley Woet Woho worker_poke XDS2010 xec xec_ Xgc xhoy xnotte Y_Less YammYcoding yano yeltzooo yippy yodasw16 YolarP__ yorick yx zafu zapsoda Zauberfisch-idle zenodub zeropx Zitter zivester ziyadb znf zombiebeard ZombieL]
+2013-05-07 19:18:13	--	Channel #css: 524 nicks (0 ops, 0 halfops, 0 voices, 524 normals)
+2013-05-07 19:18:16	<--	Sonderblade (~boo@130.144.241.83.in-addr.dgcsystems.net) has quit (Quit: Lämnar)
+2013-05-07 19:18:32	--	Mode #css [+CFcnpt]
+2013-05-07 19:18:33	--	Channel created on Sun, 26 Nov 2006 07:42:45
+2013-05-07 19:19:49	-->	hcavalle (~harrison@static-96-251-72-193.lsanca.fios.verizon.net) has joined #css
+2013-05-07 19:19:56	<--	sasori_ (~chatzilla@cm105.gamma248.maxonline.com.sg) has quit (Read error: Connection timed out)
+2013-05-07 19:20:31	<--	ctienrsg (~chatzilla@bonn-d932d91c.pool.mediaWays.net) has quit (Read error: Connection reset by peer)
+2013-05-07 19:20:45	-->	icecandy (~icecandy@unaffiliated/icecandy) has joined #css
+2013-05-07 19:21:01	-->	ctienrsg (~chatzilla@bonn-d932d91c.pool.mediaWays.net) has joined #css
+2013-05-07 19:21:07	ShawnRisk	hi
+2013-05-07 19:22:10	-->	sasori (~chatzilla@cm105.gamma248.maxonline.com.sg) has joined #css
+2013-05-07 19:22:31	-->	eKKo (~eKKo@cpc20-wiga11-2-0-cust120.18-3.cable.virginmedia.com) has joined #css
+2013-05-07 19:23:45	<--	tinyfly (~tinyfly@adsl-75-58-147-172.dsl.rcsntx.sbcglobal.net) has quit (Quit: tinyfly)
+2013-05-07 19:24:04	-->	jsleepy89 (~textual@static-74-42-36-182.sdsl01.roch.ny.frontiernet.net) has joined #css
+2013-05-07 19:24:44	<--	Zitter (~danilo@host118-118-dynamic.53-82-r.retail.telecomitalia.it) has quit (Ping timeout: 272 seconds)
+2013-05-07 19:25:41	-->	alejo (~alejo@209.213.178.170) has joined #css
+2013-05-07 19:25:41	<--	dhruvasagar (~dhruvasag@122.167.251.21) has quit (Ping timeout: 255 seconds)
+2013-05-07 19:26:11	-->	Parhs (~aaa@unaffiliated/parhs) has joined #css
+2013-05-07 19:26:34	-->	sghe (~sghe@2-229-53-194.ip195.fastwebnet.it) has joined #css
+2013-05-07 19:26:55	-->	populvuh (~populvuh@unaffiliated/populvuh) has joined #css
+2013-05-07 19:26:56	ravenzz	http://docs.webplatform.org/wiki/Meta:web_platform_wednesday
+2013-05-07 19:27:07	<--	troessner (~troessner@213.61.131.222) has quit (Ping timeout: 245 seconds)
+2013-05-07 19:27:18	-->	Parhs8 (~aaa@62.1.60.42.dsl.dyn.forthnet.gr) has joined #css
+2013-05-07 19:28:00	<--	Parhs8 (~aaa@62.1.60.42.dsl.dyn.forthnet.gr) has left #css
+2013-05-07 19:29:47	<--	icecandy (~icecandy@unaffiliated/icecandy) has quit (Remote host closed the connection)
+2013-05-07 19:31:44	-->	Milossh (~milos@unaffiliated/milossh) has joined #css
+2013-05-07 19:32:55	<--	Asone (~Thunderbi@LPuteaux-156-16-100-112.w80-12.abo.wanadoo.fr) has quit (Ping timeout: 264 seconds)
+2013-05-07 19:33:06	kamoricks	norm: auto isn't a numerical value. You can animate from width 0 to width 100%, and potentially from width 0 to width calc(100% - (margin goes here);
+2013-05-07 19:34:37	<--	xnotte (bc53c092@gateway/web/freenode/ip.188.83.192.146) has quit (Ping timeout: 245 seconds)
+2013-05-07 19:36:15	-->	JohnBeales (~johnbeale@modemcable115.134-23-96.mc.videotron.ca) has joined #css
+2013-05-07 19:37:48	<--	WillMarshall (~willmarsh@pyraserverx.pyramind.com) has quit (Quit: Textual IRC Client: http://www.textualapp.com/)
+2013-05-07 19:38:02	-->	WillMarshall (~willmarsh@pyraserverx.pyramind.com) has joined #css
+2013-05-07 19:38:46	<--	SirCmpwn (~SirCmpwn@unaffiliated/sircmpwn) has quit (Quit: ZNC - http://znc.in)
+2013-05-07 19:39:33	<--	sasori (~chatzilla@cm105.gamma248.maxonline.com.sg) has quit (Read error: Connection timed out)
+2013-05-07 19:39:54	<--	jParkton (~quassel@dynamic-66-243-239-160.ellensburg.fairpoint.net) has quit (Remote host closed the connection)
+2013-05-07 19:40:06	<--	relix (~david@97.248.35.213.dyn.estpak.ee) has quit (Quit: relix)
+2013-05-07 19:40:06	<--	dangerousdave (~dangerous@78.156.71.46) has quit (Quit: Leaving...)
+2013-05-07 19:40:17	-->	SirCmpwn (~SirCmpwn@unaffiliated/sircmpwn) has joined #css
+2013-05-07 19:40:57	<--	mechanicalduck (~mechanica@ltea-047-064-097-123.pools.arcor-ip.net) has quit (Quit: ChatZilla 0.9.90-rdmsoft [XULRunner 18.0.2/20130201065344])
+2013-05-07 19:42:06	-->	sasori (~chatzilla@cm105.gamma248.maxonline.com.sg) has joined #css
+2013-05-07 19:42:54	<--	Sendoushi (~Musok@78-130-62-120.net.novis.pt) has quit (Remote host closed the connection)
+2013-05-07 19:43:40	-->	Maurice (copyman@5ED573FA.cm-7-6b.dynamic.ziggo.nl) has joined #css
+2013-05-07 19:44:33	<--	goodfriend (~Huge@193.87.broadband6.iol.cz) has quit (Read error: Connection reset by peer)
+2013-05-07 19:45:51	-->	contreu (contreu@79.112.12.127) has joined #css
+2013-05-07 19:47:12	<--	marcogmonteiro (~marcogmon@62.28.236.130) has quit (Quit: Textual IRC Client: http://www.textualapp.com/)
+2013-05-07 19:47:52	<--	kaihau (~quassel@unaffiliated/kaihau) has quit (Read error: Operation timed out)
+2013-05-07 19:48:53	<--	rocky (~rocky@CPEbcc810142bff-CMbcc810142bfc.cpe.net.cable.rogers.com) has quit (Ping timeout: 248 seconds)
+2013-05-07 19:50:29	<--	ctienrsg (~chatzilla@bonn-d932d91c.pool.mediaWays.net) has quit (Read error: Connection reset by peer)
+2013-05-07 19:50:38	<--	fikst (~fikst@d5152EA8A.static.telenet.be) has quit (Quit: Leaving)
+2013-05-07 19:51:00	-->	ctienrsg (~chatzilla@bonn-d932d91c.pool.mediaWays.net) has joined #css
+2013-05-07 19:52:12	-->	lifeiscontent (~lifeiscon@c-67-169-70-107.hsd1.ca.comcast.net) has joined #css
+2013-05-07 19:52:40	<--	cjeria (~cjeria@sonic.mochaleaf.com) has quit (Quit: Computer has gone to sleep.)
+2013-05-07 19:52:46	<--	edgeuplink (~edgeup@a81-84-242-11.static.cpe.netcabo.pt) has quit (Ping timeout: 276 seconds)
+2013-05-07 19:53:55	-->	goodfriend (~Huge@193.87.broadband6.iol.cz) has joined #css
+2013-05-07 19:54:02	-->	dan2k3k4 (~dan2k3k4@unaffiliated/dan2k3k4) has joined #css
+2013-05-07 19:54:38	<--	sghe (~sghe@2-229-53-194.ip195.fastwebnet.it) has quit (Quit: Linkinus - http://linkinus.com)
+2013-05-07 19:55:40	-->	totimkopf (~james@unaffiliated/totimkopf) has joined #css
+2013-05-07 19:55:57	<--	zombiebeard (~robertadi@mds-65-64-83-45.meridiandata.com) has quit (Quit: zombiebeard)
+2013-05-07 19:56:43	<--	fatguylaughing (~fatguylau@mds-65-64-83-45.meridiandata.com) has quit (Quit: fatguylaughing)
+2013-05-07 19:57:23	totimkopf	hi guys when I go here on my mobile phone: http://titerest.com/pin/how-about-some-shots then click on the image to zoom in the Category/Add Section covers up the image. How do I prevent these things from covering up the images when zoomed in?
+2013-05-07 19:58:37	-->	maZtaiR (~maZtaiR@unaffiliated/maztah) has joined #css
+2013-05-07 19:58:51	-->	FernandoBasso (~Fernando_@187.39.168.19) has joined #css
+2013-05-07 19:58:51	-->	JimmyXander (~EmberHear@wsip-72-215-233-253.ri.ri.cox.net) has joined #css
+2013-05-07 19:59:34	<--	sasori (~chatzilla@cm105.gamma248.maxonline.com.sg) has quit (Read error: Connection timed out)
+2013-05-07 19:59:55	<--	VikingIV (~VikingIV@c-98-253-225-31.hsd1.il.comcast.net) has quit
+2013-05-07 20:00:06	<--	dan2k3k4 (~dan2k3k4@unaffiliated/dan2k3k4) has quit (Ping timeout: 248 seconds)
+2013-05-07 20:02:03	<--	rakl (~rakl@sonic.mochaleaf.com) has quit (Quit: sleeping)
+2013-05-07 20:02:07	-->	sasori (~chatzilla@cm105.gamma248.maxonline.com.sg) has joined #css
+2013-05-07 20:02:31	-->	NivenHuH (~NivenWuss@sonic.mochaleaf.com) has joined #css
+2013-05-07 20:02:38	-->	cjeria (~cjeria@sonic.mochaleaf.com) has joined #css
+2013-05-07 20:02:39	-->	Juandev (~Juandev@89.24.182.66) has joined #css
+2013-05-07 20:02:54	<--	Azerus (~badass@unaffiliated/badass) has quit (Read error: Connection reset by peer)
+2013-05-07 20:03:19	-->	Azerus (~badass@c-50-150-6-117.hsd1.ga.comcast.net) has joined #css
+2013-05-07 20:03:19	<--	Azerus (~badass@c-50-150-6-117.hsd1.ga.comcast.net) has quit (Changing host)
+2013-05-07 20:03:19	-->	Azerus (~badass@unaffiliated/badass) has joined #css
+2013-05-07 20:03:58	-->	m3k (~quassel@81-174-37-227.v4.ngi.it) has joined #css
+2013-05-07 20:04:16	-->	dan2k3k4 (~dan2k3k4@unaffiliated/dan2k3k4) has joined #css
+2013-05-07 20:04:20	-->	Umren (~Ruiz@95-28-142-197.broadband.corbina.ru) has joined #css
+2013-05-07 20:05:16	-->	relipse (relipse@68-117-141-147.dhcp.mdsn.wi.charter.com) has joined #css
+2013-05-07 20:06:16	<--	cjeria (~cjeria@sonic.mochaleaf.com) has quit (Client Quit)
+2013-05-07 20:06:21	-->	AladinBouzerd_ (~aladinbou@41.104.145.138) has joined #css
+2013-05-07 20:09:05	<--	AladinBouzerd (~aladinbou@41.104.224.109) has quit (Ping timeout: 272 seconds)
+2013-05-07 20:11:18	-->	Cyberpew|Away (~Cyberpew@66.248.200.232) has joined #css
+2013-05-07 20:11:29	--	Cyberpew|Away is now known as Cyberpew
+2013-05-07 20:11:53	<--	Arieh (sbnc@2a02:348:46:60af::1) has quit (Ping timeout: 258 seconds)
+2013-05-07 20:13:24	<--	teleject (~teleject@cpe-70-113-208-200.austin.res.rr.com) has quit (Quit: teleject)
+2013-05-07 20:13:33	<--	NivenHuH (~NivenWuss@sonic.mochaleaf.com) has quit (Quit: Computer has gone to sleep.)
+2013-05-07 20:14:44	-->	danman (~djung@firebox.rsmart.com) has joined #css
+2013-05-07 20:15:09	-->	AladinBouzerd__ (~aladinbou@41.108.99.191) has joined #css
+2013-05-07 20:15:52	<--	misan (~misan@2001:858:5:3a23:9fe7:6cd3:f7a:c763) has quit (Ping timeout: 245 seconds)
+2013-05-07 20:17:51	-->	zagamqt (~zagam@81-230-17-139-no148.bredband.skanova.com) has joined #css
+2013-05-07 20:17:56	-->	_mnathani_ (~mnathani@198-84-231-11.cpe.teksavvy.com) has joined #css
+2013-05-07 20:17:58	<--	dbaron (~dbaron@50.0.192.124) has quit (Ping timeout: 245 seconds)
+2013-05-07 20:18:42	<--	TigerParket (~tigerpark@41.251.40.220) has quit (Remote host closed the connection)
+2013-05-07 20:18:42	<--	AladinBouzerd_ (~aladinbou@41.104.145.138) has quit (Ping timeout: 264 seconds)
+2013-05-07 20:18:44	-->	Artemios (~Artemios@20-91-94-178.pool.ukrtel.net) has joined #css
+2013-05-07 20:19:26	<--	sasori (~chatzilla@cm105.gamma248.maxonline.com.sg) has quit (Read error: Connection timed out)
+2013-05-07 20:20:10	<--	JimmyXander (~EmberHear@wsip-72-215-233-253.ri.ri.cox.net) has quit (Quit: JimmyXander)
+2013-05-07 20:20:59	-->	Acrack (~Adium@ADijon-651-1-266-120.w90-6.abo.wanadoo.fr) has joined #css
+2013-05-07 20:22:07	-->	sasori (~chatzilla@cm105.gamma248.maxonline.com.sg) has joined #css
+2013-05-07 20:23:27	-->	anthonym2 (~anthonym@d58-106-73-160.sbr800.nsw.optusnet.com.au) has joined #css
+2013-05-07 20:23:48	<--	anthonym (~anthonym@pdpc/supporter/professional/anthonym) has quit (Ping timeout: 245 seconds)
+2013-05-07 20:24:06	<--	Milossh (~milos@unaffiliated/milossh) has quit (Quit: Computer has gone to sleep.)
+2013-05-07 20:24:30	<--	jsleepy89 (~textual@static-74-42-36-182.sdsl01.roch.ny.frontiernet.net) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2013-05-07 20:24:35	-->	teleject (~teleject@cpe-70-113-208-200.austin.res.rr.com) has joined #css
+2013-05-07 20:25:47	-->	neataroni (1815f734@gateway/web/freenode/ip.24.21.247.52) has joined #css
+2013-05-07 20:26:15	-->	Milossh (~milos@unaffiliated/milossh) has joined #css
+2013-05-07 20:26:24	<--	neataroni (1815f734@gateway/web/freenode/ip.24.21.247.52) has left #css
+2013-05-07 20:26:29	-->	icecandy (~icecandy@unaffiliated/icecandy) has joined #css
+2013-05-07 20:27:22	-->	Zitter (~danilo@host118-118-dynamic.53-82-r.retail.telecomitalia.it) has joined #css
+2013-05-07 20:27:27	-->	l3ck (~l3ck@wsip-184-177-74-226.sd.sd.cox.net) has joined #css
+2013-05-07 20:27:52	<--	aliensky (~aliensky@200-96-149-222.gnale700.dsl.brasiltelecom.net.br) has quit (Ping timeout: 276 seconds)
+2013-05-07 20:28:32	<--	l3ck (~l3ck@wsip-184-177-74-226.sd.sd.cox.net) has quit (Client Quit)
+2013-05-07 20:28:45	-->	edoop (~user3023@host83-36-dynamic.1-87-r.retail.telecomitalia.it) has joined #css
+2013-05-07 20:29:08	<--	mtcrutch (~mtcrutch@157.166.167.129) has quit (Remote host closed the connection)
+2013-05-07 20:31:17	-->	tinyfly (~tinyfly@adsl-75-58-147-172.dsl.rcsntx.sbcglobal.net) has joined #css
+2013-05-07 20:32:24	<--	paxcoder (~paxcoder@unaffiliated/paxcoder) has quit (Ping timeout: 252 seconds)
+2013-05-07 20:33:04	-->	Sendoushi (~Musok@cm2-84-91-84-50.netvisao.pt) has joined #css
+2013-05-07 20:33:15	-->	vptsar`` (~user@mail.bmr.gov.ua) has joined #css
+2013-05-07 20:33:35	-->	memesys (~NotYou@dsl-tkubrasgw1-54fa1f-121.dhcp.inet.fi) has joined #css
+2013-05-07 20:34:25	<--	oojacoboo (~oojacoboo@96-38-241-146.static.gwnt.ga.charter.com) has quit (Quit: Peace)
+2013-05-07 20:34:58	-->	oojacoboo (~oojacoboo@96-38-241-146.static.gwnt.ga.charter.com) has joined #css
+2013-05-07 20:35:15	<--	vptsar` (~user@mail.bmr.gov.ua) has quit (Read error: Operation timed out)
+2013-05-07 20:35:46	-->	JackH (~none@client-86-29-47-62.glfd.adsl.virginmedia.com) has joined #css
+2013-05-07 20:36:11	-->	cjeria (~cjeria@sonic.mochaleaf.com) has joined #css
+2013-05-07 20:36:27	-->	aliensky (~aliensky@177.2.97.117) has joined #css
+2013-05-07 20:36:42	-->	cebor (~cebor@unaffiliated/cebor) has joined #css
+2013-05-07 20:37:01	<--	memesys (~NotYou@dsl-tkubrasgw1-54fa1f-121.dhcp.inet.fi) has left #css
+2013-05-07 20:37:44	-->	vinex08 (vinex08@120.29.80.164) has joined #css
+2013-05-07 20:38:15	vinex08	http://jsfiddle.net/GdtPq/   css menu dropdown attempt - forgot how to do it.. help!
+2013-05-07 20:38:53	-->	Arieh (sbnc@srver.nl) has joined #css
+2013-05-07 20:39:08	-->	d3m0n (~demon@67.198.198.66) has joined #css
+2013-05-07 20:39:22	<--	r1card (~r1card@5.53.246.68) has quit
+2013-05-07 20:39:25	<--	sasori (~chatzilla@cm105.gamma248.maxonline.com.sg) has quit (Read error: Connection timed out)
+2013-05-07 20:42:07	-->	sasori (~chatzilla@cm105.gamma248.maxonline.com.sg) has joined #css
+2013-05-07 20:43:14	--	Guest62682 is now known as banghouse
+2013-05-07 20:47:31	-->	linuxdaily (~linuxit@88.87.53.18) has joined #css
+2013-05-07 20:48:01	<--	JohnBeales (~johnbeale@modemcable115.134-23-96.mc.videotron.ca) has quit (Quit: Leaving...)
+2013-05-07 20:48:06	<--	Rellac (~chatzilla@host81-152-161-76.range81-152.btcentralplus.com) has quit (Quit: ChatZilla 0.9.90 [Firefox 19.0.2/20130307023931])
+2013-05-07 20:48:13	-->	mayas (~maya@ABordeaux-654-1-193-111.w90-55.abo.wanadoo.fr) has joined #css
+2013-05-07 20:49:47	-->	relix (~david@97.248.35.213.dyn.estpak.ee) has joined #css
+2013-05-07 20:50:18	-->	Pangaea (~Chilled@unaffiliated/roomlink/x-6100839) has joined #css
+2013-05-07 20:50:29	<--	ctienrsg (~chatzilla@bonn-d932d91c.pool.mediaWays.net) has quit (Read error: Connection reset by peer)
+2013-05-07 20:50:57	-->	ctienrsg (~chatzilla@bonn-d932d91c.pool.mediaWays.net) has joined #css
+2013-05-07 20:50:59	Pangaea	howdy folks.. wondering if anyone could help.. ive created a blog but ive noticed the dates over the icons on each post is almost impossible to make out
+2013-05-07 20:51:01	<--	digia (~digia@162.17.144.38) has quit (Remote host closed the connection)
+2013-05-07 20:51:19	<--	Forbidd3n (Forbidd3n@c-71-200-232-90.hsd1.fl.comcast.net) has quit (Ping timeout: 256 seconds)
+2013-05-07 20:51:20	<--	maZtaiR (~maZtaiR@unaffiliated/maztah) has quit (Quit: Computer has gone to sleep.)
+2013-05-07 20:51:31	-->	zombiebeard (~robertadi@mds-65-64-83-45.meridiandata.com) has joined #css
+2013-05-07 20:51:36	-->	jaequery (~jaequery@rrcs-173-196-143-198.west.biz.rr.com) has joined #css
+2013-05-07 20:51:38	<--	maya_ (~maya@ABordeaux-654-1-76-154.w109-214.abo.wanadoo.fr) has quit (Ping timeout: 255 seconds)
+2013-05-07 20:51:50	-->	alansaul-laptop (~alansaul-@dyn201005.shef.ac.uk) has joined #css
+2013-05-07 20:51:54	Pangaea	the blog as a way to edit its styles.css.. anyway.. i searched google for a good bit i cant find any help.. i also searched thru the css looking for thigns like "date" or "time".. nothing shows up
+2013-05-07 20:52:43	Pangaea	i took a screenshot of the blog and loaded it into photoshop.. and used a color picker to identfiy the date text hex for the color
+2013-05-07 20:52:53	<--	linuxdaily (~linuxit@88.87.53.18) has quit (Quit: Leaving)
+2013-05-07 20:52:59	Pangaea	it turns out its pure black #000000
+2013-05-07 20:53:18	<--	dailylinux (~Daily@rhelbox2.uio.no) has quit (Remote host closed the connection)
+2013-05-07 20:53:32	Pangaea	i searched thru the whole styles.css looking for anyting pertaning to "#000000" and  date/time text
+2013-05-07 20:53:43	Pangaea	again nothing showed up....
+2013-05-07 20:55:05	scrupul0us	try looking for  #000
+2013-05-07 20:55:21	Pangaea	http://pastebin.com/U5wEDY3L
+2013-05-07 20:55:25	<--	Juandev (~Juandev@89.24.182.66) has quit
+2013-05-07 20:55:48	scrupul0us	whats the public url for the blog?
+2013-05-07 20:56:02	-->	megha (~fire@unaffiliated/security) has joined #css
+2013-05-07 20:56:20	Pangaea	http://www.fractalscapes.net/IndieGamesBlogs/
+2013-05-07 20:56:43	Pangaea	see the ghost icon on each post?
+2013-05-07 20:56:50	Pangaea	there is a tiny date over each one
+2013-05-07 20:56:54	-->	Forbidd3n (Forbidd3n@c-71-200-232-90.hsd1.fl.comcast.net) has joined #css
+2013-05-07 20:57:13	scrupul0us	you want class: ".butter a"
+2013-05-07 20:57:19	scrupul0us	that is defining the colo #000
+2013-05-07 20:57:22	Pangaea	i didnt even realise there was a post date there untill i accidently higlighted the icon. the the date appeard
+2013-05-07 20:57:40	Pangaea	ok lemmy have a look.. cheers
+2013-05-07 20:57:46	<--	baba (~fire@unaffiliated/security) has quit (Ping timeout: 276 seconds)
+2013-05-07 20:57:51	-->	quidnunc (~user@bas6-montreal45-1176366429.dsl.bell.ca) has joined #css
+2013-05-07 20:58:06	<--	hcavalle (~harrison@static-96-251-72-193.lsanca.fios.verizon.net) has quit (Ping timeout: 268 seconds)
+2013-05-07 20:58:09	scrupul0us	yw
+2013-05-07 20:58:39	--	irc: disconnected from server
+2013-05-08 04:15:56	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #css
+2013-05-08 04:15:56	--	Topic for #css is "Cascading Style Sheets: Useful material and specs: http://www.w3.org/Style/CSS/ | IE Problems: specify VERSION | Validate first: http://jigsaw.w3.org/css-validator/ | Always have a URI | Paste FULL code: http://webdevout.net/test | No tables for layout: http://xrl.us/kd35 | Freelancers: #css-lance | Auch #css.de | aiming for 100% validation in your css is generally counter productive"
+2013-05-08 04:15:56	--	Topic set by jedimind (~pud@unaffiliated/jedimind) on Wed, 28 Mar 2012 23:04:03
+2013-05-08 04:15:56	--	Nicks #css: [[[zz]] [Tritium] \mSg _cheney _cheney- _if _mnathani_ aca20031 acidjazz Adawerk adnap Adys aep ajpiano alabala alejo alexwhitman alicia_ba aliensky AllStruck AMcBain An_Ony_Moose AndreaRu angeldeath__ aniasis anthonym2 Arieh aro artgoeshere Articate asdfz0mg Asone1 Avee awc737 Azerus b-lew b0x bacilla balr0g banghous_ banzounet Baracoot beg Benjojo BGentled bigLanky Bilge BillTheButcher bitg bitZero__ BlippSquipp BlueShark boaz bolson_ boushko boxer Brewster BTG_Delta bubblehead buddyq BuenGenio_ Caelum capella carlos_antonio caveat- centr0 cH40z-Lord chalcedony chaos95 chee cheese1756 ChrisPartridge ciluu Circlefusion classix clone1018 clorith cmrn coaster codeM0n3y coellobranco CoJaBo Columcille Cork CoverSlide crazedpsyc ctienrsg curvedmark Cyberpew|Away Cyclohexane Cylent D-Boy d3m0n d_d_d dan2k3k4 danielfilho darkc0met DarkGhost Davey deed02392 Derimagia Devastator- dewdrop dhruvasagar digitalfiz dirtydaw2 djinni` donkeybox dopie Dorf drager dragonshed drale2k dravine drey dytrivedi ebrooks eighty4 ejnahc ejnahc_ ejv ekneuss elegos eLenoAr ElGrotto elju_ elky` elliottcable em eN_Joy ericwood Etanol eternicode eth00 euphoriaa Evixion ezakimak ezrafree Fabianius faen Famic famicom fasta fatguylaughing felipe_ filleokus fireh Flannel Fli-c flyth Fofr_ foo Forbidd3n FortuneDays frankstallone Freeaqingme Garbee GarethAdams gates gde33|2 ghoti Gingersnap gkatsev grafi granden Grephix gtc Guest79055 Guest89186 gurky Guschtel h34d3r haBuu_ Hardcore HardDisk_WP hattkunskapz heath heidar HeN heqs_ herbnerder hk416 html hugo_moss iaj_ idoru ikonia ili illmatix ilteris ilteris_ ImBcmDth Internet13 ircnode0_ iSeeDeadPixels Iszak ix007 j_wright Jaac jaequery jagger|away jalcine Jan\ jaredrhine jayne jbermudes JBreit jcastelli jcromartie jdelgado jedimind Jelco_ JelmerD jfinn Joefish JoeyJoeJo johnline Johnny- JohnnyCache joikus__ jon8 Jonathan1cClare JonathanMcClare jonez joseph JPeterson jpkeisala jrockjiggz JSharpe_ jtm jtrucks JWhy k-man k1ng K3|Chris k_sze[work] kaihau kanzure karnowski kborchers kerosene kevinfagan Khisanth kkimlabs Kn|t3 Kocho Kricir Kronuz l1ght La0fer lahwran lakcaj laptoke Leddy Leeol2 levifig Linkeh LiST0R lmm LocalPCGuy Logicgate_ Loserbait luigi69 luruke m3pow m4ng0s ma- MACscr Mage malcolmva Mapleh MArcJ_ marienz mariusz MartynKeigher mashlol MaSOuD mbay MBD123 meckanism medusa Meeh Meffen megha Melsom mephux meshuga- MikeD_ milligan Milos|Work miosx mitchdotpro mitzev_ MoeLoubani1 mogsy monokrome MooingLemur morficus Motig Moult mrhanky MrNibbles Munter mven myndzi naquad NC-17 neataroni needlz nemesit|znc nemo nesti netman nick_omega NiLon NimeshNeema NivenHuH Noctrl norm Nothing4You obert Ogre ohcibi oivvio ole onscreen- oohnoitz oojacoboo Orbitrix Orginator Parhs patteh peder perlbot perlite petey PhonicUK phrozen77 phryk pikpik plambwk plumpkin populvuh poutine Praise preaction_ preflex PrgmrBill procyonlabs pythonirc101 pythonsnake quidnunc r1card radio23 raj rakl rakm rannmann rathis Raziel2p reaper763 redfox_ reecefowell relipse Renari rgb_ richardwhiuk Ringtailed-Fox Rix RNT robert_ romanovic Romnous ronaldlokers RudyValencia ryan--- ryanseddon s00pcan samu schemula schnoodles-osx sCoRpi scrupul0us SebastianFlyte Selvvir ServerSage SeySayux sgkim126w SirCmpwn SirFunk sky Snakes_ snnd Somatt_wrk Someguy123 sooley sosby sproates sriley stepdad stephan48 stickDeath Storm3y supersym Symmetria syntax sysdef t0x1n tallest_red tapout taqutor tashi_ tdignan TheBeats thebigkiwi TheCowboy TheEternalAbyss TheFuzzball thelamest thnee Timmooo tirengarfio_ tiwula tklun Toerkeium tomalak tomaw torpet torvyboy tote tplaner trepmal troessner trucMuche trusktr twisted` TwoWholeWorms Tycale ub|k unreal-dude unstable Validatorian vazakl viduthalai1947 VikingV viktech_ vnn_ vptsar`` vsgill_ wagle Wagoo waxtrx webfox_ weeb1e_ wereHamster Whiskey Wirewraith Wobbley Woet worker_poke xec xec_ Xgc xhoy xmath279 YammYcoding yano yeltzooo yippy yx ZachBeta zafu zapo zapsoda Zauberfisch-idle zenodub zivester ziyadb znf]
+2013-05-08 04:15:56	--	Channel #css: 479 nicks (0 ops, 0 halfops, 0 voices, 479 normals)
+2013-05-08 04:15:56	<--	GarethAdams (~GarethAda@pdpc/supporter/active/GarethAdams) has quit (Read error: Connection reset by peer)
+2013-05-08 04:16:15	--	Mode #css [+CFcnpt]
+2013-05-08 04:16:16	--	Channel created on Sun, 26 Nov 2006 07:42:45
+2013-05-08 04:16:44	-->	aleksandar (~aleksanda@c-530e70d5.012-14-67626710.cust.bredbandsbolaget.se) has joined #css
+2013-05-08 04:17:05	-->	jsleepy89 (~textual@129.21.107.194) has joined #css
+2013-05-08 04:19:26	<--	jaequery (~jaequery@cpe-76-174-169-220.socal.res.rr.com) has quit (Quit: Computer has gone to sleep.)
+2013-05-08 04:19:50	<--	beg (beg@c-530e70d5.012-14-67626710.cust.bredbandsbolaget.se) has quit (Ping timeout: 255 seconds)
+2013-05-08 04:20:17	<--	Kn|t3 (Kn|t3@nat/google/x-gtpsrysmfxgpgwjv) has quit (Quit: Kn|t3)
+2013-05-08 04:20:19	<--	populvuh (~populvuh@unaffiliated/populvuh) has quit (Ping timeout: 264 seconds)
+2013-05-08 04:20:21	<--	trusktr (~trusktr@130.86.99.109) has quit (Ping timeout: 248 seconds)
+2013-05-08 04:22:14	-->	populvuh (~populvuh@unaffiliated/populvuh) has joined #css
+2013-05-08 04:23:15	-->	jaequery (~jaequery@cpe-76-174-169-220.socal.res.rr.com) has joined #css
+2013-05-08 04:23:20	<--	mitzev_ (~mitzev_@61.173.80.125) has quit (Ping timeout: 268 seconds)
+2013-05-08 04:23:29	<--	dravine (~dravine@75-12-94-46.lightspeed.gdrpmi.sbcglobal.net) has quit (Quit: dravine)
+2013-05-08 04:24:27	<--	rgb_ (~rgb@p5080F362.dip0.t-ipconnect.de) has quit (Quit: rgb_)
+2013-05-08 04:25:04	-->	XDS2010 (uid1218@gateway/web/irccloud.com/x-fvojymfceizzeapi) has joined #css
+2013-05-08 04:25:53	-->	Auger (~Thunderbi@108-81-194-103.lightspeed.rcsntx.sbcglobal.net) has joined #css
+2013-05-08 04:25:58	<--	pythonirc101 (~pythonirc@lovasz.cs.fsu.edu) has quit (Remote host closed the connection)
+2013-05-08 04:26:23	-->	scottmey (~scottmey@ool-18e4fda2.dyn.optonline.net) has joined #css
+2013-05-08 04:27:32	-->	45PAAAQ1C (~pythonirc@lovasz.cs.fsu.edu) has joined #css
+2013-05-08 04:29:01	-->	chipotle_ (~chipotle@unaffiliated/chipotle) has joined #css
+2013-05-08 04:29:34	-->	b1lly1 (~b1lly@pool-96-246-189-75.nycmny.fios.verizon.net) has joined #css
+2013-05-08 04:35:03	<--	BuenGenio_ (~BuenGenio@n219078213141.netvigator.com) has quit (Ping timeout: 245 seconds)
+2013-05-08 04:35:34	<--	jaequery (~jaequery@cpe-76-174-169-220.socal.res.rr.com) has quit (Quit: Computer has gone to sleep.)
+2013-05-08 04:37:48	--	Joefish is now known as Joefish]off
+2013-05-08 04:39:31	<--	plambwk (~whoopie@173-11-7-213-oregon.hfc.comcastbusiness.net) has quit (Ping timeout: 252 seconds)
+2013-05-08 04:39:52	-->	skunkhaze (~gdfg@213.163.108.139) has joined #css
+2013-05-08 04:40:43	<--	Auger (~Thunderbi@108-81-194-103.lightspeed.rcsntx.sbcglobal.net) has quit (Quit: RETURNING TO THE MUNDANE WORLD...)
+2013-05-08 04:41:45	--	trepmal is now known as trepmal|away
+2013-05-08 04:41:52	-->	vitorpacheco (~vitor@186-241-243-181.user.veloxzone.com.br) has joined #css
+2013-05-08 04:42:51	<--	skunkhaze (~gdfg@213.163.108.139) has left #css
+2013-05-08 04:43:16	<--	chipotle_ (~chipotle@unaffiliated/chipotle) has quit (Quit: cya)
+2013-05-08 04:43:22	<--	drale2k (~drale2k@chello084113196096.1.14.vie.surfer.at) has quit (Quit: Leaving...)
+2013-05-08 04:44:37	-->	chipotle_ (~chipotle@unaffiliated/chipotle) has joined #css
+2013-05-08 04:45:02	-->	culh (~culhudo@189.6.148.13) has joined #css
+2013-05-08 04:45:12	<--	chipotle_ (~chipotle@unaffiliated/chipotle) has quit (Client Quit)
+2013-05-08 04:45:32	-->	trusktr (~trusktr@130.86.99.109) has joined #css
+2013-05-08 04:46:02	-->	ctienrsg_ (~chatzilla@bonn-d932d95b.pool.mediaWays.net) has joined #css
+2013-05-08 04:47:23	<--	ctienrsg (~chatzilla@bonn-d932d91c.pool.mediaWays.net) has quit (Ping timeout: 268 seconds)
+2013-05-08 04:50:29	<--	ctienrsg_ (~chatzilla@bonn-d932d95b.pool.mediaWays.net) has quit (Read error: Connection reset by peer)
+2013-05-08 04:51:01	-->	ctienrsg (~chatzilla@bonn-d932d95b.pool.mediaWays.net) has joined #css
+2013-05-08 04:51:55	<--	Kricir (~kricir@c-24-245-9-49.hsd1.mn.comcast.net) has quit (Remote host closed the connection)
+2013-05-08 04:54:38	-->	plambwk (~whoopie@173-11-7-213-oregon.hfc.comcastbusiness.net) has joined #css
+2013-05-08 04:56:21	-->	baba (~fire@unaffiliated/security) has joined #css
+2013-05-08 04:57:38	<--	megha (~fire@unaffiliated/security) has quit (Ping timeout: 255 seconds)
+2013-05-08 04:58:07	<--	Devastator- (~devas@177.18.199.9) has quit (Changing host)
+2013-05-08 04:58:07	-->	Devastator- (~devas@unaffiliated/devastator) has joined #css
+2013-05-08 04:58:08	--	Devastator- is now known as Devastator
+2013-05-08 05:00:48	<--	TheBeats (~kvirc@86.86.170.175) has quit (Read error: Connection reset by peer)
+2013-05-08 05:03:02	<--	r1card (~r1card@5.53.246.68) has quit (Ping timeout: 255 seconds)
+2013-05-08 05:03:03	<--	d3m0n (~demon@67.198.198.66) has quit (Remote host closed the connection)
+2013-05-08 05:05:53	<--	relipse (~relipse@ip-64-134-196-173.public.wayport.net) has quit (Ping timeout: 245 seconds)
+2013-05-08 05:05:56	<--	quidnunc (~user@bas6-montreal45-1176366429.dsl.bell.ca) has quit (Remote host closed the connection)
+2013-05-08 05:06:08	<--	johnline (johnline@cpc4-lewi16-2-0-cust513.2-4.cable.virginmedia.com) has quit (Quit: FAK U JAMIE OLIVE)
+2013-05-08 05:09:04	-->	skunkhaze (~gdfg@213.163.108.139) has joined #css
+2013-05-08 05:09:47	-->	alphanum (Random@ip68-110-98-9.ph.ph.cox.net) has joined #css
+2013-05-08 05:09:47	<--	alphanum (Random@ip68-110-98-9.ph.ph.cox.net) has quit (Changing host)
+2013-05-08 05:09:47	-->	alphanum (Random@unaffiliated/alpha-num-ber) has joined #css
+2013-05-08 05:10:02	alphanum	gameswamp.com, now there's a nice design.
+2013-05-08 05:10:46	<--	Derimagia (~Derimagia@192.227.135.6) has left #css ("Cya.")
+2013-05-08 05:10:51	<--	Davey (~Davey@orchestra/staff/Davey) has quit (Quit: Computer has gone to sleep.)
+2013-05-08 05:12:03	<--	plambwk (~whoopie@173-11-7-213-oregon.hfc.comcastbusiness.net) has quit (Ping timeout: 260 seconds)
+2013-05-08 05:12:05	-->	dbaron (~dbaron@50.0.192.124) has joined #css
+2013-05-08 05:12:19	-->	BuenGenio (~BuenGenio@202.82.246.209) has joined #css
+2013-05-08 05:12:38	-->	plambwk (~whoopie@173-11-7-213-oregon.hfc.comcastbusiness.net) has joined #css
+2013-05-08 05:12:51	obert	which tool are you using to minimize css?
+2013-05-08 05:13:38	-->	drale2k (~drale2k@chello084113196096.1.14.vie.surfer.at) has joined #css
+2013-05-08 05:14:07	skunkhaze	any tool would work, csscompressor.com
+2013-05-08 05:15:11	obert	is it all about to replace space with nothing?
+2013-05-08 05:16:09	AMcBain	obert, if you did that, some selectors and property values might not work correctly.
+2013-05-08 05:16:32	AMcBain	It has to be a bit more descriminatory.
+2013-05-08 05:16:37	AMcBain	discriminatory*
+2013-05-08 05:18:11	-->	Pyus (~uSr@cpe-24-24-201-207.socal.res.rr.com) has joined #css
+2013-05-08 05:18:43	<--	b-lew (~Adium@c-24-10-15-38.hsd1.ca.comcast.net) has left #css
+2013-05-08 05:18:48	<--	Pyus (~uSr@cpe-24-24-201-207.socal.res.rr.com) has quit (Max SendQ exceeded)
+2013-05-08 05:19:10	-->	Yoofie (~yoofie@75.114.176.65) has joined #css
+2013-05-08 05:19:30	-->	Pyus (~uSr@cpe-24-24-201-207.socal.res.rr.com) has joined #css
+2013-05-08 05:20:29	<--	ctienrsg (~chatzilla@bonn-d932d95b.pool.mediaWays.net) has quit (Read error: Connection reset by peer)
+2013-05-08 05:20:59	-->	ctienrsg (~chatzilla@bonn-d932d95b.pool.mediaWays.net) has joined #css
+2013-05-08 05:21:17	<--	trusktr (~trusktr@130.86.99.109) has quit (Ping timeout: 245 seconds)
+2013-05-08 05:21:31	-->	vaerros (~Vaerros@ip174-70-100-167.no.no.cox.net) has joined #css
+2013-05-08 05:21:40	--	vaerros is now known as vaerros_pc
+2013-05-08 05:21:42	obert	heh
+2013-05-08 05:22:17	-->	Kricir (~kricir@c-24-245-9-49.hsd1.mn.comcast.net) has joined #css
+2013-05-08 05:22:51	<--	drale2k (~drale2k@chello084113196096.1.14.vie.surfer.at) has quit (Ping timeout: 256 seconds)
+2013-05-08 05:24:08	-->	zamabe (zamabe@unaffiliated/zamabe) has joined #css
+2013-05-08 05:24:35	<--	NivenHuH (~NivenWuss@199-83-223-84.PUBLIC.monkeybrains.net) has quit (Quit: Computer has gone to sleep.)
+2013-05-08 05:24:53	-->	hcavalle (~harrison@67.201.10.58) has joined #css
+2013-05-08 05:27:25	obert	what a stupid thing it does
+2013-05-08 05:28:03	obert	optimize font-weight: changed normal to 400
+2013-05-08 05:28:26	mashlol	less bytes
+2013-05-08 05:28:43	raj	hey mashlol
+2013-05-08 05:28:44	raj	:)
+2013-05-08 05:28:46	mashlol	every byte counts
+2013-05-08 05:28:50	mashlol	hey!
+2013-05-08 05:28:52	obert	400 doesnt works on ie, as far as i know
+2013-05-08 05:29:03	<--	html (~css@unaffiliated/css) has left #css
+2013-05-08 05:29:31	-->	barneybook (~kvirc@114-43-151-64.dynamic.hinet.net) has joined #css
+2013-05-08 05:29:41	raj	it was suggested to me the other day to use width:1% on the <th> of a table to get the column to wrap its contents
+2013-05-08 05:29:53	-->	BaDaSs (~badass@c-50-150-6-117.hsd1.ga.comcast.net) has joined #css
+2013-05-08 05:29:53	<--	BaDaSs (~badass@c-50-150-6-117.hsd1.ga.comcast.net) has quit (Changing host)
+2013-05-08 05:29:53	-->	BaDaSs (~badass@unaffiliated/badass) has joined #css
+2013-05-08 05:30:02	<--	Azerus (~badass@unaffiliated/badass) has quit (Ping timeout: 255 seconds)
+2013-05-08 05:30:02	raj	however, this causes issues with stretching the table beyond the dialog it sits in
+2013-05-08 05:30:18	raj	(absolutely position dialog
+2013-05-08 05:30:19	raj	)
+2013-05-08 05:30:45	<--	Kricir (~kricir@c-24-245-9-49.hsd1.mn.comcast.net) has quit (Ping timeout: 248 seconds)
+2013-05-08 05:30:46	raj	is there an alternative means of wrapping the cell content according to the widest cell in the column?
+2013-05-08 05:30:58	-->	Guest28755 (~viktech__@CPE-65-26-203-215.wi.res.rr.com) has joined #css
+2013-05-08 05:31:10	<--	viktech_ (~viktech__@CPE-65-26-203-215.wi.res.rr.com) has quit (Ping timeout: 268 seconds)
+2013-05-08 05:32:00	<--	bubblehead (~bubblehea@24-240-23-52.dhcp.athn.ga.charter.com) has quit (Remote host closed the connection)
+2013-05-08 05:32:41	-->	bubblehead (~bubblehea@24-240-23-52.dhcp.athn.ga.charter.com) has joined #css
+2013-05-08 05:32:55	<--	SeySayux (SeySayux@libsylph/developer/seysayux) has quit (Ping timeout: 264 seconds)
+2013-05-08 05:34:29	<--	cheese1756 (~cheese175@unaffiliated/cheese1756) has quit (Ping timeout: 248 seconds)
+2013-05-08 05:35:49	-->	relipse (~relipse@50.50.158.11) has joined #css
+2013-05-08 05:36:23	-->	SeySayux (SeySayux@libsylph/developer/seysayux) has joined #css
+2013-05-08 05:37:15	<--	BaDaSs (~badass@unaffiliated/badass) has quit (Ping timeout: 260 seconds)
+2013-05-08 05:37:28	-->	Kn|t3 (~Kn|t3@122.172.11.111) has joined #css
+2013-05-08 05:37:39	<--	Cyberpew|Away (~Cyberpew@66.248.200.232) has quit (Ping timeout: 276 seconds)
+2013-05-08 05:38:12	-->	BaDaSs (~badass@unaffiliated/badass) has joined #css
+2013-05-08 05:39:11	-->	procrastubator (ad23e1b4@gateway/web/freenode/ip.173.35.225.180) has joined #css
+2013-05-08 05:39:26	obert	impressive, someone is using really a my theme
+2013-05-08 05:39:38	-->	jaequery (~jaequery@cpe-76-174-169-220.socal.res.rr.com) has joined #css
+2013-05-08 05:39:39	alphanum	obert, where?
+2013-05-08 05:39:47	obert	in the web
+2013-05-08 05:39:54	<--	jaequery (~jaequery@cpe-76-174-169-220.socal.res.rr.com) has quit (Client Quit)
+2013-05-08 05:40:07	-->	NivenHuH (~NivenWuss@199-83-223-84.PUBLIC.monkeybrains.net) has joined #css
+2013-05-08 05:40:26	-->	cheese1756 (~cheese175@unaffiliated/cheese1756) has joined #css
+2013-05-08 05:40:40	-->	Cyberpew|Away (~Cyberpew@66.248.200.232) has joined #css
+2013-05-08 05:40:45	procrastubator	Guys, a quick question: http://jsfiddle.net/fYDDD/ even though both #begin_pos and #about_pos have top:300px, why is one higher than the other? And also, why can't I seem to pass % values to that same top label?
+2013-05-08 05:40:49	--	Cyberpew|Away is now known as Cyberpew
+2013-05-08 05:40:56	procrastubator	And percentage value I pass to it leaves it at the top
+2013-05-08 05:40:59	-->	alicia_bance (~none@224.sub-75-253-11.myvzw.com) has joined #css
+2013-05-08 05:41:43	-->	_cheney-2 (~cheney@nat.sierrabravo.net) has joined #css
+2013-05-08 05:41:43	<--	Kn|t3 (~Kn|t3@122.172.11.111) has quit (Ping timeout: 245 seconds)
+2013-05-08 05:42:05	mashlol	you might be looking for position: absolute procrastubator ?
+2013-05-08 05:42:52	<--	_cheney- (~cheney@c-71-63-243-147.hsd1.mn.comcast.net) has quit (Ping timeout: 272 seconds)
+2013-05-08 05:43:18	-->	preflex_ (~preflex@unaffiliated/mauke/bot/preflex) has joined #css
+2013-05-08 05:43:19	<--	d_d_d (~d_d_d@119.192.24.164) has quit (Quit: Computer has gone to sleep.)
+2013-05-08 05:43:26	-->	jaequery (~jaequery@cpe-76-174-169-220.socal.res.rr.com) has joined #css
+2013-05-08 05:43:29	procrastubator	mashlol: this fixes it
+2013-05-08 05:43:54	procrastubator	mashlol: why does it though? isn't the div it's nested in spread throughout the body?
+2013-05-08 05:44:13	<--	alicia_ba (~none@170.sub-75-199-47.myvzw.com) has quit (Ping timeout: 245 seconds)
+2013-05-08 05:44:22	mashlol	relative means use the `top/bottom/left/right` params in relation to where it would normally be
+2013-05-08 05:44:33	mashlol	since the first div was display: block
+2013-05-08 05:44:39	mashlol	it took the whole row, offsetting the second div lower
+2013-05-08 05:45:24	<--	preflex (~preflex@unaffiliated/mauke/bot/preflex) has quit (Ping timeout: 272 seconds)
+2013-05-08 05:45:30	--	preflex_ is now known as preflex
+2013-05-08 05:45:31	procrastubator	got it
+2013-05-08 05:45:32	procrastubator	thanks mashlol
+2013-05-08 05:45:37	<--	NivenHuH (~NivenWuss@199-83-223-84.PUBLIC.monkeybrains.net) has quit (Quit: Computer has gone to sleep.)
+2013-05-08 05:45:40	mashlol	any time
+2013-05-08 05:45:49	-->	Guschtel` (~guschtel@unaffiliated/Guschtel) has joined #css
+2013-05-08 05:47:28	<--	centr0 (~centr0@75-172-185-197.phnx.qwest.net) has quit (Quit: centr0)
+2013-05-08 05:47:35	<--	scottmey (~scottmey@ool-18e4fda2.dyn.optonline.net) has quit (Quit: scottmey)
+2013-05-08 05:48:45	-->	drale2k (~drale2k@chello084113196096.1.14.vie.surfer.at) has joined #css
+2013-05-08 05:50:03	<--	rakl (~rakl@208-90-212-125.PUBLIC.monkeybrains.net) has quit (Quit: sleeping)
+2013-05-08 05:50:28	<--	Guschtel (~guschtel@unaffiliated/Guschtel) has quit (Ping timeout: 272 seconds)
+2013-05-08 05:50:29	<--	ctienrsg (~chatzilla@bonn-d932d95b.pool.mediaWays.net) has quit (Read error: Connection reset by peer)
+2013-05-08 05:50:46	-->	Guest39553 (~info@95.141.28.51) has joined #css
+2013-05-08 05:50:50	Guest39553	.
+2013-05-08 05:50:56	Guest39553	Hello
+2013-05-08 05:50:58	-->	ctienrsg (~chatzilla@bonn-d932d95b.pool.mediaWays.net) has joined #css
+2013-05-08 05:51:07	<--	MBD123 (~quassel@dynamicDSL2-18.lipan.net) has quit (Remote host closed the connection)
+2013-05-08 05:52:44	Guest39553	$verzeichnis = openDir("daten"); i got php parse error T_string
+2013-05-08 05:53:18	alphanum	Guest28755, did you try #php?
+2013-05-08 05:53:32	alphanum	not saying you couldn't try here but they may be more help
+2013-05-08 05:53:38	Guest39553	yes. it says only invited
+2013-05-08 05:53:53	Guest39553	i can not join
+2013-05-08 05:54:51	<--	b1lly1 (~b1lly@pool-96-246-189-75.nycmny.fios.verizon.net) has quit (Quit: Leaving.)
+2013-05-08 05:55:33	-->	reZo (gareth@203.160.125.127) has joined #css
+2013-05-08 05:55:33	AMcBain	Guest39553, Two things: 1) Your client sucks. It's not invite only. You need to have a username registered with nickserv, and currently be identified with it. 2) Just because we also do help for a web-related technology doesn't mean that it's right to assume that as such there might be PHP developers in here and you should come in and ask your question because the first channel wasn't able to help you.
+2013-05-08 05:56:40	--	Guest28755 is now known as viktech_
+2013-05-08 05:56:45	--	viktech_ is now known as viktech__
+2013-05-08 05:57:07	Guest39553	:)
+2013-05-08 05:57:42	alphanum	AMcBain, while that is true it is mean. Guest39553, change your nick to something decent and type in "/msg nickserv help" or join the "nickserv" channel to register your nickname, then join #php.
+2013-05-08 05:58:23	AMcBain	alphanum, no, not mean. too many people do it and think it is acceptable.
+2013-05-08 05:58:38	AMcBain	This is not the place for such questions.
+2013-05-08 05:59:29	Guest39553	thanks for help
+2013-05-08 06:00:19	<--	fatguylaughing (~fatguylau@ip68-228-160-124.ok.ok.cox.net) has quit (Read error: Connection reset by peer)
+2013-05-08 06:00:42	-->	fatguylaughing (~fatguylau@ip68-228-160-124.ok.ok.cox.net) has joined #css
+2013-05-08 06:01:14	<--	tiwula (~lane@74-81-242-203.static.sdyl005.digis.net) has quit (Quit: Leaving)
+2013-05-08 06:01:21	<--	procrastubator (ad23e1b4@gateway/web/freenode/ip.173.35.225.180) has quit (Quit: Page closed)
+2013-05-08 06:01:40	-->	r1card (~r1card@5.53.246.68) has joined #css
+2013-05-08 06:02:06	Guest39553	yes so true this question in the css chat.
+2013-05-08 06:02:35	alphanum	guest, change your nick name to something other then default
+2013-05-08 06:02:45	<--	plumpkin (~plumpkin@75.128.183.200) has quit (Ping timeout: 248 seconds)
+2013-05-08 06:03:26	<--	viktech__ (~viktech__@CPE-65-26-203-215.wi.res.rr.com) has quit (Ping timeout: 256 seconds)
+2013-05-08 06:04:56	-->	Davey (~Davey@orchestra/staff/Davey) has joined #css
+2013-05-08 06:07:09	<--	Asone1 (~Thunderbi@vol75-21-78-249-192-132.fbx.proxad.net) has quit (Ping timeout: 252 seconds)
+2013-05-08 06:07:12	<--	zapo (~sumo@acd41300654.wireless.rit.edu) has quit (Quit: leaving)
+2013-05-08 06:10:40	-->	Senji (~Senji@46.10.81.168) has joined #css
+2013-05-08 06:10:49	<--	45PAAAQ1C (~pythonirc@lovasz.cs.fsu.edu) has quit (Remote host closed the connection)
+2013-05-08 06:11:03	Senji	Can I get the color value of a pixel at a random XY position on screen via js?
+2013-05-08 06:11:37	AMcBain	Senji, uhhh, now is that a question for #css ?
+2013-05-08 06:11:41	AMcBain	how*

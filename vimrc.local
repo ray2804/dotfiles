@@ -1,5 +1,7 @@
 
 au BufRead,BufNewFile *.html.jade set filetype=jade
+au BufRead,BufNewFile *.litcoffee set filetype=litcoffee
+au BufRead,BufNewFile *.coffee.md set filetype=litcoffee
 au BufRead,BufNewFile *.md        set filetype=markdown
 
 set sts=4
@@ -9,6 +11,13 @@ set expandtab
 
 :nnoremap <F5> "=strftime("%c")<CR>P
 :inoremap <F5> <C-R>=strftime("%c")<CR>"
+
+" source formatting
+map <F7> mzgg=G`z<CR>
+
+
+Bundle 'indentfolds'
+Bundle 'create_start_fold_marker.vim'
 
 set pastetoggle=<F2>
 

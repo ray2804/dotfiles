@@ -1,0 +1,122 @@
+#!/usr/bin/perl
+
+use File::Copy;
+
+
+$ext_options = "noatime";
+$swap_options = "noatime";
+$vfat_options = "noatime,umask=0";
+$reiserfs_options = "notail,noatime";
+
+$tmpfs = "none /tmp tmpfs size=256m,nosuid,nodev,noatime 0 0\n";
+
+
+
+sub removeParameter {
+$line = $_[0];
+$todel = $_[1];
+
+$pos = rindex($line, $todel);
+if ( $pos < 0 ) { return $line; }
+
+$start = substr($line, 0, $pos);
+$end = substr($line, $pos + length($todel), length($line));
+
+
+$notready = "0";
+$pos2 = 0;
+
+while ( $notready le "1" ) {
+        $ichar = substr($end, $pos2, 1);
+        if ( $ichar ne "," && $ichar ne "=" && $ichar !~ /[0-9]/ ) {last}
+        $pos2++;
+}
+
+
+$end = substr($end, $pos2, length($end));
+$start_last_char = substr($start, length($start)-1, 1);
+$end_first_char = substr($end, 0, 1);
+if ( $start_last_char eq "," && $end_first_char !~ /[a-z]/ ) { $start = substr($start, 0, length($start)-1); }
+
+$final = $start.$end;
+
+return $final;
+}
+
+
+
+# --------------------------------------------------------------------------------------
+# Main script:
+# --------------------------------------------------------------------------------------
+
+copy("/etc/fstab", "/etc/_fstab") or die "Cannot backup /etc/fstab, stopping!\n\n";
+
+$newfile = "";
+
+open (FILE, '/etc/fstab');
+	$wholefile = <FILE>;
+	if ( rindex($wholefile, "/tmp") > 0 ) { print "/etc/fstab already modified, exiting...\n"; exit 0; }
+	
+	while (<FILE>) {
+	chomp;
+	$line = $_;
+	$line = removeParameter($line, "relatime");
+	$line = removeParameter($line, "umask");
+	$line = removeParameter($line, "gid");
+	$linelen = length($line);
+	$position = -1;
+
+	if ( $position < 0 ) {
+		$position = rindex($line, "ext");
+		if ( $position > 0 ) { $newoptions = $ext_options; $position = $position + 5; }
+	}
+
+	if ( $position < 0 ) {
+		$position = rindex($line, "swap");
+		if ( $position > 0 ) { $newoptions = $swap_options; $position = $position + 5; }
+	}
+
+	if ( $position < 0 ) {
+		$position = rindex($line, "vfat");
+		if ( $position > 0 ) { $newoptions = $vfat_options; $position = $position + 5; }
+	}
+
+	if ( $position < 0 ) {
+		$position = rindex($line, "reiserfs");
+		if ( $position > 0 ) { $newoptions = $reiserfs_options; $position = $position + 9; }
+	}
+
+	$commentpos = rindex($line, "\#");
+	if ( $position > 0 ) {
+	if ( $commentpos < 0 || $commentpos > $position ) {
+
+	for ($pos = $position; $pos < $linelen; $pos++) {
+		if ( rindex($line, $newoptions) > 0 ) {last}
+		$char = substr($line, $pos, 1);
+		if ( $char eq "\#" ) {last}
+
+		$rest = substr($line, $pos, length($line));
+		if ( $char =~ /[a-z]/ ) {
+			substr($line, $pos, $pos, $newoptions.",".$rest);
+			{last}
+		}
+	}
+	}
+	}
+	
+	$newfile = "$newfile$line\n";
+}
+
+close (FILE); 
+
+if ( rindex($newfile, "/tmp") < 0 ) { $newfile = $newfile.$tmpfs; }
+
+
+open( FILE, ">/etc/fstab" );
+print FILE $newfile;
+close(FILE);
+
+
+
+system "cat /etc/fstab";
+

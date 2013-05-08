@@ -3663,3 +3663,42 @@
 2013-05-07 16:31:46	defa	Developing a Clojure/ClojureScript web app, is there a way to automatically push recompiled cljs files to the client automatically without reloading?
 2013-05-07 16:39:35	redline6561	does `lein cljsbuild auto` do this?
 2013-05-07 16:39:51	redline6561	No, sorry. Ignore me. That's host-only.
+2013-05-07 17:23:06	defa	redline6561: I was hoping that cljsbuild had a feature like this… like https://github.com/webxl/grunt-reload
+2013-05-07 17:57:24	<--	bmaddy (~bmaddy@72.21.231.26) has quit (Remote host closed the connection)
+2013-05-07 18:04:04	-->	cdh473__ (~cdh473@50.96.75.109) has joined #clojurescript
+2013-05-07 18:07:11	<--	cdh473_ (~cdh473@50.96.75.109) has quit (Ping timeout: 256 seconds)
+2013-05-07 18:15:46	-->	bmaddy (~bmaddy@72.21.231.26) has joined #clojurescript
+2013-05-07 18:22:41	<--	bmaddy (~bmaddy@72.21.231.26) has quit (Remote host closed the connection)
+2013-05-07 18:30:39	-->	cdh473 (~cdh473@50.96.75.109) has joined #clojurescript
+2013-05-07 18:31:33	<--	cdh473__ (~cdh473@50.96.75.109) has quit (Ping timeout: 256 seconds)
+2013-05-07 18:49:18	<--	leoc (~leoc.git@p4FF7AFB9.dip0.t-ipconnect.de) has quit (Read error: Operation timed out)
+2013-05-07 19:17:30	--	irc: disconnected from server
+2013-05-07 19:18:04	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #clojurescript
+2013-05-07 19:18:05	--	Nicks #clojurescript: [ahoops bbloom brainproxy cdh473 cemerick defa enquora frankgerhardt_ harrow ibdknox j0ni_ jaimef jimt karnowski kgerman recycle redline6561 si14 supersym tos9 tyler__]
+2013-05-07 19:18:05	--	Channel #clojurescript: 21 nicks (0 ops, 0 halfops, 0 voices, 21 normals)
+2013-05-07 19:18:24	--	Mode #clojurescript [+cnt]
+2013-05-07 19:18:25	--	Channel created on Thu, 21 Jul 2011 18:34:20
+2013-05-07 19:19:32	-->	slagyr (~micahmart@c-67-184-199-69.hsd1.il.comcast.net) has joined #clojurescript
+2013-05-07 19:20:00	slagyr	cljs.user=> (deftype Foo [] cljs.core.IDeref (-deref [this] "foo"))
+2013-05-07 19:20:00	slagyr	WARNING: Symbol cljs.core.IDeref is not a protocol at line 1
+2013-05-07 19:20:07	slagyr	Why do I get that warning?
+2013-05-07 19:47:04	<--	slagyr (~micahmart@c-67-184-199-69.hsd1.il.comcast.net) has quit (Quit: slagyr)
+2013-05-07 20:00:32	-->	cdh473_ (~cdh473@50.96.75.109) has joined #clojurescript
+2013-05-07 20:00:46	<--	cdh473 (~cdh473@50.96.75.109) has quit (Read error: Connection reset by peer)
+2013-05-07 20:03:11	-->	cdh473__ (~cdh473@50.96.75.109) has joined #clojurescript
+2013-05-07 20:05:39	<--	cdh473_ (~cdh473@50.96.75.109) has quit (Ping timeout: 256 seconds)
+2013-05-07 20:15:49	-->	ToBeReplaced (~ToBeRepla@c-68-48-45-209.hsd1.dc.comcast.net) has joined #clojurescript
+2013-05-07 20:58:38	--	irc: disconnected from server
+2013-05-08 04:15:56	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #clojurescript
+2013-05-08 04:15:56	--	Nicks #clojurescript: [ahoops bbloom brainproxy cdh473__ frankgerhardt_ harrow ibdknox j0ni_ jaimef jimt karnowski kgerman recycle redline6561 si14 supersym tos9 tyler__]
+2013-05-08 04:15:56	--	Channel #clojurescript: 18 nicks (0 ops, 0 halfops, 0 voices, 18 normals)
+2013-05-08 04:16:07	--	Mode #clojurescript [+cnt]
+2013-05-08 04:16:08	--	Channel created on Thu, 21 Jul 2011 18:34:20
+2013-05-08 04:18:18	-->	slagyr (~slagyr@c-67-184-199-69.hsd1.il.comcast.net) has joined #clojurescript
+2013-05-08 04:29:12	-->	bmaddy (~bmaddy@72.21.231.26) has joined #clojurescript
+2013-05-08 05:39:56	<--	bmaddy (~bmaddy@72.21.231.26) has quit (Remote host closed the connection)
+2013-05-08 05:44:50	-->	cdh473 (~cdh473@50.96.75.109) has joined #clojurescript
+2013-05-08 05:47:47	<--	cdh473__ (~cdh473@50.96.75.109) has quit (Ping timeout: 256 seconds)
+2013-05-08 05:57:04	<--	slagyr (~slagyr@c-67-184-199-69.hsd1.il.comcast.net) has quit (Quit: slagyr)
+2013-05-08 05:59:15	-->	bmaddy (~bmaddy@72.21.231.26) has joined #clojurescript
+2013-05-08 06:03:37	<--	bmaddy (~bmaddy@72.21.231.26) has quit (Remote host closed the connection)

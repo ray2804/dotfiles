@@ -13507,3 +13507,149 @@
 2013-05-07 16:32:52	<--	kaspertidemann (~Kasper@213.150.61.84) has quit (Quit: kaspertidemann)
 2013-05-07 16:46:22	-->	wiwawowa (~textual@ip-212-239-182-21.dsl-static.scarlet.be) has joined #docpad
 2013-05-07 16:47:19	<--	wiwawowa (~textual@ip-212-239-182-21.dsl-static.scarlet.be) has quit (Client Quit)
+2013-05-07 17:35:57	<--	jhuntdog_ (42406a22@gateway/web/freenode/ip.66.64.106.34) has quit (Quit: Page closed)
+2013-05-07 17:57:27	-->	EtherealMind1 (~etherealm@87.242.165.59) has joined #docpad
+2013-05-07 17:59:09	EtherealMind1	Hi, I'm just installing Docpad for the first time on Mac OSX Mountain Lion. I get the Terms of Services question and then it seems to hang. Can't find anything in the logs, can't work out what'swrong ? 
+2013-05-07 18:00:29	supersym	same I always had
+2013-05-07 18:00:37	supersym	over ssh perhaps or?
+2013-05-07 18:00:54	EtherealMind1	from the terminal on my local machine. 
+2013-05-07 18:01:03	EtherealMind1	local install on my own MBP
+2013-05-07 18:01:11	supersym	ok
+2013-05-07 18:01:32	supersym	using bash, permission correct, latest versions?
+2013-05-07 18:01:59	supersym	(just guessing here, i just happen to have it now and then usually /etc/fstab noexec or something else)
+2013-05-07 18:02:12	supersym	god knows... since i tweak a lot
+2013-05-07 18:02:29	supersym	but I run arch...with ZSH as well
+2013-05-07 18:02:55	EtherealMind1	Looks OK : 
+2013-05-07 18:03:00	EtherealMind1	GF:docpad gregferro$ cd bin
+2013-05-07 18:03:00	EtherealMind1	GF:bin gregferro$ ls -al
+2013-05-07 18:03:00	EtherealMind1	total 32
+2013-05-07 18:03:02	EtherealMind1	drwxr-xr-x   6 nobody  staff  204  7 May 16:52 .
+2013-05-07 18:03:04	EtherealMind1	drwxr-xr-x  12 nobody  staff  408  7 May 16:52 ..
+2013-05-07 18:03:06	EtherealMind1	-rwxr-xr-x   1 nobody  staff   60  6 Apr 02:49 docpad
+2013-05-07 18:03:08	EtherealMind1	-rwxr-xr-x   1 nobody  staff   68  4 Apr 21:08 docpad-compile
+2013-05-07 18:03:09	EtherealMind1	-rwxr-xr-x   1 nobody  staff  241  4 Apr 21:08 docpad-debug
+2013-05-07 18:03:12	EtherealMind1	-rwxr-xr-x   1 nobody  staff   67  4 Apr 21:08 docpad-server
+2013-05-07 18:03:14	EtherealMind1	GF:bin gregferro$ 
+2013-05-07 18:04:07	supersym	global docpad installed with $ npm i -g docpad    
+2013-05-07 18:04:08	supersym	?
+2013-05-07 18:04:16	EtherealMind1	y
+2013-05-07 18:04:17	supersym	try $ cd `mktemp -d` && docpad skeleton
+2013-05-07 18:04:39	-->	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has joined #docpad
+2013-05-07 18:05:14	EtherealMind1	sorry, same. Hangs at Terms of Service. 
+2013-05-07 18:05:34	supersym	send SIGTERM with Ctrl+C (or command I guess)
+2013-05-07 18:05:42	EtherealMind1	yep
+2013-05-07 18:06:14	supersym	https://github.com/bevry/docpad/issues/488
+2013-05-07 18:06:24	supersym	hack: fix the config file
+2013-05-07 18:06:29	supersym	yeah thats what I did too
+2013-05-07 18:06:33	supersym	now I recall
+2013-05-07 18:06:33	EtherealMind1	Ok
+2013-05-07 18:07:02	supersym	that should skip the process
+2013-05-07 18:08:03	EtherealMind1	ah
+2013-05-07 18:08:45	EtherealMind1	I use Little Snitch to block unnecessary outbound calls. Clearly there is a "metric driven" element of the setup. 
+2013-05-07 18:31:36	EtherealMind1	Once I removed the outbound firewall blocking the installation can complete. 
+2013-05-07 18:31:45	supersym	true, https://github.com/bevry/docpad/blob/master/src/lib/docpad.coffee#L78
+2013-05-07 18:32:06	supersym	little snitch... hehe
+2013-05-07 18:32:22	supersym	well it blocks but didnt snitch or you would have known :P
+2013-05-07 18:32:25	supersym	never heard of it
+2013-05-07 18:32:44	EtherealMind1	No, it snitched just fine and I blocked it by choice. No one needs to know what I'm doing. 
+2013-05-07 18:33:27	<--	EtherealMind1 (~etherealm@87.242.165.59) has quit (Remote host closed the connection)
+2013-05-07 18:39:28	supersym	oh no, right... well I guess it figures, not everyone has these metrics builtin on their command line tools, and not everyone blocks
+2013-05-07 18:39:40	-->	EtherealMind1 (~etherealm@87.242.165.59) has joined #docpad
+2013-05-07 18:40:07	 *	spanners installs Little Snitch
+2013-05-07 18:40:11	supersym	:)
+2013-05-07 18:41:02	EtherealMind1	Popped back to say thanks for the pointers. Apologies for being dumb. 
+2013-05-07 18:41:11	supersym	you can take it out as far as I know
+2013-05-07 18:41:45	supersym	someone earlier check cos of work and policy
+2013-05-07 18:41:57	supersym	its MIT license
+2013-05-07 18:42:17	EtherealMind1	I guess it should timeout after a while and let you go ahead anyway. 
+2013-05-07 18:42:40	supersym	yup
+2013-05-07 18:42:44	supersym	its an open issue
+2013-05-07 18:43:00	supersym	try .. catch block probably
+2013-05-07 18:43:20	supersym	and I think its node cos I had it earlier with some fs I/O too
+2013-05-07 18:43:33	spanners	My docpad run stalls at "The action completed successfully" when Little Snitch is installed.
+2013-05-07 18:43:53	supersym	figures
+2013-05-07 18:43:55	spanners	(Denied both outgoing connections it tried to make).
+2013-05-07 18:44:50	supersym	so it works :P
+2013-05-07 18:45:30	EtherealMind1	only if the oubound firewall is removed. 
+2013-05-07 18:46:00	supersym	well take out the piece of source code that creates the instances
+2013-05-07 18:46:06	supersym	of course it blocks...
+2013-05-07 18:46:10	spanners	d'oh. I used 'run' not 'generate'.
+2013-05-07 18:46:17	 *	spanners getting confused
+2013-05-07 18:46:20	supersym	because it uses require 'growl'
+2013-05-07 18:46:26	supersym	and require 'mixpanel;
+2013-05-07 18:46:46	supersym	which proxy to outside web sites to gather usage statistics and error report gathering
+2013-05-07 18:47:22	supersym	https://github.com/bevry/docpad/issues/430
+2013-05-07 18:47:40	supersym	no secret about that, I understand you need 'some' metrics at least
+2013-05-07 18:47:44	supersym	and error reports
+2013-05-07 18:47:49	supersym	thats why you have to sign
+2013-05-07 18:47:57	supersym	its quite harmless
+2013-05-07 18:48:27	supersym	but the require calls in those companies modules with 'require' which docpad uses, and they create the outside connections with data
+2013-05-07 18:48:54	supersym	since there isnt any detection of the firewall going on
+2013-05-07 18:49:03	supersym	https://github.com/bevry/docpad/blob/master/src/lib/docpad.coffee#L78
+2013-05-07 18:49:43	supersym	there... it would hang 
+2013-05-07 18:49:44	supersym	if @getConfig().growl
+2013-05-07 18:49:53	supersym	so you can switch that
+2013-05-07 18:51:29	<--	EtherealMind1 (~etherealm@87.242.165.59) has quit (Remote host closed the connection)
+2013-05-07 18:51:55	supersym	of right, growl is system notifications
+2013-05-07 18:52:03	supersym	really its just mixpanel
+2013-05-07 18:52:19	supersym	let me check their base modules real quick
+2013-05-07 18:52:48	-->	EtherealMind1 (~etherealm@87.242.165.59) has joined #docpad
+2013-05-07 18:53:06	<--	EtherealMind1 (~etherealm@87.242.165.59) has quit (Remote host closed the connection)
+2013-05-07 18:54:04	-->	EtherealMind1 (~etherealm@87.242.165.59) has joined #docpad
+2013-05-07 18:54:13	<--	EtherealMind1 (~etherealm@87.242.165.59) has quit (Remote host closed the connection)
+2013-05-07 18:54:29	-->	EtherealMind1 (~etherealm@87.242.165.59) has joined #docpad
+2013-05-07 18:54:33	supersym	use the github new search feature btw
+2013-05-07 18:54:37	supersym	has code indexed
+2013-05-07 18:54:39	<--	EtherealMind1 (~etherealm@87.242.165.59) has quit (Remote host closed the connection)
+2013-05-07 18:54:54	supersym	so you can easily lookup the code
+2013-05-07 18:56:42	supersym	https://github.com/bevry/docpad/blob/210a2e4163accab2f39c454f301a8255f4cf9ee2/src/lib/docpad.coffee#L832
+2013-05-07 18:56:49	supersym	set those two to null and you should be ok
+2013-05-07 18:56:58	supersym	or just remove the code, its MIT so ok...
+2013-05-07 18:57:06	supersym	not much more to get besides that I guess
+2013-05-07 18:57:45	supersym	hmmm I wonder...is that github search also outside API? :D Yum
+2013-05-07 18:58:04	supersym	get a IRC bot to hook up to it, I dont think even clojure bot has source lookup ;)
+2013-05-07 18:58:53	supersym	not too hard either I guess since volume/traffic is easy going ... not for github perhaps but indexing yourself is easily done as well and can be served from raw, download or git :P
+2013-05-07 19:17:29	--	irc: disconnected from server
+2013-05-07 19:17:56	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #docpad
+2013-05-07 19:17:57	--	Topic for #docpad is "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-05-07 19:17:57	--	Topic set by balupton (uid6783@gateway/web/irccloud.com/x-cbtpwjksctndjgtn) on Fri, 28 Dec 2012 12:22:24
+2013-05-07 19:17:57	--	Nicks #docpad: [arcanis ashnur balupton elf-pavlik Eric_ nexusIX scothis shama spanners steventrevathan supersym]
+2013-05-07 19:17:57	--	Channel #docpad: 11 nicks (0 ops, 0 halfops, 0 voices, 11 normals)
+2013-05-07 19:18:16	--	Mode #docpad [+t]
+2013-05-07 19:18:17	--	Channel created on Sat, 26 May 2012 12:12:13
+2013-05-07 19:37:22	-->	EtherealMind1 (~etherealm@87.242.165.59) has joined #docpad
+2013-05-07 19:37:44	<--	EtherealMind1 (~etherealm@87.242.165.59) has quit (Remote host closed the connection)
+2013-05-07 19:50:57	-->	jhuntdog (42406a22@gateway/web/freenode/ip.66.64.106.34) has joined #docpad
+2013-05-07 19:51:00	-->	zenorocha (~zenorocha@189.60.161.160) has joined #docpad
+2013-05-07 19:55:44	zenorocha	hey guys
+2013-05-07 19:56:00	supersym	hello
+2013-05-07 19:56:16	zenorocha	I'm using Travis do test if `docpad generate` works, is there anybody doing something like that too?
+2013-05-07 19:59:30	-->	thanpolas (~thanpolas@ppp-94-67-113-119.home.otenet.gr) has joined #docpad
+2013-05-07 20:00:11	supersym	i dont really have experience with travis
+2013-05-07 20:00:17	supersym	or much love for TDD
+2013-05-07 20:01:09	supersym	but that is besides the point, its the reason I havent really got a solid understanding of test-suites yet due to time :D
+2013-05-07 20:10:31	-->	slindberg (~slindberg@24-104-79-38-ip-static.hfc.comcastbusiness.net) has joined #docpad
+2013-05-07 20:13:40	slindberg	hey all, just updated from 6.31.6 to 6.33.0 and I'm getting some weird errors when livereload does it's thing
+2013-05-07 20:14:34	slindberg	I get 'Error: EMFILE, open' errors on random LESS files, which causes it not to reload
+2013-05-07 20:14:48	slindberg	wondering if this is a known issue or if I should file a github issue
+2013-05-07 20:15:26	-->	kaspertidemann (~Kasper@2605ds2-bav.0.fullrate.dk) has joined #docpad
+2013-05-07 20:17:57	<--	jhuntdog (42406a22@gateway/web/freenode/ip.66.64.106.34) has quit (Ping timeout: 245 seconds)
+2013-05-07 20:36:45	zenorocha	just added Travis to browser-diet (https://github.com/zenorocha/browser-diet) and alloyui.com (https://github.com/liferay/alloyui.com)
+2013-05-07 20:37:28	<--	zenorocha (~zenorocha@189.60.161.160) has quit (Remote host closed the connection)
+2013-05-07 20:58:16	<--	slindberg (~slindberg@24-104-79-38-ip-static.hfc.comcastbusiness.net) has quit (Ping timeout: 258 seconds)
+2013-05-07 20:58:38	--	irc: disconnected from server
+2013-05-08 04:15:55	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #docpad
+2013-05-08 04:15:55	--	Topic for #docpad is "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-05-08 04:15:55	--	Topic set by balupton (uid6783@gateway/web/irccloud.com/x-cbtpwjksctndjgtn) on Fri, 28 Dec 2012 12:22:24
+2013-05-08 04:15:55	--	Nicks #docpad: [arcanis ashnur balupton colinwren elf-pavlik Eric_ nexusIX psteinweber scothis shama spanners supersym]
+2013-05-08 04:15:55	--	Channel #docpad: 12 nicks (0 ops, 0 halfops, 0 voices, 12 normals)
+2013-05-08 04:15:59	--	Mode #docpad [+t]
+2013-05-08 04:16:00	--	Channel created on Sat, 26 May 2012 12:12:13
+2013-05-08 05:45:47	<--	psteinweber (~psteinweb@node-1c3o.pool-118-173.dynamic.totbb.net) has quit (Ping timeout: 255 seconds)
+2013-05-08 05:53:01	-->	mikeumus (4a5a25fa@gateway/web/freenode/ip.74.90.37.250) has joined #docpad
+2013-05-08 05:53:18	mikeumus	Hey Gang, it's been a month or so, how's everything?
+2013-05-08 05:54:42	-->	psteinweber (~psteinweb@node-yzx.pool-118-173.dynamic.totbb.net) has joined #docpad
+2013-05-08 05:56:07	mikeumus	I popped back in becasue I was curious if this still works in DocPad 6.33: https://github.com/bevry/docpad/issues/140#issuecomment-17585137
+2013-05-08 05:56:13	mikeumus	I can't seem to get it to. 
+2013-05-08 06:01:14	mikeumus	wait I kind of got it, I'm getting class="icon-volume-down,file" now which is good
+2013-05-08 06:05:19	<--	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has quit (Remote host closed the connection)

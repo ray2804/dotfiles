@@ -21960,3 +21960,855 @@
 2013-05-07 17:14:36	-->	it_dude (~it_dude@ip5455f9d6.speed.planet.nl) has joined #python-unregistered
 2013-05-07 17:15:16	-->	ZynACK (~ryuurei@stjhnf0148w-142162056030.dhcp-dynamic.FibreOp.nl.bellaliant.net) has joined #python-unregistered
 2013-05-07 17:15:53	-->	yedi (~yedi@122.162.20.222) has joined #python-unregistered
+2013-05-07 17:17:04	-->	levi501d (~th3m4d0n3@173-8-248-29-Colorado.hfc.comcastbusiness.net) has joined #python-unregistered
+2013-05-07 17:17:21	-->	expdel (~expdel@arh2450.urh.uiuc.edu) has joined #python-unregistered
+2013-05-07 17:17:39	<--	darrenhasgerms (~Adium@50.56.228.69) has quit (Quit: Leaving.)
+2013-05-07 17:17:56	-->	darrenhasgerms (~Adium@72.32.115.230) has joined #python-unregistered
+2013-05-07 17:18:48	<--	alpha080 (~alpha080@221.175.221.85) has quit (Ping timeout: 245 seconds)
+2013-05-07 17:18:59	<--	MJ (~mj@35.109-247-40.customer.lyse.net) has quit (Quit: Computer has gone to sleep.)
+2013-05-07 17:19:01	<--	mguillech (~mguillech@unaffiliated/mguillech) has quit (Ping timeout: 248 seconds)
+2013-05-07 17:19:05	<--	LysergicDreams (~Lysergia@208-46-125-96.dia.static.qwest.net) has quit (Remote host closed the connection)
+2013-05-07 17:20:01	-->	mguillech (~mguillech@222-115-17-190.fibertel.com.ar) has joined #python-unregistered
+2013-05-07 17:20:01	<--	mguillech (~mguillech@222-115-17-190.fibertel.com.ar) has quit (Changing host)
+2013-05-07 17:20:01	-->	mguillech (~mguillech@unaffiliated/mguillech) has joined #python-unregistered
+2013-05-07 17:20:15	-->	Guest59200 (Guest59200@ppp118-209-237-143.lns20.mel6.internode.on.net) has joined #python-unregistered
+2013-05-07 17:20:30	-->	abyss42 (~milind@rrcs-71-42-144-170.sw.biz.rr.com) has joined #python-unregistered
+2013-05-07 17:21:02	<--	sigh (~sigh@ppp114-153.static.internode.on.net) has quit (Remote host closed the connection)
+2013-05-07 17:21:14	<--	__gotcha (~gotcha@plone/gotcha) has quit (Read error: Connection reset by peer)
+2013-05-07 17:21:30	--	Guest59200 is now known as John99
+2013-05-07 17:21:33	-->	__gotcha (~gotcha@12.119-245-81.adsl-dyn.isp.belgacom.be) has joined #python-unregistered
+2013-05-07 17:21:33	<--	__gotcha (~gotcha@12.119-245-81.adsl-dyn.isp.belgacom.be) has quit (Changing host)
+2013-05-07 17:21:33	-->	__gotcha (~gotcha@plone/gotcha) has joined #python-unregistered
+2013-05-07 17:21:50	-->	guewen (~gbaconnie@c2cpc3.camptocamp.com) has joined #python-unregistered
+2013-05-07 17:22:12	<--	PeteyKun (~PeteyKun@59.162.191.217) has quit (Quit: Leaving)
+2013-05-07 17:22:17	<--	lstone (~lstone@173-9-21-81-NewEngland.hfc.comcastbusiness.net) has quit (Quit: lstone)
+2013-05-07 17:22:29	-->	mahmoudimus (~mahmoudim@173-164-253-217-SFBA.hfc.comcastbusiness.net) has joined #python-unregistered
+2013-05-07 17:22:42	-->	arjenvelt (~arjen@53571979.cm-6-8a.dynamic.ziggo.nl) has joined #python-unregistered
+2013-05-07 17:23:13	-->	smith_engr (~smith_eng@uawifi-nat-210-100.arizona.edu) has joined #python-unregistered
+2013-05-07 17:23:58	-->	kahtahs_ (~kahtahs@unaffiliated/shathak) has joined #python-unregistered
+2013-05-07 17:24:09	<--	arjenvelt (~arjen@53571979.cm-6-8a.dynamic.ziggo.nl) has quit (Client Quit)
+2013-05-07 17:24:21	-->	wlan (~wlan@81-235-131-254-no14.tbcn.telia.com) has joined #python-unregistered
+2013-05-07 17:24:24	-->	PeteyKun (~PeteyKun@59.162.191.217) has joined #python-unregistered
+2013-05-07 17:24:42	-->	donatien_alphons (~poorman@h21.214.189.173.dynamic.ip.windstream.net) has joined #python-unregistered
+2013-05-07 17:24:46	-->	jacksboo (~jacksboo@190.187.76.29) has joined #python-unregistered
+2013-05-07 17:24:52	<--	fabiobatalha (~fabiobata@186.204.76.170) has quit (Remote host closed the connection)
+2013-05-07 17:25:20	-->	jamii (~jamii@128.127.31.17) has joined #python-unregistered
+2013-05-07 17:25:33	<--	saby (~saby@unaffiliated/saby) has quit (Quit: Leaving)
+2013-05-07 17:26:19	<--	mguillech (~mguillech@unaffiliated/mguillech) has quit (Ping timeout: 264 seconds)
+2013-05-07 17:26:30	-->	mguillech (~mguillech@222-115-17-190.fibertel.com.ar) has joined #python-unregistered
+2013-05-07 17:26:31	<--	mguillech (~mguillech@222-115-17-190.fibertel.com.ar) has quit (Changing host)
+2013-05-07 17:26:31	-->	mguillech (~mguillech@unaffiliated/mguillech) has joined #python-unregistered
+2013-05-07 17:26:39	<--	PeteyKun (~PeteyKun@59.162.191.217) has quit (Remote host closed the connection)
+2013-05-07 17:27:04	<--	hwrd|work (~textual@unaffiliated/hwrdprkns) has quit (Quit: Computer has gone to sleep.)
+2013-05-07 17:27:08	<--	Kaalen (~wlan@81-235-131-254-no14.tbcn.telia.com) has quit (Ping timeout: 245 seconds)
+2013-05-07 17:27:42	<--	kahtahs (~kahtahs@unaffiliated/shathak) has quit (Ping timeout: 264 seconds)
+2013-05-07 17:27:43	<--	christinepea777 (jammie@gateway/shell/bshellz.net/x-fcvxwcjnslwffbvl) has left #python-unregistered
+2013-05-07 17:27:45	-->	PeteyKun (~PeteyKun@59.162.191.217) has joined #python-unregistered
+2013-05-07 17:28:29	<--	jamilatta (~jamil@186.204.76.170) has quit (Remote host closed the connection)
+2013-05-07 17:29:02	-->	pjanzen (~pjanzen@2001:1af8:fe68:0:a0dd:7a53:7b06:3cbe) has joined #python-unregistered
+2013-05-07 17:29:34	-->	hansy_ (~hansy@190.12.68.113) has joined #python-unregistered
+2013-05-07 17:31:23	<--	sasori (~chatzilla@cm105.gamma248.maxonline.com.sg) has quit (Read error: Connection timed out)
+2013-05-07 17:31:28	-->	nmjesus (~nmjesus@194.65.5.235) has joined #python-unregistered
+2013-05-07 17:31:28	<--	hansy (~hansy@190.114.248.35) has quit (Ping timeout: 256 seconds)
+2013-05-07 17:31:31	<--	levi501d (~th3m4d0n3@173-8-248-29-Colorado.hfc.comcastbusiness.net) has quit (Ping timeout: 268 seconds)
+2013-05-07 17:31:36	<--	yedi (~yedi@122.162.20.222) has quit (Remote host closed the connection)
+2013-05-07 17:32:08	-->	__gotcha_ (~gotcha@91.183.99.167) has joined #python-unregistered
+2013-05-07 17:32:08	<--	__gotcha_ (~gotcha@91.183.99.167) has quit (Changing host)
+2013-05-07 17:32:08	-->	__gotcha_ (~gotcha@plone/gotcha) has joined #python-unregistered
+2013-05-07 17:32:11	-->	yedi (~yedi@122.162.20.222) has joined #python-unregistered
+2013-05-07 17:32:18	-->	sasori (~chatzilla@cm105.gamma248.maxonline.com.sg) has joined #python-unregistered
+2013-05-07 17:32:32	<--	nosa-j (~m00k@184.76.254.130) has quit (Ping timeout: 260 seconds)
+2013-05-07 17:32:36	-->	fatiherikli (~fatiherik@212.57.9.204) has joined #python-unregistered
+2013-05-07 17:32:36	<--	sexyshape (~sexyshape@AAnnecy-652-1-465-58.w90-41.abo.wanadoo.fr) has quit (Ping timeout: 264 seconds)
+2013-05-07 17:32:36	<--	mguillech (~mguillech@unaffiliated/mguillech) has quit (Ping timeout: 256 seconds)
+2013-05-07 17:32:38	<--	joepie93 (~joepie91@ip4da23717.direct-adsl.nl) has quit (Ping timeout: 245 seconds)
+2013-05-07 17:32:39	<--	John99 (Guest59200@ppp118-209-237-143.lns20.mel6.internode.on.net) has quit
+2013-05-07 17:32:48	-->	exicer (~exicer@128.232.153.141) has joined #python-unregistered
+2013-05-07 17:33:02	-->	mguillech (~mguillech@unaffiliated/mguillech) has joined #python-unregistered
+2013-05-07 17:33:06	-->	chrisdotcode (~quassel@pool-108-14-33-58.nycmny.fios.verizon.net) has joined #python-unregistered
+2013-05-07 17:33:09	-->	jhpy1024 (~jake@90.216.161.92) has joined #python-unregistered
+2013-05-07 17:33:24	<--	fatiherikli (~fatiherik@212.57.9.204) has quit (Remote host closed the connection)
+2013-05-07 17:33:25	<--	chrisdotcode_ (~quassel@pool-108-14-33-58.nycmny.fios.verizon.net) has quit (Ping timeout: 248 seconds)
+2013-05-07 17:33:26	-->	joepie93 (~joepie91@ip4da23717.direct-adsl.nl) has joined #python-unregistered
+2013-05-07 17:33:29	-->	sexyshape (~sexyshape@AAnnecy-652-1-496-31.w90-41.abo.wanadoo.fr) has joined #python-unregistered
+2013-05-07 17:33:30	-->	smccarthy (~smccarthy@208.99.166.84) has joined #python-unregistered
+2013-05-07 17:33:49	<--	jhpy1024 (~jake@90.216.161.92) has quit (Client Quit)
+2013-05-07 17:34:26	-->	nosa-j (~m00k@184.76.254.130) has joined #python-unregistered
+2013-05-07 17:34:28	-->	Jabberwalker (~ian@184-98-49-65.phnx.qwest.net) has joined #python-unregistered
+2013-05-07 17:35:01	-->	kleinishere (~kleinishe@s229-253.resnet.ucla.edu) has joined #python-unregistered
+2013-05-07 17:35:09	<--	__gotcha_ (~gotcha@plone/gotcha) has quit (Client Quit)
+2013-05-07 17:35:23	-->	jhpy1024 (5ad8a15c@gateway/web/freenode/ip.90.216.161.92) has joined #python-unregistered
+2013-05-07 17:35:32	<--	Katafalkas (~Katafalka@88-119-150-24.static.zebra.lt) has quit (Remote host closed the connection)
+2013-05-07 17:35:36	<--	farcicalme (~andy@c-24-118-229-9.hsd1.mn.comcast.net) has quit (Quit: leaving)
+2013-05-07 17:35:51	<--	__gotcha (~gotcha@plone/gotcha) has quit (Ping timeout: 252 seconds)
+2013-05-07 17:35:51	<--	dobber_ (~dobber@89.190.199.210) has quit (Remote host closed the connection)
+2013-05-07 17:35:56	<--	jhpy1024 (5ad8a15c@gateway/web/freenode/ip.90.216.161.92) has quit (Client Quit)
+2013-05-07 17:36:16	<--	fatiheri_ (~fatiherik@192.96.203.111) has quit (Ping timeout: 260 seconds)
+2013-05-07 17:36:44	<--	yedi (~yedi@122.162.20.222) has quit (Ping timeout: 260 seconds)
+2013-05-07 17:37:38	<--	option_zero (724f00af@gateway/web/freenode/ip.114.79.0.175) has quit (Quit: Page closed)
+2013-05-07 17:38:07	-->	lstone (~lstone@173-9-21-81-NewEngland.hfc.comcastbusiness.net) has joined #python-unregistered
+2013-05-07 17:38:09	<--	PeteyKun (~PeteyKun@59.162.191.217) has quit (Remote host closed the connection)
+2013-05-07 17:38:36	<--	mguillech (~mguillech@unaffiliated/mguillech) has quit (Ping timeout: 260 seconds)
+2013-05-07 17:39:11	-->	mguillech (~mguillech@unaffiliated/mguillech) has joined #python-unregistered
+2013-05-07 17:39:32	-->	MJ (~mj@35.109-247-40.customer.lyse.net) has joined #python-unregistered
+2013-05-07 17:40:42	-->	zlate (~zlate@c-1aa072d5.039-238-73746f34.cust.bredbandsbolaget.se) has joined #python-unregistered
+2013-05-07 17:41:17	-->	PeteyKun (~PeteyKun@59.162.191.217) has joined #python-unregistered
+2013-05-07 17:41:39	-->	thang (~thang@jumpbug.ccs.neu.edu) has joined #python-unregistered
+2013-05-07 17:42:04	<--	thang (~thang@jumpbug.ccs.neu.edu) has left #python-unregistered
+2013-05-07 17:42:26	<--	blueadept (~blueadept@unaffiliated/blueadept) has quit (Quit: This computer has gone to sleep)
+2013-05-07 17:42:33	<--	nosa-j (~m00k@184.76.254.130) has quit (Ping timeout: 245 seconds)
+2013-05-07 17:43:10	-->	nosa-j (~m00k@184.76.254.130) has joined #python-unregistered
+2013-05-07 17:45:04	<--	kil0byte (~kil0byte@203.82.37.90) has quit (Ping timeout: 256 seconds)
+2013-05-07 17:45:25	<--	teratorn (teratorn@python/site-packages/teratorn) has left #python-unregistered
+2013-05-07 17:46:12	<--	sexyshape (~sexyshape@AAnnecy-652-1-496-31.w90-41.abo.wanadoo.fr) has quit (Ping timeout: 256 seconds)
+2013-05-07 17:46:22	<--	jacksboo (~jacksboo@190.187.76.29) has quit (Remote host closed the connection)
+2013-05-07 17:46:43	<--	exicer (~exicer@128.232.153.141) has quit (Ping timeout: 245 seconds)
+2013-05-07 17:47:08	<--	mguillech (~mguillech@unaffiliated/mguillech) has quit (Ping timeout: 255 seconds)
+2013-05-07 17:47:09	-->	jhpy1024 (~jake@90.216.161.92) has joined #python-unregistered
+2013-05-07 17:47:12	-->	kil0byte (~kil0byte@203.82.37.90) has joined #python-unregistered
+2013-05-07 17:47:12	<--	jhpy1024 (~jake@90.216.161.92) has quit (Client Quit)
+2013-05-07 17:47:13	-->	levi501d (~th3m4d0n3@173-8-248-29-Colorado.hfc.comcastbusiness.net) has joined #python-unregistered
+2013-05-07 17:47:45	-->	mguillech (~mguillech@222-115-17-190.fibertel.com.ar) has joined #python-unregistered
+2013-05-07 17:47:46	<--	mguillech (~mguillech@222-115-17-190.fibertel.com.ar) has quit (Changing host)
+2013-05-07 17:47:46	-->	mguillech (~mguillech@unaffiliated/mguillech) has joined #python-unregistered
+2013-05-07 17:47:49	-->	thunderbolt (uid2819@gateway/web/irccloud.com/x-rxhcbhxtjtiumqvz) has joined #python-unregistered
+2013-05-07 17:47:59	-->	sexyshape (~sexyshape@AAnnecy-652-1-508-52.w86-194.abo.wanadoo.fr) has joined #python-unregistered
+2013-05-07 17:48:31	-->	amerinese (~amerinese@cpe-72-225-231-95.nyc.res.rr.com) has joined #python-unregistered
+2013-05-07 17:49:34	<--	sasori (~chatzilla@cm105.gamma248.maxonline.com.sg) has quit (Read error: Connection timed out)
+2013-05-07 17:50:49	<--	abyss42 (~milind@rrcs-71-42-144-170.sw.biz.rr.com) has quit (Ping timeout: 246 seconds)
+2013-05-07 17:51:03	<--	tbplbHJ (~Miranda@91.197.185.226) has quit (Read error: Connection reset by peer)
+2013-05-07 17:52:17	-->	sasori (~chatzilla@cm105.gamma248.maxonline.com.sg) has joined #python-unregistered
+2013-05-07 17:52:38	<--	amerinese (~amerinese@cpe-72-225-231-95.nyc.res.rr.com) has quit (Ping timeout: 245 seconds)
+2013-05-07 17:52:59	-->	sexyshap1 (~sexyshape@AAnnecy-652-1-410-44.w90-36.abo.wanadoo.fr) has joined #python-unregistered
+2013-05-07 17:53:09	<--	sexyshape (~sexyshape@AAnnecy-652-1-508-52.w86-194.abo.wanadoo.fr) has quit (Ping timeout: 248 seconds)
+2013-05-07 17:54:57	<--	expdel (~expdel@arh2450.urh.uiuc.edu) has quit (Quit: Leaving)
+2013-05-07 17:55:12	-->	imsky (~imsky@unaffiliated/imsky) has joined #python-unregistered
+2013-05-07 17:55:18	<--	frenchlaf (~frenchlaf@c-68-52-163-159.hsd1.tn.comcast.net) has quit (Remote host closed the connection)
+2013-05-07 17:55:37	-->	Reite (~Reite@cm-84.211.71.25.getinternet.no) has joined #python-unregistered
+2013-05-07 17:55:48	-->	networkstatic (~brent.sal@h190.203.30.71.dynamic.ip.windstream.net) has joined #python-unregistered
+2013-05-07 17:55:57	-->	abyss42 (~milind@rrcs-71-42-144-170.sw.biz.rr.com) has joined #python-unregistered
+2013-05-07 17:56:21	<--	mguillech (~mguillech@unaffiliated/mguillech) has quit (Ping timeout: 248 seconds)
+2013-05-07 17:56:58	-->	mguillech (~mguillech@222-115-17-190.fibertel.com.ar) has joined #python-unregistered
+2013-05-07 17:56:59	<--	mguillech (~mguillech@222-115-17-190.fibertel.com.ar) has quit (Changing host)
+2013-05-07 17:56:59	-->	mguillech (~mguillech@unaffiliated/mguillech) has joined #python-unregistered
+2013-05-07 18:01:30	-->	Ienpw_III (~quassel@CPE7cb21bc2d62d-CM7cb21bc2d62a.cpe.net.cable.rogers.com) has joined #python-unregistered
+2013-05-07 18:02:09	-->	hwrd|work (~textual@unaffiliated/hwrdprkns) has joined #python-unregistered
+2013-05-07 18:02:16	<--	nosa-j (~m00k@184.76.254.130) has quit (Ping timeout: 276 seconds)
+2013-05-07 18:02:43	-->	charlessartori (~charles.s@177.43.249.158) has joined #python-unregistered
+2013-05-07 18:02:43	<--	mguillech (~mguillech@unaffiliated/mguillech) has quit (Ping timeout: 246 seconds)
+2013-05-07 18:03:28	-->	mguillech (~mguillech@222-115-17-190.fibertel.com.ar) has joined #python-unregistered
+2013-05-07 18:03:28	<--	mguillech (~mguillech@222-115-17-190.fibertel.com.ar) has quit (Changing host)
+2013-05-07 18:03:28	-->	mguillech (~mguillech@unaffiliated/mguillech) has joined #python-unregistered
+2013-05-07 18:04:41	<--	charlessartori (~charles.s@177.43.249.158) has left #python-unregistered
+2013-05-07 18:04:43	<--	roadt (~roadt@223.240.100.185) has quit (Ping timeout: 264 seconds)
+2013-05-07 18:05:24	-->	pydave6367 (~dave@host-2-97-65-57.as13285.net) has joined #python-unregistered
+2013-05-07 18:07:20	-->	nosa-j (~m00k@184.76.254.130) has joined #python-unregistered
+2013-05-07 18:07:44	-->	Torhal|work_ (~quassel@76.164.170.2) has joined #python-unregistered
+2013-05-07 18:08:03	<--	goshawk (~goshawk@70.42.240.30) has quit (Ping timeout: 245 seconds)
+2013-05-07 18:09:31	<--	sasori (~chatzilla@cm105.gamma248.maxonline.com.sg) has quit (Read error: Connection timed out)
+2013-05-07 18:09:47	--	Torhal|work_ is now known as Torhal|work
+2013-05-07 18:10:08	-->	its_pots (~dnstbr@rrcs-24-227-252-187.sw.biz.rr.com) has joined #python-unregistered
+2013-05-07 18:10:12	-->	mofoathome (~mofoathom@dhcp-140-247-26-114.fas.harvard.edu) has joined #python-unregistered
+2013-05-07 18:10:22	-->	jopela (~jopela@60-251-154-55.HINET-IP.hinet.net) has joined #python-unregistered
+2013-05-07 18:10:39	-->	frg (~quassel@p5798F7E8.dip0.t-ipconnect.de) has joined #python-unregistered
+2013-05-07 18:10:43	<--	mguillech (~mguillech@unaffiliated/mguillech) has quit (Ping timeout: 264 seconds)
+2013-05-07 18:10:57	-->	mguillech (~mguillech@222-115-17-190.fibertel.com.ar) has joined #python-unregistered
+2013-05-07 18:10:57	<--	mguillech (~mguillech@222-115-17-190.fibertel.com.ar) has quit (Changing host)
+2013-05-07 18:10:57	-->	mguillech (~mguillech@unaffiliated/mguillech) has joined #python-unregistered
+2013-05-07 18:11:20	-->	66MAAC4HS (~quassel@193.59.100.6) has joined #python-unregistered
+2013-05-07 18:11:28	-->	sprites (~androirc@190.213.198.109) has joined #python-unregistered
+2013-05-07 18:11:36	<--	mofoathome (~mofoathom@dhcp-140-247-26-114.fas.harvard.edu) has left #python-unregistered
+2013-05-07 18:12:11	<--	JainAmber (~amberj@117.196.209.99) has quit (Quit: Leaving)
+2013-05-07 18:12:19	-->	sasori (~chatzilla@cm105.gamma248.maxonline.com.sg) has joined #python-unregistered
+2013-05-07 18:12:38	<--	sprites (~androirc@190.213.198.109) has quit (Client Quit)
+2013-05-07 18:13:15	-->	sexyshape (~sexyshape@AAnnecy-652-1-517-17.w86-194.abo.wanadoo.fr) has joined #python-unregistered
+2013-05-07 18:13:22	<--	cav (~cav@212.144.254.150) has quit (Ping timeout: 245 seconds)
+2013-05-07 18:13:54	<--	luke_penn (~luke_penn@147.162.183.190) has quit (Ping timeout: 264 seconds)
+2013-05-07 18:14:38	<--	sexyshap1 (~sexyshape@AAnnecy-652-1-410-44.w90-36.abo.wanadoo.fr) has quit (Ping timeout: 245 seconds)
+2013-05-07 18:14:41	--	Hollinski is now known as DuckAssassin
+2013-05-07 18:14:55	-->	Saby (~Saby@183.87.60.249) has joined #python-unregistered
+2013-05-07 18:14:55	<--	Saby (~Saby@183.87.60.249) has quit (Changing host)
+2013-05-07 18:14:55	-->	Saby (~Saby@unaffiliated/saby) has joined #python-unregistered
+2013-05-07 18:15:04	<--	Torhal|work (~quassel@76.164.170.2) has quit (Read error: Connection reset by peer)
+2013-05-07 18:15:17	<--	matthieu__ (~matthieu_@fuv13-2-88-179-9-182.fbx.proxad.net) has quit (Quit: matthieu__)
+2013-05-07 18:15:17	<--	xcourier_ (~xcourier@unaffiliated/xcourier) has quit (Quit: bye)
+2013-05-07 18:15:23	-->	sprites (~androirc@190.213.198.109) has joined #python-unregistered
+2013-05-07 18:15:24	-->	Torhal|work (~quassel@76.164.170.2) has joined #python-unregistered
+2013-05-07 18:15:55	<--	nosa-j (~m00k@184.76.254.130) has quit (Ping timeout: 276 seconds)
+2013-05-07 18:16:00	-->	expdel (~expdel@arh2450.urh.uiuc.edu) has joined #python-unregistered
+2013-05-07 18:17:13	-->	rakl (~rakl@sonic.mochaleaf.com) has joined #python-unregistered
+2013-05-07 18:17:22	<--	mutley89 (~mutley89@host86-143-79-42.range86-143.btcentralplus.com) has quit (Remote host closed the connection)
+2013-05-07 18:17:39	<--	mguillech (~mguillech@unaffiliated/mguillech) has quit (Ping timeout: 252 seconds)
+2013-05-07 18:17:40	-->	sooth (~rob@c-71-197-124-72.hsd1.ca.comcast.net) has joined #python-unregistered
+2013-05-07 18:18:26	-->	mguillech (~mguillech@222-115-17-190.fibertel.com.ar) has joined #python-unregistered
+2013-05-07 18:18:26	<--	mguillech (~mguillech@222-115-17-190.fibertel.com.ar) has quit (Changing host)
+2013-05-07 18:18:26	-->	mguillech (~mguillech@unaffiliated/mguillech) has joined #python-unregistered
+2013-05-07 18:19:22	<--	sprites (~androirc@190.213.198.109) has quit (Client Quit)
+2013-05-07 18:19:44	-->	chuckharmston (~chuckharm@ip68-3-211-216.ph.ph.cox.net) has joined #python-unregistered
+2013-05-07 18:19:45	<--	Torhal|work (~quassel@76.164.170.2) has left #python-unregistered
+2013-05-07 18:20:03	<--	rostam (~zartoosh@nat/cisco/x-mgrnraewvnzcgmts) has quit (Remote host closed the connection)
+2013-05-07 18:20:14	<--	qleelulu (~qleelulu@113.103.10.2) has quit (Remote host closed the connection)
+2013-05-07 18:20:35	<--	codex0 (~codex0@ip174-65-99-165.sd.sd.cox.net) has quit (Quit: :>)
+2013-05-07 18:21:19	<--	sweet_kid (having@irc.upasna.in) has left #python-unregistered
+2013-05-07 18:21:52	-->	nosa-j (~m00k@184.76.254.130) has joined #python-unregistered
+2013-05-07 18:23:32	-->	rostam (~zartoosh@nat/cisco/x-pyyiuzasumckegyc) has joined #python-unregistered
+2013-05-07 18:24:24	-->	bwreilly (~bwreilly@174.127.143.26) has joined #python-unregistered
+2013-05-07 18:24:30	<--	bwreilly (~bwreilly@174.127.143.26) has quit (Remote host closed the connection)
+2013-05-07 18:24:42	<--	mguillech (~mguillech@unaffiliated/mguillech) has quit (Ping timeout: 264 seconds)
+2013-05-07 18:24:57	-->	mguillech (~mguillech@222-115-17-190.fibertel.com.ar) has joined #python-unregistered
+2013-05-07 18:24:57	<--	mguillech (~mguillech@222-115-17-190.fibertel.com.ar) has quit (Changing host)
+2013-05-07 18:24:57	-->	mguillech (~mguillech@unaffiliated/mguillech) has joined #python-unregistered
+2013-05-07 18:24:59	<--	joe_oblivian (~joe@2-228-110-130.ip191.fastwebnet.it) has quit (Quit: Leaving)
+2013-05-07 18:25:03	-->	bwreilly (~bwreilly@174.127.143.26) has joined #python-unregistered
+2013-05-07 18:26:36	-->	exicer (~exicer@dhcp-128-232-153-141.eduroam.lapwing.cam.ac.uk) has joined #python-unregistered
+2013-05-07 18:26:46	-->	idle` (~piour@2a01:e35:2f43:4b00:290:f5ff:feb9:63b4) has joined #python-unregistered
+2013-05-07 18:26:49	-->	farcicalme (~andrew@c-24-118-229-9.hsd1.mn.comcast.net) has joined #python-unregistered
+2013-05-07 18:27:06	<--	nosa-j (~m00k@184.76.254.130) has quit (Ping timeout: 245 seconds)
+2013-05-07 18:27:13	<--	newbie22 (~newbie22@adsl-66-157-234-31.jax.bellsouth.net) has quit (Ping timeout: 245 seconds)
+2013-05-07 18:28:46	-->	likeRfoxl (~jjjjjjjj@S010600259c2731c4.ss.shawcable.net) has joined #python-unregistered
+2013-05-07 18:30:38	<--	MJ (~mj@35.109-247-40.customer.lyse.net) has quit (Ping timeout: 256 seconds)
+2013-05-07 18:30:38	<--	itarato (itarato@84.200.77.98) has quit (Ping timeout: 256 seconds)
+2013-05-07 18:30:38	<--	spirat (~shiro@unaffiliated/spirat) has quit (Read error: Operation timed out)
+2013-05-07 18:30:38	-->	ymas (~ymas@vdeb1.ymasoud.com) has joined #python-unregistered
+2013-05-07 18:30:38	<--	ymas (~ymas@vdeb1.ymasoud.com) has quit (Changing host)
+2013-05-07 18:30:38	-->	ymas (~ymas@unaffiliated/ymas) has joined #python-unregistered
+2013-05-07 18:30:38	-->	Hollinksi (~Oliver@cpc12-bedf3-2-0-cust122.9-1.cable.virginmedia.com) has joined #python-unregistered
+2013-05-07 18:30:39	-->	kosh_ (~Kosh@aesaeion.com) has joined #python-unregistered
+2013-05-07 18:30:39	-->	arjenvelt (~arjen@53571979.cm-6-8a.dynamic.ziggo.nl) has joined #python-unregistered
+2013-05-07 18:30:39	<--	kosh (~Kosh@aesaeion.com) has quit (Disconnected by services)
+2013-05-07 18:30:39	--	kosh_ is now known as kosh
+2013-05-07 18:30:39	-->	MJ_ (~mj@35.109-247-40.customer.lyse.net) has joined #python-unregistered
+2013-05-07 18:30:39	<--	sasori (~chatzilla@cm105.gamma248.maxonline.com.sg) has quit (Read error: Connection timed out)
+2013-05-07 18:30:39	-->	Broolucks (~ob@69.157.141.102) has joined #python-unregistered
+2013-05-07 18:30:39	-->	goshawk (~goshawk@208.70.196.4) has joined #python-unregistered
+2013-05-07 18:30:39	-->	nosa-j (~m00k@184.76.254.130) has joined #python-unregistered
+2013-05-07 18:30:39	-->	Duality (~duality@ip4da2c95a.direct-adsl.nl) has joined #python-unregistered
+2013-05-07 18:30:39	-->	mcsontos_ (~mcsontos@77.240.184.15) has joined #python-unregistered
+2013-05-07 18:30:42	<--	levi501d (~th3m4d0n3@173-8-248-29-Colorado.hfc.comcastbusiness.net) has quit (Remote host closed the connection)
+2013-05-07 18:30:55	<--	Ergo^ (~ergo@hyp-p-107.pabianice.msk.pl) has quit (Ping timeout: 272 seconds)
+2013-05-07 18:31:00	-->	levi501d (~th3m4d0n3@173-8-248-29-Colorado.hfc.comcastbusiness.net) has joined #python-unregistered
+2013-05-07 18:31:23	-->	llfflaffeux (~jjjjjjjj@S010600259c2731c4.ss.shawcable.net) has joined #python-unregistered
+2013-05-07 18:31:33	<--	DuckAssassin (~Oliver@cpc12-bedf3-2-0-cust122.9-1.cable.virginmedia.com) has quit (Ping timeout: 256 seconds)
+2013-05-07 18:31:39	<--	saki_mob (~chris@acm.cs.uic.edu) has quit (Read error: Operation timed out)
+2013-05-07 18:31:41	<--	giorgiodinapoli (~giorgiodi@146-52-162-221-dynip.superkabel.de) has quit (Ping timeout: 245 seconds)
+2013-05-07 18:31:45	<--	aess (~jelena@134.173.44.89) has quit (Read error: Operation timed out)
+2013-05-07 18:31:54	-->	Minto (~nnscript@rrcs-67-78-24-86.se.biz.rr.com) has joined #python-unregistered
+2013-05-07 18:31:55	-->	farciclme (~andrew@c-24-118-229-9.hsd1.mn.comcast.net) has joined #python-unregistered
+2013-05-07 18:32:03	<--	farciclme (~andrew@c-24-118-229-9.hsd1.mn.comcast.net) has quit (Client Quit)
+2013-05-07 18:32:06	<--	AsgardBSD (~quassel@bas7-montreal45-1279777065.dsl.bell.ca) has quit (Remote host closed the connection)
+2013-05-07 18:32:07	<--	Steve_M (~Steve_M@c-71-202-74-19.hsd1.ca.comcast.net) has quit (Ping timeout: 256 seconds)
+2013-05-07 18:32:08	<--	thomaslee (~thomaslee@c-24-21-102-70.hsd1.or.comcast.net) has quit (Read error: Operation timed out)
+2013-05-07 18:32:15	<--	mfridh (~mfridh@pdpc/supporter/professional/mfridh) has quit (Read error: Operation timed out)
+2013-05-07 18:32:20	-->	AsgardBSD (~quassel@bas7-montreal45-1279777065.dsl.bell.ca) has joined #python-unregistered
+2013-05-07 18:32:21	-->	sasori (~chatzilla@cm105.gamma248.maxonline.com.sg) has joined #python-unregistered
+2013-05-07 18:32:22	-->	nsno (nsno@cube.netsoc.tcd.ie) has joined #python-unregistered
+2013-05-07 18:32:22	<--	cmark (~cmark@d66-183-151-193.bchsia.telus.net) has quit (Remote host closed the connection)
+2013-05-07 18:32:24	-->	nmistry (~nmistry@cpe-173-173-119-141.satx.res.rr.com) has joined #python-unregistered
+2013-05-07 18:32:24	<--	gates_ (uid4892@gateway/web/irccloud.com/x-qiglcheqffumanec) has quit
+2013-05-07 18:32:26	-->	mguillec1 (~mguillech@222-115-17-190.fibertel.com.ar) has joined #python-unregistered
+2013-05-07 18:32:30	<--	farcicalme (~andrew@c-24-118-229-9.hsd1.mn.comcast.net) has quit (Ping timeout: 252 seconds)
+2013-05-07 18:32:31	<--	yshh (~yshh@p7027-ipngn100404kyoto.kyoto.ocn.ne.jp) has quit (Remote host closed the connection)
+2013-05-07 18:32:46	-->	gates (uid4892@gateway/web/irccloud.com/x-tgvdilqrdffrnmeg) has joined #python-unregistered
+2013-05-07 18:32:54	<--	nsno (nsno@cube.netsoc.tcd.ie) has left #python-unregistered
+2013-05-07 18:32:56	-->	cmark (~cmark@64-142-72-34.dsl.static.sonic.net) has joined #python-unregistered
+2013-05-07 18:33:05	-->	aess (~jelena@134.173.44.89) has joined #python-unregistered
+2013-05-07 18:33:09	-->	raninho1 (~Raninho@177.135.23.168) has joined #python-unregistered
+2013-05-07 18:33:09	-->	Steve_M (~Steve_M@c-71-202-74-19.hsd1.ca.comcast.net) has joined #python-unregistered
+2013-05-07 18:33:22	<--	likeRfoxl (~jjjjjjjj@S010600259c2731c4.ss.shawcable.net) has quit (Read error: Operation timed out)
+2013-05-07 18:33:24	-->	newbie22 (~newbie22@adsl-66-157-221-238.jax.bellsouth.net) has joined #python-unregistered
+2013-05-07 18:33:31	-->	spirat (~shiro@unaffiliated/spirat) has joined #python-unregistered
+2013-05-07 18:33:36	<--	lstone (~lstone@173-9-21-81-NewEngland.hfc.comcastbusiness.net) has quit (Quit: lstone)
+2013-05-07 18:33:37	-->	saki_mob (~chris@acm.cs.uic.edu) has joined #python-unregistered
+2013-05-07 18:33:56	<--	expdel (~expdel@arh2450.urh.uiuc.edu) has quit (Ping timeout: 255 seconds)
+2013-05-07 18:34:12	<--	jopela (~jopela@60-251-154-55.HINET-IP.hinet.net) has quit (Ping timeout: 245 seconds)
+2013-05-07 18:34:14	-->	l403 (~kavija@82.145.55.128) has joined #python-unregistered
+2013-05-07 18:34:35	<--	mguillech (~mguillech@unaffiliated/mguillech) has quit (Ping timeout: 260 seconds)
+2013-05-07 18:34:50	<--	imsky (~imsky@unaffiliated/imsky) has left #python-unregistered
+2013-05-07 18:35:06	<--	Minto`Relyx (~nnscript@rrcs-67-78-24-86.se.biz.rr.com) has quit (Ping timeout: 256 seconds)
+2013-05-07 18:35:15	-->	itarato (itarato@84.200.77.98) has joined #python-unregistered
+2013-05-07 18:35:48	<--	nosa-j (~m00k@184.76.254.130) has quit (Ping timeout: 252 seconds)
+2013-05-07 18:36:21	<--	pydave6367 (~dave@host-2-97-65-57.as13285.net) has quit (Ping timeout: 248 seconds)
+2013-05-07 18:36:26	<--	nmistry (~nmistry@cpe-173-173-119-141.satx.res.rr.com) has quit (Client Quit)
+2013-05-07 18:37:12	<--	Kiryx (~Kiryx@85-202-48-130.internetia.net.pl) has quit (Ping timeout: 258 seconds)
+2013-05-07 18:37:54	-->	Haripesch (~Haripesch@i5E87D86D.versanet.de) has joined #python-unregistered
+2013-05-07 18:38:13	<--	chrisdotcode (~quassel@pool-108-14-33-58.nycmny.fios.verizon.net) has quit (Remote host closed the connection)
+2013-05-07 18:38:35	<--	mguillec1 (~mguillech@222-115-17-190.fibertel.com.ar) has quit (Quit: Reconnecting)
+2013-05-07 18:38:41	-->	echevemaster (~echevemas@190.204.234.123) has joined #python-unregistered
+2013-05-07 18:38:41	<--	echevemaster (~echevemas@190.204.234.123) has quit (Changing host)
+2013-05-07 18:38:41	-->	echevemaster (~echevemas@vaslibre/staff/echevemaster) has joined #python-unregistered
+2013-05-07 18:38:54	-->	nosa-j (~m00k@184.76.254.130) has joined #python-unregistered
+2013-05-07 18:39:20	-->	Nickeeh (~quassel@foo.kassala.de) has joined #python-unregistered
+2013-05-07 18:39:46	-->	mfridh (~mfridh@pdpc/supporter/professional/mfridh) has joined #python-unregistered
+2013-05-07 18:39:57	<--	MJ_ (~mj@35.109-247-40.customer.lyse.net) has quit (Quit: Computer has gone to sleep.)
+2013-05-07 18:40:03	<--	goshawk (~goshawk@208.70.196.4) has quit (Ping timeout: 245 seconds)
+2013-05-07 18:41:23	-->	Kiryx (~Kiryx@85-202-48-130.internetia.net.pl) has joined #python-unregistered
+2013-05-07 18:41:36	-->	vcameron (~newbie22@adsl-66-157-245-33.cae.bellsouth.net) has joined #python-unregistered
+2013-05-07 18:42:10	<--	guewen (~gbaconnie@c2cpc3.camptocamp.com) has quit (Quit: Leaving...)
+2013-05-07 18:42:13	-->	sprites (~androirc@190.213.198.109) has joined #python-unregistered
+2013-05-07 18:42:37	<--	qwesp (~qwe5p@82-119-106-210.static.chello.sk) has quit (Quit: Leaving)
+2013-05-07 18:42:49	-->	sexyshap1 (~sexyshape@AAnnecy-652-1-392-17.w86-194.abo.wanadoo.fr) has joined #python-unregistered
+2013-05-07 18:43:09	-->	mguillech (~mguillech@222-115-17-190.fibertel.com.ar) has joined #python-unregistered
+2013-05-07 18:43:10	<--	mguillech (~mguillech@222-115-17-190.fibertel.com.ar) has quit (Changing host)
+2013-05-07 18:43:10	-->	mguillech (~mguillech@unaffiliated/mguillech) has joined #python-unregistered
+2013-05-07 18:43:23	-->	yedi (~yedi@122.162.151.244) has joined #python-unregistered
+2013-05-07 18:43:46	-->	thomaslee_ (~thomaslee@c-24-21-102-70.hsd1.or.comcast.net) has joined #python-unregistered
+2013-05-07 18:44:45	<--	sprites (~androirc@190.213.198.109) has quit (Client Quit)
+2013-05-07 18:45:15	<--	newbie22 (~newbie22@adsl-66-157-221-238.jax.bellsouth.net) has quit (Ping timeout: 258 seconds)
+2013-05-07 18:46:31	-->	Shukaro (~quassel@cpe-69-135-211-191.woh.res.rr.com) has joined #python-unregistered
+2013-05-07 18:46:45	<--	sexyshape (~sexyshape@AAnnecy-652-1-517-17.w86-194.abo.wanadoo.fr) has quit (Ping timeout: 268 seconds)
+2013-05-07 18:47:05	<--	thethomaseffect (~Thomas@86-47-20-207-dynamic.b-ras1.mgr.mullingar.eircom.net) has left #python-unregistered
+2013-05-07 18:47:59	<--	vcameron (~newbie22@adsl-66-157-245-33.cae.bellsouth.net) has quit (Ping timeout: 256 seconds)
+2013-05-07 18:48:03	<--	maksbotan_ (~quassel@2a00:11d8:503:858c:226:9eff:fe21:2763) has quit (Quit: http://quassel-irc.org - Chat comfortably. Anywhere.)
+2013-05-07 18:48:33	<--	arietis (~arietis@188.242.181.162) has quit (Quit: Computer has gone to sleep.)
+2013-05-07 18:48:43	-->	maksbotan (~quassel@2a00:11d8:503:858c:226:9eff:fe21:2763) has joined #python-unregistered
+2013-05-07 18:48:44	<--	maksbotan (~quassel@2a00:11d8:503:858c:226:9eff:fe21:2763) has quit (Changing host)
+2013-05-07 18:48:44	-->	maksbotan (~quassel@gentoo/developer/maksbotan) has joined #python-unregistered
+2013-05-07 18:48:46	<--	Milossh (~milos@unaffiliated/milossh) has quit (Quit: Computer has gone to sleep.)
+2013-05-07 18:48:46	<--	mguillech (~mguillech@unaffiliated/mguillech) has quit (Ping timeout: 245 seconds)
+2013-05-07 18:49:31	-->	Shyde (~Shyde^^@HSI-KBW-078-043-093-037.hsi4.kabel-badenwuerttemberg.de) has joined #python-unregistered
+2013-05-07 18:49:40	<--	sasori (~chatzilla@cm105.gamma248.maxonline.com.sg) has quit (Read error: Connection timed out)
+2013-05-07 18:49:41	<--	yedi (~yedi@122.162.151.244) has quit (Ping timeout: 255 seconds)
+2013-05-07 18:50:15	<--	nosa-j (~m00k@184.76.254.130) has quit (Ping timeout: 256 seconds)
+2013-05-07 18:51:02	-->	forbid (~daniel@bas1-newmarket85-3096617166.dsl.bell.ca) has joined #python-unregistered
+2013-05-07 18:51:05	-->	thelivingded (~theliving@12.97.225.3) has joined #python-unregistered
+2013-05-07 18:51:41	-->	yedi (~yedi@122.162.151.244) has joined #python-unregistered
+2013-05-07 18:52:16	-->	sasori (~chatzilla@cm105.gamma248.maxonline.com.sg) has joined #python-unregistered
+2013-05-07 18:53:53	-->	rihnapstor (~rihen@117.204.169.88) has joined #python-unregistered
+2013-05-07 18:53:57	-->	cedr (cedr@monochromatic.in) has joined #python-unregistered
+2013-05-07 18:54:04	<--	arjenvelt (~arjen@53571979.cm-6-8a.dynamic.ziggo.nl) has quit (Quit: arjenvelt)
+2013-05-07 18:54:12	<--	cedr (cedr@monochromatic.in) has quit (Client Quit)
+2013-05-07 18:54:30	-->	sea6ear (~connor@pool-71-123-132-190.dllstx.fios.verizon.net) has joined #python-unregistered
+2013-05-07 18:54:37	<--	mephistophocles (~mephistop@66-208-254-153-Knoxville.hfc.comcastbusiness.net) has quit (Read error: Connection reset by peer)
+2013-05-07 18:54:44	-->	KZo9ZNrxEx (~Miranda@91.197.185.226) has joined #python-unregistered
+2013-05-07 18:54:45	-->	MrCrash (~MrCrash@mail.nl.com.br) has joined #python-unregistered
+2013-05-07 18:54:49	<--	forbid (~daniel@bas1-newmarket85-3096617166.dsl.bell.ca) has quit (Client Quit)
+2013-05-07 18:54:50	<--	MrCrash (~MrCrash@mail.nl.com.br) has left #python-unregistered
+2013-05-07 18:55:04	<--	yedi (~yedi@122.162.151.244) has quit (Remote host closed the connection)
+2013-05-07 18:55:05	-->	forivall (~quassel@208.91.114.4) has joined #python-unregistered
+2013-05-07 18:55:06	-->	forbid (~daniel@bas1-newmarket85-3096617166.dsl.bell.ca) has joined #python-unregistered
+2013-05-07 18:55:10	<--	darrenhasgerms (~Adium@72.32.115.230) has quit (Quit: Leaving.)
+2013-05-07 18:55:11	-->	nosa-j (~m00k@184.76.254.130) has joined #python-unregistered
+2013-05-07 18:55:12	-->	mephistophocles (~mephistop@66-208-254-153-Knoxville.hfc.comcastbusiness.net) has joined #python-unregistered
+2013-05-07 18:55:39	-->	yedi (~yedi@122.162.151.244) has joined #python-unregistered
+2013-05-07 18:55:40	-->	Eppiox (~Epil@125-209-142-78.dyn.iinet.net.au) has joined #python-unregistered
+2013-05-07 18:56:10	<--	thelivingded (~theliving@12.97.225.3) has left #python-unregistered
+2013-05-07 18:56:14	--	mennis_ is now known as SumBody
+2013-05-07 18:56:19	-->	thelivingded (~theliving@12.97.225.3) has joined #python-unregistered
+2013-05-07 18:56:38	<--	potatoe5 (alice@unaffiliated/potatoe5) has quit (Ping timeout: 256 seconds)
+2013-05-07 18:56:46	-->	arietis (~arietis@188.242.181.162) has joined #python-unregistered
+2013-05-07 18:56:49	-->	rajath (~rajath@acad246233.wireless.uic.edu) has joined #python-unregistered
+2013-05-07 18:56:53	-->	mguillech (~mguillech@host157.190-30-216.telecom.net.ar) has joined #python-unregistered
+2013-05-07 18:56:54	<--	mguillech (~mguillech@host157.190-30-216.telecom.net.ar) has quit (Changing host)
+2013-05-07 18:56:54	-->	mguillech (~mguillech@unaffiliated/mguillech) has joined #python-unregistered
+2013-05-07 18:56:55	-->	VeXocide (vexocide@secure.stack.nl) has joined #python-unregistered
+2013-05-07 18:56:57	<--	thelivingded (~theliving@12.97.225.3) has left #python-unregistered
+2013-05-07 18:57:43	-->	soham (~soham@1.23.118.13) has joined #python-unregistered
+2013-05-07 18:57:46	<--	SirScott (~scott@c-24-8-125-213.hsd1.co.comcast.net) has quit (Ping timeout: 256 seconds)
+2013-05-07 18:57:48	<--	soham (~soham@1.23.118.13) has left #python-unregistered
+2013-05-07 18:58:01	--	SumBody is now known as jmpnz
+2013-05-07 18:58:05	--	jmpnz is now known as mennis
+2013-05-07 18:58:14	<--	estebistec|work (~estebiste@159.140.254.97) has quit (Remote host closed the connection)
+2013-05-07 18:58:20	<--	rns (~rns@c-67-190-226-44.hsd1.fl.comcast.net) has quit (Ping timeout: 256 seconds)
+2013-05-07 18:58:20	-->	howlymowly_ (~quassel@brln-4d0c6a3c.pool.mediaWays.net) has joined #python-unregistered
+2013-05-07 18:58:24	<--	rihnapstor (~rihen@117.204.169.88) has quit (Changing host)
+2013-05-07 18:58:24	-->	rihnapstor (~rihen@unaffiliated/rihnapstor) has joined #python-unregistered
+2013-05-07 18:58:45	-->	SirScott (~scott@c-24-8-125-213.hsd1.co.comcast.net) has joined #python-unregistered
+2013-05-07 18:59:02	-->	Coalpaw_ (~Coalpaw@50.100.13.228) has joined #python-unregistered
+2013-05-07 18:59:28	<--	benoitc (~benoitc@2a01:e35:8a34:6d90:f2ad:4eff:fe00:6c31) has quit (Excess Flood)
+2013-05-07 18:59:30	-->	blueadept (~blueadept@rrcs-108-178-162-215.west.biz.rr.com) has joined #python-unregistered
+2013-05-07 18:59:30	<--	blueadept (~blueadept@rrcs-108-178-162-215.west.biz.rr.com) has quit (Changing host)
+2013-05-07 18:59:30	-->	blueadept (~blueadept@unaffiliated/blueadept) has joined #python-unregistered
+2013-05-07 18:59:39	-->	jkbbwr (~jkbbwr@195.171.185.49) has joined #python-unregistered
+2013-05-07 18:59:43	-->	manawy (~manawy@lgeorget.eu) has joined #python-unregistered
+2013-05-07 18:59:45	-->	potatoe5 (alice@unaffiliated/potatoe5) has joined #python-unregistered
+2013-05-07 19:17:30	--	irc: disconnected from server
+2013-05-07 19:18:06	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #python-unregistered
+2013-05-07 19:18:06	--	Topic for #python-unregistered is "Welcome to #python-unregistered! You've been put here because #python requires you to register your nickname with Freenode. For more information about registering on Freenode, ask #freenode. For more information about #python,#python-* moderation, #python-ops."
+2013-05-07 19:18:06	--	Topic set by lvh (~lvh@python/psf/lvh) on Fri, 01 Jul 2011 10:44:19
+2013-05-07 19:18:07	--	Nicks #python-unregistered: [@ChanServ 66MAAC4HS 77CAA2O6C [null] __jae__ _Brian _julian_ _lpc _marvin_ aaearon aboudreault abyss42 accipter_ Ademan_ adiii aess ahaerpfer akujin alang_ AlchemyFalcon alekibango alex-foo alex-weej_ alextreme alextucker alienr3born AllStruck aloril alshain alshain__ Amadiro amithkk andref_dias andrejpan1 andrewfree androok_ antback apoi apollolune appy arbitraryuser Arieh arietis arikb armin armodafinil aroga ArtVandalae asadpanda AsgardBSD asksol asmundg_ averell awahlig awc737 Azelphur B0r3dw15dom b1rkh0ff baba ballingt bandini barika bartek basiclaser beasty beavel benoitc bensix2 bgresham BiDOrD Bigpet binw binw__ birkenfeld bitnumus bjb bjornars BlindHunter Blu3 blueadept BlueEagl1 BlueLaguna blurk bmn bndk bob_f bois BoomBox borism Bowel bpgoldsb_ Bracki_ bramwelt brewmaster Broolucks bsdbandit bstrie_ BugeyeD_ bw_ bwall bwq bwreilly bzyx c45y candlejackson Cavedude cce ccothrun cdsboy cereal cfk chaoflow chapsky chavaone Chinorro_ chris__0076 Christian_M chuckharmston Circlefusion ckknight cmark Coalpaw_ codepal_ codex0 codl colonD companion confluency connor_goodwolf Contexual convict_ CoverSlide cowmix_ Crayboff crodas cyborg-one cYmen_ CyrilPeponnet d10n Dad` daithif danielinux-afk danszr DarkLinkXXXX DasIch davetherat davidbrenneman DavidGebler Daviey daxroc dayepa dcaro DeadSix27 deam Deathspawn deavid Deaygo deed02392 Defektro_ deleted_ Descartes devces devhost dewdrop DexterLB dforsyth dgovinda digitalfiz DigitalKiwi diiver dimadima dirkgomez domingo donatien_alphons donghee_ dotpot dozymoe DrArcheh DrForr_ drinkycrow DrLou dsc Duality dubios Dude-X_ DustyDingo dv_ Dyresen e11bits eanxgeek|log echevemaster eddd edulix eight9three ejnahc__ elky embersoaker emk EnCrypt3r eneon enigmuriatic enmand eosphoros Eppiox erikj ether0_ EToS euphoriaa evilroots exexex_ exicer f8 fallenhitokiri Farom_ feeen Fenaralan Fenne fireant fishhead2567 fivethre1o fleischwesen flupps flyingtriangle Fodder folivora fooldrew forbid forivall forrestv fortytwo fragalot FrejConnolly frg fvdjango fvox13 fxdgear G________ gadams gagan662 Gaganator galaxywatcher garndt gates gcmalloc gcouti Gekz genericnick generus Gentlecat Gerben geshp ggergely ggherdov GGLucas ghuntley glasz gldnspud gmag__ GoGi grandy_ grandy__ gregglind Grievar gsvolt Gud Guest11973 Guest52864 Guest87593 Guest89186 Guest92004 Guest97530 gushie gusnan h34d3r h8R hachque hackeron_ Hamled hansy_ hape01 happyface hardy89 Haripesch harph haxxed heat heinrich5991 hejki helgikrs hellais hellopat heqs_ heytrav hgascon hgb hhuuggoo hizibiz hkraal_ Hodgestar Hollinksi holmb honza HorizonXP horlicks howlymowly howlymowly_ hto hwrd|work ianawilson ibenox idle` idoru Ienpw_III igorgue Ikarus im0b Inc` ineiros_ infogulch ingrid Internet13 Inv1s1ble InvalidPacket ionte irakirashia Irishman1uke Ishaq issy iSUSE itarato its_pots ItsMe ivan` j_king Jabberwalker jamick Jamzag Janhouse janus jasonsmr jbermudes jcp jdiez jdolan jeremy_carroll jesselang jeverling_ jhgaylor Jikan jinxdone jjore jkbbwr jlebar JMadalena[off] jml joe5 JoeJ joepie93 john2x jon8 jonasac jonesy jorg_ josephc_away joshbaptiste jovy88 JPeterson jrib jrua jschall JSharpe_ JStoker jtanner juanriaza__ juh^ julmuri justakill JustSighDudes jwang KA_ kahtahs_ kanzure karupanerura katherinem13 kayfox KaZeR_W keis kel39 kelvan kennethreitz kerrick-work Kevel kexmex kfr2 kichawa kil0byte kinabalu Kins kiri kirotawa Kiryx kleinishere kll klue KLUTCH KnightHawk3 komori konradb kontrast23 kosh kristofers ktosiek kua kula1922a kunev Kurin kurtsbees kusznir Kuukunen Kwerty_ kyrix KZo9ZNrxEx l403 La0fer lahwran lakcaj LaunchDirector Leddy leepa_ Lefeni levi501d lewq Lexi LiamM likeRfoxl lmm lmnts Lord_DeathMatch Lordx_ lqi lstone lubyou lupfantomo lupine luruke lyda_ m0 m4rduk macabre machisuji machisuji_ macm macm_ madbear magnunor1 mahmoudimus maik makro__ maksbotan manawy mangala mapc MarcWeber marienz marinosi mark_vh markvandenborre Martin89 masen mastro mathlete Mathyboy1028 Matjong mcsmash mcsontos_ mennis mephistophocles mfridh mhite microft mik mikau_ mikeshultz milleja46 mimi_vx_ MindfulMantis Minto mjulian mmoya moqca Moussekateer mpajor_o15 MrPPS mrshu mtd MuNk` Muzer mwoodson Myrsloik myusuf3_ N3RG4L n9mtb nagappan NahimN naka__ napalmbrain nazty ndngvr needlz neilf nemesit|znc neoxed Neptu Nesetalis nesthib nesti netj_ networkstatic neurodamage neverm newbie___ Niamkik Nibato Nickeeh nickoe_ Niedar nighty- nighty^ NimeshNeema ninkotech ninkotech__ nkuttler nmjesus no_maam nopf nopper nosa-j notfunk nots notVert NovceGuru Nshag ntrb nully nwilson5 nxorg8 nyloc nyuszika7h oberstet oblio offbyone olavgg_ oO0Oo opapo ORerik orf_ Orphis_ osoba_q otep ozzloy pandragon PcJamesy pcn pdobrogost1 peper perlethandersen perun0 PeteyKun pgurumur ph8 phenom philips phood phrame phschwartz_ pjanzen pkug pmcg ponyofdeath potatoe5 Praise prime prismatictrail programmerq prudniko przemoc pudim PuffTheMagic pyrak_ pythonirc1011 Qk0Q4gr2ksGS quuxman raadad_w1rk raja rajath rakl raninho1 Rapp_ rathis_ rawplayer raydo Raynes rbranson rdegges recast Red_M Reite RichardBronosky rick_timmis rihnapstor riot rmcbride rns Roa robbyt robink Roey rolleiflex rostam rotorooter rpgsimmaster rrix rustyrazorblade rvchangue ry4nn_ ryanakca rystic ryykko rz s00pcan s0rrywhat s0ul s3m73x s4muel Saby saki_mob sami SaMOOrai samu SamuraiGhost sander_ sapht_ sasori_ sawrubh sbanwart__ schmidtm schnoodles sclark_ sea6ear sean_mac SecretAgent SEJeff_work seravitae sexyshap1 SeySayux sgkim126l shabble Shadda shalkie shano_ sharky Shrink Shukaro Shyde SilentPenguin SilicaGel silverjam sirecote SirScott SirStan sitaktif1 sivy sjaak_trekhaak skakri slipstream smccarthy smita smith_engr sn0wb1rdz Snakes_ snarkyboojum somnium Sonderblade soosfarm sooth soren sosna_ soul-d sp4wnz spacemud spaceone SpComb SpComb^_ spillere spirat sprites SpX SquirrelCZECH st3fan stackofcats stbenjam stdgy steego stephan48 Steve_M stickystyle_ stooj strictlyb sud0x3_ supersym sward_ sweemeng_office synergy-qq syntax synthesetic syst3ml00t t0h t_p Tactical_ talanor tamentis tankbusta tdignan TeamMat tekacs tessier the_metalgamer TheCowboy TheFuzzball theSHOW thethird3y3 thibautd Thomas42 thomasbl thomaslee_ thomi three18ti thunderbolt tito tjbenator tmu tmw tomaw tomwardill_ tonsofpcs Torimodo tote toxik tpatja tpe11etier tr4656 travisfischer trbotime trevorj trifler tritoul Tron- troyt tsnow tuningmind twoborde1s txwikinger Typo tystr Uitto Valda VanDyke_ vect0r VeggieMeat venmx verma Vertel vetsin VeXocide vhost- vicfryzel vili Villadelfia viperhr virtuose visionvirus vivi0906 VivienHayazaki VnC_ volume_8 VsbxLEKtVA Vye_ Wa wassup wcpan Webbnix_ wh1tey_ Wild_Cat Willdude123_ willeh WillMarshall Will|- wizonesolutions wlan wolong1 wooden WoodsDog wookienz wout_ Wu Xiol xiphiasx_ xleo xneme xp_prg2 Y_Ichiro yazdmich Ylujion ymas Yomic yorick yunfan zack6849 ZadYree ZenGeist_ zhost zivester zjo zlate Zonmei zxiiro zygfryd` ZynACK zyxw zz_ctaloi |zeus|_]
+2013-05-07 19:18:07	--	Channel #python-unregistered: 831 nicks (1 op, 0 halfops, 0 voices, 830 normals)
+2013-05-07 19:18:16	<--	Sonderblade (~boo@130.144.241.83.in-addr.dgcsystems.net) has quit (Quit: Lämnar)
+2013-05-07 19:18:23	<--	kyrix (~ashley@85-126-76-82.work.xdsl-line.inode.at) has quit (Ping timeout: 245 seconds)
+2013-05-07 19:18:26	--	Mode #python-unregistered [+cmnt]
+2013-05-07 19:18:27	--	Channel created on Sun, 06 Feb 2011 01:12:29
+2013-05-07 19:18:28	-->	mguillech (~mguillech@222-115-17-190.fibertel.com.ar) has joined #python-unregistered
+2013-05-07 19:18:28	<--	mguillech (~mguillech@222-115-17-190.fibertel.com.ar) has quit (Changing host)
+2013-05-07 19:18:28	-->	mguillech (~mguillech@unaffiliated/mguillech) has joined #python-unregistered
+2013-05-07 19:19:10	-->	zmo (~guyzmo@vilya.m0g.net) has joined #python-unregistered
+2013-05-07 19:19:12	<--	rihnapstor (~rihen@unaffiliated/rihnapstor) has quit (Ping timeout: 245 seconds)
+2013-05-07 19:19:26	<--	KZo9ZNrxEx (~Miranda@91.197.185.226) has quit (Read error: Connection reset by peer)
+2013-05-07 19:19:56	<--	sasori_ (~chatzilla@cm105.gamma248.maxonline.com.sg) has quit (Read error: Connection timed out)
+2013-05-07 19:21:48	-->	jdunck (~jdunck@django/committer/jdunck) has joined #python-unregistered
+2013-05-07 19:22:20	-->	sasori (~chatzilla@cm105.gamma248.maxonline.com.sg) has joined #python-unregistered
+2013-05-07 19:22:59	<--	mguillech (~mguillech@unaffiliated/mguillech) has quit (Ping timeout: 255 seconds)
+2013-05-07 19:23:04	<--	asksol (asksol@2a01:7e00::f03c:91ff:fedf:af30) has quit (Excess Flood)
+2013-05-07 19:23:41	-->	asksol (asksol@2a01:7e00::f03c:91ff:fedf:af30) has joined #python-unregistered
+2013-05-07 19:24:51	-->	Katafalkas (~Katafalka@78.60.170.249) has joined #python-unregistered
+2013-05-07 19:25:48	<--	aaearon (aaearon@gateway/shell/xzibition.com/x-rknlfytoubskxmwy) has left #python-unregistered
+2013-05-07 19:25:52	<--	e11bits (~e11bits@koln-4db4a1c5.pool.mediaWays.net) has quit (Ping timeout: 245 seconds)
+2013-05-07 19:26:02	-->	cetko (cetko@marvin.kset.org) has joined #python-unregistered
+2013-05-07 19:26:17	-->	knoppix (~knoppix@41.226.213.76) has joined #python-unregistered
+2013-05-07 19:27:21	-->	makro_ (~makro@p5798BC7A.dip0.t-ipconnect.de) has joined #python-unregistered
+2013-05-07 19:27:45	<--	jovy88 (~weechat@c-71-56-86-92.hsd1.ga.comcast.net) has quit (Read error: Connection reset by peer)
+2013-05-07 19:28:32	-->	bentham (~bentham@pool-72-79-233-2.spfdma.east.verizon.net) has joined #python-unregistered
+2013-05-07 19:28:38	-->	rush321 (~Ray@cpc1-croy13-0-0-cust218.19-2.cable.virginmedia.com) has joined #python-unregistered
+2013-05-07 19:28:41	-->	jovy88 (~weechat@c-71-56-86-92.hsd1.ga.comcast.net) has joined #python-unregistered
+2013-05-07 19:28:46	-->	juchipilo2 (~juchipilo@wsip-98-172-94-237.ph.ph.cox.net) has joined #python-unregistered
+2013-05-07 19:29:01	-->	iZZxZZxZi (~Miranda@174-140-135-95.pool.ukrtel.net) has joined #python-unregistered
+2013-05-07 19:29:09	<--	exicer (~exicer@dhcp-128-232-153-141.eduroam.lapwing.cam.ac.uk) has quit (Ping timeout: 252 seconds)
+2013-05-07 19:29:21	-->	e11bits (~e11bits@koln-4db4c6bf.pool.mediaWays.net) has joined #python-unregistered
+2013-05-07 19:29:36	<--	sea6ear (~connor@pool-71-123-132-190.dllstx.fios.verizon.net) has quit (Remote host closed the connection)
+2013-05-07 19:30:48	<--	makro__ (~makro@p579ABC39.dip0.t-ipconnect.de) has quit (Ping timeout: 252 seconds)
+2013-05-07 19:31:04	<--	Katafalkas (~Katafalka@78.60.170.249) has quit (Remote host closed the connection)
+2013-05-07 19:31:09	-->	jb____ (jb@sprocket.nvg.ntnu.no) has joined #python-unregistered
+2013-05-07 19:31:50	-->	Milossh (~milos@unaffiliated/milossh) has joined #python-unregistered
+2013-05-07 19:31:52	-->	rihnapstor (~rihen@117.204.161.42) has joined #python-unregistered
+2013-05-07 19:31:58	<--	john2x (~John@112.210.13.201) has quit (Quit: john2x)
+2013-05-07 19:32:26	-->	estebistec|work (~estebiste@cpe-72-133-228-205.kc.res.rr.com) has joined #python-unregistered
+2013-05-07 19:32:53	-->	yshh (~yshh@p7027-ipngn100404kyoto.kyoto.ocn.ne.jp) has joined #python-unregistered
+2013-05-07 19:32:57	-->	bwreilly_ (~bwreilly@174.127.143.26) has joined #python-unregistered
+2013-05-07 19:32:57	-->	sea6ear (~connor@pool-71-123-132-190.dllstx.fios.verizon.net) has joined #python-unregistered
+2013-05-07 19:33:02	-->	newbie22 (~newbie22@adsl-66-157-201-12.jax.bellsouth.net) has joined #python-unregistered
+2013-05-07 19:35:28	<--	bwreilly (~bwreilly@174.127.143.26) has quit (Ping timeout: 268 seconds)
+2013-05-07 19:36:15	-->	JohnBeales (~johnbeale@modemcable115.134-23-96.mc.videotron.ca) has joined #python-unregistered
+2013-05-07 19:36:17	<--	raninho1 (~Raninho@177.135.23.168) has quit (Quit: Leaving.)
+2013-05-07 19:36:21	<--	sea6ear (~connor@pool-71-123-132-190.dllstx.fios.verizon.net) has quit (Remote host closed the connection)
+2013-05-07 19:36:29	-->	webknjaz (~webknjaz@lesnik-nat.portaone.com) has joined #python-unregistered
+2013-05-07 19:36:34	-->	quorteth (~quorteth@137.82.81.28) has joined #python-unregistered
+2013-05-07 19:36:42	<--	quorteth (~quorteth@137.82.81.28) has left #python-unregistered
+2013-05-07 19:37:09	<--	estebistec|work (~estebiste@cpe-72-133-228-205.kc.res.rr.com) has quit (Ping timeout: 248 seconds)
+2013-05-07 19:37:24	<--	rustyrazorblade (~Adium@pool-71-118-174-148.lsanca.fios.verizon.net) has quit (Quit: Leaving.)
+2013-05-07 19:37:48	<--	WillMarshall (~willmarsh@pyraserverx.pyramind.com) has quit (Quit: Textual IRC Client: http://www.textualapp.com/)
+2013-05-07 19:37:56	<--	yshh (~yshh@p7027-ipngn100404kyoto.kyoto.ocn.ne.jp) has quit (Ping timeout: 268 seconds)
+2013-05-07 19:38:02	-->	MJ (~mj@35.109-247-40.customer.lyse.net) has joined #python-unregistered
+2013-05-07 19:38:05	-->	WillMarshall (~willmarsh@pyraserverx.pyramind.com) has joined #python-unregistered
+2013-05-07 19:39:11	-->	noah (~noah@99-41-172-179.lightspeed.irvnca.sbcglobal.net) has joined #python-unregistered
+2013-05-07 19:39:33	<--	sasori (~chatzilla@cm105.gamma248.maxonline.com.sg) has quit (Read error: Connection timed out)
+2013-05-07 19:39:46	-->	Kaimei (~kaimei@kaimei.eu) has joined #python-unregistered
+2013-05-07 19:40:10	-->	sea6ear (~connor@pool-71-123-132-190.dllstx.fios.verizon.net) has joined #python-unregistered
+2013-05-07 19:40:32	<--	its_pots (~dnstbr@rrcs-24-227-252-187.sw.biz.rr.com) has quit (Quit: Computer has gone to sleep.)
+2013-05-07 19:40:34	<--	mastro (~mastro@host97-68-dynamic.4-87-r.retail.telecomitalia.it) has quit (Read error: Connection reset by peer)
+2013-05-07 19:41:05	<--	likeRfoxl (~jjjjjjjj@S010600259c2731c4.ss.shawcable.net) has quit (Quit: Leaving)
+2013-05-07 19:41:19	<--	Coalpaw_ (~Coalpaw@50.100.13.228) has quit (Read error: Connection reset by peer)
+2013-05-07 19:41:42	<--	sea6ear (~connor@pool-71-123-132-190.dllstx.fios.verizon.net) has quit (Remote host closed the connection)
+2013-05-07 19:41:58	-->	hdiogenes (~hdiogenes@187.60.66.11) has joined #python-unregistered
+2013-05-07 19:42:16	-->	sasori (~chatzilla@cm105.gamma248.maxonline.com.sg) has joined #python-unregistered
+2013-05-07 19:42:34	-->	chrisjlee^lunch (~chrisjlee@rrcs-67-78-46-185.sw.biz.rr.com) has joined #python-unregistered
+2013-05-07 19:42:36	-->	pydave6367 (~dave@host-2-97-65-57.as13285.net) has joined #python-unregistered
+2013-05-07 19:42:51	<--	jdunck (~jdunck@django/committer/jdunck) has quit (Quit: Computer has gone to sleep.)
+2013-05-07 19:42:57	-->	sea6ear (~connor@pool-71-123-132-190.dllstx.fios.verizon.net) has joined #python-unregistered
+2013-05-07 19:43:41	<--	sea6ear (~connor@pool-71-123-132-190.dllstx.fios.verizon.net) has quit (Remote host closed the connection)
+2013-05-07 19:43:47	-->	mastro (~mastro@host97-68-dynamic.4-87-r.retail.telecomitalia.it) has joined #python-unregistered
+2013-05-07 19:44:05	<--	AsgardBSD (~quassel@bas7-montreal45-1279777065.dsl.bell.ca) has quit (Ping timeout: 248 seconds)
+2013-05-07 19:44:31	<--	sooth (~rob@c-71-197-124-72.hsd1.ca.comcast.net) has left #python-unregistered
+2013-05-07 19:44:58	-->	Ergo^ (~ergo@hyp-p-107.pabianice.msk.pl) has joined #python-unregistered
+2013-05-07 19:45:06	<--	Shukaro (~quassel@cpe-69-135-211-191.woh.res.rr.com) has quit (Ping timeout: 264 seconds)
+2013-05-07 19:46:03	-->	mguillech (~mguillech@222-115-17-190.fibertel.com.ar) has joined #python-unregistered
+2013-05-07 19:46:03	<--	mguillech (~mguillech@222-115-17-190.fibertel.com.ar) has quit (Changing host)
+2013-05-07 19:46:03	-->	mguillech (~mguillech@unaffiliated/mguillech) has joined #python-unregistered
+2013-05-07 19:46:11	<--	juchipilo2 (~juchipilo@wsip-98-172-94-237.ph.ph.cox.net) has left #python-unregistered
+2013-05-07 19:47:31	-->	ramblex (~alexd@146.90.201.101) has joined #python-unregistered
+2013-05-07 19:47:39	<--	ramblex (~alexd@146.90.201.101) has left #python-unregistered
+2013-05-07 19:47:42	-->	sumzup (~sumzup@c-24-19-232-96.hsd1.wa.comcast.net) has joined #python-unregistered
+2013-05-07 19:47:47	-->	Pinkamena_D (cc08c1aa@gateway/web/freenode/ip.204.8.193.170) has joined #python-unregistered
+2013-05-07 19:48:04	-->	frenchlaf (~frenchlaf@c-68-52-163-159.hsd1.tn.comcast.net) has joined #python-unregistered
+2013-05-07 19:49:23	<--	hansy_ (~hansy@190.12.68.113) has quit (Quit: Leaving)
+2013-05-07 19:49:32	-->	grizwako1 (~GrizzLy@184-112.dsl.iskon.hr) has joined #python-unregistered
+2013-05-07 19:50:48	-->	sillystring (4160cccd@gateway/web/freenode/ip.65.96.204.205) has joined #python-unregistered
+2013-05-07 19:50:58	-->	chrisjle_ (~chrisjlee@rrcs-67-78-46-185.sw.biz.rr.com) has joined #python-unregistered
+2013-05-07 19:51:04	-->	lritter (~lritter@g229039114.adsl.alicedsl.de) has joined #python-unregistered
+2013-05-07 19:51:16	<--	chrisjlee^lunch (~chrisjlee@rrcs-67-78-46-185.sw.biz.rr.com) has quit (Read error: Connection reset by peer)
+2013-05-07 19:52:20	<--	asksol (asksol@2a01:7e00::f03c:91ff:fedf:af30) has quit (Excess Flood)
+2013-05-07 19:52:26	-->	asksol (asksol@2a01:7e00::f03c:91ff:fedf:af30) has joined #python-unregistered
+2013-05-07 19:53:02	<--	nyuszika7h (nyuszika7h@pdpc/supporter/active/nyuszika7h) has left #python-unregistered
+2013-05-07 19:53:13	--	sillystring is now known as speaker1234
+2013-05-07 19:53:28	<--	newbie22 (~newbie22@adsl-66-157-201-12.jax.bellsouth.net) has quit (Quit: Leaving)
+2013-05-07 19:53:52	--	chrisjle_ is now known as chrisjlee
+2013-05-07 19:55:23	-->	terminator_57 (~sparrow@197.87.109.118) has joined #python-unregistered
+2013-05-07 19:55:38	-->	hansy (~hansy@190.12.68.113) has joined #python-unregistered
+2013-05-07 19:55:50	<--	mguillech (~mguillech@unaffiliated/mguillech) has quit (Ping timeout: 255 seconds)
+2013-05-07 19:56:11	-->	overridex (~dmccombs@nat-04-mht.dyndns.com) has joined #python-unregistered
+2013-05-07 19:56:27	<--	rihnapstor (~rihen@117.204.161.42) has quit (Changing host)
+2013-05-07 19:56:27	-->	rihnapstor (~rihen@unaffiliated/rihnapstor) has joined #python-unregistered
+2013-05-07 19:56:30	<--	terminator_57 (~sparrow@197.87.109.118) has left #python-unregistered
+2013-05-07 19:56:30	<--	Ergo^ (~ergo@hyp-p-107.pabianice.msk.pl) has quit (Remote host closed the connection)
+2013-05-07 19:56:36	-->	mguillech (~mguillech@unaffiliated/mguillech) has joined #python-unregistered
+2013-05-07 19:56:39	<--	cetko (cetko@marvin.kset.org) has quit (Ping timeout: 252 seconds)
+2013-05-07 19:57:38	-->	goshawk (~goshawk@65.203.131.194) has joined #python-unregistered
+2013-05-07 19:58:54	<--	overridex (~dmccombs@nat-04-mht.dyndns.com) has left #python-unregistered
+2013-05-07 19:59:03	<--	Saby (~Saby@unaffiliated/saby) has quit (Ping timeout: 260 seconds)
+2013-05-07 19:59:18	-->	Saby (~Saby@183.87.60.249) has joined #python-unregistered
+2013-05-07 19:59:18	<--	Saby (~Saby@183.87.60.249) has quit (Changing host)
+2013-05-07 19:59:18	-->	Saby (~Saby@unaffiliated/saby) has joined #python-unregistered
+2013-05-07 19:59:21	<--	Pinkamena_D (cc08c1aa@gateway/web/freenode/ip.204.8.193.170) has quit (Quit: Page closed)
+2013-05-07 19:59:30	-->	thanpolas (~thanpolas@ppp-94-67-113-119.home.otenet.gr) has joined #python-unregistered
+2013-05-07 19:59:34	<--	sasori (~chatzilla@cm105.gamma248.maxonline.com.sg) has quit (Read error: Connection timed out)
+2013-05-07 19:59:49	-->	sclark (~quassel@c-24-130-112-100.hsd1.ca.comcast.net) has joined #python-unregistered
+2013-05-07 20:00:02	<--	sclark_ (~quassel@199.255.189.186) has quit (Ping timeout: 245 seconds)
+2013-05-07 20:00:08	<--	sud0x3_ (~sud0x3@host86-144-98-160.range86-144.btcentralplus.com) has quit (Ping timeout: 245 seconds)
+2013-05-07 20:00:56	-->	sud0x3_ (~sud0x3@host86-144-98-160.range86-144.btcentralplus.com) has joined #python-unregistered
+2013-05-07 20:01:21	<--	iZZxZZxZi (~Miranda@174-140-135-95.pool.ukrtel.net) has quit (Read error: Connection reset by peer)
+2013-05-07 20:02:03	<--	rakl (~rakl@sonic.mochaleaf.com) has quit (Quit: sleeping)
+2013-05-07 20:02:17	-->	sasori (~chatzilla@cm105.gamma248.maxonline.com.sg) has joined #python-unregistered
+2013-05-07 20:02:36	<--	mguillech (~mguillech@unaffiliated/mguillech) has quit (Ping timeout: 268 seconds)
+2013-05-07 20:02:50	-->	yedi (~yedi@122.162.153.175) has joined #python-unregistered
+2013-05-07 20:03:02	-->	mguillech (~mguillech@222-115-17-190.fibertel.com.ar) has joined #python-unregistered
+2013-05-07 20:03:02	<--	mguillech (~mguillech@222-115-17-190.fibertel.com.ar) has quit (Changing host)
+2013-05-07 20:03:02	-->	mguillech (~mguillech@unaffiliated/mguillech) has joined #python-unregistered
+2013-05-07 20:03:36	<--	bzyx (~quassel@94.232.36.211) has quit (Read error: Operation timed out)
+2013-05-07 20:03:40	-->	likeRfoxl (~jjjjjjjj@S010600259c2731c4.ss.shawcable.net) has joined #python-unregistered
+2013-05-07 20:03:53	-->	darrenhasgerms (~Adium@50.56.228.69) has joined #python-unregistered
+2013-05-07 20:04:16	-->	bzyx (~quassel@94.232.36.211) has joined #python-unregistered
+2013-05-07 20:04:35	<--	[null] (~null@4E5C6C87.dsl.pool.telekom.hu) has quit (Quit: .)
+2013-05-07 20:05:15	<--	yedi (~yedi@122.162.153.175) has quit (Remote host closed the connection)
+2013-05-07 20:05:17	<--	pydave6367 (~dave@host-2-97-65-57.as13285.net) has quit (Ping timeout: 255 seconds)
+2013-05-07 20:05:45	-->	terri (~terri@adaptive.cs.unm.edu) has joined #python-unregistered
+2013-05-07 20:05:47	-->	yedi (~yedi@122.162.153.175) has joined #python-unregistered
+2013-05-07 20:05:52	<--	sud0x3_ (~sud0x3@host86-144-98-160.range86-144.btcentralplus.com) has quit (Ping timeout: 245 seconds)
+2013-05-07 20:06:22	-->	dcrouch (~dcrouch@50-77-194-225-static.hfc.comcastbusiness.net) has joined #python-unregistered
+2013-05-07 20:07:15	-->	sud0x3 (~sud0x3@host86-144-98-160.range86-144.btcentralplus.com) has joined #python-unregistered
+2013-05-07 20:07:44	<--	sud0x3 (~sud0x3@host86-144-98-160.range86-144.btcentralplus.com) has left #python-unregistered
+2013-05-07 20:08:38	-->	sud0x3 (~sud0x3@host86-144-98-160.range86-144.btcentralplus.com) has joined #python-unregistered
+2013-05-07 20:08:49	-->	blueadept` (~blueadept@rrcs-108-178-162-215.west.biz.rr.com) has joined #python-unregistered
+2013-05-07 20:08:52	<--	VsbxLEKtVA (~Miranda@109.197.219.213) has quit (Read error: Connection reset by peer)
+2013-05-07 20:09:06	<--	mguillech (~mguillech@unaffiliated/mguillech) has quit (Ping timeout: 264 seconds)
+2013-05-07 20:09:07	-->	snoopt (~snoopt@95-25-95-145.broadband.corbina.ru) has joined #python-unregistered
+2013-05-07 20:09:23	<--	snoopt (~snoopt@95-25-95-145.broadband.corbina.ru) has left #python-unregistered
+2013-05-07 20:09:35	-->	mguillech (~mguillech@222-115-17-190.fibertel.com.ar) has joined #python-unregistered
+2013-05-07 20:09:35	<--	mguillech (~mguillech@222-115-17-190.fibertel.com.ar) has quit (Changing host)
+2013-05-07 20:09:35	-->	mguillech (~mguillech@unaffiliated/mguillech) has joined #python-unregistered
+2013-05-07 20:09:35	<--	sud0x3 (~sud0x3@host86-144-98-160.range86-144.btcentralplus.com) has left #python-unregistered
+2013-05-07 20:09:39	-->	farcicalme (~andrew@c-24-118-229-9.hsd1.mn.comcast.net) has joined #python-unregistered
+2013-05-07 20:09:44	<--	terri (~terri@adaptive.cs.unm.edu) has left #python-unregistered
+2013-05-07 20:10:14	<--	sprites (~androirc@190.213.198.109) has quit (Quit: .)
+2013-05-07 20:10:18	-->	ddm (ddm@129.237.196.32) has joined #python-unregistered
+2013-05-07 20:10:43	<--	yedi (~yedi@122.162.153.175) has quit (Ping timeout: 264 seconds)
+2013-05-07 20:11:19	<--	blueadept (~blueadept@unaffiliated/blueadept) has quit (Ping timeout: 264 seconds)
+2013-05-07 20:11:50	-->	Legato (~Legato@c-76-105-83-6.hsd1.ga.comcast.net) has joined #python-unregistered
+2013-05-07 20:11:53	<--	Arieh (sbnc@2a02:348:46:60af::1) has quit (Ping timeout: 258 seconds)
+2013-05-07 20:11:55	-->	AeroNoti1 (~xeno@abny83.neoplus.adsl.tpnet.pl) has joined #python-unregistered
+2013-05-07 20:12:07	<--	nmjesus (~nmjesus@194.65.5.235) has quit (Ping timeout: 245 seconds)
+2013-05-07 20:13:45	<--	benoitc (~benoitc@2a01:e35:8a34:6d90:f2ad:4eff:fe00:6c31) has quit (Excess Flood)
+2013-05-07 20:14:19	-->	bytephilia (~bytephili@213.190.120.48) has joined #python-unregistered
+2013-05-07 20:14:22	-->	Shukaro (~quassel@cpe-69-135-211-191.woh.res.rr.com) has joined #python-unregistered
+2013-05-07 20:15:02	<--	mguillech (~mguillech@unaffiliated/mguillech) has quit (Ping timeout: 246 seconds)
+2013-05-07 20:15:08	<--	AeroNoti1 (~xeno@abny83.neoplus.adsl.tpnet.pl) has quit (Client Quit)
+2013-05-07 20:15:11	-->	Chiro (~chiro@151.67.14.33) has joined #python-unregistered
+2013-05-07 20:15:20	<--	rihnapstor (~rihen@unaffiliated/rihnapstor) has quit (Ping timeout: 258 seconds)
+2013-05-07 20:15:45	-->	mguillech (~mguillech@unaffiliated/mguillech) has joined #python-unregistered
+2013-05-07 20:16:10	-->	benoitc (~benoitc@2a01:e35:8a34:6d90:f2ad:4eff:fe00:6c31) has joined #python-unregistered
+2013-05-07 20:17:48	-->	Der_Dackel (~DerDackel@p4FF35FF3.dip0.t-ipconnect.de) has joined #python-unregistered
+2013-05-07 20:19:14	<--	knoppix (~knoppix@41.226.213.76) has quit (Ping timeout: 255 seconds)
+2013-05-07 20:19:26	<--	sasori (~chatzilla@cm105.gamma248.maxonline.com.sg) has quit (Read error: Connection timed out)
+2013-05-07 20:20:08	<--	joepie93 (~joepie91@ip4da23717.direct-adsl.nl) has quit (Ping timeout: 245 seconds)
+2013-05-07 20:20:08	-->	mastermnd (~mstrmnd@66.18.5.194) has joined #python-unregistered
+2013-05-07 20:20:46	-->	fabiobatalha (~fabiobata@189.96.61.24) has joined #python-unregistered
+2013-05-07 20:21:04	-->	joepie93 (~joepie91@ip4da23717.direct-adsl.nl) has joined #python-unregistered
+2013-05-07 20:22:02	<--	Valda (~valderama@gw-to-666.outscale.net) has quit (Quit: Leaving)
+2013-05-07 20:22:16	<--	gusnan (~gusnan@81-230-126-193-no160.bredband.skanova.com) has left #python-unregistered
+2013-05-07 20:22:16	-->	sasori (~chatzilla@cm105.gamma248.maxonline.com.sg) has joined #python-unregistered
+2013-05-07 20:22:57	<--	mguillech (~mguillech@unaffiliated/mguillech) has quit (Ping timeout: 268 seconds)
+2013-05-07 20:23:13	-->	mguillech (~mguillech@unaffiliated/mguillech) has joined #python-unregistered
+2013-05-07 20:23:26	-->	matthieu__ (~matthieu_@fuv13-2-88-179-9-182.fbx.proxad.net) has joined #python-unregistered
+2013-05-07 20:23:28	<--	MJ (~mj@35.109-247-40.customer.lyse.net) has quit (Quit: Textual IRC Client: http://www.textualapp.com/)
+2013-05-07 20:24:06	<--	Milossh (~milos@unaffiliated/milossh) has quit (Quit: Computer has gone to sleep.)
+2013-05-07 20:24:42	<--	Chiro (~chiro@151.67.14.33) has quit (Ping timeout: 264 seconds)
+2013-05-07 20:25:19	<--	fabiobatalha (~fabiobata@189.96.61.24) has quit (Remote host closed the connection)
+2013-05-07 20:25:57	-->	EasyMac__ (~EasyMac_@173-10-118-94-BusName-Washington.hfc.comcastbusiness.net) has joined #python-unregistered
+2013-05-07 20:26:21	-->	Milossh (~milos@unaffiliated/milossh) has joined #python-unregistered
+2013-05-07 20:26:43	<--	arietis (~arietis@188.242.181.162) has quit (Quit: Computer has gone to sleep.)
+2013-05-07 20:27:05	-->	Coalpaw (~Coalpaw@50.100.13.228) has joined #python-unregistered
+2013-05-07 20:28:07	-->	tomtiger11_ (~tomtiger1@46.20.235.55) has joined #python-unregistered
+2013-05-07 20:28:11	-->	rihnapstor (~rihen@117.204.160.71) has joined #python-unregistered
+2013-05-07 20:28:35	-->	Ephexeve-laptop (~ephexeve@50708361.static.ziggozakelijk.nl) has joined #python-unregistered
+2013-05-07 20:28:48	<--	darrenhasgerms (~Adium@50.56.228.69) has quit (Read error: Connection reset by peer)
+2013-05-07 20:28:53	<--	Ephexeve-laptop (~ephexeve@50708361.static.ziggozakelijk.nl) has quit (Client Quit)
+2013-05-07 20:29:00	-->	darrenhasgerms (~Adium@50.56.228.69) has joined #python-unregistered
+2013-05-07 20:29:10	<--	mguillech (~mguillech@unaffiliated/mguillech) has quit (Ping timeout: 276 seconds)
+2013-05-07 20:29:25	--	tomtiger11_ is now known as tomtiger11
+2013-05-07 20:29:38	<--	tomtiger11 (~tomtiger1@46.20.235.55) has quit (Changing host)
+2013-05-07 20:29:38	-->	tomtiger11 (~tomtiger1@Tom4u/founder/tomtiger11) has joined #python-unregistered
+2013-05-07 20:29:41	-->	mguillech (~mguillech@222-115-17-190.fibertel.com.ar) has joined #python-unregistered
+2013-05-07 20:29:41	<--	mguillech (~mguillech@222-115-17-190.fibertel.com.ar) has quit (Changing host)
+2013-05-07 20:29:41	-->	mguillech (~mguillech@unaffiliated/mguillech) has joined #python-unregistered
+2013-05-07 20:30:08	-->	Chiro (~chiro@151.67.20.54) has joined #python-unregistered
+2013-05-07 20:30:17	<--	tomtiger11 (~tomtiger1@Tom4u/founder/tomtiger11) has left #python-unregistered
+2013-05-07 20:32:25	<--	gcouti (~gcouti@187.59.211.74) has quit (Read error: Connection reset by peer)
+2013-05-07 20:32:50	-->	scalp42 (~Adium@c-24-6-9-201.hsd1.ca.comcast.net) has joined #python-unregistered
+2013-05-07 20:33:03	-->	knoppix (~knoppix@197.2.169.206) has joined #python-unregistered
+2013-05-07 20:33:49	<--	irakirashia (~matt@unaffiliated/irakirashia) has quit (Read error: Connection reset by peer)
+2013-05-07 20:34:00	<--	wlan (~wlan@81-235-131-254-no14.tbcn.telia.com) has quit (Quit: Lämnar)
+2013-05-07 20:34:07	<--	dcaro (dcaro@nat/redhat/x-olqaojvynobvhsen) has quit (Ping timeout: 264 seconds)
+2013-05-07 20:34:12	<--	macm (~macm@177.97.209.186) has quit (Remote host closed the connection)
+2013-05-07 20:34:12	<--	macm_ (~macm@177.97.209.186) has quit (Remote host closed the connection)
+2013-05-07 20:34:16	-->	Kaalen (~wlan@81-235-131-254-no14.tbcn.telia.com) has joined #python-unregistered
+2013-05-07 20:34:24	-->	sythe (~quassel@bas1-ottawa08-1176110887.dsl.bell.ca) has joined #python-unregistered
+2013-05-07 20:34:33	-->	sooth (~rob@c-71-197-124-72.hsd1.ca.comcast.net) has joined #python-unregistered
+2013-05-07 20:35:02	<--	mguillech (~mguillech@unaffiliated/mguillech) has quit (Ping timeout: 245 seconds)
+2013-05-07 20:35:08	<--	bytephilia (~bytephili@213.190.120.48) has quit (Quit: Leaving...)
+2013-05-07 20:35:12	-->	irakirashia (~matt@181.29.207.96) has joined #python-unregistered
+2013-05-07 20:35:12	<--	irakirashia (~matt@181.29.207.96) has quit (Changing host)
+2013-05-07 20:35:12	-->	irakirashia (~matt@unaffiliated/irakirashia) has joined #python-unregistered
+2013-05-07 20:35:15	-->	jamilatta (~jamil@177.33.227.100) has joined #python-unregistered
+2013-05-07 20:35:28	<--	bwreilly_ (~bwreilly@174.127.143.26) has quit (Remote host closed the connection)
+2013-05-07 20:35:46	-->	JackH (~none@client-86-29-47-62.glfd.adsl.virginmedia.com) has joined #python-unregistered
+2013-05-07 20:35:50	-->	mguillech (~mguillech@unaffiliated/mguillech) has joined #python-unregistered
+2013-05-07 20:36:03	-->	bwreilly (~bwreilly@174.127.143.26) has joined #python-unregistered
+2013-05-07 20:36:59	<--	alienr3born (~alienr3bo@cpe-74-77-140-119.buffalo.res.rr.com) has quit (Read error: Operation timed out)
+2013-05-07 20:37:04	-->	exicer (~exicer@host-92-29-250-71.as13285.net) has joined #python-unregistered
+2013-05-07 20:37:22	<--	JackH (~none@client-86-29-47-62.glfd.adsl.virginmedia.com) has left #python-unregistered
+2013-05-07 20:37:40	<--	marinosi (~marinosi@nemesis.liakus.net) has left #python-unregistered
+2013-05-07 20:37:41	<--	chrisjlee (~chrisjlee@rrcs-67-78-46-185.sw.biz.rr.com) has quit (Remote host closed the connection)
+2013-05-07 20:38:47	<--	noah (~noah@99-41-172-179.lightspeed.irvnca.sbcglobal.net) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2013-05-07 20:38:53	-->	Arieh (sbnc@srver.nl) has joined #python-unregistered
+2013-05-07 20:39:25	<--	sasori (~chatzilla@cm105.gamma248.maxonline.com.sg) has quit (Read error: Connection timed out)
+2013-05-07 20:39:33	-->	joel (~juchipilo@ip68-99-85-129.ph.ph.cox.net) has joined #python-unregistered
+2013-05-07 20:39:45	-->	cetko (cetko@marvin.kset.org) has joined #python-unregistered
+2013-05-07 20:39:54	-->	TheAnimator (~brocktoew@uwsclient-151-99.uws.ualberta.ca) has joined #python-unregistered
+2013-05-07 20:39:56	--	joel is now known as Guest62754
+2013-05-07 20:40:01	-->	bkad2 (~bkad2@eng.nat.mtv.ooyala.com) has joined #python-unregistered
+2013-05-07 20:40:11	<--	TheAnimator (~brocktoew@uwsclient-151-99.uws.ualberta.ca) has left #python-unregistered
+2013-05-07 20:40:55	<--	bkad2 (~bkad2@eng.nat.mtv.ooyala.com) has quit (Client Quit)
+2013-05-07 20:41:19	-->	bkad (~bkad2@eng.nat.mtv.ooyala.com) has joined #python-unregistered
+2013-05-07 20:41:33	--	zz_ctaloi is now known as ctaloi
+2013-05-07 20:42:04	<--	mguillech (~mguillech@unaffiliated/mguillech) has quit (Ping timeout: 268 seconds)
+2013-05-07 20:42:16	-->	sasori (~chatzilla@cm105.gamma248.maxonline.com.sg) has joined #python-unregistered
+2013-05-07 20:42:19	-->	mguillech (~mguillech@222-115-17-190.fibertel.com.ar) has joined #python-unregistered
+2013-05-07 20:42:19	<--	mguillech (~mguillech@222-115-17-190.fibertel.com.ar) has quit (Changing host)
+2013-05-07 20:42:19	-->	mguillech (~mguillech@unaffiliated/mguillech) has joined #python-unregistered
+2013-05-07 20:43:31	<--	cetko (cetko@marvin.kset.org) has quit (Read error: Operation timed out)
+2013-05-07 20:43:39	<--	bkad (~bkad2@eng.nat.mtv.ooyala.com) has left #python-unregistered
+2013-05-07 20:43:59	-->	TempleD (~TempleD@host86-170-125-153.range86-170.btcentralplus.com) has joined #python-unregistered
+2013-05-07 20:43:59	-->	Gorjanc (~gorjanc@213.143.86.185) has joined #python-unregistered
+2013-05-07 20:44:09	-->	Ergo^ (~ergo@hyp-p-107.pabianice.msk.pl) has joined #python-unregistered
+2013-05-07 20:44:15	<--	TempleD (~TempleD@host86-170-125-153.range86-170.btcentralplus.com) has quit (Client Quit)
+2013-05-07 20:44:19	-->	xzased_ (~quassel@50.56.228.71) has joined #python-unregistered
+2013-05-07 20:44:26	<--	dcrouch (~dcrouch@50-77-194-225-static.hfc.comcastbusiness.net) has quit (Ping timeout: 246 seconds)
+2013-05-07 20:44:43	-->	TempleD (~TempleD@host86-170-125-153.range86-170.btcentralplus.com) has joined #python-unregistered
+2013-05-07 20:44:46	-->	cetko (cetko@marvin.kset.org) has joined #python-unregistered
+2013-05-07 20:44:54	<--	forbid (~daniel@bas1-newmarket85-3096617166.dsl.bell.ca) has quit (Read error: Connection reset by peer)
+2013-05-07 20:44:58	<--	TempleD (~TempleD@host86-170-125-153.range86-170.btcentralplus.com) has left #python-unregistered
+2013-05-07 20:45:12	-->	dogarrhea (0ce8a502@gateway/web/freenode/ip.12.232.165.2) has joined #python-unregistered
+2013-05-07 20:45:15	-->	forbid (~daniel@bas1-newmarket85-3096617166.dsl.bell.ca) has joined #python-unregistered
+2013-05-07 20:45:19	<--	hellopat (~hellopat@c-71-230-117-238.hsd1.pa.comcast.net) has quit (Remote host closed the connection)
+2013-05-07 20:45:20	-->	user__ (~user@124.195.201.51) has joined #python-unregistered
+2013-05-07 20:46:34	-->	Marinello (~Marinello@apolo.padtec.com.br) has joined #python-unregistered
+2013-05-07 20:46:41	-->	dsb (~dsb@108-247-162-165.lightspeed.hstntx.sbcglobal.net) has joined #python-unregistered
+2013-05-07 20:46:54	<--	hansy (~hansy@190.12.68.113) has quit (Quit: This computer has gone to sleep)
+2013-05-07 20:47:12	-->	hellopat (~hellopat@c-71-230-117-238.hsd1.pa.comcast.net) has joined #python-unregistered
+2013-05-07 20:47:22	-->	davlaps (~davlaps@pool-71-177-95-16.lsanca.fios.verizon.net) has joined #python-unregistered
+2013-05-07 20:47:23	-->	linuxdaily (~linuxit@88.87.53.18) has joined #python-unregistered
+2013-05-07 20:47:24	<--	davlaps (~davlaps@pool-71-177-95-16.lsanca.fios.verizon.net) has quit (Max SendQ exceeded)
+2013-05-07 20:47:32	<--	mastermnd (~mstrmnd@66.18.5.194) has quit (Ping timeout: 256 seconds)
+2013-05-07 20:47:42	<--	idle` (~piour@2a01:e35:2f43:4b00:290:f5ff:feb9:63b4) has quit (Read error: No route to host)
+2013-05-07 20:47:42	-->	davlaps (~davlaps@pool-71-177-95-16.lsanca.fios.verizon.net) has joined #python-unregistered
+2013-05-07 20:47:44	<--	davlaps (~davlaps@pool-71-177-95-16.lsanca.fios.verizon.net) has quit (Max SendQ exceeded)
+2013-05-07 20:47:49	-->	idle` (~piour@2a01:e35:2f43:4b00:290:f5ff:feb9:63b4) has joined #python-unregistered
+2013-05-07 20:47:58	<--	mguillech (~mguillech@unaffiliated/mguillech) has quit (Ping timeout: 245 seconds)
+2013-05-07 20:48:01	<--	JohnBeales (~johnbeale@modemcable115.134-23-96.mc.videotron.ca) has quit (Quit: Leaving...)
+2013-05-07 20:48:20	-->	davlaps (~davlaps@pool-71-177-95-16.lsanca.fios.verizon.net) has joined #python-unregistered
+2013-05-07 20:48:22	-->	sparq_ (~sparq@130.65.240.59) has joined #python-unregistered
+2013-05-07 20:48:22	<--	davlaps (~davlaps@pool-71-177-95-16.lsanca.fios.verizon.net) has quit (Max SendQ exceeded)
+2013-05-07 20:48:50	-->	mguillech (~mguillech@222-115-17-190.fibertel.com.ar) has joined #python-unregistered
+2013-05-07 20:48:50	<--	mguillech (~mguillech@222-115-17-190.fibertel.com.ar) has quit (Changing host)
+2013-05-07 20:48:50	-->	mguillech (~mguillech@unaffiliated/mguillech) has joined #python-unregistered
+2013-05-07 20:48:52	<--	darrenhasgerms (~Adium@50.56.228.69) has quit (Quit: Leaving.)
+2013-05-07 20:48:56	-->	davlaps (~davlaps@pool-71-177-95-16.lsanca.fios.verizon.net) has joined #python-unregistered
+2013-05-07 20:48:57	<--	VeXocide (vexocide@secure.stack.nl) has quit (Changing host)
+2013-05-07 20:48:57	-->	VeXocide (vexocide@unaffiliated/vexocide) has joined #python-unregistered
+2013-05-07 20:48:58	<--	davlaps (~davlaps@pool-71-177-95-16.lsanca.fios.verizon.net) has quit (Max SendQ exceeded)
+2013-05-07 20:49:09	<--	VeXocide (vexocide@unaffiliated/vexocide) has left #python-unregistered
+2013-05-07 20:49:33	-->	rafmc (~rafmc@ip-83-101-1-14.customer.schedom-europe.net) has joined #python-unregistered
+2013-05-07 20:49:34	-->	davlaps (~davlaps@pool-71-177-95-16.lsanca.fios.verizon.net) has joined #python-unregistered
+2013-05-07 20:50:01	-->	exogen (~exogen@unaffiliated/exogen) has joined #python-unregistered
+2013-05-07 20:50:33	<--	user__ (~user@124.195.201.51) has quit (Ping timeout: 252 seconds)
+2013-05-07 20:51:05	-->	dcrouch (~dcrouch@50-77-194-225-static.hfc.comcastbusiness.net) has joined #python-unregistered
+2013-05-07 20:51:27	-->	hansy (~hansy@190.12.68.113) has joined #python-unregistered
+2013-05-07 20:51:31	-->	bytephilia (~bytephili@213.190.120.48) has joined #python-unregistered
+2013-05-07 20:51:50	-->	alansaul-laptop (~alansaul-@dyn201005.shef.ac.uk) has joined #python-unregistered
+2013-05-07 20:52:53	<--	linuxdaily (~linuxit@88.87.53.18) has quit (Quit: Leaving)
+2013-05-07 20:53:03	<--	benoitc (~benoitc@2a01:e35:8a34:6d90:f2ad:4eff:fe00:6c31) has quit (Excess Flood)
+2013-05-07 20:53:03	<--	EasyMac__ (~EasyMac_@173-10-118-94-BusName-Washington.hfc.comcastbusiness.net) has quit (Read error: Operation timed out)
+2013-05-07 20:54:24	<--	mguillech (~mguillech@unaffiliated/mguillech) has quit (Ping timeout: 252 seconds)
+2013-05-07 20:55:04	-->	megha (~fire@unaffiliated/security) has joined #python-unregistered
+2013-05-07 20:55:17	-->	mguillech (~mguillech@222-115-17-190.fibertel.com.ar) has joined #python-unregistered
+2013-05-07 20:55:18	<--	mguillech (~mguillech@222-115-17-190.fibertel.com.ar) has quit (Changing host)
+2013-05-07 20:55:18	-->	mguillech (~mguillech@unaffiliated/mguillech) has joined #python-unregistered
+2013-05-07 20:56:30	-->	rustyrazorblade (~Adium@rrcs-76-79-124-119.west.biz.rr.com) has joined #python-unregistered
+2013-05-07 20:57:00	-->	user__ (~user@124.195.201.51) has joined #python-unregistered
+2013-05-07 20:57:29	--	cfk is now known as Cowes
+2013-05-07 20:57:46	<--	baba (~fire@unaffiliated/security) has quit (Ping timeout: 276 seconds)
+2013-05-07 20:57:48	<--	Gorjanc (~gorjanc@213.143.86.185) has quit (Ping timeout: 256 seconds)
+2013-05-07 20:58:12	<--	Lefeni (~Lefeni@c-da4ae555.143-16-64736c10.cust.bredbandsbolaget.se) has quit (Read error: Connection reset by peer)
+2013-05-07 20:58:33	-->	Lefeni (~Lefeni@c-da4ae555.143-16-64736c10.cust.bredbandsbolaget.se) has joined #python-unregistered
+2013-05-07 20:58:35	<--	user__ (~user@124.195.201.51) has quit (Read error: Connection reset by peer)
+2013-05-07 20:58:38	--	irc: disconnected from server
+2013-05-08 04:15:56	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #python-unregistered
+2013-05-08 04:15:56	--	Topic for #python-unregistered is "Welcome to #python-unregistered! You've been put here because #python requires you to register your nickname with Freenode. For more information about registering on Freenode, ask #freenode. For more information about #python,#python-* moderation, #python-ops."
+2013-05-08 04:15:56	--	Topic set by lvh (~lvh@python/psf/lvh) on Fri, 01 Jul 2011 10:44:19
+2013-05-08 04:15:56	--	Nicks #python-unregistered: [@ChanServ 77CAA2O6C __jae__ _Brian _julian _lpc _marvin__ aboudreault abyss42 accipter_ Ademan_ adiii aess ahaerpfer akujin alang_ alekibango alex-foo alex-weej_ alextreme alextucker alienr3born AllStruck aloril alshain alshain__ Amadiro amerinese amithkk andrejpan1 andrewfree androok antback apoi apollolune appy arbitraryuser Arieh arikb armin armodafinil aroga ArtVandalae asadpanda Asdasd asksol asmundg_ averell awahlig_ awc737 Azelphur B0r3dw15dom b1rkh0ff ballingt barika bartek basiclaser beasty beavel benoitc bensix2 bentham bgresham BiDOrD binw binw__ birkenfeld bitnumus bjb bjornars BlindHunter Blu3 BlueEagl1 BlueLaguna blurk bmn bndk bob_f bois BoomBox borism bpgoldsb_ Bracki_ bramwelt brewmaster bstrie_ BugeyeD bw_ bwall bwq bwreilly bzyx c45y candlejackson CanyonMan Cavedude cce ccothrun cdsboy cereal cetko chaoflow chapsky chavaone Chinorro_ Chiro chris__0076 chrisdotcode Christian_M Circlefusion ckknight codepal_ codl colonD companion confluency connor_goodwolf Contexual convict_ CoverSlide cowmix_ Crayboff crodas ctaloi cyborg-one cYmen_ CyrilPeponnet d10n Dad` daithif danielinux-afk danszr DarkLinkXXXX DasIch davetherat davidbrenneman DavidGebler Daviey daxroc dayepa1 DeadSix27 deam Deathspawn deavid Deaygo deed02392 Defektro_ deleted_ Descartes destiny devces devhost dewdrop DexterLB dforsyth digitalfiz DigitalKiwi dimadima dirkgomez dogarrhea domingo donghee_ dozymoe DrArcheh DrForr_ drinkycrow DrLou dry_ dsc Duality dubios Dude-X_ DustyDingo dv_ Dyresen eanxgeek|log echevemaster eddd edulix eight9three ejnahc_ elky` embersoaker emk emmanuelux EnCrypt3r eneon enigmuriatic eosphoros Eppiox erikj estebistec ether0_ EToS euphoriaa evilroots exogen f8 fallenhitokiri falood Farom_ feeen Fenaralan fireant fishhead2567 fivethre1o fleischwesen flupps flyingtriangle Fodder folivora fooldrew forbid forrestv fortytwo fragalot FrejConnolly frenchlaf Fuu fvdjango fvox13 fxdgear G________ gadams gagan662 Gaganator galaxywatcher garndt gates gcmalloc Gekz genericnick generus Gentlecat Gerben geshp ggergely ggherdov GGLucas ghuntley glasz gldnspud gmag__ GoGi grandy_ grandy__ gregglind Grievar grizwako Grrboy1028 gsvolt Gud Guest11973 Guest52864 Guest62754 Guest87593 Guest89186 Guest92004 Guest97530 gushie h34d3r h4x0rithink hachque hackeron_ Hamled hape01 happyface hardy89 haxxed heat heinrich5991 hejki helgikrs hellais heqs_ heytrav hgascon hgb hhuuggoo hizibiz hkraal_ Hodgestar Hollinksi holmb honza HorizonXP horlicks howlymowly hto ianawilson ianouellette ibenox idoru igorgue Ikarus Inc` ineiros_ infogulch ingrid Inside Internet13 Inv1s1ble InvalidPacket ionte irakirashia Irishman1uke Ishaq issy iSUSE ItsMe ivan` j_king Jabberwalker jamick jamilatta Jamzag Janhouse janus jb____ jbermudes jcp jdiez_ jdolan_ jeremy_carroll jesselang jeverling_ jhgaylor Jikan jinxdone jjore jlebar JMadalena[off] jml joe5 JoeJ JoeJ_ joepie91 john2x jon8 jonasac jonesy jorg_ josephc_away joshbaptiste jovy88 JPeterson jrib jrua jschall JSharpe_ JStoker jtanner juanriaza__ juh^ julmae justakill JustSighDudes jwang KA_ kahtahs_ Kaimei Kamoi kanzure karupanerura katherinem13 kayfox KaZeR_W keis kel39 kelvan kennethreitz kerrick-work Kevel kexmex kfr2 kichawa kinabalu Kins kiri kleinishere kll_ KLUTCH KnightHawk3 komori konradb kontrast23 ktosiek kua kula1922a kunev Kurin kurtsbees kusznir Kuukunen Kwerty_ l403 La0fer laen lahwran lakcaj LaunchDirector Leddy leepa_ levi501d lewq Lexi LiamM likeRfoxl lmm lmnts Lord_DeathMatch Lordx_ lstone lubyou lupfantomo lupine luruke lyda_ m0 m4rduk machisuji machisuji_ macm madbear magnunor1 mahmoudimus maik makro_ maksbotan malware_ manawy mangala mapc Mapleh marienz Marinello mark_vh markvandenborre Martin89 masen mat^2 mathlete Matjong mawuli_ypa mcsmash megha mephistophocles mfridh mhite microft midinerd mik mikau_ mikehaas763 mikeshultz milleja46 mimi_vx_ MindfulMantis Minto`Relyx mjulian mkouhei mmoya Moussekateer mpajor_o15 MrPPS mrshu mtd MuNk` Muzer mwoodson Myrsloik myusuf3_ N3RG4L n9mtb nagappan NahimN naka__ napalmbrain nazty ndngvr needlz neilf nemesit|znc neoxed Neptu Nesetalis nesthib nesti netj_ networkstatic neurodamage newbie___ Niamkik Nibato Nickeeh nickoe_ Niedar nighty- NimeshNeema ninkotech ninkotech__ no_maam noam nopf nopper nosa-j nots notVert NovceGuru Nshag nsno ntrb nully nwilson5 nxorg8 nyloc oblio offbyone olavgg_ oO0Oo opapo ORerik orf_ organometallica Orphis_ otep ozzloy pandragon PcJamesy pcn peper perlethandersen perun0 peterhil PeteyKun pgurumur ph8 Phazorx phenom philips phood phrame pkug platschi pmcg ponyofdeath potatoe5 Praise prime prismatictrail programmerq przemoc pudim PuffTheMagic pyrak_ pythonirc1011 qleelulu quuxman raadad_w1rk raja rajath rakl Rapp rathis rawplayer raydo Raynes rbranson rdegges recast Red_M RichardBronosky riot rmcbride rns Roa robink Roey rolleiflex rostam rotham rotorooter rpgsimmaster rrix rvchangue rwparris2 ry4nn_ ryanakca rystic rz s00pcan s0ul s3m73x s4muel Saby saki_mob sami SaMOOrai samu SamuraiGhost sander_ sapht_ sawrubh scalp42 schmidtm schnoodles schnoodles-osx sclark sean_mac SecretAgent SEJeff_work seravitae sexyshape SeySayux sgkim126l shabble Shadda shalkie shano_ sharky Shrink Shukaro Sick_Rimmit SilentPenguin silverjam sirecote SirScott SirStan sitaktif1 sivy sjaak_trekhaak skakri slipstream smccarthy smita sn0wb1rdz Snakes_ snarkyboojum somnium soosfarm soren sosna_ sp4wnz spacemud spaceone sparq_ SpComb SpComb^_ speaker1234 spillere SpX SquirrelCZECH st3fan stackofcats stbenjam stdgy stephan48 Steve_M stickystyle_ stooj_ strictlyb supersym sward_ sweemeng_office swex synergy-qq syntax t0h Tactical_ talanor tamentis tankbusta tdignan TeamMat technolog tekacs tessier the_metalgamer TheCowboy TheFuzzball thelivingded thethird3y3 thibautd Thomas42 thomasbl thomaslee_ thomi three18ti thunderbolt tito tjbenator tmu tmw tomaw tomwardill_ tonic1 tonsofpcs Torimodo tote toxik tpatja tpe11etier tr4656 travisfischer trbotime Trenif trevorj trifler tritoul Tron- tsnow tuningmind twoborde1s txwikinger tyler_robertson Typo tystr Uitto VanDyke_ vect0r VeggieMeat venmx verma Vertel vetsin vhost- vicfryzel Villadelfia viperhr virtuose visionvirus vivi0906 VivienHayazaki VnC_ volume_8 Vornicus Vye_ Wa wassup wcpan Webbnix_ webknjaz wh1tey_ Wild_Cat wildnux Willdude123_ willeh Will|- wirepair_ wizonesolutions wlemuel wolong1 WoodsDog wookienz wout_ Wu Xiol xneme xp_prg2 Y_Ichiro yazdmich yedi Ylujion ymas Yomic yshh yunfan zack6849 ZadYree ZenGeist_ zhost zivester zj1992 zjo zmo Zonmei zxiiro zygfryd` ZyX-I |d4red3vil| |zeus|_]
+2013-05-08 04:15:56	--	Channel #python-unregistered: 781 nicks (1 op, 0 halfops, 0 voices, 780 normals)
+2013-05-08 04:16:09	--	Mode #python-unregistered [+cmnt]
+2013-05-08 04:16:10	--	Channel created on Sun, 06 Feb 2011 01:12:29
+2013-05-08 04:16:25	<--	jovy88 (~weechat@c-71-56-86-92.hsd1.ga.comcast.net) has quit (Read error: Connection reset by peer)
+2013-05-08 04:16:56	-->	jovy88 (~weechat@c-71-56-86-92.hsd1.ga.comcast.net) has joined #python-unregistered
+2013-05-08 04:18:04	--	Guest62754 is now known as juchipilo
+2013-05-08 04:18:22	<--	juchipilo (~juchipilo@ip68-99-85-129.ph.ph.cox.net) has quit (Changing host)
+2013-05-08 04:18:22	-->	juchipilo (~juchipilo@unaffiliated/juchipilo) has joined #python-unregistered
+2013-05-08 04:19:49	-->	im0b (uid5460@gateway/web/irccloud.com/x-cyngbnsttwqndvbx) has joined #python-unregistered
+2013-05-08 04:20:31	<--	glasz (~quassel@86.141.75.86.rev.sfr.net) has quit (Remote host closed the connection)
+2013-05-08 04:20:37	<--	juchipilo (~juchipilo@unaffiliated/juchipilo) has left #python-unregistered
+2013-05-08 04:23:24	-->	enigmuri_ (~enigmuria@149.43.220.206) has joined #python-unregistered
+2013-05-08 04:23:24	-->	syst3ml00t (~syst3ml00@24-180-60-182.dhcp.rvsd.ca.charter.com) has joined #python-unregistered
+2013-05-08 04:23:34	<--	enigmuriatic (~enigmuria@149.43.220.206) has quit (Read error: Connection reset by peer)
+2013-05-08 04:23:36	-->	mahmoudi_ (~mahmoudim@199.241.202.99) has joined #python-unregistered
+2013-05-08 04:24:27	<--	irakirashia (~matt@unaffiliated/irakirashia) has quit (Remote host closed the connection)
+2013-05-08 04:24:36	<--	kerrick-work (kerrick-wo@nat/google/x-cwbxgnzjhrobojag) has quit (Read error: Operation timed out)
+2013-05-08 04:25:23	<--	mahmoudimus (~mahmoudim@173-164-253-217-SFBA.hfc.comcastbusiness.net) has quit (Ping timeout: 260 seconds)
+2013-05-08 04:26:27	<--	dry_ (~dry_@24.212.233.74) has quit (Quit: Leaving)
+2013-05-08 04:29:01	-->	chipotle_ (~chipotle@unaffiliated/chipotle) has joined #python-unregistered
+2013-05-08 04:30:27	-->	sumzup (~sumzup@c-24-19-232-96.hsd1.wa.comcast.net) has joined #python-unregistered
+2013-05-08 04:34:45	-->	chuckharmston (~chuckharm@ip68-3-211-216.ph.ph.cox.net) has joined #python-unregistered
+2013-05-08 04:35:33	<--	zhost (~pp@host-178.215.198.85-internet.zabrze.debacom.pl) has quit (Ping timeout: 245 seconds)
+2013-05-08 04:35:49	<--	thelivingded (~theliving@cpe-72-182-43-68.austin.res.rr.com) has quit (Ping timeout: 248 seconds)
+2013-05-08 04:36:51	<--	syst3ml00t (~syst3ml00@24-180-60-182.dhcp.rvsd.ca.charter.com) has left #python-unregistered
+2013-05-08 04:40:07	<--	sumzup (~sumzup@c-24-19-232-96.hsd1.wa.comcast.net) has quit (Quit: Computer has gone to sleep.)
+2013-05-08 04:40:42	-->	hardas (~hardas@188.73.252.150) has joined #python-unregistered
+2013-05-08 04:41:44	-->	mastermnd (~mstrmnd@pool-72-64-96-235.dllstx.fios.verizon.net) has joined #python-unregistered
+2013-05-08 04:41:59	-->	troyt (~troyt@2001:1938:240:2000::3) has joined #python-unregistered
+2013-05-08 04:42:43	-->	cmark (~cmark@d207-6-225-29.bchsia.telus.net) has joined #python-unregistered
+2013-05-08 04:43:01	--	mahmoudi_ is now known as mahmoudimus
+2013-05-08 04:43:11	<--	cmark (~cmark@d207-6-225-29.bchsia.telus.net) has quit (Remote host closed the connection)
+2013-05-08 04:43:12	-->	blueadept (~blueadept@50.9.165.31) has joined #python-unregistered
+2013-05-08 04:43:12	<--	blueadept (~blueadept@50.9.165.31) has quit (Changing host)
+2013-05-08 04:43:12	-->	blueadept (~blueadept@unaffiliated/blueadept) has joined #python-unregistered
+2013-05-08 04:43:16	<--	chipotle_ (~chipotle@unaffiliated/chipotle) has quit (Quit: cya)
+2013-05-08 04:43:45	-->	cmark (~cmark@64-142-72-34.dsl.static.sonic.net) has joined #python-unregistered
+2013-05-08 04:44:37	-->	chipotle_ (~chipotle@unaffiliated/chipotle) has joined #python-unregistered
+2013-05-08 04:45:12	<--	chipotle_ (~chipotle@unaffiliated/chipotle) has quit (Client Quit)
+2013-05-08 04:45:20	<--	alienr3born (~alienr3bo@dhcp035-160-063.wireless.buffalo.edu) has quit (Ping timeout: 246 seconds)
+2013-05-08 04:47:00	<--	wildnux (~shekhar@ool-43526f2e.dyn.optonline.net) has quit (Quit: Konversation terminated!)
+2013-05-08 04:47:22	-->	sumzup (~sumzup@c-24-19-232-96.hsd1.wa.comcast.net) has joined #python-unregistered
+2013-05-08 04:47:55	-->	jonaias (~jonaias@177.189.66.4) has joined #python-unregistered
+2013-05-08 04:48:49	-->	alienr3born (~alienr3bo@dhcp035-160-063.wireless.buffalo.edu) has joined #python-unregistered
+2013-05-08 04:49:16	<--	chrisdotcode (~quassel@pool-108-14-33-58.nycmny.fios.verizon.net) has quit (Quit: No Ping reply in 180 seconds.)
+2013-05-08 04:49:30	<--	emmanuelux (~emmanuelu@2a01:e35:2e4d:9010:28dd:380d:e11f:9c1f) has quit (Quit: emmanuelux)
+2013-05-08 04:50:06	-->	chrisdotcode (~quassel@pool-108-14-33-58.nycmny.fios.verizon.net) has joined #python-unregistered
+2013-05-08 04:50:10	-->	wildnux (~shekhar@ool-43526f2e.dyn.optonline.net) has joined #python-unregistered
+2013-05-08 04:50:37	<--	digitalfiz (uid533@gateway/web/irccloud.com/x-gnipfhauczrwdauh) has left #python-unregistered
+2013-05-08 04:53:21	-->	outcastNeophyte (~outcastNe@171.sub-174-240-33.myvzw.com) has joined #python-unregistered
+2013-05-08 04:53:21	<--	outcastNeophyte (~outcastNe@171.sub-174-240-33.myvzw.com) has quit (Changing host)
+2013-05-08 04:53:21	-->	outcastNeophyte (~outcastNe@unaffiliated/outcastneophyte) has joined #python-unregistered
+2013-05-08 04:53:58	-->	Broolucks (~ob@69.157.141.102) has joined #python-unregistered
+2013-05-08 04:54:39	<--	chrisdotcode (~quassel@pool-108-14-33-58.nycmny.fios.verizon.net) has quit (Client Quit)
+2013-05-08 04:55:23	-->	baba (~fire@unaffiliated/security) has joined #python-unregistered
+2013-05-08 04:57:38	<--	megha (~fire@unaffiliated/security) has quit (Ping timeout: 255 seconds)
+2013-05-08 04:58:19	-->	enmand (~enmand@sydnns0109w-142068181217.dhcp-dynamic.FibreOp.ns.bellaliant.net) has joined #python-unregistered
+2013-05-08 04:59:44	<--	enmand (~enmand@sydnns0109w-142068181217.dhcp-dynamic.FibreOp.ns.bellaliant.net) has quit (Client Quit)
+2013-05-08 05:01:11	<--	Vornicus (~vorn@ip98-176-199-87.sd.sd.cox.net) has left #python-unregistered
+2013-05-08 05:03:21	<--	Asdasd (~Axsuul@pool-108-38-11-179.lsanca.fios.verizon.net) has quit (Ping timeout: 252 seconds)
+2013-05-08 05:04:56	-->	sivy_ (~sivy@ip98-165-62-210.ph.ph.cox.net) has joined #python-unregistered
+2013-05-08 05:05:02	-->	Matthew_ (~matthew_@wikipedia/matthewrbowker) has joined #python-unregistered
+2013-05-08 05:06:20	<--	yedi (~yedi@122.162.153.175) has quit (Read error: Connection reset by peer)
+2013-05-08 05:08:21	<--	sivy (~sivy@ip98-165-62-210.ph.ph.cox.net) has quit (Ping timeout: 268 seconds)
+2013-05-08 05:08:58	-->	servvs (~servvs@50.8.86.68) has joined #python-unregistered
+2013-05-08 05:09:17	-->	enmand (~enmand@sydnns0109w-142068181217.dhcp-dynamic.FibreOp.ns.bellaliant.net) has joined #python-unregistered
+2013-05-08 05:10:48	-->	yedi (~yedi@122.162.66.83) has joined #python-unregistered
+2013-05-08 05:13:52	-->	Legato (~Legato@c-76-105-83-6.hsd1.ga.comcast.net) has joined #python-unregistered
+2013-05-08 05:13:55	<--	enmand (~enmand@sydnns0109w-142068181217.dhcp-dynamic.FibreOp.ns.bellaliant.net) has quit (Client Quit)
+2013-05-08 05:15:23	<--	mastermnd (~mstrmnd@pool-72-64-96-235.dllstx.fios.verizon.net) has quit (Ping timeout: 276 seconds)
+2013-05-08 05:18:13	<--	hardas (~hardas@188.73.252.150) has quit (Quit: Bye)
+2013-05-08 05:18:51	<--	galaxywatcher (~galaxywat@pdpc/supporter/active/galaxywatcher) has quit (Quit: galaxywatcher)
+2013-05-08 05:19:05	-->	soulofpeace (~soulofpea@119.75.11.250) has joined #python-unregistered
+2013-05-08 05:19:12	<--	lstone (~lstone@209-6-205-128.c3-0.smr-ubr2.sbo-smr.ma.cable.rcn.com) has quit (Quit: lstone)
+2013-05-08 05:20:48	<--	ozzloy (~ozzloy@unaffiliated/ozzloy) has quit (Read error: Operation timed out)
+2013-05-08 05:21:36	-->	bkad (~bkad2@c-98-210-101-170.hsd1.ca.comcast.net) has joined #python-unregistered
+2013-05-08 05:21:59	<--	soulofpeace (~soulofpea@119.75.11.250) has left #python-unregistered
+2013-05-08 05:23:28	<--	rajath (~rajath@acad246233.wireless.uic.edu) has quit (Ping timeout: 258 seconds)
+2013-05-08 05:23:48	<--	kleinishere (~kleinishe@s229-73.resnet.ucla.edu) has quit (Remote host closed the connection)
+2013-05-08 05:24:13	<--	raadad_w1rk (~raadad@203-56-30-68.dyn.iinet.net.au) has quit (Ping timeout: 245 seconds)
+2013-05-08 05:25:26	-->	Ienpw_III (~quassel@CPE7cb21bc2d62d-CM7cb21bc2d62a.cpe.net.cable.rogers.com) has joined #python-unregistered
+2013-05-08 05:25:27	-->	__j__ (~j@c-67-190-167-67.hsd1.co.comcast.net) has joined #python-unregistered
+2013-05-08 05:26:15	-->	hwrd|work (~textual@unaffiliated/hwrdprkns) has joined #python-unregistered
+2013-05-08 05:26:16	<--	wildnux (~shekhar@ool-43526f2e.dyn.optonline.net) has quit (Quit: Konversation terminated!)
+2013-05-08 05:26:57	-->	innoying (~innoying@c-75-72-84-110.hsd1.mn.comcast.net) has joined #python-unregistered
+2013-05-08 05:27:38	-->	black_13 (42a78ee1@gateway/web/freenode/ip.66.167.142.225) has joined #python-unregistered
+2013-05-08 05:28:10	<--	emk (~emk@li438-226.members.linode.com) has quit (Disconnected by services)
+2013-05-08 05:28:55	-->	mastermnd (mastermnd@pool-72-64-96-235.dllstx.fios.verizon.net) has joined #python-unregistered
+2013-05-08 05:29:36	<--	jamick (~jamick@unaffiliated/jamick) has quit (Ping timeout: 264 seconds)
+2013-05-08 05:30:17	-->	whist (~whist@c-98-232-204-76.hsd1.or.comcast.net) has joined #python-unregistered
+2013-05-08 05:31:34	-->	Wolfram74 (~Wolfram74@97-127-184-27.cdrr.qwest.net) has joined #python-unregistered
+2013-05-08 05:32:55	<--	SeySayux (SeySayux@libsylph/developer/seysayux) has quit (Ping timeout: 264 seconds)
+2013-05-08 05:33:18	-->	harph (~harph@ip65-44-217-34.z217-44-65.customer.algx.net) has joined #python-unregistered
+2013-05-08 05:33:25	<--	Chiro (~chiro@151.67.18.171) has quit (Ping timeout: 248 seconds)
+2013-05-08 05:33:26	<--	Villadelfia (Villadelfi@unaffiliated/villadelfia) has quit (Ping timeout: 258 seconds)
+2013-05-08 05:34:39	<--	forbid (~ihasAIDS@bas1-newmarket85-3096617166.dsl.bell.ca) has quit (Quit: leaving)
+2013-05-08 05:35:18	-->	preds (~preds@c-69-181-194-117.hsd1.ca.comcast.net) has joined #python-unregistered
+2013-05-08 05:35:19	<--	yedi (~yedi@122.162.66.83) has quit (Ping timeout: 264 seconds)
+2013-05-08 05:35:23	-->	Villadelfia (Villadelfi@unaffiliated/villadelfia) has joined #python-unregistered
+2013-05-08 05:35:49	-->	jamick (~jamick@2605:6400:1:fed5:22:85e3:617:8fb0) has joined #python-unregistered
+2013-05-08 05:35:49	<--	jamick (~jamick@2605:6400:1:fed5:22:85e3:617:8fb0) has quit (Changing host)
+2013-05-08 05:35:49	-->	jamick (~jamick@unaffiliated/jamick) has joined #python-unregistered
+2013-05-08 05:36:23	-->	SeySayux (SeySayux@libsylph/developer/seysayux) has joined #python-unregistered
+2013-05-08 05:36:52	-->	yedi (~yedi@122.162.52.49) has joined #python-unregistered
+2013-05-08 05:37:30	<--	tonic1 (~Adium@li389-19.members.linode.com) has left #python-unregistered
+2013-05-08 05:37:43	<--	estebistec (~estebiste@72.133.228.205) has quit (Remote host closed the connection)
+2013-05-08 05:39:03	-->	Chiro (~chiro@151.67.27.36) has joined #python-unregistered
+2013-05-08 05:40:05	-->	MrNaz (~Naz@CPE-137-147-42-239.lnse7.lon.bigpond.net.au) has joined #python-unregistered
+2013-05-08 05:40:38	-->	tensorpuddin (~tensorpud@99.102.66.208) has joined #python-unregistered
+2013-05-08 05:41:20	-->	syst3ml00t (~syst3ml00@24-180-60-182.dhcp.rvsd.ca.charter.com) has joined #python-unregistered
+2013-05-08 05:41:31	<--	black_13 (42a78ee1@gateway/web/freenode/ip.66.167.142.225) has quit (Quit: Page closed)
+2013-05-08 05:41:41	<--	yedi (~yedi@122.162.52.49) has quit (Read error: Connection reset by peer)
+2013-05-08 05:42:07	<--	h4x0rithink (~hid@154.Red-88-15-57.dynamicIP.rima-tde.net) has quit (Ping timeout: 245 seconds)
+2013-05-08 05:42:51	<--	napalmbrain (~napalmbra@ics179-104.icsincorporated.com) has quit (Ping timeout: 260 seconds)
+2013-05-08 05:43:23	<--	jovy88 (~weechat@c-71-56-86-92.hsd1.ga.comcast.net) has quit (Read error: Connection reset by peer)
+2013-05-08 05:44:09	--	tensorpuddin is now known as tensorpudding
+2013-05-08 05:44:10	<--	igorgue (~igorgue@c-174-61-2-0.hsd1.fl.comcast.net) has quit (Remote host closed the connection)
+2013-05-08 05:44:17	-->	jovy88 (~weechat@c-71-56-86-92.hsd1.ga.comcast.net) has joined #python-unregistered
+2013-05-08 05:44:20	-->	wildnux (~shekhar@ool-43526f2e.dyn.optonline.net) has joined #python-unregistered
+2013-05-08 05:46:38	-->	scharan (~scharan@169.235.25.47) has joined #python-unregistered
+2013-05-08 05:47:00	<--	outcastNeophyte (~outcastNe@unaffiliated/outcastneophyte) has quit (Quit: I'm out bishes!)
+2013-05-08 05:47:19	-->	fack_ (~fack@174-20-187-68.mpls.qwest.net) has joined #python-unregistered
+2013-05-08 05:48:54	<--	fack_ (~fack@174-20-187-68.mpls.qwest.net) has left #python-unregistered
+2013-05-08 05:49:47	-->	kil0byte_ (~kil0byte@203.82.37.90) has joined #python-unregistered
+2013-05-08 05:50:03	<--	rakl (~rakl@208-90-212-125.PUBLIC.monkeybrains.net) has quit (Quit: sleeping)
+2013-05-08 05:50:25	-->	ftsf (~ftsf@2407:7800:200:1011:3e97:eff:fe91:dc12) has joined #python-unregistered
+2013-05-08 05:51:01	<--	wildnux (~shekhar@ool-43526f2e.dyn.optonline.net) has quit (Ping timeout: 248 seconds)
+2013-05-08 05:51:47	<--	syst3ml00t (~syst3ml00@24-180-60-182.dhcp.rvsd.ca.charter.com) has quit (Remote host closed the connection)
+2013-05-08 05:52:14	-->	useragent (~colloquyu@grm-studby-128-39-149-158.studby.uia.no) has joined #python-unregistered
+2013-05-08 05:53:13	<--	Chiro (~chiro@151.67.27.36) has quit (Ping timeout: 252 seconds)
+2013-05-08 05:54:10	-->	kleinishere (~kleinishe@s229-73.resnet.ucla.edu) has joined #python-unregistered
+2013-05-08 05:55:27	<--	useragent (~colloquyu@grm-studby-128-39-149-158.studby.uia.no) has quit (Client Quit)
+2013-05-08 05:55:27	<--	InvalidPacket (~InvalidPa@72.189.240.120) has quit (Read error: Connection reset by peer)
+2013-05-08 05:55:54	-->	InvalidPacket (~InvalidPa@72.189.240.120) has joined #python-unregistered
+2013-05-08 05:55:57	-->	useragent (~colloquyu@grm-studby-128-39-149-158.studby.uia.no) has joined #python-unregistered
+2013-05-08 05:57:39	-->	igorgue (~igorgue@c-174-61-2-0.hsd1.fl.comcast.net) has joined #python-unregistered
+2013-05-08 05:58:48	<--	kil0byte_ (~kil0byte@203.82.37.90) has quit (Ping timeout: 245 seconds)
+2013-05-08 05:59:24	<--	useragent (~colloquyu@grm-studby-128-39-149-158.studby.uia.no) has quit (Client Quit)
+2013-05-08 05:59:33	-->	etherael (~eric@node-60w.pool-101-108.dynamic.totbb.net) has joined #python-unregistered
+2013-05-08 05:59:53	-->	useragent (~colloquyu@grm-studby-128-39-149-158.studby.uia.no) has joined #python-unregistered
+2013-05-08 06:00:23	<--	etherael (~eric@node-60w.pool-101-108.dynamic.totbb.net) has left #python-unregistered
+2013-05-08 06:00:56	<--	howlymowly (~quassel@euler.fb12.tu-berlin.de) has quit (Remote host closed the connection)
+2013-05-08 06:01:11	<--	useragent (~colloquyu@grm-studby-128-39-149-158.studby.uia.no) has quit (Client Quit)
+2013-05-08 06:01:45	-->	useragent (~colloquyu@grm-studby-128-39-149-158.studby.uia.no) has joined #python-unregistered
+2013-05-08 06:02:40	<--	asksol (asksol@2a01:7e00::f03c:91ff:fedf:af30) has quit (Excess Flood)
+2013-05-08 06:02:47	-->	asksol (asksol@2a01:7e00::f03c:91ff:fedf:af30) has joined #python-unregistered
+2013-05-08 06:03:24	-->	yedi (~yedi@122.162.64.47) has joined #python-unregistered
+2013-05-08 06:04:07	-->	e11bits (~e11bits@koln-5d813dbd.pool.mediaWays.net) has joined #python-unregistered
+2013-05-08 06:04:31	-->	dotpot (~dotpot@88-119-150-24.static.zebra.lt) has joined #python-unregistered
+2013-05-08 06:07:01	-->	jasonsmr (~Administr@c-71-238-115-150.hsd1.mi.comcast.net) has joined #python-unregistered
+2013-05-08 06:07:41	-->	mfrost50 (~mfrost503@cpe-173-88-206-166.neo.res.rr.com) has joined #python-unregistered
+2013-05-08 06:07:57	<--	Saby (~Saby@unaffiliated/saby) has quit (Ping timeout: 245 seconds)
+2013-05-08 06:08:00	<--	innoying (~innoying@c-75-72-84-110.hsd1.mn.comcast.net) has quit (Quit: Computer has gone to sleep.)
+2013-05-08 06:08:03	<--	yedi (~yedi@122.162.64.47) has quit (Ping timeout: 260 seconds)
+2013-05-08 06:08:29	-->	raadad_w1rk (~raadad@203-56-30-68.dyn.iinet.net.au) has joined #python-unregistered
+2013-05-08 06:08:42	-->	Saby (~Saby@unaffiliated/saby) has joined #python-unregistered
+2013-05-08 06:08:47	<--	JoeJ_ (~quassel@cpe-174-097-226-098.nc.res.rr.com) has quit (Ping timeout: 268 seconds)
+2013-05-08 06:09:03	-->	chandankumar (~chandanku@223.180.135.207) has joined #python-unregistered
+2013-05-08 06:09:28	<--	useragent (~colloquyu@grm-studby-128-39-149-158.studby.uia.no) has quit (Quit: Colloquy for iPhone - http://colloquy.mobi)
+2013-05-08 06:09:33	<--	scharan (~scharan@169.235.25.47) has quit (Quit: WeeChat 0.3.7)
+2013-05-08 06:10:04	-->	mariano_ (~mariano@190.188.77.82) has joined #python-unregistered
+2013-05-08 06:10:09	-->	useragent (~colloquyu@grm-studby-128-39-149-158.studby.uia.no) has joined #python-unregistered
+2013-05-08 06:10:14	<--	useragent (~colloquyu@grm-studby-128-39-149-158.studby.uia.no) has quit (Remote host closed the connection)
+2013-05-08 06:10:25	<--	mariano_ (~mariano@190.188.77.82) has quit (Client Quit)
+2013-05-08 06:10:48	<--	Wolfram74 (~Wolfram74@97-127-184-27.cdrr.qwest.net) has quit (Quit: Leaving...)

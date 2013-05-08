@@ -182,6 +182,10 @@ export NODE_PATH="/usr/local/lib/node_modules"
 #
 export PATH="${PATH}:${HOME}/.cabal/bin"
 
+# Coffee
+#
+export CONTRACTS_COFFEE_ENABLED=1
+
 # Perl (CPAN) .............................................................
 #
 export PATH="${PATH}:/usr/bin/core_perl"

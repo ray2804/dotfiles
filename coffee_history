@@ -1,0 +1,1260 @@
+zx = 'a'
+x = []
+x = ['a', 'b', 1, 2, {a,b}]
+x = ['a', 'b', 1, 2, {a: 'b'}]
+coll = [1,2,3,{a: 1, b: 'test'}, 'aa']
+console.log typeof key for key in coll
+get = (attr) -> (obj) -> obj[attr]
+get({a: 1, b: 3})
+get(2)
+console.log get({a: 1, b: 3})
+console.log = (msg)-> $('body').append "<p>#{msg}</p>"
+console.log 'hey'
+a = { 'foo': 'bar', 'baz': 'bat' }
+b = { 'foo': 'quux' }
+for prop in a
+  if prop in b
+    continue
+    b[prop] = a[prop]
+displayName = ({ name, age } = { name: 'Unknown', age: 0 }) ->
+  console.log "#{name}, #{age} year(s) old"
+displayName = ({ name, age } = { name: 'Unknown', age: 0 }) ->
+  console.log "#{name}, #{age} year(s) old"
+displayName = ({ name, age } = { name: 'Unknown', age: 0 }) ->＀  console.log "#{name}, #{age} year(s) old"＀
+displayName name: 'Foo', age: 42
+displayName()
+docpad = require 'docpad'
+Form = new Backbone.Model
+{backbone} = require 'Backbone'
+queryEngine = require('query-engine')
+Backbone = queryEngine.Backbone
+docpad = require 'docpad'
+queryEngine = require 'query-engine'
+Backbone = queryEngine.Backbone
+console.log docpad
+class Form extends Backbone.Model
+dp = require 'docpad'
+m = require 'munge'
+munge.munge 'spacemonkey@moon.com'
+m.munge 'spacemonkey@moon.com'
+console.log m.munge 'spacemonkey@moon.com', {}
+m = require 'munge'
+console.log m.munge 'spacemonkey@moon.com', {}
+munge = require 'munge'
+console.log(munge('spacemonkey@moon.com'))
+munge = require 'munge'
+munge('rob@testmehplugins.net')
+regex = ///(?:action=)(?:\"|\'|)((?:http|https):\/\/[\w-]+(?:\.[\w-]+)+(?:[\w.,@?^=%&amp;:\/~+\#-]*[\w@?^=%&amp;\/~+\#-])?)(?:\"|\'|)///gi
+＀
+regex = /(?:action=)(?:\"|\'|)((?:http|https):\/\/[\w-]+(?:\.[\w-]+)+(?:[\w.,@?^=%&amp;:\/~+\#-]*[\w@?^=%&amp;\/~+\#-])?)(?:\"|\'|)/gi
+content = " <FORM action="http://somesite.com/prog/adduser" method="post">"
+    <P>
+    First name: <INPUT type="text" name="firstname"><BR>
+    Last name: <INPUT type="text" name="lastname"><BR>
+    email: <INPUT type="text" name="email"><BR>
+    <INPUT type="radio" name="sex" value="Male"> Male<BR>
+    <INPUT type="radio" name="sex" value="Female"> Female<BR>
+    <INPUT type="submit" value="Send"> <INPUT type="reset">
+    </P>
+content = " <FORM action="http://somesite.com/prog/adduser" method="post">"
+content = "<FORM action="http://somesite.com/prog/adduser" method="post">"
+content = "<FORM action=\"http://somesite.com/prog/adduser\" method=\"post\">"
+result = regex.exec(content)
+x = new Regexp(//)
+for x in y
+for x in []
+console.log x for x in []
+console.log x for x in null
+console.log x for x in 0
+console.log x for x in []
+xx = (x for x in [])
+console.log xx[1]
+console.log xx[5]
+console.log x for x in null
+x = "hallo en een beetje <form name="abcd" action="http://www.mijnformapi.com/file.php?h=fuck" id="meh"> nog wat"
+x = "hallo en een beetje <form name=\"abcd\" action="http://www.mijnformapi.com/file.php?h=fuck" id="meh"> nog wat"
+x = "hallo en een beetje <form name=\"abcd\" action=\"http://www.mijnformapi.com/file.php?h=fuck\" id=\"meh\"> nog wat"
+r = /(?:<form.*action=")(.*)(?:")/gi
+result = x.match(r)
+r = /(?:action=")(.*)(?:")/gi
+result = x.match(r)
+x = "hallo en een beetje <form name='abcd' action='http://www.mijnformapi.com/file.php?h=fuck' id=\"meh\"> nog wat"
+result = x.match(r)
+r = /(?:action=("|'|))(.*)(?:("|'|))/gi
+result = x.match(r)
+x = "hallo en een beetje <form name='abcd' action='http://www.mijnformapi.com/file.php?h=fuck' id='meh'> nog wat"
+result = x.match(r)
+x = "hallo en een beetje <form name='abcd' action='http://www.mijnformapi.com/file.php?h=fuck' id='meh'> nog wat"
+r = /action=(?:"|'|)(.*)(?:"|'|)/gi
+result = x.match(r)
+r = /[action=](?:"|'|)(.*)(?:"|'|)/gi
+result = x.match(r)
+x = "hallo en een beetje <form name='abcd' action='http://www.mijnformapi.com/file.php?h=fuck' id='meh'> nog wat"
+r = /action=(?:\"|\'|)(.*)(?:\"|\'|)/gi
+result = x.match(r)
+result = r.exec(x)
+Apricot = require 'apricot'
+Apricot.parse "<p id='test'>An HTML Fragment</p>", (err,doc) -> console.log doc
+Apricot.Apricot.parse "<p id='test'>An HTML Fragment</p>", (err,doc) -> console.log doc
+{Apricot} = require 'apricot'
+Apricot.parse "<p>Nssss</p>", (err,doc) -> console.log doc
+Chimera = require('chimera').Chimera
+put = require("put-selector")
+put.forDocument("<html><head><title>Hello</title></head><body><p>Helloooo</p></body></html>")
+put("div.test").toString()
+put("p")
+cheerio = require 'cheerio'
+$ = cheerio.load("<form action='http://www.mail.com/file.asp?q=noo&p=fk' method='post'><label for='me'><input id='me' type='text'>hhehehe</input></form>")
+$('form').attr('action')
+$ = require('cheerio').load('<p>hello</p>')
+x = "hello    world     this      is            fun"
+x.replace(/\s+/g, " ")
+ omschrijving =      "
+            Bij Tredius hebben we de behoefte om het  MKB landschap te
+            veranderen: Vrijheid, Onafhankelijkheid en  Zelfstandigheid,
+            voor iedere ondernemer.
+ omschrijving =      "
+            Bij Tredius hebben we de behoefte om het  MKB landschap te
+            veranderen: Vrijheid, Onafhankelijkheid en  Zelfstandigheid,
+            voor iedere ondernemer.
+            ".replace(/\s+/g, " ")
+ omschrijving =      "＀            Bij Tredius hebben we de behoefte om het  MKB landschap te＀            veranderen: Vrijheid, Onafhankelijkheid en  Zelfstandigheid,＀            voor iedere ondernemer.＀            ".replace(/\s+/g, " ")＀
+x = "
+                //fonts.googleapis.com/css?family=Dosis:400,500,600
+                |Open+Sans:400italic,600italic,700italic,400,600,700
+x = "
+                //fonts.googleapis.com/css?family=Dosis:400,500,600
+                |Open+Sans:400italic,600italic,700italic,400,600,700
+                "
+x = "＀                //fonts.googleapis.com/css?family=Dosis:400,500,600＀                |Open+Sans:400italic,600italic,700italic,400,600,700＀                "＀
+x.trim
+x.trim()
+x.trim().replace(/\s+/g, '')
+x.replace(/\s+/g, '')
+x
+cc = require 'coffeecup'
+li ->
+console.log cc.render 'li ->'
+console.log cc.render 'li name: 'hey', class: 'foo bar', 'this', ->'
+console.log cc.render "li name: 'hey', class: 'foo bar', 'this', ->"
+console.log cc.render "li name: 'hey', class: 'foo bar', 'them bastards', ->"
+dp = require 'docpad'
+dpcfg = {}
+dp = require('docpad').createInstance dpcfg, (err) -> if err return console.log err.stack
+dp = require('docpad').createInstance dpcfg, (err) -> if err return console.log err.stack＀
+dp = require('docpad').createInstance dpcfg, (err) -> return console.log err.stack if err
+cheerio = require 'cheerio'
+cheerio = require 'modules/node_modules/cheerio'
+cheerio = require 'modules/node_modules/cheerio/'
+cheerio = require 'modules/node_modules/cheerio/index.js'
+cc = require 'coffeecup'
+console.log cc.render -> h1 'helloo'
+cc.render -> h1 'helloo'
+.help
+cc = require 'coffeecup'
+yay = require 'cheerio'
+cc = require 'coffeecup'
+request = require 'request'
+domain = 'http://maxogden.com/scraping-with-node.html'
+gotHTML = (err, resp, html) ->
+  return console.error(err) if err
+  parsedHTML = $.load(html)
+gotHTML = (err, resp, html) ->＀  return console.error(err) if err＀  parsedHTML = $.load(html)＀
+$ = require 'cheerio'
+request domain, gotHTML
+domain = 'http://maxogden.com/scraping-with-node.html'
+request domain, gotHTML
+domain = 'http://maxogden.com/'
+request domain, gotHTML
+console.log $.html()
+console.log $
+tp = require 'toml-node'
+tp = require 'toml'
+fs = require 'fs'
+fs.createReadStream('x.toml').pipe(tp.createStream()).on 'data', (results) ->
+  console.log results
+fs.createReadStream('x.toml').pipe(tp.createStream()).on 'data', (results) ->＀  console.log results＀
+program = require 'commander'
+program = require 'commodore'
+program
+  .version '0.0.1'
+    .option('-p, --peppers', 'Add peppers')
+  .option('-P, --pineapple', 'Add pineapple')
+  .option('-b, --bbq', 'Add bbq sauce')
+  .option('-c, --cheese [type]', 'Add the specified type of cheese [marble]', 'marble')
+  .option('-b, --bbq', 'Add bbq sauce')
+program＀  .version '0.0.1'＀    .option('-p, --peppers', 'Add peppers')＀  .option('-P, --pineapple', 'Add pineapple')＀  .option('-b, --bbq', 'Add bbq sauce')＀  .option('-c, --cheese [type]', 'Add the specified type of cheese [marble]', 'marble')＀  .option('-b, --bbq', 'Add bbq sauce')＀
+program
+  .version '0.0.1'
+program.version('0.0.1')
+program = require 'commodore'
+program.version('0.0.1').option('-p, --peppers', 'Add pepper')
+cc = require 'coffeecup'
+helpers = require 'coffeecup-helpers'
+template = ->
+  form ->
+    ul ->
+      li -> textField 'name', class: 'small'
+cc.render template, hardcode: helpers
+template = ->＀  form ->＀    ul ->＀      li -> textField 'name', class: 'small'＀cc.render template, hardcode: helpers＀
+  form ->
+    ul ->
+      li -> textField 'name', class: 'small', pattern: "[A-Za-z0-9]{2,19}"
+  form ->＀    ul ->＀      li -> textField 'name', class: 'small', pattern: "[A-Za-z0-9]{2,19}"＀
+template = ->
+  form ->
+    ul ->
+      li -> textField 'name', class: 'small', pattern: "[A-Za-z0-9]{2,19}"
+cc.render template, hardcode: helpers
+template = ->＀  form ->＀    ul ->＀      li -> textField 'name', class: 'small', pattern: "[A-Za-z0-9]{2,19}"＀cc.render template, hardcode: helpers＀
+j = require 'joe'
+r = require 'joe-reporter-console'
+forms = require("forms")
+fields = forms.fields
+validators = forms.validators
+reg_form = forms.create(
+  username: fields.string(required: true)
+  password: fields.password(required: true)
+  confirm: fields.password(
+    required: true
+    validators: [validators.matchField("password")]
+  )
+  email: fields.email()
+)
+forms = require("forms")＀fields = forms.fields＀validators = forms.validators＀reg_form = forms.create(＀  username: fields.string(required: true)＀  password: fields.password(required: true)＀  confirm: fields.password(＀    required: true＀    validators: [validators.matchField("password")]＀  )＀  email: fields.email()＀)＀
+reg_form.toHTML()
+#jslint node: true 
+"use strict"
+http = require("http")
+util = require("util")
+fs = require("fs")
+forms = require("../lib/forms")
+jsontemplate = require("./json-template")
+parse = require("url").parse
+fields = forms.fields
+validators = forms.validators
+widgets = forms.widgets
+# template for the example page
+template = jsontemplate.Template(fs.readFileSync(__dirname + "/page.jsont").toString())
+inputWithOptionalAttributes = forms.widgets.text(
+  placeholder: "Where do you \"work\"?"
+  "data-toggle": "focus"
+)
+form = forms.create(
+  name: fields.string(required: true)
+  email: fields.email(
+    required: true
+    label: "Email Address"
+  )
+  website: fields.url()
+  password: fields.password(required: true)
+  password_confirm: fields.password(
+    required: true
+    validators: [validators.matchField("password")]
+  )
+  options: fields.string(
+    choices:
+      one: "option one"
+      two: "option two"
+      three: "option three"
+    widget: widgets.select()
+    validators: [(form, field, callback) ->
+      if field.data is "two"
+        callback "two?! are you crazy?!"
+      else
+        callback()
+    ]
+  )
+  more_options: fields.array(
+    choices:
+      one: "item 1"
+      two: "item 2"
+      three: "item 3"
+    widget: widgets.multipleCheckbox()
+  )
+  even_more: fields.string(
+    choices:
+      one: "item 1"
+      two: "item 2"
+      three: "item 3"
+    widget: widgets.multipleRadio()
+  )
+  and_more: fields.array(
+    choices:
+      one: "item 1"
+      two: "item 2"
+      three: "item 3"
+    widget: widgets.multipleSelect()
+  )
+  notes: fields.string(widget: widgets.textarea(rows: 6))
+  spam_me: fields.boolean()
+)
+#jslint node: true ＀"use strict"＀http = require("http")＀util = require("util")＀fs = require("fs")＀forms = require("../lib/forms")＀jsontemplate = require("./json-template")＀parse = require("url").parse＀fields = forms.fields＀validators = forms.validators＀widgets = forms.widgets＀＀# template for the example page＀template = jsontemplate.Template(fs.readFileSync(__dirname + "/page.jsont").toString())＀inputWithOptionalAttributes = forms.widgets.text(＀  placeholder: "Where do you \"work\"?"＀  "data-toggle": "focus"＀)＀form = forms.create(＀  name: fields.string(required: true)＀  email: fields.email(＀    required: true＀    label: "Email Address"＀  )＀  website: fields.url()＀  password: fields.password(required: true)＀  password_confirm: fields.password(＀    required: true＀    validators: [validators.matchField("password")]＀  )＀  options: fields.string(＀    choices:＀      one: "option one"＀      two: "option two"＀      three: "option three"＀＀    widget: widgets.select()＀    validators: [(form, field, callback) ->＀      if field.data is "two"＀        callback "two?! are you crazy?!"＀      else＀        callback()＀    ]＀  )＀  more_options: fields.array(＀    choices:＀      one: "item 1"＀      two: "item 2"＀      three: "item 3"＀＀    widget: widgets.multipleCheckbox()＀  )＀  even_more: fields.string(＀    choices:＀      one: "item 1"＀      two: "item 2"＀      three: "item 3"＀＀    widget: widgets.multipleRadio()＀  )＀  and_more: fields.array(＀    choices:＀      one: "item 1"＀      two: "item 2"＀      three: "item 3"＀＀    widget: widgets.multipleSelect()＀  )＀  notes: fields.string(widget: widgets.textarea(rows: 6))＀  spam_me: fields.boolean()＀)＀
+#jslint node: true 
+"use strict"
+http = require("http")
+util = require("util")
+fs = require("fs")
+forms = require("forms")
+jsontemplate = require("./json-template")
+parse = require("url").parse
+fields = forms.fields
+validators = forms.validators
+widgets = forms.widgets
+# template for the example page
+template = jsontemplate.Template(fs.readFileSync(__dirname + "/page.jsont").toString())
+inputWithOptionalAttributes = forms.widgets.text(
+  placeholder: "Where do you \"work\"?"
+  "data-toggle": "focus"
+)
+form = forms.create(
+  name: fields.string(required: true)
+  email: fields.email(
+    required: true
+    label: "Email Address"
+  )
+  website: fields.url()
+  password: fields.password(required: true)
+  password_confirm: fields.password(
+    required: true
+    validators: [validators.matchField("password")]
+  )
+  options: fields.string(
+    choices:
+      one: "option one"
+      two: "option two"
+      three: "option three"
+    widget: widgets.select()
+    validators: [(form, field, callback) ->
+      if field.data is "two"
+        callback "two?! are you crazy?!"
+      else
+        callback()
+    ]
+  )
+  more_options: fields.array(
+    choices:
+      one: "item 1"
+      two: "item 2"
+      three: "item 3"
+    widget: widgets.multipleCheckbox()
+  )
+  even_more: fields.string(
+    choices:
+      one: "item 1"
+      two: "item 2"
+      three: "item 3"
+    widget: widgets.multipleRadio()
+  )
+  and_more: fields.array(
+    choices:
+      one: "item 1"
+      two: "item 2"
+      three: "item 3"
+    widget: widgets.multipleSelect()
+  )
+  notes: fields.string(widget: widgets.textarea(rows: 6))
+  spam_me: fields.boolean()
+)
+#jslint node: true ＀"use strict"＀http = require("http")＀util = require("util")＀fs = require("fs")＀forms = require("forms")＀jsontemplate = require("./json-template")＀parse = require("url").parse＀fields = forms.fields＀validators = forms.validators＀widgets = forms.widgets＀＀# template for the example page＀template = jsontemplate.Template(fs.readFileSync(__dirname + "/page.jsont").toString())＀inputWithOptionalAttributes = forms.widgets.text(＀  placeholder: "Where do you \"work\"?"＀  "data-toggle": "focus"＀)＀form = forms.create(＀  name: fields.string(required: true)＀  email: fields.email(＀    required: true＀    label: "Email Address"＀  )＀  website: fields.url()＀  password: fields.password(required: true)＀  password_confirm: fields.password(＀    required: true＀    validators: [validators.matchField("password")]＀  )＀  options: fields.string(＀    choices:＀      one: "option one"＀      two: "option two"＀      three: "option three"＀＀    widget: widgets.select()＀    validators: [(form, field, callback) ->＀      if field.data is "two"＀        callback "two?! are you crazy?!"＀      else＀        callback()＀    ]＀  )＀  more_options: fields.array(＀    choices:＀      one: "item 1"＀      two: "item 2"＀      three: "item 3"＀＀    widget: widgets.multipleCheckbox()＀  )＀  even_more: fields.string(＀    choices:＀      one: "item 1"＀      two: "item 2"＀      three: "item 3"＀＀    widget: widgets.multipleRadio()＀  )＀  and_more: fields.array(＀    choices:＀      one: "item 1"＀      two: "item 2"＀      three: "item 3"＀＀    widget: widgets.multipleSelect()＀  )＀  notes: fields.string(widget: widgets.textarea(rows: 6))＀  spam_me: fields.boolean()＀)＀
+#jslint node: true 
+"use strict"
+http = require("http")
+util = require("util")
+fs = require("fs")
+forms = require("forms")
+jsontemplate = require("json-template")
+parse = require("url").parse
+fields = forms.fields
+validators = forms.validators
+widgets = forms.widgets
+# template for the example page
+template = jsontemplate.Template(fs.readFileSync(__dirname + "/page.jsont").toString())
+inputWithOptionalAttributes = forms.widgets.text(
+  placeholder: "Where do you \"work\"?"
+  "data-toggle": "focus"
+)
+form = forms.create(
+  name: fields.string(required: true)
+  email: fields.email(
+    required: true
+    label: "Email Address"
+  )
+  website: fields.url()
+  password: fields.password(required: true)
+  password_confirm: fields.password(
+    required: true
+    validators: [validators.matchField("password")]
+  )
+  options: fields.string(
+    choices:
+      one: "option one"
+      two: "option two"
+      three: "option three"
+    widget: widgets.select()
+    validators: [(form, field, callback) ->
+      if field.data is "two"
+        callback "two?! are you crazy?!"
+      else
+        callback()
+    ]
+  )
+  more_options: fields.array(
+    choices:
+      one: "item 1"
+      two: "item 2"
+      three: "item 3"
+    widget: widgets.multipleCheckbox()
+  )
+  even_more: fields.string(
+    choices:
+      one: "item 1"
+      two: "item 2"
+      three: "item 3"
+    widget: widgets.multipleRadio()
+  )
+  and_more: fields.array(
+    choices:
+      one: "item 1"
+      two: "item 2"
+      three: "item 3"
+    widget: widgets.multipleSelect()
+  )
+  notes: fields.string(widget: widgets.textarea(rows: 6))
+  spam_me: fields.boolean()
+)
+#jslint node: true 
+"use strict"
+http = require("http")
+util = require("util")
+fs = require("fs")
+forms = require("forms")
+jsontemplate = require("json-template")
+parse = require("url").parse
+fields = forms.fields
+validators = forms.validators
+widgets = forms.widgets
+# template for the example page
+template = jsontemplate.Template(fs.readFileSync(__dirname + "/page.jsont").toString())
+inputWithOptionalAttributes = forms.widgets.text(
+  placeholder: "Where do you \"work\"?"
+  "data-toggle": "focus"
+)
+form = forms.create(
+  name: fields.string(required: true)
+  email: fields.email(
+    required: true
+    label: "Email Address"
+  )
+  website: fields.url()
+  password: fields.password(required: true)
+  password_confirm: fields.password(
+    required: true
+    validators: [validators.matchField("password")]
+  )
+  options: fields.string(
+    choices:
+      one: "option one"
+      two: "option two"
+      three: "option three"
+    widget: widgets.select()
+    validators: [(form, field, callback) ->
+      if field.data is "two"
+        callback "two?! are you crazy?!"
+      else
+        callback()
+    ]
+  )
+  more_options: fields.array(
+    choices:
+      one: "item 1"
+      two: "item 2"
+      three: "item 3"
+    widget: widgets.multipleCheckbox()
+  )
+  even_more: fields.string(
+    choices:
+      one: "item 1"
+      two: "item 2"
+      three: "item 3"
+    widget: widgets.multipleRadio()
+  )
+  and_more: fields.array(
+    choices:
+      one: "item 1"
+      two: "item 2"
+      three: "item 3"
+    widget: widgets.multipleSelect()
+  )
+  notes: fields.string(widget: widgets.textarea(rows: 6))
+  spam_me: fields.boolean()
+)
+#jslint node: true ＀"use strict"＀http = require("http")＀util = require("util")＀fs = require("fs")＀forms = require("forms")＀jsontemplate = require("json-template")＀parse = require("url").parse＀fields = forms.fields＀validators = forms.validators＀widgets = forms.widgets＀＀# template for the example page＀template = jsontemplate.Template(fs.readFileSync(__dirname + "/page.jsont").toString())＀inputWithOptionalAttributes = forms.widgets.text(＀  placeholder: "Where do you \"work\"?"＀  "data-toggle": "focus"＀)＀form = forms.create(＀  name: fields.string(required: true)＀  email: fields.email(＀    required: true＀    label: "Email Address"＀  )＀  website: fields.url()＀  password: fields.password(required: true)＀  password_confirm: fields.password(＀    required: true＀    validators: [validators.matchField("password")]＀  )＀  options: fields.string(＀    choices:＀      one: "option one"＀      two: "option two"＀      three: "option three"＀＀    widget: widgets.select()＀    validators: [(form, field, callback) ->＀      if field.data is "two"＀        callback "two?! are you crazy?!"＀      else＀        callback()＀    ]＀  )＀  more_options: fields.array(＀    choices:＀      one: "item 1"＀      two: "item 2"＀      three: "item 3"＀＀    widget: widgets.multipleCheckbox()＀  )＀  even_more: fields.string(＀    choices:＀      one: "item 1"＀      two: "item 2"＀      three: "item 3"＀＀    widget: widgets.multipleRadio()＀  )＀  and_more: fields.array(＀    choices:＀      one: "item 1"＀      two: "item 2"＀      three: "item 3"＀＀    widget: widgets.multipleSelect()＀  )＀  notes: fields.string(widget: widgets.textarea(rows: 6))＀  spam_me: fields.boolean()＀)＀
+http = require 'http'
+req = new http.IncomingMessage()
+req.body = {field1: 'test'}
+req.method = 'POST'
+f.handle(req, {
+  success: (form) ->
+    test.equals(form.data.field1, 'test')
+f.handle(req, {＀  success: (form) ->＀    test.equals(form.data.field1, 'test')＀
+f.handle(req, {
+   console.log form.data.field1, 'test')
+})
+f.handle(req, {＀   console.log form.data.field1, 'test')＀})＀
+f.handle(req, {
+   console.log form.data.field1, 'test'
+)}
+f.handle(req, {＀   console.log form.data.field1, 'test'＀)}＀
+.clear
+log = (args...) -> console.log args...
+log http
+log f
+forms = require 'forms'
+http = require 'http;
+http = require 'http'
+f = forms.create field1: forms.fields.string()
+req = new http.IncomingMessage()
+req.body = {field1: 'test'}
+req.method = 'POST'
+f.handle req, {
+  success: (form) ->
+    test.equals form.data.field1, 'test'
+f.handle req, {＀  success: (form) ->＀    test.equals form.data.field1, 'test'＀
+f.handle req, {
+  success: (form) ->
+    console.log form.data.field1
+}
+f.handle req, {＀  success: (form) ->＀    console.log form.data.field1＀}＀
+frm = require 'forms'
+log = (args...) -> console.log args...
+log frm
+log frm.widgets
+log frm.widgets.text
+eval frm.widgets.text
+eval frm.widgets.text 'aa'
+frm.widgets.text 'aa'
+forms = require("forms")
+fields = forms.fields
+validators = forms.validators
+reg_form = forms.create(
+  username: fields.string(required: true)
+  password: fields.password(required: true)
+  confirm: fields.password(
+    required: true
+    validators: [validators.matchField("password")]
+  )
+  email: fields.email()
+)
+forms = require("forms")
+fields = forms.fields
+validators = forms.validators
+reg_form = forms.create(
+  username: fields.string(required: true)
+  password: fields.password(required: true)
+  confirm: fields.password(
+    required: true
+    validators: [validators.matchField("password")]
+  )
+  email: fields.email()
+)
+forms = require("forms")＀fields = forms.fields＀validators = forms.validators＀reg_form = forms.create(＀  username: fields.string(required: true)＀  password: fields.password(required: true)＀  confirm: fields.password(＀    required: true＀    validators: [validators.matchField("password")]＀  )＀  email: fields.email()＀)＀
+cc = require 'coffeecup'
+forms = require 'forms'
+fields = forms.fields
+validators = forms.validators
+reg_form = forms.create(
+  username: fields.string(required: true)
+  password: fields.password(required: true)
+  confirm: fields.password(
+    required: true
+    validators: [validators.matchField("password")]
+  )
+  email: fields.email()
+)
+fields = forms.fields＀validators = forms.validators＀reg_form = forms.create(＀  username: fields.string(required: true)＀  password: fields.password(required: true)＀  confirm: fields.password(＀    required: true＀    validators: [validators.matchField("password")]＀  )＀  email: fields.email()＀)＀
+f = forms.create(
+  username: fields.string(required: true).toHTML()
+)
+f = forms.create(＀  username: fields.string(required: true).toHTML()＀)＀
+f = forms.create(
+  username: fields.string(required: true)
+)
+f = forms.create(＀  username: fields.string(required: true)＀)＀
+f.toHTML(
+  frm for frm of f
+)
+f.toHTML(＀  frm for frm of f＀)＀
+ProgressBar = require("progress")
+bar = new ProgressBar(":bar",
+  total: 10
+)
+timer = setInterval(->
+  bar.tick()
+  if bar.complete
+    console.log "\ncomplete\n"
+    clearInterval timer
+, 100)
+ProgressBar = require("progress")＀bar = new ProgressBar(":bar",＀  total: 10＀)＀timer = setInterval(->＀  bar.tick()＀  if bar.complete＀    console.log "\ncomplete\n"＀    clearInterval timer＀, 100)＀
+ProgressBar = require("progress")
+bar = new ProgressBar(":bar",
+  total: 10
+)
+timer = setInterval(->
+  bar.tick()
+  if bar.complete
+    console.log "\ncomplete\n"
+    clearInterval timer
+, 100)
+ProgressBar = require("progress")＀bar = new ProgressBar(":bar",＀  total: 10＀)＀timer = setInterval(->＀  bar.tick()＀  if bar.complete＀    console.log "\ncomplete\n"＀    clearInterval timer＀, 100)＀
+cs = require 'coffee-script'
+cs.compile "./config/docpad.litcoffee"
+cs.compile ->
+cs.compile ->＀
+cs.compile "./config/docpad.litcoffee", ->
+cs.compile (err,doc) ->
+cs.compile (err,doc) ->＀
+cs.compile (err,doc) ->
+   console.log doc
+cs.compile (err,doc) ->＀   console.log doc＀
+require 'winston'
+require 'coffee-script'
+lazy: [1,2,3,4,{ test:
+                   one: 'abc'
+                   two: 123}]
+lazy: [1,2,3,4,{ test:＀＀lazy: [1,2,3,4,{ test:＀lazy: [1,2,3,4,{ test:＀                   one: 'abc'＀                   two: 123}]＀
+x = formulier: {txt: 'Sluit hier uw xxxxxxxxxxs af', btn: ['wissen', 'send'], fld: ['naam','tel','email','pcode','plaats','bevestig','knoppen'] }
+x = [1,2,3,4]
+for y in x by 2
+for x in [0...10] by 9
+    console.log x
+for x in [0...10] by 9＀    console.log x＀
+for x in [0...10]
+    console.log x
+for x in [0...10]＀    console.log x＀
+console.log x for x in [0...10] by 5
+console.log x for x in [0..10] by 5
+hash = { a: 'some', b: 'value' }
+log = console.log
+log hash[a]
+log hash['a']
+log hash['a']?
+log hash['b']?
+log hash['c']?
+veld = 'naam*'
+veld = 'a*'
+field = a.trim '*'
+field = veld.trim '*'
+log field
+field = veld.strip '*'
+field = veld.trim "*"
+field = veld.trim "\*"
+field = veld.replace "*", ''
+veld = veld.replace '*', ''
+hash = { a: 'aaa', b: 'bbb' }
+hash['a']
+hash['a']?
+~hash['a']?
+~hash['c']?
+log 'xx' if ~hash['c'] is true
+log 'xx' if ~hash['c'] is false
+log 'xx' if ~hash['a'] is true
+log 'xx' if ~hash['a'] is false
+a = "abc*"
+isreq = ~a.indexOf '*'
+isreq = ~a.indexOf 'a'
+isreq = ~a.indexOf '*'
+isreq = ~a.indexOf 'd'
+log 'xx' if hash['c']? isnt true
+log 'xx' if hash['c']? isnt false
+if hash['c']? isnt true return else log 'xxx'
+if hash['c']? isnt true return null else log 'xxx'
+return if hash['a'] isnt true
+return if hash['a']? isnt true
+klook = hash['a'] if hash['a']?
+klook = hash['a'] if hash['c']?
+fnA = (field) ->
+  hash = {a: 'aaa', b: 'bbb'}
+  return if hash[field]? isnt true
+fnA = (field) ->＀  hash = {a: 'aaa', b: 'bbb'}＀  return if hash[field]? isnt true＀
+fnA 'a'
+fnA 'c'
+fnA = (field) ->
+  hash = {a: 'aaa', b: 'bbb'}
+  return if hash[field]? isnt true
+  hash[field]
+fnA = (field) ->＀  hash = {a: 'aaa', b: 'bbb'}＀  return if hash[field]? isnt true＀  hash[field]＀
+fnA 'c'
+fnA 'a'
+x = "abcd"
+x[1]
+x[0]
+hash = {another: 'aaa', before: 'bbb'}
+xs = []
+xs.push k[0] for k of hash
+xs.push k for k of hash
+hash = {'another': 'aaa', 'before': 'bbb'}
+xs.push k[0] for k of hash
+xs.push k for k of hash
+xs.push v for k,v of hash
+hash
+key for key of hash
+key[0] for key of hash
+xs = key for key of hash
+xs
+xs = []
+xs.push key[0] for key of hash
+xs
+xs.uniq()
+_ = require 'lodash'
+veld = 'naam'
+do -> isRequired = -> (veld = veld.replace '*', '' if ~veld.indexOf "*"); 'true'
+isRequired
+isRequired()
+do -> isRequired = -> (veld = veld.replace '*', '' if ~veld.indexOf "*"); 'true'
+isRequired()
+isRequired = -> (veld = veld.replace '*', '' if ~veld.indexOf "*"); 'true'
+isRequired()
+isRequired = -> (if ~veld.indexOf "*" then (veld = veld.replace '*', ''; return 'true') else return 'false')
+isRequired()
+veld = 'naam*'
+isRequired()
+    (
+        isRequired = true
+        veld = veld.replace '*', ''
+        ) if ~veld.indexOf "*"
+(
+    isRequired = true
+)
+(＀    isRequired = true＀)＀
+cc = require 'coffeecup'
+tdata = ul -> li -> coffeescript -> $ -> alert 'foo'
+cc.render = ul -> li -> coffeescript -> $ -> alert 'foo'
+cc.render ul -> li -> coffeescript -> $ -> alert 'foo'
+cc.render (ul -> li -> coffeescript -> $ -> alert 'foo')
+tdata = (ul -> li -> coffeescript -> $ -> alert 'foo')
+cc.render -> ul -> li -> coffeescript -> $ -> alert 'foo'
+.help
+.cls
+cc.render -> ul -> li -> coffeescript -> $ -> alert 'foo'
+x = "a value"
+cc.render -> ul -> li -> coffeescript -> $ -> alert x
+cc.render -> ul -> li -> coffeescript (x) -> $ -> alert x
+cc.render => ul -> li -> coffeescript -> $ -> alert x
+cc.render => do (x) -> ul -> li -> coffeescript -> $ -> alert x
+cc.render (x) => do (x) -> ul -> li -> coffeescript -> $ -> alert x
+cc.render (x) => do => ul => li => coffeescript => $ -> alert x
+cc.render (x = 'a') => do (x) => ul => li => coffeescript => $ -> alert x
+cc.render (x = 'a') => console.log a
+cc.render (x = 'a') => console.log x
+cc.render (x = 'a') => do (x) -> ul -> li x
+cc.render (x = 'a') => do (x) -> ul -> li -> coffeescript -> $ -> alert x
+cc.render (x = 'a') => do (x) -> ul -> li -> coffeescript -> x
+cc.render (x = 'a') => do (x) -> ul -> li -> coffeescript => $ -> alert x
+cc.render (x = 'a') => do (x) -> ul -> li -> script "#{x}"
+cc.render (x = 'a') => do (x) -> ul -> li -> coffeescript "#{x}"
+cc.render (x = 'a') => do (x) -> ul -> li -> coffeescript -> "#{x}"
+cc.render (x = 'a') => do (x) -> ul -> li -> coffeescript "#{x}"
+cc.render (x = 'a') => do (x) -> ul -> li -> script -> "myvar = #{x}"
+cc.render (x = 'a') => do (x) -> ul -> li -> script "myvar = #{x};" ; coffeescript -> console.log myvar
+.cls
+x = "abcd"; require('coffeecup').render -> do (x) -> ul -> li -> p -> span "#{x}"
+x = "abcd"; require('coffeecup').render => do (x) -> ul -> li -> p -> span "#{x}"
+x = "abcd"; require('coffeecup').render (x) => do (x) -> ul -> li -> p -> span "#{x}"
+require('coffeecup').render (x = 'abcd') => do (x) -> ul -> li -> p -> span "#{x}"
+require('coffeecup').render (x = 'abcd') -> do (x) -> ul -> li -> p -> span "#{x}"
+global
+y = "dcba"; require('coffeecup').render (x = y) -> do (x) -> ul -> li -> p -> span "#{x}"
+y = "dcba"; require('coffeecup').render (x = global.y) -> do (x) -> ul -> li -> p -> span "#{x}"
+y = "dcba"; require('coffeecup').render (x = global.x) -> do (x) -> ul -> li -> p -> span "#{x}"
+y = "dcba"; require('coffeecup').render (x = @y) -> do (x) -> ul -> li -> p -> span "#{x}"
+y = "dcba"; require('coffeecup').render (x = @.y) -> do (x) -> ul -> li -> p -> span "#{x}"
+y = "dcba"; require('coffeecup').render -> do (@x) -> ul -> li -> p -> span "#{x}"
+console.log y
+console.log x
+log = console.log
+log global
+log @
+log root
+.cls
+log = console.log
+log root
+.cls
+log process
+log process.title
+log root.process.title
+log "Started #{process.title} version #{process.version}"
+log "Started program '#{process.title}' with version #{process.version}"
+process
+process.env
+.q
+.quit
+e = require 'express'
+console.log express()
+console.log e.express()
+console.log e
+dp = require 'docpad'
+dp.getConfig()
+dpCfg = {}
+dp.createInstance(dpCfg, (err, inst) ->
+  return console.log(err.stack) if err
+dp.createInstance(dpCfg, (err, inst) ->＀  return console.log(err.stack) if err＀
+  return console.log(err.stack)  if err
+  return console.log(err.stack)  if err＀
+dp.createInstance(dpCfg, (err, inst) ->
+  if (err) return console.log err.stack
+dp.createInstance(dpCfg, (err, inst) ->＀  if (err) return console.log err.stack＀
+dp.createInstance dpCfg, (err, inst) ->
+  if (err) return console.log err.stack
+dp.createInstance dpCfg, (err, inst) ->＀  if (err) return console.log err.stack＀
+dp.createInstance dpCfg, (err, inst) ->
+  if (err)  return console.log err.stack
+dp.createInstance dpCfg, (err, inst) ->＀  if (err)  return console.log err.stack＀
+docpadInstanceConfiguration = {}
+require("docpad").createInstance docpadInstanceConfiguration, (err, docpadInstance) ->
+  console.log err.stack  if err
+docpadInstanceConfiguration = {}＀require("docpad").createInstance docpadInstanceConfiguration, (err, docpadInstance) ->＀  console.log err.stack  if err＀＀＀
+dp = require 'docpad'
+dp.createInstance()
+dp = require 'docpad'
+dp.createInstance()
+func = (a,b) -> console.log a + b
+func 1, 2
+func 'hello ', 'world'
+func = (a,b) -> console.log a + b; console.log arguments
+func 'hello ', 'world'
+instanceof func
+func.instanceof
+func.instanceof()
+func.instanceof
+func.instance
+func 'hello ', 'world'
+func = (a,b) -> console.log a + b; console.log arguments; arguments
+func 'hello ', 'world'
+func = (a,b) -> console.log a + b; arguments
+func 'hello ', 'world'
+func.instanceof
+instanceof func
+Object.instanceof func
+C = ->
+D = ->
+o = new C()
+o instanceof C
+o instanceof D
+require 'nesh'
+process
+process.env
+process.env.TERM
+{exec,spawn} = require 'child_process'
+terminal = spawn 'xterm'
+terminal = spawn 'nesh -c'
+{exec,spawn} = require 'child_process'
+terminal = spawn 'xterm'
+terminal.spawn 'nesh'
+terminal = spawn 'xterm'
+terminal.spawn 'nesh'
+terminal.stdout 'nesh'
+terminal.stdout.on "data", (data) -> terminal.stdin.write "nesh -c"
+terminal.spawn 'nesh'
+spawn 'nesh'
+dp = require 'docpad'
+dp.createInstance()
+require('docpad').createInstance()
+{dp} = require('docpad').createInstance()
+cc = require 'coffeecup'
+console.log cc.render -> li 'hello'
+console.log cc.render -> 
+console.log li
+console.log cc.render -> ＀console.log li＀
+console.log cc.li
+console.log cc
+console.log cc.tags
+console.log cc.tags.input
+console.log cc.tags
+console.log cc.tags.indexOf 'input'
+console.log cc.tags[122]
+console.log cc.render -> li '.foo', bar: 'ba'
+console.log cc.render -> li '.foo', bar: 'ba', boo: 'b' if true
+console.log cc.render -> li '.foo', bar: 'ba', boo: 'b' if true is false
+console.log cc.render -> li '.foo', bar: 'ba', boo: 'b' if true is true
+console.log cc.render -> li '.foo', bar: 'ba'(, boo: 'b' if true is true)
+console.log cc.render -> li '.foo', bar: 'ba'(boo: 'b' if true is true)
+console.log cc.render -> li '.foo', bar: 'ba'({boo: 'b'} if true is true)
+console.log cc.render -> li '.foo', bar: 'ba' ({boo: 'b'} if true is true)
+console.log cc.render -> li '.foo', bar: 'ba' {boo: 'b'} if true is true
+console.log cc.render -> li '.foo', bar: 'ba' boo: 'b' if true is true
+console.log cc.render -> li '.foo', bar: 'ba' , boo: 'b' if true is true
+console.log cc.render -> li '.foo', bar: 'ba' , boo: 'b' if true is false
+console.log cc.render -> li '.foo', bar: 'ba' , (boo: 'b' if true is false else '')
+console.log cc.render -> li '.foo', bar: 'ba' , (if true is false {foo: 'bar' else '')
+console.log cc.render -> li '.foo', bar: 'ba' , (if true is false then {foo: 'bar'} else '')
+console.log cc.render -> li '.foo', bar: 'ba' , (if true then {foo: 'bar'} else '')
+console.log cc.render -> li '.foo', bar: 'ba'(if true then {foo: 'bar'} else '')
+console.log cc.render -> li '.foo', bar: 'ba'
+console.log cc.render -> li '.foo', bar: 'ba'(if true then {foo: 'bar'} else '')＀console.log cc.render -> li '.foo', bar: 'ba'＀
+console.log cc.render -> li '.foo', bar: 'ba'
+console.log cc.render -> li[id] = 'aaa'
+console.log cc.render -> obj = li ->; obj
+console.log cc.render -> obj = {}; obj[id] = 'aaa'
+console.log cc.render -> obj = {}; obj['id'] = 'aaa'
+console.log cc.render -> obj = {}; obj['id'] = 'aaa'; obj
+console.log cc.render -> obj = {}; obj['id'] = 'aaa'; obj['aaa']
+console.log cc.render -> console.log typeof li
+log = console.log
+x = ['a','b','c']
+y for y in x
+y + "\n" for y in x
+log y for y in x
+console.log y for y in x
+console.log z for y,z in x
+stylus = require 'stylus'
+nib = require 'nib'
+stylus = require 'stylus'
+console.log nib
+border-radius(top left 5px, bottom left 5px)
+stylus.render 
+stylus.render 'border-radius(top left 5px, bottom left 5px)'
+stylus.render border-radius(top left 5px, bottom left 5px)
+stylus.render -> "border-radius(top left 5px, bottom left 5px)"
+stylus.render
+for x of stylus.render
+for x of stylus.render()
+for x of stylus.render.apply "border-radius(top left 5px, bottom left 5px)"
+roots = require 'roots'
+roots = require 'roots-css'
+log = console.log
+log roots
+stylus = require 'stylus'
+compile = (str, path) -> return stylus(str).set('filename', path).use(roots())
+compile "translate: rotate(45deg)", /tmp
+compile "translate: rotate(45deg)", "/tmp"
+roots = require 'roots-css'
+log = console.log
+log roots
+log roots.prototype
+r = new roots
+r = new roots()
+roots = require 'roots-css'
+roots = require 'roots'
+require 'roots'
+require 'roots-css'
+require 'roots'
+＀＀
+stylus = require("../")
+str = require("fs").readFileSync(__dirname + "/test.styl", "utf8")
+stylus(str).set("filename", __dirname + "/test.styl").import("mixins/vendor").render (err, css) ->
+  throw err  if err
+  console.log css
+stylus = require("../")＀str = require("fs").readFileSync(__dirname + "/test.styl", "utf8")＀stylus(str).set("filename", __dirname + "/test.styl").import("mixins/vendor").render (err, css) ->＀  throw err  if err＀  console.log css＀
+stylus = require("stylus")
+str = require("fs").readFileSync(__dirname + "/test.styl", "utf8")
+stylus(str).set("filename", __dirname + "/test.styl").import("mixins/vendor").render (err, css) ->
+  console.log css
+stylus = require("stylus")＀str = require("fs").readFileSync(__dirname + "/test.styl", "utf8")＀stylus(str).set("filename", __dirname + "/test.styl").import("mixins/vendor").render (err, css) ->＀  console.log css＀
+console.log __dirname
+log = console.log
+.cls
+log @
+log root
+log node
+log env
+log process.env
+log process
+stylpath = "./site/documenten/stijlen/"
+str = require("fs").readFileSync(stylpath + "kleurenschemas.styl", "utf8")
+stylus(str).set("filename",stylpath + "algemeen.styl").import("roots-css").render (err, css) ->
+  console.log css
+str = require("fs").readFileSync(stylpath + "kleurenschemas.styl", "utf8")＀stylus(str).set("filename",stylpath + "algemeen.styl").import("roots-css").render (err, css) ->＀  console.log css＀
+str = require("fs").readFileSync(stylpath + "roots-css/buttons.styl", "utf8")
+stylus(str).set("filename",stylpath + "algemeen.styl").import("roots-css").render (err, css) ->
+  console.log css
+str = require("fs").readFileSync(stylpath + "roots-css/buttons.styl", "utf8")＀stylus(str).set("filename",stylpath + "algemeen.styl").import("roots-css").render (err, css) ->＀  console.log css＀
+stylus = require 'stylus'
+stylus.render
+stylus.render ""
+stylus.render ->
+stylus.render "box-shadow(5px)"
+{parser} = require('stylus').Parser
+parser
+parser "aa"
+parser -> ""
+stylus.render "box-shadow(5px)", (err, cb) -> process.exit 1 if err; console.log cb
+stylus.render "not a or b", (err, cb) -> process.exit 1 if err; console.log cb
+stylus = require 'stylus'
+stylus("not a or b").render (err,css) -> console.log css
+stylus("box-shadow(5px)").render (err,css) -> console.log css
+stylus("box-shadow(5px)").render((err,css) -> console.log css)
+stylus("box-shadow(5px)").render((err,css) ->)
+stylus("box-shadow(5px)").render (err,css) ->
+stylus("body { margin 0 }").render (err,css) ->
+stylus("body").render (err,css) ->
+{stylus} = require 'stylus'
+stylus("body { margin 0 }").render (err,css) ->
+stylus
+stylus.render (err, css) -> 
+stylus.set 's'
+stylus = require 'stylus'
+stylus.set 's'
+stylus "body {}"
+stylus "box-shadow(5px);"
+stylus = require 'stylus'
+stylus "box-shadow(5px);"
+stylus(str).render (err,css) -> console.log css
+stylus(stylus.options.str).render (err,css) -> console.log css
+options
+stylus.options
+render = new Stylus()
+opts = stylus "box-shadown(5px)"
+opts.str
+stylus(opts.str).render (err,css) -> console.log css
+opts = stylus "box-shadow(5px)"
+stylus(opts.str).render (err,css) -> console.log css
+stylus(opts.str).set('filename', 'trial.css').render (err,css) -> console.log css
+toml = require 'toml'
+toml.parse "[options]"
+toml.parse """[options]
+man="Cry baby"
+girl="Hot!"
+"""
+toml.parse """[options]＀man="Cry baby"＀girl="Hot!"＀"""＀
+toml.parse "[options]"
+toml = require 'toml'
+console.log toml
+console.log toml.parse ""
+console.log toml.parse "[options]"
+cson = require 'cson'
+{cson} = require 'cson'
+cson = require 'cson'
+console.log process.env
+docpad = require 'docpad'
+dp = docpad.createInstance()
+process.env
+bwr = require 'bower'
+require 'cson'
+cs = require 'coffee-script'
+litstr = """
+# Hello world
+This is a nice thing going here
+    console.log "output is here"
+Bye now...
+"""
+litstr = """＀# Hello world＀＀This is a nice thing going here＀＀    console.log "output is here"＀＀Bye now...＀"""＀
+cs = require 'coffee-script'
+litstr = """＀# Hello world＀＀This is a nice thing going here＀＀    console.log "output is here"＀＀Bye now...＀"""＀
+console.log cs.run
+console.log item for item in cs.run
+console.log item for item of cs.run
+console.log item for item in cs.run
+console.log v for k, v of cs
+console.log v for k, v of cs.run
+console.log v for k, v of cs.compile
+cs.helpers.invertLiterate strlit
+cs.helpers.invertLiterate litstr
+cs = require 'coffee-script'
+litstr = """＀# Hello world＀＀This is a nice thing going here＀＀    console.log "output is here"＀＀Bye now...＀"""＀
+cs.helpers.invertLiterate litstr
+cs.compile cs.helpers.invertLiterate litstr
+cs.compile cs.helpers.invertLiterate( litstr )
+cc = require 'coffeecup'
+@
+root
+node
+process
+global
+exports
+export
+this
+x = new Something
+class Animal
+  price: 5
+  sell: (customer) ->
+animal = new Animal
+animal.sell(new Customer)
+docco = require 'docco'
+fs = require 'fs'
+doc = fs.readFileSync 'ast.litcoffee'
+console.log doc
+doc = fs.readFileSync 'ast.litcoffee', 'utf-8'
+console.log doc
+doc.underline
+console.log doc.underline
+console.log doc.underline()
+console.log doc.underline = true
+console.log doc
+console.log doc.indexOf "#{"
+doc = fs.readFileSync 'ast.litcoffee', 'utf-8'
+console.log doc.indexOf "\#{"
+console.log doc.indexOf "\#{*\}"
+console.log doc.indexOf "\#{*}"
+console.log doc.indexOf "\#{}"
+console.log doc.indexOf "\#{" "}"
+console.log doc.indexOf "\#{", "}"
+/(#{)(.+)(})/.test doc
+match = /(#{)(.+)(})/ig.exec doc
+match[3]
+match[2]
+cb = require 'clipboard'
+x11 = require 'x11'
+{Exposure} = x11.eventMask.Exposure
+{PointerMotion} = x11.eventMask.PointerMotion
+x11.createClient (err, display) ->
+  if not err
+    X = display.client
+    root = display.screen[0].root
+    wid = X.AllocID()
+    X.CreateWindow(
+        wid, root,
+        0, 0, 100, 100,
+        0, 0, 0, 0,
+        { eventMask: Exposure|PointerMotion }
+    )
+    X.MapWindow(wid)
+    gc = X.AllocId()
+    X.CreateGC(gc, wid)
+    X.on 'event', (ev) ->
+      X.PolyText8(wid,gc, 50, 50, ['Hello, Node.js']) if ev.type is 12
+    X.on 'error', (e) -> console.log e
+  else
+    console.log err
+x11.createClient (err, display) ->＀  if not err＀    X = display.client＀    root = display.screen[0].root＀    wid = X.AllocID()＀    X.CreateWindow(＀        wid, root,＀        0, 0, 100, 100,＀        0, 0, 0, 0,＀        { eventMask: Exposure|PointerMotion }＀    )＀    X.MapWindow(wid)＀    gc = X.AllocId()＀    X.CreateGC(gc, wid)＀    X.on 'event', (ev) ->＀      X.PolyText8(wid,gc, 50, 50, ['Hello, Node.js']) if ev.type is 12＀    X.on 'error', (e) -> console.log e＀  else＀    console.log err＀
+x11 = require 'x11'
+{Exposure} = x11.eventMask.Exposure
+{PointerMotion} = x11.eventMask.PointerMotion
+x11.createClient (err, display) ->
+  if not err
+    X = display.client
+    root = display.screen[0].root
+    wid = X.AllocID()
+    X.CreateWindow(
+        wid, root,
+        0, 0, 100, 100,
+        0, 0, 0, 0,
+        { eventMask: Exposure|PointerMotion }
+    )
+    X.MapWindow(wid)
+    gc = X.AllocId()
+    gc = X.AllocID()
+  X.CreateGC(gc, wid)
+    X.on 'event', (ev) ->
+      X.PolyText8(wid,gc, 50, 50, ['Hello, Node.js']) if ev.type is 12
+    X.on 'error', (e) -> console.log e
+  else
+    console.log err
+x11 = require 'x11'＀{Exposure} = x11.eventMask.Exposure＀{PointerMotion} = x11.eventMask.PointerMotion＀x11.createClient (err, display) ->＀  if not err＀    X = display.client＀    root = display.screen[0].root＀    wid = X.AllocID()＀    X.CreateWindow(＀        wid, root,＀        0, 0, 100, 100,＀        0, 0, 0, 0,＀        { eventMask: Exposure|PointerMotion }＀    )＀    X.MapWindow(wid)＀    gc = X.AllocId()＀    gc = X.AllocID()＀  X.CreateGC(gc, wid)＀    X.on 'event', (ev) ->＀      X.PolyText8(wid,gc, 50, 50, ['Hello, Node.js']) if ev.type is 12＀    X.on 'error', (e) -> console.log e＀  else＀    console.log err＀
+x11 = require 'x11'
+{Exposure} = x11.eventMask.Exposure
+{PointerMotion} = x11.eventMask.PointerMotion
+x11.createClient (err, display) ->
+  if not err
+    X = display.client
+    root = display.screen[0].root
+    wid = X.AllocID()
+    X.CreateWindow(
+        wid, root,
+        0, 0, 100, 100,
+        0, 0, 0, 0,
+        { eventMask: Exposure|PointerMotion }
+    )
+    X.MapWindow(wid)
+x11 = require 'x11'
+{Exposure} = x11.eventMask.Exposure
+{PointerMotion} = x11.eventMask.PointerMotion
+x11.createClient (err, display) ->
+  if not err
+    X = display.client
+    root = display.screen[0].root
+    wid = X.AllocID()
+    X.CreateWindow(
+        wid, root,
+        0, 0, 100, 100,
+        0, 0, 0, 0,
+        { eventMask: Exposure|PointerMotion }
+    )
+    X.MapWindow(wid)
+    gc = X.AllocID()
+    X.CreateGC(gc, wid)
+    X.on 'event', (ev) ->
+      if ev.type is 12
+        X.PolyText8(wid,gc, 50, 50, ['Hello, Node.js']) if ev.type is 12
+    X.on 'error', (e) -> console.log e
+x11 = require 'x11'＀{Exposure} = x11.eventMask.Exposure＀{PointerMotion} = x11.eventMask.PointerMotion＀x11.createClient (err, display) ->＀  if not err＀    X = display.client＀    root = display.screen[0].root＀    wid = X.AllocID()＀    X.CreateWindow(＀        wid, root,＀        0, 0, 100, 100,＀        0, 0, 0, 0,＀        { eventMask: Exposure|PointerMotion }＀    )＀    X.MapWindow(wid)＀    gc = X.AllocID()＀    X.CreateGC(gc, wid)＀    X.on 'event', (ev) ->＀      if ev.type is 12＀        X.PolyText8(wid,gc, 50, 50, ['Hello, Node.js']) if ev.type is 12＀    X.on 'error', (e) -> console.log e＀
+func = (args...) -> console.log args...
+func 'a', 1, null, 2, "Heeloo"
+func ['a', 1, null, 2, "Heeloo"]
+func {'a', 1, null, 2, "Heeloo"}
+func {'a', 1, b: null, 2, "Heeloo"}
+class Power; constructor: (properties...) -> console.log properties...
+new Power() name: 'a', age: 12
+new Power(name: 'a', age: 12)
+x = new Power(name: 'a', age: 12)
+x.name
+class Power; constructor: (@properties...) -> console.log properties...
+x = new Power(name: 'a', age: 12)
+x.name
+{x} = new Power(name: 'a', age: 12)
+class Power; constructor: (@properties...) -> console.log properties...; this.add: (a, b...) -> a + b
+class Power; constructor: (@properties...) -> console.log properties...
+class Someone
+  this.get: (a,b) -> a + b
+class Someone＀  this.get: (a,b) -> a + b＀
+this.get: (a,b) -> a + b
+this.get: () ->
+this.get = 'goo'
+this.get = -> 'boooo'
+get()
+class Something
+  func: -> [@a, @b...] = [1,2,3]
+class Something＀  func: -> [@a, @b...] = [1,2,3]＀
+(new Something).func()
+(new Something).func('a','b')
+(new Something('a', 'b')).func('a','b')
+(new Something('a', 'b')).func()
+(new Something('a', 'b'))
+new Something('a', 'b')
+class Thing
+Thing::get: -> 'foo'
+Thing:get: -> 'foo'
+(new Thing)
+(new Thing).get
+(new Thing).get()
+players = { 1: 'rob', 2: 'maria', 3: 'siem', 4: 'harry' }
+player = 'rob'
+console.log player if player in [players[2], players[3]]
+if player in [players[2], players[3]]
+  console.log player
+if player in [players[2], players[3]]＀  console.log player＀
+log = console.log; log num for num in [1..9]
+log num for num in [1..9] by 2
+func = (args...) -> log args.length if args?
+func 1,2,3
+func 'a','b','c','d', {e: [1,2,3]}
+func = (args...) -> log typeof item for item in args... when args?
+func = (args...) -> log typeof item for item in args when args?
+func 'a','b','c','d', {e: [1,2,3]}
+func 'a','b','c','d', [1,2,3]
+func = (args...) ->
+  if args?
+x :: (Num) -> Num
+module
+module.exports._builtinLibs
+console.log lib for lib in module.exports._builtinLibs
+cool = { name: 'gang', 'and' }
+cool = { gang, and }
+cool = { gang, 'and' }
+cool = { 'gang', 'and' }
+.cls
+cool = { 'gang', 'and' }
+module.exports cool
+module
+module.exports = cool
+boss = {'bruce', 'springsteen'}
+module.exports = boss
+cool = { 'gang', 'and' }
+boss += {'bruce', 'springsteen'}
+boss += , {'bruce', 'springsteen'}
+boss +=  {'bruce', 'springsteen'},
+boss = boss, {'bruce', 'springsteen'}
+boss = cool, {'bruce', 'springsteen'}
+cool = { 'gang', 'and' }
+boss = boss, {'bruce', 'springsteen'}
+.cls

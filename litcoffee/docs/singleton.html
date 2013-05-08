@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>singleton.litcoffee</title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" media="all" href="public/stylesheets/normalize.css" />
+  <link rel="stylesheet" media="all" href="docco.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="page">
+
+      <div class="header">
+        
+          <h1>singleton.litcoffee</h1>
+        
+
+        
+      </div>
+
+      
+        
+        <h2>Helpers</h2>
+
+        
+          <div class='highlight'><pre>log = console.log</pre></div>
+        
+      
+        
+        <h1>Singleton Pattern</h1>
+<h2>Problem</h2>
+<p>Many times you only want one, and only one, instance of a class. For example,
+you may only need one class that creates server resources and you want to
+ensure that the one object can control those resources. Beware, however,
+because the singleton pattern can be easily abused to mimic unwanted global
+variables.</p>
+<h2>Solution</h2>
+<p>The publicly available class only contains the method to get the one true
+instance. The instance is kept within the closure of that public object and is
+always returned.</p>
+<p>This is works because CoffeeScript allows you to define executable statements
+inside a class definition. However, because most CoffeeScript compiles into a
+IIFE wrapper you do not have to place the private class inside the class
+definition if this style suits you. The later might be useful when developing
+modular code such as found in CommonJS (Node.js) or Require.js (See the
+discussion for an example).</p>
+
+        
+          <div class='highlight'><pre><span class="class"><span class="keyword">class</span> <span class="title">SingletonA</span></span></pre></div>
+        
+      
+        
+        <p>You can add statements inside the class definition which helps establish
+private scope (due to closures) instance is defined as null to force correct
+scope.</p>
+
+        
+          <div class='highlight'><pre>    instance = <span class="literal">null</span></pre></div>
+        
+      
+        
+        <p>Create a private class that we can initialize however defined inside this scope
+to force the use of the singleton class.</p>
+
+        
+          <div class='highlight'><pre>    <span class="class"><span class="keyword">class</span> <span class="title">PrivateClass</span></span>
+
+        constructor: (<span class="property">@message</span>) -&gt;
+
+        echo: -&gt; <span class="property">@message</span></pre></div>
+        
+      
+        
+        <p>This is a static method used to either retrieve the instance or create a new
+one <code>?=</code>.</p>
+
+        
+          <div class='highlight'><pre>    <span class="property">@get</span>: (message) -&gt; instance ?= <span class="keyword">new</span> PrivateClass(message)
+
+a = Singleton.get <span class="string">"Hello A"</span>
+a.echo()</pre></div>
+        
+      
+        
+        <blockquote>
+<p>Result =&gt; &quot;Hello A&quot;</p>
+</blockquote>
+
+        
+          <div class='highlight'><pre>b = Singleton.get <span class="string">"Hello B"</span>
+b.echo()</pre></div>
+        
+      
+        
+        <blockquote>
+<p>Result =&gt; &quot;Hello A&quot;</p>
+</blockquote>
+
+        
+          <div class='highlight'><pre>Singleton.instance <span class="comment"># =&gt; undefined</span>
+
+a.instance <span class="comment"># =&gt; undefined</span>
+
+Singleton.PrivateClass <span class="comment"># =&gt; undefined</span></pre></div>
+        
+      
+        
+        <h3>Discussion</h3>
+<p>See in the above example how all instances are outputting from the same
+instance of the Singleton class. You can also see that the PrivateClass and
+instance variable are not accessible outside the Singleton class. In essance
+the Singleton class provides a static method get which returns only one
+instance of PrivateClass and only one. It also hides the PrivateClass from the
+world so that you can not create your own.</p>
+<p>The idea of hiding or making private the inner workings is preference.
+Especially since by default CoffeeScript wraps the compiled code inside it’s
+own IIFE (closure) allowing you to define classes without worry that it might
+be accessible from outside the file. In this example, note that I am using the
+idiomatic module export feature to emphasize the publicly accessible portion of
+the module. (See this discussion for further explanation on exporting to the
+global namespace).</p>
+
+        
+          <div class='highlight'><pre>root = exports ? <span class="keyword">this</span></pre></div>
+        
+      
+        
+        <p>Create a private class that we can initialize however defined inside the
+wrapper scope.</p>
+
+        
+          <div class='highlight'><pre><span class="class"><span class="keyword">class</span> <span class="title">ProtectedClass</span></span>
+
+    constructor: (<span class="property">@message</span>) -&gt;
+
+    echo: -&gt; <span class="property">@message</span></pre></div>
+        
+      
+        
+        <p>You can add statements inside the class definition which helps establish
+private scope (due to closures) instance is defined as null to force correct
+scope.</p>
+
+        
+          <div class='highlight'><pre><span class="class"><span class="keyword">class</span> <span class="title">SingletonB</span></span></pre></div>
+        
+      
+        
+        <p>This is a static method used to either retrieve the instance or create a new
+one.</p>
+
+        
+          <div class='highlight'><pre>    instance = <span class="literal">null</span>
+
+    <span class="property">@get</span>: (message) -&gt; instance ?= <span class="keyword">new</span> ProtectedClass(message)</pre></div>
+        
+      
+        
+        <h1>Export Singleton as a module</h1>
+
+        
+          <div class='highlight'><pre>    root.Singleton = Singleton</pre></div>
+        
+      
+        
+        <p>Note how incredibly simple coffeescript makes this design pattern. For
+reference and discussion on nice javascript implementations, check out
+Essential JavaScript Design Patterns For Beginners.</p>
+<p>A class/ prototype construction that holds some local wrapped instances of
+environment objects, be it node.js or browser client-side JavaScript</p>
+
+        
+          <div class='highlight'><pre><span class="class"><span class="keyword">class</span> <span class="title">Superstructuur</span></span>
+
+    constructor: (<span class="property">@global</span>   =   global
+                , <span class="property">@root</span>     =   root
+                , <span class="property">@process</span>  =   process
+                , <span class="property">@log</span>      =   console.log
+    ) -&gt;
+
+    isaWindow: -&gt; <span class="literal">false</span> <span class="keyword">if</span> <span class="keyword">not</span> window?
+    i18Locale: -&gt; <span class="property">@isaWindow</span> ? <span class="string">"Is a window from the browser"</span> : <span class="string">"Is not a window so Node.js"</span>
+
+    sayHello: (target) -&gt;
+        alert <span class="string">"Hello, <span class="subst">#{target}</span>!"</span>
+
+<span class="keyword">unless</span> root.tester
+    root.tester = <span class="keyword">new</span> Superstructuur()</pre></div>
+        
+      
+      <div class="fleur">h</div>
+    </div>
+  </div>
+</body>
+</html>
