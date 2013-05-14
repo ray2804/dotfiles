@@ -175,17 +175,52 @@
             {
                 "index": -1, 
                 "group": 2, 
-                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/staging/epilogue.styl"
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/staging/preamble.styl"
             }, 
             {
                 "index": -1, 
                 "group": 2, 
-                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/tables.styl"
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/staging/progressive.styl"
+            }, 
+            {
+                "index": 1, 
+                "group": 2, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/staging/index.styl"
             }, 
             {
                 "index": -1, 
                 "group": 2, 
-                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/nomenclature.styl"
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/index.styl"
+            }, 
+            {
+                "index": -1, 
+                "group": 2, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/README.md"
+            }, 
+            {
+                "index": -1, 
+                "group": 2, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/pie/PIE.htc"
+            }, 
+            {
+                "index": -1, 
+                "group": 2, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/pie/PIE_uncompressed.js"
+            }, 
+            {
+                "index": -1, 
+                "group": 2, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/pie/PIE_uncompressed.htc"
+            }, 
+            {
+                "index": -1, 
+                "group": 2, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/pie/PIE.php"
+            }, 
+            {
+                "index": 0, 
+                "group": 3, 
+                "filename": "/home/baal/customers/tredius/etc/huisstijl.litcoffee"
             }, 
             {
                 "index": 3, 
@@ -193,14 +228,29 @@
                 "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/staging/baseline.styl"
             }, 
             {
-                "index": -1, 
-                "group": 2, 
-                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/filesystem.styl"
-            }, 
-            {
                 "index": 2, 
                 "group": 2, 
                 "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/staging/compatibility.styl"
+            }, 
+            {
+                "index": 1, 
+                "group": 2, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/i18n/en_US.styl"
+            }, 
+            {
+                "index": 0, 
+                "group": 2, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/index.styl"
+            }, 
+            {
+                "index": -1, 
+                "group": 2, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/nomenclature.styl"
+            }, 
+            {
+                "index": -1, 
+                "group": 2, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/filesystem.styl"
             }, 
             {
                 "index": -1, 
@@ -218,29 +268,9 @@
                 "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/preamble.styl"
             }, 
             {
-                "index": 4, 
-                "group": 2, 
-                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/i18n/en_US.styl"
-            }, 
-            {
                 "index": -1, 
                 "group": 0, 
                 "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/typography/index.styl"
-            }, 
-            {
-                "index": -1, 
-                "group": 2, 
-                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/index.styl"
-            }, 
-            {
-                "index": 0, 
-                "group": 2, 
-                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/index.styl"
-            }, 
-            {
-                "index": 0, 
-                "group": 3, 
-                "filename": "/home/baal/customers/tredius/etc/huisstijl.litcoffee"
             }, 
             {
                 "index": -1, 
@@ -390,6 +420,16 @@
         ], 
         "closed": [
             {
+                "index": 4, 
+                "group": 2, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/tables.styl"
+            }, 
+            {
+                "index": 5, 
+                "group": 2, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/staging/epilogue.styl"
+            }, 
+            {
                 "index": 2, 
                 "group": 2, 
                 "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/i18n/nl_NL.styl"
@@ -473,11 +513,6 @@
                 "index": 5, 
                 "group": 0, 
                 "filename": "/home/baal/.config/sublime-text-2/Packages/User/u1.sublime-snippet"
-            }, 
-            {
-                "index": 3, 
-                "group": 2, 
-                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/README.md"
             }, 
             {
                 "index": 4, 
@@ -683,17 +718,52 @@
             {
                 "index": -1, 
                 "group": 2, 
-                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/staging/epilogue.styl"
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/staging/preamble.styl"
             }, 
             {
                 "index": -1, 
                 "group": 2, 
-                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/tables.styl"
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/staging/progressive.styl"
+            }, 
+            {
+                "index": 1, 
+                "group": 2, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/staging/index.styl"
             }, 
             {
                 "index": -1, 
                 "group": 2, 
-                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/nomenclature.styl"
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/index.styl"
+            }, 
+            {
+                "index": -1, 
+                "group": 2, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/README.md"
+            }, 
+            {
+                "index": -1, 
+                "group": 2, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/pie/PIE.htc"
+            }, 
+            {
+                "index": -1, 
+                "group": 2, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/pie/PIE_uncompressed.js"
+            }, 
+            {
+                "index": -1, 
+                "group": 2, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/pie/PIE_uncompressed.htc"
+            }, 
+            {
+                "index": -1, 
+                "group": 2, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/pie/PIE.php"
+            }, 
+            {
+                "index": 0, 
+                "group": 3, 
+                "filename": "/home/baal/customers/tredius/etc/huisstijl.litcoffee"
             }, 
             {
                 "index": 3, 
@@ -701,14 +771,29 @@
                 "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/staging/baseline.styl"
             }, 
             {
-                "index": -1, 
-                "group": 2, 
-                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/filesystem.styl"
-            }, 
-            {
                 "index": 2, 
                 "group": 2, 
                 "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/staging/compatibility.styl"
+            }, 
+            {
+                "index": 1, 
+                "group": 2, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/i18n/en_US.styl"
+            }, 
+            {
+                "index": 0, 
+                "group": 2, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/index.styl"
+            }, 
+            {
+                "index": -1, 
+                "group": 2, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/nomenclature.styl"
+            }, 
+            {
+                "index": -1, 
+                "group": 2, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/filesystem.styl"
             }, 
             {
                 "index": -1, 
@@ -726,37 +811,22 @@
                 "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/preamble.styl"
             }, 
             {
-                "index": 4, 
-                "group": 2, 
-                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/i18n/en_US.styl"
-            }, 
-            {
                 "index": -1, 
                 "group": 0, 
                 "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/typography/index.styl"
-            }, 
-            {
-                "index": -1, 
-                "group": 2, 
-                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/index.styl"
-            }, 
-            {
-                "index": 0, 
-                "group": 2, 
-                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/index.styl"
-            }, 
-            {
-                "index": 0, 
-                "group": 3, 
-                "filename": "/home/baal/customers/tredius/etc/huisstijl.litcoffee"
-            }, 
-            {
-                "index": -1, 
-                "group": 2, 
-                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/patterns.md"
             }
         ], 
         "closed": [
+            {
+                "index": 4, 
+                "group": 2, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/tables.styl"
+            }, 
+            {
+                "index": 5, 
+                "group": 2, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/staging/epilogue.styl"
+            }, 
             {
                 "index": 2, 
                 "group": 2, 
