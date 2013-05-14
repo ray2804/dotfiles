@@ -1,4 +1,6 @@
 hash -d git="/srv/lib/repos/git"
 hash -d libnode="/usr/local/lib/node_modules"
 hash -d clogs="/home/baal/projects/named/clogs"
-
+hash -d forks="/usr/local/src"
+hash -d projn="/home/baal/projects/named"
+hash -d style="/home/baal/projects/named/cultivus"

@@ -1,4 +1,8 @@
 
+alias ....="../../../"
+
+alias nr="npm-research"
+
 alias riemann="/opt/riemann/bin/riemann /opt/riemann/etc/riemann.config"
 alias s="yareps"
 alias v="vim"

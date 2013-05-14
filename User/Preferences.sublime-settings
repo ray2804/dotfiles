@@ -1,18 +1,20 @@
 {
 	"caret_style": "smooth",
 	"close_windows_when_empty": true,
-	"color_scheme": "Packages/Color Scheme - Default/Sunburst.tmTheme",
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
 	"dictionary": "Packages/Language - English/en_US.dic",
 	"draw_white_space": "all",
 	"font_face": "DroidSansMono",
-	"font_size": 10,
+	"font_size": 8,
 	"hot_exit": false,
 	"ignored_packages":
 	[
 	],
 	"ignored_words":
 	[
-		"ba"
+		"ba",
+		"internet",
+		"stylesheet"
 	],
 	"repository_channels":
 	[

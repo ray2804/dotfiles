@@ -1,22 +1,137 @@
 {
+    "1bdd6058606041f989b9c665519d8764": {
+        "opened": [], 
+        "closed": [
+            {
+                "index": 0, 
+                "group": 0, 
+                "filename": "/home/baal/projects/named/clogs/src/structural/Scriptorium.litcoffee"
+            }
+        ]
+    }, 
     "563cfe8872ecfb12b50c9f3e9d29576c": {
         "opened": [
             {
                 "index": -1, 
                 "group": 0, 
-                "filename": "/home/baal/projects/named/cultivus/main.js"
+                "filename": "/home/baal/projects/named/cultivus/index.litcoffee"
             }, 
             {
                 "index": -1, 
-                "group": -1, 
+                "group": 0, 
+                "filename": "/home/baal/projects/named/cultivus/.old/a1.litcoffee"
+            }, 
+            {
+                "index": -1, 
+                "group": 0, 
+                "filename": "/home/baal/projects/named/cultivus/src/lib/index.styl"
+            }, 
+            {
+                "index": -1, 
+                "group": 0, 
+                "filename": "/home/baal/projects/named/cultivus/package.json"
+            }, 
+            {
+                "index": -1, 
+                "group": 0, 
+                "filename": "/home/baal/projects/named/cultivus/algemeen.css"
+            }, 
+            {
+                "index": -1, 
+                "group": 0, 
+                "filename": "/home/baal/projects/named/cultivus/src/lib/test.styl"
+            }, 
+            {
+                "index": -1, 
+                "group": 0, 
                 "filename": "/home/baal/projects/named/cultivus/README.md"
+            }, 
+            {
+                "index": -1, 
+                "group": 0, 
+                "filename": "/home/baal/projects/named/cultivus/src/a2.litcoffee"
+            }, 
+            {
+                "index": -1, 
+                "group": 0, 
+                "filename": "/home/baal/projects/named/cultivus/src/a1.litcoffee"
+            }, 
+            {
+                "index": -1, 
+                "group": 0, 
+                "filename": "/home/baal/projects/named/cultivus/src/lib/cultivus/settings.styl"
+            }, 
+            {
+                "index": -1, 
+                "group": 0, 
+                "filename": "/home/baal/projects/named/cultivus/src/lib/cultivus/javascript.styl"
+            }, 
+            {
+                "index": -1, 
+                "group": 0, 
+                "filename": "/home/baal/projects/named/cultivus/src/lib/cultivus/tables.styl"
+            }, 
+            {
+                "index": -1, 
+                "group": 0, 
+                "filename": "/home/baal/projects/named/cultivus/src/lib/cultivus/reset.styl"
+            }, 
+            {
+                "index": -1, 
+                "group": 0, 
+                "filename": "/home/baal/projects/named/cultivus/src/lib/cultivus/positions.styl"
+            }, 
+            {
+                "index": -1, 
+                "group": 0, 
+                "filename": "/home/baal/projects/named/cultivus/src/lib/cultivus/interaction.styl"
+            }, 
+            {
+                "index": -1, 
+                "group": 0, 
+                "filename": "/home/baal/projects/named/cultivus/src/lib/cultivus/grid.styl"
+            }, 
+            {
+                "index": -1, 
+                "group": 0, 
+                "filename": "/home/baal/projects/named/cultivus/src/lib/cultivus/forms.styl"
             }
         ], 
         "closed": [
             {
                 "index": 0, 
                 "group": 0, 
-                "filename": "/home/baal/projects/named/cultivus/main.litcoffee"
+                "filename": "/home/baal/projects/named/cultivus/.old/a2.litcoffee"
+            }, 
+            {
+                "index": 1, 
+                "group": 0, 
+                "filename": "/home/baal/projects/named/cultivus/src/lib/cultivus/index.styl"
+            }, 
+            {
+                "index": 0, 
+                "group": 0, 
+                "filename": "/home/baal/projects/named/cultivus/.old/a3.litcoffee"
+            }, 
+            {
+                "index": 1, 
+                "group": 0, 
+                "filename": "/home/baal/projects/named/cultivus/untitled"
+            }, 
+            {
+                "index": 2, 
+                "group": 0, 
+                "filename": "/home/baal/projects/named/cultivus/src/lib/README.md"
+            }, 
+            {
+                "index": 3, 
+                "group": 0, 
+                "filename": "/home/baal/.config/sublime-text-2/Packages/knockdown/Markdown (Github Flavored).sublime-settings"
+            }, 
+            {
+                "index": 1, 
+                "group": 0, 
+                "filename": "/home/baal/projects/named/clogs/RecursiveTree.litcoffee"
             }, 
             {
                 "index": 1, 
@@ -58,506 +173,446 @@
     "global": {
         "opened": [
             {
-                "index": 5, 
-                "group": 0, 
-                "filename": "/home/baal/projects/named/clogs/src/taxonomy/Symbols.litcoffee"
+                "index": -1, 
+                "group": 2, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/staging/epilogue.styl"
+            }, 
+            {
+                "index": -1, 
+                "group": 2, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/tables.styl"
+            }, 
+            {
+                "index": -1, 
+                "group": 2, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/nomenclature.styl"
+            }, 
+            {
+                "index": 3, 
+                "group": 2, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/staging/baseline.styl"
+            }, 
+            {
+                "index": -1, 
+                "group": 2, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/filesystem.styl"
+            }, 
+            {
+                "index": 2, 
+                "group": 2, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/staging/compatibility.styl"
+            }, 
+            {
+                "index": -1, 
+                "group": 2, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/epilogue.styl"
+            }, 
+            {
+                "index": -1, 
+                "group": 2, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/progressive.styl"
+            }, 
+            {
+                "index": -1, 
+                "group": 2, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/preamble.styl"
             }, 
             {
                 "index": 4, 
-                "group": 0, 
-                "filename": "/home/baal/projects/named/clogs/src/taxonomy/Document.litcoffee"
-            }, 
-            {
-                "index": 3, 
-                "group": 0, 
-                "filename": "/home/baal/projects/named/clogs/src/taxonomy/Nomenclature.litcoffee"
+                "group": 2, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/i18n/en_US.styl"
             }, 
             {
                 "index": -1, 
                 "group": 0, 
-                "filename": "/home/baal/projects/named/clogs/src/Archivist.litcoffee"
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/typography/index.styl"
             }, 
             {
                 "index": -1, 
-                "group": 0, 
-                "filename": "/home/baal/projects/named/clogs/src/Inspector.litcoffee"
-            }, 
-            {
-                "index": -1, 
-                "group": 0, 
-                "filename": "/home/baal/projects/named/clogs/src/References.litcoffee"
-            }, 
-            {
-                "index": 2, 
-                "group": 0, 
-                "filename": "/home/baal/projects/named/clogs/doc/PRIO.litcoffee"
-            }, 
-            {
-                "index": -1, 
-                "group": 0, 
-                "filename": "/home/baal/projects/named/clogs/resources/Plagiarism.litcoffee"
-            }, 
-            {
-                "index": -1, 
-                "group": 0, 
-                "filename": "/home/baal/projects/named/clogs/resources/codex/jar/plantUmlDoclet.jar"
-            }, 
-            {
-                "index": -1, 
-                "group": 0, 
-                "filename": "/home/baal/projects/named/clogs/resources/codex/project.clj"
-            }, 
-            {
-                "index": -1, 
-                "group": 0, 
-                "filename": "/home/baal/projects/named/clogs/resources/codex/pom.xml"
-            }, 
-            {
-                "index": 1, 
-                "group": 0, 
-                "filename": "/home/baal/projects/named/clogs/src/structural/outline/Prelogue.litcoffee"
-            }, 
-            {
-                "index": 2, 
-                "group": 0, 
-                "filename": "/home/baal/.config/sublime-text-2/Packages/User/Snippets/fenced-coffee.sublime-snippet"
+                "group": 2, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/index.styl"
             }, 
             {
                 "index": 0, 
-                "group": 0, 
-                "filename": "/home/baal/projects/named/clogs/project.clj"
+                "group": 2, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/index.styl"
             }, 
             {
-                "index": 3, 
-                "group": 0, 
-                "filename": "/home/baal/projects/named/clogs/Typography/Symbol.litcoffee"
+                "index": 0, 
+                "group": 3, 
+                "filename": "/home/baal/customers/tredius/etc/huisstijl.litcoffee"
             }, 
             {
-                "index": 1, 
-                "group": 0, 
-                "filename": "/home/baal/projects/named/clogs/roles/Librarian.litcoffee"
+                "index": -1, 
+                "group": 2, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/patterns.md"
             }, 
             {
                 "index": -1, 
                 "group": 0, 
-                "filename": "/home/baal/customers/tredius/.gitignore"
-            }, 
-            {
-                "index": -1, 
-                "group": 0, 
-                "filename": "/home/baal/customers/tredius/data/NOTENOTE"
-            }, 
-            {
-                "index": -1, 
-                "group": 0, 
-                "filename": "/home/baal/customers/tredius/config/bower-components.json"
-            }, 
-            {
-                "index": -1, 
-                "group": 0, 
-                "filename": "/home/baal/customers/tredius/package.json"
-            }, 
-            {
-                "index": -1, 
-                "group": 0, 
-                "filename": "/home/baal/customers/tredius/.bowerrc"
-            }, 
-            {
-                "index": -1, 
-                "group": 0, 
-                "filename": "/home/baal/customers/tredius/docpad.js"
-            }, 
-            {
-                "index": -1, 
-                "group": 0, 
-                "filename": "/home/baal/customers/tredius/README.md"
-            }, 
-            {
-                "index": -1, 
-                "group": 0, 
-                "filename": "/home/baal/customers/tredius/extra/documentatie/chapter.litcoffee"
-            }, 
-            {
-                "index": -1, 
-                "group": 0, 
-                "filename": "/home/baal/customers/tredius/pkg.json"
-            }, 
-            {
-                "index": -1, 
-                "group": 0, 
-                "filename": "/home/baal/customers/tredius/config/todo-sjabloon.litcoffee"
-            }, 
-            {
-                "index": -1, 
-                "group": 0, 
-                "filename": "/home/baal/customers/tredius/config/package.cson"
-            }, 
-            {
-                "index": -1, 
-                "group": 0, 
-                "filename": "/home/baal/customers/tredius/config/docpad.js"
-            }, 
-            {
-                "index": -1, 
-                "group": 0, 
-                "filename": "/home/baal/projects/named/cultivus/main.js"
-            }, 
-            {
-                "index": -1, 
-                "group": 0, 
-                "filename": "/home/baal/customers/tredius/01-stylus/rasteropmaak.styl"
-            }, 
-            {
-                "index": -1, 
-                "group": 0, 
-                "filename": "/home/baal/customers/tredius/01-stylus/plugins.styl"
-            }, 
-            {
-                "index": -1, 
-                "group": 0, 
-                "filename": "/home/baal/customers/tredius/01-stylus/navigatie.styl"
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/interaction.styl"
             }, 
             {
                 "index": -1, 
                 "group": 1, 
-                "filename": "/home/baal/customers/tredius/01-stylus/formulieren.styl"
-            }, 
-            {
-                "index": -1, 
-                "group": 0, 
-                "filename": "/home/baal/customers/tredius/01-stylus/contactgegevens.styl"
-            }, 
-            {
-                "index": -1, 
-                "group": 0, 
-                "filename": "/home/baal/customers/tredius/01-stylus/elementen.styl"
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/colors.styl"
             }, 
             {
                 "index": -1, 
                 "group": 1, 
-                "filename": "/home/baal/customers/tredius/01-stylus/lib/cultivate/test/test.styl"
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/algemeen.css.styl"
+            }, 
+            {
+                "index": -1, 
+                "group": 1, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/notation.styl"
+            }, 
+            {
+                "index": -1, 
+                "group": 1, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/examples.styl"
             }, 
             {
                 "index": -1, 
                 "group": 0, 
-                "filename": "/home/baal/customers/tredius/03-widgets/googlewebfonts.html.coffee"
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/themes/default/index.styl"
             }, 
             {
                 "index": -1, 
                 "group": 0, 
-                "filename": "/home/baal/customers/tredius/01-stylus/lib/cultivate/utilities.styl"
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/vendor.styl"
             }, 
             {
                 "index": -1, 
                 "group": 0, 
-                "filename": "/home/baal/customers/tredius/01-stylus/lib/cultivate/ui.styl"
-            }, 
-            {
-                "index": 6, 
-                "group": 0, 
-                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivate/interaction.styl"
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/positions.styl"
             }, 
             {
                 "index": -1, 
                 "group": 0, 
-                "filename": "/home/baal/customers/tredius/01-stylus/lib/cultivate/test/test.css"
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/javascript.styl"
             }, 
             {
                 "index": -1, 
                 "group": 0, 
-                "filename": "/home/baal/customers/tredius/01-stylus/lib/cultivate/test/index.styl"
-            }, 
-            {
-                "index": 9, 
-                "group": 0, 
-                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivate/typography.styl"
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/themes/default/colors.styl"
             }, 
             {
                 "index": -1, 
                 "group": 0, 
-                "filename": "/home/baal/customers/tredius/01-stylus/lib/cultivate/reset.styl"
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/buttons.styl"
             }, 
             {
                 "index": -1, 
                 "group": 0, 
-                "filename": "/home/baal/customers/tredius/01-stylus/lib/cultivate/tables.styl"
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/animation.styl"
             }, 
             {
                 "index": -1, 
                 "group": 0, 
-                "filename": "/home/baal/customers/tredius/01-stylus/lib/cultivate/positions.styl"
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/buttons.styl"
             }, 
             {
                 "index": -1, 
                 "group": 0, 
-                "filename": "/home/baal/customers/tredius/01-stylus/lib/cultivate/interaction.styl"
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/ordinal_numbers.coffee"
             }, 
             {
                 "index": -1, 
                 "group": 0, 
-                "filename": "/home/baal/customers/tredius/01-stylus/lib/cultivate/animation.styl"
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/utilities.styl"
             }, 
             {
                 "index": -1, 
                 "group": 0, 
-                "filename": "/home/baal/customers/tredius/01-stylus/lib/cultivate/code.styl"
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/__a__"
             }, 
             {
                 "index": -1, 
                 "group": 0, 
-                "filename": "/home/baal/customers/tredius/01-stylus/lib/cultivate/gradients.styl"
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/colors.styl"
+            }, 
+            {
+                "index": -1, 
+                "group": 0, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/js/ordinal_numbers.js"
+            }, 
+            {
+                "index": -1, 
+                "group": 0, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/notation.txt"
+            }, 
+            {
+                "index": -1, 
+                "group": 0, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/javascript.styl"
+            }, 
+            {
+                "index": -1, 
+                "group": 0, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/vendor.styl"
+            }, 
+            {
+                "index": -1, 
+                "group": 0, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/ui.styl"
+            }, 
+            {
+                "index": -1, 
+                "group": 0, 
+                "filename": "/home/baal/customers/tredius/huisstijl/algemeen.styl"
+            }, 
+            {
+                "index": -1, 
+                "group": 0, 
+                "filename": "/home/baal/customers/tredius/etc/startup.js"
+            }, 
+            {
+                "index": -1, 
+                "group": 0, 
+                "filename": "/home/baal/projects/named/cultivus/index.litcoffee"
+            }, 
+            {
+                "index": -1, 
+                "group": 0, 
+                "filename": "/home/baal/customers/tredius/etc/oud-stijl"
+            }, 
+            {
+                "index": -1, 
+                "group": 0, 
+                "filename": "/home/baal/customers/tredius/etc/enhanced.js"
+            }, 
+            {
+                "index": -1, 
+                "group": 0, 
+                "filename": "/home/baal/customers/tredius/site/bestanden/assets/js/bootstrap-lightbox/js/bootstrap-lightbox.js"
             }
         ], 
         "closed": [
             {
-                "index": 0, 
-                "group": 0, 
-                "filename": "/home/baal/projects/named/clogs/tools/subl2/fenced-coffee.sublime-snippet"
-            }, 
-            {
-                "index": 0, 
-                "group": 0, 
-                "filename": "/home/baal/projects/named/clogs/CONCEPT.md"
-            }, 
-            {
-                "index": 1, 
-                "group": 0, 
-                "filename": "/home/baal/projects/named/clogs/src/documents/Book.litcoffee"
-            }, 
-            {
                 "index": 2, 
-                "group": 0, 
-                "filename": "/home/baal/projects/named/clogs/src/documents/Bundle.litcoffee"
+                "group": 2, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/i18n/nl_NL.styl"
             }, 
             {
-                "index": 0, 
-                "group": 0, 
-                "filename": "/home/baal/projects/named/clogs/pom.xml"
+                "index": 3, 
+                "group": 2, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/notes/RELATIONS.md"
             }, 
             {
-                "index": 0, 
-                "group": 0, 
-                "filename": "/home/baal/projects/named/clogs/src/roles/Librarian.litcoffee"
+                "index": 4, 
+                "group": 2, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/notes/ENGLISH.litcoffee"
             }, 
             {
-                "index": 1, 
-                "group": 0, 
-                "filename": "/home/baal/projects/named/clogs/Archivist.litcoffee"
-            }, 
-            {
-                "index": 2, 
-                "group": 0, 
-                "filename": "/home/baal/projects/named/clogs/src/Typography/Symbol.litcoffee"
-            }, 
-            {
-                "index": 0, 
-                "group": 0, 
-                "filename": "/home/baal/.litcoffee/problem-solution.litcoffee"
-            }, 
-            {
-                "index": 0, 
-                "group": 0, 
-                "filename": "/home/baal/.litcoffee/scopes-and-all.litcoffee"
-            }, 
-            {
-                "index": 0, 
-                "group": 0, 
-                "filename": "/home/baal/projects/named/clogs/References.litcoffee"
-            }, 
-            {
-                "index": 6, 
-                "group": 0, 
-                "filename": "/home/baal/projects/named/clogs/forms/URI.litcoffee"
-            }, 
-            {
-                "index": 1, 
-                "group": 0, 
-                "filename": "/home/baal/.litcoffee/singleton.litcoffee"
-            }, 
-            {
-                "index": 0, 
-                "group": 0, 
-                "filename": "/home/baal/customers/tredius/config/docpad.litcoffee"
-            }, 
-            {
-                "index": 0, 
-                "group": 0, 
-                "filename": "/home/baal/ast.litcoffee"
-            }, 
-            {
-                "index": 1, 
-                "group": 0, 
-                "filename": "/home/baal/.litcoffee/docco.litcoffee"
-            }, 
-            {
-                "index": 2, 
-                "group": 0, 
-                "filename": "/home/baal/projects/named/clogs/Erudite.litcoffee"
-            }, 
-            {
-                "index": 2, 
-                "group": 0, 
-                "filename": "/home/baal/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings"
-            }, 
-            {
-                "index": 0, 
-                "group": 0, 
-                "filename": "/home/baal/customers/tredius/coffee/foo.coffee"
-            }, 
-            {
-                "index": 0, 
-                "group": 0, 
-                "filename": "/home/baal/customers/tredius/data/__Optimize__"
-            }, 
-            {
-                "index": 1, 
-                "group": 0, 
-                "filename": "/home/baal/customers/tredius/site/sjablonen/standaard.html.coffee"
-            }, 
-            {
-                "index": 1, 
-                "group": 0, 
-                "filename": "/home/baal/customers/tredius/config/package.litcoffee"
-            }, 
-            {
-                "index": 0, 
-                "group": 0, 
-                "filename": "/home/baal/customers/tredius/test.coffee"
-            }, 
-            {
-                "index": 0, 
-                "group": 0, 
-                "filename": "/home/baal/projects/named/node-rebuilding/CONCEPT.litcoffee"
-            }, 
-            {
-                "index": 0, 
-                "group": 0, 
-                "filename": "/home/baal/.config/sublime-text-2/Packages/User/docco.sublime-build"
-            }, 
-            {
-                "index": 0, 
-                "group": 0, 
-                "filename": "/home/baal/projects/named/cultivus/main.litcoffee"
-            }, 
-            {
-                "index": 1, 
-                "group": 0, 
-                "filename": "/home/baal/.config/sublime-text-2/Packages/sublime-better-coffeescript/CoffeeScript.sublime-build"
-            }, 
-            {
-                "index": 1, 
-                "group": 0, 
+                "index": 4, 
+                "group": 2, 
                 "filename": "/home/baal/.config/sublime-text-2/Packages/User/Preferences.sublime-settings"
             }, 
             {
-                "index": 3, 
-                "group": 0, 
-                "filename": "/home/baal/.config/sublime-text-2/Packages/User/Js2Coffee.sublime-build"
+                "index": 5, 
+                "group": 2, 
+                "filename": "/home/baal/.config/sublime-text-2/Packages/BufferScroll/BufferScroll.sublime-settings"
+            }, 
+            {
+                "index": 4, 
+                "group": 2, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/notes/main.md"
+            }, 
+            {
+                "index": 1, 
+                "group": 2, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/forms.styl"
+            }, 
+            {
+                "index": 0, 
+                "group": 1, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/ui.styl"
+            }, 
+            {
+                "index": 0, 
+                "group": 1, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/typography/enumeration.styl"
             }, 
             {
                 "index": 0, 
                 "group": 0, 
-                "filename": "/home/baal/projects/named/cultivus"
-            }, 
-            {
-                "index": 0, 
-                "group": 0, 
-                "filename": "/home/baal/projects/named/cultivus/README.md"
-            }, 
-            {
-                "index": 0, 
-                "group": 0, 
-                "filename": "/home/baal/.config/sublime-text-2/Packages/sublime-github/GitHub.sublime-settings"
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/typography/emphasis.styl"
             }, 
             {
                 "index": 1, 
                 "group": 0, 
-                "filename": "/home/baal/.config/sublime-text-2/Packages/SideBarGit/SideBarGit.sublime-settings"
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/utilities.styl"
             }, 
             {
-                "index": 0, 
+                "index": 3, 
                 "group": 0, 
-                "filename": "/home/baal/.config/sublime-text-2/Packages/User/GitHub.sublime-settings"
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/themes/index.styl"
             }, 
             {
-                "index": 0, 
+                "index": 4, 
                 "group": 0, 
-                "filename": "/tmp/tmp.cc4xeogutl/src/documents/index.html.md"
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/typography/typesetting.styl"
             }, 
             {
-                "index": 0, 
-                "group": 1, 
-                "filename": "/usr/local/src/coffee-toml/examples/02.coffee"
+                "index": 3, 
+                "group": 2, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/themes/Default/colors.styl"
             }, 
             {
-                "index": 0, 
-                "group": 1, 
-                "filename": "/home/baal/customers/tredius/01-stylus/instellingen.styl"
+                "index": 3, 
+                "group": 0, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/gradients.styl"
             }, 
             {
-                "index": 0, 
-                "group": 1, 
-                "filename": "/home/baal/customers/tredius/01-stylus/lib/cultivus/javascript.styl"
+                "index": 4, 
+                "group": 0, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/notes/notation.md"
             }, 
             {
-                "index": 0, 
-                "group": 1, 
-                "filename": "/home/baal/customers/tredius/01-stylus/lib/cultivus/index.styl"
+                "index": 5, 
+                "group": 0, 
+                "filename": "/home/baal/.config/sublime-text-2/Packages/User/u1.sublime-snippet"
             }, 
             {
-                "index": 0, 
-                "group": 1, 
-                "filename": "/home/baal/customers/tredius/01-stylus/algemeen.css.styl"
+                "index": 3, 
+                "group": 2, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/README.md"
+            }, 
+            {
+                "index": 4, 
+                "group": 2, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/notes/README.md"
+            }, 
+            {
+                "index": 3, 
+                "group": 2, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/notes/style-of-programming-and-naming-things"
+            }, 
+            {
+                "index": 1, 
+                "group": 3, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/grid.styl"
             }, 
             {
                 "index": 2, 
-                "group": 1, 
-                "filename": "/home/baal/projects/named/Vielsprachig/README.md"
+                "group": 2, 
+                "filename": "/home/baal/.config/sublime-text-2/Packages/knockdown/Markdown (Github Flavored).sublime-settings"
             }, 
             {
                 "index": 3, 
+                "group": 2, 
+                "filename": "/home/baal/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings"
+            }, 
+            {
+                "index": 1, 
+                "group": 2, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/notes/schema.styl"
+            }, 
+            {
+                "index": 1, 
                 "group": 1, 
-                "filename": "/home/baal/projects/named/coffee-clogs/node_modules/coffee2closure/src/sample.coffee"
+                "filename": "/home/baal/.config/sublime-text-2/Packages/User/Default (Linux).sublime-keymap"
+            }, 
+            {
+                "index": 1, 
+                "group": 1, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/animation.styl"
+            }, 
+            {
+                "index": 4, 
+                "group": 0, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/code.styl"
+            }, 
+            {
+                "index": 2, 
+                "group": 0, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/typography/quotation.styl"
             }, 
             {
                 "index": 0, 
                 "group": 0, 
-                "filename": "/home/baal/customers/tredius/01-stylus/lib/cultivus/buttons.styl"
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/typography/spacing.styl"
+            }, 
+            {
+                "index": 1, 
+                "group": 0, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/typography/general.styl"
+            }, 
+            {
+                "index": 1, 
+                "group": 0, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/typography/references.styl"
+            }, 
+            {
+                "index": 1, 
+                "group": 0, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/typography/headings.styl"
+            }, 
+            {
+                "index": 5, 
+                "group": 0, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/typography/case.styl"
+            }, 
+            {
+                "index": 3, 
+                "group": 0, 
+                "filename": "/home/baal/.config/sublime-text-2/Packages/User/Base File.sublime-settings"
+            }, 
+            {
+                "index": 4, 
+                "group": 0, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/scripts/semantic.styl"
+            }, 
+            {
+                "index": 4, 
+                "group": 0, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/scripts/english-numerals.coffee"
+            }, 
+            {
+                "index": 5, 
+                "group": 0, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/scripts/roman-numerals.litcoffee"
+            }, 
+            {
+                "index": 2, 
+                "group": 0, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/forms.styl"
+            }, 
+            {
+                "index": 5, 
+                "group": 0, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/positions.styl"
+            }, 
+            {
+                "index": 3, 
+                "group": 0, 
+                "filename": "/home/baal/.config/sublime-text-2/Packages/User/CoffeeIntroLit.sublime-snippet"
+            }, 
+            {
+                "index": 4, 
+                "group": 0, 
+                "filename": "/home/baal/.config/sublime-text-2/Packages/coffee-script-tmbundle/Snippets/Switch.tmSnippet"
+            }, 
+            {
+                "index": 4, 
+                "group": 0, 
+                "filename": "/home/baal/.config/sublime-text-2/Packages/coffee-script-tmbundle/Snippets/Array comprehension.tmSnippet"
             }, 
             {
                 "index": 0, 
                 "group": 0, 
-                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/formulieren.styl"
-            }, 
-            {
-                "index": 4, 
-                "group": 1, 
-                "filename": "/home/baal/customers/tredius/01-stylus/lib/cultivus/README.md"
-            }, 
-            {
-                "index": 4, 
-                "group": 1, 
-                "filename": "/home/baal/customers/tredius/01-stylus/lib/cultivus/grid.styl"
-            }, 
-            {
-                "index": 3, 
-                "group": 1, 
-                "filename": "/home/baal/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap"
-            }, 
-            {
-                "index": 3, 
-                "group": 1, 
-                "filename": "/home/baal/.config/sublime-text-2/Packages/QuickThemes/QuickThemes.sublime-settings"
+                "filename": "/home/baal/customers/tredius/etc/package.litcoffee"
             }, 
             {
                 "index": 1, 
                 "group": 0, 
-                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/interaction.styl"
+                "filename": "/home/baal/customers/tredius/etc/dialoog.litcoffee"
             }, 
             {
-                "index": 1, 
+                "index": 2, 
                 "group": 0, 
-                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/typography.styl"
+                "filename": "/home/baal/projects/named/clogs/PROLOGUE.litcoffee"
             }
         ]
     }, 
@@ -597,218 +652,204 @@
             }
         ]
     }, 
-    "1da4384c8e993082c97bcf377c796bfb": {
+    "4a0dab81b878f397bd34181734820af6": {
         "opened": [
             {
-                "index": 0, 
+                "index": -1, 
                 "group": 0, 
-                "filename": "/home/baal/projects/named/clogs/project.clj"
-            }, 
-            {
-                "index": 3, 
-                "group": 0, 
-                "filename": "/home/baal/projects/named/clogs/Typography/Symbol.litcoffee"
-            }, 
-            {
-                "index": 1, 
-                "group": 0, 
-                "filename": "/home/baal/projects/named/clogs/roles/Librarian.litcoffee"
+                "filename": "/tmp/b/src/documents/pages/hello.html.md"
             }, 
             {
                 "index": -1, 
                 "group": 0, 
-                "filename": "/home/baal/customers/tredius/.gitignore"
+                "filename": "/tmp/b/src/layouts/default.html.eco"
             }, 
             {
                 "index": -1, 
                 "group": 0, 
-                "filename": "/home/baal/customers/tredius/data/NOTENOTE"
-            }, 
-            {
-                "index": -1, 
-                "group": 0, 
-                "filename": "/home/baal/customers/tredius/config/bower-components.json"
-            }, 
-            {
-                "index": -1, 
-                "group": 0, 
-                "filename": "/home/baal/customers/tredius/package.json"
-            }, 
-            {
-                "index": -1, 
-                "group": 0, 
-                "filename": "/home/baal/customers/tredius/.bowerrc"
-            }, 
-            {
-                "index": -1, 
-                "group": 0, 
-                "filename": "/home/baal/customers/tredius/docpad.js"
-            }, 
-            {
-                "index": -1, 
-                "group": 0, 
-                "filename": "/home/baal/customers/tredius/README.md"
-            }, 
-            {
-                "index": -1, 
-                "group": 0, 
-                "filename": "/home/baal/customers/tredius/extra/documentatie/chapter.litcoffee"
-            }, 
-            {
-                "index": -1, 
-                "group": 0, 
-                "filename": "/home/baal/customers/tredius/pkg.json"
-            }, 
-            {
-                "index": -1, 
-                "group": 0, 
-                "filename": "/home/baal/customers/tredius/config/todo-sjabloon.litcoffee"
-            }, 
-            {
-                "index": -1, 
-                "group": 0, 
-                "filename": "/home/baal/customers/tredius/config/package.cson"
-            }, 
-            {
-                "index": -1, 
-                "group": 0, 
-                "filename": "/home/baal/customers/tredius/config/docpad.js"
-            }, 
-            {
-                "index": -1, 
-                "group": 0, 
-                "filename": "/home/baal/customers/tredius/01-stylus/rasteropmaak.styl"
-            }, 
-            {
-                "index": -1, 
-                "group": 0, 
-                "filename": "/home/baal/customers/tredius/01-stylus/plugins.styl"
+                "filename": "/tmp/b/.gitignore"
             }
         ], 
         "closed": [
             {
                 "index": 0, 
                 "group": 0, 
-                "filename": "/home/baal/projects/named/clogs/pom.xml"
+                "filename": "/tmp/b/src/documents/pages/posts.html.eco"
+            }
+        ]
+    }, 
+    "1da4384c8e993082c97bcf377c796bfb": {
+        "opened": [
+            {
+                "index": -1, 
+                "group": 2, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/staging/epilogue.styl"
             }, 
             {
-                "index": 0, 
-                "group": 0, 
-                "filename": "/home/baal/projects/named/clogs/src/roles/Librarian.litcoffee"
+                "index": -1, 
+                "group": 2, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/tables.styl"
             }, 
             {
-                "index": 1, 
-                "group": 0, 
-                "filename": "/home/baal/projects/named/clogs/Archivist.litcoffee"
+                "index": -1, 
+                "group": 2, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/nomenclature.styl"
             }, 
             {
-                "index": 2, 
-                "group": 0, 
-                "filename": "/home/baal/projects/named/clogs/src/Typography/Symbol.litcoffee"
+                "index": 3, 
+                "group": 2, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/staging/baseline.styl"
             }, 
             {
-                "index": 0, 
-                "group": 0, 
-                "filename": "/home/baal/.litcoffee/problem-solution.litcoffee"
-            }, 
-            {
-                "index": 0, 
-                "group": 0, 
-                "filename": "/home/baal/.litcoffee/scopes-and-all.litcoffee"
-            }, 
-            {
-                "index": 0, 
-                "group": 0, 
-                "filename": "/home/baal/projects/named/clogs/References.litcoffee"
-            }, 
-            {
-                "index": 6, 
-                "group": 0, 
-                "filename": "/home/baal/projects/named/clogs/forms/URI.litcoffee"
-            }, 
-            {
-                "index": 1, 
-                "group": 0, 
-                "filename": "/home/baal/.litcoffee/singleton.litcoffee"
-            }, 
-            {
-                "index": 0, 
-                "group": 0, 
-                "filename": "/home/baal/customers/tredius/config/docpad.litcoffee"
-            }, 
-            {
-                "index": 0, 
-                "group": 0, 
-                "filename": "/home/baal/ast.litcoffee"
-            }, 
-            {
-                "index": 1, 
-                "group": 0, 
-                "filename": "/home/baal/.litcoffee/docco.litcoffee"
+                "index": -1, 
+                "group": 2, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/filesystem.styl"
             }, 
             {
                 "index": 2, 
-                "group": 0, 
-                "filename": "/home/baal/projects/named/clogs/Erudite.litcoffee"
+                "group": 2, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/staging/compatibility.styl"
             }, 
+            {
+                "index": -1, 
+                "group": 2, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/epilogue.styl"
+            }, 
+            {
+                "index": -1, 
+                "group": 2, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/progressive.styl"
+            }, 
+            {
+                "index": -1, 
+                "group": 2, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/preamble.styl"
+            }, 
+            {
+                "index": 4, 
+                "group": 2, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/i18n/en_US.styl"
+            }, 
+            {
+                "index": -1, 
+                "group": 0, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/typography/index.styl"
+            }, 
+            {
+                "index": -1, 
+                "group": 2, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/index.styl"
+            }, 
+            {
+                "index": 0, 
+                "group": 2, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/index.styl"
+            }, 
+            {
+                "index": 0, 
+                "group": 3, 
+                "filename": "/home/baal/customers/tredius/etc/huisstijl.litcoffee"
+            }, 
+            {
+                "index": -1, 
+                "group": 2, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/patterns.md"
+            }
+        ], 
+        "closed": [
             {
                 "index": 2, 
-                "group": 0, 
-                "filename": "/home/baal/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings"
+                "group": 2, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/i18n/nl_NL.styl"
+            }, 
+            {
+                "index": 3, 
+                "group": 2, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/notes/RELATIONS.md"
+            }, 
+            {
+                "index": 4, 
+                "group": 2, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/notes/ENGLISH.litcoffee"
+            }, 
+            {
+                "index": 4, 
+                "group": 2, 
+                "filename": "/home/baal/.config/sublime-text-2/Packages/User/Preferences.sublime-settings"
+            }, 
+            {
+                "index": 5, 
+                "group": 2, 
+                "filename": "/home/baal/.config/sublime-text-2/Packages/BufferScroll/BufferScroll.sublime-settings"
+            }, 
+            {
+                "index": 4, 
+                "group": 2, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/notes/main.md"
+            }, 
+            {
+                "index": 1, 
+                "group": 2, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/forms.styl"
+            }, 
+            {
+                "index": 0, 
+                "group": 1, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/ui.styl"
+            }, 
+            {
+                "index": 0, 
+                "group": 1, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/typography/enumeration.styl"
             }, 
             {
                 "index": 0, 
                 "group": 0, 
-                "filename": "/home/baal/customers/tredius/coffee/foo.coffee"
-            }, 
-            {
-                "index": 0, 
-                "group": 0, 
-                "filename": "/home/baal/customers/tredius/data/__Optimize__"
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/typography/emphasis.styl"
             }, 
             {
                 "index": 1, 
                 "group": 0, 
-                "filename": "/home/baal/customers/tredius/site/sjablonen/standaard.html.coffee"
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/utilities.styl"
             }, 
             {
-                "index": 1, 
+                "index": 3, 
                 "group": 0, 
-                "filename": "/home/baal/customers/tredius/config/package.litcoffee"
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/themes/index.styl"
             }, 
             {
-                "index": 0, 
+                "index": 4, 
                 "group": 0, 
-                "filename": "/home/baal/customers/tredius/test.coffee"
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/typography/typesetting.styl"
             }, 
             {
-                "index": 0, 
+                "index": 3, 
+                "group": 2, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/themes/Default/colors.styl"
+            }, 
+            {
+                "index": 3, 
                 "group": 0, 
-                "filename": "/home/baal/.config/sublime-text-2/Packages/User/docco.sublime-build"
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/core/gradients.styl"
+            }, 
+            {
+                "index": 4, 
+                "group": 0, 
+                "filename": "/home/baal/customers/tredius/site/documenten/stijlen/lib/cultivus/notes/notation.md"
             }
         ]
     }, 
     "34121415ea87b003cb7740e82818b5bb": {
         "opened": [
             {
-                "index": 5, 
+                "index": -1, 
                 "group": 0, 
-                "filename": "/home/baal/projects/named/clogs/src/taxonomy/Symbols.litcoffee"
-            }, 
-            {
-                "index": 4, 
-                "group": 0, 
-                "filename": "/home/baal/projects/named/clogs/src/taxonomy/Document.litcoffee"
-            }, 
-            {
-                "index": 3, 
-                "group": 0, 
-                "filename": "/home/baal/projects/named/clogs/src/taxonomy/Nomenclature.litcoffee"
+                "filename": "/home/baal/projects/named/clogs/a"
             }, 
             {
                 "index": -1, 
                 "group": 0, 
-                "filename": "/home/baal/projects/named/clogs/src/Archivist.litcoffee"
+                "filename": "/home/baal/projects/named/clogs/src/References.litcoffee"
             }, 
             {
                 "index": -1, 
@@ -818,12 +859,42 @@
             {
                 "index": -1, 
                 "group": 0, 
-                "filename": "/home/baal/projects/named/clogs/src/References.litcoffee"
+                "filename": "/home/baal/projects/named/clogs/src/Archivist.litcoffee"
             }, 
             {
-                "index": 2, 
+                "index": -1, 
                 "group": 0, 
-                "filename": "/home/baal/projects/named/clogs/doc/PRIO.litcoffee"
+                "filename": "/home/baal/projects/named/clogs/src/documents/Paragraph.litcoffee"
+            }, 
+            {
+                "index": -1, 
+                "group": 0, 
+                "filename": "/home/baal/projects/named/clogs/src/documents/Bundle.litcoffee"
+            }, 
+            {
+                "index": -1, 
+                "group": 0, 
+                "filename": "/home/baal/projects/named/clogs/src/documents/Book.litcoffee"
+            }, 
+            {
+                "index": 1, 
+                "group": 0, 
+                "filename": "/home/baal/.config/sublime-text-2/Packages/Clojure/Clojure.tmLanguage"
+            }, 
+            {
+                "index": -1, 
+                "group": 0, 
+                "filename": "/home/baal/projects/named/clogs/doc/README.md"
+            }, 
+            {
+                "index": -1, 
+                "group": -1, 
+                "filename": "/tmp/tmpqkxIFh.litcoffee"
+            }, 
+            {
+                "index": 5, 
+                "group": 0, 
+                "filename": "/home/baal/projects/named/clogs/tools/subl2/fenced-coffee.sublime-snippet"
             }, 
             {
                 "index": -1, 
@@ -846,11 +917,6 @@
                 "filename": "/home/baal/projects/named/clogs/resources/codex/pom.xml"
             }, 
             {
-                "index": 1, 
-                "group": 0, 
-                "filename": "/home/baal/projects/named/clogs/src/structural/outline/Prelogue.litcoffee"
-            }, 
-            {
                 "index": 2, 
                 "group": 0, 
                 "filename": "/home/baal/.config/sublime-text-2/Packages/User/Snippets/fenced-coffee.sublime-snippet"
@@ -858,24 +924,160 @@
         ], 
         "closed": [
             {
-                "index": 0, 
-                "group": 0, 
-                "filename": "/home/baal/projects/named/clogs/tools/subl2/fenced-coffee.sublime-snippet"
+                "index": -1, 
+                "group": -1, 
+                "filename": "/home/baal/projects/named/clogs/README.md"
             }, 
             {
                 "index": 0, 
                 "group": 0, 
-                "filename": "/home/baal/projects/named/clogs/CONCEPT.md"
+                "filename": "/home/baal/projects/named/clogs/example.wisp"
             }, 
             {
                 "index": 1, 
                 "group": 0, 
-                "filename": "/home/baal/projects/named/clogs/src/documents/Book.litcoffee"
+                "filename": "/home/baal/projects/named/clogs/src/plans/Theory.litcoffee"
             }, 
             {
                 "index": 2, 
                 "group": 0, 
-                "filename": "/home/baal/projects/named/clogs/src/documents/Bundle.litcoffee"
+                "filename": "/home/baal/projects/named/clogs/src/Legal.litcoffee"
+            }, 
+            {
+                "index": 1, 
+                "group": 0, 
+                "filename": "/home/baal/.config/sublime-text-2/Packages/User/Wisp.tmLanguage"
+            }, 
+            {
+                "index": 1, 
+                "group": 0, 
+                "filename": "/home/baal/.config/sublime-text-2/Packages/Clojure/Symbol List.tmPreferences"
+            }, 
+            {
+                "index": 0, 
+                "group": 0, 
+                "filename": "/usr/local/src/npm-research/bin/npm-research"
+            }, 
+            {
+                "index": 0, 
+                "group": 0, 
+                "filename": "/home/baal/projects/named/clogs/src/taxonomy/Glyphs.litcoffee"
+            }, 
+            {
+                "index": 1, 
+                "group": 0, 
+                "filename": "/home/baal/projects/named/clogs/src/taxonomy/Seal.litcoffee"
+            }, 
+            {
+                "index": 1, 
+                "group": 0, 
+                "filename": "/home/baal/projects/named/clogs/src/taxonomy/Word.litcoffee"
+            }, 
+            {
+                "index": 1, 
+                "group": 0, 
+                "filename": "/home/baal/projects/named/clogs/src/roles/Scribe.litcoffee"
+            }, 
+            {
+                "index": 5, 
+                "group": 0, 
+                "filename": "/home/baal/projects/named/clogs/src/manuscripts/patterns/BlueprintSingleton.litcoffee"
+            }, 
+            {
+                "index": 4, 
+                "group": 0, 
+                "filename": "/home/baal/projects/named/clogs/data/Google.litcoffee"
+            }, 
+            {
+                "index": 5, 
+                "group": 0, 
+                "filename": "/home/baal/projects/named/clogs/data/sources/Google/GoogleBook.litcoffee"
+            }, 
+            {
+                "index": 5, 
+                "group": 0, 
+                "filename": "/home/baal/projects/named/clogs/tools/subl2/fenced-js.sublime-snippet"
+            }, 
+            {
+                "index": 2, 
+                "group": 0, 
+                "filename": "/home/baal/projects/named/clogs/src/taxonomy/Abbreviations.litcoffee"
+            }, 
+            {
+                "index": 1, 
+                "group": 0, 
+                "filename": "/home/baal/.config/sublime-text-2/Packages/Package Control/Package Control.sublime-settings"
+            }, 
+            {
+                "index": 0, 
+                "group": 0, 
+                "filename": "/home/baal/projects/named/clogs/src/taxonomy/Nomenclature.litcoffee"
+            }, 
+            {
+                "index": 1, 
+                "group": 0, 
+                "filename": "/home/baal/projects/named/clogs/src/taxonomy/Document.litcoffee"
+            }, 
+            {
+                "index": 2, 
+                "group": 0, 
+                "filename": "/home/baal/projects/named/clogs/src/taxonomy/Symbols.litcoffee"
+            }
+        ]
+    }, 
+    "ec2fae4cb7cfc7f7bd175c37a1096ede": {
+        "opened": [
+            {
+                "index": -1, 
+                "group": 0, 
+                "filename": "/home/baal/projects/named/metatron/ROUTINE.litcoffee"
+            }, 
+            {
+                "index": -1, 
+                "group": 0, 
+                "filename": "/home/baal/projects/named/metatron/ROUTINE.txt"
+            }, 
+            {
+                "index": -1, 
+                "group": 0, 
+                "filename": "/home/baal/projects/named/metatron/README.md"
+            }, 
+            {
+                "index": -1, 
+                "group": 0, 
+                "filename": "/home/baal/projects/named/metatron/package.json"
+            }, 
+            {
+                "index": -1, 
+                "group": 0, 
+                "filename": "/home/baal/projects/named/metatron/node_modules/walkdir/.jshintignore"
+            }
+        ], 
+        "closed": [
+            {
+                "index": 0, 
+                "group": 0, 
+                "filename": "/home/baal/projects/named/metatron/readme.coffee.md"
+            }, 
+            {
+                "index": 0, 
+                "group": 0, 
+                "filename": "/home/baal/projects/named/metatron/src/manuscript.litcoffee"
+            }, 
+            {
+                "index": 1, 
+                "group": 0, 
+                "filename": "/home/baal/projects/named/metatron/src/trie.litcoffee"
+            }, 
+            {
+                "index": 2, 
+                "group": 0, 
+                "filename": "/home/baal/projects/named/clogs/tools/subl2/lazy-backticks.sublime-snippet"
+            }, 
+            {
+                "index": -1, 
+                "group": -1, 
+                "filename": "/home/baal/projects/named/metatron/README.coffee.md"
             }
         ]
     }, 

@@ -1258,3 +1258,550 @@ boss = cool, {'bruce', 'springsteen'}
 cool = { 'gang', 'and' }
 boss = boss, {'bruce', 'springsteen'}
 .cls
+list = ['a','b','c','d']
+apply = (fn, args...) -> fn = fn.split "|"; console.log "Apply function #{fn} on #{args...}""
+apply = (fn, args...) -> fn = fn.split "|"; console.log "Apply function #{fn} on #{args...}"
+apply = (fn, args...) -> fn = fn.split "|"; console.log "Apply function #{fn} on #{args...}""
+apply = (fn, args...) -> fn = fn.split "|"; console.log "Apply function #{fn} on #{args...}"
+apply = (fn, args...) -> fn = fn.split "|"; console.log "Apply function #{fn} on #{args}"
+apply "|m|", [1, 2, 3, 4]
+apply = (fn, args...) -> fn = fn.split "|"; console.log "Apply function #{fn[1]} on #{args}"
+apply "|m|", [1, 2, 3, 4]
+apply "|m|", [1, 2, 3, 4]; (log " |m| " + item for item in [1,2,3,4] 
+apply "|m|", [1, 2, 3, 4]; (log " |m| #{item}" for item in [1,2,3,4] 
+apply "|m|", [1, 2, 3, 4]; (log " |m| #{item}") for item in [1,2,3,4] 
+apply "|m|", [1, 2, 3, 4]; (console.log " |m| #{item}") for item in [1,2,3,4] 
+log = console.log
+(log "|x|") for item in [1..100]
+(log "|x|") for item in [1..5]
+(log "|item|") for item in [1..5]
+(log "|#{item}|") for item in [1..5]
+.cls
+(log "|#{item}|") for item in [1..5]
+(log "|#{item}|") for item in ["~",">","*"]
+(log "|#{item}|") for item in ["~",">","*", "%", "^", "|"]
+(log "|#{item}|") for item in ["~",">","*", "<", "%", "^", "|"]
+(log "|#{item}|") for item in ["~",">","*", "<", "%", "^", "|", "+"]
+(log "|#{item}|") for item in ["~",">","*", "<", "%", "^", "|", "+", "-"]
+(log "|#{item}|") for item in ["~",">","*", "<", "%", "^", "|", "+", "-","\"]
+(log "|#{item}|") for item in ["~",">","*", "<", "%", "^", "|", "+", "-","\\"]
+(log "|#{item}|") for item in ["~",">","*", "<", "%", "^", "|", "+", "-","\\","/"]
+(log "|#{item}|") for item in ["~",">","*", "<", "%", "^", "|", "+", "-","\\","/","`"]
+(log "|#{item}|") for item in ["~",">","*", "<", "%", "^", "|", "+", "-","\\","/","`","."]
+(log "|#{item}|") for item in ["~",">","*", "<", "%", "^", "|", "+", "-","\\",".","/","`"]
+(log "[#{item}]") for item in ["~",">","*", "<", "%", "^", "|", "+", "-","\\",".","/","`"]
+(log "[#{item}]") for item in ["~",">","*", "<", "%", "^", "|", "+", "-","\\",".","/","`","m"]
+UCD = require 'ucd'
+UCD.getName('~')
+UCD.getName('.')
+UCD.getName('^')
+UCD = require 'ucd'
+UCD.getName()
+UCD.getName('a')
+UCD.getName('c')
+UCD.getName('*')
+gb = require 'google-books'
+{gb} = require 'google-books'
+gb = require 'google-books'
+gb
+gb()
+gb.searchBy()
+gb().searchBy()
+gb().searchBy("author")
+gb.searchBy("author")
+searchBy()
+gb = require 'google-books'
+gb().searchBy("author")
+gb.searchBy("author")
+(gb).searchBy("author")
+(gb).searchBy(authorin)
+(gb).searchBy(author)
+query = "some:
+query = "some"
+gb.searchBy(query, 'authorin')
+gb.search(query, 'authorin')
+gb.search query, 'authorin'
+gb.search
+gb().search
+gb().search()
+gb().search
+gb().search ->
+gb().search = ->
+{GoogleBooks} = require('google-books').GoogleBooks
+{GoogleBooks} = require('google-books').GoogleBooks()
+{GoogleBooks} = require('google-books')
+GBooks = require('google-books')
+GBooks.GoogleBooks
+GBooks.GoogleBooks()
+gb = require('google-books')
+gb
+gb()
+log gb
+console.log gb
+console.log item for item of gb
+console.log item for item in gb
+ucd = require 'ucd'
+ucd.readUnicodeData()
+ucd.valueOf "PAREN"
+ucd.readUnicodeData
+ucd.readUnicodeData()
+ucd.readUnicodeData(unicodeVersion)
+ucd.unicodeVersion()
+ucd.getUnicodeVersion()
+ucd.readUnicodeData(ucd.getUnicodeVersion)
+ucd.readUnicodeData(ucd.getUnicodeVersion())
+npm = require '
+npm = require 'npm'
+npm.commands.ls
+console.log npm.commands.ls
+npm.load()
+npm.load(__dirname)
+fs = require 'fs'
+pkg = fs.readFileSync './package.json', 'utf-8'
+npm.load pkg, ->
+console.log npm.commands.ls
+log = console.log
+npm
+console.log npm.commands.la
+npm.commands.la
+npm.commands.la()
+npm.commands.ls()
+log npm.commands.ls()
+npm.commands.ls
+npm.commands.ls.completion
+npm.commands.ls.completion()
+x = require 'src/documents/Paragraph.litcoffee'
+x = require './src/documents/Paragraph.litcoffee'
+{x} = require './src/documents/Paragraph.litcoffee'
+{Para} = require('./src/documents/Paragraph')
+Para
+p = new Para()
+p = new Para
+p = new Para('a', 'b')
+Para = require('./src/documents/Paragraph')
+p = new Para()
+p = new Para('a', 'b')
+p.a
+p = new Para(@a: 'a', 'b')
+p = new Para('a', 'b', 1, 2)
+p.a
+p.b
+p.ff
+p.a()
+@p.a
+p.@a
+this
+root
+wisp = require 'wisp'
+cc = require 'coffeecup'
+stylus = require 'stylus'
+stylus.render 
+stylus.render "body { color white }"
+str = """
+nody
+  color: blue
+body
+  background blue
+"""
+str = """＀nody＀  color: blue＀＀body＀  background blue＀"""＀
+cs = require 'coffee-script'
+cs.compile require('fs').readFileSync "./src/Legal.litcoffee", 'utf-8'
+cs.compile require('fs').readFileSync "src/Legal.litcoffee", 'utf-8'
+cs = require 'coffee-script'
+require 'coffee-script'
+str = "# hello world\n\n    console.log 'pit'\n\n Ths is text"
+cs = require 'coffee-script'
+cs.helpers.invertLiterate str
+path = require 'path'
+path.resolve __dirname
+path.resolve "."
+moment = require 'moment'
+moment.lang 'nl'
+moment.lang()
+moment
+require 'wrench'
+x = require 'wrench'
+x.readdirRecursive "."
+x = require 'wrench'
+x.readdirRecursive ".", (err, curFiles) -> console.log curFiles
+x = require 'wrench'
+x.readdirRecursive __dirname, (err, done) -> console.log done
+x.readdirRecursive "./config", (err, done) -> console.log done
+x.readdirRecursive "/tmp", (err, done) -> console.log done
+p = require 'path'
+x = require 'walkdir'
+x.find
+x.find()
+x.find("*.styl")
+x = require 'walkdir'
+x.find("styl")
+x = require 'walkdir'
+x
+x.find
+x.walk
+x.walk(".")
+x.find("/config")
+x = require 'walkdir'
+x.walk(".")
+f = require 'findit'
+x = require 'json-tool'
+x = require 'json'
+x = require 'jsontool'
+.cls
+qsf
+.cls
+.help
+x = require 'jsontool'
+x.main
+x = require 'jsontool'
+x.main([1,2,3,4]
+x = require 'jsontool'
+x.main [1,2,3,4
+x = require 'jsontool'
+key, val of x
+key for key, val of x
+val for key, val of x
+x = require 'natural'
+fs = require 'fs'
+require 'fs'
+s = require 'stylus'
+s.render
+log s.render
+console.log s.render
+console.log s.render()
+ s.render()
+s.render.toString()
+s.options
+s.options()
+s.set.toString()
+s.Renderer.toString()
+s.nodes.Renderer.toString()
+s.nodes.Renderer
+s.nodes
+stylus = require 'stylus'
+stylus(fs.readFileSync "src/lib/test.styl", 'utf-8').set('file.css').set('paths', [__dirname, __dirname + "/src/lib"])
+stylus(fs.readFileSync "src/lib/test.styl", 'utf-8').set('file.css').set('paths', [".","./src/lib"]).render (err, css) -> console.log css
+stylus(fs.readFileSync "src/lib/test.styl", 'utf-8').set('file.css').set('paths', [".","./src/lib"]).render (err, css) -> throw err if err; console.log css
+content = null
+stylus(fs.readFileSync "src/lib/test.styl", 'utf-8').set('file.css').set('paths', [".","./src/lib"]).render (err, css) -> throw err if err; content = css
+content
+stylus(fs.readFileSync "src/lib/test.styl", 'utf-8').set('file.css').set('paths', [".","./src/lib",]).render (err, css) -> throw err if err; content = css
+stylus(fs.readFileSync "src/lib/test.styl", 'utf-8').set('file.css').set('paths', [".","./src/lib","./src/lib/cultivus"]).render (err, css) -> throw err if err; content = css
+content
+stylus(fs.readFileSync "src/lib/test.styl", 'utf-8').set('file.css').set('paths', [".","./src/lib","./src/lib/cultivus"]).import("./src/lib/cultivus").render (err, css) -> throw err if err; content = css
+content
+stylus(fs.readFileSync "src/lib/test.styl", 'utf-8').set('file.css').set('paths', [".","./src/lib","./src/lib/cultivus"]).import("./src/lib/cultivus").render (err, css) -> throw err if err; content = css
+content
+stylus(fs.readFileSync "src/lib/test.styl", 'utf-8').set('file.css').set('paths', [".","./src/lib","./src/lib/cultivus"]).import("./src/lib/cultivus").render (err, css) -> throw err if err; content = css
+content
+x
+x = require 'stylus'
+x = require 'detective'
+x.find
+x.find()
+x.find.toString()
+x = require 'coffee-script'
+x.compile.toString()
+x.compile('readme.litcoffee')
+x.run('readme.litcoffee')
+x.run('x = true')
+x.compile('x = true')
+p = require 'path'
+cs = require 'coffee-script'
+.cls
+strLit = """
+# Hello cruel world!
+Life has been a pain, please finish my process and KILL me (or sigterm is also ok)
+    console.log "w0000t, there we go"
+    (log "Pay up front #{num * 100}") for num in [1..10]
+Bye now
+"""
+strLit = """＀# Hello cruel world!＀＀Life has been a pain, please finish my process and KILL me (or sigterm is also ok)＀＀    console.log "w0000t, there we go"＀    (log "Pay up front #{num * 100}") for num in [1..10]＀＀Bye now＀"""＀
+strLit = """
+# Hello cruel world!
+Life has been a pain, please finish my process and KILL me (or sigterm is also ok)
+Bye now
+    console.log "w0000t, there we go"
+    (log "Pay up front #{num * 100}") num for num in [1..10]
+    console.log "bye (for real)"
+"""
+strLit = """＀# Hello cruel world!＀＀Life has been a pain, please finish my process and KILL me (or sigterm is also ok)＀Bye now＀＀    console.log "w0000t, there we go"＀    (log "Pay up front #{num * 100}") num for num in [1..10]＀    console.log "bye (for real)"＀＀"""＀
+strLit = """
+# Hello cruel world!
+strLit = """＀# Hello cruel world!＀
+strLit = """# Hello world
+This is fun isnt it?
+Weeeeeeeeeeeeee
+    console.log "w0000t, there we go"
+    for num in [1..10]
+        console.log num
+Bye
+"""
+strLit = """# Hello world＀This is fun isnt it?＀＀Weeeeeeeeeeeeee＀＀    console.log "w0000t, there we go"＀    for num in [1..10]＀        console.log num＀＀Bye＀"""＀
+cs.render cs.helpers.invertLiterate strLit
+cs.compile cs.helpers.invertLiterate strLit
+cs.helpers.invertLiterate strLit
+/^\#/.exec(cs.helpers.invertLiterate strLit)
+match = /^\#/.exec(cs.helpers.invertLiterate strLit)
+log match
+console.log match
+match = /^\#/.test(cs.helpers.invertLiterate strLit)
+console.log match
+match = (cs.helpers.invertLiterate strLit).test /^\#/
+match = /^\#/.test(cs.helpers.invertLiterate strLit)
+match
+console.log match
+n = cs.helpers.invertLiterate(strLit).match /^\#/
+console.log n
+n = cs.helpers.invertLiterate(strLit).match /\n\#/
+console.log n
+n
+n = cs.helpers.invertLiterate(strLit).match /(\n\#)+/
+n
+n = cs.helpers.invertLiterate(strLit).match /(\n\#).*/
+n
+n = cs.helpers.invertLiterate(strLit).match /(\n\#).*/ig
+n = cs.helpers.invertLiterate(strLit).match /(\n\#\W).*/ig
+b = require 'burrito'
+src = burrito('f() && g(h())\nfoo()', (node) -> if node.name is 'call' then node.wrap 'qqq(%s)'
+src = burrito 'f() && g(h())\nfoo()', (node) -> if node.name is 'call' then node.wrap 'qqq(%s)'
+burrito = require 'burrito'
+src = burrito 'f() && g(h())\nfoo()', (node) -> if node.name is 'call' then node.wrap 'qqq(%s)'
+d = require 'detective'
+d.find
+d.find()
+d.find("node")
+fs = require 'fs'
+d = require 'detective'
+fs = require 'fs'
+src = fs.readFileSync "./node_modules/juice/index.js"
+requires = detective(src)
+requires = d(src)
+src = fs.readFileSync "./node_modules/*"
+requires = d(src)
+requires = d(src, opts.nodes = true)
+requires = d(src, true)
+requires = d(src, {node: true})
+n = require 'npm-research'
+n = require 'assetviz'
+n()
+n.toString()
+JSON.stringify(n.toString())
+JSON.stringify(n)
+JSON.parse(n)
+JSON.parse(n.toString())
+cs = require 'coffee-script'
+cs.render cs.helpers.invertLiterate('./site/documenten/assets/mediaverbindingen.litcoffee')
+cs.render cs.helpers.invertLiterate(require('fs').readFileSync './site/documenten/assets/vimeo.litcoffee', 'utf-8')
+cs.render cs.helpers.invertLiterate(require('fs').readFileSync '/site/documenten/assets/vimeo.litcoffee', 'utf-8')
+cs.render cs.helpers.invertLiterate(require('fs').readFileSync 'site/documenten/assets/vimeo.litcoffee', 'utf-8')
+cs = require 'coffee-script'
+cs.render cs.helpers.invertLiterate(require('fs').readFileSync 'site/documenten/assets/vimeo.litcoffee', 'utf-8')
+cs.compile cs.helpers.invertLiterate(require('fs').readFileSync 'site/documenten/assets/vimeo.litcoffee', 'utf-8')
+cs = require 'coffee-script'
+cs.compile 'site/documenten/assets/vimeo.litcoffee'
+cs = require 'coffee-script'
+cs.compile cs.helpers.invertLiterate(require('fs').readFileSync 'site/documenten/assets/vimeo.litcoffee', 'utf-8')
+cs.helpers.invertLiterate(require('fs').readFileSync 'site/documenten/assets/vimeo.litcoffee', 'utf-8')
+p = require 'prompt'
+p.start()
+p.get ['continue','path'], (err,result) ->
+  console.log 'Input received:'
+  console.log '  continueYN:' + result.continue
+  console.log '  locationdir: + result.path
+p.get ['continue','path'], (err,result) ->＀  console.log 'Input received:'＀  console.log '  continueYN:' + result.continue＀  console.log '  locationdir: + result.path＀
+p.get ['continue','path'], (err,result) ->
+  console.log 'Input received:'
+p = require 'prompt'
+p.start()
+p.get ['continue','path'], (err,result) ->
+  console.log 'Input received:'
+  console.log '  continueYN:' + result.continue
+  console.log '  locationdir:' + result.path
+p.get ['continue','path'], (err,result) ->＀  console.log 'Input received:'＀  console.log '  continueYN:' + result.continue＀  console.log '  locationdir:' + result.path＀
+eff/ewfw/wef
+p = require 'prompt'
+p.start()
+p.get ['continue','path'], (err,result) ->
+p.get ['continue','path'], (err,result) ->＀  console.log 'Input received:'＀  console.log '  continueYN:' + result.continue＀  console.log '  locationdir:' + result.path＀
+myi
+p = require 'prompt'
+p.logger
+sys = require 'sys'
+sys.puts 'foo'
+cluster = require 'cluster'
+cluster(app).set('workers', 8).use(cluster.logger('data/logs/cluster.log')).use(cluster,debug()).use(cluster.repl(8888)).listen()
+st = """
+numbers = (1...10)
+"""
+st = """＀numbers = (1...10)＀"""＀
+str = """
+numbers = 1...999
+for number in numbers
+    .number-{number}
+"""
+str = """＀numbers = 1...999＀for number in numbers＀    .number-{number}＀"""＀
+stylus = require 'stylus'
+stylus(str).render()
+numbers = 1...999
+str = """
+numbers = 1...999
+app()
+  for number in numbers
+    .a-num-{number}
+      background: black;
+app()
+"""
+str = """＀numbers = 1...999＀app()＀  for number in numbers＀    .a-num-{number}＀      background: black;＀app()＀"""＀
+log = console.log
+log str
+stylus
+stylus(str).render((err,css) -> console.log css
+stylus(str).render((err,css) -> console.log css)
+stylus("""getRange(numbers = 1...999) """).render((err,css) -> console.log css)
+    for number in numbers
+        .num-{number}
+            content: '1'
+stylus("""getRange(numbers = 1...999) """).render((err,css) -> console.log css)
+    for number in numbers
+        .num-{number}
+            content: '1'
+stylus("""getRange(numbers = 1...10)\n  for num in numbers\n    .klasse-nummer-{num}\n     content: '1'\n""").render((err,css) -> console.log css)
+stylus("""getRange(numbers = 1...10)\n  for num in numbers\n    .klasse-nummer-{num}\n     content: '1'\n        getRange()""").render((err,css) -> console.log css)
+stylus("getRange(numbers = 1...10)\n  for num in numbers\n    .klasse-nummer-{num}\n     content: '1'\n        getRange()").render((err,css) -> console.log css)
+"""
+"""＀
+str = """
+getRange(numbers = 1...999)
+    for number in numbers
+        .num-{number}
+            content: '1'
+"""
+str = """＀getRange(numbers = 1...999)＀    for number in numbers＀        .num-{number}＀            content: '1'＀"""＀
+stylus(str).render((err,css) -> console.log css)
+fn = "getRange()"
+stylus(str+fn).render((err,css) -> console.log css)
+str = """
+numbers = 1...999
+    for number in numbers
+        .num-{number}
+            content: '1'
+str = """
+ten = 10
+range = 1...10
+def()
+  for n in range
+    .klasse-nummer-{n}
+      background black;
+def()
+"""
+str = """＀ten = 10＀range = 1...10＀def()＀  for n in range＀    .klasse-nummer-{n}＀      background black;＀def()＀"""＀
+stylus(str).render((err,css) -> console.log css)
+stylus = require 'stylus'
+stylus(str).render((err,css) -> console.log css)
+range = 1...200
+range = [1...200]
+typeof range[0]
+getOrdinal = (number) -> 
+  if typeof number is 'number and < 0 and not > 999
+    hundredRemainer = number % 100
+    tenRemainer = number % 10
+    console.log tenRemainer
+    console.log hundredRemainer
+getOrdinal = (number) -> ＀  if typeof number is 'number and < 0 and not > 999＀    hundredRemainer = number % 100＀    tenRemainer = number % 10＀    console.log tenRemainer＀    console.log hundredRemainer＀
+getOrdinal = (number) -> 
+  if typeof number is 'number' and number < 0 and not number > 999
+    hundredRemainer = number % 100
+    tenRemainer = number % 10
+    console.log hundredRemainer
+    console.log tenRemainer
+getOrdinal = (number) -> ＀  if typeof number is 'number' and number < 0 and not number > 999＀    hundredRemainer = number % 100＀    tenRemainer = number % 10＀    console.log hundredRemainer＀    console.log tenRemainer＀
+getOrdinal 10
+getOrdinal 11
+getOrdinal 12
+getOrdinal = (number) -> 
+  if typeof number is 'number' and number not < 0 and not number > 999
+    hundredRemainer = number % 100
+    tenRemainer = number % 10
+    console.log hundredRemainer
+    console.log tenRemainer
+getOrdinal = (number) -> ＀  if typeof number is 'number' and number not < 0 and not number > 999＀    hundredRemainer = number % 100＀    tenRemainer = number % 10＀    console.log hundredRemainer＀    console.log tenRemainer＀
+getOrdinal = (number) -> if typeof number is 'number' and <= 0 and <= 999 then console.log 'fooo'
+getOrdinal = (number) -> if typeof number is 'number' and <= 0 value <= 999 then console.log 'fooo'
+getOrdinal = (number) -> if typeof number is 'number' and value <= 0 and value <= 999 then console.log 'fooo'
+getOrdinal 12
+getOrdinal = (number) -> if typeof number is 'number' and number <= 0 and number <= 999 then console.log 'fooo'
+getOrdinal 12
+getOrdinal = (number) -> if typeof number is 'number' and number <= 0 and <= 999 then console.log 'fooo'
+if 1 <= 2 <= 3 then console.log 'fooo'
+value = 1; if 1 <= value <= 3 then console.log 'fooo'
+getOrdinal = (number) -> if typeof number is 'number' and <= 0 number <= 999 then console.log 'fooo'
+getOrdinal = (number) -> if typeof number is 'number' and (<= 0 number <= 999) then console.log 'fooo'
+getOrdinal = (number) -> if typeof number is 'number' and <= 1 number <= 999 then console.log 'fooo'
+101101 <<<
+console.log 34124 >>> 24647
+10100101 <<< 10100100
+10100101 <<< 101001011
+10100101 <<< "jansen"
+10100101 << "jansen"
+10100101 << 10101
+10100101 << 10101122
+10 % 3
+100 % 4
+100 % 3
+100 % 2
+100 % 1
+100 % 5
+100 % 6
+100 % 8
+100 % 888
+133 % 100
+133 % 10
+101 % 100
+101 % 10
+v = 133
+h = v % 100
+t = v % 10
+h - t
+v = 134
+h - t
+h = v % 100
+t = v % 10
+h - t
+stylus
+stylus = require 'stylus'
+str = """＀numbers = 1...999＀app()＀  for number in numbers＀    .a-num-{number}＀      backgroun
+str = """＀numbers = 1...999＀app()＀  for number in numbers＀    .a-num-{number}＀      background: black;＀app()＀"""＀
+stylus("""getRange(numbers = 1...999) """).render((err,css) -> console.log css)
+stylus(str).render((err,css) -> console.log css)
+require('stylus(str).render((err,css) -> console.log css)')
+require('stylus').(str).render((err,css) -> console.log css)
+require('stylus').stylus(str).render((err,css) -> console.log css)
+(require('stylus')).(str).render((err,css) -> console.log css)
+(require('stylus')).str).render((err,css) -> console.log css)
+(require('stylus')).str.render((err,css) -> console.log css)
+require('stylus').str.render((err,css) -> console.log css)
+stylus
+stylus = require('stylus')
+s = require 'stylus'
+sum = require 'sum'
+str = require('fs').readFileSync 'site/documents/diensten/accountancy.html.coffee', 'utf-8'
+str = require('fs').readFileSync 'site/documenten/diensten/accountancy.html.coffee', 'utf-8'
+str = require('fs').readFileSync 'site/documenten/diensten/accountancy/accountancy.html.coffee', 'utf-8'
+abstract = sum corpus: str
+natural = require 'natural'
+tokenizer = new natural.WordTokenizer()
+log = console.log
+log tokenizer.tokenize "your dog has flees."
+log tokenizer.tokenize "your dog hasn't had any flees."
+tokenizer = new natural.TreebankWordTokenizer()"
+tokenizer = new natural.TreebankWordTokenizer()
+console.log(tokenizer.tokenize("my dog hasn't any flees."))
+log natural.JaroWinklerDistance "can-i-haz-theme", "can-i-have-a-theme"
+log natural.JaroWinklerDistance "can-i-haz-theme", "can-i-apply-a-theme"
+log natural.JaroWinklerDistance "can-i-haz-theme", "can-i-delete-a-theme"
+log natural.JaroWinklerDistance "can-i-haz-theme", "can-i-delete-theme"
+log natural.JaroWinklerDistance "can-i-haz-theme", "no sir"
+log natural.JaroWinklerDistance "x", "no sir"
+log natural.JaroWinklerDistance "xn", "no sir"
+log natural.JaroWinklerDistance "xn", "no sir you do not"
