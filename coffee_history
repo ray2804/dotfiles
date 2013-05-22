@@ -1805,3 +1805,226 @@ log natural.JaroWinklerDistance "can-i-haz-theme", "no sir"
 log natural.JaroWinklerDistance "x", "no sir"
 log natural.JaroWinklerDistance "xn", "no sir"
 log natural.JaroWinklerDistance "xn", "no sir you do not"
+require 'fs'
+log = console.log
+log 'hallo wereld'
+cs = require 'coffee-script'
+n = require 'numeral'
+n.language
+n.language('nl')
+n.language('nl_NL')
+n.language('nl_NL.UTF-8')
+n.language('Dutch')
+n.language('Nederlands')
+n.language.toString()
+n.language(['nl'])
+n.language({'nl': 'nederlands'})
+n.language
+n.language()
+n.language.constructor.toString()
+n.language.constructor.toString
+n.language.constructor.toString.toString()
+n.language.constructor
+n.language.constructor.toString()
+.help
+.exit
+c = require 'coffee'
+c = require 'coffee-script'
+c.compile
+c.compile.toString()
+c
+i18n = require 'i18n'
+i18n = require 'i18next'
+i18n.init lng: "nl-NL"
+i18n.detectLanguage()
+i18n = require 'i18next'
+i18n.init lng: "nl-NL"
+i18n.init()
+i18n.init
+i18n.setLng 'nl-NL'
+i18n.setLng 'nl'
+i18n.init()
+x = i18n.t("key")
+i18n.init {lng: "nl-NL"}, (t) -> x = t("key")
+i18n.init {lng: "en-US"}, (t) -> x = t("key")
+i18n.init {lng: "enS"}, (t) -> x = t("key")
+i18n.init {lng: "en"}, (t) -> x = t("key")
+i18n
+x = i18n.t("attr.placeholder")
+x = i18n.t("attr")
+x = i18n.t
+x = i18n.t()
+i18n = require 'i18next'
+i18n.init()
+i18n
+subl .
+i18n.init({lng: "dev"}), (t) -> t("key")
+i18n.init {lng: "dev"}, (t) -> t("key")
+i18n.setLng 'nl'
+i18n.init {lng: "dev"}, (t) -> t("key")
+x = i18n.t("key")
+i18n.setLng 'nl', (cb) ->
+i18n.lng()
+x = i18n.t("key")
+i18n.lng()
+i18n.setLng 'nl', (cb) ->
+i18n.lng()
+x = i18n.t("key")
+18n.init({ detectLngQS: 'lang' })
+i18n.init({ detectLngQS: 'lang' })
+i18n.lng()
+i18n.init({ fallbackLng: 'en' })
+i18n.init({ preload: ['nl','nl-NL','en-US'], fallbackLng: 'en' })
+i18n.init({ preload: ['nl','nl-NL','en-US'], fallbackLng: 'en',load: 'current'  })
+x = i18n.t("app")
+x = i18n.t("key")
+x = i18n.t("ns.key")
+i18n.init { preload: ['nl','nl-NL','en-US'], fallbackLng: 'en',load: 'current'  }, (t) -> appName = t("key")
+appName
+t
+i18n.t
+i18n.t()
+i18n.t("key")
+i18n.t("app.company")
+resources = {
+ dev: { translation: { 'key': 'value' } },
+  en: { translation: { 'key': 'value' } },            
+}
+resources = {＀ dev: { translation: { 'key': 'value' } },＀  en: { translation: { 'key': 'value' } },            ＀  en: { translation: { 'key': 'value' } },            ＀}＀
+resources = {
+    dev: { translation: { 'key': 'value' } },
+    en: { translation: { 'key': 'value' } },
+    nl: { translation: { 'key': 'value2' } }
+}
+resources = {＀    dev: { translation: { 'key': 'value' } },＀    en: { translation: { 'key': 'value' } },＀    nl: { translation: { 'key': 'value2' } }＀}＀
+i18n.t("key")
+i18n.t(key")
+i18n.t(key)
+i18n.t("value2")
+i18n.t("key")
+i18n.init({ resStore: resources })
+i18n.t("key")
+m = require 'minify'
+m = require 'node-minify'
+require.main === module
+require.main is module
+require.main == module
+require.main = module
+require.main is module
+require 'etc/transpiler'
+require 'etc/transpiler.litcoffee'
+require __dirname + '/etc/transpiler.litcoffee'
+n = require 'moment'
+n.lang
+n.lang()
+n.lang('nl')
+n.lang()
+n.fn.week
+n.fn.week()
+n.fn.week(Now())
+n.fn.week(Date())
+n.format()
+n().format()
+n().week()
+n().toDate()
+n().lang
+n().lang()
+n().asWeeks()
+n().weeks
+n().weeks()
+n().week()
+n().toWeek()
+n().toWeeks()
+n.week(1)
+n().week(1)
+n().week()
+n().weeks()
+n().weeks(1)
+n().day(-1)
+n().lang('nl').day(-1)
+n().lang('nl').days(-1)
+moment = require 'moment'
+moment()
+moment().format()
+now = moment()
+moment('blah').isValid()
+w = require 'walkdir'
+e = require 'events'
+e = require('events').EventEmitter
+Foo = EventEmitter.extend {name: 'foo'}
+Foo = e.extend {name: 'foo'}
+EventEmitter = require('events').EventEmitter
+Foo = EventEmitter.extend({name: 'foo'})
+{EventEmitter} = require('events').EventEmitter
+Foo = EventEmitter.extend({name: 'foo'})
+EventEmitter = require('https!raw.github.com/Gozala/events/v0.2.0/events.js').EventEmitter
+wisp = require('wisp').main()
+{wisp} = require('wisp').main()
+w = require 'wisp'
+w = require('wisp').main()
+w = require('wisp').main
+w
+console.log w
+console.log @w
+w = require('wisp').main()
+require('wisp').main()
+dp = require('docpad').createInstance {}
+dp = require('docpad').createInstance require('fs').readFileSync('../docpad.js', 'utf-8')
+cluster = require 'cluster'
+http = require 'http'
+numCPUs = require("os").cpus().length
+p = require 'path'
+require('path').resolve "../../"
+s = require 'stylus'
+c = require "consolidate"
+v = require "vague-time"
+v.getVagueTime()
+v.getVagueTime
+v()
+v
+v.get()
+v.get
+v.get()
+v.get(Date())
+v.get(Date() - 19)
+v.get(Date() - 1989445)
+v.get(Date() - 19894454333t)
+v.get(Date() - 19894454333)
+v.get(Date()+2413153)
+Color = require 'color'
+color = Color("red")
+color = Color("#763497")
+c = require "component"
+c = require 'component'
+c.file.toString()
+c = require 'component'
+c.lookup()
+c.lookup("./")
+modul
+module
+module.path
+module.path()
+module._builtinLibs
+module._builtinLibs()
+module._builtinLibs.path
+module._builtinLibs.path()
+r = require "range"
+r = require "r...e"
+r(a..z)
+r a..z
+r(1,10).toArray()
+r("a","z").toArray()
+r(1,100).toArray()
+npm = require 'npm'
+npm.commands.ls
+npm.load require('fs').readFileSync("./package.json", "utf-8")
+npm.commands.ls
+npm.commands.ls()
+require "color"
+require("color").toString()
+require("color") "#363636"
+confuse = require 'confuse'
+console.dir confuse
+confuse = require('confuse')()
+console.dir confuse
+require 'bower'

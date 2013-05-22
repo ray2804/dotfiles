@@ -1,0 +1,26 @@
+<snippet>
+    <content><![CDATA[
+
+;; Note the dot between 1 and 2; this indicates that the S-expression is a
+;; "dotted pair," rather than a "list."
+(1 . 2)
+
+;; Cons cell diagram for the list 42, 69, 613; written with cons:
+(cons 42 (cons 69 (cons 613 nil)))
+
+;; and written with list:
+(list 42 69 613)
+
+;; In Lisp, lists are implemented on top of cons pairs. More specifically, any list
+;; structure in Lisp is either: An empty list (), which is a special object usually
+;; called nil.
+
+;; A cons cell whose car is the first element of the list and whose cdr is a list
+;; containing the rest of the elements.
+
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>!cons</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.wisp</scope>
+</snippet>

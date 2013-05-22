@@ -267,7 +267,7 @@ URxvt*color15:                  #cdcfce
 ! ---------------
 
 URxvt.perl-lib:                 ${HOME}/data/code/scripts/perl/urxvtcd
-URxvt.perl-ext-common:          default,matcher,keyboard-select,clipboard
+URxvt.perl-ext-common:          default,matcher,clipboard
 ! URxvt.perl-ext-common:  default,tabbed,keyboard-select,url-select,clipboard
 !,font-size,fullscreen,clipboard
 

@@ -1,0 +1,4 @@
+{
+    "cmd": ["wisp", "$file"],
+    "selector": "source.wisp"
+}

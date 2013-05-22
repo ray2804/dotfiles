@@ -33,7 +33,7 @@ alias diff="colordiff"
 # Alias subs
 alias l="ls++"
 alias la="ls++ -a"
-alias lt="nohup lighttable & disown"
+alias lt="nohup LightTable & disown"
 alias xm="vim -c ':vsp ~/.xmonad/xmonad.hs' ~/.xmonad/dzen4xmonad"
 
 alias getinfo-time="timedatectl status"

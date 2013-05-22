@@ -1,11 +1,15 @@
 {
-	"caret_style": "smooth",
+	"auto_match_enabled": true,
+	"caret_style": "wide",
 	"close_windows_when_empty": true,
-	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"color_scheme": "Packages/Theme - Nexus/Nexus.tmTheme",
 	"dictionary": "Packages/Language - English/en_US.dic",
+	"draw_indent_guides": true,
 	"draw_white_space": "all",
 	"font_face": "DroidSansMono",
-	"font_size": 8,
+	"font_size": 10,
+	"gutter": true,
+	"highlight_line": true,
 	"hot_exit": false,
 	"ignored_packages":
 	[
@@ -16,6 +20,10 @@
 		"internet",
 		"stylesheet"
 	],
+	"line_numbers": true,
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
+	"margin": 10,
 	"repository_channels":
 	[
 		"http://sublime.wbond.net/repositories.json"
@@ -25,10 +33,12 @@
 		72,
 		79
 	],
+	"spell_check": true,
 	"tab_size": 4,
-	"theme": "zenburn.sublime-theme",
+	"theme": "Nexus.sublime-theme",
 	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": false,
+	"trim_trailing_white_space_on_save": true,
 	"wide_caret": true,
-	"word_wrap": "auto"
+	"word_wrap": false,
+	"wrap_width": 80
 }

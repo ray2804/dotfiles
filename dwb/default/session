@@ -1,6 +1,3 @@
 g:default
--1 http://pkgs.org/centos-6-rhel-6/centos-rhel-i386/aic94xx-firmware-30-2.el6.noarch.rpm.html aic94xx-firmware-30-2.el6.noarch.rpm
-0|0 http://pkgs.org/widget/ Widget - pkgs.org
-0|0 http://www.pmg.lcs.mit.edu/papers/thetaref/node34.html Call by Sharing
-1 http://www.pmg.lcs.mit.edu/papers/thetaref/node32.html Invocation
-2 http://www.pmg.lcs.mit.edu/papers/thetaref/tmp.html 404
+0|0 https://github.com/substack/js-traverse substack/js-traverse · GitHub
+0|0 https://github.com/indexzero/node-pkginfo indexzero/node-pkginfo · GitHub

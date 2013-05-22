@@ -1,0 +1,20 @@
+<snippet>
+    <content><![CDATA[
+```coffeescript
+
+    ${1:someFunction} = (${2:x}) ->
+        return [] if $2.length == 0
+        h = $2.pop()
+        smallerOrEqual = (a for a in $2 when a <= h)
+        larger = (a for a in $2 when a > h)
+        ($1 smallerOrEqual).concat([h]).concat($1 larger)
+
+```
+
+
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>`qs</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.litcoffee</scope>
+</snippet>

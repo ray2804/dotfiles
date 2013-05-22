@@ -107,8 +107,8 @@ export AURLINKS=comments
 # Explicit language since some apps need it
 export LANG=en_US.UTF-8
 
-# Pager keep info on screen after exit
-export LESS=X
+# Pager keep info on screen after exit (X) and colors when piped (-r)
+export LESS=X-r
 
 # Default text editor (also used in ranger preview)
 export EDITOR=vim

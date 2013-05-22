@@ -2,7 +2,7 @@
 # /home/baal/.nvidia-settings-rc
 #
 # Configuration file for nvidia-settings - the NVIDIA X Server Settings utility
-# Generated on Tue May  7 14:05:07 2013
+# Generated on Mon May 20 21:13:14 2013
 #
 
 # ConfigProperties:
@@ -13,19 +13,13 @@ DisplayStatusBar = Yes
 SliderTextEntries = Yes
 IncludeDisplayNameInConfigFile = Yes
 ShowQuitDialog = No
+UpdateRulesOnProfileNameChange = Yes
 Timer = PowerMizer_Monitor_(GPU_0),Yes,1000
 Timer = Thermal_Monitor_(GPU_0),Yes,1000
 Timer = Memory_Used_(GPU_0),Yes,3000
 
 # Attributes:
 
-ares.domain.tld:0.0/CursorShadow=0
-ares.domain.tld:0.0/CursorShadowAlpha=64
-ares.domain.tld:0.0/CursorShadowRed=0
-ares.domain.tld:0.0/CursorShadowGreen=0
-ares.domain.tld:0.0/CursorShadowBlue=0
-ares.domain.tld:0.0/CursorShadowXOffset=4
-ares.domain.tld:0.0/CursorShadowYOffset=2
 ares.domain.tld:0.0/SyncToVBlank=1
 ares.domain.tld:0.0/LogAniso=0
 ares.domain.tld:0.0/FSAA=0
@@ -38,9 +32,12 @@ ares.domain.tld:0.0/LogAnisoAppControlled=1
 ares.domain.tld:0.0/OpenGLImageSettings=1
 ares.domain.tld:0.0/FSAAAppEnhanced=0
 ares.domain.tld:0.0/DigitalVibrance[DFP-0]=0
+ares.domain.tld:0.0/DigitalVibrance[DFP-1]=0
 ares.domain.tld:0.0/ColorSpace[DFP-0]=0
+ares.domain.tld:0.0/ColorSpace[DFP-1]=0
 ares.domain.tld:0.0/ColorRange[DFP-0]=0
-ares.domain.tld:0.0/XVideoSyncToDisplay=2
+ares.domain.tld:0.0/ColorRange[DFP-1]=0
+ares.domain.tld:0.0/XVideoSyncToDisplay=65536
 ares.domain.tld:0[dpy:2]/RedBrightness=0.000000
 ares.domain.tld:0[dpy:2]/GreenBrightness=0.000000
 ares.domain.tld:0[dpy:2]/BlueBrightness=0.000000
@@ -50,3 +47,12 @@ ares.domain.tld:0[dpy:2]/BlueContrast=0.000000
 ares.domain.tld:0[dpy:2]/RedGamma=1.000000
 ares.domain.tld:0[dpy:2]/GreenGamma=1.000000
 ares.domain.tld:0[dpy:2]/BlueGamma=1.000000
+ares.domain.tld:0[dpy:3]/RedBrightness=0.000000
+ares.domain.tld:0[dpy:3]/GreenBrightness=0.000000
+ares.domain.tld:0[dpy:3]/BlueBrightness=0.000000
+ares.domain.tld:0[dpy:3]/RedContrast=0.000000
+ares.domain.tld:0[dpy:3]/GreenContrast=0.000000
+ares.domain.tld:0[dpy:3]/BlueContrast=0.000000
+ares.domain.tld:0[dpy:3]/RedGamma=1.000000
+ares.domain.tld:0[dpy:3]/GreenGamma=1.000000
+ares.domain.tld:0[dpy:3]/BlueGamma=1.000000

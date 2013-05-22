@@ -14151,3 +14151,222 @@
 2013-05-14 03:15:00	<--	steventrevathan (~steventre@c-71-232-16-234.hsd1.ma.comcast.net) has quit (Quit: steventrevathan)
 2013-05-14 03:44:26	<--	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has quit (Quit: Leaving...)
 2013-05-14 04:40:05	--	irc: disconnected from server
+2013-05-14 10:22:23	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #docpad
+2013-05-14 10:22:23	--	Topic for #docpad is "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-05-14 10:22:23	--	Topic set by EtherealMind1 (~etherealm@87.242.165.59) on Mon, 13 May 2013 15:55:08
+2013-05-14 10:22:23	--	Nicks #docpad: [balupton elf-pavlik EricLeslie eth0lo nexusIX supersym]
+2013-05-14 10:22:23	--	Channel #docpad: 6 nicks (0 ops, 0 halfops, 0 voices, 6 normals)
+2013-05-14 10:22:27	--	Mode #docpad [+t]
+2013-05-14 10:22:27	--	Channel created on Sat, 26 May 2012 12:12:13
+2013-05-14 10:50:38	--	irc: disconnected from server
+2013-05-14 10:51:03	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #docpad
+2013-05-14 10:51:03	--	Topic for #docpad is "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-05-14 10:51:03	--	Topic set by EtherealMind1 (~etherealm@87.242.165.59) on Mon, 13 May 2013 15:55:08
+2013-05-14 10:51:03	--	Nicks #docpad: [balupton elf-pavlik EricLeslie eth0lo nexusIX supersym]
+2013-05-14 10:51:03	--	Channel #docpad: 6 nicks (0 ops, 0 halfops, 0 voices, 6 normals)
+2013-05-14 10:51:23	--	Mode #docpad [+t]
+2013-05-14 10:51:23	--	Channel created on Sat, 26 May 2012 12:12:13
+2013-05-14 11:02:34	-->	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has joined #docpad
+2013-05-14 11:07:38	<--	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has quit (Ping timeout: 245 seconds)
+2013-05-14 11:49:03	-->	thanpolas (~thanpolas@ppp-94-67-103-127.home.otenet.gr) has joined #docpad
+2013-05-14 12:03:05	-->	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has joined #docpad
+2013-05-14 12:08:03	<--	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has quit (Ping timeout: 245 seconds)
+2013-05-14 13:03:39	-->	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has joined #docpad
+2013-05-14 13:08:03	<--	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has quit (Ping timeout: 245 seconds)
+2013-05-14 14:04:08	-->	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has joined #docpad
+2013-05-14 14:16:25	<--	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has quit (*.net *.split)
+2013-05-14 14:58:07	-->	steventrevathan (~steventre@64.119.141.126) has joined #docpad
+2013-05-14 15:04:50	-->	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has joined #docpad
+2013-05-14 15:09:50	<--	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has quit (Ping timeout: 256 seconds)
+2013-05-14 15:20:20	<--	steventrevathan (~steventre@64.119.141.126) has quit (Quit: steventrevathan)
+2013-05-14 15:24:27	-->	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has joined #docpad
+2013-05-14 15:37:58	-->	steventrevathan (~steventre@64.119.141.126) has joined #docpad
+2013-05-14 15:38:39	-->	steventrevathan_ (~steventre@64.119.141.126) has joined #docpad
+2013-05-14 15:39:52	<--	steventrevathan_ (~steventre@64.119.141.126) has quit (Client Quit)
+2013-05-14 17:20:08	<--	steventrevathan (~steventre@64.119.141.126) has quit (Quit: steventrevathan)
+2013-05-14 17:21:47	-->	steventrevathan (~steventre@64.119.141.126) has joined #docpad
+2013-05-14 18:46:27	-->	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has joined #docpad
+2013-05-14 19:53:16	<--	EricLeslie (~EricLesli@68-189-102-33.dhcp.wtvl.ca.charter.com) has quit (Quit: Leaving)
+2013-05-14 19:53:50	-->	EricLeslie (~EricLesli@68-189-102-33.dhcp.wtvl.ca.charter.com) has joined #docpad
+2013-05-14 19:56:37	supersym	sigh Jaskenas... good guy for coffee, bad dude for command line tools ><
+2013-05-14 19:56:53	supersym	my god what needles complexities and stupid parsin that tool has
+2013-05-14 22:41:26	supersym	well this i18n has gone fantastic... now to see what I can steal from gettext/wordpress language files :P
+2013-05-14 22:42:23	supersym	http://translationproject.org/latest/gettext-examples/nl.po
+2013-05-14 22:42:50	supersym	seems like they have a tool running to extract everything that was written in code as 'localizable' strings yeah..
+2013-05-14 22:42:58	supersym	that might be handy :)
+2013-05-14 22:45:27	supersym	http://crowdin.net/page/gettext-localization-editor  even startups :P well its not like its thaaat much
+2013-05-14 22:49:19	supersym	balupton: I assume you've seen: http://i18next.com/pages/doc_features.html#sprintf
+2013-05-14 22:53:11	supersym	I guess dp solution is more or less the same, if not better, with the interpolation
+2013-05-14 22:53:57	supersym	uniform accessors, locale or i18n, locale.pluginNamingConventionInvalid -- is a tad long maybe :P
+2013-05-14 22:54:34	supersym	then again i18next works also with gettext .po, .mo, mongo, riad, json, yaml etc
+2013-05-14 22:55:38	supersym	also nice seperation of languages, initialization and detection functions, namespaces, fallback languages
+2013-05-14 22:57:01	supersym	no so much for docpad perhaps, but for sites it can be a really cool feature
+2013-05-14 23:04:24	<--	thanpolas (~thanpolas@ppp-94-67-103-127.home.otenet.gr) has quit (Remote host closed the connection)
+2013-05-14 23:09:29	-->	thanpolas (~thanpolas@ppp-94-67-103-127.home.otenet.gr) has joined #docpad
+2013-05-14 23:39:53	<--	EricLeslie (~EricLesli@68-189-102-33.dhcp.wtvl.ca.charter.com) has quit (Remote host closed the connection)
+2013-05-14 23:44:31	<--	steventrevathan (~steventre@64.119.141.126) has quit (Quit: steventrevathan)
+2013-05-15 01:23:28	--	irc: disconnected from server
+2013-05-15 15:44:17	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #docpad
+2013-05-15 15:44:17	--	Topic for #docpad is "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-05-15 15:44:17	--	Topic set by EtherealMind1 (~etherealm@87.242.165.59) on Mon, 13 May 2013 15:55:08
+2013-05-15 15:44:17	--	Nicks #docpad: [abrams balupton elf-pavlik eth0lo nexusIX rleite supersym thanpolas]
+2013-05-15 15:44:17	--	Channel #docpad: 8 nicks (0 ops, 0 halfops, 0 voices, 8 normals)
+2013-05-15 15:44:21	--	Mode #docpad [+t]
+2013-05-15 15:44:21	--	Channel created on Sat, 26 May 2012 12:12:13
+2013-05-15 15:46:11	supersym	yay... tjholloway <3 for component
+2013-05-15 15:46:20	supersym	bye jquery and other bloated crap
+2013-05-15 15:46:32	supersym	bye extra elaborate build processes
+2013-05-15 15:47:20	supersym	shame that d00d took up so many projects, shit is falling behind now and then but damn can that kid innovate
+2013-05-15 18:42:37	--	irc: disconnected from server
+2013-05-15 18:43:06	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #docpad
+2013-05-15 18:43:06	--	Topic for #docpad is "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-05-15 18:43:06	--	Topic set by EtherealMind1 (~etherealm@87.242.165.59) on Mon, 13 May 2013 15:55:08
+2013-05-15 18:43:06	--	Nicks #docpad: [balupton elf-pavlik eth0lo nexusIX shama steventrevathan supersym thanpolas]
+2013-05-15 18:43:06	--	Channel #docpad: 8 nicks (0 ops, 0 halfops, 0 voices, 8 normals)
+2013-05-15 18:43:26	--	Mode #docpad [+t]
+2013-05-15 18:43:26	--	Channel created on Sat, 26 May 2012 12:12:13
+2013-05-15 19:28:45	supersym	hehe I'm spawning docpad's off wisp ... fun :P
+2013-05-15 19:30:15	supersym	\that'll prolly be my central end-game as meta-programming node.js goes anyway... much cleaner output compared to clojurescript :D
+2013-05-15 19:30:35	supersym	or when I get paid extra, literate coffeescript ;)
+2013-05-15 19:33:27	-->	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has joined #docpad
+2013-05-15 19:38:03	<--	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has quit (Ping timeout: 245 seconds)
+2013-05-15 19:55:37	--	irc: disconnected from server
+2013-05-15 23:28:51	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #docpad
+2013-05-15 23:28:51	--	Topic for #docpad is "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-05-15 23:28:51	--	Topic set by EtherealMind1 (~etherealm@87.242.165.59) on Mon, 13 May 2013 15:55:08
+2013-05-15 23:28:51	--	Nicks #docpad: [ashnur balupton elf-pavlik eth0lo nexusIX shama steventrevathan supersym thanpolas]
+2013-05-15 23:28:51	--	Channel #docpad: 9 nicks (0 ops, 0 halfops, 0 voices, 9 normals)
+2013-05-15 23:28:54	--	Mode #docpad [+t]
+2013-05-15 23:28:54	--	Channel created on Sat, 26 May 2012 12:12:13
+2013-05-16 00:53:42	-->	paddywhack (d23064d2@gateway/web/freenode/ip.210.48.100.210) has joined #docpad
+2013-05-16 00:54:28	paddywhack	Anyone have any success using partials within partials with docpad-plugin-partials?
+2013-05-16 00:55:46	paddywhack	I'm getting the following error: TypeError: Object # has no method 'partial when I call <%- @partial('nav.html.eco') %> from within another partial <%- @partial('header.html.eco') %>
+2013-05-16 03:11:15	<--	thanpolas (~thanpolas@athedsl-220039.home.otenet.gr) has quit (Remote host closed the connection)
+2013-05-16 03:41:59	<--	paddywhack (d23064d2@gateway/web/freenode/ip.210.48.100.210) has quit (Quit: Page closed)
+2013-05-16 06:21:51	<--	ashnur (~ashnur@79.117.71.56) has quit (Quit: WeeChat 0.4.0)
+2013-05-16 06:22:10	-->	ashnur (~ashnur@79.117.71.56) has joined #docpad
+2013-05-16 08:41:37	<--	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has quit (Remote host closed the connection)
+2013-05-16 12:42:57	-->	meget (2e13413b@gateway/web/freenode/ip.46.19.65.59) has joined #docpad
+2013-05-16 12:49:32	<--	ashnur (~ashnur@79.117.71.56) has quit (Quit: WeeChat 0.4.0)
+2013-05-16 12:54:38	meget	Hello. I wanted to ask is it possible to include in thumbnails plugin call (@getThumnails) some document  custom attribute (document.image)
+2013-05-16 13:22:47	-->	thanpolas (~thanpolas@athedsl-220039.home.otenet.gr) has joined #docpad
+2013-05-16 14:02:31	-->	ashnur (~ashnur@79.117.71.56) has joined #docpad
+2013-05-16 14:57:04	--	irc: disconnected from server
+2013-05-16 20:47:16	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #docpad
+2013-05-16 20:47:16	--	Topic for #docpad is "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-05-16 20:47:16	--	Topic set by EtherealMind1 (~etherealm@87.242.165.59) on Mon, 13 May 2013 15:55:08
+2013-05-16 20:47:16	--	Nicks #docpad: [balupton elf-pavlik eth0lo nexusIX shama steventrevathan supersym thanpola_]
+2013-05-16 20:47:16	--	Channel #docpad: 8 nicks (0 ops, 0 halfops, 0 voices, 8 normals)
+2013-05-16 20:47:20	--	Mode #docpad [+t]
+2013-05-16 20:47:20	--	Channel created on Sat, 26 May 2012 12:12:13
+2013-05-16 21:16:48	--	Notice(GitHub181): [docpad-documentation] zwigby opened pull request #28: Update 05-deploy.html.md (master...patch-1)  http://git.io/J1MJVg
+2013-05-16 22:57:36	<--	steventrevathan (~steventre@64.119.141.126) has quit (Quit: steventrevathan)
+2013-05-16 23:00:14	-->	kaspertidemann (~Kasper@108.60.106.52) has joined #docpad
+2013-05-16 23:01:01	-->	steventrevathan (~steventre@64.119.141.126) has joined #docpad
+2013-05-16 23:24:47	<--	steventrevathan (~steventre@64.119.141.126) has quit (Quit: steventrevathan)
+2013-05-16 23:31:23	--	irc: disconnected from server
+2013-05-16 23:39:31	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #docpad
+2013-05-16 23:39:31	--	Topic for #docpad is "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-05-16 23:39:31	--	Topic set by EtherealMind1 (~etherealm@87.242.165.59) on Mon, 13 May 2013 15:55:08
+2013-05-16 23:39:31	--	Nicks #docpad: [balupton elf-pavlik eth0lo kaspertidemann nexusIX shama supersym thanpolas]
+2013-05-16 23:39:31	--	Channel #docpad: 8 nicks (0 ops, 0 halfops, 0 voices, 8 normals)
+2013-05-16 23:39:31	--	Notice(cameron.freenode.net): [freenode-info] why register and identify? your IRC nick is how people know you. http://freenode.net/faq.shtml#nicksetup
+2013-05-16 23:39:35	--	Mode #docpad [+t]
+2013-05-16 23:39:35	--	Channel created on Sat, 26 May 2012 12:12:13
+2013-05-16 23:55:38	<--	kaspertidemann (~Kasper@108.60.106.52) has quit (Quit: kaspertidemann)
+2013-05-17 00:00:26	-->	kaspertidemann (~Kasper@108.60.106.52) has joined #docpad
+2013-05-17 01:11:10	-->	Kongen (~Kasper@108.60.106.52) has joined #docpad
+2013-05-17 01:13:37	<--	kaspertidemann (~Kasper@108.60.106.52) has quit (Ping timeout: 248 seconds)
+2013-05-17 01:18:43	-->	ashnur (~ashnur@79.117.71.56) has joined #docpad
+2013-05-17 01:38:47	<--	Kongen (~Kasper@108.60.106.52) has quit (Quit: Kongen)
+2013-05-17 02:20:14	<--	thanpolas (~thanpolas@athedsl-303955.home.otenet.gr) has quit (Remote host closed the connection)
+2013-05-17 02:33:49	<--	nexusIX (~egoIX@c-66-235-0-222.sea.wa.customer.broadstripe.net) has quit (*.net *.split)
+2013-05-17 02:33:57	<--	balupton (uid6783@gateway/web/irccloud.com/x-lapaafslawvejekm) has quit (*.net *.split)
+2013-05-17 02:33:58	<--	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has quit (*.net *.split)
+2013-05-17 02:33:59	<--	ashnur (~ashnur@79.117.71.56) has quit (*.net *.split)
+2013-05-17 02:34:10	<--	elf-pavlik (~elf-pavli@lorea/elf) has quit (*.net *.split)
+2013-05-17 02:52:25	-->	nexusIX (~egoIX@c-66-235-0-222.sea.wa.customer.broadstripe.net) has joined #docpad
+2013-05-17 02:52:25	-->	elf-pavlik (~elf-pavli@lorea/elf) has joined #docpad
+2013-05-17 02:52:25	-->	balupton (uid6783@gateway/web/irccloud.com/x-lapaafslawvejekm) has joined #docpad
+2013-05-17 02:52:25	-->	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has joined #docpad
+2013-05-17 02:52:25	-->	ashnur (~ashnur@79.117.71.56) has joined #docpad
+2013-05-17 03:09:32	supersym	q
+2013-05-17 03:09:35	--	irc: disconnected from server
+2013-05-17 03:09:52	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #docpad
+2013-05-17 03:09:52	--	Topic for #docpad is "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-05-17 03:09:52	--	Topic set by EtherealMind1 (~etherealm@87.242.165.59) on Mon, 13 May 2013 15:55:08
+2013-05-17 03:09:52	--	Nicks #docpad: [ashnur balupton elf-pavlik eth0lo nexusIX shama supersym]
+2013-05-17 03:09:52	--	Channel #docpad: 7 nicks (0 ops, 0 halfops, 0 voices, 7 normals)
+2013-05-17 03:09:56	--	Mode #docpad [+t]
+2013-05-17 03:09:56	--	Channel created on Sat, 26 May 2012 12:12:13
+2013-05-17 03:52:37	--	Notice(GitHub102): [docpad-documentation] balupton pushed 2 new commits to master: http://git.io/4A99GA
+2013-05-17 03:52:37	--	Notice(GitHub102): docpad-documentation/master b05786a Charlie Key: Update 05-deploy.html.md...
+2013-05-17 03:52:37	--	Notice(GitHub102): docpad-documentation/master 90247be Benjamin Arthur Lupton: Merge pull request #28 from zwigby/patch-1...
+2013-05-17 05:19:33	-->	hammy (d23064d2@gateway/web/freenode/ip.210.48.100.210) has joined #docpad
+2013-05-17 05:19:52	hammy	is there anyway to turn off extension urls 
+2013-05-17 05:19:53	hammy	?
+2013-05-17 05:20:15	hammy	I want to generate urls with .html at the end
+2013-05-17 05:21:05	hammy	I meant turn off extensionless urls - so to have page.html rather than page/
+2013-05-17 06:15:19	-->	matt___ (1882e2d9@gateway/web/freenode/ip.24.130.226.217) has joined #docpad
+2013-05-17 06:18:51	<--	hammy (d23064d2@gateway/web/freenode/ip.210.48.100.210) has quit (Quit: Page closed)
+2013-05-17 06:55:51	<--	matt___ (1882e2d9@gateway/web/freenode/ip.24.130.226.217) has quit (Quit: Page closed)
+2013-05-17 07:55:51	ashnur	balupton: if you use tape, i have a script which works from the cli, starts a phantom.js, runs the tests, receives the console log from phantomjs in a server, then dumps it on the console. so basically if the test is written well (no assumption on specific, preexisting html), one can run the tests without messing with html files  
+2013-05-17 08:40:10	supersym	oh congrats .. for the nr 1 google spot now when typing in docpad ;)
+2013-05-17 08:40:21	supersym	that used to be something else :P
+2013-05-17 08:50:50	ashnur	yeah, some stupid editor
+2013-05-17 08:51:43	ashnur	seriously, how can somebody build an editor and compare it to notepad?
+2013-05-17 08:52:49	ashnur	that is like building a battle ship and comparing it to a kenu
+2013-05-17 08:58:11	supersym	lol
+2013-05-17 08:58:18	supersym	stylus has to face this too
+2013-05-17 08:58:54	supersym	thats the downside of these things but when more people start blogging, it should push never used products back :P
+2013-05-17 09:00:57	supersym	i notice some dont optimize indexing of their pages also, assume thats to battle the 'incorrect/old API' code spreading too far across the web in early stages of development
+2013-05-17 09:01:31	supersym	e.g. what clojure more or less constantly still has, as a problem: old refs
+2013-05-17 09:02:13	ashnur	what? what is the relation of stylus to this?
+2013-05-17 09:02:54	ashnur	you make to big jumps in your lines, and you write many lines
+2013-05-17 09:03:06	ashnur	keep it simple
+2013-05-17 09:25:39	supersym	https://www.google.nl/search?q=stylus&oq=stylus&aqs=chrome.0.69i57j0l3j69i62l2.1072j0&sourceid=chrome&ie=UTF-8
+2013-05-17 09:26:08	<--	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has quit (Remote host closed the connection)
+2013-05-17 09:26:15	supersym	keep up a little... no so hard to follow :P
+2013-05-17 09:27:27	ashnur	it is hard for me
+2013-05-17 09:28:05	supersym	sorry
+2013-05-17 09:28:10	supersym	and I mean that
+2013-05-17 09:29:26	supersym	quality communication is determined by those who receive it, me as a sender is to blame :)
+2013-05-17 10:09:38	-->	EtherealMind1 (~etherealm@87.242.165.59) has joined #docpad
+2013-05-17 10:59:14	<--	ashnur (~ashnur@79.117.71.56) has quit (Quit: WeeChat 0.4.0)
+2013-05-17 11:49:48	-->	thanpolas (~thanpolas@athedsl-79802.home.otenet.gr) has joined #docpad
+2013-05-17 13:06:31	-->	ashnur (~ashnur@79.117.71.56) has joined #docpad
+2013-05-17 13:16:20	<--	ashnur (~ashnur@79.117.71.56) has quit (Quit: Leaving)
+2013-05-17 14:20:41	-->	ashnur (~ashnur@79.117.71.56) has joined #docpad
+2013-05-17 16:02:29	--	irc: disconnected from server
+2013-05-21 19:13:20	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #docpad
+2013-05-21 19:13:20	--	Topic for #docpad is "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-05-21 19:13:20	--	Topic set by EtherealMind1 (~etherealm@87.242.165.59) on Mon, 13 May 2013 15:55:08
+2013-05-21 19:13:20	--	Nicks #docpad: [ashnur balupton dimab elf-pavlik nexusIX shama supersym]
+2013-05-21 19:13:20	--	Channel #docpad: 7 nicks (0 ops, 0 halfops, 0 voices, 7 normals)
+2013-05-21 19:13:24	--	Mode #docpad [+t]
+2013-05-21 19:13:24	--	Channel created on Sat, 26 May 2012 12:12:13
+2013-05-21 19:13:45	supersym	ola
+2013-05-21 19:58:45	supersym	npm i -g nodedoc ... handy :P
+2013-05-21 19:59:27	supersym	export LESS=X-r .. if you like colors and info to retain in terminal after quit
+2013-05-21 19:59:52	supersym	in case anyone else is tired of browser lookups :P
+2013-05-21 20:03:15	ashnur	what it does?
+2013-05-21 20:41:22	<--	ashnur (~ashnur@79.117.71.56) has quit (Quit: WeeChat 0.4.0)
+2013-05-21 21:26:36	supersym	node.js documentation in your terminal :P
+2013-05-21 21:29:15	supersym	Larry Wall said, the chief virtue of a programmer is laziness.
+2013-05-21 21:29:30	supersym	Im not the only one who thinks that :D
+2013-05-21 22:14:03	-->	EtherealMind1 (~etherealm@87.242.165.59) has joined #docpad
+2013-05-21 23:02:27	<--	EtherealMind1 (~etherealm@87.242.165.59) has quit (Remote host closed the connection)
+2013-05-22 00:07:55	-->	ashnur (~ashnur@79.117.71.56) has joined #docpad
+2013-05-22 00:12:37	<--	dimab (~dimab@77.120.25.64) has quit (Quit: dimab)
+2013-05-22 02:14:18	-->	psteinweber (~psteinweb@node-15jy.pool-118-173.dynamic.totbb.net) has joined #docpad
+2013-05-22 02:36:07	supersym	Sweet :D https://github.com/rplevy/swiss-arrows
+2013-05-22 02:36:34	supersym	positional monads :)
+2013-05-22 02:42:10	<--	psteinweber (~psteinweb@node-15jy.pool-118-173.dynamic.totbb.net) has quit (Remote host closed the connection)
+2013-05-22 03:52:45	-->	psteinweber (~psteinweb@node-15jy.pool-118-173.dynamic.totbb.net) has joined #docpad
+2013-05-22 03:57:06	<--	psteinweber (~psteinweb@node-15jy.pool-118-173.dynamic.totbb.net) has quit (Ping timeout: 264 seconds)
+2013-05-22 04:10:47	<--	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has quit (Remote host closed the connection)
+2013-05-22 05:56:30	nexusIX	hey supersym, good news, I figured out my issue with the http proxy
+2013-05-22 05:57:16	nexusIX	this is the magic line: middlewareBodyParser: false
+2013-05-22 05:58:07	nexusIX	put that in your docpad.config object and the body of an http post will not be parsed and converted into a JSON object
+2013-05-22 06:00:30	nexusIX	the urlencoded data should not be run through the bodyParser if you're proxying it to another service
+2013-05-22 07:45:52	<--	ashnur (~ashnur@79.117.71.56) has quit (Quit: WeeChat 0.4.0)

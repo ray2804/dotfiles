@@ -54,7 +54,8 @@ xcompmgr -c &
 sh ${HOME}/.fehbg
 
 # Spawn unicode rxvt daemon or client
-urxvtcd &
+#urxvtcd &
+terminator &
 
 # Fire up the window manager
 exec ssh-agent xmonad

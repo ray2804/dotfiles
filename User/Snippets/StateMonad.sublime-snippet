@@ -1,0 +1,50 @@
+<snippet>
+    <content><![CDATA[
+```coffeescript
+
+    push = (element) -> (stack) ->
+        newStack = [element].concat stack
+        {value: element, stack: newStack}
+     
+    pop = (stack) ->
+        element = stack[0]
+        newStack = stack.slice 1
+        {value: element, stack: newStack}
+     
+    bind = (stackOperation, continuation) -> (stack) ->
+        opResult = stackOperation stack
+        (continuation opResult.value) opResult.stack
+     
+    result = (value) -> (stack) ->
+        {value: value, stack: stack}
+     
+    initialStack = []
+     
+    computation1 = bind \
+        (push 4), -> bind \
+        (push 5), -> bind \
+        pop, (a)  -> bind \
+        pop, (b)  ->
+            result a + ":" + b
+     
+    computation2 = bind \
+        (push 2), -> bind \
+        (push 3), -> bind \
+        pop, (a)  -> bind \
+        pop, (b)  ->
+            result a + ":" + b
+     
+    composed = bind \
+        computation1, (a) -> bind \
+        computation2, (b) ->
+            result a + ":" + b
+     
+    finalResult = composed initialStack
+    console.log finalResult.value
+
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>`--</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.litcoffee</scope>
+</snippet>

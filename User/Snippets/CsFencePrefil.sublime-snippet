@@ -1,0 +1,22 @@
+<snippet>
+    <content><![CDATA[
+```coffeescript
+
+    ${1:variable} = require '${2:pkg}'
+
+    ${3:hash} = {
+        $4: 'key one'
+        $5: true
+        $6: [1,2,3,4,5]
+    }
+    console.log "${7:message}"
+
+
+```
+
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>`~</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.litcoffee</scope>
+</snippet>

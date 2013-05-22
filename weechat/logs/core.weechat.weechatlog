@@ -974,3 +974,33 @@
 2013-05-12 20:06:02		fifo: pipe closed
 2013-05-13 10:18:08		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
 2013-05-14 04:40:05		fifo: pipe closed
+2013-05-14 10:20:58		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2013-05-15 01:23:28		fifo: pipe closed
+2013-05-15 15:44:03		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2013-05-15 19:55:37		fifo: pipe closed
+2013-05-15 23:28:34		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2013-05-16 14:57:03		fifo: pipe closed
+2013-05-16 20:47:03		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2013-05-16 23:31:23		fifo: pipe closed
+2013-05-16 23:39:16		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2013-05-17 03:09:35		fifo: pipe closed
+2013-05-17 03:09:36		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2013-05-17 16:02:29		Options reloaded from weechat.conf
+2013-05-17 16:02:29		Options reloaded from plugins.conf
+2013-05-17 16:02:29		Options reloaded from relay.conf
+2013-05-17 16:02:29		Options reloaded from logger.conf
+2013-05-17 16:02:29		Options reloaded from alias.conf
+2013-05-17 16:02:29		Options reloaded from rmodifier.conf
+2013-05-17 16:02:29		Options reloaded from xfer.conf
+2013-05-17 16:02:29		Options reloaded from script.conf
+2013-05-17 16:02:29		Options reloaded from irc.conf
+2013-05-17 16:02:29		Options reloaded from charset.conf
+2013-05-17 16:02:29		Options reloaded from aspell.conf
+2013-05-17 16:02:29		fifo: pipe closed
+2013-05-21 19:13:04	=!=	Warning: /home/baal/.weechat/irc.conf, line 23: unknown option for section "look": hide_nickserv_pwd = on
+2013-05-21 19:13:04	=!=	Warning: /home/baal/.weechat/irc.conf, line 41: unknown option for section "look": nick_prefix = ""
+2013-05-21 19:13:04	=!=	Warning: /home/baal/.weechat/irc.conf, line 42: unknown option for section "look": nick_suffix = ""
+2013-05-21 19:13:04	=!=	Warning: /home/baal/.weechat/irc.conf, line 65: unknown option for section "color": nick_prefix = green
+2013-05-21 19:13:04	=!=	Warning: /home/baal/.weechat/irc.conf, line 67: unknown option for section "color": nick_suffix = green
+2013-05-21 19:13:04	=!=	Warning: /home/baal/.weechat/irc.conf, line 80: unknown option for section "network": lag_disconnect = 0
+2013-05-21 19:13:04		Plugins loaded: alias, aspell, charset, fifo, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer

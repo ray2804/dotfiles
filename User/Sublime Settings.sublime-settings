@@ -23,6 +23,6 @@
     // symbols that can be combined with the = to make an operator, and all
     // of those must be kept next to the = for the operator to be parsed
     "alignment_prefix_chars": [
-        "+", "-", "&", "|", "<", ">", "!", "~", "%", "/", "*", ".", "() ->", "->"
+        " "
     ]
 }
