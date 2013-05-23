@@ -1,0 +1,23 @@
+graph G{
+    IntPrivLaws_ASTRON [label="IntPrivLaws_ASTRON", fontsize=12];
+    MassMails_DSTRON [label="MassMails_DSTRON", fontsize=12];
+    SpamPolicy_GovControl [label="SpamPolicy_GovControl", fontsize=12, shape=box];
+    UseDemoOther_DSTRON [label="UseDemoOther_DSTRON", fontsize=12];
+    Important_Privacy [label="Important_Privacy", fontsize=12];
+    InfImprovSite_DSOME [label="InfImprovSite_DSOME", fontsize=12, shape=box];
+    AdvNet_DSTRON [label="AdvNet_DSTRON", fontsize=12];
+    PrivCom_ASTRON [label="PrivCom_ASTRON", fontsize=12];
+    AttSpam_Other [label="AttSpam_Other", fontsize=12, shape=box];
+    IPResell_DSTRON [label="IPResell_DSTRON", fontsize=12];
+    AttSpam_Reply [label="AttSpam_Reply", fontsize=12, shape=box];
+    SpamPolicy_GovControl -- AttSpam_Other [label="1, 39, 0.066", fontsize=10, style=bold];
+    InfImprovSite_DSOME -- Important_Privacy [label="9, 175, 0.125", fontsize=10, style=dotted];
+    SpamPolicy_GovControl -- UseDemoOther_DSTRON [label="7, 152, 0.127", fontsize=10, style=dotted];
+    InfImprovSite_DSOME -- AttSpam_Other [label="2, 26, 0.027", fontsize=10, style=bold];
+    SpamPolicy_GovControl -- IntPrivLaws_ASTRON [label="8, 123, 0.126", fontsize=10, style=dotted];
+    InfImprovSite_DSOME -- IPResell_DSTRON [label="5, 170, 0.141", fontsize=10, style=dotted];
+    InfImprovSite_DSOME -- AdvNet_DSTRON [label="6, 160, 0.128", fontsize=10, style=dotted];
+    SpamPolicy_GovControl -- MassMails_DSTRON [label="4, 183, 0.149", fontsize=10, style=dotted];
+    SpamPolicy_GovControl -- PrivCom_ASTRON [label="10, 170, 0.12", fontsize=10, style=dotted];
+    InfImprovSite_DSOME -- AttSpam_Reply [label="3, 34, 0.029", fontsize=10, style=bold];
+}

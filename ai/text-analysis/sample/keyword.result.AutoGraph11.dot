@@ -1,0 +1,23 @@
+graph G{
+    MassMails_DSTRON [label="MassMails_DSTRON", fontsize=12];
+    AssumeAliases_NEITHER [label="AssumeAliases_NEITHER", fontsize=12, shape=box];
+    MassMails_NEITHER [label="MassMails_NEITHER", fontsize=12, shape=box];
+    AnonPaymnt_NEITHER [label="AnonPaymnt_NEITHER", fontsize=12, shape=box];
+    DirMark_NEITHER [label="DirMark_NEITHER", fontsize=12, shape=box];
+    IntShop_LifeEasy [label="IntShop_LifeEasy", fontsize=12];
+    UserContDemo_ASTRON [label="UserContDemo_ASTRON", fontsize=12];
+    Important_Privacy [label="Important_Privacy", fontsize=12];
+    Will_Charge [label="Will_Charge", fontsize=12];
+    PrivCom_ASTRON [label="PrivCom_ASTRON", fontsize=12];
+    AttSpam_Delete [label="AttSpam_Delete", fontsize=12];
+    DirMark_NEITHER -- MassMails_NEITHER [label="1, 49, 0.175", fontsize=10, style=bold];
+    IntShop_LifeEasy -- AnonPaymnt_NEITHER [label="4, 329, 0.223", fontsize=10, style=dotted];
+    DirMark_NEITHER -- AnonPaymnt_NEITHER [label="2, 72, 0.075", fontsize=10, style=bold];
+    AttSpam_Delete -- AnonPaymnt_NEITHER [label="8, 265, 0.185", fontsize=10, style=dotted];
+    Important_Privacy -- AnonPaymnt_NEITHER [label="6, 299, 0.195", fontsize=10, style=dotted];
+    AssumeAliases_NEITHER -- AnonPaymnt_NEITHER [label="3, 135, 0.139", fontsize=10, style=bold];
+    AnonPaymnt_NEITHER -- UserContDemo_ASTRON [label="10, 269, 0.167", fontsize=10, style=dotted];
+    AnonPaymnt_NEITHER -- MassMails_DSTRON [label="7, 289, 0.186", fontsize=10, style=dotted];
+    AnonPaymnt_NEITHER -- PrivCom_ASTRON [label="9, 288, 0.171", fontsize=10, style=dotted];
+    Will_Charge -- AnonPaymnt_NEITHER [label="5, 314, 0.222", fontsize=10, style=dotted];
+}

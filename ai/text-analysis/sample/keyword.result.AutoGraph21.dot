@@ -1,0 +1,23 @@
+graph G{
+    PrivCom_NEITHER [label="PrivCom_NEITHER", fontsize=12, shape=box];
+    AssumeAliases_NEITHER [label="AssumeAliases_NEITHER", fontsize=12];
+    AnonPaymnt_NEITHER [label="AnonPaymnt_NEITHER", fontsize=12];
+    UserContDemo_NEITHER [label="UserContDemo_NEITHER", fontsize=12, shape=box];
+    IntShop_LifeEasy [label="IntShop_LifeEasy", fontsize=12];
+    Important_Privacy [label="Important_Privacy", fontsize=12];
+    ValueAnon_NEITHER [label="ValueAnon_NEITHER", fontsize=12, shape=box];
+    PrivCom_ASOME [label="PrivCom_ASOME", fontsize=12, shape=box];
+    ValueAnon_ASOME [label="ValueAnon_ASOME", fontsize=12];
+    Will_Charge [label="Will_Charge", fontsize=12];
+    AttSpam_Delete [label="AttSpam_Delete", fontsize=12];
+    Important_Privacy -- PrivCom_ASOME [label="8, 125, 0.079", fontsize=10, style=dotted];
+    ValueAnon_NEITHER -- AnonPaymnt_NEITHER [label="5, 73, 0.101", fontsize=10, style=dotted];
+    PrivCom_NEITHER -- ValueAnon_NEITHER [label="1, 22, 0.053", fontsize=10, style=bold];
+    PrivCom_ASOME -- IntShop_LifeEasy [label="6, 138, 0.091", fontsize=10, style=dotted];
+    PrivCom_NEITHER -- UserContDemo_NEITHER [label="3, 12, 0.028", fontsize=10, style=bold];
+    PrivCom_ASOME -- AttSpam_Delete [label="10, 109, 0.072", fontsize=10, style=dotted];
+    PrivCom_ASOME -- Will_Charge [label="9, 122, 0.077", fontsize=10, style=dotted];
+    AssumeAliases_NEITHER -- ValueAnon_NEITHER [label="4, 68, 0.107", fontsize=10, style=dotted];
+    PrivCom_ASOME -- ValueAnon_NEITHER [label="2, 32, 0.045", fontsize=10, style=bold];
+    PrivCom_ASOME -- ValueAnon_ASOME [label="7, 69, 0.085", fontsize=10, style=dotted];
+}

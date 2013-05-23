@@ -1,0 +1,23 @@
+graph G{
+    ConcerSec_Very [label="ConcerSec_Very", fontsize=12];
+    MassMails_DSTRON [label="MassMails_DSTRON", fontsize=12, shape=box];
+    UseDemoOther_DSTRON [label="UseDemoOther_DSTRON", fontsize=12, shape=box];
+    IntShop_LifeEasy [label="IntShop_LifeEasy", fontsize=12];
+    UserContDemo_ASTRON [label="UserContDemo_ASTRON", fontsize=12];
+    Important_Privacy [label="Important_Privacy", fontsize=12, shape=box];
+    DirMark_DSTRON [label="DirMark_DSTRON", fontsize=12];
+    ConcerSecEcom_Very [label="ConcerSecEcom_Very", fontsize=12];
+    AdvNet_DSTRON [label="AdvNet_DSTRON", fontsize=12];
+    IPResell_DSTRON [label="IPResell_DSTRON", fontsize=12, shape=box];
+    PrivCom_ASTRON [label="PrivCom_ASTRON", fontsize=12];
+    IPResell_DSTRON -- MassMails_DSTRON [label="2, 811, 0.605", fontsize=10, style=bold];
+    IntShop_LifeEasy -- MassMails_DSTRON [label="8, 908, 0.603", fontsize=10, style=dotted];
+    Important_Privacy -- ConcerSecEcom_Very [label="10, 765, 0.592", fontsize=10, style=dotted];
+    Important_Privacy -- ConcerSec_Very [label="9, 730, 0.593", fontsize=10, style=dotted];
+    UserContDemo_ASTRON -- MassMails_DSTRON [label="6, 870, 0.622", fontsize=10, style=dotted];
+    Important_Privacy -- MassMails_DSTRON [label="3, 907, 0.636", fontsize=10, style=bold];
+    Important_Privacy -- PrivCom_ASTRON [label="4, 966, 0.671", fontsize=10, style=dotted];
+    DirMark_DSTRON -- MassMails_DSTRON [label="5, 736, 0.633", fontsize=10, style=dotted];
+    AdvNet_DSTRON -- MassMails_DSTRON [label="7, 803, 0.61", fontsize=10, style=dotted];
+    UseDemoOther_DSTRON -- IPResell_DSTRON [label="1, 781, 0.695", fontsize=10, style=bold];
+}

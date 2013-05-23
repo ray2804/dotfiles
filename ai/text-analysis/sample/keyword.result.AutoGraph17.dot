@@ -1,0 +1,23 @@
+graph G{
+    MassMails_DSTRON [label="MassMails_DSTRON", fontsize=12];
+    ConcerSec_Very [label="ConcerSec_Very", fontsize=12];
+    IntShop_LifeEasy [label="IntShop_LifeEasy", fontsize=12];
+    ValueAnon_ASTRON [label="ValueAnon_ASTRON", fontsize=12];
+    Important_Privacy [label="Important_Privacy", fontsize=12];
+    Card_Stolen [label="Card_Stolen", fontsize=12, shape=box];
+    InfImprovSite_DSTRON [label="InfImprovSite_DSTRON", fontsize=12, shape=box];
+    InfImprovSite_NEITHER [label="InfImprovSite_NEITHER", fontsize=12, shape=box];
+    IPResell_DSTRON [label="IPResell_DSTRON", fontsize=12];
+    PrivCom_ASTRON [label="PrivCom_ASTRON", fontsize=12];
+    Unlisted_Phone [label="Unlisted_Phone", fontsize=12, shape=box];
+    IntShop_LifeEasy -- Unlisted_Phone [label="10, 309, 0.202", fontsize=10, style=dotted];
+    Unlisted_Phone -- InfImprovSite_NEITHER [label="1, 79, 0.079", fontsize=10, style=bold];
+    Unlisted_Phone -- ValueAnon_ASTRON [label="8, 282, 0.209", fontsize=10, style=dotted];
+    Unlisted_Phone -- MassMails_DSTRON [label="9, 301, 0.207", fontsize=10, style=dotted];
+    Unlisted_Phone -- PrivCom_ASTRON [label="5, 326, 0.226", fontsize=10, style=dotted];
+    ConcerSec_Very -- Unlisted_Phone [label="7, 253, 0.21", fontsize=10, style=dotted];
+    Card_Stolen -- Unlisted_Phone [label="2, 79, 0.06", fontsize=10, style=bold];
+    Important_Privacy -- Unlisted_Phone [label="4, 336, 0.253", fontsize=10, style=dotted];
+    InfImprovSite_DSTRON -- Unlisted_Phone [label="3, 65, 0.051", fontsize=10, style=bold];
+    IPResell_DSTRON -- Unlisted_Phone [label="6, 288, 0.221", fontsize=10, style=dotted];
+}

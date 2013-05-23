@@ -1,0 +1,23 @@
+graph G{
+    MassMails_DSTRON [label="MassMails_DSTRON", fontsize=12];
+    ChildPriv_NEITHER [label="ChildPriv_NEITHER", fontsize=12, shape=box];
+    IntShop_LifeEasy [label="IntShop_LifeEasy", fontsize=12];
+    ChildPriv_ASOME [label="ChildPriv_ASOME", fontsize=12, shape=box];
+    UserContDemo_ASTRON [label="UserContDemo_ASTRON", fontsize=12];
+    Important_Privacy [label="Important_Privacy", fontsize=12];
+    SpamPolicy_Blacklist [label="SpamPolicy_Blacklist", fontsize=12, shape=box];
+    Will_Charge [label="Will_Charge", fontsize=12];
+    IntPrivLaws_NEITHER [label="IntPrivLaws_NEITHER", fontsize=12, shape=box];
+    PrivCom_ASTRON [label="PrivCom_ASTRON", fontsize=12];
+    AttSpam_Delete [label="AttSpam_Delete", fontsize=12];
+    IntShop_LifeEasy -- ChildPriv_ASOME [label="4, 254, 0.176", fontsize=10, style=dotted];
+    SpamPolicy_Blacklist -- PrivCom_ASTRON [label="6, 235, 0.165", fontsize=10, style=dotted];
+    AttSpam_Delete -- ChildPriv_ASOME [label="10, 198, 0.137", fontsize=10, style=dotted];
+    IntPrivLaws_NEITHER -- ChildPriv_NEITHER [label="1, 49, 0.055", fontsize=10, style=bold];
+    Important_Privacy -- ChildPriv_ASOME [label="8, 224, 0.145", fontsize=10, style=dotted];
+    Will_Charge -- ChildPriv_ASOME [label="5, 242, 0.175", fontsize=10, style=dotted];
+    SpamPolicy_Blacklist -- ChildPriv_ASOME [label="3, 66, 0.052", fontsize=10, style=bold];
+    SpamPolicy_Blacklist -- UserContDemo_ASTRON [label="9, 204, 0.14", fontsize=10, style=dotted];
+    SpamPolicy_Blacklist -- ChildPriv_NEITHER [label="2, 56, 0.043", fontsize=10, style=bold];
+    SpamPolicy_Blacklist -- MassMails_DSTRON [label="7, 223, 0.16", fontsize=10, style=dotted];
+}

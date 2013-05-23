@@ -1,0 +1,23 @@
+graph G{
+    MassMails_DSTRON [label="MassMails_DSTRON", fontsize=12];
+    AssumeAliases_DSTRON [label="AssumeAliases_DSTRON", fontsize=12, shape=box];
+    PrivCom_DSTRON [label="PrivCom_DSTRON", fontsize=12, shape=box];
+    UseDemoOther_DSTRON [label="UseDemoOther_DSTRON", fontsize=12];
+    UserContDemo_ASTRON [label="UserContDemo_ASTRON", fontsize=12];
+    Important_Privacy [label="Important_Privacy", fontsize=12];
+    AnonPaymnt_DSTRON [label="AnonPaymnt_DSTRON", fontsize=12, shape=box];
+    ValueAnon_DSTRON [label="ValueAnon_DSTRON", fontsize=12, shape=box];
+    AdvNet_DSTRON [label="AdvNet_DSTRON", fontsize=12];
+    PrivCom_ASTRON [label="PrivCom_ASTRON", fontsize=12];
+    IPResell_DSTRON [label="IPResell_DSTRON", fontsize=12];
+    Important_Privacy -- AssumeAliases_DSTRON [label="8, 61, 0.042", fontsize=10, style=dotted];
+    AssumeAliases_DSTRON -- ValueAnon_DSTRON [label="2, 7, 0.053", fontsize=10, style=bold];
+    AssumeAliases_DSTRON -- UseDemoOther_DSTRON [label="6, 56, 0.044", fontsize=10, style=dotted];
+    ValueAnon_DSTRON -- PrivCom_DSTRON [label="1, 4, 0.133", fontsize=10, style=bold];
+    AssumeAliases_DSTRON -- IPResell_DSTRON [label="4, 61, 0.05", fontsize=10, style=dotted];
+    AssumeAliases_DSTRON -- AdvNet_DSTRON [label="7, 56, 0.043", fontsize=10, style=dotted];
+    AssumeAliases_DSTRON -- AnonPaymnt_DSTRON [label="3, 10, 0.029", fontsize=10, style=bold];
+    AssumeAliases_DSTRON -- UserContDemo_ASTRON [label="9, 59, 0.041", fontsize=10, style=dotted];
+    AssumeAliases_DSTRON -- MassMails_DSTRON [label="5, 65, 0.048", fontsize=10, style=dotted];
+    AssumeAliases_DSTRON -- PrivCom_ASTRON [label="10, 62, 0.041", fontsize=10, style=dotted];
+}

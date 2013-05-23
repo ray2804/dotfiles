@@ -1,0 +1,23 @@
+graph G{
+    ConcerSec_Alittle [label="ConcerSec_Alittle", fontsize=12, shape=box];
+    MassMails_DSTRON [label="MassMails_DSTRON", fontsize=12];
+    Important_Convenience [label="Important_Convenience", fontsize=12, shape=box];
+    SecAFactor_Small [label="SecAFactor_Small", fontsize=12, shape=box];
+    InfImprovSite_ASOME [label="InfImprovSite_ASOME", fontsize=12];
+    IntShop_LifeEasy [label="IntShop_LifeEasy", fontsize=12];
+    ConcerSecEcom_Alittle [label="ConcerSecEcom_Alittle", fontsize=12, shape=box];
+    UserContDemo_ASTRON [label="UserContDemo_ASTRON", fontsize=12];
+    Will_Charge [label="Will_Charge", fontsize=12];
+    PrivCom_ASTRON [label="PrivCom_ASTRON", fontsize=12];
+    AttSpam_Delete [label="AttSpam_Delete", fontsize=12];
+    IntShop_LifeEasy -- Important_Convenience [label="4, 303, 0.226", fontsize=10, style=dotted];
+    ConcerSecEcom_Alittle -- ConcerSec_Alittle [label="1, 116, 0.262", fontsize=10, style=bold];
+    AttSpam_Delete -- Important_Convenience [label="6, 221, 0.154", fontsize=10, style=dotted];
+    UserContDemo_ASTRON -- Important_Convenience [label="10, 205, 0.116", fontsize=10, style=dotted];
+    ConcerSec_Alittle -- Important_Convenience [label="2, 110, 0.158", fontsize=10, style=bold];
+    Important_Convenience -- MassMails_DSTRON [label="9, 218, 0.126", fontsize=10, style=dotted];
+    Important_Convenience -- PrivCom_ASTRON [label="7, 244, 0.147", fontsize=10, style=dotted];
+    SecAFactor_Small -- Important_Convenience [label="3, 117, 0.208", fontsize=10, style=bold];
+    InfImprovSite_ASOME -- Important_Convenience [label="8, 169, 0.129", fontsize=10, style=dotted];
+    Will_Charge -- Important_Convenience [label="5, 287, 0.222", fontsize=10, style=dotted];
+}

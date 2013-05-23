@@ -1,0 +1,23 @@
+graph G{
+    MassMails_DSTRON [label="MassMails_DSTRON", fontsize=12];
+    DirMark_DSOME [label="DirMark_DSOME", fontsize=12, shape=box];
+    IntShop_LifeEasy [label="IntShop_LifeEasy", fontsize=12];
+    UserContDemo_ASTRON [label="UserContDemo_ASTRON", fontsize=12];
+    Important_Privacy [label="Important_Privacy", fontsize=12];
+    ValueAnon_ASOME [label="ValueAnon_ASOME", fontsize=12, shape=box];
+    Will_Charge [label="Will_Charge", fontsize=12];
+    AssumeAliases_ASOME [label="AssumeAliases_ASOME", fontsize=12, shape=box];
+    SpamPolicy_Registry [label="SpamPolicy_Registry", fontsize=12, shape=box];
+    IPResell_DSTRON [label="IPResell_DSTRON", fontsize=12];
+    PrivCom_ASTRON [label="PrivCom_ASTRON", fontsize=12];
+    IntShop_LifeEasy -- SpamPolicy_Registry [label="5, 410, 0.276", fontsize=10, style=dotted];
+    DirMark_DSOME -- AssumeAliases_ASOME [label="2, 115, 0.102", fontsize=10, style=bold];
+    Important_Privacy -- SpamPolicy_Registry [label="6, 388, 0.261", fontsize=10, style=dotted];
+    Will_Charge -- SpamPolicy_Registry [label="9, 359, 0.231", fontsize=10, style=dotted];
+    SpamPolicy_Registry -- UserContDemo_ASTRON [label="8, 365, 0.246", fontsize=10, style=dotted];
+    AssumeAliases_ASOME -- SpamPolicy_Registry [label="3, 143, 0.102", fontsize=10, style=bold];
+    SpamPolicy_Registry -- MassMails_DSTRON [label="7, 375, 0.249", fontsize=10, style=dotted];
+    AssumeAliases_ASOME -- ValueAnon_ASOME [label="1, 126, 0.123", fontsize=10, style=bold];
+    SpamPolicy_Registry -- PrivCom_ASTRON [label="4, 414, 0.282", fontsize=10, style=dotted];
+    IPResell_DSTRON -- SpamPolicy_Registry [label="10, 334, 0.23", fontsize=10, style=dotted];
+}
