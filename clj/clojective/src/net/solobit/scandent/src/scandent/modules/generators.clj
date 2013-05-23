@@ -1,7 +1,7 @@
-(ns net.solobit.clojective.generators
+(ns scandent.modules.generators
  (:require [clojure.core :as core]
            [clojure.data :as data]
-           [clojure.data.generators]
+           [clojure.data.generators :refer [uniform]]
            [clojure.repl :as repl :refer [doc find-doc dir]]
            [clojure.test :refer (deftest is)]))
 

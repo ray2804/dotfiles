@@ -1004,3 +1004,4 @@
 2013-05-21 19:13:04	=!=	Warning: /home/baal/.weechat/irc.conf, line 67: unknown option for section "color": nick_suffix = green
 2013-05-21 19:13:04	=!=	Warning: /home/baal/.weechat/irc.conf, line 80: unknown option for section "network": lag_disconnect = 0
 2013-05-21 19:13:04		Plugins loaded: alias, aspell, charset, fifo, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2013-05-23 15:56:22		fifo: pipe closed
