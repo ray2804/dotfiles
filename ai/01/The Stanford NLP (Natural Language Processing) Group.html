@@ -1,0 +1,289 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- saved from url=(0049)http://nlp.stanford.edu/software/classifier.shtml -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>The Stanford NLP (Natural Language Processing) Group</title>
+    <meta name="description" content="Stanford Natural Language
+    Processing and Computational Linguistics Group">
+    
+    <link href="./The Stanford NLP (Natural Language Processing) Group_files/nlp.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" async="" src="./The Stanford NLP (Natural Language Processing) Group_files/ga.js"></script><script type="text/javascript">
+       var _gaq = _gaq || [];
+           _gaq.push(['_setAccount', 'UA-23880590-1']);
+           _gaq.push(['_trackPageview']);
+
+       (function() {
+         var ga = document.createElement('script'); 
+             ga.type = 'text/javascript'; ga.async = true;
+             ga.src = ('https:' == document.location.protocol ? 
+               'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+         var s = document.getElementsByTagName('script')[0]; 
+             s.parentNode.insertBefore(ga, s);
+       })();
+    </script>
+  </head>
+
+  <body contenteditable="false" spellcheck="true">
+    <table border="0" width="100%" cellpadding="5" cellspacing="0" class="navbar">
+      <tbody><tr>
+
+        <td width="100" height="100" align="center" valign="middle">
+	  <a href="http://nlp.stanford.edu/">
+	    <img src="./The Stanford NLP (Natural Language Processing) Group_files/nlp-logo-navbar.jpg" border="0" align="middle" alt="">
+	  </a>
+	</td>
+
+	<td width="*" align="left" valign="middle">
+          <table border="0" cellpadding="5" cellspacing="0">
+
+	    <tbody><tr>
+	      <td height="25">
+	        <p>&nbsp;</p>
+	      </td>
+	    </tr>
+
+	    <tr>
+	      <td align="left" valign="middle" height="50">
+	        <p class="title">
+	          The Stanford Natural Language Processing Group
+	        </p>
+	      </td>
+	    </tr>
+
+            <tr> 
+              <td align="left" valign="middle" height="25">
+                <p class="navbar">
+		  <!-- following hrefs need to be absolute! -->
+		  <a class="navbar" href="http://nlp.stanford.edu/index.shtml">home</a>
+		  ·
+		  <a class="navbar" href="http://nlp.stanford.edu/people.shtml">people</a>
+		  ·
+		  <a class="navbar" href="http://nlp.stanford.edu/teaching.shtml">teaching</a>
+		  ·
+		  <a class="navbar" href="http://nlp.stanford.edu/research.shtml">research</a>
+		  ·
+		  <a class="navbar" href="http://nlp.stanford.edu/publications.shtml">publications</a>
+		  ·
+		  <a class="navbar" href="http://nlp.stanford.edu/software/index.shtml">software</a>
+		  ·
+		  <a class="navbar" href="http://nlp.stanford.edu/events.shtml">events</a>
+		  ·
+		  <a class="navbar" href="http://nlp.stanford.edu/local/index.shtml">local</a> 
+                </p>
+              </td>
+            </tr>
+          </tbody></table>
+	</td>
+      </tr>
+    </tbody></table>
+
+    <img src="./The Stanford NLP (Natural Language Processing) Group_files/spacer.gif" width="10" height="10" alt=" " border="0">
+
+
+<center>
+<h2><font color="#a40526">Stanford Classifer</font></h2>
+</center>
+
+<p>
+A classifier is a machine learning tool that will take data items and
+place them into one of <i>k</i> classes.  <span style="background-color: rgb(255, 255, 153);">A probabilistic classifier,
+like this one, can also give a probability distribution over the class
+assignment for a data item.
+This software is a Java implementation of a maximum entropy classifier.</span>
+Maximum entropy models are otherwise known as
+conditional loglinear models, and are essentially equivalent to
+multiclass logistic regression 
+models (though parameterized slightly differently, in a way that is
+advantageous with sparse explanatory feature vectors).
+The classification method is described in: 
+</p>
+<blockquote>
+Christopher Manning and Dan Klein. 2003. Optimization, Maxent Models,
+	  and Conditional Estimation without Magic.
+Tutorial at HLT-NAACL 2003 and ACL 2003. <a href="http://nlp.stanford.edu/pubs/maxent-tutorial-slides.pdf">[pdf slides]</a> <a href="http://nlp.stanford.edu/pubs/maxent-tutorial-slides-6.pdf">[pdf handouts]</a>
+</blockquote>
+<p>
+Version 2 of the classifier was developed by Anna Rafferty, Alex
+Kleeman, Jenny Finkel, and Christopher Manning. 
+</p>
+
+<p>The software requires requires Java (JDK1.5+).  As well as API
+access, the program includes an easy-to-use 
+command-line interface, <code>ColumnDataClassifier</code>, for 
+building maximum entropy models.  Its features are especially suited to building
+models over text data, but it also supports numeric variables.
+
+</p><p><b>Licensing.</b>
+The Stanford Classifier
+is available for download,
+<b>licensed under the <a href="http://www.gnu.org/licenses/gpl-2.0.html">GNU
+General Public License</a></b> (v2 or later). Source is included.  
+The Stanford Classifier code is dual licensed (in a similar manner to MySQL, etc.).  
+Open source licensing is under the <i>full</i> GPL,
+which allows many free uses.
+For distributors of 
+<a href="http://www.gnu.org/licenses/gpl-faq.html#GPLInProprietarySystem">proprietary
+software</a>, <b>commercial licensing</b> with a 
+<a href="http://otlportal.stanford.edu/techfinder/technology/ID=27277">ready-to-sign
+agreement</a> is available.
+If you don't need a commercial license, but would like to support
+maintenance of these tools, we welcome gift funding.
+</p>
+
+<p>The download is a 1.3 MB zipped file.  If you unpack that file,
+you should have everything needed, including example files and documentation. 
+Start by reading the <code>README.txt</code> file.
+<span style="background-color: rgb(255, 255, 153);">Send any questions or feedback to 
+<a href="mailto:java-nlp-support@lists.stanford.edu"><code>java-nlp-support@lists.stanford.edu</code></a>.
+</span></p>
+
+<h3><a name="Introduction">Introduction</a></h3>
+
+A detailed introduction to the classifier is available on our
+<a href="http://www-nlp.stanford.edu/wiki/Software/Classifier">Wiki page</a>.
+
+
+<h3><a name="Mail">Mailing Lists</a></h3>
+<p><span style="background-color: rgb(255, 255, 153);">
+We have 3 mailing lists for the Stanford Classifier, all of which are shared
+with other JavaNLP tools </span>(with the exclusion of the parser)<span style="background-color: rgb(255, 255, 153);">.</span> <span style="background-color: rgb(255, 255, 153);">Each address is
+at </span><code><span style="background-color: rgb(255, 255, 153);">@lists</span>.stanford.edu</code>:
+</p>
+<ol>
+<li><code>java-nlp-user</code> This is the best list to post to in order
+to ask questions, make announcements, or for discussion among JavaNLP
+users.  You have to subscribe to be able to use it.
+<span style="background-color: rgb(255, 255, 153);">Join the list via <a href="https://mailman.stanford.edu/mailman/listinfo/java-nlp-user">this webpage</a> or by emailing
+<code>java-nlp-user-join@lists.stanford.edu</code>.</span>   <span style="background-color: rgb(255, 255, 153);">(Leave the
+subject and message body empty.)</span>  <span style="background-color: rgb(255, 255, 153);">You can also
+<a href="https://mailman.stanford.edu/pipermail/java-nlp-user/">look at
+the list archives</a></span>.
+</li><li><span style="background-color: rgb(255, 255, 153);"><code>java-nlp-announce</code> This list will be used only to announce
+new versions of Stanford JavaNLP tools</span>.  So it will be very low volume (expect 1-3
+message a year).  <span style="background-color: rgb(255, 255, 153);">Join the list via via </span><a href="https://mailman.stanford.edu/mailman/listinfo/java-nlp-announce" style="background-color: rgb(255, 255, 153);">this webpage</a><span style="background-color: rgb(255, 255, 153);"> or by emailing
+</span><code style="background-color: rgb(255, 255, 153);">java-nlp-announce-join@lists.stanford.edu</code><span style="background-color: rgb(255, 255, 153);">.</span>  (Leave the
+subject and message body empty.)
+</li><li><span style="background-color: rgb(255, 255, 153);"><code>java-nlp-support</code> This list goes only to the software
+maintainers.</span>  It's a good address for licensing questions, etc.  <b style="background-color: rgb(255, 255, 153);">For
+general use and support questions, please join and use
+<code>java-nlp-user</code>.</b>
+<span style="background-color: rgb(255, 255, 153);">You cannot join <code>java-nlp-support</code>, but you can mail questions to
+<code>java-nlp-support@lists.stanford.edu</code>.
+</span></li></ol>
+<br>
+
+
+<center>
+<b><font color="#a40526"><a href="http://nlp.stanford.edu/software/stanford-classifier-2013-04-04.zip">
+      Download Stanford Classifier version 2.1.8</a></font></b>
+</center>
+
+<br>
+
+<h3>Release history</h3>
+
+<table cellspacing="5">
+<tbody><tr>
+<th align="left">Version</th><th align="left">Date</th><th align="left">Description</th>
+</tr>
+<tr valign="top">
+<td><a href="http://nlp.stanford.edu/software/stanford-classifier-2013-04-04.tgz">2.1.8</a></td> 
+<td>2013-04-04</td> 
+  <td>Updated for compatibility with other Stanford releases</td>
+</tr>
+<tr valign="top">
+<td><a href="http://nlp.stanford.edu/software/stanford-classifier-2012-11-11.zip">2.1.7</a></td> 
+<td>2012-11-11</td> 
+  <td>Pair of word features added</td>
+</tr>
+<tr valign="top">
+<td><a href="http://nlp.stanford.edu/software/stanford-classifier-2012-07-09.tgz">2.1.6</a></td> 
+<td>2012-07-09</td> 
+  <td>Minor bug fixes</td>
+</tr>
+<tr valign="top">
+<td><a href="http://nlp.stanford.edu/software/stanford-classifier-2012-05-22.tgz">2.1.5</a></td> 
+<td>2012-05-22</td> 
+  <td>Updated for compatibility with other Stanford releases</td>
+</tr>
+<tr valign="top">
+<td><a href="http://nlp.stanford.edu/software/stanford-classifier-2012-03-09.tgz">2.1.4</a></td> 
+<td>2012-03-09</td> 
+  <td>Bugfix for svmlight format</td>
+</tr>
+<tr valign="top">
+<td><a href="http://nlp.stanford.edu/software/stanford-classifier-2011-12-22.tgz">2.1.3</a></td> 
+<td>2011-12-22</td> 
+  <td>Updated for compatibility with other Stanford releases</td>
+</tr>
+<tr valign="top">
+<td><a href="http://nlp.stanford.edu/software/stanford-classifier-2011-09-14.tar.gz">2.1.2</a></td> 
+<td>2011-09-14</td> 
+  <td>Change ColumnDataClassifier to be an object with API rather than
+  static methods; ColumnDataClassifier thread safe</td>
+</tr>
+<tr valign="top">
+<td><a href="http://nlp.stanford.edu/software/stanford-classifier-2011-06-19.tar.gz">2.1.1</a></td> 
+<td>2011-06-19</td> 
+  <td>Updated for compatibility with other Stanford releases</td>
+</tr>
+<tr valign="top">
+<td><a href="http://nlp.stanford.edu/software/stanford-classifier-2011-05-15.tar.gz">2.1</a></td> 
+<td>2011-05-15</td> 
+  <td>Updated with more documentation</td>
+</tr>
+<tr valign="top">
+<td><a href="http://nlp.stanford.edu/software/stanford-classifier-2007-08-15.tar.gz">2.0</a></td> 
+<td>2007-08-15</td> <td>New command line interface, substantial increase in options and features (updated on 2007-09-28 with a bug fix)</td>
+</tr>
+<tr valign="top">
+<td>1.0</td> <td>2003-05-26</td> <td>Initial release</td>
+</tr>
+</tbody></table>
+
+<br><br>
+
+
+    <br>
+    <table class="footer" border="0" width="100%" cellpadding="0">
+      <tbody><tr>
+        <td width="14"><p class="small">&nbsp;</p></td>
+        <td align="left">
+          <p class="small">
+	    Local links: &nbsp;
+	    <a href="http://nlp.stanford.edu/local/nlp_lunch.shtml">NLP lunch</a> ·
+	    <!-- <img src="/img/middot.gif" align="center"> -->
+	    <a href="http://pail.pbwiki.com/">PAIL lunch</a> ·
+            <a href="http://nlp.stanford.edu/read/">NLP Reading Group</a> ·
+	    <a href="http://nlp.stanford.edu/javanlp/">JavaNLP</a> 
+	    (<a href="http://nlp.stanford.edu/nlp/javadoc/javanlp/">javadocs</a>) ·
+	    <a href="http://nlp.stanford.edu/local/machines.shtml">machines</a> ·
+	    <a href="http://nlp.stanford.edu/nlpwiki/">Wiki</a> ·
+	    <a href="http://nlp.stanford.edu/local/calendar.shtml">Calendar</a>
+          </p>
+	</td>
+        <td align="right">
+          <p class="small">
+	    Site design by <a href="http://nlp.stanford.edu/~wcmac/">Bill MacCartney</a>
+          </p>
+        </td>
+      </tr>
+    </tbody></table>
+    <!-- Start of StatCounter Code for Default Guide -->
+<script type="text/javascript">
+var sc_project=6951192; 
+var sc_invisible=1; 
+var sc_security="3325a805"; 
+</script>
+<script type="text/javascript" src="./The Stanford NLP (Natural Language Processing) Group_files/counter.js"></script>
+<noscript>&lt;div class="statcounter"&gt;&lt;a title="godaddy
+counter"
+href="http://statcounter.com/godaddy_website_tonight/"
+target="_blank"&gt;&lt;img class="statcounter"
+src="http://c.statcounter.com/6951192/0/3325a805/1/"
+alt=""&gt;&lt;/a&gt;&lt;/div&gt;</noscript>
+<!-- End of StatCounter Code for Default Guide -->
+  
+
+
+
+<div id="cruxpad_notify_div" style="display: none;"><iframe id="cruxpad_notify_frame" src="./The Stanford NLP (Natural Language Processing) Group_files/error-dialog.html" frameborder="0" style="display: none;"></iframe></div><cruxpad_wrapper id="cruxpad_wrapper" style="height: 46px; width: 100%;"><iframe id="cruxpad_iframe" src="./The Stanford NLP (Natural Language Processing) Group_files/summary.html" class="cruxpad_layer" frameborder="0" style="height: 46px; width: 100%;"></iframe></cruxpad_wrapper></body></html>
