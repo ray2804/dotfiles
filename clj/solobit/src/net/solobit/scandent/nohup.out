@@ -8,3 +8,8 @@
 [10449:0523/210053:ERROR:browser_main_loop.cc(185)] Gdk: gdk_window_set_icon_list: icons too large
 [10482:0523/210053:ERROR:renderer_main.cc(203)] Running without renderer sandbox
 [10449:0523/210126:ERROR:browser_main_loop.cc(185)] Gdk: gdk_window_set_icon_list: icons too large
+[10449:0523/211943:ERROR:browser_main_loop.cc(185)] Gdk: gdk_window_set_icon_list: icons too large
+[10449:0523/212349:ERROR:browser_main_loop.cc(185)] Gdk: gdk_window_set_icon_list: icons too large
+[10449:0523/215645:ERROR:browser_main_loop.cc(185)] Gdk: IA__gdk_window_get_events: assertion `GDK_IS_WINDOW (window)' failed
+[10449:0523/215645:ERROR:browser_main_loop.cc(185)] GLib-GObject: g_object_ref: assertion `G_IS_OBJECT (object)' failed
+[10449:0523/215645:ERROR:browser_main_loop.cc(185)] GLib-GObject: g_object_unref: assertion `G_IS_OBJECT (object)' failed

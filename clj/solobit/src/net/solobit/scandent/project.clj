@@ -15,6 +15,8 @@
                  [org.clojure/tools.namespace "0.2.3"]
                  ;[org.clojure/clojure-contrib "1.2.0"]
                  [swiss-arrows "0.6.0"]
+                 [slingshot "0.10.3"]
+                 [cheshire "5.2.0"]
                  [enlive "1.1.1"]])
 
 

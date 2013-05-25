@@ -14370,3 +14370,54 @@
 2013-05-22 05:58:07	nexusIX	put that in your docpad.config object and the body of an http post will not be parsed and converted into a JSON object
 2013-05-22 06:00:30	nexusIX	the urlencoded data should not be run through the bodyParser if you're proxying it to another service
 2013-05-22 07:45:52	<--	ashnur (~ashnur@79.117.71.56) has quit (Quit: WeeChat 0.4.0)
+2013-05-23 22:56:41	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #docpad
+2013-05-23 22:56:41	--	Topic for #docpad is "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-05-23 22:56:41	--	Topic set by EtherealMind1 (~etherealm@87.242.165.59) on Mon, 13 May 2013 15:55:08
+2013-05-23 22:56:41	--	Nicks #docpad: [ashnur balupton dimab elf-pavlik nexusIX shama slindberg steventrevathan supersym thanpolas]
+2013-05-23 22:56:41	--	Channel #docpad: 10 nicks (0 ops, 0 halfops, 0 voices, 10 normals)
+2013-05-23 22:56:45	--	Mode #docpad [+t]
+2013-05-23 22:56:45	--	Channel created on Sat, 26 May 2012 12:12:13
+2013-05-23 23:23:24	<--	slindberg (~slindberg@24-104-79-38-ip-static.hfc.comcastbusiness.net) has quit (Ping timeout: 260 seconds)
+2013-05-24 01:00:53	--	irc: disconnected from server
+2013-05-24 20:24:41	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #docpad
+2013-05-24 20:24:41	--	Topic for #docpad is "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-05-24 20:24:41	--	Topic set by EtherealMind1 (~etherealm@87.242.165.59) on Mon, 13 May 2013 15:55:08
+2013-05-24 20:24:41	--	Nicks #docpad: [elf-pavlik eth0lo nexusIX shama steventrevathan supersym thanpolas]
+2013-05-24 20:24:41	--	Channel #docpad: 7 nicks (0 ops, 0 halfops, 0 voices, 7 normals)
+2013-05-24 20:24:45	--	Mode #docpad [+t]
+2013-05-24 20:24:45	--	Channel created on Sat, 26 May 2012 12:12:13
+2013-05-24 20:50:06	<--	eth0lo (~eth0lo@office.xing.com) has quit (Read error: Connection reset by peer)
+2013-05-24 20:50:26	-->	eth0lo (~eth0lo@office.xing.com) has joined #docpad
+2013-05-24 20:51:57	-->	balupton (uid6783@gateway/web/irccloud.com/x-hdpbedgtyszllamp) has joined #docpad
+2013-05-24 22:46:01	-->	EricLeslie (~EricLesli@68-189-102-33.dhcp.wtvl.ca.charter.com) has joined #docpad
+2013-05-24 22:47:02	EricLeslie	This may seem silly, but I'm not clear how to configure docpad how to listen to a specific IP
+2013-05-24 23:05:23	<--	EricLeslie (~EricLesli@68-189-102-33.dhcp.wtvl.ca.charter.com) has quit (Quit: EricLeslie)
+2013-05-24 23:08:50	-->	EricLeslie (~EricLesli@68-189-102-33.dhcp.wtvl.ca.charter.com) has joined #docpad
+2013-05-24 23:13:12	EricLeslie	Do I need to create my own express instance for docpad to use in order to listen on a specified IP?
+2013-05-24 23:26:12	nexusIX	EricLeslie, generally the IP it listens on will be the IP of your server
+2013-05-24 23:26:56	nexusIX	For stuff like routing multiple IPs, I use nginx, haven't used node.js servers for that although there are probably ways
+2013-05-24 23:28:21	EricLeslie	My server has two IPs on it's network interface
+2013-05-24 23:28:35	nexusIX	The standard DocPad config assumes a single IP for the server
+2013-05-24 23:29:15	EricLeslie	I see that
+2013-05-24 23:29:35	EricLeslie	I'll dig a bit deeper
+2013-05-24 23:33:16	nexusIX	It would be in express if it's there, but I haven't seen any IP handling in my work with node so far
+2013-05-24 23:34:35	<--	steventrevathan (~steventre@64.119.141.126) has quit (Quit: steventrevathan)
+2013-05-25 00:04:43	--	irc: disconnected from server
+2013-05-25 10:07:31	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #docpad
+2013-05-25 10:07:31	--	Topic for #docpad is "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-05-25 10:07:31	--	Topic set by EtherealMind1 (~etherealm@87.242.165.59) on Mon, 13 May 2013 15:55:08
+2013-05-25 10:07:31	--	Nicks #docpad: [ashnur balupton elf-pavlik EricLeslie eth0lo nexusIX supersym thanpolas]
+2013-05-25 10:07:31	--	Channel #docpad: 8 nicks (0 ops, 0 halfops, 0 voices, 8 normals)
+2013-05-25 10:07:35	--	Mode #docpad [+t]
+2013-05-25 10:07:35	--	Channel created on Sat, 26 May 2012 12:12:13
+2013-05-25 10:08:15	supersym	balupton: don't know if you've ever heard of this: http://stringtemplate.org/about.html I found it enlighting concerning templating and tpl languages
+2013-05-25 10:33:12	supersym	also sweet fun: string interpolation with clojure http://cemerick.com/2009/12/04/string-interpolation-in-clojure really why I started searching out some stuff, wanting to be able an interpolate every and any value in docpad templates, be it coffee or haml etc
+2013-05-25 10:33:20	supersym	or docpad itself :D
+2013-05-25 11:43:48	--	Notice(GitHub51): [docpad] balupton merged master into dev: http://git.io/pTZSgA
+2013-05-25 11:43:48	--	Notice(GitHub149): [docpad] balupton merged dev into master: http://git.io/pTZSgA
+2013-05-25 11:43:52	--	Notice(GitHub95): [docpad] balupton tagged v6.35.0 at dev: http://git.io/qTGcXg
+2013-05-25 12:05:43	<--	ashnur (~ashnur@79.117.79.186) has quit (Quit: WeeChat 0.4.1)
+2013-05-25 12:12:53	<--	thanpolas (~thanpolas@athedsl-302997.home.otenet.gr) has quit (Ping timeout: 248 seconds)
+2013-05-25 12:14:08	-->	thanpolas (~thanpolas@athedsl-4367501.home.otenet.gr) has joined #docpad
+2013-05-25 13:22:51	-->	PaulRadzkov (5d7d419d@gateway/web/freenode/ip.93.125.65.157) has joined #docpad
+2013-05-25 13:31:29	<--	PaulRadzkov (5d7d419d@gateway/web/freenode/ip.93.125.65.157) has quit (Ping timeout: 250 seconds)

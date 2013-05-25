@@ -1,0 +1,42 @@
+2013-05-23 22:56:42	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #luminus
+2013-05-23 22:56:42	--	Nicks #luminus: [harrow ivan Raynes supersym yogthos]
+2013-05-23 22:56:42	--	Channel #luminus: 5 nicks (0 ops, 0 halfops, 0 voices, 5 normals)
+2013-05-23 22:57:03	--	Mode #luminus [+ns]
+2013-05-23 22:57:03	--	Channel created on Sun, 12 May 2013 00:55:48
+2013-05-23 22:58:04	supersym	its probably me, but somehow the 'Including Templates' as mentioned in the documentation, doesn't work out of the box
+2013-05-23 22:59:03	supersym	I tried a whole lot of different ways, changing the path etc. Rendering somewhere seems to be the missing link but I find no references to that being a requirement
+2013-05-23 23:17:17	supersym	"When the base.html is rendered it will replace the register and home blocks with the ones from these templates." I took the same steps and confirm no result.
+2013-05-24 01:00:54	--	irc: disconnected from server
+2013-05-24 20:24:41	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #luminus
+2013-05-24 20:24:41	--	Nicks #luminus: [edtsech harrow ivan Raynes supersym yogthos]
+2013-05-24 20:24:41	--	Channel #luminus: 6 nicks (0 ops, 0 halfops, 0 voices, 6 normals)
+2013-05-24 20:25:17	--	Mode #luminus [+ns]
+2013-05-24 20:25:17	--	Channel created on Sun, 12 May 2013 00:55:48
+2013-05-24 20:46:50	<--	edtsech (~edtsech@98.193.broadband6.iol.cz) has quit (Read error: No route to host)
+2013-05-24 20:47:51	-->	edtsech (~edtsech@98.193.broadband6.iol.cz) has joined #luminus
+2013-05-24 21:24:13	--	yogthos is now known as yogthos|away
+2013-05-24 21:36:31	--	yogthos|away is now known as yogthos
+2013-05-24 21:44:08	--	yogthos is now known as yogthos|away
+2013-05-24 22:33:59	--	yogthos|away is now known as yogthos
+2013-05-25 00:04:21	-->	VFe (~VFe@cpe-69-204-115-228.buffalo.res.rr.com) has joined #luminus
+2013-05-25 00:04:43	--	irc: disconnected from server
+2013-05-25 10:07:32	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #luminus
+2013-05-25 10:07:32	--	Nicks #luminus: [edtsech harrow ivan Raynes supersym yogthos|away]
+2013-05-25 10:07:32	--	Channel #luminus: 6 nicks (0 ops, 0 halfops, 0 voices, 6 normals)
+2013-05-25 10:07:53	--	Mode #luminus [+ns]
+2013-05-25 10:07:53	--	Channel created on Sun, 12 May 2013 00:55:48
+2013-05-25 10:38:56	--	yogthos|away is now known as yogthos
+2013-05-25 10:48:23	--	yogthos is now known as yogthos|away
+2013-05-25 11:25:57	--	yogthos|away is now known as yogthos
+2013-05-25 11:35:24	--	yogthos is now known as yogthos|away
+2013-05-25 12:39:24	--	yogthos|away is now known as yogthos
+2013-05-25 12:48:51	--	yogthos is now known as yogthos|away
+2013-05-25 12:53:29	<--	edtsech (~edtsech@98.193.broadband6.iol.cz) has quit (Remote host closed the connection)
+2013-05-25 12:56:02	-->	edtsech (~edtsech@98.193.broadband6.iol.cz) has joined #luminus
+2013-05-25 13:20:07	<--	edtsech (~edtsech@98.193.broadband6.iol.cz) has quit (Remote host closed the connection)
+2013-05-25 13:24:54	-->	edtsech (~edtsech@98.193.broadband6.iol.cz) has joined #luminus
+2013-05-25 13:26:14	--	yogthos|away is now known as yogthos
+2013-05-25 13:27:05	<--	edtsech (~edtsech@98.193.broadband6.iol.cz) has quit (Remote host closed the connection)
+2013-05-25 13:35:43	--	yogthos is now known as yogthos|away
+2013-05-25 13:54:37	-->	edtsech (~edtsech@98.193.broadband6.iol.cz) has joined #luminus
+2013-05-25 14:16:52	--	yogthos|away is now known as yogthos

@@ -1005,3 +1005,10 @@
 2013-05-21 19:13:04	=!=	Warning: /home/baal/.weechat/irc.conf, line 80: unknown option for section "network": lag_disconnect = 0
 2013-05-21 19:13:04		Plugins loaded: alias, aspell, charset, fifo, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
 2013-05-23 15:56:22		fifo: pipe closed
+2013-05-23 22:55:54		Plugins loaded: alias, aspell, charset, fifo, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2013-05-23 22:55:57		fifo: pipe closed
+2013-05-23 22:56:25		Plugins loaded: alias, aspell, charset, fifo, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2013-05-24 01:00:53		fifo: pipe closed
+2013-05-24 20:24:28		Plugins loaded: alias, aspell, charset, fifo, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2013-05-25 00:04:42		fifo: pipe closed
+2013-05-25 10:07:15		Plugins loaded: alias, aspell, charset, fifo, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer

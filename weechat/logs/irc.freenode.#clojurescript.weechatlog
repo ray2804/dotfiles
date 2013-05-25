@@ -4537,3 +4537,49 @@
 2013-05-22 07:02:08	-->	ddellacosta (~ddellacos@softbank060071153004.bbtec.net) has joined #clojurescript
 2013-05-22 07:31:42	<--	trptcolin (~trptcolin@c-69-246-214-56.hsd1.il.comcast.net) has quit (Quit: trptcolin)
 2013-05-22 07:52:10	<--	mtm (~mtm@c-24-130-130-44.hsd1.ca.comcast.net) has quit (Ping timeout: 252 seconds)
+2013-05-23 22:56:41	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #clojurescript
+2013-05-23 22:56:41	--	Nicks #clojurescript: [ahoops bbloom brainproxy cdh473 cemerick frankgerhardt__ harrow ibdknox j0ni jaimef jimt karnowski kgerman momomomomo mye si14 supersym ToBeReplaced tos9 tyler_ wyer]
+2013-05-23 22:56:41	--	Channel #clojurescript: 21 nicks (0 ops, 0 halfops, 0 voices, 21 normals)
+2013-05-23 22:56:41	--	Notice(hubbard.freenode.net): [freenode-info] channel flooding and no channel staff around to help? Please check with freenode support: http://freenode.net/faq.shtml#gettinghelp
+2013-05-23 22:56:53	--	Mode #clojurescript [+cnt]
+2013-05-23 22:56:53	--	Channel created on Thu, 21 Jul 2011 18:34:20
+2013-05-23 23:18:57	-->	abadr (~abadr@199.101.130.203) has joined #clojurescript
+2013-05-23 23:36:20	<--	ToBeReplaced (~ToBeRepla@c-68-48-45-209.hsd1.dc.comcast.net) has quit (Quit: ToBeReplaced)
+2013-05-23 23:40:49	<--	kgerman (~kgerman@129.33.1.38) has quit (Ping timeout: 252 seconds)
+2013-05-23 23:54:05	<--	cdh473 (~cdh473@50.96.16.104) has quit (Read error: Connection reset by peer)
+2013-05-23 23:54:30	-->	cdh473 (~cdh473@50.96.16.104) has joined #clojurescript
+2013-05-24 00:10:41	<--	mye (~lo@p5DE5847D.dip0.t-ipconnect.de) has quit (Quit: mye)
+2013-05-24 00:17:15	<--	abadr (~abadr@199.101.130.203) has quit (Quit: abadr)
+2013-05-24 00:22:38	<--	momomomomo (~momomomom@146.217.200.220) has quit (Quit: momomomomo)
+2013-05-24 00:23:37	-->	bmaddy (~bmaddy@72.21.231.26) has joined #clojurescript
+2013-05-24 00:32:21	<--	bmaddy (~bmaddy@72.21.231.26) has quit (Remote host closed the connection)
+2013-05-24 00:46:32	-->	momomomomo (~momomomom@146.217.200.220) has joined #clojurescript
+2013-05-24 01:00:54	--	irc: disconnected from server
+2013-05-24 20:24:41	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #clojurescript
+2013-05-24 20:24:41	--	Nicks #clojurescript: [ahoops bbloom bmaddy brainproxy cdh473 cemerick harrow ibdknox j0ni jaimef jimt_ jonasen kgerman si14 supersym ToBeReplaced tos9 tyler_ wyer]
+2013-05-24 20:24:41	--	Channel #clojurescript: 19 nicks (0 ops, 0 halfops, 0 voices, 19 normals)
+2013-05-24 20:24:41	--	Notice(calvino.freenode.net): [freenode-info] if you're at a conference and other people are having trouble connecting, please mention it to staff: http://freenode.net/faq.shtml#gettinghelp
+2013-05-24 20:24:53	--	Mode #clojurescript [+cnt]
+2013-05-24 20:24:53	--	Channel created on Thu, 21 Jul 2011 18:34:20
+2013-05-24 20:50:07	-->	frankgerhardt__ (uid7796@gateway/web/irccloud.com/x-rqttvchgotqayouv) has joined #clojurescript
+2013-05-24 20:51:35	-->	mtm (~mtm@c-24-130-130-44.hsd1.ca.comcast.net) has joined #clojurescript
+2013-05-24 20:55:25	-->	momomomomo (~momomomom@c-107-2-92-157.hsd1.mn.comcast.net) has joined #clojurescript
+2013-05-24 20:56:20	<--	momomomomo (~momomomom@c-107-2-92-157.hsd1.mn.comcast.net) has quit (Client Quit)
+2013-05-24 21:02:43	<--	mtm (~mtm@c-24-130-130-44.hsd1.ca.comcast.net) has quit (Quit: Leaving...)
+2013-05-24 21:11:06	-->	mye (~lo@p5DE58897.dip0.t-ipconnect.de) has joined #clojurescript
+2013-05-24 22:55:00	<--	bmaddy (~bmaddy@c-75-73-4-195.hsd1.mn.comcast.net) has quit (Remote host closed the connection)
+2013-05-24 23:00:01	<--	kgerman (kgerman@nat/ibm/x-ipzuiskunnoidmnm) has quit (Quit: ChatZilla 0.9.90 [Firefox 17.0.6/20130509111054])
+2013-05-24 23:16:54	-->	bmaddy (~bmaddy@173-165-237-89-minnesota.hfc.comcastbusiness.net) has joined #clojurescript
+2013-05-25 00:00:51	<--	cdh473 (~cdh473@50.96.16.104) has quit (Ping timeout: 260 seconds)
+2013-05-25 00:04:43	--	irc: disconnected from server
+2013-05-25 10:07:31	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #clojurescript
+2013-05-25 10:07:31	--	Nicks #clojurescript: [ahoops bbloom brainproxy frankgerhardt__ harrow ibdknox j0ni jaimef jimt_ jonasen si14 supersym tos9 tyler_ wei_ wyer]
+2013-05-25 10:07:31	--	Channel #clojurescript: 16 nicks (0 ops, 0 halfops, 0 voices, 16 normals)
+2013-05-25 10:07:31	--	Notice(asimov.freenode.net): [freenode-info] channel flooding and no channel staff around to help? Please check with freenode support: http://freenode.net/faq.shtml#gettinghelp
+2013-05-25 10:07:43	--	Mode #clojurescript [+cnt]
+2013-05-25 10:07:43	--	Channel created on Thu, 21 Jul 2011 18:34:20
+2013-05-25 12:30:03	-->	decaf (~decaf@unaffiliated/decaf) has joined #clojurescript
+2013-05-25 13:00:31	-->	inkybutton (~inkybutto@119.224.76.114) has joined #clojurescript
+2013-05-25 13:00:31	<--	inkybutton (~inkybutto@119.224.76.114) has quit (Changing host)
+2013-05-25 13:00:31	-->	inkybutton (~inkybutto@unaffiliated/inkybutton) has joined #clojurescript
+2013-05-25 13:15:49	-->	cemerick (~cemerick@c-71-192-116-188.hsd1.ma.comcast.net) has joined #clojurescript
