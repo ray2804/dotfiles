@@ -4588,3 +4588,9 @@
 2013-05-25 15:16:52	-->	cemerick (~cemerick@c-71-192-116-188.hsd1.ma.comcast.net) has joined #clojurescript
 2013-05-25 15:23:55	<--	cemerick (~cemerick@c-71-192-116-188.hsd1.ma.comcast.net) has quit (Remote host closed the connection)
 2013-05-25 16:40:55	-->	bmaddy (~bmaddy@72.21.231.26) has joined #clojurescript
+2013-05-25 16:55:44	<--	decaf (~decaf@unaffiliated/decaf) has quit (Ping timeout: 252 seconds)
+2013-05-25 17:00:53	<--	bmaddy (~bmaddy@72.21.231.26) has quit (Remote host closed the connection)
+2013-05-25 17:07:45	-->	decaf (~decaf@unaffiliated/decaf) has joined #clojurescript
+2013-05-25 17:11:22	<--	wei_ (~wei@adsl-76-204-31-17.dsl.pltn13.sbcglobal.net) has quit (Quit: wei_)
+2013-05-25 17:22:16	<--	jonasen (~jonasen@a100.ip13.netikka.fi) has quit (Quit: Lost terminal)
+2013-05-25 17:24:51	-->	jonasen (~jonasen@a100.ip13.netikka.fi) has joined #clojurescript

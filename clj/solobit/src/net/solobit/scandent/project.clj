@@ -14,6 +14,7 @@
                  [org.clojure/data.generators "0.1.0"]
                  [org.clojure/tools.namespace "0.2.3"]
                  ;[org.clojure/clojure-contrib "1.2.0"]
+                 [clojure-opennlp "0.2.0"]
                  [swiss-arrows "0.6.0"]
                  [slingshot "0.10.3"]
                  [cheshire "5.2.0"]

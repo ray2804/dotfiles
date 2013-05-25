@@ -39423,3 +39423,40 @@ RMÓñ
 2013-05-25 16:41:40	-->	D4RK-PH0ENiX (~D4RK-PH0E@39.173.138.210.bf.2iij.net) has joined #coffeescript
 2013-05-25 16:41:42	<--	yuya_ (~yuya@v003020.dynamic.ppp.asahi-net.or.jp) has quit (Remote host closed the connection)
 2013-05-25 16:42:37	<--	nstielau (~nstielau@67.137.38.148) has quit (Ping timeout: 252 seconds)
+2013-05-25 16:45:32	-->	yuya_ (~yuya@v003020.dynamic.ppp.asahi-net.or.jp) has joined #coffeescript
+2013-05-25 16:47:43	<--	mercwithamouth (~kingdom@99-38-191-69.lightspeed.clmasc.sbcglobal.net) has quit (Quit: Lost terminal)
+2013-05-25 16:50:12	-->	Fishrock123 (~Fishrock1@bas4-oshawa95-2925055472.dsl.bell.ca) has joined #coffeescript
+2013-05-25 16:51:02	<--	brian-mann (~brian-man@c-24-131-42-101.hsd1.ga.comcast.net) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2013-05-25 16:52:05	-->	albemuth (~albemuth@201.198.78.18) has joined #coffeescript
+2013-05-25 16:52:10	-->	sreeix (~sreeix@122.172.202.111) has joined #coffeescript
+2013-05-25 16:52:10	<--	sreeix (~sreeix@122.172.202.111) has quit (Client Quit)
+2013-05-25 16:56:09	-->	rsim (~rsim@78.84.21.14) has joined #coffeescript
+2013-05-25 17:09:38	-->	zastaph (zastaph@unaffiliated/zastaph) has joined #coffeescript
+2013-05-25 17:10:00	zastaph	does coffeescript work with the latest node version? 0.10.8
+2013-05-25 17:10:42	-->	bradgignac (~bradgigna@96-35-107-138.dhcp.bycy.mi.charter.com) has joined #coffeescript
+2013-05-25 17:12:36	Vendethiel	zastaph: yeah
+2013-05-25 17:12:56	ckknight	it would be extremely unlikely for coffeescript to break because of a node version upgrade
+2013-05-25 17:15:57	Vendethiel	no
+2013-05-25 17:16:08	Vendethiel	node's API is still unstable
+2013-05-25 17:16:27	Vendethiel	we had warning when node changed path things to fs
+2013-05-25 17:19:23	zastaph	do I still do sudo npm -g install coffeescript when using nvm ? because rvm for ruby means you're not using sudo for gems
+2013-05-25 17:22:17	ckknight	Vendethiel: you mean path.join?
+2013-05-25 17:22:28	Vendethiel	I can't remember :>
+2013-05-25 17:22:37	ckknight	yeah, path.join now breaks on non-strings
+2013-05-25 17:23:01	Vendethiel	yeah
+2013-05-25 17:23:11	ckknight	zastaph: sudo installs it to /usr/local/bin, without sudo, it installs to ~/node_modules/.bin, afaik. If you have the latter in your path, you don't need sudo.
+2013-05-25 17:24:09	zastaph	which is recommended
+2013-05-25 17:25:02	zastaph	~/.nvm/v0.10.8/bin is in path
+2013-05-25 17:26:13	zastaph	http://howtonode.org/introduction-to-npm recommends to chown -R $USER on /usr/local .. that's a bit bold :)
+2013-05-25 17:26:26	ckknight	don't do that
+2013-05-25 17:26:31	ckknight	just add ~/node_modules/.bin to your path
+2013-05-25 17:26:34	ckknight	crisis solved.
+2013-05-25 17:27:41	zastaph	http://coffeescript.org/ still recommends sudo
+2013-05-25 17:33:51	zastaph	heh no actually a page below sudo npm install it has the same example without sudo
+2013-05-25 17:34:49	<--	bradgignac (~bradgigna@96-35-107-138.dhcp.bycy.mi.charter.com) has quit (Quit: bradgignac)
+2013-05-25 17:35:23	zastaph	it installed to ~/.nvm/v0.10.8/lib/node_modules/coffee-script
+2013-05-25 17:35:43	zastaph	and 3 warning for missing repository field on github-url-from-git, assert-plus and ctype
+2013-05-25 17:36:13	zastaph	but i can type coffee, so it must somehow be in path
+2013-05-25 17:36:18	<--	mattgifford (~mattgiffo@108.161.20.199) has quit (Remote host closed the connection)
+2013-05-25 17:37:49	zastaph	yes it copied the coffee command to bin
+2013-05-25 17:38:44	-->	nstielau (~nstielau@67.137.38.148) has joined #coffeescript
