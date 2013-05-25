@@ -14421,3 +14421,8 @@
 2013-05-25 12:14:08	-->	thanpolas (~thanpolas@athedsl-4367501.home.otenet.gr) has joined #docpad
 2013-05-25 13:22:51	-->	PaulRadzkov (5d7d419d@gateway/web/freenode/ip.93.125.65.157) has joined #docpad
 2013-05-25 13:31:29	<--	PaulRadzkov (5d7d419d@gateway/web/freenode/ip.93.125.65.157) has quit (Ping timeout: 250 seconds)
+2013-05-25 14:32:39	nexusIX	Hi supersym, if you're around I had some questions about webpack
+2013-05-25 14:33:31	nexusIX	Does it give you the ability to dynamically load javascript modules from the server while someone uses a web application?
+2013-05-25 14:59:52	--	Notice(GitHub81): [docpad] balupton created dev-helperupdate (+1 new commit): http://git.io/13F8aw
+2013-05-25 14:59:52	--	Notice(GitHub81): docpad/dev-helperupdate 0a5afc8 Benjamin Lupton: Updating for the latest docpad helper version, still a bit to go
+2013-05-25 15:37:04	<--	eth0lo (~eth0lo@office.xing.com) has quit (Ping timeout: 256 seconds)

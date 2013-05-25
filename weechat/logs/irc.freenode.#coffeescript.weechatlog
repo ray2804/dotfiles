@@ -39371,3 +39371,40 @@ RMÓñ
 2013-05-25 14:22:45	-->	sashman (~sashman@gateway/tor-sasl/sashman) has joined #coffeescript
 2013-05-25 14:24:47	-->	altamic (~altamic@unaffiliated/altamic) has joined #coffeescript
 2013-05-25 14:25:04	<--	altamic (~altamic@unaffiliated/altamic) has left #coffeescript
+2013-05-25 14:33:38	<--	kil0byte (~kil0byte@112.204.146.123) has quit (Remote host closed the connection)
+2013-05-25 14:34:17	-->	sakal (~sakal@88.84.213.199) has joined #coffeescript
+2013-05-25 14:45:06	-->	paddymahoney (~patrick@198-84-186-52.cpe.teksavvy.com) has joined #coffeescript
+2013-05-25 14:48:26	-->	yuya_ (~yuya@v003020.dynamic.ppp.asahi-net.or.jp) has joined #coffeescript
+2013-05-25 14:49:55	_rgn	writing tests in cs is like the perfect use case
+2013-05-25 14:50:23	_rgn	suite(function() { test('fooo', function() { function() { function() { function() { function() {
+2013-05-25 14:58:07	<--	yuya_ (~yuya@v003020.dynamic.ppp.asahi-net.or.jp) has quit (Ping timeout: 252 seconds)
+2013-05-25 15:00:49	-->	vlad_sta_ (~vlad_star@83.220.237.198) has joined #coffeescript
+2013-05-25 15:03:37	ckknight	_rgn: yeah, JS's default function syntax is pretty poor for DSLs like test suites
+2013-05-25 15:04:30	<--	vlad_starkov (~vlad_star@91.206.59.137) has quit (Ping timeout: 256 seconds)
+2013-05-25 15:08:57	<--	sakal (~sakal@88.84.213.199) has quit (Quit: Ex-Chat: Sic itur ad astra)
+2013-05-25 15:09:25	-->	cha1tanya (~cha1tanya@unaffiliated/cha1tanya) has joined #coffeescript
+2013-05-25 15:14:09	<--	deltab (~deltab@cpc3-smal2-0-0-cust159.19-1.cable.virginmedia.com) has quit (Ping timeout: 248 seconds)
+2013-05-25 15:14:56	-->	deltab (~deltab@cpc3-smal2-0-0-cust159.19-1.cable.virginmedia.com) has joined #coffeescript
+2013-05-25 15:15:16	<--	cha1tanya (~cha1tanya@unaffiliated/cha1tanya) has quit (Ping timeout: 256 seconds)
+2013-05-25 15:24:22	-->	yuya_ (~yuya@v003020.dynamic.ppp.asahi-net.or.jp) has joined #coffeescript
+2013-05-25 15:27:58	<--	vlad_sta_ (~vlad_star@83.220.237.198) has quit (Remote host closed the connection)
+2013-05-25 15:28:47	-->	kevwil (~kevwil@c-75-71-9-234.hsd1.co.comcast.net) has joined #coffeescript
+2013-05-25 15:31:04	-->	seseisanudo (~seseisanu@195-202-249-108.dynamic.hispeed.ch) has joined #coffeescript
+2013-05-25 15:33:23	-->	sreeix (~sreeix@122.172.197.219) has joined #coffeescript
+2013-05-25 15:33:24	<--	kevwil (~kevwil@c-75-71-9-234.hsd1.co.comcast.net) has quit (Ping timeout: 256 seconds)
+2013-05-25 15:33:37	<--	yuya_ (~yuya@v003020.dynamic.ppp.asahi-net.or.jp) has quit (Ping timeout: 252 seconds)
+2013-05-25 15:33:40	seseisanudo	hi, iÂ´ve a problem with rails , jquery and jquery ui on mouseover color animation. my script works till i click on a link and after that the script doesnÂ´t work anymore.
+2013-05-25 15:34:19	seseisanudo	$ ->
+2013-05-25 15:34:19	seseisanudo		$(".topbar-left .mint").on
+2013-05-25 15:34:19	seseisanudo		  mouseover: ->
+2013-05-25 15:34:20	seseisanudo		    $(".topbar-left .mint").css({ color: mint })
+2013-05-25 15:34:22	seseisanudo		    $(".topbar-left .mint").stop().animate({ color: white }, hover_speed)
+2013-05-25 15:34:25	seseisanudo		  mouseout: ->
+2013-05-25 15:34:26	seseisanudo		    $(".topbar-left .mint").stop().animate({ color: mint }, hover_speed)
+2013-05-25 15:34:51	-->	mattgifford (~mattgiffo@108.161.20.199) has joined #coffeescript
+2013-05-25 15:35:04	seseisanudo	what i doing wrong?
+2013-05-25 15:37:44	<--	seseisanudo (~seseisanu@195-202-249-108.dynamic.hispeed.ch) has left #coffeescript
+2013-05-25 15:40:07	<--	sinclair|net (~chatzilla@ip-118-90-32-136.xdsl.xnet.co.nz) has quit (Quit: ChatZilla 0.9.90 [Firefox 21.0/20130511120803])
+2013-05-25 15:47:32	-->	mercwithamouth (~kingdom@99-38-191-69.lightspeed.clmasc.sbcglobal.net) has joined #coffeescript
+2013-05-25 15:52:12	<--	sreeix (~sreeix@122.172.197.219) has quit (Ping timeout: 240 seconds)
+2013-05-25 15:53:24	-->	sreeix (~sreeix@122.167.73.78) has joined #coffeescript
