@@ -4850,3 +4850,27 @@
 2013-05-29 11:22:10	-->	inkybutton (~inkybutto@119.224.76.114) has joined #clojurescript
 2013-05-29 11:22:10	<--	inkybutton (~inkybutto@119.224.76.114) has quit (Changing host)
 2013-05-29 11:22:10	-->	inkybutton (~inkybutto@unaffiliated/inkybutton) has joined #clojurescript
+2013-05-29 13:25:11	<--	scitesy (~scitesy@d118-75-116-92.nap.wideopenwest.com) has quit (Quit: Bye)
+2013-05-29 14:00:06	-->	normanrichards (~normanric@70.114.215.220) has joined #clojurescript
+2013-05-29 14:11:01	-->	cemerick (~cemerick@c-71-192-116-188.hsd1.ma.comcast.net) has joined #clojurescript
+2013-05-29 14:15:28	-->	decaf (~decaf@unaffiliated/decaf) has joined #clojurescript
+2013-05-29 14:15:50	<--	ahoops (~ahoops__@121.96.14.223) has quit (Ping timeout: 256 seconds)
+2013-05-29 14:16:25	-->	ahoops (~ahoops__@121.96.14.223) has joined #clojurescript
+2013-05-29 14:29:04	<--	cemerick (~cemerick@c-71-192-116-188.hsd1.ma.comcast.net) has quit (Remote host closed the connection)
+2013-05-29 14:53:17	<--	normanrichards (~normanric@70.114.215.220) has quit (Quit: normanrichards)
+2013-05-29 15:04:55	<--	dek5 (~eugene@mail.quickpay.ru) has quit (Quit: Leaving.)
+2013-05-29 15:06:14	<--	inkybutton (~inkybutto@unaffiliated/inkybutton) has quit (Ping timeout: 252 seconds)
+2013-05-29 15:20:25	-->	normanrichards (~normanric@rrcs-108-178-95-113.sw.biz.rr.com) has joined #clojurescript
+2013-05-29 15:23:27	-->	inkybutton (~inkybutto@119.224.76.114) has joined #clojurescript
+2013-05-29 15:23:27	<--	inkybutton (~inkybutto@119.224.76.114) has quit (Changing host)
+2013-05-29 15:23:27	-->	inkybutton (~inkybutto@unaffiliated/inkybutton) has joined #clojurescript
+2013-05-29 15:28:07	-->	jonasen (~jonasen@a100.ip13.netikka.fi) has joined #clojurescript
+2013-05-29 15:41:46	<--	normanrichards (~normanric@rrcs-108-178-95-113.sw.biz.rr.com) has quit (Quit: normanrichards)
+2013-05-29 15:44:05	<--	inkybutton (~inkybutto@unaffiliated/inkybutton) has quit (Ping timeout: 240 seconds)
+2013-05-29 15:53:14	-->	momomomomo (~momomomom@c-107-2-92-157.hsd1.mn.comcast.net) has joined #clojurescript
+2013-05-29 16:13:32	-->	ludston (~ludston@101.161.12.155) has joined #clojurescript
+2013-05-29 16:42:19	<--	momomomomo (~momomomom@c-107-2-92-157.hsd1.mn.comcast.net) has quit (Quit: momomomomo)
+2013-05-29 16:46:38	<--	ludston (~ludston@101.161.12.155) has quit (Remote host closed the connection)
+2013-05-29 17:00:12	-->	shaunxcode (~chatzilla@c-67-182-222-192.hsd1.ut.comcast.net) has joined #clojurescript
+2013-05-29 17:01:47	-->	bmaddy (~bmaddy@72.21.231.26) has joined #clojurescript
+2013-05-29 17:07:36	--	irc: disconnected from server
