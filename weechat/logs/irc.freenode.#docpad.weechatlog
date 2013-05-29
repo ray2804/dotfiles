@@ -14426,3 +14426,168 @@
 2013-05-25 14:59:52	--	Notice(GitHub81): [docpad] balupton created dev-helperupdate (+1 new commit): http://git.io/13F8aw
 2013-05-25 14:59:52	--	Notice(GitHub81): docpad/dev-helperupdate 0a5afc8 Benjamin Lupton: Updating for the latest docpad helper version, still a bit to go
 2013-05-25 15:37:04	<--	eth0lo (~eth0lo@office.xing.com) has quit (Ping timeout: 256 seconds)
+2013-05-25 18:23:06	-->	ashnur (~ashnur@79.117.79.186) has joined #docpad
+2013-05-25 18:34:23	-->	eth0lo (~eth0lo@office.xing.com) has joined #docpad
+2013-05-25 20:10:44	--	irc: disconnected from server
+2013-05-26 11:07:00	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #docpad
+2013-05-26 11:07:00	--	Topic for #docpad is "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-05-26 11:07:00	--	Topic set by EtherealMind1 (~etherealm@87.242.165.59) on Mon, 13 May 2013 15:55:10
+2013-05-26 11:07:00	--	Nicks #docpad: [ashnur balupton elf-pavlik EricLeslie eth0lo nexusIX supersym thanpola_]
+2013-05-26 11:07:00	--	Channel #docpad: 8 nicks (0 ops, 0 halfops, 0 voices, 8 normals)
+2013-05-26 11:07:04	--	Mode #docpad [+t]
+2013-05-26 11:07:04	--	Channel created on Sat, 26 May 2012 12:12:13
+2013-05-26 11:26:26	<--	ashnur (~ashnur@79.117.83.11) has quit (Quit: WeeChat 0.4.1)
+2013-05-26 11:31:40	-->	dospuntocero (~dospuntoc@pc-125-165-215-201.cm.vtr.net) has joined #docpad
+2013-05-26 11:39:47	<--	dospuntocero (~dospuntoc@pc-125-165-215-201.cm.vtr.net) has quit (Read error: Connection reset by peer)
+2013-05-26 11:40:02	-->	dospuntocero (~dospuntoc@pc-125-165-215-201.cm.vtr.net) has joined #docpad
+2013-05-26 11:42:37	<--	dospuntocero (~dospuntoc@pc-125-165-215-201.cm.vtr.net) has quit (Remote host closed the connection)
+2013-05-26 12:29:33	-->	dospuntocero (~dospuntoc@pc-125-165-215-201.cm.vtr.net) has joined #docpad
+2013-05-26 12:33:50	<--	dospuntocero (~dospuntoc@pc-125-165-215-201.cm.vtr.net) has quit (Ping timeout: 240 seconds)
+2013-05-26 14:07:10	<--	EricLeslie (~EricLesli@68-189-102-33.dhcp.wtvl.ca.charter.com) has quit (Ping timeout: 256 seconds)
+2013-05-26 14:36:13	-->	ashnur (~ashnur@79.117.83.11) has joined #docpad
+2013-05-26 14:53:39	-->	dospuntocero (~dospuntoc@pc-125-165-215-201.cm.vtr.net) has joined #docpad
+2013-05-26 14:53:57	balupton	ashnur: yeah, will be adding a tape interface for joe soon
+2013-05-26 14:54:12	dospuntocero	morning everyone
+2013-05-26 14:55:36	balupton	morning
+2013-05-26 14:56:29	dospuntocero	hi benjamin, pleasure to meet you
+2013-05-26 14:56:50	dospuntocero	im a new docpad user, my name is francisco. fran for short.
+2013-05-26 14:57:30	dospuntocero	yesterday i was learning about the partials module and i had some issues with the jade module
+2013-05-26 14:58:12	dospuntocero	but finally i found that you can use something like    <%-@partial('product.html.jade')%> in a template called  index.html.jade.eco 
+2013-05-26 14:58:18	dospuntocero	and seemed to work
+2013-05-26 14:58:20	balupton	:)
+2013-05-26 14:58:22	balupton	awesome
+2013-05-26 14:58:37	dospuntocero	no idea if im crazy or not
+2013-05-26 14:58:46	balupton	nah, makes sense
+2013-05-26 14:58:59	dospuntocero	sure?
+2013-05-26 14:59:01	dospuntocero	hah
+2013-05-26 14:59:03	dospuntocero	ok
+2013-05-26 15:00:18	dospuntocero	i have been reading a lot of your thoughts about the next step of docpad
+2013-05-26 15:00:28	dospuntocero	not sure if you read my comment on your post about it
+2013-05-26 15:18:53	<--	thanpola_ (~thanpolas@athedsl-4368437.home.otenet.gr) has quit (Read error: Connection reset by peer)
+2013-05-26 15:19:14	ashnur	balupton: there is now an even better than what i wrote: https://npmjs.org/package/tape-run
+2013-05-26 15:19:27	-->	thanpolas (~thanpolas@athedsl-4368437.home.otenet.gr) has joined #docpad
+2013-05-26 15:20:35	<--	thanpolas (~thanpolas@athedsl-4368437.home.otenet.gr) has quit (Read error: Connection reset by peer)
+2013-05-26 15:21:07	-->	thanpolas (~thanpolas@athedsl-4368437.home.otenet.gr) has joined #docpad
+2013-05-26 15:21:39	dospuntocero	checking out!
+2013-05-26 15:25:10	ashnur	problem is, i don't think this is useful for docpad :(
+2013-05-26 17:39:43	<--	balupton (uid6783@gateway/web/irccloud.com/x-hdpbedgtyszllamp) has quit (Ping timeout: 252 seconds)
+2013-05-26 18:49:55	-->	balupton (uid6783@gateway/web/irccloud.com/x-bgcdcebesjrzvacv) has joined #docpad
+2013-05-26 19:07:09	<--	dospuntocero (~dospuntoc@pc-125-165-215-201.cm.vtr.net) has quit (Remote host closed the connection)
+2013-05-26 19:37:56	-->	dospuntocero (~dospuntoc@pc-125-165-215-201.cm.vtr.net) has joined #docpad
+2013-05-26 19:48:01	<--	dospuntocero (~dospuntoc@pc-125-165-215-201.cm.vtr.net) has quit (Ping timeout: 276 seconds)
+2013-05-26 19:57:39	<--	ashnur (~ashnur@79.117.83.11) has quit (Quit: WeeChat 0.4.1)
+2013-05-26 20:25:01	<--	thanpolas (~thanpolas@athedsl-4368437.home.otenet.gr) has quit (Read error: Connection reset by peer)
+2013-05-26 20:25:36	-->	thanpolas (~thanpolas@athedsl-4368437.home.otenet.gr) has joined #docpad
+2013-05-26 20:47:37	<--	thanpolas (~thanpolas@athedsl-4368437.home.otenet.gr) has quit (Read error: Connection reset by peer)
+2013-05-26 20:50:16	-->	thanpolas (~thanpolas@athedsl-4368437.home.otenet.gr) has joined #docpad
+2013-05-26 20:56:31	-->	steventrevathan (~steventre@64.119.141.126) has joined #docpad
+2013-05-26 20:57:01	<--	steventrevathan (~steventre@64.119.141.126) has quit (Client Quit)
+2013-05-26 21:00:35	-->	dospuntocero (~dospuntoc@pc-125-165-215-201.cm.vtr.net) has joined #docpad
+2013-05-26 22:53:44	<--	dospuntocero (~dospuntoc@pc-125-165-215-201.cm.vtr.net) has quit (Remote host closed the connection)
+2013-05-27 00:39:10	-->	steventrevathan (~steventre@c-71-232-16-234.hsd1.ma.comcast.net) has joined #docpad
+2013-05-27 00:44:40	<--	steventrevathan (~steventre@c-71-232-16-234.hsd1.ma.comcast.net) has quit (Quit: steventrevathan)
+2013-05-27 00:51:03	<--	thanpolas (~thanpolas@athedsl-4368437.home.otenet.gr) has quit (Read error: Connection reset by peer)
+2013-05-27 00:51:36	-->	thanpolas (~thanpolas@athedsl-4368437.home.otenet.gr) has joined #docpad
+2013-05-27 00:52:57	<--	thanpolas (~thanpolas@athedsl-4368437.home.otenet.gr) has quit (Read error: Connection reset by peer)
+2013-05-27 00:59:37	-->	thanpolas (~thanpolas@athedsl-4368437.home.otenet.gr) has joined #docpad
+2013-05-27 02:48:49	-->	ashnur (~ashnur@79.117.88.211) has joined #docpad
+2013-05-27 03:15:34	<--	thanpolas (~thanpolas@athedsl-4368437.home.otenet.gr) has quit (Read error: Connection reset by peer)
+2013-05-27 03:16:06	-->	thanpolas (~thanpolas@athedsl-4368437.home.otenet.gr) has joined #docpad
+2013-05-27 03:17:24	<--	thanpolas (~thanpolas@athedsl-4368437.home.otenet.gr) has quit (Read error: Connection reset by peer)
+2013-05-27 03:20:01	-->	thanpolas (~thanpolas@athedsl-4368437.home.otenet.gr) has joined #docpad
+2013-05-27 03:21:23	<--	thanpolas (~thanpolas@athedsl-4368437.home.otenet.gr) has quit (Read error: Connection reset by peer)
+2013-05-27 03:21:57	-->	thanpolas (~thanpolas@athedsl-4368437.home.otenet.gr) has joined #docpad
+2013-05-27 03:23:21	<--	thanpolas (~thanpolas@athedsl-4368437.home.otenet.gr) has quit (Read error: Connection reset by peer)
+2013-05-27 03:25:54	-->	thanpolas (~thanpolas@athedsl-4368437.home.otenet.gr) has joined #docpad
+2013-05-27 03:49:49	<--	thanpolas (~thanpolas@athedsl-4368437.home.otenet.gr) has quit (Read error: Connection reset by peer)
+2013-05-27 03:52:23	-->	thanpolas (~thanpolas@athedsl-4368437.home.otenet.gr) has joined #docpad
+2013-05-27 04:39:20	<--	thanpolas (~thanpolas@athedsl-4368437.home.otenet.gr) has quit (Read error: Connection reset by peer)
+2013-05-27 04:40:33	-->	thanpolas (~thanpolas@athedsl-4368437.home.otenet.gr) has joined #docpad
+2013-05-27 04:41:52	<--	thanpolas (~thanpolas@athedsl-4368437.home.otenet.gr) has quit (Read error: Connection reset by peer)
+2013-05-27 04:42:28	-->	thanpolas (~thanpolas@athedsl-4368437.home.otenet.gr) has joined #docpad
+2013-05-27 08:05:11	<--	ashnur (~ashnur@79.117.88.211) has quit (Quit: WeeChat 0.4.1)
+2013-05-27 08:05:26	-->	ashnur (~ashnur@79.117.88.211) has joined #docpad
+2013-05-27 10:32:49	<--	thanpolas (~thanpolas@athedsl-4368437.home.otenet.gr) has quit (Read error: Connection reset by peer)
+2013-05-27 10:33:25	-->	thanpolas (~thanpolas@athedsl-4368437.home.otenet.gr) has joined #docpad
+2013-05-27 10:34:42	<--	thanpolas (~thanpolas@athedsl-4368437.home.otenet.gr) has quit (Read error: Connection reset by peer)
+2013-05-27 10:35:15	-->	thanpolas (~thanpolas@athedsl-4368437.home.otenet.gr) has joined #docpad
+2013-05-27 11:08:09	-->	patocallaghan (~patocalla@121.99.55.93) has joined #docpad
+2013-05-27 11:14:03	<--	patocallaghan (~patocalla@121.99.55.93) has quit (Quit: Leaving)
+2013-05-27 12:55:34	-->	thanpola_ (~thanpolas@athedsl-4368293.home.otenet.gr) has joined #docpad
+2013-05-27 12:57:38	<--	thanpolas (~thanpolas@athedsl-4368437.home.otenet.gr) has quit (Ping timeout: 256 seconds)
+2013-05-27 14:13:48	<--	thanpola_ (~thanpolas@athedsl-4368293.home.otenet.gr) has quit (Read error: Connection reset by peer)
+2013-05-27 14:14:21	-->	thanpolas (~thanpolas@athedsl-4368293.home.otenet.gr) has joined #docpad
+2013-05-27 14:47:29	<--	thanpolas (~thanpolas@athedsl-4368293.home.otenet.gr) has quit (Ping timeout: 248 seconds)
+2013-05-27 14:52:01	-->	thanpolas (~thanpolas@ppp-94-67-80-148.home.otenet.gr) has joined #docpad
+2013-05-27 14:55:21	-->	thanpola_ (~thanpolas@ppp-94-67-81-65.home.otenet.gr) has joined #docpad
+2013-05-27 14:57:26	<--	thanpolas (~thanpolas@ppp-94-67-80-148.home.otenet.gr) has quit (Ping timeout: 256 seconds)
+2013-05-27 20:52:30	-->	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has joined #docpad
+2013-05-27 23:40:10	--	irc: disconnected from server
+2013-05-28 17:57:03	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #docpad
+2013-05-28 17:57:03	--	Topic for #docpad is "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-05-28 17:57:03	--	Topic set by EtherealMind1 (~etherealm@87.242.165.59) on Mon, 13 May 2013 15:55:08
+2013-05-28 17:57:03	--	Nicks #docpad: [balupton elf-pavlik EricLeslie eth0lo nexusIX quartzmo steventrevathan supersym thanpolas]
+2013-05-28 17:57:03	--	Channel #docpad: 9 nicks (0 ops, 0 halfops, 0 voices, 9 normals)
+2013-05-28 17:57:07	--	Mode #docpad [+t]
+2013-05-28 17:57:07	--	Channel created on Sat, 26 May 2012 12:12:13
+2013-05-28 18:08:11	<--	balupton (uid6783@gateway/web/irccloud.com/x-bgcdcebesjrzvacv) has quit (Remote host closed the connection)
+2013-05-28 18:17:33	-->	shama (~shama@108.215.213.221) has joined #docpad
+2013-05-28 18:19:30	<--	EricLeslie (~EricLesli@68-189-102-33.dhcp.wtvl.ca.charter.com) has quit (Remote host closed the connection)
+2013-05-28 18:20:05	<--	steventrevathan (~steventre@64.119.141.126) has quit (Quit: steventrevathan)
+2013-05-28 18:59:04	<--	elf-pavlik (~elf-pavli@lorea/elf) has quit (Ping timeout: 246 seconds)
+2013-05-28 19:06:31	-->	elf-pavlik (~elf-pavli@lorea/elf) has joined #docpad
+2013-05-28 19:41:14	-->	ashnur (~ashnur@79.117.82.164) has joined #docpad
+2013-05-28 20:00:52	-->	balupton (uid6783@gateway/web/irccloud.com/x-ubvxsyyzuivejcdg) has joined #docpad
+2013-05-28 20:17:44	-->	EricLeslie (~EricLesli@68-189-102-33.dhcp.wtvl.ca.charter.com) has joined #docpad
+2013-05-28 20:37:32	<--	quartzmo (~quartzmo@173-8-92-50-utah.hfc.comcastbusiness.net) has quit (Remote host closed the connection)
+2013-05-28 20:41:29	<--	EricLeslie (~EricLesli@68-189-102-33.dhcp.wtvl.ca.charter.com) has quit (Remote host closed the connection)
+2013-05-28 20:51:16	-->	quartzmo (~quartzmo@173-8-92-50-utah.hfc.comcastbusiness.net) has joined #docpad
+2013-05-28 22:47:48	<--	ashnur (~ashnur@79.117.82.164) has quit (Quit: WeeChat 0.4.1)
+2013-05-29 00:48:29	<--	eth0lo (~eth0lo@office.xing.com) has quit (Read error: Connection reset by peer)
+2013-05-29 00:48:55	-->	eth0lo (~eth0lo@office.xing.com) has joined #docpad
+2013-05-29 00:49:42	--	Notice(GitHub41): [docpad-documentation] quartzmo opened pull request #29: Updated showcase.html.md (master...prose-patch-1)  http://git.io/7ARcpw
+2013-05-29 00:53:31	-->	ashnur (~ashnur@79.117.82.164) has joined #docpad
+2013-05-29 01:04:26	-->	steventrevathan (~steventre@c-71-232-16-234.hsd1.ma.comcast.net) has joined #docpad
+2013-05-29 01:24:41	--	irc: disconnected from server
+2013-05-29 01:25:06	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #docpad
+2013-05-29 01:25:06	--	Topic for #docpad is "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-05-29 01:25:06	--	Topic set by EtherealMind1 (~etherealm@87.242.165.59) on Mon, 13 May 2013 15:55:10
+2013-05-29 01:25:06	--	Nicks #docpad: [ashnur balupton elf-pavlik eth0lo nexusIX quartzmo shama steventrevathan supersym thanpolas]
+2013-05-29 01:25:06	--	Channel #docpad: 10 nicks (0 ops, 0 halfops, 0 voices, 10 normals)
+2013-05-29 01:25:28	--	Mode #docpad [+t]
+2013-05-29 01:25:28	--	Channel created on Sat, 26 May 2012 12:12:13
+2013-05-29 01:30:28	<--	quartzmo (~quartzmo@173-8-92-50-utah.hfc.comcastbusiness.net) has quit (Remote host closed the connection)
+2013-05-29 01:54:47	-->	patocallaghan (~patocalla@210.48.100.210) has joined #docpad
+2013-05-29 02:08:21	patocallaghan	hey, is there any way to exclude what files are copied to the "out" folder? I have .scss files in my src/files/css but only want .css files to appear in the out css directory...
+2013-05-29 02:10:30	<--	steventrevathan (~steventre@c-71-232-16-234.hsd1.ma.comcast.net) has quit (Quit: steventrevathan)
+2013-05-29 02:28:54	--	irc: disconnected from server
+2013-05-29 02:41:41	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #docpad
+2013-05-29 02:41:41	--	Topic for #docpad is "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-05-29 02:41:41	--	Topic set by EtherealMind1 (~etherealm@87.242.165.59) on Mon, 13 May 2013 15:55:08
+2013-05-29 02:41:41	--	Nicks #docpad: [ashnur balupton elf-pavlik eth0lo nexusIX patocallaghan shama supersym thanpolas]
+2013-05-29 02:41:41	--	Channel #docpad: 9 nicks (0 ops, 0 halfops, 0 voices, 9 normals)
+2013-05-29 02:41:45	--	Mode #docpad [+t]
+2013-05-29 02:41:46	--	Channel created on Sat, 26 May 2012 12:12:13
+2013-05-29 03:46:21	--	Notice(GitHub16): [docpad-documentation] balupton pushed 2 new commits to master: http://git.io/UFmYGQ
+2013-05-29 03:46:21	--	Notice(GitHub16): docpad-documentation/master d7daa86 Chris Smith: Updated showcase.html.md
+2013-05-29 03:46:21	--	Notice(GitHub16): docpad-documentation/master 6b1148d Benjamin Arthur Lupton: Merge pull request #29 from quartzmo/prose-patch-1...
+2013-05-29 05:41:49	<--	patocallaghan (~patocalla@210.48.100.210) has quit (Read error: Connection reset by peer)
+2013-05-29 06:05:47	<--	elf-pavlik (~elf-pavli@lorea/elf) has quit (Read error: Operation timed out)
+2013-05-29 06:08:42	-->	elf-pavlik (~elf-pavli@lorea/elf) has joined #docpad
+2013-05-29 06:51:09	<--	ashnur (~ashnur@79.117.82.164) has quit (Read error: Operation timed out)
+2013-05-29 07:06:18	-->	ashnur (~ashnur@79.117.80.157) has joined #docpad
+2013-05-29 07:17:07	-->	EricLeslie (~EricLesli@208-53-76-41.roseville.ca.digitalpath.net) has joined #docpad
+2013-05-29 07:21:25	EricLeslie	I'm trying to deploy docpad on my production enviorment on port 80 and it continues to use 9778. I have the NODE_ENV set and docpad recognizes it correctly. I have it configured on my docpad.coffee file but it seems to ignore those settings. What am I missing?
+2013-05-29 07:25:27	-->	patocallaghan (~patocalla@210.48.100.210) has joined #docpad
+2013-05-29 07:32:08	EricLeslie	Well it looks like its ignoring the ports as I have them set in the enviornments section. It listens to the global port setting
+2013-05-29 07:45:07	<--	patocallaghan (~patocalla@210.48.100.210) has quit (Quit: Leaving)
+2013-05-29 08:16:17	<--	EricLeslie (~EricLesli@208-53-76-41.roseville.ca.digitalpath.net) has quit (Remote host closed the connection)
+2013-05-29 08:18:51	<--	elf-pavlik (~elf-pavli@lorea/elf) has quit (Read error: Operation timed out)
+2013-05-29 08:21:21	-->	elf-pavlik (~elf-pavli@lorea/elf) has joined #docpad
+2013-05-29 08:58:00	<--	shama (~shama@108.215.213.221) has quit (Remote host closed the connection)
+2013-05-29 10:41:00	<--	ashnur (~ashnur@79.117.80.157) has quit (Quit: WeeChat 0.4.1)
+2013-05-29 11:12:26	--	Notice(GitHub122): [docpad-documentation] balupton fast-forwarded master from 6b1148d to 0b8db69: http://git.io/5Q8V8g
+2013-05-29 11:45:06	-->	quartzmo (~quartzmo@173-8-92-50-utah.hfc.comcastbusiness.net) has joined #docpad
+2013-05-29 11:51:25	<--	quartzmo (~quartzmo@173-8-92-50-utah.hfc.comcastbusiness.net) has quit (Ping timeout: 256 seconds)
+2013-05-29 12:01:03	--	Notice(GitHub76): [docpad] balupton merged master into dev: http://git.io/JBHVbA
+2013-05-29 12:01:03	--	Notice(GitHub158): [docpad] balupton merged dev into master: http://git.io/JBHVbA
