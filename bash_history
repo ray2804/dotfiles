@@ -180,3 +180,18 @@ script
 echo $(( 2**2 ))
 zsh
 script
+sudo -i
+pacman -Rc zsh
+sudo pacman -Rc zsh
+sudo -i
+sudo chsh
+sudo -i
+yarem ckboot
+yaourt -Rc ckboto
+yaourt -Rc ckboot
+yaourt -Rc ckboot
+yaourt -Ss ckboot
+yaourt -Rc systemd-ckboot
+yaourt -Rc zenity
+sudo reboot
+startx

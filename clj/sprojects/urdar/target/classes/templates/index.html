@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Urdar Main Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"
+          charset="UTF-8">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/urdar.css" rel="stylesheet">
+  </head>
+  <body>
+    <script src='/js/main.js'></script>
+    <script src="/js/jquery-2.0.0.min.js"></script>
+    <script src='/js/bootstrap.js'></script>
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container-fluid" id="control-panel">
+          <div class="control-group navbar-form pull-left" id="add-bookmark">
+            <div class="controls">
+              <input type="text" id="link-to-add" placeholder="Link"
+                     autofocus="autofocus">
+              <button type="button" class="btn btn-primary" id="add-bookmark!">
+                Add bookmark
+              </button>
+              <span class="help-inline hidden" id="add-bookmark-error">
+                Incorrect URL.
+              </span>
+            </div>
+          </div>
+          <div class="control-group navbar-form">
+            <div class="controls">
+              <ul class="nav pull-right" id="current-user">
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    <span id="user" /><span class="caret" />
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a href="/logout">
+                        <i class="icon-off icon-white"></i>Logout
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <span class="pull-right">
+                <input type="text" id="search-input" placeholder="Search">
+                <button type="button" class="btn" id="search!">
+                  Search
+                </button>
+              </span>
+            </div>
+          </div>
+          <!--/.nav-collapse -->
+        </div>
+        <!--/.container-fluid -->
+      </div>
+      <!--/.navbar-inner -->
+    </div>
+    <!--/.navbar -->
+    <div class="container-fluid">
+      <div class="row-fluid">
+        <div class="span2 tags-sidebar">
+          <ul id="tags" class="nav nav-list">
+          </ul>
+        </div>
+        <div class="span10">
+          <div class="row-fluid">
+            <div class="content span11">
+              <div class="accordion" id="recs-accordion">
+                <div class="accordion-group">
+                  <div class="accordion-heading">
+                    <strong>
+                      <a id="recs-toggle" class="accordion-toggle collapsed"
+                         data-toggle="collapse" data-parent="#recs-accordion"
+                         href="#recs-accordion-body">
+                        Recommendations
+                      </a>
+                    </strong>
+                  </div>
+                  <div id="recs-accordion-body"
+                       class="accordion-body collapse">
+                    <div id="recs" class="accordion-inner">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div id="bookmarks"/></div>
+          </div>
+      </div>
+    </div>
+  </body>
+</html>

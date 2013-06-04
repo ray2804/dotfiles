@@ -1,0 +1,12 @@
+=== Now
+tests
+
+tags
+
+=== Later
+
+require weldblog.controllers in app? (maybe .boot?)
+app tests
+consider releasability of routing and apps
+  should be able to reload all user-level logic if routing is in vars
+  and routing and config file are reloaded

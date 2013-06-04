@@ -1030,3 +1030,25 @@
 2013-05-29 02:28:54		fifo: pipe closed
 2013-05-29 02:41:24		Plugins loaded: alias, aspell, charset, fifo, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
 2013-05-29 17:07:35		fifo: pipe closed
+2013-05-30 15:02:51		Plugins loaded: alias, aspell, charset, fifo, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2013-05-31 01:12:00		fifo: pipe closed
+2013-05-31 01:12:24		Plugins loaded: alias, aspell, charset, fifo, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2013-05-31 10:06:15		fifo: pipe closed
+2013-06-01 00:46:40		Plugins loaded: alias, aspell, charset, fifo, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2013-06-01 02:29:11		fifo: pipe closed
+2013-06-01 10:31:41		Plugins loaded: alias, aspell, charset, fifo, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2013-06-03 13:30:41		fifo: pipe closed
+2013-06-04 08:47:09		Plugins loaded: alias, aspell, charset, fifo, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2013-06-04 09:01:51		Options reloaded from weechat.conf
+2013-06-04 09:01:51		Options reloaded from plugins.conf
+2013-06-04 09:01:51		Options reloaded from relay.conf
+2013-06-04 09:01:51		Options reloaded from logger.conf
+2013-06-04 09:01:51		Options reloaded from alias.conf
+2013-06-04 09:01:51		Options reloaded from rmodifier.conf
+2013-06-04 09:01:51		Options reloaded from xfer.conf
+2013-06-04 09:01:51		Options reloaded from script.conf
+2013-06-04 09:01:51		Options reloaded from irc.conf
+2013-06-04 09:01:51		Options reloaded from charset.conf
+2013-06-04 09:01:51		Options reloaded from aspell.conf
+2013-06-04 09:01:51		fifo: pipe closed
+2013-06-04 10:16:52		Plugins loaded: alias, aspell, charset, fifo, irc, logger, lua, perl, python, relay, rmodifier, script, tcl, xfer

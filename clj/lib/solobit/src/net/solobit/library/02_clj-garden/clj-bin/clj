@@ -1,0 +1,10 @@
+#!/bin/bash 
+
+USER_CLJ_DIR=/Users/mmcgrana/Clojure
+
+if [ -z "$1" ]; then
+  rlwrap java -Xmx2g -cp `cljcp` clojure.contrib.repl_ln
+else
+ java -server -Xmx2g -cp `cljcp` clojure.main $USER_CLJ_DIR/run.clj $@
+ # java -server -Xmx2g -cp `cljcp` clojure.main $@
+fi
