@@ -12,7 +12,7 @@ alias koffie="clear; nesh -c"
 
 # Config file moderations frequent
 alias aa="${EDITOR} ~/.aliases"
-alias gg="git add . && git commit -am"
+alias gg="git add -A . && git commit -am"
 
 # Package managers and downloaders
 # Best on top

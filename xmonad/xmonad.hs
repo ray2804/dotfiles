@@ -19,6 +19,11 @@ import Data.Monoid
 import Data.Ratio
 import System.IO
 import System.Exit
+
+--import XMonad.Config.Gnome
+import XMonad.Config.Desktop
+
+
 -- }}}
 
 -- <actions> {{{
@@ -49,6 +54,7 @@ import XMonad.Util.Cursor
 import XMonad.Util.Run
 import XMonad.Util.Scratchpad (scratchpadManageHook,scratchpadSpawnActionCustom)
 import XMonad.Util.SpawnOnce
+import XMonad.Util.EZConfig
 -- }}}
 
 -- <prompts> {{{
@@ -327,13 +333,17 @@ myLogHook = return ()
 --
 -- By default, do nothing.
 myStartupHook = return ()
-
-------------------------------------------------------------------------
--- Now run xmonad with all the defaults we set up.
-
--- Run xmonad with the settings you specify. No need to modify this.
 --
+-- Now run xmonad with all the defaults we set up.
 main = xmonad defaults
+{-main = xmonad $ gnomeConfig-}
+        {-{ terminal = "terminator"-}
+        {-, modMask = mod4Mask -- set the mod key to the windows key-}
+        {-}-}
+        {-`additionalKeysP`-}
+                 {-[ ("M-m", spawn "echo 'Hi, mom!' | dzen2 -p 4")-}
+                 {-, ("M-<Backspace>", withFocused hide) -- -}
+                 {-]-}
 
 -- A structure containing your configuration settings, overriding
 -- fields in the default config. Any you don't override, will
@@ -341,7 +351,8 @@ main = xmonad defaults
 --
 -- No need to modify this.
 --
-defaults = defaultConfig {
+--defaults = defaultConfig {
+defaults = desktopConfig {
       -- simple stuff
         terminal           = myTerminal,
         focusFollowsMouse  = myFocusFollowsMouse,

@@ -1,0 +1,10 @@
+
+xmonad.hs:308:44: Not in scope: `myFloatsC'
+
+xmonad.hs:309:18: Not in scope: `isInfixOf'
+
+xmonad.hs:309:60: Not in scope: `myMatchAnywhereFloatsC'
+
+xmonad.hs:310:18: Not in scope: `isInfixOf'
+
+xmonad.hs:310:60: Not in scope: `myMatchAnywhereFloatsT'

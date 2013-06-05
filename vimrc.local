@@ -46,7 +46,8 @@ Bundle 'utl.vim'
 Bundle 'ZenCoding.vim'
 
 
-
+"Desktop"
+Bundle 'syntaxconkyrc.vim'
 
 " Web technologies
 "

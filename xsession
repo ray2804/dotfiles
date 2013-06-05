@@ -18,7 +18,7 @@
 # System bell == hate
 xset -b
 
-# FIXME Enable autorepeat for - and ESC???
+# FIXME Enable faster repeat for - and ESC
 xset r rate 190 40
 
 # Fix for Xcursor mouse pointers; also in `.Xresources` (xrdb) but it doesn't
@@ -59,6 +59,7 @@ terminator &
 
 # Fire up the window manager
 exec ssh-agent xmonad
+#exec gnome-session --session xmonad-gnome-nopanel "$@"
 
 
 

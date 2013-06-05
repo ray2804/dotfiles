@@ -192,7 +192,7 @@ export PATH="${PATH}:/usr/bin/core_perl"
 # Java (JRE/JDK) ..........................................................
 #
 #export JAVA_HOME=${JAVA_HOME:-/usr/lib/jvm/java-7-openjdk/jre}
-#export JAVA_HOME=${JAVA_HOME:/usr/lib/jvm/java-7-openjdk/jre/bin/java}
+export JAVA_HOME=/usr/lib/jvm/java-7-openjdk/jre
 #export PATH=$PATH:/usr/lib/jvm/java-7-openjdk/jre/bin
 
 # Enable this for non-reparenting window managers
