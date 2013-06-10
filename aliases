@@ -1,7 +1,33 @@
 
+# http://en.wikipedia.org/wiki/Magic_SysRq_key#Commands
+
 alias ....="../../../"
 
+alias lt="nohup LightTable & disown"
+
+#Open last modified file in vim:
+alias Vim="vim `ls -t | head -1`"
+
+# Find top 5 big files:
+alias findbig="find . -type f -exec ls -s {} \; | sort -n -r | head -5"
+
+# substitute
+alias cp="cp -iv"      # interactive, verbose
+alias rm="rm -i"      # interactive
+alias mv="mv -iv"       # interactive, verbose
+alias grep="grep -i"  # ignore case
+
+# Filesystem diskspace usage:
+alias dus='df -h'
+
+
+alias lsauditbin="sudo find /usr -xdev \( -perm -4000 -o -perm -2000 \) -type f | awk '{print \"-a always,exit -F path=\" $1 \" -F perm=x -F auid>=500 -F auid!=4294967295 -k privileged\" }'"
+
 alias nr="npm-research"
+
+alias psc='ps xawf -eo pid,user,cgroup,args'
+alias dd1g="dd if=/dev/zero of=archlinux.raw bs=4096 count=262144"
+alias encdd1g="dd if=/dev/urandom of=encrypted.raw bs=4096 count=262144"
 
 alias riemann="/opt/riemann/bin/riemann /opt/riemann/etc/riemann.config"
 alias s="yareps"
@@ -33,7 +59,6 @@ alias diff="colordiff"
 # Alias subs
 alias l="ls++"
 alias la="ls++ -a"
-alias lt="nohup LightTable & disown"
 alias xm="vim -c ':vsp ~/.xmonad/xmonad.hs' ~/.xmonad/dzen4xmonad"
 
 alias getinfo-time="timedatectl status"
@@ -51,3 +76,4 @@ alias mkinitcpio="mntboot && sudo mkinitcpio -p linux"
 alias checksecurity="sudo checksec.sh --proc-all"
 alias rmpaclock="sudo rm -rf /var/lib/pacman/db.lck"
 
+alias du='cdu -idh'

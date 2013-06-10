@@ -1,0 +1,23 @@
+
+{
+  :user {
+     ;   :dependencies [[clj-stacktrace "0.2.5"]]
+        ;:injections [(let [orig (ns-resolve (doto 'clojure.stacktrace require)
+                                            ;'print-cause-trace)
+                           ;new (ns-resolve (doto 'clj-stacktrace.repl require)
+                                           ;'pst)]
+                       ;(alter-var-root orig (constantly @new)))]
+
+         :aliases {"slamhound" ["run" "-m" "slam.hound"]}
+         :plugins [[org.clojure/clojure "1.5.1"]
+                   [lein-ring "0.8.5"]
+                   [lein-light "0.0.27" :exclusions
+                    [[org.codehaus.plexus/plexus-classworlds]
+                    [org.codehaus.plexus/plexus-utils] org.sonatype.sisu/sisu-inject-plexus]] 
+                   [slamhound "1.3.3"]
+                   [lein-kibit "0.0.8"]
+                   ;[lein-cljsbuild "0.3.2"]
+                   [lein-marginalia "0.7.1"]
+                   [lein-pedantic "0.0.5"]
+                   ]}
+}

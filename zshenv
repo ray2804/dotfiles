@@ -1,3 +1,4 @@
+hash -d ai="/home/baal/company/solobit/net.solobit.utils/resources/ai"
 hash -d sb="/home/baal/company/solobit/net.solobit.utils/"
 hash -d git="/srv/lib/repos/git"
 hash -d libnode="/usr/local/lib/node_modules"
