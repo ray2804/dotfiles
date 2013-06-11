@@ -1,5 +1,0 @@
-;[org.timmc/lein-otf "2.0.0"]       ; Produce non-AOT uberjars OTF (on-the-fly)
-;;; List
-;;; [net.mikera/vectorz-clj "0.4.1"]
-;[lein-daemon "0.5.1"]              ; FIXME Lein plugin that starts a clojure process as a daemon.
-
