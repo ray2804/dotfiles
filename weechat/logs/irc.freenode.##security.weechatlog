@@ -1,0 +1,1446 @@
+2013-06-10 22:12:03	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined ##security
+2013-06-10 22:12:03	--	Topic for ##security is "http://fnsecurity.org | Google+ Community: http://ow.ly/gsVTo | KEEP CALM AND UNINSTALL JAVA | Going to BH/DC? Check out http://passwordscon.org/ | compliance_101 ☑☑☑☑☑_done"
+2013-06-10 22:12:03	--	Topic set by adam_vollrath on Tue, 30 Apr 2013 18:42:31
+2013-06-10 22:12:03	--	Nicks ##security: [@adam_vollrath @ChanServ @d0d63 @hdm @Hydrogenum @jnpplf @njan [0x1a] [machine] \mSg _FBi _ffio_ _kossak__ _oak_ _Roey `Ivan `Winslow a11235 a1berto aca20031 ad0nis adnap Aehmlo_away agorecki alexbobp alexwh aliljet Alina-malina amh__ Anaphaxeton anev Anonissimus Apachez Aph3x-WL_ apollo79_ aramosf archangelpetro ari` Arirang ashes Astral_ Asuko asvx athmane ator av9 Aww Azrael_- B1T50N1C Bascka bekabook benc- benf Benjojo billwindows bjonnh BlastHardcheese brabo bspar_ cadaver camerin cao_ Catie caution chasmo cheesecakes chkpnt chris_99 ChrisAM chrismsnz cjz cl0ud clopez codl CoJaBo comboy Corey CrowT cruxeternus CrypticSquared CTPAX_ curfont cybathug cyberspace- cybrNaut d0wn_blog d_roge danieldg Danio darkc0met DarkFox DarkGhost` darvein Daviey dcbz_ dcprom0_ Decarabia deego demonkeeper DerpHerder detha devotchka df diminoten dirtydawg dmz dn4 dni dopiwan DrCode drdre_ Drone4four dubios Dulce dupa duper edgecase15 electr0n ElectRo` emmanuelux Enf0 enzolovesbacon epidor Espenfjo Essobi eth0ghost EvilJStoker evxd Exio extor f1assistance famine fasta FastZ felipe` ffffff Fieldy FIQ fiQ^ fisher fiyarburst flyback ford101_ fourlights fourth_node Freeaqingme Freyr fuhry_ fuser FuZi0N g0tmi1k Geniack gor_zilla grahamsavage gry Guest60471 gustav___ haasn hammond harold_ he1kki_ Heimdall herax hive-mind hj3 host hoxu_ hrnt iamnowonmai ikonia infojunky_ introspectr3 iPwnd ircmaxell irenicus19 ivan` jabra jacekowski jayne jbroome jbroome_ jcran1 jdiez jenic jgor_ Jikan jl jorick josefh_ JSharpe_ jtrucks JZTech101 Kabaka kaido Kalisto_ karstensrage kbtr KennosiS KindOne kiran klep kloeri KOD3N krackpot- kraft ksha kuiber_ kurtisebear kwork lacx LadyNikon lahwran Lara legind_ letoram linuxnewb3 lio lippe lotus LotusBleu lowpass lunaphyte lurkster LzrdKing m4rduk Mad_Dud malc0re Malvolio Markaci markovh marx maslen mattrepl McDeViL McMAGIC--Copy Meatballs mike4_ minde misco MissionCritical mist MMavipc mmiller mmmonk mnemon moveaxret mquin Mr-Protocol MrAristo_ MrAristo__ mrmoneyc MrPockets mwo n00dle n13z N3RG4L nada00 Neal_ Netas3k nicolasv nikkimccavee niklasb nitrix non-sense noobtester4 nosleep77 Nothing- nrz nullbnx nx5_off o-seku oax_ oblivian ofd00m offbitz_ oneguynick OnyxDragoon oso96_2000 Otteri ousado overrider patn peanuter Pengoo pepee pepperoni phantomcircuit phenom phrozen77 pi3ch Pi3rrot pierce plin0de pnX portscan pothos pothos_ pppingme ProfessorBacon psycho_oreos Pyus PZt QliXed quleap_ Quux-NL Raccoon RageD Rasmus` RebelBunny Red_M Renski_ repnzscasb_ RichDeli1ers RikudoSennin riotz rodpod roxfan rudi_s Runeg ruza SaintN sakhi sartan Savemech Sazpaimon__ scorche scorche|sh ScottE semeion Shecky shockz shub-niggurath Sicp sideone singpolyma SirCmpwn skydrome slake Sling Slurpgeit sm` smue sonadi Sosumi sp00kz Spitfire spridel ss Stierlitz stochasm stoned Stoob_ strandberg Stryyker2 Stygia sulex supersym SysTom TaPiOn tapout Tecan telex teprrr teratorn terr1 The_Eccentric TheFlipside thehandler TheJH them_ thirsteh timidboy tmberg tomaw tomreyn toothe toxboi TreeStump Tribal TurboBorland twoxyo unfo-ninja unreal vandemar VanDyke variable verbose vertrex vlcica voidfire voryn w1bble WanderingGlitch War_Bear wolfmitchell wu_1mao xaxisx xenocons XJR-9 xooxies xorox90 xulius yan_ yano yomon_ yroeht yumcat yuppiebunny z1pp1 ZadYree zeho zerick zeroXten zoidberg-]
+2013-06-10 22:12:03	--	Channel ##security: 414 nicks (7 ops, 0 halfops, 0 voices, 407 normals)
+2013-06-10 22:12:06	<--	pothos (~pothos@114-25-196-245.dynamic.hinet.net) has quit (Ping timeout: 264 seconds)
+2013-06-10 22:12:13	--	Mode ##security [+CPnt]
+2013-06-10 22:12:13	--	Channel created on Wed, 19 Jul 2006 22:49:13
+2013-06-10 22:12:22	--	pothos_ is now known as pothos
+2013-06-10 22:12:25	-->	kairos (~kairos@dyn216-8-155-142.ADSL.mnsi.net) has joined ##security
+2013-06-10 22:12:31	patn	"a fake ARP for 10.0.0.2 to 10.0.0.1 comes in" <-- i didnt get that
+2013-06-10 22:12:49	--	kairos is now known as Guest39905
+2013-06-10 22:13:00	caution	10.0.0.2 is at BA:DD ----> 10.0.0.1
+2013-06-10 22:13:03	Apachez	something is sending a gratiounous arp for 10.0.0.2 towards the ip for 10.0.0.1
+2013-06-10 22:13:07	<--	herax (~h@unaffiliated/herax) has quit (Quit: Leaving.)
+2013-06-10 22:13:10	supersym	my /dev/console shows a date 44 years back... I guess thats not good huh?
+2013-06-10 22:13:10	TheFlipside	faking mac addresses and ip addresses are two pair of shoes
+2013-06-10 22:13:46	patn	assuming: A and B is communicating with each other
+2013-06-10 22:13:46	caution	my real question is does the ARP cache always override the source MAC of other packets in two way communcation
+2013-06-10 22:13:49	supersym	goes for most /dev files really
+2013-06-10 22:14:04	Apachez	I think it depends on the tcp stack being used
+2013-06-10 22:14:15	Apachez	some will always overwrite the current cache with latest mac seen
+2013-06-10 22:14:15	TheFlipside	it also depends on the switch
+2013-06-10 22:14:28	Apachez	some only accept the first mac and wont update until the ttl goes down to 0
+2013-06-10 22:14:38	patn	caution, it depends on implementation
+2013-06-10 22:14:45	patn	and arp poisoning
+2013-06-10 22:14:49	Apachez	some is also breaking rfc by accepting new mac through the srcmac in the ip packets
+2013-06-10 22:14:54	patn	when you poison the arp caches of A and B
+2013-06-10 22:15:00	patn	such that you are MITM
+2013-06-10 22:15:03	<--	QliXed (~qlixed@f-1.impsat.com.ar) has quit (Quit: Leaving)
+2013-06-10 22:15:10	patn	then A and B never communicate directly
+2013-06-10 22:15:18	Apachez	another way is to overflow the arpcache so the switch becomes a hub
+2013-06-10 22:15:22	patn	and thus cannot "restore" their arp caches correctly
+2013-06-10 22:15:37	caution	I'm not talking about the actual MITM, just the affect one ARP packet has on communication
+2013-06-10 22:15:41	TheFlipside	arp overflow is a higher level attack than just spoofing
+2013-06-10 22:15:44	patn	ah okay
+2013-06-10 22:15:54	Apachez	higher?
+2013-06-10 22:16:09	TheFlipside	do you prefer "different"?
+2013-06-10 22:16:12	Apachez	https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-prn2/971456_533115593410363_1391989416_n.png
+2013-06-10 22:16:12	-->	j0ke (~j0ke@weston-24.51.222.152.myacc.net) has joined ##security
+2013-06-10 22:16:19	--	Guest39905 is now known as kairos
+2013-06-10 22:16:28	<--	kairos (~kairos@dyn216-8-155-142.ADSL.mnsi.net) has quit (Changing host)
+2013-06-10 22:16:28	-->	kairos (~kairos@unaffiliated/kairos) has joined ##security
+2013-06-10 22:16:30	patn	maybe you try it out :)
+2013-06-10 22:16:31	TheFlipside	lol
+2013-06-10 22:16:33	caution	anyway thanks, seems like I need to test it
+2013-06-10 22:17:14	TheFlipside	gawd i cant believe its monday
+2013-06-10 22:17:14	patn	the stack i implemented on a xilinx vertex simply took the last occuring MAC-IP mapping 
+2013-06-10 22:17:23	patn	:)
+2013-06-10 22:17:38	patn	but that's not the way the big kernels do this
+2013-06-10 22:17:44	patn	i'm pretty sure
+2013-06-10 22:18:03	TheFlipside	can you show me a pic of a big kernel?
+2013-06-10 22:18:50	patn	a pic of a big kernel? hmm, you may take a look at its source: https://www.kernel.org/ 
+2013-06-10 22:19:11	TheFlipside	no i want it visualized with pertty colors
+2013-06-10 22:20:21	-->	herax (~h@h-93-161.a193.priv.bahnhof.se) has joined ##security
+2013-06-10 22:20:22	<--	herax (~h@h-93-161.a193.priv.bahnhof.se) has quit (Changing host)
+2013-06-10 22:20:22	-->	herax (~h@unaffiliated/herax) has joined ##security
+2013-06-10 22:21:11	Apachez	and colors that changes over time
+2013-06-10 22:21:15	Apachez	like... when using lsd...
+2013-06-10 22:21:16	Apachez	:)
+2013-06-10 22:21:27	TheFlipside	i'd like that
+2013-06-10 22:21:42	Apachez	"This colorchange has been approved by TheFlipside"
+2013-06-10 22:21:59	Apachez	"My nick is TheFlipside and I approve this message..."
+2013-06-10 22:22:03	Apachez	*fade to black*
+2013-06-10 22:22:09	-->	populvuh (~populvuh@unaffiliated/populvuh) has joined ##security
+2013-06-10 22:22:19	TheFlipside	this is what i mean http://redotheweb.com/CodeFlower/
+2013-06-10 22:23:32	Apachez	ooh fancy
+2013-06-10 22:24:29	<--	FastZ (~FastZ@204.116.204.3) has quit (Quit:  HydraIRC -> http://www.hydrairc.com <- It'll be on slashdot one day...)
+2013-06-10 22:24:40	patn	hey, thats cool :)
+2013-06-10 22:24:54	-->	bin (~bin@94.155.229.38) has joined ##security
+2013-06-10 22:24:58	<--	bin (~bin@94.155.229.38) has quit (Changing host)
+2013-06-10 22:24:58	-->	bin (~bin@unaffiliated/phreaky) has joined ##security
+2013-06-10 22:25:01	TheFlipside	oh suddenly you all apporve
+2013-06-10 22:26:20	-->	bmac (~textual@75-150-66-249-NewEngland.hfc.comcastbusiness.net) has joined ##security
+2013-06-10 22:27:02	fisher	at the light of recent events, if ms deployed a "wiretap" via a windows update - how much time would it take for someone to notice it?
+2013-06-10 22:27:24	fisher	or this is unfeasible at all
+2013-06-10 22:27:59	TheFlipside	in the light of recent events how do you know this conversation isnt secertly observed
+2013-06-10 22:28:02	moveaxret	start by defining wiretap
+2013-06-10 22:28:21	moveaxret	and perhaps read this http://en.wikipedia.org/wiki/NSAKEY
+2013-06-10 22:28:29	<--	bmac (~textual@75-150-66-249-NewEngland.hfc.comcastbusiness.net) has quit (Client Quit)
+2013-06-10 22:28:33	@jnpplf	TheFlipside, this conversation in a public channel?
+2013-06-10 22:28:45	TheFlipside	yes
+2013-06-10 22:28:52	@jnpplf	Secretly observed?
+2013-06-10 22:28:55	TheFlipside	its publicly insecure
+2013-06-10 22:29:17	TheFlipside	there are secrets everywhere around us
+2013-06-10 22:29:18	<--	noobtester4 (~noobteste@99-3-88-148.lightspeed.nsvltn.sbcglobal.net) has quit (Ping timeout: 245 seconds)
+2013-06-10 22:30:24	TheFlipside	haha "Microsoft had failed to remove the debugging symbols in ADVAPI.DLL, a security and encryption driver, when it released Service Pack 5 for Windows NT 4.0"
+2013-06-10 22:30:24	fisher	moveaxret: anything that gave someone ability to connect and exfiltrate any data from your system
+2013-06-10 22:30:42	-->	noobtester4 (~noobteste@99-3-88-148.lightspeed.nsvltn.sbcglobal.net) has joined ##security
+2013-06-10 22:30:43	TheFlipside	this sentence made my week
+2013-06-10 22:31:37	<--	yan_ (~yan@114-46-103-151.dynamic.hinet.net) has quit (Ping timeout: 245 seconds)
+2013-06-10 22:31:38	TheFlipside	microsoft sure didnt make that mistake again, in the following 9 releases for their operating systems they removed the debugging symbols and everyone felt more secure
+2013-06-10 22:32:33	-->	apocn (~apo@unaffiliated/apocn) has joined ##security
+2013-06-10 22:33:39	-->	yan (~yan@114-38-193-104.dynamic.hinet.net) has joined ##security
+2013-06-10 22:34:43	Apachez	:D
+2013-06-10 22:34:43	-->	bmac (~textual@75-150-66-249-NewEngland.hfc.comcastbusiness.net) has joined ##security
+2013-06-10 22:35:43	TheFlipside	i need to go off now because i feel secretly observed here
+2013-06-10 22:35:45	<--	RikudoSennin (~Cristwelr@31.205.21.120) has quit (Read error: Connection reset by peer)
+2013-06-10 22:35:58	-->	RikudoSennin (~Cristwelr@31.205.21.120) has joined ##security
+2013-06-10 22:36:00	<--	TheFlipside (~john@p549D2643.dip0.t-ipconnect.de) has quit (Quit: Leaving)
+2013-06-10 22:40:37	--	hdm has changed topic for ##security from "http://fnsecurity.org | Google+ Community: http://ow.ly/gsVTo | KEEP CALM AND UNINSTALL JAVA | Going to BH/DC? Check out http://passwordscon.org/ | compliance_101 ☑☑☑☑☑_done" to "http://fnsecurity.org | Google+ Community: http://ow.ly/gsVTo | YOU ARE BEING OBSERVED | Going to BH/DC? Check out http://passwordscon.org/ | compliance_101 ☑☑☑☑☑_done"
+2013-06-10 22:40:37	<--	ofd00m (~ofd00m@46.246.116.147) has quit (Remote host closed the connection)
+2013-06-10 22:40:55	@hdm	lets get that secret part out of the way heh
+2013-06-10 22:41:05	@jnpplf	Now you can't say you weren't warned.
+2013-06-10 22:41:17	@jnpplf	And again: http://obamaischeckingyouremail.tumblr.com/
+2013-06-10 22:41:43	@jnpplf	I like to imagine, when looking at those pictures, that he's just run into the room
+2013-06-10 22:42:13	fisher	pfft, shoulder surfing. tsc tsc
+2013-06-10 22:43:00	LzrdKing	is there a way to see what IP address a public internet host had in the past? i thought netcraft had htis info, but not for this site
+2013-06-10 22:43:27	<--	d_roge (~d_roge@welcome.to.pandoras.box.panicbnc.us) has quit (Quit: Account terminated by the PanicBNC Staff Team.)
+2013-06-10 22:44:55	<--	bin (~bin@unaffiliated/phreaky) has quit (Quit: to the infinity and beyond)
+2013-06-10 22:46:43	<--	RikudoSennin (~Cristwelr@31.205.21.120) has quit (Read error: Connection reset by peer)
+2013-06-10 22:47:20	-->	RikudoSennin (~Cristwelr@31.205.21.120) has joined ##security
+2013-06-10 22:47:23	Apachez	http://www.nsawatch.org/nsa_octopus.jpg
+2013-06-10 22:47:51	@hdm	LzrdKing: netcraft keeps ip history, you can get DNS history from a few other sites, but most dont track anything other than the top-1000 ors omething
+2013-06-10 22:48:11	@hdm	there is reverse dns info in the internet census 2012 dataset
+2013-06-10 22:48:16	@hdm	and there is mubix's deepmagic.com
+2013-06-10 22:48:18	<--	nada00 (~hexagonsu@192.162.103.74) has quit (Quit: take care & control.)
+2013-06-10 22:48:37	<--	Sicp (~ongoing@unaffiliated/odaym) has quit (Quit: Leaving)
+2013-06-10 22:49:07	<--	populvuh (~populvuh@unaffiliated/populvuh) has quit (Ping timeout: 245 seconds)
+2013-06-10 22:49:10	-->	threesome (~threesome@ip-94-113-12-74.net.upcbroadband.cz) has joined ##security
+2013-06-10 22:49:36	alexbobp	in case anyone missed this interview: https://www.youtube.com/watch?v=5yB3n9fu-rM
+2013-06-10 22:49:44	alexbobp	it's a *fantastic* interview with Edward Snowden
+2013-06-10 22:49:57	alexbobp	the guy who leaked the existence and scope of the NSA PRISM program
+2013-06-10 22:50:04	cjz	hero or traitor?
+2013-06-10 22:50:12	apocn	stupid...
+2013-06-10 22:50:39	-->	mduller (~mduller@gilliam.oucs.ox.ac.uk) has joined ##security
+2013-06-10 22:51:22	alexbobp	cjz: I say hero
+2013-06-10 22:51:32	<--	mduller (~mduller@gilliam.oucs.ox.ac.uk) has left ##security
+2013-06-10 22:51:37	--	DerpHerder is now known as DerpHerder_idle
+2013-06-10 22:51:55	alexbobp	apocn: based on what?
+2013-06-10 22:52:01	apocn	alexbobp, hero? is this something new? will something change from now on?
+2013-06-10 22:52:12	-->	hrolf (~hrolf@unaffiliated/hrolf) has joined ##security
+2013-06-10 22:52:16	alexbobp	apocn: maybe not.  but he basically put his life on the line to try
+2013-06-10 22:52:43	@jnpplf	Have to respect the guy for having the public interest at heart.
+2013-06-10 22:52:55	apocn	if he released this anonymously, then this could be another story
+2013-06-10 22:52:57	@jnpplf	And that's the only opinion I hold at the moment.
+2013-06-10 22:53:12	@jnpplf	They asked him in the interview why he didn't do it anonymously
+2013-06-10 22:53:21	LzrdKing	fame
+2013-06-10 22:53:21	alexbobp	he gave clear credibility to some ideas that last week people liked to make fun of each other as "paranoid" for claiming is real
+2013-06-10 22:53:41	@jnpplf	LzrdKing, fame isn't much good in prison
+2013-06-10 22:53:46	apocn	LzrdKing, agree
+2013-06-10 22:53:50	alexbobp	LzrdKing: the actual reason he gave is quite legitimate.  did you watch the interview?
+2013-06-10 22:53:55	alexbobp	if he gets famous too, who cares.  he deserves it.
+2013-06-10 22:54:03	apocn	jnpplf, even if he doesn't go to prison is this a person you would like to work with?
+2013-06-10 22:54:05	LzrdKing	i didn't
+2013-06-10 22:54:20	LzrdKing	"Deep Magic has run out of storage, until that is fixed all searches are offline
+2013-06-10 22:54:24	alexbobp	apocn: I would absolutely want to work with someone like him
+2013-06-10 22:54:29	apocn	hehe
+2013-06-10 22:54:31	alexbobp	liz let me tell you his stated reason for evaluation
+2013-06-10 22:54:31	-->	bitcoin_boy (bitcoin_bo@unaffiliated/bitcoin-boy/x-2615748) has joined ##security
+2013-06-10 22:54:35	alexbobp	*lzrdking
+2013-06-10 22:55:08	alexbobp	LzrdKing: he said that he came out so that he could put a face on the leak and give credebility to it.  it's far too easy for anonymous disclosures to just get swept under the rug by the media
+2013-06-10 22:55:17	alexbobp	*credibility
+2013-06-10 22:55:37	apocn	yup, that's BS
+2013-06-10 22:55:48	LzrdKing	yeah, i figured that, its easy to dismiss anonymous claims as being consipracy-theory fodder
+2013-06-10 22:56:06	apocn	he just didn't like the headline "Anonymous" released bla bla bla
+2013-06-10 22:56:14	<--	xaxisx (~xaxisx@24.137.208.218) has quit (Quit: xaxisx)
+2013-06-10 22:56:52	Apachez	I like that magic orange glow from below on that second pic :D   http://cryptome.org/klein-decl.htm
+2013-06-10 22:57:02	apocn	alexbobp, do you think something will be different from now on?
+2013-06-10 22:57:15	LzrdKing	i just want to make sure that api.closely.com's IP did indeed change and that i'm not mad
+2013-06-10 22:57:15	alexbobp	LzrdKing: "And I'm willing to go on the record to defend the authenticity of them and say, 'I didn't change these, I didn't modify the story. This is the truth; this is what's happening. You should decide whether we need to be doing this."
+2013-06-10 22:57:22	<--	enzolovesbacon (~enzoloves@177.43.206.66) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2013-06-10 22:57:36	apocn	they can just claim this is "patriotism" to avoid another 7/11.
+2013-06-10 22:57:39	alexbobp	apocn: no.  the world is fucked.
+2013-06-10 22:57:54	LzrdKing	but how do you explain all of the companies allegedly involved denying it completely?
+2013-06-10 22:57:55	alexbobp	apocn: I think that in all likelihood, we will see the police state apocalypse Snowden fears
+2013-06-10 22:58:09	alexbobp	apocn: but I'm glad somebody's trying.  if everybody thought like you, it'd be even more hopeless.
+2013-06-10 22:58:17	LzrdKing	didn't google say users' data provacy is of utmost importance?
+2013-06-10 22:58:21	apocn	hehe, I think someone thinks this way anyway
+2013-06-10 22:58:24	LzrdKing	privacy*
+2013-06-10 22:58:36	<--	mnemon (~null@unaffiliated/mnemon) has quit (*.net *.split)
+2013-06-10 22:58:36	<--	epidor (~Unknown@icecream.whatbox.ca) has quit (*.net *.split)
+2013-06-10 22:58:36	<--	RichDeli1ers (~balls@p2pbsh.com) has quit (*.net *.split)
+2013-06-10 22:58:36	<--	sonadi (sonadi@spof.pl) has quit (*.net *.split)
+2013-06-10 22:58:36	<--	d0d63 (~d0d63@about/security/staff/d0d63) has quit (*.net *.split)
+2013-06-10 22:58:36	<--	zoidberg- (~zoidberg@irc2.labs.cybergangsta.net) has quit (*.net *.split)
+2013-06-10 22:58:36	<--	twoxyo (~yoyo@ks3096509.kimsufi.com) has quit (*.net *.split)
+2013-06-10 22:58:40	alexbobp	apocn: did you watch the interview?
+2013-06-10 22:58:43	-->	twoxyo (~yoyo@ks3096509.kimsufi.com) has joined ##security
+2013-06-10 22:58:43	-->	RichDelivers (~balls@p2pbsh.com) has joined ##security
+2013-06-10 22:58:43	-->	sonadi (sonadi@spof.pl) has joined ##security
+2013-06-10 22:58:43	-->	d0d63 (~d0d63@eek.dmumford.com) has joined ##security
+2013-06-10 22:58:46	apocn	alexbobp, yup
+2013-06-10 22:58:50	alexbobp	okay
+2013-06-10 22:58:51	-->	mnemon (~null@unaffiliated/mnemon) has joined ##security
+2013-06-10 22:58:52	-->	zoidberg- (~zoidberg@irc2.labs.cybergangsta.net) has joined ##security
+2013-06-10 22:58:52	-->	epidor (~Unknown@icecream.whatbox.ca) has joined ##security
+2013-06-10 22:58:59	alexbobp	good... it's only 12 minutes, so there's no good reason to argue against him without listening
+2013-06-10 22:59:07	alexbobp	if you're still unconvinced, I dunno what to say.  I thought he made a very good case.
+2013-06-10 22:59:10	apocn	sure I saw it this morning
+2013-06-10 22:59:19	<--	stoned (~stoned@unaffiliated/stoned) has quit (Read error: Connection reset by peer)
+2013-06-10 22:59:20	-->	denots (~stoned@unaffiliated/stoned) has joined ##security
+2013-06-10 22:59:26	-->	KindOne- (KindOne@colchester-lug/silly-fool/donut) has joined ##security
+2013-06-10 22:59:36	apocn	I think none is wrong here, we just have different points of view.
+2013-06-10 22:59:36	LzrdKing	alexbobp: i'm not unconviced, i'm just trying to reconcile everyone's stories
+2013-06-10 22:59:37	<--	KindOne (KindOne@colchester-lug/silly-fool/donut) has quit (Ping timeout: 246 seconds)
+2013-06-10 22:59:59	LzrdKing	and i'm also not arguing against him
+2013-06-10 23:00:24	<--	shub-niggurath (~shub-nigg@46.165.223.134) has quit (Quit: shub-niggurath)
+2013-06-10 23:00:28	LzrdKing	i would think that of the dozens of companies involved, at least one would be like, yeah, we did do that
+2013-06-10 23:00:45	LzrdKing	but they all deny it
+2013-06-10 23:01:03	LzrdKing	maybe that'll change in the next few weeks/months
+2013-06-10 23:01:23	alexbobp	I wonder how many of those companies are lying
+2013-06-10 23:01:28	alexbobp	and how many just have spokespeople who aren't in on this
+2013-06-10 23:01:31	apocn	well, from now on this will be just politics.
+2013-06-10 23:01:32	alexbobp	the latter seems more likely
+2013-06-10 23:01:33	--	KindOne- is now known as KindOne
+2013-06-10 23:01:56	LzrdKing	indeed
+2013-06-10 23:02:28	LzrdKing	i deploy apps, but that doesn't mean i know what all the connections the app makes are for
+2013-06-10 23:02:44	LzrdKing	the apps i deploy could be spying on me for the nsa, for all i know
+2013-06-10 23:02:45	ad0nis	LzrdKing: It's a simple PR mis-direction. If all of them feign innocence, then they can all act like they are clean - it's the same as the south park episode where they nuke finland... "Oh no! Not Finland!" - "And none of you knew anything about this?" - "Nope - no clue what they're talking about..."
+2013-06-10 23:03:05	LzrdKing	i don;t remember that one
+2013-06-10 23:03:18	ad0nis	Its the one with the aliens and the space cash.
+2013-06-10 23:03:52	apocn	btw, I think I would have given him all the credit and call him a hero if the way of getting the info was by hacking into their systems... 
+2013-06-10 23:04:07	<--	zeroXten (~zeroXten@0x10.co.uk) has quit (Ping timeout: 245 seconds)
+2013-06-10 23:04:20	alexbobp	apocn: well it's nice that you want the world to be like some shitty hacker movie
+2013-06-10 23:04:23	alexbobp	but this is real life
+2013-06-10 23:04:27	alexbobp	fact is we need whistleblowers
+2013-06-10 23:04:36	alexbobp	we can't wait for movie superhackers to break into the NSA
+2013-06-10 23:04:41	LzrdKing	the fact is, the nsa was never looking for me, so i don;t really care :P
+2013-06-10 23:04:47	apocn	exactly, since this is real life. He is a traitor! 
+2013-06-10 23:04:57	alexbobp	the NSA is a traitor
+2013-06-10 23:05:00	alexbobp	he is a whistleblower
+2013-06-10 23:05:16	alexbobp	when you are part of a government organization that abuses its power, the moral thing to do is expose that.  regardless of what laws you have to break.
+2013-06-10 23:05:17	apocn	well, also.. but he violated his contract and he stole private stuff (which he agreed he would respect)
+2013-06-10 23:05:28	alexbobp	I'm not saying he didn't break the law
+2013-06-10 23:05:32	alexbobp	I'm saying he did morally the right thing
+2013-06-10 23:05:37	ad0nis	"Oh No! - The NSA is snooping on our users? We don't know anything about that, and certainly didn't authorize it. PLEASE DON'T DELETE YOUR ACCOUNTS AND STOP TRUSTING US WITH YOUR PERSONAL DATA!"
+2013-06-10 23:05:41	apocn	c'mon, do you care if they listen/process/filters your conversations?
+2013-06-10 23:06:00	-->	zeroXten (~zeroXten@0x10.co.uk) has joined ##security
+2013-06-10 23:06:01	alexbobp	and store
+2013-06-10 23:06:02	alexbobp	yes
+2013-06-10 23:06:04	ad0nis	apocn: Yes.
+2013-06-10 23:06:22	apocn	I don't care, I have nothing to hide.
+2013-06-10 23:06:44	alexbobp	why are you in ##security then
+2013-06-10 23:06:56	apocn	cause I'm aware of what can happen or not to me
+2013-06-10 23:06:57	cjz	apocn: thats naive
+2013-06-10 23:07:07	ad0nis	http://www.computerweekly.com/blogs/the-data-trust-blog/2009/02/debunking-a-myth-if-you-have-n.html
+2013-06-10 23:07:08	apocn	if you speak through a phone line, do you think the operator can't be listening to you?
+2013-06-10 23:07:10	apocn	c'mon man!
+2013-06-10 23:07:18	alexbobp	apocn: the fact is innocent people can be subject to these problems
+2013-06-10 23:07:25	alexbobp	apocn: and that's covered in the interview you claim to have watched.
+2013-06-10 23:07:37	alexbobp	how many innocent people have ended up getting anally probed every time they take an airplane, and not figured out why for months?
+2013-06-10 23:07:39	apocn	man, I don't care about this guy.
+2013-06-10 23:07:56	LzrdKing	its not that i have nothing to hide, its that the NSA was only going after the data of americans outside the US and i am inside, so i have no worries
+2013-06-10 23:08:04	cjz	the "i have nothing to hide" idiots are ruining it for the rest of us
+2013-06-10 23:08:12	Apachez	LzrdKing: well... :)
+2013-06-10 23:08:23	LzrdKing	if i had anything to hide, i would not hide it on the internet
+2013-06-10 23:08:24	alexbobp	I have nothing to hide, so instead I hide kinky porn
+2013-06-10 23:08:28	cjz	like moderate christians
+2013-06-10 23:08:30	Apachez	you forget that in a conversation there is at least two parties
+2013-06-10 23:08:33	alexbobp	and goddamnit if anyone is gonna tell me I can't have secrets anymore
+2013-06-10 23:08:38	apocn	LzrdKing, then you're aware of it and you KNOW how to hide it
+2013-06-10 23:08:40	alexbobp	this is not the fucking America I wanted
+2013-06-10 23:08:50	apocn	but who didn't know the government was doing this anyway?
+2013-06-10 23:09:29	apocn	why was the internet invented at all? wasn't this part of a military program at first? don't be naive guys!
+2013-06-10 23:09:57	ad0nis	Well, Verizon got caught several years with a direct trunk to the NSA. Anyone that didn't assume at that point that every other ISP was doing it was being naive. The problem is that it shouldn't have happened in the first place, and then our government lied about the existance and breadth of such spying efforts.
+2013-06-10 23:10:17	<--	billwindows (billwindow@c83-252-22-254.bredband.comhem.se) has quit (Ping timeout: 255 seconds)
+2013-06-10 23:10:36	Apachez	got a link for that?
+2013-06-10 23:11:04	<--	lotus (~lotus@24-148-98-16.ip.mhcable.com) has quit (Remote host closed the connection)
+2013-06-10 23:11:42	alexbobp	apocn: we all knew the government was doing it.  those of us with a clue.
+2013-06-10 23:11:56	ad0nis	Apachez: Sorry - it was AT&T - my mistake - http://en.wikipedia.org/wiki/Room_641A
+2013-06-10 23:11:59	apocn	why are you so surprised then?
+2013-06-10 23:12:00	alexbobp	apocn: but now the general public can't deny it and sweep it under the rug.  which is what is needed to be able to *start* pressuring policy makers.
+2013-06-10 23:12:10	LzrdKing	those who don't really worry about this sort of thing have suspected for a long LONG time
+2013-06-10 23:12:12	<--	alexwh (~alexwh@82.196.8.219) has left ##security
+2013-06-10 23:12:15	alexbobp	it's easy for policy makers to keep pretending away open secrets like that
+2013-06-10 23:12:17	-->	`^_^v (~nycs@rrcs-24-39-141-128.nyc.biz.rr.com) has joined ##security
+2013-06-10 23:12:17	alexbobp	but now it's no kind of secret
+2013-06-10 23:12:23	LzrdKing	i mean, really? did you think the NSA wasn't spying on you?
+2013-06-10 23:12:26	alexbobp	the burden is still on the general public, now, to actually care about this issue
+2013-06-10 23:13:08	alexbobp	you guys, when governments are corrupt, it's never a surprise to anyone
+2013-06-10 23:13:18	--	Aehmlo_away is now known as Aehmlo
+2013-06-10 23:13:20	apocn	alexbobp, every government is corrupt.
+2013-06-10 23:13:26	alexbobp	you are seriously underestimating the difference between vaguely knowing something is wrong, and having details be public knowledge
+2013-06-10 23:13:32	alexbobp	apocn: yes.  though, to varying degrees :P
+2013-06-10 23:13:38	apocn	right
+2013-06-10 23:13:49	<--	sideone (~sideone@23.24.175.105) has quit
+2013-06-10 23:14:14	alexbobp	apocn: anyways it was an example
+2013-06-10 23:14:17	LzrdKing	with google streetview now ordinary, why would anyone think the gov't couldn;t be looking at the quarters in my pocket rightnoe?
+2013-06-10 23:14:24	LzrdKing	now*
+2013-06-10 23:14:24	alexbobp	everyone knows their government is corrupt (because everyone knows every government is corrupt)
+2013-06-10 23:14:31	alexbobp	but you can't *DO* something about it without details and proof
+2013-06-10 23:14:39	LzrdKing	alexbobp: or with
+2013-06-10 23:14:42	apocn	alexbobp, the thing that you're not considering is that this is politics. Nothing will stop them from doing what they want and they will just make a BIG SHOW out of it (like none knew).
+2013-06-10 23:15:04	apocn	alexbobp, the people will feel safer after that show, and they will continue doing what they do...
+2013-06-10 23:15:05	LzrdKing	alexbobp: all you can do is go someplace else, and live with some other corrupt gov't
+2013-06-10 23:15:36	apocn	hehe
+2013-06-10 23:15:40	alexbobp	apocn: well you have a nice fatalistic attitude about the American people
+2013-06-10 23:15:46	alexbobp	and I wish I could tell you I think you're wrong :P
+2013-06-10 23:15:53	alexbobp	the best I can say is "yeah but I'm glad someone's at least trying"
+2013-06-10 23:16:02	alexbobp	apocn: I just hope you at least support cryptoanarchy type stuff
+2013-06-10 23:16:45	apocn	alexbobp, you probably noticed this from the beginning I'm not American and it's the same everywhere
+2013-06-10 23:17:09	alexbobp	apocn: I didn't know you're not American.  maybe that's why you care less
+2013-06-10 23:17:22	alexbobp	and maybe it's also why you have less of an impression of how American culture works with this sort of thing
+2013-06-10 23:17:35	apocn	alexbobp, you're wrong again...
+2013-06-10 23:17:41	alexbobp	abou which part?
+2013-06-10 23:17:51	apocn	ALL! :-)
+2013-06-10 23:18:00	<--	caution (~caution@unaffiliated/caution) has quit (Quit: caution)
+2013-06-10 23:18:09	alexbobp	so... I'm not actually wrong or you'd be saying how
+2013-06-10 23:18:13	alexbobp	you're just being a contrarian douche
+2013-06-10 23:18:14	alexbobp	okay
+2013-06-10 23:18:31	apocn	I've been working for American companies (including telcos) for many years, and my country's model is also US.
+2013-06-10 23:18:49	<--	Shecky (~IceChat77@107-1-81-62-ip-static.hfc.comcastbusiness.net) has quit (Quit: Few women admit their age.  Few men act theirs.)
+2013-06-10 23:18:56	alexbobp	anyways the fantasy of this being a free country is still alive and well
+2013-06-10 23:18:59	apocn	in general, I'm not surprised by this and again, this won't stop them from doing what they want
+2013-06-10 23:19:15	alexbobp	the American people are very good at ignoring the things that are almost-known and feeling good
+2013-06-10 23:19:23	alexbobp	that's why this disclosure really does have a chance to make a difference
+2013-06-10 23:19:36	apocn	I can BET you it won't make any difference!
+2013-06-10 23:19:37	alexbobp	it takes incontrovertible proof like this to make people actually give a shit
+2013-06-10 23:19:40	Lara	5:18:50 PM ⇐ Shecky quit (~IceChat77@107-1-81-62-ip-static.hfc.comcastbusiness.net) Quit: Few women admit their age.  Few men act theirs. <-so true...
+2013-06-10 23:19:40	apocn	but only time will tell ;-)
+2013-06-10 23:20:30	LzrdKing	alexbobp: what can people do about it? not use those services?
+2013-06-10 23:20:43	alexbobp	LzrdKing: laws have to change
+2013-06-10 23:21:18	alexbobp	and I'm not saying it'll happen or even that it'll probably happen
+2013-06-10 23:21:21	LzrdKing	and how will knwoing about this bring that about?
+2013-06-10 23:21:22	alexbobp	I said before and I'll say again, we're fucked
+2013-06-10 23:21:26	alexbobp	I'm just saying it's a lot more likely now
+2013-06-10 23:21:49	alexbobp	LzrdKing: because now the American people *know*, not just strongly suspect, but *know* that we don't have the kind of freedom we brag about
+2013-06-10 23:22:04	alexbobp	I already knew, but as I said a few times, most people were very good at ignoring the obvious
+2013-06-10 23:22:05	apocn	well, we're not really fucked but I think the guy who stole/released these confidential info IS indeed fucked for being stupid :P
+2013-06-10 23:22:19	LzrdKing	if something never happens, the chances of it having had happened are 0
+2013-06-10 23:22:21	alexbobp	he knows full well the danger he put himself in
+2013-06-10 23:22:26	alexbobp	again, if you watched the interview, you'd know that
+2013-06-10 23:22:28	alexbobp	he made a trade-off
+2013-06-10 23:23:04	apocn	Every time he opened his mouth he just said "I'm a stupid bastard who wants fame" :P
+2013-06-10 23:23:21	-->	populvuh (~populvuh@unaffiliated/populvuh) has joined ##security
+2013-06-10 23:23:32	LzrdKing	if it didn;t rain yesterday, the actual probability of rain was 0% even if the weather report predicted a 30% chance
+2013-06-10 23:23:39	apocn	But if I would own a company, I wouldn't hire someone like him cause he can steal my confidential documents and release it ! hehe
+2013-06-10 23:24:06	LzrdKing	if the laws never change, the probability of change is 0% too
+2013-06-10 23:24:15	apocn	right
+2013-06-10 23:24:53	apocn	LzrdKing, but let's give this a couple of months maybe we're wrong and there will be a change
+2013-06-10 23:25:14	LzrdKing	doubtful, i don;t thin the NSA is run by eleceted officials
+2013-06-10 23:25:17	LzrdKing	elected*
+2013-06-10 23:25:40	apocn	same here
+2013-06-10 23:26:50	<--	_oak_ (~oak@2a01:7b8:2000:47:216:3eff:fe16:c3c7) has quit (Quit: Leaving)
+2013-06-10 23:27:15	LzrdKing	and whats to prevent them from saying "ok,. we'll stop" and then not?
+2013-06-10 23:27:33	LzrdKing	or stopping THAT system, and just building a new one that collects even more data?
+2013-06-10 23:27:48	LzrdKing	which is likelyt what will happen anyway
+2013-06-10 23:28:18	LzrdKing	i mean, i read about the nsa having a giant packet scanner years ago anyway; this is only corroboration
+2013-06-10 23:28:21	-->	Jim45 (~jim45@c-76-22-31-45.hsd1.wa.comcast.net) has joined ##security
+2013-06-10 23:28:31	LzrdKing	carnivore?
+2013-06-10 23:29:13	apocn	yes!
+2013-06-10 23:29:39	ousado	what could stop them is lack of funds.
+2013-06-10 23:29:41	<--	hrolf (~hrolf@unaffiliated/hrolf) has quit (Ping timeout: 248 seconds)
+2013-06-10 23:29:45	-->	RikudoSennin1 (~Cristwelr@31.205.21.120) has joined ##security
+2013-06-10 23:29:59	LzrdKing	and yes, now that i am thinking about it, i remember reading that they don't use carnivore anymore, they had a new system called prism that was better
+2013-06-10 23:30:12	LzrdKing	s/don't/didn't/
+2013-06-10 23:30:44	LzrdKing	so all this guy did was corroborate something that was published a decade ago
+2013-06-10 23:30:59	LzrdKing	makes me doubt they are really using prism for anything important now
+2013-06-10 23:31:27	LzrdKing	they've already moved on to the nnext bigger and badder internet spy system
+2013-06-10 23:31:35	ousado	who "published" that?
+2013-06-10 23:31:45	LzrdKing	you expect to remember?
+2013-06-10 23:31:54	LzrdKing	go google carnivore and see what turns up
+2013-06-10 23:32:43	<--	RikudoSennin (~Cristwelr@31.205.21.120) has quit (Ping timeout: 252 seconds)
+2013-06-10 23:35:24	-->	NorneyHun (~angelndae@roseau.dreamhost.com) has joined ##security
+2013-06-10 23:35:26	LzrdKing	oh! carnivore was FBI
+2013-06-10 23:35:48	TurboBorland	looking for trailblazer
+2013-06-10 23:35:49	Apachez	dude...
+2013-06-10 23:35:56	Apachez	dont forget to enable strict safemode :P
+2013-06-10 23:36:20	LzrdKing	echelon was NSA
+2013-06-10 23:36:35	<--	darvein (~darvein@static-190-181-30-115.acelerate.net) has quit (Remote host closed the connection)
+2013-06-10 23:36:43	Apachez	is
+2013-06-10 23:37:04	LzrdKing	and i posit that prism is just echelon V2
+2013-06-10 23:37:16	LzrdKing	or v3, or V43987538946532
+2013-06-10 23:37:32	TurboBorland	http://en.wikipedia.org/wiki/Trailblazer_Project
+2013-06-10 23:37:54	NorneyHun	if it's on wikipedia
+2013-06-10 23:37:57	NorneyHun	i must not have edited it
+2013-06-10 23:38:22	LzrdKing	it is
+2013-06-10 23:38:37	TurboBorland	you can just read the wired article released early last year from the early whistleblowers who worked for NSA
+2013-06-10 23:39:27	LzrdKing	so yeah, NBD
+2013-06-10 23:39:46	alexbobp	apocn: you're a moron.  but anyways thanks for not being an American.  I'd be worse off if you were.
+2013-06-10 23:39:58	apocn	heheh
+2013-06-10 23:40:03	apocn	You're welcome?
+2013-06-10 23:41:42	apocn	alexbobp, I also hope less Americans are as naive as you.
+2013-06-10 23:42:22	@hdm	http://trollthensa.com/
+2013-06-10 23:43:43	apocn	hdm, haha very interesting
+2013-06-10 23:44:58	<--	Astral_ (Astral@93.125.38.29) has quit (Ping timeout: 240 seconds)
+2013-06-10 23:45:50	alexbobp	hdm: interesting idea, but giving an exact script isn't a great idea
+2013-06-10 23:45:53	alexbobp	the NSA will be able to prepare :P
+2013-06-10 23:47:03	LzrdKing	they already have
+2013-06-10 23:47:12	-->	nox- (noident@freebsd/developer/nox) has joined ##security
+2013-06-10 23:47:13	LzrdKing	years ago
+2013-06-10 23:48:34	alexbobp	hdm: well let me know if anything interesting happens on Wednesday :P
+2013-06-10 23:48:47	LzrdKing	haha, this is quite funny
+2013-06-10 23:49:26	ousado	LzrdKing: so you think the leaked documents are irrelevant, because everybody knew already?
+2013-06-10 23:49:43	LzrdKing	not, the are relevent, as they corroboorate it
+2013-06-10 23:50:11	LzrdKing	but its not like, OMG, how dare they be doing this?!
+2013-06-10 23:50:20	<--	Arirang (~Arirang@c-24-21-190-49.hsd1.or.comcast.net) has quit (Ping timeout: 255 seconds)
+2013-06-10 23:50:31	-->	hays (~quassel@unaffiliated/hays) has joined ##security
+2013-06-10 23:50:51	<--	NorneyHun (~angelndae@roseau.dreamhost.com) has left ##security
+2013-06-10 23:51:04	LzrdKing	because if you thought they weren;t, you're too naive to use the internet
+2013-06-10 23:51:47	-->	capo (~capo@lorea/faerie) has joined ##security
+2013-06-10 23:51:48	LzrdKing	remember, you cannot eliminate, only manage, risk; that works BOTH ways
+2013-06-10 23:52:07	@adam_vollrath	I thought the real test of internet naiveté was the Nigerian scammer
+2013-06-10 23:52:23	@adam_vollrath	also i agree it's not surprising 
+2013-06-10 23:53:30	LzrdKing	and if it affects you, you were doing something terribly wrong already
+2013-06-10 23:53:50	apocn	exactly!
+2013-06-10 23:53:55	LzrdKing	quit skyping with your terrorist cell, i mean jeez
+2013-06-10 23:53:55	<--	sm` (sm@31.11.124.163) has quit (Read error: Connection reset by peer)
+2013-06-10 23:54:04	apocn	alexbobp, it seems I'm not the only one who thinks this way.
+2013-06-10 23:54:12	ousado	if you think it doesn't afect you, you're naive
+2013-06-10 23:54:23	apocn	ousado, how does it affects him?
+2013-06-10 23:55:02	LzrdKing	ousado: i knew from the time i was 8 years old and first dialed into BBSes that everything i did could be watched and planned accordingly
+2013-06-10 23:55:14	ousado	so what
+2013-06-10 23:55:34	LzrdKing	so i don't post anything online i don't want my grandmother or the NSA finding out about
+2013-06-10 23:56:02	-->	sm` (sm@31.11.124.163) has joined ##security
+2013-06-10 23:56:24	LzrdKing	or rather, i don't care if they DO find out about what i post
+2013-06-10 23:56:31	apocn	LzrdKing, thing is do you really have something you don't want the NSA to find out?
+2013-06-10 23:56:32	ousado	you know, there are many places on earth that have a history where (way weaker) surveillance has been used by oppressive regimes. 
+2013-06-10 23:57:00	<--	bmac (~textual@75-150-66-249-NewEngland.hfc.comcastbusiness.net) has quit (Quit: Computer has gone to sleep.)
+2013-06-10 23:57:31	LzrdKing	do i want them reading my email? no?oo.  are they? probably not. if they are, are they going to take action against me? doubtful. good enough for me
+2013-06-10 23:57:35	@adam_vollrath	I might be ok with the recently leaked program if it were more transparent, at least its existence.  The president said he "wanted to have the debate" about whether it's a good idea, but it seems a bit late for that.  Nevertheless, will we as a society have it now?
+2013-06-10 23:58:20	LzrdKing	adam_vollrath: probably not; pretty sure the NSA has scrapped PRISM and has started working on its more powerful successor
+2013-06-10 23:58:28	apocn	hehe
+2013-06-10 23:58:43	LzrdKing	even if not, prism won't be around in 5 years
+2013-06-10 23:59:07	ousado	that label is meaningless
+2013-06-10 23:59:20	-->	kwon2 (~kwon2@188-193-197-98-dynip.superkabel.de) has joined ##security
+2013-06-10 23:59:22	LzrdKing	what label?
+2013-06-10 23:59:27	ousado	"prism"
+2013-06-10 23:59:32	LzrdKing	you are right
+2013-06-10 23:59:47	LzrdKing	so why is it such a big deal?
+2013-06-10 23:59:59	apocn	btw, ousado and alexbobp did you connect to free node using SSL?
+2013-06-11 00:00:01	LzrdKing	just change the date on a document leaked 20 years ago and call it current events\
+2013-06-11 00:00:09	alexbobp	apocn: stop pinging me please
+2013-06-11 00:00:12	alexbobp	you can check with whois
+2013-06-11 00:00:14	apocn	s/free node/freenode/
+2013-06-11 00:00:30	ousado	there's a difference between a name and what it stands for
+2013-06-11 00:00:39	ousado	what it stands for is the big deal
+2013-06-11 00:01:04	-->	moveax1ret (~moveax1re@x1-6-30-46-9a-7a-c0-90.k403.webspeed.dk) has joined ##security
+2013-06-11 00:01:05	LzrdKing	ousado: except that "what it stands for" has been in existence LONG before an internet existed
+2013-06-11 00:01:12	apocn	Then NSA might be recording your IRC chats as well!!
+2013-06-11 00:01:15	<--	moveaxret (~moveax1re@x1-6-30-46-9a-7a-c0-90.k403.webspeed.dk) has quit (Read error: Connection reset by peer)
+2013-06-11 00:01:17	ousado	no
+2013-06-11 00:02:00	ousado	it's very different. in eastern germany, the STASI opened letters
+2013-06-11 00:02:03	patn	and SSL/TLS won't stop them doing so
+2013-06-11 00:02:08	ousado	and glued them again
+2013-06-11 00:02:17	patn	ah stop
+2013-06-11 00:02:39	patn	ah, i forgot, the NSA cannot have any access to a trusted CA
+2013-06-11 00:02:41	<--	capo (~capo@lorea/faerie) has quit (Ping timeout: 240 seconds)
+2013-06-11 00:02:46	patn	for sure .)
+2013-06-11 00:02:48	apocn	hehe
+2013-06-11 00:03:01	apocn	patn, I agree, but at least they will be coherent for at least trying...
+2013-06-11 00:03:08	patn	yep
+2013-06-11 00:03:09	ousado	?
+2013-06-11 00:03:15	<--	RikudoSennin1 (~Cristwelr@31.205.21.120) has quit (Read error: Connection reset by peer)
+2013-06-11 00:03:15	LzrdKing	nsa cannot decrypt ssl?
+2013-06-11 00:03:21	ousado	what are you talking about 
+2013-06-11 00:03:21	LzrdKing	i call shenanigans
+2013-06-11 00:03:24	-->	user_6_10 (~chatzilla@37.24.153.108) has joined ##security
+2013-06-11 00:03:36	<--	minde (~minde@unaffiliated/minde) has quit (Quit: Sya!)
+2013-06-11 00:03:42	-->	RikudoSennin (~Cristwelr@31.205.21.120) has joined ##security
+2013-06-11 00:04:06	apocn	he's being ironic
+2013-06-11 00:05:04	LzrdKing	In May 2013 it was revealed that the NSA runs a secretive unit called Tailored Access Operations (TAO) which hacks into foreign computers to conduct cyber-espionage
+2013-06-11 00:05:15	LzrdKing	Pentagon hackers within the NSA harvest nearly 2.1 million gigabytes of stolen data every hour
+2013-06-11 00:05:24	LzrdKing	but no one cares about that because its not facebook
+2013-06-11 00:05:32	apocn	hehe
+2013-06-11 00:05:56	-->	czz (~czz@cpe-76-92-250-33.kc.res.rr.com) has joined ##security
+2013-06-11 00:05:56	<--	czz (~czz@cpe-76-92-250-33.kc.res.rr.com) has quit (Changing host)
+2013-06-11 00:05:56	-->	czz (~czz@unaffiliated/czz) has joined ##security
+2013-06-11 00:07:43	ousado	that someone has known or believed something before doesn't make the fact that fox news can't ignore it anymore less relevant. 
+2013-06-11 00:07:50	ousado	and that's what this is about
+2013-06-11 00:08:07	ousado	so it's a good thing, not "old news"
+2013-06-11 00:08:09	LzrdKing	only if you get your news from fox
+2013-06-11 00:08:17	ousado	yes, how many people do?
+2013-06-11 00:08:41	LzrdKing	no one with more intellegence than a moron
+2013-06-11 00:09:20	LzrdKing	great, now if fox news carries the story, all the viewers will want to "ban the internet"
+2013-06-11 00:09:58	patn	i don't think that interests for technology correlates with intelligence
+2013-06-11 00:10:19	LzrdKing	maybe i'll see if the nsa is hiring
+2013-06-11 00:10:26	LzrdKing	and get a job with them
+2013-06-11 00:10:29	apocn	ohh yeah
+2013-06-11 00:10:35	LzrdKing	that'd be cool
+2013-06-11 00:10:42	apocn	I would like to see the sources of these filtering algorithms
+2013-06-11 00:11:11	LzrdKing	filtering? its all done by quantum computers
+2013-06-11 00:11:25	<--	moveax1ret (~moveax1re@x1-6-30-46-9a-7a-c0-90.k403.webspeed.dk) has quit (Ping timeout: 276 seconds)
+2013-06-11 00:12:59	LzrdKing	patn: and internet use hardly qualifies as "interestt in technology"
+2013-06-11 00:13:09	LzrdKing	not today. maybe 10-15-20 years ago
+2013-06-11 00:14:23	<--	j0ke (~j0ke@weston-24.51.222.152.myacc.net) has quit
+2013-06-11 00:15:12	-->	Arirang (~Arirang@c-24-21-190-49.hsd1.or.comcast.net) has joined ##security
+2013-06-11 00:16:01	<--	TurboBorland (~GrandmaEu@50.8.60.114) has quit (Quit: \x0a\x0a\x00)
+2013-06-11 00:16:21	-->	j0ke (~j0ke@weston-24.51.222.152.myacc.net) has joined ##security
+2013-06-11 00:16:23	<--	j0ke (~j0ke@weston-24.51.222.152.myacc.net) has quit (Max SendQ exceeded)
+2013-06-11 00:16:59	-->	j0ke (~j0ke@weston-24.51.222.152.myacc.net) has joined ##security
+2013-06-11 00:17:01	<--	j0ke (~j0ke@weston-24.51.222.152.myacc.net) has quit (Max SendQ exceeded)
+2013-06-11 00:17:40	-->	j0ke (~j0ke@weston-24.51.222.152.myacc.net) has joined ##security
+2013-06-11 00:17:42	<--	j0ke (~j0ke@weston-24.51.222.152.myacc.net) has quit (Max SendQ exceeded)
+2013-06-11 00:18:20	-->	j0ke (~j0ke@weston-24.51.222.152.myacc.net) has joined ##security
+2013-06-11 00:18:22	<--	j0ke (~j0ke@weston-24.51.222.152.myacc.net) has quit (Max SendQ exceeded)
+2013-06-11 00:19:02	-->	j0ke (~j0ke@weston-24.51.222.152.myacc.net) has joined ##security
+2013-06-11 00:19:03	<--	Arirang (~Arirang@c-24-21-190-49.hsd1.or.comcast.net) has quit (Read error: Connection reset by peer)
+2013-06-11 00:19:04	<--	j0ke (~j0ke@weston-24.51.222.152.myacc.net) has quit (Max SendQ exceeded)
+2013-06-11 00:19:04	-->	Arirang_ (~Arirang@c-24-21-190-49.hsd1.or.comcast.net) has joined ##security
+2013-06-11 00:19:13	<--	Stierlitz (~paiti@paiti.sychrovnet.cz) has quit (Read error: Connection reset by peer)
+2013-06-11 00:19:40	-->	j0ke (~j0ke@weston-24.51.222.152.myacc.net) has joined ##security
+2013-06-11 00:19:42	<--	j0ke (~j0ke@weston-24.51.222.152.myacc.net) has quit (Max SendQ exceeded)
+2013-06-11 00:20:20	-->	j0ke (~j0ke@weston-24.51.222.152.myacc.net) has joined ##security
+2013-06-11 00:20:22	<--	j0ke (~j0ke@weston-24.51.222.152.myacc.net) has quit (Max SendQ exceeded)
+2013-06-11 00:21:02	-->	j0ke (~j0ke@weston-24.51.222.152.myacc.net) has joined ##security
+2013-06-11 00:21:04	<--	j0ke (~j0ke@weston-24.51.222.152.myacc.net) has quit (Max SendQ exceeded)
+2013-06-11 00:21:46	-->	j0ke (~j0ke@weston-24.51.222.152.myacc.net) has joined ##security
+2013-06-11 00:21:48	<--	j0ke (~j0ke@weston-24.51.222.152.myacc.net) has quit (Max SendQ exceeded)
+2013-06-11 00:22:38	-->	j0ke (~j0ke@weston-24.51.222.152.myacc.net) has joined ##security
+2013-06-11 00:22:40	<--	j0ke (~j0ke@weston-24.51.222.152.myacc.net) has quit (Max SendQ exceeded)
+2013-06-11 00:22:48	Apachez	not again =)
+2013-06-11 00:23:08	-->	j0ke (~j0ke@weston-24.51.222.152.myacc.net) has joined ##security
+2013-06-11 00:24:53	Apachez	j0ke stop that
+2013-06-11 00:25:07	j0ke	Apachez: Connection problems. Sorry
+2013-06-11 00:27:57	bitcoin_boy	It's genuinely scary when people call Fox News people stupid while thinking that any of the other corporate media news sources are better in any way. They don't realize that they all lie to you, because they are all owned by the same people.
+2013-06-11 00:28:09	<--	josefh_ (~mike4_@gateway/tor-sasl/mike4/x-38362156) has quit (Quit: bbl)
+2013-06-11 00:28:41	@hdm	fox news is just worse at their jobs :)
+2013-06-11 00:29:08	bitcoin_boy	Same exact shit.
+2013-06-11 00:29:12	ousado	no, they're pretty good at it. it's just not journalism.
+2013-06-11 00:29:32	MMavipc	hello ##security
+2013-06-11 00:29:56	bitcoin_boy	http://www.infowars.com/
+2013-06-11 00:29:59	Apachez	tell me how you doin...
+2013-06-11 00:30:24	ousado	bitcoin_boy: how's that guy different?
+2013-06-11 00:30:34	bitcoin_boy	He's telling the truth for one.
+2013-06-11 00:30:38	ousado	pfft
+2013-06-11 00:31:13	MMavipc	http://trollthensa.com/
+2013-06-11 00:31:21	<--	LotusBleu (nowhere@movies.are.getting.bigger.so.i.need.morebw.us) has quit (Quit: LotusBleu)
+2013-06-11 00:31:31	<--	jorick (~kciroj@d51A4F9DD.access.telenet.be) has quit (Remote host closed the connection)
+2013-06-11 00:35:46	-->	cyan0hack (~cyan0hack@cpc1-camd13-2-0-cust50.hari.cable.virginmedia.com) has joined ##security
+2013-06-11 00:36:11	<--	cyan0hack (~cyan0hack@cpc1-camd13-2-0-cust50.hari.cable.virginmedia.com) has quit (Client Quit)
+2013-06-11 00:39:49	<--	mike4_ (~mike4_@gateway/tor-sasl/mike4/x-38362156) has quit (Ping timeout: 240 seconds)
+2013-06-11 00:40:08	-->	C1ph3r (~Cipher@31.6.28.81) has joined ##security
+2013-06-11 00:40:11	<--	fisher (~fisher@vpne096.ugent.be) has quit (Quit: Nettalk6 - www.ntalk.de)
+2013-06-11 00:43:26	<--	JZTech101 (~jztech101@c-24-0-88-174.hsd1.nj.comcast.net) has quit (Ping timeout: 255 seconds)
+2013-06-11 00:44:31	<--	niklasb (~codeslay0@nat-wh-hadi.rz.uni-karlsruhe.de) has quit (Read error: Operation timed out)
+2013-06-11 00:45:07	-->	mike4_ (~mike4_@gateway/tor-sasl/mike4/x-38362156) has joined ##security
+2013-06-11 00:46:22	<--	mike4_ (~mike4_@gateway/tor-sasl/mike4/x-38362156) has quit (Max SendQ exceeded)
+2013-06-11 00:47:42	-->	\mSg_mini (mSg@unaffiliated/msg/x-4576342) has joined ##security
+2013-06-11 00:48:40	<--	\mSg (~mSg@unaffiliated/msg/x-4576342) has quit (Disconnected by services)
+2013-06-11 00:48:43	--	\mSg_mini is now known as \mSg
+2013-06-11 00:52:01	lacx	http://www.bbc.co.uk/news/uk-22832994 X)
+2013-06-11 00:52:07	lacx	so funny
+2013-06-11 00:52:47	-->	fourlights_ (~fourlight@78.133.163.190) has joined ##security
+2013-06-11 00:52:49	lacx	just gets told hes an idiot and ignored, his two most favourite things i bet X)
+2013-06-11 00:53:24	-->	JZTech101 (~jztech101@c-24-0-88-174.hsd1.nj.comcast.net) has joined ##security
+2013-06-11 00:53:32	<--	fourlights (~fourlight@78.133.163.190) has quit (Ping timeout: 252 seconds)
+2013-06-11 00:53:38	<--	tomreyn (~tomreyn@megaglest/team/tomreyn) has quit (Quit: tomreyn)
+2013-06-11 00:54:11	<--	iPwnd (~ipwn@bl16-125-198.dsl.telepac.pt) has quit (Ping timeout: 256 seconds)
+2013-06-11 00:55:19	<--	famine (~anima@unaffiliated/famine) has quit (Read error: Connection reset by peer)
+2013-06-11 00:55:19	<--	Savemech (~savemech@109.197.79.141) has quit (Read error: Connection reset by peer)
+2013-06-11 00:55:44	<--	apocn (~apo@unaffiliated/apocn) has quit (Quit: BBL)
+2013-06-11 00:55:44	-->	savemech_1 (~savemech@109.197.79.141) has joined ##security
+2013-06-11 00:55:45	-->	anima_ (~anima@S0106000c6e1bf099.lb.shawcable.net) has joined ##security
+2013-06-11 00:55:45	<--	anima_ (~anima@S0106000c6e1bf099.lb.shawcable.net) has quit (Changing host)
+2013-06-11 00:55:45	-->	anima_ (~anima@unaffiliated/famine) has joined ##security
+2013-06-11 00:55:54	--	anima_ is now known as famine
+2013-06-11 00:58:17	-->	evilsquelch (~profstran@host-130-149-107-208.midco.net) has joined ##security
+2013-06-11 00:58:21	user_6_10	"we have an idiot on the program today"
+2013-06-11 00:58:59	-->	iPwnd (~ipwn@bl16-125-198.dsl.telepac.pt) has joined ##security
+2013-06-11 00:59:26	-->	Segue (~Segue@66-87-110-223.pools.spcsdns.net) has joined ##security
+2013-06-11 01:00:01	<--	\mSg (mSg@unaffiliated/msg/x-4576342) has quit (Ping timeout: 240 seconds)
+2013-06-11 01:00:09	-->	grahamsavage_ (~grahamsav@61.183.53.37) has joined ##security
+2013-06-11 01:00:27	Segue	Etc
+2013-06-11 01:01:49	-->	ffio (~fire@unaffiliated/security) has joined ##security
+2013-06-11 01:01:55	<--	emmanuelux (~emmanuelu@192.123.25.109.rev.sfr.net) has quit (Remote host closed the connection)
+2013-06-11 01:02:07	<--	_ffio_ (~fire@unaffiliated/security) has quit (Ping timeout: 276 seconds)
+2013-06-11 01:04:08	<--	grahamsavage (~grahamsav@61.183.53.38) has quit (Ping timeout: 255 seconds)
+2013-06-11 01:04:37	-->	TurboBorland (~GrandmaEu@50.8.60.114) has joined ##security
+2013-06-11 01:06:44	dn4	After Microsoft bought skype; why does skype want direct access to my keychain 
+2013-06-11 01:06:48	sartan	i just had a vendor quote me for 1000 hours professional services for a service that should be installable in 50. $225/hour.
+2013-06-11 01:07:03	sartan	Even 50 is on the 'we don't know what you're doing' side.
+2013-06-11 01:07:28	dn4	sartan: that is why you record them 24/7
+2013-06-11 01:07:38	dn4	oops I sounded like the NSA
+2013-06-11 01:09:01	@adam_vollrath	bitcoin_boy: no alex jones zone
+2013-06-11 01:12:30	-->	\mSg (mSg@unaffiliated/msg/x-4576342) has joined ##security
+2013-06-11 01:13:05	dn4	seriously though why does Microsoft demand access to a user's keychain after acquiring skype
+2013-06-11 01:13:27	dn4	what security advantages does that offer for the end user in the long run to give up their keychain 
+2013-06-11 01:13:41	sartan	Microsoft passport will stop prompting you so frequently for access.
+2013-06-11 01:16:04	<--	PZt (~user@unaffiliated/pzt) has quit (Read error: Connection reset by peer)
+2013-06-11 01:17:51	-->	Gojol (~SBurrisJr@68-185-243-181.dhcp.slid.la.charter.com) has joined ##security
+2013-06-11 01:17:52	<--	kwon2 (~kwon2@188-193-197-98-dynip.superkabel.de) has quit (Ping timeout: 246 seconds)
+2013-06-11 01:20:12	<--	evilsquelch (~profstran@host-130-149-107-208.midco.net) has left ##security
+2013-06-11 01:20:14	<--	Geniack (~Geniack@unaffiliated/geniack) has quit (Disconnected by services)
+2013-06-11 01:20:19	-->	Geniack_ (~Geniack@unaffiliated/geniack) has joined ##security
+2013-06-11 01:21:01	<--	Segue (~Segue@66-87-110-223.pools.spcsdns.net) has quit (Remote host closed the connection)
+2013-06-11 01:21:22	-->	Stryyker (stryyke1@ppp118-208-217-220.lns20.hba1.internode.on.net) has joined ##security
+2013-06-11 01:21:22	<--	Stryyker (stryyke1@ppp118-208-217-220.lns20.hba1.internode.on.net) has quit (Changing host)
+2013-06-11 01:21:22	-->	Stryyker (stryyke1@about/windows/staff/stryyker) has joined ##security
+2013-06-11 01:21:59	<--	linuxnewb3 (~linuxnewb@184.75.213.130) has quit (Quit: linuxnewb3)
+2013-06-11 01:22:00	<--	zerick (~eocrospom@190.187.21.53) has quit (Read error: Connection reset by peer)
+2013-06-11 01:22:29	-->	mx8manger (~mx8manger@unaffiliated/mx8manger) has joined ##security
+2013-06-11 01:24:22	toothe	back
+2013-06-11 01:24:26	-->	PZt (~user@unaffiliated/pzt) has joined ##security
+2013-06-11 01:24:26	toothe	sorry, i was talking about my email
+2013-06-11 01:24:31	toothe	about storing email
+2013-06-11 01:24:43	<--	Stryyker2 (stryyke1@about/windows/staff/stryyker) has quit (Ping timeout: 245 seconds)
+2013-06-11 01:24:54	toothe	the final solution is, despite all the layers of obfuscation, the most important thing is to physically own your own email and encrypt the HD
+2013-06-11 01:25:14	MMavipc	fucking cox
+2013-06-11 01:25:16	@Hydrogenum	and encrypt the offsite backups
+2013-06-11 01:25:18	MMavipc	blocks smtp ports
+2013-06-11 01:25:33	toothe	it does, which is why I threw in that VPS layer
+2013-06-11 01:25:40	toothe	so, you have a VPS to accept packets on port 25
+2013-06-11 01:26:43	toothe	and then have the VPS store the actual emails "home"
+2013-06-11 01:26:48	bitcoin_boy	adam_vollrath: ?
+2013-06-11 01:28:29	--	marx is now known as marx|afk
+2013-06-11 01:29:51	-->	xkernel (~xkernel@unaffiliated/xkernel) has joined ##security
+2013-06-11 01:31:28	MMavipc	396 people in the channel
+2013-06-11 01:31:34	MMavipc	this is bound to work on at least one
+2013-06-11 01:31:46	MMavipc	DCC SEND C:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+2013-06-11 01:31:52	MMavipc	guess not
+2013-06-11 01:32:22	--	Aehmlo is now known as Aehmlo_away
+2013-06-11 01:32:28	toothe	haha
+2013-06-11 01:32:38	toothe	wbat were yo trying to do?
+2013-06-11 01:36:10	xkernel	If NSA is able to intercept any communication and capture everything (considering PRISM is fake),  then Chrome OS is not a good idea!
+2013-06-11 01:37:09	<--	user_6_10 (~chatzilla@37.24.153.108) has quit (Ping timeout: 248 seconds)
+2013-06-11 01:39:59	-->	AT101 (~androirc@c-69-142-178-226.hsd1.pa.comcast.net) has joined ##security
+2013-06-11 01:40:16	@Hydrogenum	xkernel: if they can decrypt SSL then the Ineternet is not a good idea.  ChromeOS has nothing to do with it, other than that it uses the internet
+2013-06-11 01:40:56	-->	FreezingCold (~Freezing@198-91-168-144.cpe.distributel.net) has joined ##security
+2013-06-11 01:42:23	<--	JZTech101 (~jztech101@c-24-0-88-174.hsd1.nj.comcast.net) has quit (Read error: Connection reset by peer)
+2013-06-11 01:42:59	-->	JZTech101 (~jztech101@c-24-0-88-174.hsd1.nj.comcast.net) has joined ##security
+2013-06-11 01:43:02	xkernel	you can control what to share on FB, G+ and even what you send by email, but with Chrome OS if you depend on it mainly and all your stuff are there then certainly NSA will get a copy of everything, Hydrogenum 
+2013-06-11 01:43:27	famine	i now remember why i hate python
+2013-06-11 01:44:53	xkernel	why famine ?
+2013-06-11 01:45:19	@Hydrogenum	xkernel: what do you think you're protecting against by not using ChromeOS?
+2013-06-11 01:45:21	famine	xkernel, because instead of writing 10 lines of code people coding python will import 70 libs
+2013-06-11 01:45:28	markovh	MMavipc: you need to use ctcp
+2013-06-11 01:45:51	@Hydrogenum	my guess is ChromeOS is actually much safer than running Windows, and likely safer than Mac or Linux
+2013-06-11 01:45:51	xkernel	lol famine 
+2013-06-11 01:46:17	markovh	chromeos safer than linux?
+2013-06-11 01:46:20	MMavipc	toothe: It's an old mirc bug
+2013-06-11 01:46:26	MMavipc	toothe: it causes mirc to crash
+2013-06-11 01:46:32	@Hydrogenum	markovh: only because it auto-upgrades
+2013-06-11 01:46:35	eth0ghost	Linux is just a kernel...
+2013-06-11 01:46:46	@Hydrogenum	eth0ghost: when's the last time you upgraded your linux kernel?
+2013-06-11 01:46:53	<--	iPwnd (~ipwn@bl16-125-198.dsl.telepac.pt) has quit (Ping timeout: 256 seconds)
+2013-06-11 01:46:56	MMavipc	test
+2013-06-11 01:47:03	eth0ghost	Been a while.
+2013-06-11 01:47:11	markovh	i suppose logically speaking bigger attack surface in a way...
+2013-06-11 01:47:15	xkernel	Hydrogenum, Of course its much more safer and will protect you against hackers, but every time you use it NSA is intercepting your connection :) 
+2013-06-11 01:47:22	famine	Hydrogenum, i cant tell with the new kernel versioning :P
+2013-06-11 01:47:37	famine	its like firefox, install 3.1 today, its at 3.9 tomorrow
+2013-06-11 01:47:45	markovh	indirectly (doesn't speak to linux at all) linux users are more likely to strip things off (such as java/flash/js etc) 
+2013-06-11 01:47:48	MMavipc	Can't read this text now NSA.
+2013-06-11 01:47:48	@Hydrogenum	xkernel: I'll agree if you compare it to a non-networked machine
+2013-06-11 01:48:17	-->	lmbeta8 (~lmbeta8@65.95.35.137) has joined ##security
+2013-06-11 01:48:17	<--	AT101 (~androirc@c-69-142-178-226.hsd1.pa.comcast.net) has quit (Quit: AndroIRC - Android IRC Client ( http://www.androirc.com ))
+2013-06-11 01:48:36	<--	ksha (~ksha@unaffiliated/ksha) has quit (Quit: leaving)
+2013-06-11 01:48:46	markovh	Hydrogenum: did you mean to say "oh no no... nsa isn't intercepting the data at all...no"  :p
+2013-06-11 01:48:52	-->	AT101 (~androirc@c-69-142-178-226.hsd1.pa.comcast.net) has joined ##security
+2013-06-11 01:49:30	-->	snuffeluffegus (~snuffeluf@cpe-098-121-180-250.ec.res.rr.com) has joined ##security
+2013-06-11 01:50:05	markovh	i actually wasn't on irc when the news hit. much backlash?
+2013-06-11 01:50:40	@Hydrogenum	markovh: it was entertaining in here.  apparently lots of ##security lurkers wear tin foil hats.  who would have guessed?  ;)
+2013-06-11 01:51:15	MMavipc	if you were in ##security and you didn't already guess the NSA was watching everything
+2013-06-11 01:51:16	MMavipc	...
+2013-06-11 01:51:18	@Hydrogenum	in a practical sense, though, not much has changed.  Everyone already knew US companies are subject to US laws and court orders, and they can only fight them so much.
+2013-06-11 01:51:35	markovh	MMavipc: there's a bit difference in thinking it with no evidence though
+2013-06-11 01:51:54	MMavipc	markovh: beam splitters at major internet hubs
+2013-06-11 01:52:10	@Hydrogenum	I think the entire thing was about confusion over what "direct access" means.  Lots of people didn't get that
+2013-06-11 01:52:11	famine	markovh, :P like what they did with virizon wasnt a clear enough warning to everyone
+2013-06-11 01:52:16	famine	verizon *
+2013-06-11 01:52:32	markovh	if they came out and said there were alien landings and  that they had one in area 51, i'd still call the conspiracy guys crazy (even though they were saying it before)
+2013-06-11 01:52:42	MMavipc	I'm going to bomb my school, hear that NSA?
+2013-06-11 01:52:46	MMavipc	do it for allah
+2013-06-11 01:52:55	<--	chris_99 (~chris_99@unaffiliated/chris-99/x-3062929) has quit (Quit: Leaving)
+2013-06-11 01:52:56	@jnpplf	Just won a sizeable contract. Shall be doing no work for the rest of the week while I bask in the glory.
+2013-06-11 01:53:14	@Hydrogenum	jnpplf: shouldn't you be working on the contract??
+2013-06-11 01:53:23	@Hydrogenum	or, is this a contract... on someone's life?
+2013-06-11 01:53:28	@jnpplf	I just won it, now we do nothing while the client gets their shit together.
+2013-06-11 01:53:43	markovh	Hydrogenum: what do you mean about direct access. isn't prism full access to everyone's data (not court orders to specific people). 
+2013-06-11 01:53:44	@jnpplf	And I'm actually not planning to deliver it, going to give it to someone else as I'm too busy with all the other work I won :p
+2013-06-11 01:53:49	@Hydrogenum	ah, ok.  where did you say you work, again?
+2013-06-11 01:53:59	@jnpplf	Not there :p
+2013-06-11 01:54:07	@Hydrogenum	markovh: I don't think it is, no
+2013-06-11 01:54:11	@jnpplf	^ 
+2013-06-11 01:54:16	MMavipc	anyone here do much rce?
+2013-06-11 01:54:29	@jnpplf	Prism gives them the same access I've assumed they had all along
+2013-06-11 01:54:35	@jnpplf	The ability to wiretap what they like with authorization
+2013-06-11 01:54:43	-->	NotproN (~NotproN@gateway/tor-sasl/notpron) has joined ##security
+2013-06-11 01:54:46	@Hydrogenum	markovh: I'm guessing they meant "direct" as in "not from a wiretap".  It probably is just a system for mailing out NSLs or somesuch
+2013-06-11 01:55:04	@Hydrogenum	they'd still have to get the company to respond with the data
+2013-06-11 01:55:05	@jnpplf	I'm using wiretap in a different context here
+2013-06-11 01:55:05	markovh	hold up... obama himself came out and said they were data mining meta data. that at LEAST (for phone companies anyway) indicates non selective data access
+2013-06-11 01:55:14	@jnpplf	s/wiretap/snoop on
+2013-06-11 01:55:17	<--	cjz (~Adium@12.153.137.82) has quit (Quit: Leaving.)
+2013-06-11 01:55:31	@jnpplf	But the metadata is 'anonymous'
+2013-06-11 01:55:33	markovh	the additional information (such as listening to the actual phone call) still requires a court order
+2013-06-11 01:55:54	@jnpplf	That's how it's always worked.
+2013-06-11 01:55:56	-->	Batzy (~AndChat68@ool-ae2cab18.dyn.optonline.net) has joined ##security
+2013-06-11 01:56:15	@Hydrogenum	last I heard the metadata still required a court order
+2013-06-11 01:56:26	markovh	that doesn't make much sense
+2013-06-11 01:56:27	 *	jnpplf has said too much
+2013-06-11 01:56:32	<--	sm` (sm@31.11.124.163) has quit (Ping timeout: 256 seconds)
+2013-06-11 01:56:35	@Hydrogenum	it's just easier to get approval for than the full wiretap with call contents
+2013-06-11 01:56:39	markovh	why would you get a court order for meta data at all
+2013-06-11 01:56:40	 *	jnpplf fades into the shadows
+2013-06-11 01:56:45	 *	MMavipc slaps jnpplf around a bit with a large trout
+2013-06-11 01:56:49	markovh	if you're getting a court order, just get a court order for the actual data
+2013-06-11 01:56:51	 *	Hydrogenum goes after jnpplf with a flashlight
+2013-06-11 01:57:13	 *	jnpplf hides in the pockets between waves of light
+2013-06-11 01:57:13	<--	NotproN (~NotproN@gateway/tor-sasl/notpron) has left ##security
+2013-06-11 01:57:14	markovh	plus, the idea is patterns which you may not see in the first place if you're not getting it all
+2013-06-11 01:57:14	@Hydrogenum	markovh: lower burden of proof, I think
+2013-06-11 01:57:29	 *	MMavipc entices out jnpplf with food
+2013-06-11 01:57:35	@jnpplf	oo, pop tarts
+2013-06-11 01:57:41	MMavipc	everyone loves food
+2013-06-11 01:58:05	@jnpplf	if you need secret data, you can a) wiretap the entire world, or b) buy someone a drink
+2013-06-11 01:58:17	@jnpplf	c) cut a finger off
+2013-06-11 01:58:26	@jnpplf	Seems that b and c are cheaper
+2013-06-11 01:58:33	@jnpplf	I wonder how much the NSA costs per head per annum
+2013-06-11 02:00:03	-->	Stierlitz (~paiti@paiti.sychrovnet.cz) has joined ##security
+2013-06-11 02:00:05	<--	mx8manger (~mx8manger@unaffiliated/mx8manger) has quit (Read error: No route to host)
+2013-06-11 02:00:10	@Hydrogenum	per head?  I thought they were only taking fingers?!
+2013-06-11 02:00:48	-->	mx8manger (~mx8manger@unaffiliated/mx8manger) has joined ##security
+2013-06-11 02:01:14	<--	yomon_ (~burgundy@5-12-190-126.residential.rdsnet.ro) has quit (Remote host closed the connection)
+2013-06-11 02:01:18	markovh	jnpplf: actually a would be cheaper here. considering how many drinks and fingers you'd have to buy and cut
+2013-06-11 02:01:42	-->	Burgundy (~burgundy@5-12-190-126.residential.rdsnet.ro) has joined ##security
+2013-06-11 02:01:48	@jnpplf	I'm not convinced.
+2013-06-11 02:01:57	@jnpplf	Plus the govt. doesn't have to pay tax on alcohol, which is most of the cost.
+2013-06-11 02:02:12	@jnpplf	Also, wonderful update on PCI: Don't accept card payments on a jailbroken device (derp): http://pointofsale.com/201303101317/Point-of-Sale-News/Merchant-Alert-Avoid-Jailbroken-Phones-and-Tablets-for-POS-Payments.html
+2013-06-11 02:04:07	-->	iPwnd (~ipwn@bl16-125-198.dsl.telepac.pt) has joined ##security
+2013-06-11 02:07:21	MMavipc	how likely is it that someone working for the NSA is currently in this channel?
+2013-06-11 02:07:58	@Hydrogenum	MMavipc: probably only 98%.  It's after-hours on the east coast
+2013-06-11 02:08:08	@Hydrogenum	or do you include log-bots?
+2013-06-11 02:08:22	-->	george2 (~42@wl-dhcp180-199.Mines.EDU) has joined ##security
+2013-06-11 02:08:42	MMavipc	lol
+2013-06-11 02:09:23	xkernel	You know, the purpose of intelligence agencies is Great, but only if it's not misused and there is no guarantee for the people who have this power!
+2013-06-11 02:09:51	MMavipc	obama is just a sockpuppet
+2013-06-11 02:10:50	markovh	ok... so there's let's say 300 million people in america... now let's say you buy one about 3 drinks each and employ someone to spend the time talkign to this person... so that's 3 drinks (3*5 = 15) + 2*10... so that's 10 billion for one night of 3 drinks and 2 hours...
+2013-06-11 02:11:00	markovh	yeah... that's totally cheaper...
+2013-06-11 02:11:50	<--	mx8manger (~mx8manger@unaffiliated/mx8manger) has quit (Read error: Connection reset by peer)
+2013-06-11 02:12:27	-->	mx8manger (~mx8manger@unaffiliated/mx8manger) has joined ##security
+2013-06-11 02:12:46	markovh	no matter if you're for or against, data mining this information is definitely the best and cheapest way to go
+2013-06-11 02:15:16	MMavipc	so, who's participating in the defcon ctf quals?
+2013-06-11 02:20:26	--	legind_ is now known as legind
+2013-06-11 02:22:07	<--	dni (~f00@80-69-77-211.colo.transip.net) has quit (Quit: This computer has gone to sleep)
+2013-06-11 02:23:02	<--	j0ke (~j0ke@weston-24.51.222.152.myacc.net) has quit
+2013-06-11 02:23:33	-->	themurph (~themurph@adsl-69-109-117-243.dsl.pltn13.pacbell.net) has joined ##security
+2013-06-11 02:24:06	@jnpplf	I doubt anyone is actively in the channel
+2013-06-11 02:24:11	bitcoin_boy	"purpose of intelligence agencies is Great"
+2013-06-11 02:24:19	@jnpplf	If the NSA is anything like I imagine it, they're pretty tight with their internet access
+2013-06-11 02:24:39	bitcoin_boy	Funny, with all the talk about "intelligence", there's so little to be seen...
+2013-06-11 02:24:47	@jnpplf	l33th4x0r [l33th4x04@cheese.nsa.gov] has joined the channel
+2013-06-11 02:24:58	<--	themurph (~themurph@adsl-69-109-117-243.dsl.pltn13.pacbell.net) has quit (Remote host closed the connection)
+2013-06-11 02:25:23	@jnpplf	Or does the NSA get its own hostmask?
+2013-06-11 02:25:35	bitcoin_boy	They don't need to be in this channel.
+2013-06-11 02:25:36	@jnpplf	@gov/us/nsa
+2013-06-11 02:25:41	bitcoin_boy	Or connected to this network.
+2013-06-11 02:25:46	bitcoin_boy	They just grab the messages in realtime.
+2013-06-11 02:26:22	markovh	must setup my reverse zones to get something funny and join
+2013-06-11 02:26:24	bitcoin_boy	The question is... can they break HTTPS encryption in realtime?
+2013-06-11 02:26:31	@Hydrogenum	jnpplf: that's probably not an NSA employee... more likely a skiddie that's just bouncing through a pwned box
+2013-06-11 02:26:32	markovh	like notacop@prism71.nsa.gov
+2013-06-11 02:27:09	@jnpplf	bitcoin_boy, given the number of SSL exploits currently out, I'd be gobsmacked if they couldn't
+2013-06-11 02:27:20	bitcoin_boy	That sucks. :|
+2013-06-11 02:27:30	bitcoin_boy	I wasn't aware of a single "SSL exploit".
+2013-06-11 02:27:36	@jnpplf	BEAST/CRIME?
+2013-06-11 02:27:39	bitcoin_boy	But why even talk about SSL? It's ancient/deprecated.
+2013-06-11 02:27:43	bitcoin_boy	It's TLS since many years.
+2013-06-11 02:28:15	xkernel	What's the maximum allowed encryption key by the gov ?
+2013-06-11 02:28:31	@jnpplf	I don't think the US Gov places restrictions on domestic encryption strength?
+2013-06-11 02:28:32	danieldg	xkernel: they gave up trying to control that
+2013-06-11 02:28:41	famine	hey has anyone in here actually used cuckoosandbox ?
+2013-06-11 02:28:52	@jnpplf	They still have export restrictions which is the STUPIDEST thing I've seen them do
+2013-06-11 02:29:11	danieldg	that's just beuracracy refusing to die imo
+2013-06-11 02:29:24	xkernel	so what's allowed in the restrictions? and what are the penalties of user bigger keys?
+2013-06-11 02:29:34	xkernel	using *
+2013-06-11 02:29:38	bitcoin_boy	The very thought that the fucking government is going to tell ME how strong security I can use makes me want to fucking smack somebody's face in.
+2013-06-11 02:29:39	danieldg	unless you think they actually control anything useful there? I'd be surprised
+2013-06-11 02:29:39	famine	xkernel, the same as exporting a gun
+2013-06-11 02:29:57	@jnpplf	http://evernote.com/contact/support/kb/#/article/23480996
+2013-06-11 02:30:00	bitcoin_boy	Nothing pisses me off more than shitty governments and authorities.
+2013-06-11 02:30:05	@jnpplf	^ this is why crypto export restrictions drive me crazy
+2013-06-11 02:30:30	famine	xkernel, crypto exports are handled under ITAR
+2013-06-11 02:30:59	sartan	i deal witih export regulations in the wacky countries we do business in
+2013-06-11 02:31:02	@jnpplf	64 bit RC2. Hold me back.
+2013-06-11 02:31:02	sartan	it's frustrating. that is all
+2013-06-11 02:31:10	sartan	example
+2013-06-11 02:31:21	bitcoin_boy	"wacky countries"
+2013-06-11 02:31:23	sartan	united arab emirates. you can't run BES or encrypt your email if you're a licensed entity below 50 users
+2013-06-11 02:31:35	famine	sartan, ITAR is just plain stupid
+2013-06-11 02:31:55	@jnpplf	It has 0% utility.
+2013-06-11 02:31:55	famine	sartan, as a canadian im annoyed with not being able to buy ammo/gun parts from the states :P
+2013-06-11 02:31:58	@jnpplf	Literally zero.
+2013-06-11 02:32:14	@jnpplf	Show me a single person that a) has a use for strong crypto and b) cannot acquire it.
+2013-06-11 02:33:13	sartan	Oh, TRIPLE des. Shit, dog, you playin with fire.
+2013-06-11 02:33:27	@jnpplf	Also lol at a user sending an e-mail saying "Someone sent me PII, please censor it. Here's a screenshot."
+2013-06-11 02:33:38	<--	TreeStump (~TreeStump@ppp59-167-131-60.static.internode.on.net) has quit (Ping timeout: 252 seconds)
+2013-06-11 02:33:46	@jnpplf	Sooooo, you were sent PII... you knew you shouldn't be handling it... so you screenshot it and e-mailed it on.
+2013-06-11 02:34:09	sartan	i'm struggling with classification at work
+2013-06-11 02:34:15	sartan	the users are super hostile 
+2013-06-11 02:34:16	@jnpplf	Everyone struggles with classification
+2013-06-11 02:34:20	sartan	it's not in place yet
+2013-06-11 02:34:21	@jnpplf	Users are all super hostile
+2013-06-11 02:34:24	sartan	even mentioning it gives scowls
+2013-06-11 02:34:35	sartan	they want me to keep their shit secure but refuse to act on their own data to ensure it's protected
+2013-06-11 02:34:47	@jnpplf	You should see the face at a small agile dev company when you tell them to implement a change review board
+2013-06-11 02:34:48	sartan	they refuse to alow me to use algorithms to even merely _Suggest_ what something should be classified as
+2013-06-11 02:35:08	sartan	jnpplf: http://thedailywtf.com/Articles/Slaves-to-The-Process.aspx relevant
+2013-06-11 02:35:09	@Hydrogenum	sartan: you realize your job title is "Scapegoat" right?
+2013-06-11 02:35:19	@jnpplf	UK gov is dropping their clarification from 6 to 3 classes soon
+2013-06-11 02:35:22	@jnpplf	3 or 4
+2013-06-11 02:35:37	@jnpplf	Unrestrictied, restricted, secret, TS?
+2013-06-11 02:35:39	@jnpplf	I forget the details
+2013-06-11 02:35:40	danieldg	I heard 3
+2013-06-11 02:35:43	@jnpplf	But an improvement
+2013-06-11 02:35:44	sartan	our community demands that all users can access all data generated by all users, except the data that shouldn't be read by all users, which is curretnyl read by all users.
+2013-06-11 02:35:46	danieldg	official, S, TS
+2013-06-11 02:35:54	@jnpplf	Official??
+2013-06-11 02:36:05	sartan	yeah i need to hire like another guy or two.. =)
+2013-06-11 02:36:07	danieldg	new name for restricted afaik
+2013-06-11 02:36:08	@jnpplf	To replace protect/r/conf?
+2013-06-11 02:36:10	sartan	who wants to be a right click bitch
+2013-06-11 02:36:17	@jnpplf	protect/r/conf not to be confused with reddit
+2013-06-11 02:36:29	-->	Tainted1111111f (foamy@ASt-Lambert-151-1-14-92.w82-120.abo.wanadoo.fr) has joined ##security
+2013-06-11 02:36:34	sartan	At large, multinational companies, change is slow because of The Process. Not that Matt had any major problems with The Process . he knew what he was getting into when he started his job. A change begets meetings, which beget approvals, which beget forms that have to be signed in triple-triplicate, which beget more meetings, and maybe after a month or two you will have successfully added a column to a report.
+2013-06-11 02:36:55	--	Tainted1111111f is now known as foamz
+2013-06-11 02:37:37	<--	Batzy (~AndChat68@ool-ae2cab18.dyn.optonline.net) has quit (Ping timeout: 256 seconds)
+2013-06-11 02:37:42	@jnpplf	Prod server goes down and doesn't restart on its own - sounds worth of external review to me
+2013-06-11 02:38:20	sartan	keyboard error, press f1 continue.
+2013-06-11 02:38:21	<--	Gojol (~SBurrisJr@68-185-243-181.dhcp.slid.la.charter.com) has quit (Quit: Leaving)
+2013-06-11 02:38:22	 *	sartan gasps in horror
+2013-06-11 02:38:34	-->	Batzy (~AndChat68@ool-ae2cab18.dyn.optonline.net) has joined ##security
+2013-06-11 02:38:36	@jnpplf	If there's a keyboard error, how does F1 help?
+2013-06-11 02:38:49	<--	tmberg (tmberg@unaffiliated/tmberg) has quit (Quit: Lost terminal)
+2013-06-11 02:38:53	<--	xkernel (~xkernel@unaffiliated/xkernel) has quit (Quit: Ex-Chat)
+2013-06-11 02:38:59	@jnpplf	That suggests that there's some funky USB going on, which means that sever will /never/ restart properly
+2013-06-11 02:39:05	sartan	the 90s would like to have a chat with you.
+2013-06-11 02:39:09	@jnpplf	Do you want you prod servers down every monday morning? DO YOU?
+2013-06-11 02:39:24	@jnpplf	Man, I can't type today.
+2013-06-11 02:39:27	 *	jnpplf presses F1
+2013-06-11 02:39:32	sartan	So we're doing some office renos or something
+2013-06-11 02:39:37	sartan	i got shuffled away to a new office last week
+2013-06-11 02:39:49	sartan	in my new office there's a Pentium S, 120mhz, 64mb ram
+2013-06-11 02:40:09	sartan	thing boots!! It has an OS... I don't have a keyboard... or i could press f1 to continue to see what it's actually running.
+2013-06-11 02:40:36	sartan	It uses that old DIN-5 or whatever cable, no usb, no ps2.. they don't... really make those anymore. I'm burnin for some doom on a kvm instanc.e
+2013-06-11 02:41:09	@jnpplf	They actually expect you to use that machine?
+2013-06-11 02:41:26	sartan	no, the previous occupant(s) over the last 20 years i suppose just left it there
+2013-06-11 02:41:32	sartan	it's labelled "Scanning Station".
+2013-06-11 02:41:36	sartan	it wasn't powered on
+2013-06-11 02:41:39	@jnpplf	SHEEPDIP!
+2013-06-11 02:41:54	@jnpplf	Man, a win95 machine would make an awesome sheepdip
+2013-06-11 02:41:55	sartan	I'm really interested in throwing this thing on to install a whole bunch of old DOS games
+2013-06-11 02:42:04	@jnpplf	It would turn off IMMEDIATELY if it contracted malware :p
+2013-06-11 02:42:07	@jnpplf	Like a canary
+2013-06-11 02:42:10	sartan	i need to find a decently sized ide drive and a keyboard that will actually work
+2013-06-11 02:42:32	danieldg	wouldn't an emulator be easier?
+2013-06-11 02:42:54	sartan	certainly not as cool.
+2013-06-11 02:43:24	sartan	SET BLASTER=A220
+2013-06-11 02:43:25	danieldg	agreed
+2013-06-11 02:43:59	sartan	I need to look up sheep dip, jnpplf 
+2013-06-11 02:44:31	@jnpplf	It's the machine you test media on in an airgapped environment
+2013-06-11 02:44:50	@jnpplf	"Someone sent us this USB drive. To the sheepdip!"
+2013-06-11 02:45:12	sartan	cool
+2013-06-11 02:45:20	sartan	https://en.wikipedia.org/wiki/Sheep_dip_(computing)
+2013-06-11 02:45:27	sartan	haven't heard the term before
+2013-06-11 02:45:28	danieldg	I wonder if modern viruses would even work on it?
+2013-06-11 02:45:30	sartan	always used sandboxing
+2013-06-11 02:45:36	danieldg	or are they compiled for i686 now? :)
+2013-06-11 02:45:45	sartan	8 bit power!
+2013-06-11 02:45:50	bitcoin_boy	Why does "SET BLASTER=A220" look familiar?
+2013-06-11 02:45:55	sartan	can your c&c run under 38K of conventional ram?
+2013-06-11 02:46:03	@jnpplf	sartan, popular in government
+2013-06-11 02:46:15	sartan	bitcoin_boy: it's part of the environment variable you needed for a soundblaster 16 sound card for apps to know the right memory address to send shit to
+2013-06-11 02:46:23	@jnpplf	It's basically the process that FireEye automates
+2013-06-11 02:46:32	sartan	set blaster=a220 i7 d3
+2013-06-11 02:46:37	sartan	dos
+2013-06-11 02:46:48	Jim45	and since EVERYBODY used soundblasters back then, it was in just about every autobat
+2013-06-11 02:47:04	sartan	i remember knowing emm386 pretty cold
+2013-06-11 02:47:20	sartan	the audacity of the user to expect a cdrom, joystick, mouse, and soundcard to work at the same time.
+2013-06-11 02:47:29	sartan	(sic)
+2013-06-11 02:48:48	bitcoin_boy	autoexec.bat
+2013-06-11 02:48:50	bitcoin_boy	config.sys
+2013-06-11 02:49:01	bitcoin_boy	What a nightmare it was to do anything...
+2013-06-11 02:49:02	-->	nzhack (~56780fe2@unaffiliated/nzhack) has joined ##security
+2013-06-11 02:49:04	bitcoin_boy	Just like today.
+2013-06-11 02:49:12	bitcoin_boy	Except with higher demands now.
+2013-06-11 02:49:23	bitcoin_boy	That fucking mouse/CD-ROM support...
+2013-06-11 02:49:34	bitcoin_boy	Never even had a joystick...
+2013-06-11 02:49:34	sartan	i had modified mouse.sys drivers that used less ram
+2013-06-11 02:49:50	sartan	squeeze that puppy
+2013-06-11 02:50:09	bitcoin_boy	Why would you squeeze a puppy?
+2013-06-11 02:50:23	sartan	aww, now i sound like a monster :(
+2013-06-11 02:51:19	<--	fourlights_ (~fourlight@78.133.163.190) has quit (Read error: Operation timed out)
+2013-06-11 02:51:36	<--	herax (~h@unaffiliated/herax) has quit (Quit: Leaving.)
+2013-06-11 02:51:38	-->	ksha (~ksha@unaffiliated/ksha) has joined ##security
+2013-06-11 02:52:29	sartan	when acpi came out and i no longer had to worry about irq or com conflicts...
+2013-06-11 02:52:36	sartan	dialing up to some bbs and my mouse wouldn't work anymore
+2013-06-11 02:53:32	-->	fourlights_ (~fourlight@78.133.163.190) has joined ##security
+2013-06-11 02:55:28	famine	ok.. cuckoo is driving me cuckoo
+2013-06-11 02:57:12	<--	TurboBorland (~GrandmaEu@50.8.60.114) has quit (Quit: \x0a\x0a\x00)
+2013-06-11 02:58:56	<--	Anaphaxeton (~george@unaffiliated/anaphaxeton) has quit (Remote host closed the connection)
+2013-06-11 03:00:53	ProfessorBacon	farf
+2013-06-11 03:07:47	-->	wbill (~wbill@71-80-67-51.dhcp.kgpt.tn.charter.com) has joined ##security
+2013-06-11 03:08:19	<--	aramosf (~aramosf@digitalsec.net) has quit (Ping timeout: 264 seconds)
+2013-06-11 03:08:47	-->	aramosf (~aramosf@digitalsec.net) has joined ##security
+2013-06-11 03:11:14	-->	Haswell (~Haswell@unaffiliated/haswell) has joined ##security
+2013-06-11 03:12:26	-->	sh0b0 (~sh0b0@CPE-58-169-189-152.lns3.woo.bigpond.net.au) has joined ##security
+2013-06-11 03:14:53	<--	nzhack (~56780fe2@unaffiliated/nzhack) has quit (Remote host closed the connection)
+2013-06-11 03:15:11	<--	mx8manger (~mx8manger@unaffiliated/mx8manger) has quit (Read error: No route to host)
+2013-06-11 03:15:48	-->	mx8manger (~mx8manger@unaffiliated/mx8manger) has joined ##security
+2013-06-11 03:16:15	<--	lmbeta8 (~lmbeta8@65.95.35.137) has quit (Quit: Leaving)
+2013-06-11 03:17:50	<--	Arirang_ (~Arirang@c-24-21-190-49.hsd1.or.comcast.net) has quit (Ping timeout: 252 seconds)
+2013-06-11 03:23:07	-->	wifioregon (~wifiorego@unaffiliated/wifioregon) has joined ##security
+2013-06-11 03:26:09	wifioregon	Is the following method a pretty decent form of encryption?  openssl des3 -salt -in file.txt -out encryptedfile.txt  (using a very, very strong and robust password), and then putting the encrypted text file in an encrypted zip file with a 16 character password.   Its for my main password list, which I then attach the zip in an email and send to myself.
+2013-06-11 03:26:26	sartan	pastebin.ca
+2013-06-11 03:26:27	lunaphyte	nope
+2013-06-11 03:26:50	lunaphyte	that is a *horribly* irresponsible form of encryption
+2013-06-11 03:26:53	wifioregon	its not?  any better suggestions?  
+2013-06-11 03:26:56	wifioregon	eeek
+2013-06-11 03:26:59	wifioregon	really? shoot
+2013-06-11 03:27:08	-->	TreeStump (~TreeStump@114.141.106.91) has joined ##security
+2013-06-11 03:27:20	lunaphyte	what prompted you to pick 3des as your encryption algorithm?
+2013-06-11 03:27:29	wifioregon	Just Googling
+2013-06-11 03:27:29	lunaphyte	the ease with which it can be cracked?
+2013-06-11 03:27:37	wifioregon	obviously I don't know much about encrpytion
+2013-06-11 03:27:40	lunaphyte	:)
+2013-06-11 03:28:19	wifioregon	I'm using MacOS X but also have Linux access
+2013-06-11 03:28:22	<--	Mr-Protocol (~protocol@unaffiliated/mr-protocol) has quit (Read error: Connection reset by peer)
+2013-06-11 03:28:30	wifioregon	Should I be using PGP or something like that?
+2013-06-11 03:29:27	lunaphyte	at the very least, you should be using sha-512
+2013-06-11 03:30:06	lunaphyte	ideally, something like keccak [e.g. sha-3] or comparable
+2013-06-11 03:30:25	wifioregon	Can I use sha-512 with openssl?
+2013-06-11 03:30:27	<--	ksha (~ksha@unaffiliated/ksha) has quit (Quit: leaving)
+2013-06-11 03:30:30	lunaphyte	of course
+2013-06-11 03:32:11	wifioregon	awesome
+2013-06-11 03:32:12	wifioregon	thanks!
+2013-06-11 03:32:35	lunaphyte	you're welcome
+2013-06-11 03:32:50	lunaphyte	oh, don't bother with the zip silliness though
+2013-06-11 03:33:13	lunaphyte	the real question, however, is why on earth would you be emailing this to yourself?
+2013-06-11 03:33:22	lunaphyte	*that* is the worst part of this idea.
+2013-06-11 03:33:24	wifioregon	hahah
+2013-06-11 03:33:41	wifioregon	well its my password list..and I was hoping not to lose it in case my computer crashes
+2013-06-11 03:33:52	wifioregon	I suppose I should just be putting this on my encrypted hard drive
+2013-06-11 03:33:56	lunaphyte	so then back it up.
+2013-06-11 03:33:57	wifioregon	(external) instead
+2013-06-11 03:34:01	wifioregon	hahah k
+2013-06-11 03:34:03	lunaphyte	[backing it up shouldn't involve email]
+2013-06-11 03:34:04	sartan	i just use the same password on everything, this isn't a problem i have
+2013-06-11 03:34:12	wifioregon	I figured since its encrypted putting in email wouldn't be a problem
+2013-06-11 03:34:13	<--	JZTech101 (~jztech101@c-24-0-88-174.hsd1.nj.comcast.net) has quit (Ping timeout: 276 seconds)
+2013-06-11 03:35:05	lunaphyte	i wouldn't figure that if i were you
+2013-06-11 03:35:32	lunaphyte	your atm card won't work without a pin code, right?
+2013-06-11 03:35:48	lunaphyte	so would you leave it on the dashboard of your car?
+2013-06-11 03:35:49	sartan	this boson exam sim i have is an asshole
+2013-06-11 03:35:50	sartan	wrong #
+2013-06-11 03:36:16	@jnpplf	Why are people recommending hashing algorithms for encryption?
+2013-06-11 03:36:18	@jnpplf	What am I reading?
+2013-06-11 03:36:40	@jnpplf	SHA-512 to encrypt a file to be e-mailed?
+2013-06-11 03:36:40	wifioregon	haha
+2013-06-11 03:36:43	wifioregon	good point
+2013-06-11 03:36:56	@jnpplf	I think lunaphyte just brainfarted :p
+2013-06-11 03:37:12	wifioregon	okay so I have a password list I want to keep protected and not lose
+2013-06-11 03:37:14	lunaphyte	oh christ.
+2013-06-11 03:37:19	lunaphyte	i knew something didn't feel right
+2013-06-11 03:37:20	wifioregon	and wanted to use the best encryption possible
+2013-06-11 03:37:38	lunaphyte	i'm an idiot.
+2013-06-11 03:37:39	@jnpplf	AES-256 it, then don't e-mail it
+2013-06-11 03:37:40	lunaphyte	not sha
+2013-06-11 03:37:41	lunaphyte	aes
+2013-06-11 03:37:53	lunaphyte	but still don't email it
+2013-06-11 03:38:02	sartan	what's wrong with email
+2013-06-11 03:38:04	@jnpplf	Stick it in dropbox or something if you have to
+2013-06-11 03:38:08	@jnpplf	e-mail is just particularly dirty
+2013-06-11 03:38:10	lunaphyte	:O
+2013-06-11 03:38:13	lunaphyte	dropbox?
+2013-06-11 03:38:16	lunaphyte	blech!
+2013-06-11 03:38:18	@jnpplf	My passwords are in dropbox
+2013-06-11 03:38:25	@jnpplf	1password
+2013-06-11 03:38:25	sartan	i don't understand how dropbox is more secure than another email provider
+2013-06-11 03:38:32	sartan	you're relying on the security of a third party in the first place
+2013-06-11 03:38:34	lunaphyte	i don't conider it to be
+2013-06-11 03:38:36	lunaphyte	*consider
+2013-06-11 03:38:40	@jnpplf	Encryption to/from dropbox is transported encrypted, at least
+2013-06-11 03:38:54	@jnpplf	...
+2013-06-11 03:38:55	sartan	that's fair, but i haven't used a non-starttls connection for a decade
+2013-06-11 03:39:01	@jnpplf	That made zero sense
+2013-06-11 03:39:06	@jnpplf	But you all knew what I meant
+2013-06-11 03:39:16	wifioregon	jnpplf:   this is the current method I'm using:
+2013-06-11 03:39:17	wifioregon	openssl des3 -salt -in file.txt -out encryptedfile.txt  (using a very, very strong and robust password), and then putting the encrypted text file in an encrypted zip file with a 16 character password.  Its for my main password list, which I then attach the zip in an email and send to myself.
+2013-06-11 03:39:39	wifioregon	lunaphyte is saying des3 is poor encryption though
+2013-06-11 03:39:40	@jnpplf	encrypted text file in encrypted zip file?
+2013-06-11 03:39:43	sartan	you probably shouldn't tell the internets how many characters are in your passwords
+2013-06-11 03:39:43	wifioregon	and that the zip part is not needed
+2013-06-11 03:39:45	@jnpplf	Do it the other way round
+2013-06-11 03:39:48	lunaphyte	you can't seriously mention both security and dropbox in the same breath with a straight face.
+2013-06-11 03:39:50	wifioregon	ah ok
+2013-06-11 03:39:58	@jnpplf	zip then encrypt
+2013-06-11 03:40:02	@jnpplf	You can't compress an encrypted file
+2013-06-11 03:40:02	wifioregon	haha k
+2013-06-11 03:40:08	sartan	well you can
+2013-06-11 03:40:12	sartan	just not very well
+2013-06-11 03:40:14	@jnpplf	Well you can try :-/
+2013-06-11 03:40:21	@jnpplf	zip cleartext, then crypt the archive
+2013-06-11 03:40:25	wifioregon	its a small text file…was using the zip feature to give it an extra level of security, which is probably dumb
+2013-06-11 03:40:32	@jnpplf	Yeah, don't try that
+2013-06-11 03:40:37	diminoten	sounds like it takes forever...
+2013-06-11 03:40:47	sartan	change a bit in the magic header.
+2013-06-11 03:40:49	<--	Dulce (~Dulce@gateway/tor-sasl/dulce) has quit (Ping timeout: 240 seconds)
+2013-06-11 03:40:51	sartan	that'll confuse hacker china
+2013-06-11 03:40:53	lunaphyte	that's like saying it's fine to leave important things lying around in public just because you secretly transported them there and they are in a locked box.
+2013-06-11 03:41:06	@jnpplf	Well that IS the promise of strong crypto
+2013-06-11 03:41:14	@jnpplf	But I agree that it's not good practice
+2013-06-11 03:41:14	lunaphyte	dropbox is a *joke* as far as anything security related, plain and simple.
+2013-06-11 03:41:21	-->	Mr-Protocol (~protocol@unaffiliated/mr-protocol) has joined ##security
+2013-06-11 03:41:24	@jnpplf	Has dropbox ever had a breach?
+2013-06-11 03:41:26	sartan	imo email is convienent
+2013-06-11 03:41:26	diminoten	yes
+2013-06-11 03:41:32	@jnpplf	link plz
+2013-06-11 03:41:36	diminoten	google it
+2013-06-11 03:41:40	diminoten	very widely publicized
+2013-06-11 03:41:41	sartan	it's easy to convert, easy to move, you're not locked down to one provider'
+2013-06-11 03:41:44	@jnpplf	Tsk. I need a servant.
+2013-06-11 03:41:53	sartan	i'm getting sick of passwords
+2013-06-11 03:42:11	sartan	there are just too many and it's not realistic to randomly generate a 25 character passphrase for every fuckin domain out there
+2013-06-11 03:42:17	@jnpplf	Hmm, OK that's pretty unfortunate
+2013-06-11 03:42:20	sartan	we need something better =(
+2013-06-11 03:42:21	lunaphyte	dropbox is a daily subject of "look what the idiots are doing now" stories.
+2013-06-11 03:42:27	diminoten	wait
+2013-06-11 03:42:27	@jnpplf	sartan, I've used those exact words before publically
+2013-06-11 03:42:32	diminoten	okay so it's not efficient
+2013-06-11 03:42:40	lunaphyte	although i will concede that in recent months, things have ben somewhat more quiet.
+2013-06-11 03:42:42	diminoten	but what's wrong with using truecrypt containers with dropbox
+2013-06-11 03:42:53	lunaphyte	that's my point.
+2013-06-11 03:42:58	sartan	jnpplf: ill bet you came up with an alternative, i'm just here with my jaw hanging open with nothing more to say.
+2013-06-11 03:42:59	@jnpplf	As with any crypto, theoretically nothing
+2013-06-11 03:43:06	@jnpplf	sartan, no, not really
+2013-06-11 03:43:07	lunaphyte	there's no "something you can do" to make it ok to use dropbox.
+2013-06-11 03:43:07	diminoten	I mean it syncs the whole thing evry time so that's a bummer
+2013-06-11 03:43:07	<--	TreeStump (~TreeStump@114.141.106.91) has quit (Ping timeout: 252 seconds)
+2013-06-11 03:43:15	diminoten	lunaphyte, that sounds like FUD
+2013-06-11 03:43:17	-->	alsdjflkasdkfj (~jumbo@pool-71-118-174-50.lsanca.fios.verizon.net) has joined ##security
+2013-06-11 03:43:18	@jnpplf	IAM is like SSl at the moment. Kind of fucked, but we're putting up with it.
+2013-06-11 03:43:21	sartan	i think there is promise in intel chipset security
+2013-06-11 03:43:21	diminoten	cargo cult FUD
+2013-06-11 03:43:31	lunaphyte	haha
+2013-06-11 03:43:33	diminoten	there's nothing especially INsecure about dropbox
+2013-06-11 03:43:37	sartan	anyway, /shrug
+2013-06-11 03:43:41	lunaphyte	cargo cult fud is the opposite.
+2013-06-11 03:43:46	diminoten	no it's not
+2013-06-11 03:43:49	lunaphyte	yup
+2013-06-11 03:43:53	diminoten	you're repeating nonsense you heard somewhere
+2013-06-11 03:43:54	lunaphyte	it's ok though
+2013-06-11 03:43:58	lunaphyte	nope.
+2013-06-11 03:43:59	diminoten	it is okay
+2013-06-11 03:43:59	diminoten	yep
+2013-06-11 03:44:01	lunaphyte	i'm sharing my opinion
+2013-06-11 03:44:06	diminoten	a parroted one
+2013-06-11 03:44:07	lunaphyte	you need to be ok with it
+2013-06-11 03:44:10	lunaphyte	nope
+2013-06-11 03:44:11	diminoten	I am okay
+2013-06-11 03:44:12	diminoten	it's just wrong
+2013-06-11 03:44:18	lunaphyte	get informed first.
+2013-06-11 03:44:21	diminoten	I am informed
+2013-06-11 03:44:21	lunaphyte	then we'll talk.
+2013-06-11 03:44:24	diminoten	relatively speaking
+2013-06-11 03:44:27	wifioregon	so AES-256 is better than DES3?  and basically I should just take the unencrypted password list…..and then put it in an encrypted & password protected zip file, and THEN use openssl to encrypt that zip file?
+2013-06-11 03:44:28	lunaphyte	you're just parroting nonsense.
+2013-06-11 03:44:32	diminoten	you're trolling
+2013-06-11 03:44:34	diminoten	bro
+2013-06-11 03:44:40	lunaphyte	ander off, fella.
+2013-06-11 03:44:43	lunaphyte	*wander
+2013-06-11 03:44:45	diminoten	make me
+2013-06-11 03:44:47	diminoten	:)
+2013-06-11 03:44:49	lunaphyte	haha
+2013-06-11 03:44:49	diminoten	anyway
+2013-06-11 03:44:56	@jnpplf	wifioregon, I *believe* that 3DES is still considered solid, but DES as a suite was replaced by AES
+2013-06-11 03:45:06	sartan	bonus, hardware support.
+2013-06-11 03:45:07	@jnpplf	DO not encrypt the file twice
+2013-06-11 03:45:11	diminoten	so yeah dropbox + truecrypt is fine for your everyday pws I'd argue, unless someone's got a specific reason
+2013-06-11 03:45:16	@jnpplf	If you MUST zip it, do so only for the filesize reduction
+2013-06-11 03:45:17	lunaphyte	3des is not feasible, no.
+2013-06-11 03:45:32	sartan	give hashcat a try if you trust 3des
+2013-06-11 03:45:44	diminoten	I carry a USB drive instead of dropbox but it's a tad bit annoying
+2013-06-11 03:45:45	lunaphyte	but fsvo feasible, i guess.
+2013-06-11 03:46:01	sartan	so who's looking for work in western canada :)
+2013-06-11 03:46:01	@jnpplf	What does hashcat have to do with it?
+2013-06-11 03:46:20	@jnpplf	sartan, is Alberta in western canada?
+2013-06-11 03:46:22	lunaphyte	hashcat exposes the weakness of 3des
+2013-06-11 03:46:26	sartan	yeah, it is
+2013-06-11 03:46:35	@jnpplf	sartan, then you guys are already throwing yourselves at me ;)
+2013-06-11 03:46:37	@jnpplf	lunaphyte, how so?
+2013-06-11 03:46:44	sartan	i haven't put my job up yet
+2013-06-11 03:46:46	@jnpplf	lunaphyte, you confusing encryption and hashing again? :-/
+2013-06-11 03:46:54	wifioregon	ah ok
+2013-06-11 03:47:01	wifioregon	okay I'll just forget zipping it
+2013-06-11 03:47:02	wifioregon	hehe
+2013-06-11 03:47:20	@jnpplf	wifioregon, is there a reason you aren't using a password manager app to do this?
+2013-06-11 03:47:20	lunaphyte	no, i was trying to extrapolate what sartan was getting at
+2013-06-11 03:47:31	@jnpplf	Oh, it was sartan's comment
+2013-06-11 03:48:45	 *	sartan allows tail to bristle
+2013-06-11 03:49:05	lunaphyte	at least it's security related babble for a change :)
+2013-06-11 03:49:47	<--	nox- (noident@freebsd/developer/nox) has quit (Quit: Leaving)
+2013-06-11 03:49:50	wifioregon	jnpplf:  Well I am…. I'm using the MAc OS X keychain thingy which is supposed to be encrypted…I also have full hard drive encryption
+2013-06-11 03:49:53	wifioregon	jnpplf: but...
+2013-06-11 03:50:09	wifioregon	jnpplf:  I want to make backups of it…so I'm also using just a text file that is encrypted
+2013-06-11 03:50:16	wifioregon	jnpplf:  all the password managers I ran into cost money
+2013-06-11 03:50:19	lunaphyte	oh, that's what this is?
+2013-06-11 03:50:23	@jnpplf	keepass is free, I think
+2013-06-11 03:50:25	sartan	where are you anticipating extracting this password dump on
+2013-06-11 03:50:30	lunaphyte	you're just backing up your keychain?
+2013-06-11 03:50:37	sartan	have you considered the security on that trusted machine as well
+2013-06-11 03:50:49	@jnpplf	The keychain doth kinda suck. No idea how the storage is implemented though.
+2013-06-11 03:50:54	wifioregon	lunaphyte:  ehh well my time machine hard drive (which is encrypted) is backing it up supposedly
+2013-06-11 03:51:10	lunaphyte	i compiled a list of password managers that appeared to be worth investigating at one point.
+2013-06-11 03:51:14	 *	lunaphyte looks for the list
+2013-06-11 03:51:14	sartan	microsoft passport
+2013-06-11 03:51:20	sartan	i'm using password manager XP
+2013-06-11 03:51:22	sartan	aptly named
+2013-06-11 03:51:24	sartan	it's got some nice features
+2013-06-11 03:51:26	wifioregon	I'm only extracting the password text file in case of an emergency…so probably never
+2013-06-11 03:51:44	sartan	it's got this neat ssl validationf eature and a password server, if the file leaves the network, it's not getting decrypted.
+2013-06-11 03:51:48	lunaphyte	ah, here
+2013-06-11 03:51:50	lunaphyte	http://dpaste.com/1227492/
+2013-06-11 03:52:13	mwo	Keepass is free and has worked well for me
+2013-06-11 03:52:17	sartan	jnpplf: in any case, openAM, saml
+2013-06-11 03:52:21	sartan	re: passwords sucking
+2013-06-11 03:52:24	lunaphyte	i don't vouch for any of them, but iirc, they were all free.  i'm reasonably certain i'd not consider one the isn't free/open source
+2013-06-11 03:52:52	wifioregon	thanks I'll check out Keeppass
+2013-06-11 03:52:53	@jnpplf	sartan, federation worries me as well because you don't know how those trust relationships are established
+2013-06-11 03:52:55	sartan	is that a rms-type philosophy or you just don't like paying
+2013-06-11 03:52:55	wifioregon	*Keepass
+2013-06-11 03:53:07	lunaphyte	some of both, i guess
+2013-06-11 03:53:14	diminoten	I'd agree but for trust reasons
+2013-06-11 03:53:24	<--	Stierlitz (~paiti@paiti.sychrovnet.cz) has quit (Read error: Operation timed out)
+2013-06-11 03:53:25	diminoten	it's a LOT harder to do sneaky things when the code is open sourced
+2013-06-11 03:53:36	lunaphyte	for sure
+2013-06-11 03:53:41	diminoten	so for my password manager, where sneaky things ruin my day...
+2013-06-11 03:53:46	sartan	ftp --post <user input>  yourpass.cn
+2013-06-11 03:53:54	sartan	there is something to be said for open source
+2013-06-11 03:54:07	<--	fourlights_ (~fourlight@78.133.163.190) has quit (Ping timeout: 256 seconds)
+2013-06-11 03:54:08	-->	fourlights (~fourlight@78.133.163.190) has joined ##security
+2013-06-11 03:54:45	sartan	i find stuff i pay for generally actually works
+2013-06-11 03:54:54	sartan	i'm not qualified to review code myself
+2013-06-11 03:54:59	lunaphyte	it's mostly just an affinity that's sort of blossomed over the years, due to direct personal experiences with free/open source software being simply better in varying capacities than commercial alternatives.
+2013-06-11 03:55:10	sartan	opensores whatevers take a lot of management to keep stable, they're rarely as polished
+2013-06-11 03:55:19	lunaphyte	not really in my experience.
+2013-06-11 03:55:24	lunaphyte	it's been the opposite for me.
+2013-06-11 03:55:28	sartan	suppose it depends on what apps you're running
+2013-06-11 03:55:54	sartan	i've been interested in proper enterprise password management software
+2013-06-11 03:56:04	sartan	the sort of crap that goes in there and changes service accounts quarterly etc
+2013-06-11 03:56:11	lunaphyte	we've had now multiple occasions where our garbage vmware system attached to our garbage emc array has suddenly, inexplicably lost all of it's storage.
+2013-06-11 03:56:13	sartan	it's starting to become a huge issue
+2013-06-11 03:56:40	sartan	i demand a unique service account for everything from the ops guys, and naturally that gets huge to manage
+2013-06-11 03:56:47	lunaphyte	the final outcome was a dumb shoulder shrug with a "huh, dunno" tacked onto the end of it, after weeks of nonsense undulating
+2013-06-11 03:56:59	-->	TreeStump (~TreeStump@114.141.106.91) has joined ##security
+2013-06-11 03:57:04	lunaphyte	i can accomplish that for much less money.
+2013-06-11 03:57:10	--	wifioregon is now known as GeekAdmin
+2013-06-11 03:57:31	sartan	having money is all about finding someone else to blame!
+2013-06-11 03:57:55	lunaphyte	heh, yeah, no s.
+2013-06-11 03:57:59	lunaphyte	i dislike that too.
+2013-06-11 03:58:16	--	GeekAdmin is now known as wifioregon
+2013-06-11 04:00:09	-->	alexwh (~alexwh@82.196.8.219) has joined ##security
+2013-06-11 04:00:19	<--	wifioregon (~wifiorego@unaffiliated/wifioregon) has quit (Quit: wifioregon)
+2013-06-11 04:00:19	<--	alexwh (~alexwh@82.196.8.219) has left ##security
+2013-06-11 04:01:07	sartan	my boss is unashamed when he tells me that
+2013-06-11 04:01:29	-->	alexwh (~alexwh@82.196.8.219) has joined ##security
+2013-06-11 04:01:36	lunaphyte	:(
+2013-06-11 04:01:59	lunaphyte	i have coworkers that share his philosophy
+2013-06-11 04:01:59	-->	synap5e (~synap5e@222-153-147-60.jetstream.xtra.co.nz) has joined ##security
+2013-06-11 04:02:08	lunaphyte	i wish they were cow-orkers
+2013-06-11 04:02:09	diminoten	if YOU don't review the code, someone else will
+2013-06-11 04:04:02	lunaphyte	kind of like proofreading your own paper
+2013-06-11 04:06:02	<--	Batzy (~AndChat68@ool-ae2cab18.dyn.optonline.net) has quit (Ping timeout: 252 seconds)
+2013-06-11 04:06:53	lunaphyte	i don't really get into code review like that, just in terms of personal interest, but i value the possibility that someone else who is more into it is able to.  we have plenty of historical evidence of the empirical value there.
+2013-06-11 04:08:48	lunaphyte	then there's the commercial side of things, which seems to parry the compulsion to hide things with a hearty dose of projection :)
+2013-06-11 04:08:57	lunaphyte	lots of historical evidence there too
+2013-06-11 04:12:23	<--	alsdjflkasdkfj (~jumbo@pool-71-118-174-50.lsanca.fios.verizon.net) has quit (Ping timeout: 240 seconds)
+2013-06-11 04:13:54	sartan	it would be nice if there was an inexpensive code vulnerability finder that just greps for stupid htings
+2013-06-11 04:13:58	karstensrage	why do google and fb get away with tracking everything we do and handing over anything the government wants
+2013-06-11 04:14:12	sartan	deloitte overcharges =(
+2013-06-11 04:14:18	karstensrage	and one whiff of the government just collecting data and everyone goes completely nuts
+2013-06-11 04:15:14	-->	Captain_Awesome (~d@cpe-70-113-105-132.austin.res.rr.com) has joined ##security
+2013-06-11 04:15:34	sartan	karstensrage: well one might argue that what the government is doing is illegal
+2013-06-11 04:15:39	-->	Batzy (~AndChat68@ool-ae2cab18.dyn.optonline.net) has joined ##security
+2013-06-11 04:15:48	lunaphyte	ah, good ol' mock outrage  :)  gotta love that
+2013-06-11 04:16:09	sartan	simpsons movie scene where the NSA hears homer on the phone comes to mind
+2013-06-11 04:16:16	sartan	Holy hsit! the NSA! it actually works!! we found someone!!
+2013-06-11 04:16:25	lunaphyte	"huh?  oh a news story?  oh, what does it say?"
+2013-06-11 04:16:33	-->	moveax1ret (~moveax1re@x1-6-30-46-9a-7a-c0-90.k403.webspeed.dk) has joined ##security
+2013-06-11 04:16:37	lunaphyte	"oh, yeah i'm outraged too, definitely"
+2013-06-11 04:16:39	sartan	who is fox news telling me to hate today?
+2013-06-11 04:16:44	lunaphyte	yup
+2013-06-11 04:17:09	-->	tanath (~tanath@unaffiliated/tanath) has joined ##security
+2013-06-11 04:17:34	sartan	jimmey kimmel does that funny little skit where they interview people on the street for bullshit fake news and asks for their opinions.
+2013-06-11 04:17:39	lunaphyte	that follows an opportunistic invention of what "spying on me" means, since of course there is no real information presented by the "news"
+2013-06-11 04:17:54	lunaphyte	oh, that does sound funny
+2013-06-11 04:19:33	<--	tanath (~tanath@unaffiliated/tanath) has quit (Client Quit)
+2013-06-11 04:21:11	-->	megazin (~username@unaffiliated/megazin) has joined ##security
+2013-06-11 04:21:30	-->	apocn (~apo@unaffiliated/apocn) has joined ##security
+2013-06-11 04:23:01	<--	moveax1ret (~moveax1re@x1-6-30-46-9a-7a-c0-90.k403.webspeed.dk) has quit (Ping timeout: 246 seconds)
+2013-06-11 04:24:39	<--	Heimdall (~Heimdall@198.144.156.122) has quit (Quit: Leaving)
+2013-06-11 04:30:06	<--	Batzy (~AndChat68@ool-ae2cab18.dyn.optonline.net) has quit (Ping timeout: 256 seconds)
+2013-06-11 04:31:48	<--	cadaver (~iso@201.139.193.211) has quit (Quit: Ex-Chat)
+2013-06-11 04:32:13	<--	dmz (~dmz@unaffiliated/dmz) has quit (Ping timeout: 245 seconds)
+2013-06-11 04:33:11	-->	domino14 (~domino14@50-193-28-222-static.hfc.comcastbusiness.net) has joined ##security
+2013-06-11 04:33:42	<--	eth0ghost (~eth0ghost@unaffiliated/eth0ghost) has quit (Ping timeout: 245 seconds)
+2013-06-11 04:33:48	-->	Batzy (~AndChat68@ool-ae2cab18.dyn.optonline.net) has joined ##security
+2013-06-11 04:36:39	<--	apocn (~apo@unaffiliated/apocn) has left ##security ("Leaving")
+2013-06-11 04:48:13	<--	Batzy (~AndChat68@ool-ae2cab18.dyn.optonline.net) has quit (Ping timeout: 246 seconds)
+2013-06-11 04:53:10	-->	Dulce (~Dulce@gateway/tor-sasl/dulce) has joined ##security
+2013-06-11 04:54:50	SirCmpwn	I'll be setting up three servers to handle my emails. I'll be using TrueCrypt to keep the hard drives encrypted
+2013-06-11 04:55:04	SirCmpwn	the hard drives will all contain the same data - should I use the same passphrases on each?
+2013-06-11 04:56:02	<--	Bascka (~Bascka@189.102.212.53) has quit (Quit: Bascka)
+2013-06-11 04:56:03	MrPockets	depends
+2013-06-11 04:56:15	sartan	mraid them
+2013-06-11 04:56:34	sartan	forget everything
+2013-06-11 04:56:37	SirCmpwn	define mraid
+2013-06-11 04:56:38	sartan	i didn't read everything
+2013-06-11 04:56:44	sartan	irrelevant. software raid
+2013-06-11 04:56:45	SirCmpwn	okay
+2013-06-11 04:56:48	sartan	my bad
+2013-06-11 04:56:52	SirCmpwn	because if mraid is similar to raid, that would be a silly solution
+2013-06-11 04:57:06	sartan	i didn't read it was over different servers
+2013-06-11 04:57:12	SirCmpwn	mm, it's alright
+2013-06-11 04:57:44	<--	Tecan (~fasdf@unaffiliated/unit41) has quit (Ping timeout: 252 seconds)
+2013-06-11 04:57:59	SirCmpwn	MrPockets: what does it depend on
+2013-06-11 04:58:31	MrPockets	the circumstance, I suppose. 
+2013-06-11 04:58:52	MrPockets	Thing about security, is everythings secure, right up until someone pops it. 
+2013-06-11 04:58:58	-->	Tecan (~fasdf@unaffiliated/unit41) has joined ##security
+2013-06-11 04:59:05	MrPockets	And the point of your FDE after all, is security, is it not?
+2013-06-11 04:59:08	SirCmpwn	each server will likely run debian stable. Two of the servers will be archives, and the first will act as the actual internet-facing mail server
+2013-06-11 04:59:19	SirCmpwn	yes
+2013-06-11 04:59:34	MrPockets	so, can you think of a situation where you may either A) want someone to have the decryption key for one, or not the other
+2013-06-11 04:59:47	-->	asteros (~asteros@unaffiliated/asteros) has joined ##security
+2013-06-11 04:59:50	MrPockets	or B) having seperate keys would prevent someone from cracking it. 
+2013-06-11 05:00:02	SirCmpwn	in theory, I'm the only one who'd have the keys at all
+2013-06-11 05:00:05	SirCmpwn	these won't be shared mail servers
+2013-06-11 05:00:25	<--	asteros (~asteros@unaffiliated/asteros) has quit (Client Quit)
+2013-06-11 05:00:26	SirCmpwn	and since each drive will have the same data, compromising one compromises them all
+2013-06-11 05:00:31	MrPockets	Why have three servers?
+2013-06-11 05:00:39	SirCmpwn	email is important. Redundancy
+2013-06-11 05:00:45	SirCmpwn	it's the only service that can't really go offline
+2013-06-11 05:00:53	MrPockets	why FDE?
+2013-06-11 05:01:08	SirCmpwn	well, I'd probably only do one partition
+2013-06-11 05:01:32	-->	dmz (~dmz@unaffiliated/dmz) has joined ##security
+2013-06-11 05:01:33	MrPockets	are you using SMIME, PGP, or something to encrypt the data in transit?
+2013-06-11 05:01:33	SirCmpwn	assuming that I can't think of a way that leaving the system unencrypted might compromise security
+2013-06-11 05:01:37	SirCmpwn	which I'm skeptical about
+2013-06-11 05:01:40	SirCmpwn	yes, PGP
+2013-06-11 05:02:01	SirCmpwn	the sender is, of course, the weakest link here, as most of my emails will come in plaintext
+2013-06-11 05:02:05	MrPockets	well, other question is, who is your primary likely attacker?
+2013-06-11 05:02:24	SirCmpwn	I have no clue. I don't suspect anyone has a grudge against me at the moment
+2013-06-11 05:02:26	MrPockets	gvmt? corporate spy? enemy nation state? thief?
+2013-06-11 05:02:37	SirCmpwn	all of the above, perhaps
+2013-06-11 05:03:22	SirCmpwn	will having some emails arrive in plaintext compromise the encrypted emails, if an attacker might know some of the plaintext behind the crypto?
+2013-06-11 05:03:23	MrPockets	Interesting. Idk, I always tend to lean twoards stronger security
+2013-06-11 05:03:34	-->	mauryaarun (~Thunderbi@59.180.240.221) has joined ##security
+2013-06-11 05:03:49	MrPockets	well, think of it this way. If you're email server is FDE, its only encrypted when the host is offline..
+2013-06-11 05:03:50	cao_	you have to know your enemy, otherwise this doesn't really make sense
+2013-06-11 05:03:52	SirCmpwn	would it be wise to have separate partitions (each with their own keys), one for plaintext emails and one for encrypted emails?
+2013-06-11 05:04:06	SirCmpwn	it's encrypted all the time, the decryption is done in real time
+2013-06-11 05:04:10	MrPockets	so, yeah.  If you receive an unencrypted email that is opened in webmail, or compromises the mail host in some other day
+2013-06-11 05:04:18	SirCmpwn	you'd have to be able to get into the software to read the plaintext as it was still turned on
+2013-06-11 05:04:18	MrPockets	FDE or not, your encrypted shits getting read. 
+2013-06-11 05:04:56	MrPockets	right, and as soon as someone on the compromised host opens that message, TrueCrypt decropts it for 'em, happily as a clam.
+2013-06-11 05:05:24	SirCmpwn	ah, so if someone gets into the mail account. If I had thunderbird set up for it or something
+2013-06-11 05:05:52	SirCmpwn	that shouldn't be a problem, all the computers reading the email also have FDE
+2013-06-11 05:05:58	SirCmpwn	they'd have to get to them while they were turned on and logged in
+2013-06-11 05:06:30	MrPockets	k. the *only* thing your FDE is going to protect against, is if someone physically walks into your server's room, and tries to literally take the server with them
+2013-06-11 05:06:37	MrPockets	they won't have the ability to read the data. 
+2013-06-11 05:06:58	MrPockets	which is why i ask who your enemy is.   A) if its the government and you're worried about them siezing your mail server, 'ehhh then yeah its worth it
+2013-06-11 05:07:11	cao_	MrPockets: if they don't dump the keys from memory before
+2013-06-11 05:07:13	MrPockets	or if its a thief that breaks into your house and steals the server, yeah, your data is good. 
+2013-06-11 05:07:18	<--	mx8manger (~mx8manger@unaffiliated/mx8manger) has quit (Read error: Connection reset by peer)
+2013-06-11 05:07:25	SirCmpwn	cao_: I'd be impressed to see someone pull keys from live memory
+2013-06-11 05:07:30	MrPockets	cao_, right. If the gvmt REALLY wants it, they'll sack his ass when he's at work or on the shitter
+2013-06-11 05:07:31	cao_	SirCmpwn: not that hard
+2013-06-11 05:07:37	SirCmpwn	source
+2013-06-11 05:07:42	MrPockets	Then just rape the system when its up and running
+2013-06-11 05:07:52	cao_	SirCmpwn: http://en.wikipedia.org/wiki/Cold_boot_attack
+2013-06-11 05:08:14	SirCmpwn	ah, that's right, it doesn't have to be live for the data to remain there
+2013-06-11 05:08:28	SirCmpwn	if they're fast enough, at least
+2013-06-11 05:08:32	sartan	this is why scares me on my vps
+2013-06-11 05:08:35	sartan	what **
+2013-06-11 05:08:37	MrPockets	also look at the dirty made attack
+2013-06-11 05:08:43	MrPockets	maid?
+2013-06-11 05:08:47	sartan	i was thinking about truecrypt and kvm'ing in every time i rebooted
+2013-06-11 05:08:48	MrPockets	evil maid?
+2013-06-11 05:08:52	cao_	MrPockets: evil maid you mean?
+2013-06-11 05:08:53	SirCmpwn	I'll just have shit cooling and keep the memory running at  100 C degrees all the time
+2013-06-11 05:08:56	SirCmpwn	:P
+2013-06-11 05:09:00	MrPockets	cao_, sure
+2013-06-11 05:09:02	cao_	sartan: timing there is much more of an issue
+2013-06-11 05:09:10	cao_	and of course owning the hypervisor
+2013-06-11 05:09:16	MrPockets	really, SirCmpwn, if you're worried about top secret Emails
+2013-06-11 05:09:17	sartan	there were a few xen attacks a while back
+2013-06-11 05:09:24	MrPockets	run it with PGP
+2013-06-11 05:09:30	sartan	i don't have anything to hide i just don't want anyone there
+2013-06-11 05:09:35	MrPockets	then remove the shit form the mail db and store it in a seperate truecrypt container
+2013-06-11 05:09:38	cao_	if you are worried about top secret emails, use different machines
+2013-06-11 05:09:48	SirCmpwn	yeah, this would all be in addition to PGP
+2013-06-11 05:10:12	cao_	fetch emails from an internet-facing service
+2013-06-11 05:10:28	cao_	encrypted backups via different channels
+2013-06-11 05:10:37	karstensrage	do any of you use pgp email?
+2013-06-11 05:11:07	karstensrage	how do you deal with the private key, do you copy it to all your machines/devices?
+2013-06-11 05:11:07	cao_	karstensrage: most of my mails are gpg, at least signed
+2013-06-11 05:11:07	SirCmpwn	karstensrage: I do, for some emails
+2013-06-11 05:11:07	SirCmpwn	I keep my key encrypted on a flash drive
+2013-06-11 05:11:09	SirCmpwn	well, some of them
+2013-06-11 05:11:10	karstensrage	and carry it around?
+2013-06-11 05:11:18	cao_	karstensrage: subkeys that are signed
+2013-06-11 05:11:25	karstensrage	?
+2013-06-11 05:11:36	karstensrage	cao_, huh?
+2013-06-11 05:11:40	SirCmpwn	I keep copies of the keys on computers that use them
+2013-06-11 05:11:48	SirCmpwn	the flash drive in question is sitting in a locked box in my closet
+2013-06-11 05:11:56	SirCmpwn	along with a few paper wallets and such
+2013-06-11 05:12:15	cao_	karstensrage: you can have multiple subkeys for one master key
+2013-06-11 05:12:27	karstensrage	hm how?
+2013-06-11 05:12:30	cao_	e.g. one for the workstation at work, one for the notebook, one for the private one 
+2013-06-11 05:12:32	karstensrage	with gpg?
+2013-06-11 05:12:43	cao_	yes
+2013-06-11 05:13:48	<--	Captain_Awesome (~d@cpe-70-113-105-132.austin.res.rr.com) has quit (Ping timeout: 240 seconds)
+2013-06-11 05:15:05	<--	mauryaarun (~Thunderbi@59.180.240.221) has quit (Quit: mauryaarun)
+2013-06-11 05:16:34	<--	kairos (~kairos@unaffiliated/kairos) has quit (Ping timeout: 256 seconds)
+2013-06-11 05:17:29	-->	kairos (~kairos@dyn216-8-155-142.ADSL.mnsi.net) has joined ##security
+2013-06-11 05:17:45	--	kairos is now known as Guest48699
+2013-06-11 05:21:15	-->	OrderZero (~order@adsl-74-178-204-51.jax.bellsouth.net) has joined ##security
+2013-06-11 05:23:29	<--	Dulce (~Dulce@gateway/tor-sasl/dulce) has quit (Ping timeout: 240 seconds)
+2013-06-11 05:23:30	karstensrage	doesnt seem like it works for encryption?
+2013-06-11 05:24:00	<--	megazin (~username@unaffiliated/megazin) has left ##security ("Leaving")
+2013-06-11 05:31:59	-->	mauryaarun (~Thunderbi@59.180.240.221) has joined ##security
+2013-06-11 05:32:39	<--	mauryaarun (~Thunderbi@59.180.240.221) has quit (Client Quit)
+2013-06-11 05:35:09	-->	agnostic (~textual@209.222.18.83) has joined ##security
+2013-06-11 05:37:56	<--	C1ph3r (~Cipher@31.6.28.81) has quit (Quit: leaving)
+2013-06-11 05:41:44	<--	AT101 (~androirc@c-69-142-178-226.hsd1.pa.comcast.net) has quit (Quit: AndroIRC - Android IRC Client ( http://www.androirc.com ))
+2013-06-11 05:41:53	Lara	Hi karstensrage
+2013-06-11 05:43:05	<--	czz (~czz@unaffiliated/czz) has quit (Quit: Leaving)
+2013-06-11 05:43:57	-->	RikudoSennin1 (~Cristwelr@31.205.21.120) has joined ##security
+2013-06-11 05:46:17	<--	pepee (~qzerty@unaffiliated/pepee) has quit (Ping timeout: 255 seconds)
+2013-06-11 05:46:52	-->	pepee (~qzerty@unaffiliated/pepee) has joined ##security
+2013-06-11 05:48:05	<--	RikudoSennin (~Cristwelr@31.205.21.120) has quit (Ping timeout: 255 seconds)
+2013-06-11 05:48:37	--	Lara is now known as LaraCroft
+2013-06-11 05:49:20	<--	RikudoSennin1 (~Cristwelr@31.205.21.120) has quit (Read error: Connection reset by peer)
+2013-06-11 05:49:37	-->	RikudoSennin (~Cristwelr@31.205.21.120) has joined ##security
+2013-06-11 05:52:06	<--	lacx (~lacx@gateway/tor-sasl/lacx) has quit (Quit: lacx)
+2013-06-11 05:53:01	--	LaraCroft is now known as Lara
+2013-06-11 05:53:36	-->	partlow (daemon@tactical.node618.net) has joined ##security
+2013-06-11 06:03:54	karstensrage	hi Lara 
+2013-06-11 06:05:18	-->	solifugus (~quassel@adsl-74-179-101-30.gnv.bellsouth.net) has joined ##security
+2013-06-11 06:06:02	<--	solifugus (~quassel@adsl-74-179-101-30.gnv.bellsouth.net) has quit (Remote host closed the connection)
+2013-06-11 06:08:34	<--	TreeStump (~TreeStump@114.141.106.91) has quit (Read error: Connection reset by peer)
+2013-06-11 06:08:59	-->	TreeStump (~TreeStump@114.141.106.91) has joined ##security
+2013-06-11 06:09:30	<--	Guest48699 (~kairos@dyn216-8-155-142.ADSL.mnsi.net) has quit (Ping timeout: 240 seconds)
+2013-06-11 06:10:41	-->	kairos_ (~kairos@dyn216-8-155-142.ADSL.mnsi.net) has joined ##security
+2013-06-11 06:11:53	<--	agnostic (~textual@209.222.18.83) has quit (Quit: Computer has gone to sleep.)
+2013-06-11 06:13:46	-->	Nisstyre-laptop (~yours@oftn/member/Nisstyre) has joined ##security
+2013-06-11 06:16:50	-->	arietis (~arietis@188.242.181.162) has joined ##security
+2013-06-11 06:17:06	<--	dn4 (~werdna@stugs.com) has quit (Quit: Lost terminal)
+2013-06-11 06:19:38	-->	NorneyHun (~angelndae@roseau.dreamhost.com) has joined ##security
+2013-06-11 06:21:27	<--	CTPAX_ (inaniyants@178.213.188.179) has quit (Ping timeout: 256 seconds)
+2013-06-11 06:24:25	<--	mattrepl (~mattrepl@pool-72-83-66-59.washdc.east.verizon.net) has quit (Quit: mattrepl)
+2013-06-11 06:33:40	<--	NorneyHun (~angelndae@roseau.dreamhost.com) has quit (Quit: Leaving.)
+2013-06-11 06:35:10	<--	domino14 (~domino14@50-193-28-222-static.hfc.comcastbusiness.net) has quit (Remote host closed the connection)
+2013-06-11 06:38:44	<--	pepee (~qzerty@unaffiliated/pepee) has quit (Ping timeout: 256 seconds)
+2013-06-11 06:40:21	<--	semeion (~semeion@unaffiliated/semeion) has quit (Quit: WeeChat 0.4.1)
+2013-06-11 06:42:08	<--	nitrix (~nitrix@unaffiliated/nitrix) has quit (Ping timeout: 256 seconds)
+2013-06-11 06:43:35	-->	nitrix (~nitrix@198.199.73.220) has joined ##security
+2013-06-11 06:43:46	--	nitrix is now known as Guest98521
+2013-06-11 06:46:33	<--	McMAGIC--Copy (~McMAGIC--@gateway/tor-sasl/mcmagic--copy) has quit (Remote host closed the connection)
+2013-06-11 06:47:30	-->	McMAGIC--Copy (~McMAGIC--@gateway/tor-sasl/mcmagic--copy) has joined ##security
+2013-06-11 06:50:39	-->	the-newsman (~zz@41.130.174.94) has joined ##security
+2013-06-11 06:50:58	<--	RikudoSennin (~Cristwelr@31.205.21.120) has quit (Read error: Connection reset by peer)
+2013-06-11 06:51:00	-->	pepee (~qzerty@unaffiliated/pepee) has joined ##security
+2013-06-11 06:51:19	-->	RikudoSennin (~Cristwelr@31.205.21.120) has joined ##security
+2013-06-11 07:00:41	-->	Arirang_ (~Arirang@c-24-21-190-49.hsd1.or.comcast.net) has joined ##security
+2013-06-11 07:01:01	--	Arirang_ is now known as Arirang
+2013-06-11 07:01:05	-->	Stierlitz (~paiti@paiti.sychrovnet.cz) has joined ##security
+2013-06-11 07:01:43	<--	yano (yano@freenode/staff/yano) has quit (Remote host closed the connection)
+2013-06-11 07:03:38	<--	Arirang (~Arirang@c-24-21-190-49.hsd1.or.comcast.net) has quit (Read error: Connection reset by peer)
+2013-06-11 07:03:52	-->	Arirang (~Arirang@c-24-21-190-49.hsd1.or.comcast.net) has joined ##security
+2013-06-11 07:12:22	-->	mauryaarun (~Thunderbi@202.159.220.66) has joined ##security
+2013-06-11 07:12:49	<--	Arirang (~Arirang@c-24-21-190-49.hsd1.or.comcast.net) has quit (Read error: Connection reset by peer)
+2013-06-11 07:13:08	-->	Arirang (~Arirang@c-24-21-190-49.hsd1.or.comcast.net) has joined ##security
+2013-06-11 07:15:32	<--	Arirang (~Arirang@c-24-21-190-49.hsd1.or.comcast.net) has quit (Read error: Connection reset by peer)
+2013-06-11 07:15:38	@jnpplf	"jnpplf, can you QA this report for me?"
+2013-06-11 07:15:44	@jnpplf	"Sure, what is it?"
+2013-06-11 07:15:50	-->	Arirang (~Arirang@c-24-21-190-49.hsd1.or.comcast.net) has joined ##security
+2013-06-11 07:15:50	@jnpplf	"It's a risk assessment on China
+2013-06-11 07:15:53	@jnpplf	:-/
+2013-06-11 07:16:31	-->	dni (~f00@80-69-77-211.colo.transip.net) has joined ##security
+2013-06-11 07:16:42	<--	mauryaarun (~Thunderbi@202.159.220.66) has quit (Ping timeout: 256 seconds)
+2013-06-11 07:16:55	<--	asvx (~svx@pppoe-51-31.tver.ru) has quit (Quit: stay tuned!)
+2013-06-11 07:20:11	<--	Burgundy (~burgundy@5-12-190-126.residential.rdsnet.ro) has quit (Ping timeout: 252 seconds)
+2013-06-11 07:22:18	-->	asvx (~svx@pppoe-51-31.tver.ru) has joined ##security
+2013-06-11 07:28:12	<--	gry (gry@freenode/staff/gry) has quit (Quit: gone)
+2013-06-11 07:30:18	Tecan	mind says yes but wife says no
+2013-06-11 07:33:02	--	hoxu_ is now known as hoxu
+2013-06-11 07:49:28	electr0n	jnpplf: should be easy :)
+2013-06-11 07:50:45	-->	nanoform (~nanoform@46.246.116.147) has joined ##security
+2013-06-11 07:57:34	-->	gry (quasselcor@freenode/staff/gry) has joined ##security
+2013-06-11 07:57:59	<--	gry (quasselcor@freenode/staff/gry) has quit (Client Quit)
+2013-06-11 08:01:50	-->	gry (gry@freenode/staff/gry) has joined ##security
+2013-06-11 08:03:28	-->	herax (~h@h-93-161.a193.priv.bahnhof.se) has joined ##security
+2013-06-11 08:03:28	<--	herax (~h@h-93-161.a193.priv.bahnhof.se) has quit (Changing host)
+2013-06-11 08:03:28	-->	herax (~h@unaffiliated/herax) has joined ##security
+2013-06-11 08:17:11	-->	reo (~reo@unaffilated/reo) has joined ##security
+2013-06-11 08:20:35	-->	entrspn (~entrspn@unaffiliated/pistrix) has joined ##security
+2013-06-11 08:23:29	<--	Jim45 (~jim45@c-76-22-31-45.hsd1.wa.comcast.net) has quit (Read error: Connection reset by peer)
+2013-06-11 08:25:10	-->	Jim45 (Jim45@c-76-22-31-45.hsd1.wa.comcast.net) has joined ##security
+2013-06-11 08:25:35	<--	RikudoSennin (~Cristwelr@31.205.21.120) has quit (Read error: Connection reset by peer)
+2013-06-11 08:26:06	-->	RikudoSennin (~Cristwelr@31.205.21.120) has joined ##security
+2013-06-11 08:33:20	-->	semeion (~semeion@unaffiliated/semeion) has joined ##security
+2013-06-11 08:36:19	-->	capo (~capo@2001:5c0:1400:a::3d7) has joined ##security
+2013-06-11 08:36:19	<--	capo (~capo@2001:5c0:1400:a::3d7) has quit (Changing host)
+2013-06-11 08:36:19	-->	capo (~capo@lorea/faerie) has joined ##security
+2013-06-11 08:37:10	<--	entrspn (~entrspn@unaffiliated/pistrix) has quit (Remote host closed the connection)
+2013-06-11 08:37:40	-->	Anaphaxeton (~george@unaffiliated/anaphaxeton) has joined ##security
+2013-06-11 08:38:15	-->	Joel_re (~jr@223.230.193.21) has joined ##security
+2013-06-11 08:38:34	<--	yan (~yan@114-38-193-104.dynamic.hinet.net) has quit (Ping timeout: 240 seconds)
+2013-06-11 08:43:40	-->	latermuse (~ron@112.201.148.132) has joined ##security
+2013-06-11 08:43:57	-->	bin (~bin@85.217.129.126) has joined ##security
+2013-06-11 08:43:57	<--	bin (~bin@85.217.129.126) has quit (Changing host)
+2013-06-11 08:43:57	-->	bin (~bin@unaffiliated/phreaky) has joined ##security
+2013-06-11 08:44:54	-->	execat (~anujmore@fedora/execat) has joined ##security
+2013-06-11 08:45:57	<--	the-newsman (~zz@41.130.174.94) has quit (Ping timeout: 248 seconds)
+2013-06-11 08:57:13	<--	savemech_1 (~savemech@109.197.79.141) has quit (Read error: Connection reset by peer)
+2013-06-11 08:57:32	-->	Savemech (~savemech@109.197.79.141) has joined ##security
+2013-06-11 09:00:20	-->	MrQuist (~rob@83.232.96.217) has joined ##security
+2013-06-11 09:01:07	--	Tecan is now known as TombCat
+2013-06-11 09:01:49	<--	ffio (~fire@unaffiliated/security) has quit (Ping timeout: 256 seconds)
+2013-06-11 09:02:00	-->	ffio_ (~fire@unaffiliated/security) has joined ##security
+2013-06-11 09:03:48	<--	iPwnd (~ipwn@bl16-125-198.dsl.telepac.pt) has quit (Ping timeout: 256 seconds)
+2013-06-11 09:07:25	-->	MRPEANUT07 (~THE_PEANU@c-76-101-9-124.hsd1.fl.comcast.net) has joined ##security
+2013-06-11 09:08:00	<--	sulex (~sulex@pdpc/supporter/professional/sulex) has quit (Read error: Connection reset by peer)
+2013-06-11 09:11:41	-->	iPwnd (~ipwn@bl16-125-198.dsl.telepac.pt) has joined ##security
+2013-06-11 09:18:49	<--	noobtester4 (~noobteste@99-3-88-148.lightspeed.nsvltn.sbcglobal.net) has quit (Ping timeout: 256 seconds)
+2013-06-11 09:18:51	-->	_X-_-X_ (~stoned@unaffiliated/stoned) has joined ##security
+2013-06-11 09:19:01	<--	synap5e (~synap5e@222-153-147-60.jetstream.xtra.co.nz) has quit (Read error: Connection reset by peer)
+2013-06-11 09:19:02	<--	denots (~stoned@unaffiliated/stoned) has quit (Read error: Connection reset by peer)
+2013-06-11 09:19:20	-->	synap5e (~synap5e@222-153-147-60.jetstream.xtra.co.nz) has joined ##security
+2013-06-11 09:20:51	-->	tomreyn (~tomreyn@p5B3D4967.dip0.t-ipconnect.de) has joined ##security
+2013-06-11 09:20:57	<--	tomreyn (~tomreyn@p5B3D4967.dip0.t-ipconnect.de) has quit (Changing host)
+2013-06-11 09:20:57	-->	tomreyn (~tomreyn@megaglest/team/tomreyn) has joined ##security
+2013-06-11 09:24:22	<--	iPwnd (~ipwn@bl16-125-198.dsl.telepac.pt) has quit (Ping timeout: 246 seconds)
+2013-06-11 09:24:35	<--	RikudoSennin (~Cristwelr@31.205.21.120) has quit (Read error: Connection reset by peer)
+2013-06-11 09:24:47	-->	RikudoSennin (~Cristwelr@31.205.21.120) has joined ##security
+2013-06-11 09:27:15	-->	Nickinator (~Nickinato@123-243-142-239.static.tpgi.com.au) has joined ##security
+2013-06-11 09:28:28	<--	Stygia (~gmpsaifi@94.191.211.237.bredband.3.dk) has quit (Ping timeout: 276 seconds)
+2013-06-11 09:33:50	-->	noobtester4 (~noobteste@99-3-88-148.lightspeed.nsvltn.sbcglobal.net) has joined ##security
+2013-06-11 09:34:57	<--	stochasm (~stochasm@unaffiliated/ahayweh) has quit (Ping timeout: 245 seconds)
+2013-06-11 09:35:32	<--	snuffeluffegus (~snuffeluf@cpe-098-121-180-250.ec.res.rr.com) has quit (Ping timeout: 256 seconds)
+2013-06-11 09:36:35	<--	Alina-malina (Alina-mali@46.162.239.152) has quit (Read error: Connection reset by peer)
+2013-06-11 09:36:47	<--	MrQuist (~rob@83.232.96.217) has quit (Read error: Connection reset by peer)
+2013-06-11 09:37:49	-->	Alina-malina (Alina-mali@46.162.239.152) has joined ##security
+2013-06-11 09:38:45	-->	snuffeluffegus (~snuffeluf@cpe-098-121-180-250.ec.res.rr.com) has joined ##security
+2013-06-11 09:41:27	<--	Pyus (~uSr@cpe-24-24-201-207.socal.res.rr.com) has quit (Read error: Connection reset by peer)
+2013-06-11 09:41:47	-->	Pyus (~uSr@cpe-24-24-201-207.socal.res.rr.com) has joined ##security
+2013-06-11 09:44:27	bitcoin_boy	Sigh.
+2013-06-11 09:44:34	-->	iPwnd (~ipwn@bl16-125-198.dsl.telepac.pt) has joined ##security
+2013-06-11 09:44:49	bitcoin_boy	Why is there no #TV-series? I just finished watching season 2 of The Walking Dead and need to discuss something with somebody.
+2013-06-11 09:44:53	-->	RikudoSennin1 (~Cristwelr@31.205.21.120) has joined ##security
+2013-06-11 09:45:59	<--	latermuse (~ron@112.201.148.132) has quit (Quit: leaving)
+2013-06-11 09:45:59	<--	RikudoSennin (~Cristwelr@31.205.21.120) has quit (Ping timeout: 260 seconds)
+2013-06-11 09:46:27	--	irc: disconnected from server

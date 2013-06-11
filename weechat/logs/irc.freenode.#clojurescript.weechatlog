@@ -5344,3 +5344,81 @@
 2013-06-09 15:16:22	--	Channel created on Thu, 21 Jul 2011 18:34:20
 2013-06-09 15:20:22	-->	jonasen (~jonasen@a100.ip13.netikka.fi) has joined #clojurescript
 2013-06-09 15:43:56	--	irc: disconnected from server
+2013-06-10 20:37:28	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #clojurescript
+2013-06-10 20:37:28	--	Nicks #clojurescript: [ahoops bbloom brainproxy cdh473 cemerick enquora harrow ibdknox j0ni__ jaimef jimt_ jonasen jurbat karnowski mtm supersym tos9 trptcolin tyler_ wyer]
+2013-06-10 20:37:28	--	Channel #clojurescript: 20 nicks (0 ops, 0 halfops, 0 voices, 20 normals)
+2013-06-10 20:37:39	--	Mode #clojurescript [+cnt]
+2013-06-10 20:37:39	--	Channel created on Thu, 21 Jul 2011 18:34:20
+2013-06-10 20:40:01	--	irc: disconnected from server
+2013-06-10 22:11:45	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #clojurescript
+2013-06-10 22:11:45	--	Nicks #clojurescript: [ahoops bbloom brainproxy cdh473 cemerick enquora harrow ibdknox j0ni__ jaimef jimt_ jurbat karnowski mtm supersym tos9 trptcolin tyler_ wyer]
+2013-06-10 22:11:45	--	Channel #clojurescript: 19 nicks (0 ops, 0 halfops, 0 voices, 19 normals)
+2013-06-10 22:11:59	--	Mode #clojurescript [+cnt]
+2013-06-10 22:11:59	--	Channel created on Thu, 21 Jul 2011 18:34:20
+2013-06-10 22:17:05	-->	normanrichards (~normanric@201.237.201.2) has joined #clojurescript
+2013-06-10 22:17:27	<--	normanrichards (~normanric@201.237.201.2) has quit (Max SendQ exceeded)
+2013-06-10 22:36:13	<--	jurbat (~jurbat@188.187.205.90) has quit (Quit: Computer has gone to sleep.)
+2013-06-10 23:26:54	<--	cemerick (~cemerick@c-71-192-116-188.hsd1.ma.comcast.net) has quit (Remote host closed the connection)
+2013-06-10 23:53:13	<--	ahoops (~ahoops__@121.96.14.223) has quit (Ping timeout: 256 seconds)
+2013-06-10 23:55:31	-->	ahoops (~ahoops__@121.96.14.223) has joined #clojurescript
+2013-06-11 00:01:28	<--	trptcolin (~trptcolin@c-67-184-238-172.hsd1.il.comcast.net) has quit (Quit: trptcolin)
+2013-06-11 00:27:02	<--	enquora (~davidr@S0106602ad083de8c.cg.shawcable.net) has quit (Quit: enquora)
+2013-06-11 02:21:17	-->	trptcolin (~trptcolin@c-69-246-214-56.hsd1.il.comcast.net) has joined #clojurescript
+2013-06-11 02:55:15	-->	wei_ (~wei@174-31-229-150.tukw.qwest.net) has joined #clojurescript
+2013-06-11 03:22:41	wei_	does clojurescript not support defonce?
+2013-06-11 03:23:39	wei_	if I use a defonce in crossover file, what's the best way to make clojurescript interpret it as a def?
+2013-06-11 03:31:45	<--	mtm (~mtm@c-76-102-52-34.hsd1.ca.comcast.net) has quit (Quit: Leaving...)
+2013-06-11 03:47:14	-->	cemerick (~cemerick@static-64-115-135-18.isp.broadviewnet.net) has joined #clojurescript
+2013-06-11 03:48:20	-->	normanrichards (~normanric@201.237.201.2) has joined #clojurescript
+2013-06-11 04:09:34	-->	rickhall2000 (~rickhall2@71-92-32-124.dhcp.athn.ga.charter.com) has joined #clojurescript
+2013-06-11 04:13:32	rickhall2000	Hi All
+2013-06-11 04:14:14	rickhall2000	Is it fair to say that all of the Clojure editors will also work for ClojureScript?
+2013-06-11 04:27:10	<--	trptcolin (~trptcolin@c-69-246-214-56.hsd1.il.comcast.net) has quit (Quit: trptcolin)
+2013-06-11 04:31:43	-->	mtm (~mtm@c-24-130-130-44.hsd1.ca.comcast.net) has joined #clojurescript
+2013-06-11 04:33:15	<--	cemerick (~cemerick@static-64-115-135-18.isp.broadviewnet.net) has quit (Remote host closed the connection)
+2013-06-11 04:50:17	<--	normanrichards (~normanric@201.237.201.2) has quit (Quit: normanrichards)
+2013-06-11 05:03:15	wei_	rickhall2000: not all features work. for example, i'm using fireplace with vim (https://github.com/tpope/vim-fireplace) and the jump-to-definition works only for clojure
+2013-06-11 05:03:47	rickhall2000	wei_:  thanks
+2013-06-11 05:04:37	rickhall2000	The Atlanta Clojure meetup is tomorrow, and I am going to be talking about ClojureScript.  I figured that was a question I would be asked
+2013-06-11 05:42:53	-->	cemerick (~cemerick@static-64-115-135-18.isp.broadviewnet.net) has joined #clojurescript
+2013-06-11 06:01:01	-->	jimt (~jim@14.181.69.111.dynamic.snap.net.nz) has joined #clojurescript
+2013-06-11 06:03:53	<--	jimt_ (~jim@36.176.69.111.dynamic.snap.net.nz) has quit (Ping timeout: 245 seconds)
+2013-06-11 06:14:11	-->	dek5 (~eugene@mail.quickpay.ru) has joined #clojurescript
+2013-06-11 06:16:30	<--	jimt (~jim@14.181.69.111.dynamic.snap.net.nz) has quit (Ping timeout: 240 seconds)
+2013-06-11 06:18:40	-->	jimt (~jim@106.180.69.111.dynamic.snap.net.nz) has joined #clojurescript
+2013-06-11 06:26:28	-->	jurbat (~jurbat@188.187.205.90) has joined #clojurescript
+2013-06-11 06:40:49	-->	jimt_ (~jim@56.179.69.111.dynamic.snap.net.nz) has joined #clojurescript
+2013-06-11 06:43:37	<--	jimt (~jim@106.180.69.111.dynamic.snap.net.nz) has quit (Read error: Operation timed out)
+2013-06-11 06:44:49	-->	jonasen (~jonasen@a100.ip13.netikka.fi) has joined #clojurescript
+2013-06-11 06:50:39	-->	scitesy (~scitesy@d118-75-116-92.nap.wideopenwest.com) has joined #clojurescript
+2013-06-11 07:00:38	-->	jimt (~jim@136.177.69.111.dynamic.snap.net.nz) has joined #clojurescript
+2013-06-11 07:03:10	<--	rickhall2000 (~rickhall2@71-92-32-124.dhcp.athn.ga.charter.com) has left #clojurescript
+2013-06-11 07:03:40	<--	jimt_ (~jim@56.179.69.111.dynamic.snap.net.nz) has quit (Ping timeout: 256 seconds)
+2013-06-11 08:22:35	-->	normanrichards (~normanric@201.237.201.118) has joined #clojurescript
+2013-06-11 08:27:50	<--	normanrichards (~normanric@201.237.201.118) has quit (Ping timeout: 252 seconds)
+2013-06-11 08:34:16	<--	cemerick (~cemerick@static-64-115-135-18.isp.broadviewnet.net) has quit (Remote host closed the connection)
+2013-06-11 09:09:51	<--	wei_ (~wei@174-31-229-150.tukw.qwest.net) has quit (Quit: wei_)
+2013-06-11 09:15:42	-->	wei_ (~wei@174-31-229-150.tukw.qwest.net) has joined #clojurescript
+2013-06-11 09:46:26	--	irc: disconnected from server
+2013-06-11 15:19:55	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #clojurescript
+2013-06-11 15:19:55	--	Nicks #clojurescript: [bbloom brainproxy cdh473 dek5 harrow ibdknox j0ni__ jaimef jimt jonasen jurbat karnowski mtm scitesy supersym tos9 tyler_ wei_ wyer]
+2013-06-11 15:19:55	--	Channel #clojurescript: 19 nicks (0 ops, 0 halfops, 0 voices, 19 normals)
+2013-06-11 15:20:11	--	Mode #clojurescript [+cnt]
+2013-06-11 15:20:11	--	Channel created on Thu, 21 Jul 2011 18:34:20
+2013-06-11 13:21:41	<--	wei_ (~wei@174-31-229-150.tukw.qwest.net) has quit (Quit: wei_)
+2013-06-11 13:26:00	--	irc: disconnected from server
+2013-06-11 15:43:01	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #clojurescript
+2013-06-11 15:43:01	--	Nicks #clojurescript: [bbloom brainproxy cemerick harrow ibdknox j0ni__ jaimef jimt jonasen jurbat karnowski mtm rickhall2000 scitesy supersym tos9 tyler_ wyer]
+2013-06-11 15:43:01	--	Channel #clojurescript: 18 nicks (0 ops, 0 halfops, 0 voices, 18 normals)
+2013-06-11 15:43:12	--	Mode #clojurescript [+cnt]
+2013-06-11 15:43:12	--	Channel created on Thu, 21 Jul 2011 18:34:20
+2013-06-11 15:46:45	<--	mtm (~mtm@c-24-130-130-44.hsd1.ca.comcast.net) has quit (Ping timeout: 248 seconds)
+2013-06-11 16:08:27	<--	scitesy (~scitesy@d118-75-116-92.nap.wideopenwest.com) has quit (Quit: Bye)
+2013-06-11 16:09:21	-->	scitesy (~scitesy@d118-75-116-92.nap.wideopenwest.com) has joined #clojurescript
+2013-06-11 16:18:06	<--	cemerick (~cemerick@static-64-115-135-18.isp.broadviewnet.net) has quit (Remote host closed the connection)
+2013-06-11 16:58:05	-->	cemerick (~cemerick@pool-173-52-3-122.nycmny.east.verizon.net) has joined #clojurescript
+2013-06-11 17:01:36	<--	rickhall2000 (~rickhall2@71-92-32-124.dhcp.athn.ga.charter.com) has left #clojurescript
+2013-06-11 17:16:11	<--	cemerick (~cemerick@pool-173-52-3-122.nycmny.east.verizon.net) has quit (Remote host closed the connection)
+2013-06-11 17:37:16	-->	cemerick (~cemerick@66-87-117-23.pools.spcsdns.net) has joined #clojurescript
+2013-06-11 17:58:08	-->	wei_ (~wei@174-31-229-150.tukw.qwest.net) has joined #clojurescript
+2013-06-11 18:10:23	-->	enquora (~davidr@S0106602ad083de8c.cg.shawcable.net) has joined #clojurescript
