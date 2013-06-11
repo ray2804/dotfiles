@@ -2,7 +2,7 @@
 # /home/baal/.nvidia-settings-rc
 #
 # Configuration file for nvidia-settings - the NVIDIA X Server Settings utility
-# Generated on Sun Jun  9 04:48:47 2013
+# Generated on Tue Jun 11 23:33:57 2013
 #
 
 # ConfigProperties:
@@ -14,23 +14,23 @@ SliderTextEntries = Yes
 IncludeDisplayNameInConfigFile = Yes
 ShowQuitDialog = No
 UpdateRulesOnProfileNameChange = Yes
-Timer = Memory_Used_(GPU_0),Yes,3000
-Timer = Thermal_Monitor_(GPU_0),Yes,1000
 Timer = PowerMizer_Monitor_(GPU_0),Yes,1000
+Timer = Thermal_Monitor_(GPU_0),Yes,1000
+Timer = Memory_Used_(GPU_0),Yes,3000
 
 # Attributes:
 
 ares.domain.tld:0.0/SyncToVBlank=1
-ares.domain.tld:0.0/LogAniso=1
-ares.domain.tld:0.0/FSAA=5
-ares.domain.tld:0.0/TextureSharpen=1
+ares.domain.tld:0.0/LogAniso=0
+ares.domain.tld:0.0/FSAA=0
+ares.domain.tld:0.0/TextureSharpen=0
 ares.domain.tld:0.0/TextureClamping=1
 ares.domain.tld:0.0/FXAA=0
 ares.domain.tld:0.0/AllowFlipping=1
-ares.domain.tld:0.0/FSAAAppControlled=0
-ares.domain.tld:0.0/LogAnisoAppControlled=0
+ares.domain.tld:0.0/FSAAAppControlled=1
+ares.domain.tld:0.0/LogAnisoAppControlled=1
 ares.domain.tld:0.0/OpenGLImageSettings=1
-ares.domain.tld:0.0/FSAAAppEnhanced=1
+ares.domain.tld:0.0/FSAAAppEnhanced=0
 ares.domain.tld:0.0/DigitalVibrance[DFP-0]=0
 ares.domain.tld:0.0/DigitalVibrance[DFP-1]=0
 ares.domain.tld:0.0/ColorSpace[DFP-0]=0

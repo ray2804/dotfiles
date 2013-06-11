@@ -15001,3 +15001,17 @@
 2013-06-11 17:12:48	-->	quartzmo (~quartzmo@173-8-92-50-utah.hfc.comcastbusiness.net) has joined #docpad
 2013-06-11 17:35:57	<--	DiogoMoretti (c887063f@gateway/web/freenode/ip.200.135.6.63) has quit (Ping timeout: 250 seconds)
 2013-06-11 17:56:47	-->	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has joined #docpad
+2013-06-11 19:01:20	-->	samrocksc (~samrocksc@174-17-5-145.phnx.qwest.net) has joined #docpad
+2013-06-11 20:00:51	<--	samrocksc (~samrocksc@174-17-5-145.phnx.qwest.net) has quit (Ping timeout: 256 seconds)
+2013-06-11 20:05:05	<--	eth0lo (~eth0lo@office.xing.com) has quit (Read error: Connection reset by peer)
+2013-06-11 20:05:29	-->	eth0lo (~eth0lo@office.xing.com) has joined #docpad
+2013-06-11 20:28:13	-->	samrocksc (~samrocksc@174-17-5-145.phnx.qwest.net) has joined #docpad
+2013-06-11 20:32:31	<--	ashnur (~ashnur@79.117.75.161) has quit (Quit: WeeChat 0.4.1)
+2013-06-11 21:09:42	<--	samrocksc (~samrocksc@174-17-5-145.phnx.qwest.net) has quit (Quit: Lost terminal)
+2013-06-11 22:56:11	-->	ashnur (~ashnur@79.117.64.162) has joined #docpad
+2013-06-12 00:43:44	-->	tasuki (~tasuki@87.114.136.25) has joined #docpad
+2013-06-12 00:44:31	tasuki	hi!
+2013-06-12 00:44:54	tasuki	I'm using jade documents with docpad
+2013-06-12 00:45:17	tasuki	how to include one jade from another?
+2013-06-12 00:46:05	tasuki	in certain competing generators (cough, wintersmith, cough), "include scriptname" just works
+2013-06-12 00:47:34	tasuki	despite the awesome name they chose for their project and the ease of handling includes, docpad seems to handle a lot of other things better :)

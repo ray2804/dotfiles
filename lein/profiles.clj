@@ -1,6 +1,6 @@
 {:user {:dependencies [[clj-stacktrace "0.2.5"]
-                       [org.clojure/tools.namespace "0.2.3"]
-                       [spyscope "0.1.3"] ;; easier to debug single- and multi-threaded applications
+                       ;[org.clojure/tools.namespace "0.2.3"]
+                       [spyscope "0.1.3" :exclusions [clj-time]] ;; easier to debug single- and multi-threaded applications
                        [javert "0.1.0"]
                        [ritz/ritz-nrepl-middleware "0.7.0"]
                        [slamhound "1.3.3"]]

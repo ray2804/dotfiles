@@ -5423,3 +5423,36 @@
 2013-06-11 17:58:08	-->	wei_ (~wei@174-31-229-150.tukw.qwest.net) has joined #clojurescript
 2013-06-11 18:10:23	-->	enquora (~davidr@S0106602ad083de8c.cg.shawcable.net) has joined #clojurescript
 2013-06-11 18:19:35	-->	mtm (~mtm@c-76-102-52-34.hsd1.ca.comcast.net) has joined #clojurescript
+2013-06-11 19:06:50	<--	jonasen (~jonasen@a100.ip13.netikka.fi) has quit (Ping timeout: 255 seconds)
+2013-06-11 19:16:15	<--	cemerick (~cemerick@66-87-117-23.pools.spcsdns.net) has quit (Remote host closed the connection)
+2013-06-11 19:39:23	-->	ahoops (~ahoops__@121.96.14.223) has joined #clojurescript
+2013-06-11 19:50:01	<--	ahoops (~ahoops__@121.96.14.223) has quit (Ping timeout: 256 seconds)
+2013-06-11 19:50:58	-->	ahoops (~ahoops__@121.96.14.223) has joined #clojurescript
+2013-06-11 21:02:33	<--	ahoops (~ahoops__@121.96.14.223) has quit (Ping timeout: 256 seconds)
+2013-06-11 21:04:35	-->	ahoops (~ahoops__@121.96.14.223) has joined #clojurescript
+2013-06-11 21:05:19	-->	kgerman (~kgerman@129.33.1.38) has joined #clojurescript
+2013-06-11 21:28:24	-->	jimt_ (~jim@242.177.69.111.dynamic.snap.net.nz) has joined #clojurescript
+2013-06-11 21:31:17	<--	jimt (~jim@136.177.69.111.dynamic.snap.net.nz) has quit (Ping timeout: 255 seconds)
+2013-06-11 21:40:51	<--	jurbat (~jurbat@188.187.205.90) has quit (Quit: Computer has gone to sleep.)
+2013-06-11 21:48:36	-->	cemerick (~cemerick@me32536d0.tmodns.net) has joined #clojurescript
+2013-06-11 21:57:53	-->	cemeric__ (~cemerick@66-87-117-107.pools.spcsdns.net) has joined #clojurescript
+2013-06-11 21:57:55	<--	cemerick (~cemerick@me32536d0.tmodns.net) has quit (Ping timeout: 246 seconds)
+2013-06-11 22:00:29	--	cemeric__ is now known as cemerick
+2013-06-11 22:03:19	<--	cemerick (~cemerick@66-87-117-107.pools.spcsdns.net) has quit (Remote host closed the connection)
+2013-06-11 22:06:01	<--	ahoops (~ahoops__@121.96.14.223) has quit (Ping timeout: 256 seconds)
+2013-06-11 23:01:49	<--	wei_ (~wei@174-31-229-150.tukw.qwest.net) has quit (Quit: wei_)
+2013-06-11 23:01:59	<--	scitesy (~scitesy@d118-75-116-92.nap.wideopenwest.com) has quit (Quit: Bye)
+2013-06-11 23:03:31	-->	wei_ (~wei@174-31-229-150.tukw.qwest.net) has joined #clojurescript
+2013-06-11 23:04:09	<--	wei_ (~wei@174-31-229-150.tukw.qwest.net) has quit (Client Quit)
+2013-06-11 23:13:18	-->	wei_ (~wei@174-31-229-150.tukw.qwest.net) has joined #clojurescript
+2013-06-11 23:13:33	-->	cemerick (~cemerick@66-87-117-190.pools.spcsdns.net) has joined #clojurescript
+2013-06-11 23:14:47	<--	cemerick (~cemerick@66-87-117-190.pools.spcsdns.net) has quit (Remote host closed the connection)
+2013-06-11 23:15:17	-->	cemerick (~cemerick@208.36.99.35.ptr.us.xo.net) has joined #clojurescript
+2013-06-12 00:02:35	-->	trptcolin (~trptcolin@c-69-246-214-56.hsd1.il.comcast.net) has joined #clojurescript
+2013-06-12 00:14:41	<--	trptcolin (~trptcolin@c-69-246-214-56.hsd1.il.comcast.net) has quit (Quit: trptcolin)
+2013-06-12 00:21:25	-->	trptcolin (~trptcolin@c-69-246-214-56.hsd1.il.comcast.net) has joined #clojurescript
+2013-06-12 00:22:11	<--	wei_ (~wei@174-31-229-150.tukw.qwest.net) has quit (Quit: wei_)
+2013-06-12 00:24:01	-->	wei_ (~wei@174-31-229-150.tukw.qwest.net) has joined #clojurescript
+2013-06-12 00:24:56	<--	wei_ (~wei@174-31-229-150.tukw.qwest.net) has quit (Client Quit)
+2013-06-12 00:29:38	<--	trptcolin (~trptcolin@c-69-246-214-56.hsd1.il.comcast.net) has quit (Quit: trptcolin)
+2013-06-12 00:29:42	<--	enquora (~davidr@S0106602ad083de8c.cg.shawcable.net) has quit (Quit: enquora)
