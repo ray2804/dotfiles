@@ -1,13 +1,21 @@
 {:user {:dependencies [[clj-stacktrace "0.2.5"]
                        [org.clojure/tools.namespace "0.2.3"]
                        [spyscope "0.1.3"] ;; easier to debug single- and multi-threaded applications
-                       [javert "0.2.0-SNAPSHOT"]
+                       [javert "0.1.0"]
                        [ritz/ritz-nrepl-middleware "0.7.0"]
-                       [slamhound "1.3.1"]]
+                       [slamhound "1.3.3"]]
 
+        ;;         plugin name              ;; (command) plugin description of purpose/function/task it performs |115;;
         :plugins [[lein-light "0.0.16"]
+                  [lein-difftest "2.0.0"]
+                  [lein-marginalia "0.7.1"]
+                  [lein-exec "0.3.0"]
+                  [lein-bin "0.3.2"]
                   [lein-swank "1.4.5"]
-                  [lein-bikeshed "0.1.3"] ;; notify code smell/bad
+                  [lein-tarsier "0.9.4"]    ;; more complete (with project support) vim plugin to clojure/repl
+                  [lein-autoreload "0.1.0"] ;; guarantee when running repl you are up-to-date if files change
+                  [lein-simpleton "1.1.0"]  ;; localhost http static server in current directory with autoindex
+                  [lein-bikeshed "0.1.3"]   ;; notify code smell or bad practice that should make you feel bad
                   ;;[lein-pedantic "0.0.5"] ;; deprecated yet not all features implemented yet in lein 2.2.0
                   [lein-pprint "1.1.1"]
                   [lein-clojars "0.9.1"]
@@ -19,7 +27,9 @@
                   [lein-checkouts "1.1.0"]
                   [lein-deps-tree "0.1.2"]
                   [lein-ritz "0.7.0"]
-                  [lein-immutant "0.17.1"]]
+                  [lein-immutant "0.17.1"]
+                  [codox "0.6.4"]           ;; (lein doc) automatic API documentation including link to source code
+                  ]
 
         :aliases {"slamhound" ["run" "-m" "slam.hound"]}}
 
