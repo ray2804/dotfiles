@@ -1,11 +1,13 @@
 {:user {:dependencies [[clj-stacktrace "0.2.5"]
                        ;[org.clojure/tools.namespace "0.2.3"]
-                       [spyscope "0.1.3" :exclusions [clj-time]] ;; easier to debug single- and multi-threaded applications
+                       [spyscope "0.1.3" :exclusions [clj-time]] ;; easier (multi)threaded apps
                        [javert "0.1.0"]
                        [ritz/ritz-nrepl-middleware "0.7.0"]
                        [slamhound "1.3.3"]]
 
-        ;;         plugin name              ;; (command) plugin description of purpose/function/task it performs |115;;
+        ;; --------------------------------
+        ;; Plugins affect leiningen itself
+        ;; --------------------------------
         :plugins [[lein-light "0.0.16"]
                   [lein-difftest "2.0.0"]
                   [lein-marginalia "0.7.1"]
@@ -16,17 +18,26 @@
                   [lein-autoreload "0.1.0"] ;; guarantee when running repl you are up-to-date if files change
                   [lein-simpleton "1.1.0"]  ;; localhost http static server in current directory with autoindex
                   [lein-bikeshed "0.1.3"]   ;; notify code smell or bad practice that should make you feel bad
-                  ;;[lein-pedantic "0.0.5"] ;; deprecated yet not all features implemented yet in lein 2.2.0
+                  ;;[lein-pedantic "0.0.5"] ;; deprecated, use $ lein deps :tree
                   [lein-pprint "1.1.1"]
+                  [lein-annotations "0.1.0"]
                   [lein-clojars "0.9.1"]
                   [lein-localrepo "0.4.1"]
                   [lein-sub "0.2.4"]
                   [lein-kibit "0.0.8"]
                   [lein-outdated "1.0.1"]
+                  [lein-sitemap "0.1.0"]
+                  ;[lein-daemon "0.5.4"]
+                  [lein-clique "0.1.0"]
+                  ;[lein-scrooge "0.1.1"]
                   [lein-create-template "0.1.1"]
                   [lein-checkouts "1.1.0"]
                   [lein-deps-tree "0.1.2"]
                   [lein-ritz "0.7.0"]
+                  [lein-idefiles "0.2.0"]
+                  [lein-environ "0.4.0"]
+                  [lein-ring "0.8.5"]
+                  [lein-cljsbuild "0.3.2"]
                   [lein-immutant "0.17.1"]
                   [codox "0.6.4"]           ;; (lein doc) automatic API documentation including link to source code
                   ]

@@ -15015,3 +15015,122 @@
 2013-06-12 00:45:17	tasuki	how to include one jade from another?
 2013-06-12 00:46:05	tasuki	in certain competing generators (cough, wintersmith, cough), "include scriptname" just works
 2013-06-12 00:47:34	tasuki	despite the awesome name they chose for their project and the ease of handling includes, docpad seems to handle a lot of other things better :)
+2013-06-12 01:02:31	<--	quartzmo (~quartzmo@173-8-92-50-utah.hfc.comcastbusiness.net) has quit (Remote host closed the connection)
+2013-06-12 01:03:07	-->	quartzmo (~quartzmo@173-8-92-50-utah.hfc.comcastbusiness.net) has joined #docpad
+2013-06-12 01:04:06	<--	ashnur (~ashnur@79.117.64.162) has quit (Quit: WeeChat 0.4.1)
+2013-06-12 01:04:24	-->	ashnur (~ashnur@79.117.64.162) has joined #docpad
+2013-06-12 01:04:30	ashnur	tasuki: i use partials for that
+2013-06-12 01:05:24	ashnur	tasuki: and there is no other page generator for node.js like docpad
+2013-06-12 01:05:29	ashnur	not even close
+2013-06-12 01:07:45	<--	quartzmo (~quartzmo@173-8-92-50-utah.hfc.comcastbusiness.net) has quit (Ping timeout: 248 seconds)
+2013-06-12 01:11:02	-->	quartzmo (~quartzmo@173-8-92-50-utah.hfc.comcastbusiness.net) has joined #docpad
+2013-06-12 01:16:52	tasuki	ah, that looks like it'd do... but an extra plugin and an ugly syntax :(
+2013-06-12 01:17:34	<--	quartzmo (~quartzmo@173-8-92-50-utah.hfc.comcastbusiness.net) has quit (Remote host closed the connection)
+2013-06-12 01:18:08	-->	quartzmo (~quartzmo@173-8-92-50-utah.hfc.comcastbusiness.net) has joined #docpad
+2013-06-12 01:18:10	tasuki	ashnur, I actually need very little of my static generator - direct processing of .coffee, .sass, .jade, with includes in the last one
+2013-06-12 01:18:46	tasuki	docpad seems like a bit of an overkill tbh
+2013-06-12 01:18:58	--	irc: disconnected from server
+2013-06-12 01:19:26	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #docpad
+2013-06-12 01:19:26	--	Topic for #docpad is "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-06-12 01:19:26	--	Topic set by EtherealMind1 (~etherealm@87.242.165.59) on Mon, 13 May 2013 15:55:08
+2013-06-12 01:19:26	--	Nicks #docpad: [ashnur balupton elf-pavlik eth0lo nexusIX quartzmo shama shaunch supersym tasuki thanpolas]
+2013-06-12 01:19:26	--	Channel #docpad: 11 nicks (0 ops, 0 halfops, 0 voices, 11 normals)
+2013-06-12 01:19:29	--	Mode #docpad [+t]
+2013-06-12 01:19:29	--	Channel created on Sat, 26 May 2012 12:12:13
+2013-06-12 01:21:59	ashnur	partial is actually something what i don't consider extra
+2013-06-12 01:21:59	tasuki	also, ah, I'm an idiot
+2013-06-12 01:22:02	tasuki	or just tired
+2013-06-12 01:22:18	tasuki	include _scripts.html.jade
+2013-06-12 01:22:21	tasuki	that works
+2013-06-12 01:22:22	ashnur	the syntax is a bit ugly, because you have to pass @ as a second argument 
+2013-06-12 01:22:41	<--	quartzmo (~quartzmo@173-8-92-50-utah.hfc.comcastbusiness.net) has quit (Ping timeout: 248 seconds)
+2013-06-12 01:22:41	ashnur	yeah, i never used jade, i like hamlcoffee much more
+2013-06-12 01:23:02	ashnur	it is kinda similar like jade, has less features, but i like the approach more
+2013-06-12 01:24:26	tasuki	hmm, I used to like haml (never used hamlcoffee), but find jade so much cleaner
+2013-06-12 01:24:50	tasuki	it's basically haml without the % and => and silly ruby stuff, no?
+2013-06-12 01:25:01	ashnur	no, it is more % :D
+2013-06-12 01:25:04	ashnur	less =>
+2013-06-12 01:25:23	ashnur	https://github.com/netzpirat/haml-coffee
+2013-06-12 01:25:47	ashnur	i don't like that in jade html tags are just string with no special format
+2013-06-12 01:26:05	ashnur	and because of this you have to put pipes when you use multiline strings
+2013-06-12 01:26:43	ashnur	but if you are used to jade, then it really doesn't matter
+2013-06-12 01:26:57	ashnur	i always tried to avoid it
+2013-06-12 01:29:23	tasuki	ah, good point
+2013-06-12 01:30:03	 *	tasuki should've gone to sleep an hour ago
+2013-06-12 01:30:25	tasuki	ashnur, thanks for enlightening me, see you later!
+2013-06-12 01:32:15	ashnur	gnite
+2013-06-12 01:34:39	<--	tasuki (~tasuki@87.114.136.25) has quit (Ping timeout: 252 seconds)
+2013-06-12 01:37:14	--	irc: disconnected from server
+2013-06-12 15:09:46	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #docpad
+2013-06-12 15:09:46	--	Topic for #docpad is "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-06-12 15:09:46	--	Topic set by EtherealMind1 (~etherealm@87.242.165.59) on Mon, 13 May 2013 15:55:08
+2013-06-12 15:09:46	--	Nicks #docpad: [aesop ashnur balupton elf-pavlik eth0lo nexusIX shaunch supersym thanpolas]
+2013-06-12 15:09:46	--	Channel #docpad: 9 nicks (0 ops, 0 halfops, 0 voices, 9 normals)
+2013-06-12 15:09:50	--	Mode #docpad [+t]
+2013-06-12 15:09:50	--	Channel created on Sat, 26 May 2012 12:12:13
+2013-06-12 15:10:33	supersym	this is so sweet https://github.com/Engelberg/instaparse
+2013-06-12 15:20:51	nexusIX	aesop, I just use Ctrl-C to stop it
+2013-06-12 15:21:53	nexusIX	Hey supersym, if you've got a minute I was looking for some advice...
+2013-06-12 15:21:58	aesop	thanks, nexusIX, but that isn't working
+2013-06-12 15:22:17	nexusIX	Really? What kind of system are you using?
+2013-06-12 15:22:28	aesop	mac os x mountain lion
+2013-06-12 15:23:04	nexusIX	Ok, I'm on Linux, but command-C or whatever the Mac terminal uses to shut down a console application should do it
+2013-06-12 15:24:19	aesop	Yes, I've found that to be the case with other servers
+2013-06-12 15:39:20	<--	aesop (18a16919@gateway/web/freenode/ip.24.161.105.25) has quit (Quit: Page closed)
+2013-06-12 16:35:52	--	irc: disconnected from server
+2013-06-12 19:53:46	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #docpad
+2013-06-12 19:53:46	--	Topic for #docpad is "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-06-12 19:53:46	--	Topic set by EtherealMind1 (~etherealm@87.242.165.59) on Mon, 13 May 2013 15:55:08
+2013-06-12 19:53:46	--	Nicks #docpad: [balupton elf-pavlik eth0lo EtherealMind1 nexusIX quartzmo shama shaunch supersym thanpolas]
+2013-06-12 19:53:46	--	Channel #docpad: 10 nicks (0 ops, 0 halfops, 0 voices, 10 normals)
+2013-06-12 19:53:50	--	Mode #docpad [+t]
+2013-06-12 19:53:50	--	Channel created on Sat, 26 May 2012 12:12:13
+2013-06-12 20:36:52	<--	EtherealMind1 (~etherealm@87.242.167.133) has quit (Remote host closed the connection)
+2013-06-12 20:36:56	-->	ashnur (~ashnur@79.117.64.162) has joined #docpad
+2013-06-12 20:39:36	-->	EtherealMind1 (~etherealm@87.242.167.133) has joined #docpad
+2013-06-12 21:25:35	-->	kaspertidemann (~Kasper@108.60.106.52) has joined #docpad
+2013-06-12 21:58:52	<--	EtherealMind1 (~etherealm@87.242.167.133) has quit (Remote host closed the connection)
+2013-06-12 23:06:22	<--	thanpolas (~thanpolas@ppp-2-84-31-199.home.otenet.gr) has quit (Remote host closed the connection)
+2013-06-12 23:11:25	--	Notice(GitHub100): [docpad-documentation] leighhowells opened pull request #31: Updated showcase.html.md (master...prose-patch-1)  http://git.io/TvJKNg
+2013-06-12 23:12:48	--	Notice(GitHub199): [docpad-documentation] leighhowells opened pull request #32: Updated showcase.html.md (master...prose-patch-2)  http://git.io/OTLrlw
+2013-06-12 23:43:42	-->	alexkaare (~alexkaare@host86-168-225-118.range86-168.btcentralplus.com) has joined #docpad
+2013-06-13 00:49:11	-->	tasuki (~tasuki@87.114.136.25) has joined #docpad
+2013-06-13 00:49:35	tasuki	Before we continue, have you read and agree to DocPad's Terms of Service (http://bevry.me/tos) and Privacy Policy (http://bevry.me/privacy)? [Y/n]
+2013-06-13 00:49:38	tasuki	seriously?
+2013-06-13 00:56:56	tasuki	Why is this necessary?
+2013-06-13 00:57:20	tasuki	No other static site generator requires you to agree to ToS before running it.
+2013-06-13 00:59:20	tasuki	Or perhaps more relevantly, I don't recall ever being asked similar questions by a BSD-licensed software.
+2013-06-13 01:08:18	ashnur	i remember balupton explained this once or twice, but I do not remember what was the actual explanation. 
+2013-06-13 01:08:58	ashnur	but it was a good explanation, that i remember :D
+2013-06-13 01:09:28	tasuki	T_T
+2013-06-13 01:10:20	tasuki	There ought to be a way to disable these questions through a cli option.
+2013-06-13 01:12:26	tasuki	For some reason, the following doesn't work: echo -e "y\nn\n" | docpad run
+2013-06-13 01:12:48	<--	alexkaare (~alexkaare@host86-168-225-118.range86-168.btcentralplus.com) has quit (Ping timeout: 240 seconds)
+2013-06-13 01:17:39	tasuki	ah, there's a config option for it
+2013-06-13 01:17:46	tasuki	ok, that's good enough I guess
+2013-06-13 01:18:03	 *	tasuki was very close to raging and going back to middleman
+2013-06-13 01:19:53	-->	alexkaare (~alexkaare@host86-134-52-10.range86-134.btcentralplus.com) has joined #docpad
+2013-06-13 01:20:41	<--	quartzmo (~quartzmo@173-8-92-50-utah.hfc.comcastbusiness.net) has quit (Remote host closed the connection)
+2013-06-13 01:21:15	-->	quartzmo (~quartzmo@173-8-92-50-utah.hfc.comcastbusiness.net) has joined #docpad
+2013-06-13 01:23:06	tasuki	my build is green \o/
+2013-06-13 01:23:13	<--	tasuki (~tasuki@87.114.136.25) has quit (Quit: good night!)
+2013-06-13 01:25:52	<--	quartzmo (~quartzmo@173-8-92-50-utah.hfc.comcastbusiness.net) has quit (Ping timeout: 252 seconds)
+2013-06-13 01:46:33	<--	kaspertidemann (~Kasper@108.60.106.52) has quit (Quit: kaspertidemann)
+2013-06-13 02:24:11	<--	alexkaare (~alexkaare@host86-134-52-10.range86-134.btcentralplus.com) has quit (Remote host closed the connection)
+2013-06-13 03:02:43	--	Notice(GitHub177): [docpad-documentation] balupton pushed 2 new commits to master: http://git.io/YLO13g
+2013-06-13 03:02:43	--	Notice(GitHub177): docpad-documentation/master c5aa11b leighhowells: Updated showcase.html.md
+2013-06-13 03:02:43	--	Notice(GitHub177): docpad-documentation/master a860a50 Benjamin Arthur Lupton: Merge pull request #31 from leighhowells/prose-patch-1...
+2013-06-13 03:57:15	--	irc: disconnected from server
+2013-06-15 10:54:04	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #docpad
+2013-06-15 10:54:04	--	Topic for #docpad is "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-06-15 10:54:04	--	Topic set by EtherealMind1 (~etherealm@87.242.165.59) on Mon, 13 May 2013 15:55:08
+2013-06-15 10:54:04	--	Nicks #docpad: [ashnur balupton elf-pavlik EricLeslie eth0lo_ nexusIX supersym]
+2013-06-15 10:54:04	--	Channel #docpad: 7 nicks (0 ops, 0 halfops, 0 voices, 7 normals)
+2013-06-15 10:54:08	--	Mode #docpad [+t]
+2013-06-15 10:54:08	--	Channel created on Sat, 26 May 2012 12:12:13
+2013-06-15 12:16:39	<--	EricLeslie (~EricLesli@68-189-102-33.dhcp.wtvl.ca.charter.com) has quit (Remote host closed the connection)
+2013-06-15 13:09:40	<--	eth0lo_ (~eth0lo@office.xing.com) has quit (Read error: Connection reset by peer)
+2013-06-15 13:09:58	-->	eth0lo (~eth0lo@office.xing.com) has joined #docpad
+2013-06-15 13:10:46	<--	ashnur (~ashnur@79.117.81.101) has quit (Quit: WeeChat 0.4.1)
+2013-06-15 15:30:42	<--	eth0lo (~eth0lo@office.xing.com) has quit (Ping timeout: 264 seconds)
+2013-06-15 16:30:06	-->	ashnur (~ashnur@79.117.81.101) has joined #docpad

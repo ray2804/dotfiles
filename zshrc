@@ -103,6 +103,9 @@ export AURLINKS=comments
 #  cd $STOW && stow -D appname
 #export STOW=/usr/local/stow
 
+# Semantic tag-based file system
+export TAGXFS_REPOSITORY="$HOME/.semfs"
+
 # Explicit language since some apps need it
 export LANG=en_US.UTF-8
 
@@ -194,7 +197,7 @@ export PATH="${PATH}:/usr/bin/core_perl"
 #export JAVA_HOME="/usr/lib/jvm/java-7-openjdk/jre"
 #export JAVA_HOME=/usr/lib/jvm/java-7-openjdk/jre
 #export PATH="$PATH:/usr/lib/jvm/java-7-openjdk/jre/bin"
-
+export PATH="$PATH:/usr/share/elasticsearch/bin"
 # Enable this for non-reparenting window managers
 #export _JAVA_AWT_WM_NONREPARENTING=1
 

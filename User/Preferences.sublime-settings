@@ -2,7 +2,7 @@
 	"auto_match_enabled": true,
 	"caret_style": "wide",
 	"close_windows_when_empty": true,
-	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"color_scheme": "Packages/User/Themes/joshi.tmTheme",
 	"dictionary": "Packages/Language - English/en_US.dic",
 	"draw_indent_guides": true,
 	"draw_white_space": "all",
