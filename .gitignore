@@ -1,8 +1,10 @@
 *.pyc
+*.pyo
+*.jar
+*.so
+__pycache__/
 purple/logs/*
-*lein/indices
+lein/indices
 lein/self-installs/
 lein/immutant
-*weechat/weechat.log
-*.pyo
-__pycache__/
+weechat/weechat.log
