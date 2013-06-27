@@ -1,6 +1,7 @@
 *.pyc
 purple/logs/*
 *lein/indices
+lein/immutant
 *weechat/weechat.log
 *.pyo
 __pycache__/

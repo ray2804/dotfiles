@@ -195,3 +195,4 @@ yaourt -Rc systemd-ckboot
 yaourt -Rc zenity
 sudo reboot
 startx
+mvn test -X

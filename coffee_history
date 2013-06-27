@@ -2028,3 +2028,5 @@ console.dir confuse
 confuse = require('confuse')()
 console.dir confuse
 require 'bower'
+x = require 'Nl'
+x = require 'Nl.js'

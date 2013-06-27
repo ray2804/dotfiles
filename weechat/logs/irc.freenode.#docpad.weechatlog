@@ -15134,3 +15134,239 @@
 2013-06-15 13:10:46	<--	ashnur (~ashnur@79.117.81.101) has quit (Quit: WeeChat 0.4.1)
 2013-06-15 15:30:42	<--	eth0lo (~eth0lo@office.xing.com) has quit (Ping timeout: 264 seconds)
 2013-06-15 16:30:06	-->	ashnur (~ashnur@79.117.81.101) has joined #docpad
+2013-06-15 19:20:36	-->	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has joined #docpad
+2013-06-15 19:27:30	<--	ashnur (~ashnur@79.117.81.101) has quit (Quit: WeeChat 0.4.1)
+2013-06-15 20:27:48	-->	eth0lo (~eth0lo@office.xing.com) has joined #docpad
+2013-06-15 22:19:13	-->	ashnur (~ashnur@79.117.81.101) has joined #docpad
+2013-06-15 22:24:02	-->	phaer (~user@chello080108051063.9.11.vie.surfer.at) has joined #docpad
+2013-06-15 22:29:02	phaer	Is anyone working on issue #32? I'd be interested on thinking about it as it's the last thing i really miss on dopad compared to, say, hakyll.
+2013-06-16 01:22:36	<--	ashnur (~ashnur@79.117.81.101) has quit (Quit: WeeChat 0.4.1)
+2013-06-16 01:22:53	-->	ashnur (~ashnur@79.117.81.101) has joined #docpad
+2013-06-16 02:43:46	--	irc: disconnected from server
+2013-06-16 11:21:18	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #docpad
+2013-06-16 11:21:18	--	Topic for #docpad is "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-06-16 11:21:18	--	Topic set by EtherealMind1 (~etherealm@87.242.165.59) on Mon, 13 May 2013 15:55:08
+2013-06-16 11:21:18	--	Nicks #docpad: [balupton elf-pavlik eth0lo phaer supersym]
+2013-06-16 11:21:18	--	Channel #docpad: 5 nicks (0 ops, 0 halfops, 0 voices, 5 normals)
+2013-06-16 11:21:22	--	Mode #docpad [+t]
+2013-06-16 11:21:22	--	Channel created on Sat, 26 May 2012 12:12:13
+2013-06-16 12:52:11	<--	phaer (~user@chello080108051063.9.11.vie.surfer.at) has quit (Remote host closed the connection)
+2013-06-16 13:41:48	-->	ashnur (~ashnur@79.117.81.101) has joined #docpad
+2013-06-16 16:33:12	-->	dospuntocero (~dospuntoc@pc-125-165-215-201.cm.vtr.net) has joined #docpad
+2013-06-16 16:33:28	dospuntocero	hello someone here?
+2013-06-16 16:38:06	ashnur	might be
+2013-06-16 16:38:11	dospuntocero	hey
+2013-06-16 16:38:28	dospuntocero	im having some trouble with defining my production site
+2013-06-16 16:38:45	ashnur	btw, a tip for you in the future. always ask your questions, don't ask if there is someone here or not
+2013-06-16 16:38:53	ashnur	what trouble?
+2013-06-16 16:39:04	dospuntocero	the production site is loading livereload
+2013-06-16 16:39:33	dospuntocero	and in my docpad.cofee i have it defined
+2013-06-16 16:39:59	dospuntocero	but* probably is because im using apache proxies to redirect to the real url...
+2013-06-16 16:41:13	dospuntocero	and my other problem is docpad is not serving my site once in a while just because... it just stops serving anything to the browser until i load other docpad site, then kill that instance and go back to my site...
+2013-06-16 16:41:35	dospuntocero	maybe its because my site is filled with images...
+2013-06-16 16:41:48	ashnur	i am sorry, i have no idea what you are doing
+2013-06-16 16:42:03	ashnur	if you are using apache you probably shouldn't use docpad-server
+2013-06-16 16:42:06	dospuntocero	in my config:
+2013-06-16 16:42:10	dospuntocero	    # Specify some site properties
+2013-06-16 16:42:11	dospuntocero	    site:
+2013-06-16 16:42:11	dospuntocero	      # The production url of our website
+2013-06-16 16:42:12	dospuntocero	      url: "http://dospuntocero.cl"
+2013-06-16 16:43:04	dospuntocero	but my server doesnt allow to kill apache, so i had to use apache proxies to redirect the calls to that apache site to my docpad site running on port 9778
+2013-06-16 16:44:34	ashnur	is your site a dynamic one?
+2013-06-16 16:44:55	dospuntocero	meaning?
+2013-06-16 16:44:55	ashnur	because if not, you could just serve plain html&js
+2013-06-16 16:45:11	dospuntocero	oh already tried that, but the latest version of docpad has that broken
+2013-06-16 16:45:22	dospuntocero	it just cant deploy my site.
+2013-06-16 16:45:26	dospuntocero	already tried
+2013-06-16 16:45:29	ashnur	meaning that if you do not know what is the difference between static and dynamic sites, then you have not read the documentation
+2013-06-16 16:46:57	--	irc: disconnected from server
+2013-06-18 02:58:46	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #docpad
+2013-06-18 02:58:46	--	Topic for #docpad is "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-06-18 02:58:46	--	Topic set by EtherealMind1 (~etherealm@87.242.165.59) on Mon, 13 May 2013 15:55:08
+2013-06-18 02:58:46	--	Nicks #docpad: [abrams ashnur balupton elf-pavlik eth0lo_ nexusIX shama supersym thanpolas]
+2013-06-18 02:58:46	--	Channel #docpad: 9 nicks (0 ops, 0 halfops, 0 voices, 9 normals)
+2013-06-18 02:58:51	--	Mode #docpad [+t]
+2013-06-18 02:58:51	--	Channel created on Sat, 26 May 2012 12:12:13
+2013-06-18 03:00:22	--	irc: disconnected from server
+2013-06-18 03:00:39	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #docpad
+2013-06-18 03:00:39	--	Topic for #docpad is "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-06-18 03:00:39	--	Topic set by EtherealMind1 (~etherealm@87.242.165.59) on Mon, 13 May 2013 15:55:08
+2013-06-18 03:00:39	--	Nicks #docpad: [abrams ashnur balupton elf-pavlik eth0lo_ nexusIX shama supersym thanpolas]
+2013-06-18 03:00:39	--	Channel #docpad: 9 nicks (0 ops, 0 halfops, 0 voices, 9 normals)
+2013-06-18 03:00:43	--	Mode #docpad [+t]
+2013-06-18 03:00:43	--	Channel created on Sat, 26 May 2012 12:12:13
+2013-06-18 03:01:32	--	irc: disconnected from server
+2013-06-18 03:01:51	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #docpad
+2013-06-18 03:01:51	--	Topic for #docpad is "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-06-18 03:01:51	--	Topic set by EtherealMind1 (~etherealm@87.242.165.59) on Mon, 13 May 2013 15:55:08
+2013-06-18 03:01:51	--	Nicks #docpad: [abrams ashnur balupton elf-pavlik eth0lo_ nexusIX shama supersym thanpolas]
+2013-06-18 03:01:51	--	Channel #docpad: 9 nicks (0 ops, 0 halfops, 0 voices, 9 normals)
+2013-06-18 03:01:55	--	Mode #docpad [+t]
+2013-06-18 03:01:55	--	Channel created on Sat, 26 May 2012 12:12:13
+2013-06-18 03:35:33	<--	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has quit (Quit: Leaving...)
+2013-06-18 04:35:48	-->	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has joined #docpad
+2013-06-18 04:41:42	<--	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has quit (Ping timeout: 268 seconds)
+2013-06-18 04:43:26	--	irc: disconnected from server
+2013-06-18 09:35:47	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #docpad
+2013-06-18 09:35:47	--	Topic for #docpad is "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-06-18 09:35:47	--	Topic set by EtherealMind1 (~etherealm@87.242.165.59) on Mon, 13 May 2013 15:55:08
+2013-06-18 09:35:47	--	Nicks #docpad: [abrams balupton elf-pavlik eth0lo_ nexusIX supersym thanpolas]
+2013-06-18 09:35:47	--	Channel #docpad: 7 nicks (0 ops, 0 halfops, 0 voices, 7 normals)
+2013-06-18 09:35:51	--	Mode #docpad [+t]
+2013-06-18 09:35:51	--	Channel created on Sat, 26 May 2012 12:12:13
+2013-06-18 09:59:30	<--	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has quit (Quit: Leaving...)
+2013-06-18 10:52:20	-->	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has joined #docpad
+2013-06-18 10:57:15	<--	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has quit (Ping timeout: 268 seconds)
+2013-06-18 11:52:55	-->	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has joined #docpad
+2013-06-18 11:57:48	<--	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has quit (Ping timeout: 252 seconds)
+2013-06-18 12:53:26	-->	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has joined #docpad
+2013-06-18 12:58:15	<--	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has quit (Ping timeout: 260 seconds)
+2013-06-18 13:53:53	-->	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has joined #docpad
+2013-06-18 13:58:43	<--	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has quit (Ping timeout: 252 seconds)
+2013-06-18 14:17:18	-->	ashnur (~ashnur@79.117.88.231) has joined #docpad
+2013-06-18 14:17:48	-->	EtherealMind1 (~etherealm@87.242.165.180) has joined #docpad
+2013-06-18 14:50:09	<--	EtherealMind1 (~etherealm@87.242.165.180) has quit (Remote host closed the connection)
+2013-06-18 14:52:18	-->	EtherealMind1 (~etherealm@87.242.165.180) has joined #docpad
+2013-06-18 14:54:25	-->	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has joined #docpad
+2013-06-18 14:58:17	<--	EtherealMind1 (~etherealm@87.242.165.180) has quit (Read error: Connection reset by peer)
+2013-06-18 14:58:42	-->	EtherealMind1 (~etherealm@87.242.165.180) has joined #docpad
+2013-06-18 15:00:15	<--	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has quit (Ping timeout: 256 seconds)
+2013-06-18 15:16:44	<--	EtherealMind1 (~etherealm@87.242.165.180) has quit (Remote host closed the connection)
+2013-06-18 15:44:30	-->	DiogoMoretti (c887063f@gateway/web/freenode/ip.200.135.6.63) has joined #docpad
+2013-06-18 15:45:25	DiogoMoretti	Hello
+2013-06-18 15:45:42	DiogoMoretti	I need create "Read More..." in my blog posts.
+2013-06-18 15:54:56	-->	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has joined #docpad
+2013-06-18 15:59:51	<--	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has quit (Ping timeout: 240 seconds)
+2013-06-18 16:55:28	-->	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has joined #docpad
+2013-06-18 17:00:06	<--	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has quit (Ping timeout: 264 seconds)
+2013-06-18 17:25:34	-->	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has joined #docpad
+2013-06-18 17:30:31	<--	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has quit (Ping timeout: 264 seconds)
+2013-06-18 17:35:21	-->	quartzmo (~quartzmo@173-8-92-50-utah.hfc.comcastbusiness.net) has joined #docpad
+2013-06-18 18:09:39	-->	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has joined #docpad
+2013-06-18 18:16:21	<--	quartzmo (~quartzmo@173-8-92-50-utah.hfc.comcastbusiness.net) has quit (Remote host closed the connection)
+2013-06-18 18:26:03	-->	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has joined #docpad
+2013-06-18 18:26:58	DiogoMoretti	Hello.... any people online?
+2013-06-18 18:28:19	-->	quartzmo (~quartzmo@173-8-92-50-utah.hfc.comcastbusiness.net) has joined #docpad
+2013-06-18 18:30:16	<--	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has quit (Ping timeout: 240 seconds)
+2013-06-18 18:45:59	<--	quartzmo (~quartzmo@173-8-92-50-utah.hfc.comcastbusiness.net) has quit (Remote host closed the connection)
+2013-06-18 18:52:06	-->	EtherealMind1 (~etherealm@87.242.165.180) has joined #docpad
+2013-06-18 18:56:35	-->	quartzmo (~quartzmo@173-8-92-50-utah.hfc.comcastbusiness.net) has joined #docpad
+2013-06-18 19:03:06	-->	ADThomsen (56347a1c@gateway/web/freenode/ip.86.52.122.28) has joined #docpad
+2013-06-18 19:24:42	-->	shama_ (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has joined #docpad
+2013-06-18 19:25:31	<--	shama_ (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has quit (Client Quit)
+2013-06-18 19:25:44	-->	shama_ (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has joined #docpad
+2013-06-18 19:26:19	<--	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has quit (Ping timeout: 264 seconds)
+2013-06-18 19:26:24	--	shama_ is now known as shama
+2013-06-18 19:26:26	-->	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has joined #docpad
+2013-06-18 19:31:13	<--	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has quit (Ping timeout: 276 seconds)
+2013-06-18 20:46:22	<--	DiogoMoretti (c887063f@gateway/web/freenode/ip.200.135.6.63) has quit (Quit: Page closed)
+2013-06-18 20:56:50	-->	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has joined #docpad
+2013-06-18 20:57:11	<--	EtherealMind1 (~etherealm@87.242.165.180) has quit (Remote host closed the connection)
+2013-06-18 20:59:02	<--	ADThomsen (56347a1c@gateway/web/freenode/ip.86.52.122.28) has quit (Quit: Page closed)
+2013-06-18 21:01:13	<--	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has quit (Ping timeout: 246 seconds)
+2013-06-18 21:47:22	-->	EtherealMind1 (~etherealm@87.242.165.180) has joined #docpad
+2013-06-18 21:50:33	<--	EtherealMind1 (~etherealm@87.242.165.180) has quit (Remote host closed the connection)
+2013-06-18 21:57:12	-->	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has joined #docpad
+2013-06-18 22:01:37	<--	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has quit (Ping timeout: 248 seconds)
+2013-06-18 22:57:36	-->	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has joined #docpad
+2013-06-18 23:00:14	<--	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has quit (Remote host closed the connection)
+2013-06-18 23:01:09	<--	ashnur (~ashnur@79.117.88.231) has quit (Quit: WeeChat 0.4.1)
+2013-06-18 23:02:12	<--	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has quit (Ping timeout: 252 seconds)
+2013-06-18 23:07:32	-->	slindberg (~slindberg@173-164-85-85-Oregon.hfc.comcastbusiness.net) has joined #docpad
+2013-06-18 23:49:17	-->	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has joined #docpad
+2013-06-18 23:58:02	-->	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has joined #docpad
+2013-06-19 00:02:23	<--	abrams (~abrams@99-8-184-224.lightspeed.snfcca.sbcglobal.net) has quit (Ping timeout: 240 seconds)
+2013-06-19 01:17:22	<--	quartzmo (~quartzmo@173-8-92-50-utah.hfc.comcastbusiness.net) has quit (Remote host closed the connection)
+2013-06-19 02:02:53	--	irc: disconnected from server
+2013-06-19 18:31:05	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #docpad
+2013-06-19 18:31:05	--	Topic for #docpad is "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-06-19 18:31:05	--	Topic set by EtherealMind1 (~etherealm@87.242.165.59) on Mon, 13 May 2013 15:55:08
+2013-06-19 18:31:05	--	Nicks #docpad: [ashnur balupton elf-pavlik nexusIX quartzmo shama steventrevathan supersym thanpolas]
+2013-06-19 18:31:05	--	Channel #docpad: 9 nicks (0 ops, 0 halfops, 0 voices, 9 normals)
+2013-06-19 18:31:09	--	Mode #docpad [+t]
+2013-06-19 18:31:09	--	Channel created on Sat, 26 May 2012 12:12:13
+2013-06-19 18:44:17	<--	thanpolas (~thanpolas@ppp-2-84-31-199.home.otenet.gr) has quit (Remote host closed the connection)
+2013-06-19 19:08:44	-->	slindberg (~slindberg@173-164-85-85-Oregon.hfc.comcastbusiness.net) has joined #docpad
+2013-06-19 19:55:35	supersym	cuteness http://www.cleverbot.com/
+2013-06-19 19:58:12	supersym	it even speaks dutch ><
+2013-06-19 20:29:43	ashnur	is it updated? or the same old thing?
+2013-06-19 21:12:26	<--	steventrevathan (~steventre@64.119.141.126) has quit (Quit: steventrevathan)
+2013-06-19 21:58:56	-->	steventrevathan (~steventre@64.119.141.126) has joined #docpad
+2013-06-19 22:01:25	<--	ashnur (~ashnur@79.117.79.106) has quit (Quit: WeeChat 0.4.1)
+2013-06-19 22:25:00	--	irc: disconnected from server
+2013-06-21 11:46:12	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #docpad
+2013-06-21 11:46:12	--	Topic for #docpad is "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-06-21 11:46:12	--	Topic set by EtherealMind1 (~etherealm@87.242.165.59) on Mon, 13 May 2013 15:55:08
+2013-06-21 11:46:12	--	Nicks #docpad: [ashnur balupton elf-pavlik nexusIX supersym thanpolas]
+2013-06-21 11:46:12	--	Channel #docpad: 6 nicks (0 ops, 0 halfops, 0 voices, 6 normals)
+2013-06-21 11:46:16	--	Mode #docpad [+t]
+2013-06-21 11:46:17	--	Channel created on Sat, 26 May 2012 12:12:13
+2013-06-21 12:02:22	<--	ashnur (~ashnur@79.117.73.249) has quit (Ping timeout: 268 seconds)
+2013-06-21 13:08:42	-->	ashnur (~ashnur@79.117.74.4) has joined #docpad
+2013-06-21 14:56:34	-->	EtherealMind1 (~etherealm@87.242.165.180) has joined #docpad
+2013-06-21 15:04:30	-->	quartzmo (~quartzmo@173-8-92-50-utah.hfc.comcastbusiness.net) has joined #docpad
+2013-06-21 15:08:53	<--	quartzmo (~quartzmo@173-8-92-50-utah.hfc.comcastbusiness.net) has quit (Ping timeout: 248 seconds)
+2013-06-21 15:16:45	-->	steventrevathan (~steventre@64.119.141.126) has joined #docpad
+2013-06-21 15:18:43	<--	steventrevathan (~steventre@64.119.141.126) has quit (Read error: Connection reset by peer)
+2013-06-21 15:18:49	-->	steventrevathan_ (~steventre@64.119.141.126) has joined #docpad
+2013-06-21 15:34:08	<--	steventrevathan_ (~steventre@64.119.141.126) has quit (Quit: steventrevathan_)
+2013-06-21 16:01:06	-->	steventrevathan (~steventre@64.119.141.126) has joined #docpad
+2013-06-21 16:22:06	<--	EtherealMind1 (~etherealm@87.242.165.180) has quit (Remote host closed the connection)
+2013-06-21 17:43:06	-->	quartzmo (~quartzmo@173-8-92-50-utah.hfc.comcastbusiness.net) has joined #docpad
+2013-06-21 18:27:21	<--	steventrevathan (~steventre@64.119.141.126) has quit (Quit: steventrevathan)
+2013-06-21 19:45:23	-->	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has joined #docpad
+2013-06-21 19:52:32	-->	steventrevathan (~steventre@64.119.141.126) has joined #docpad
+2013-06-21 20:14:51	<--	thanpolas (~thanpolas@ppp-2-84-31-199.home.otenet.gr) has quit (Read error: Connection reset by peer)
+2013-06-21 20:17:18	-->	thanpolas (~thanpolas@ppp-2-84-31-199.home.otenet.gr) has joined #docpad
+2013-06-21 20:24:19	<--	steventrevathan (~steventre@64.119.141.126) has quit (Quit: steventrevathan)
+2013-06-21 20:26:43	-->	EtherealMind1 (~etherealm@87.242.165.180) has joined #docpad
+2013-06-21 20:29:13	-->	steventrevathan (~steventre@64.119.141.126) has joined #docpad
+2013-06-21 20:44:22	<--	EtherealMind1 (~etherealm@87.242.165.180) has quit (Remote host closed the connection)
+2013-06-21 23:10:42	--	irc: disconnected from server
+2013-06-25 22:56:42	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #docpad
+2013-06-25 22:56:42	--	Topic for #docpad is "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-06-25 22:56:42	--	Topic set by EtherealMind1 (~etherealm@87.242.165.59) on Mon, 13 May 2013 15:55:08
+2013-06-25 22:56:42	--	Nicks #docpad: [balupton Delapouite elf-pavlik Guest33335 nexusIX perki quartzmo shama shaunch supersym thanpolas]
+2013-06-25 22:56:42	--	Channel #docpad: 11 nicks (0 ops, 0 halfops, 0 voices, 11 normals)
+2013-06-25 22:56:42	--	Notice(hobana.freenode.net): [freenode-info] help freenode weed out clonebots -- please register your IRC nick and auto-identify: http://freenode.net/faq.shtml#nicksetup
+2013-06-25 22:56:45	--	Mode #docpad [+t]
+2013-06-25 22:56:45	--	Channel created on Sat, 26 May 2012 12:12:13
+2013-06-25 23:07:56	-->	slindberg (~slindberg@173-164-85-85-Oregon.hfc.comcastbusiness.net) has joined #docpad
+2013-06-25 23:09:41	balupton	Is DocPad v6.42.2 working for everyone?
+2013-06-25 23:12:53	-->	robmen (322e9880@gateway/web/freenode/ip.50.46.152.128) has joined #docpad
+2013-06-25 23:14:03	<--	robmen (322e9880@gateway/web/freenode/ip.50.46.152.128) has quit (Client Quit)
+2013-06-25 23:25:25	-->	kendallclark (42976412@gateway/web/freenode/ip.66.151.100.18) has joined #docpad
+2013-06-25 23:30:00	<--	thanpolas (~thanpolas@ppp-2-84-31-199.home.otenet.gr) has quit (Remote host closed the connection)
+2013-06-25 23:54:25	-->	steventrevathan (~steventre@pool-74-103-231-9.prvdri.east.verizon.net) has joined #docpad
+2013-06-25 23:56:01	<--	kendallclark (42976412@gateway/web/freenode/ip.66.151.100.18) has quit (Quit: Page closed)
+2013-06-26 00:21:53	<--	Delapouite (~Delapouit@ip-163.net-81-220-59.lyon.rev.numericable.fr) has quit (Quit: Leaving)
+2013-06-26 00:25:41	quartzmo	balupton sorry didn't try it yet... but you release over it i will, actually need to update a site soon
+2013-06-26 00:35:47	balupton	no worries
+2013-06-26 00:36:00	balupton	just fixed the issue that was reported, was with the jade plugin, all fixed now :)
+2013-06-26 00:38:55	quartzmo	balupton what's your thinking on bower, component, etc? just point me to a gh issue or prior discussion if it exists
+2013-06-26 00:43:27	balupton	we should utilise them where applicable - https://github.com/bevry/docpad/issues/524
+2013-06-26 00:47:26	quartzmo	balupton that's a good issue title imho
+2013-06-26 00:49:25	quartzmo	i tried yo/bower/grunt to do a simple 1 page site, but seriously missed docpad for something even so simple, wrote it up here: http://blog.scriptybooks.com/landing-page-with-yeoman-bower-grunt-and-node/
+2013-06-26 00:50:06	quartzmo	however bridging docpad somehow to the good parts of grunt ecosystem seems worth thinking about
+2013-06-26 01:37:28	<--	slindberg (~slindberg@173-164-85-85-Oregon.hfc.comcastbusiness.net) has quit (Quit: sleep)
+2013-06-26 02:14:55	<--	steventrevathan (~steventre@pool-74-103-231-9.prvdri.east.verizon.net) has quit (Quit: steventrevathan)
+2013-06-26 03:54:08	-->	steventrevathan (~steventre@pool-74-103-231-9.prvdri.east.verizon.net) has joined #docpad
+2013-06-26 04:10:27	<--	steventrevathan (~steventre@pool-74-103-231-9.prvdri.east.verizon.net) has quit (Quit: steventrevathan)
+2013-06-26 06:22:33	--	Notice(GitHub147): [docpad] balupton created dev-suspendcollectionsnew (+1 new commit): http://git.io/BtXyPQ
+2013-06-26 06:22:33	--	Notice(GitHub147): docpad/dev-suspendcollectionsnew 8838d3f Benjamin Lupton: attempt at suspending collections
+2013-06-26 06:22:35	--	Notice(GitHub159): [docpad] balupton merged dev into master: http://git.io/CD7WMQ
+2013-06-26 06:22:38	--	Notice(GitHub64): [docpad] balupton tagged v6.42.3 at dev: http://git.io/0D9-Bg
+2013-06-26 06:22:54	--	Notice(GitHub44): [docpad] balupton merged master into dev: http://git.io/5V5-_g
+2013-06-26 06:55:46	-->	EricLeslie (~EricLesli@208-53-87-149.static.chico.ca.digitalpath.net) has joined #docpad
+2013-06-26 07:08:30	-->	slindberg (~slindberg@c-50-139-68-16.hsd1.or.comcast.net) has joined #docpad
+2013-06-26 07:51:55	<--	EricLeslie (~EricLesli@208-53-87-149.static.chico.ca.digitalpath.net) has quit (Remote host closed the connection)
+2013-06-26 08:32:23	<--	perki (~perki@140-15.61-188.cust.bluewin.ch) has quit (Ping timeout: 260 seconds)
+2013-06-26 08:40:27	<--	Guest33335 (~z@host86-141-191-185.range86-141.btcentralplus.com) has quit (Remote host closed the connection)
+2013-06-26 08:45:42	-->	kaspertidemann (~Kasper@2605ds2-bav.0.fullrate.dk) has joined #docpad
+2013-06-26 09:04:01	-->	thanpolas (~thanpolas@ppp-2-84-31-199.home.otenet.gr) has joined #docpad
+2013-06-26 09:12:32	-->	perki (~perki@incubpc1.epfl.ch) has joined #docpad
+2013-06-26 09:34:21	<--	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has quit (Remote host closed the connection)
+2013-06-26 09:39:21	-->	perki_ (~perki@incubpc1.epfl.ch) has joined #docpad
+2013-06-26 09:39:21	<--	perki (~perki@incubpc1.epfl.ch) has quit (Read error: Connection reset by peer)
+2013-06-26 10:01:31	<--	perki_ (~perki@incubpc1.epfl.ch) has quit (Ping timeout: 256 seconds)
+2013-06-26 11:11:19	<--	kaspertidemann (~Kasper@2605ds2-bav.0.fullrate.dk) has quit (Quit: kaspertidemann)

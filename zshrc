@@ -106,6 +106,8 @@ export AURLINKS=comments
 # Semantic tag-based file system
 export TAGXFS_REPOSITORY="$HOME/.semfs"
 
+export COUNTRY="NL"
+
 # Explicit language since some apps need it
 export LANG=en_US.UTF-8
 
@@ -125,7 +127,7 @@ export PAGER=less
 # Paths
 
 # Keep /usr/bin first (or might get confused)
-export PATH=/var/tmp/bin:/usr/bin:/usr/local/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin
+export PATH=/var/tmp/bin:/usr/bin:/usr/local/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/local/lib/opennlp/bin
 
 # Append to path user profile bin folders (suffixes will do)
 export PATH="${PATH}:${HOME}/bin"
@@ -133,10 +135,15 @@ export PATH="${PATH}:${HOME}/bin"
 # Prefix path with symlinks in colorgcc bin to enable color compile
 export PATH="/usr/lib/colorgcc/bin:${PATH}"
 
-# Build tools .............................................................
+# Build tools 
 export PATH="/opt/maven2/bin:${PATH}"
 
+# Apache HBase
+export PATH="/opt/hbase/bin:${PATH}"
 
+# ClojureScript
+export CLOJURESCRIPT_HOME=/usr/local/src/clojurescript
+export PATH=$PATH:/usr/local/src/clojurescript/bin
 
 
 # -----------------------------------------------------------

@@ -5525,3 +5525,256 @@
 2013-06-15 17:38:01	<--	cemerick (~cemerick@c-71-192-116-188.hsd1.ma.comcast.net) has quit (Remote host closed the connection)
 2013-06-15 18:22:55	<--	ahoops (~ahoops__@121.96.14.223) has quit (Ping timeout: 256 seconds)
 2013-06-15 18:23:38	-->	ahoops (~ahoops__@121.96.14.223) has joined #clojurescript
+2013-06-15 18:43:37	-->	roblally (~roblally@ubr12-p1-0.bowcroft.ca.la.comcast.net) has joined #clojurescript
+2013-06-15 19:18:23	-->	wei_ (~wei@174-31-224-245.tukw.qwest.net) has joined #clojurescript
+2013-06-15 19:48:18	<--	jurbat (~jurbat@188.187.205.90) has quit (Quit: Computer has gone to sleep.)
+2013-06-15 20:00:57	<--	ahoops (~ahoops__@121.96.14.223) has quit (Ping timeout: 256 seconds)
+2013-06-15 20:01:08	-->	cemerick (~cemerick@c-71-192-116-188.hsd1.ma.comcast.net) has joined #clojurescript
+2013-06-15 20:02:19	-->	ahoops (~ahoops__@121.96.14.223) has joined #clojurescript
+2013-06-15 20:06:10	-->	bmaddy (~bmaddy@72.21.231.26) has joined #clojurescript
+2013-06-15 20:29:58	<--	bmaddy (~bmaddy@72.21.231.26) has quit (Remote host closed the connection)
+2013-06-15 20:36:23	<--	cemerick (~cemerick@c-71-192-116-188.hsd1.ma.comcast.net) has quit (Remote host closed the connection)
+2013-06-15 21:38:23	-->	bmaddy (~bmaddy@72.21.231.26) has joined #clojurescript
+2013-06-15 21:41:15	<--	ahoops (~ahoops__@121.96.14.223) has quit (Ping timeout: 256 seconds)
+2013-06-15 21:45:19	-->	ahoops (~ahoops__@121.96.14.223) has joined #clojurescript
+2013-06-15 21:48:15	<--	bmaddy (~bmaddy@72.21.231.26) has quit (Remote host closed the connection)
+2013-06-15 22:09:20	-->	mtm (~mtm@c-24-130-130-44.hsd1.ca.comcast.net) has joined #clojurescript
+2013-06-15 22:22:28	<--	mtm (~mtm@c-24-130-130-44.hsd1.ca.comcast.net) has quit (Quit: Leaving...)
+2013-06-15 22:44:24	-->	cemerick (~cemerick@c-71-192-116-188.hsd1.ma.comcast.net) has joined #clojurescript
+2013-06-15 23:12:38	<--	cemerick (~cemerick@c-71-192-116-188.hsd1.ma.comcast.net) has quit (Remote host closed the connection)
+2013-06-15 23:29:21	-->	cemerick (~cemerick@c-71-192-116-188.hsd1.ma.comcast.net) has joined #clojurescript
+2013-06-15 23:31:45	<--	cemerick (~cemerick@c-71-192-116-188.hsd1.ma.comcast.net) has quit (Remote host closed the connection)
+2013-06-16 00:07:28	<--	wei_ (~wei@174-31-224-245.tukw.qwest.net) has quit (Quit: wei_)
+2013-06-16 00:09:09	-->	wei_ (~wei@174-31-224-245.tukw.qwest.net) has joined #clojurescript
+2013-06-16 00:42:18	-->	inkybutton (~inkybutto@119.224.76.114) has joined #clojurescript
+2013-06-16 00:42:18	<--	inkybutton (~inkybutto@119.224.76.114) has quit (Changing host)
+2013-06-16 00:42:18	-->	inkybutton (~inkybutto@unaffiliated/inkybutton) has joined #clojurescript
+2013-06-16 01:20:42	<--	wei_ (~wei@174-31-224-245.tukw.qwest.net) has quit (Quit: wei_)
+2013-06-16 01:51:09	<--	ahoops (~ahoops__@121.96.14.223) has quit (Ping timeout: 256 seconds)
+2013-06-16 01:53:11	-->	ahoops (~ahoops__@121.96.14.223) has joined #clojurescript
+2013-06-16 01:54:39	-->	wei_ (~wei@174-31-224-245.tukw.qwest.net) has joined #clojurescript
+2013-06-16 02:18:55	<--	ahoops (~ahoops__@121.96.14.223) has quit (Ping timeout: 256 seconds)
+2013-06-16 02:28:21	-->	ahoops (~ahoops__@121.96.14.223) has joined #clojurescript
+2013-06-16 02:35:21	<--	ahoops (~ahoops__@121.96.14.223) has quit (Ping timeout: 256 seconds)
+2013-06-16 02:36:05	-->	ahoops (~ahoops__@121.96.14.223) has joined #clojurescript
+2013-06-16 02:43:46	--	irc: disconnected from server
+2013-06-16 11:21:19	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #clojurescript
+2013-06-16 11:21:19	--	Nicks #clojurescript: [ahoops bbloom brainproxy deg Guest74607 harrow ibdknox j0ni__ jaimef jimt jurbat karnowski mtm pdmct supersym tos9 wyer]
+2013-06-16 11:21:19	--	Channel #clojurescript: 17 nicks (0 ops, 0 halfops, 0 voices, 17 normals)
+2013-06-16 11:21:30	--	Mode #clojurescript [+cnt]
+2013-06-16 11:21:30	--	Channel created on Thu, 21 Jul 2011 18:34:20
+2013-06-16 13:44:59	-->	cemerick (~cemerick@c-71-192-116-188.hsd1.ma.comcast.net) has joined #clojurescript
+2013-06-16 14:09:07	-->	inkybutton (~inkybutto@119.224.76.114) has joined #clojurescript
+2013-06-16 14:09:07	<--	inkybutton (~inkybutto@119.224.76.114) has quit (Changing host)
+2013-06-16 14:09:07	-->	inkybutton (~inkybutto@unaffiliated/inkybutton) has joined #clojurescript
+2013-06-16 14:19:18	<--	inkybutton (~inkybutto@unaffiliated/inkybutton) has quit (Ping timeout: 245 seconds)
+2013-06-16 14:24:29	<--	pdmct (76d1113d@gateway/web/freenode/ip.118.209.17.61) has quit (Ping timeout: 250 seconds)
+2013-06-16 14:51:35	-->	jonasen (~jonasen@a100.ip13.netikka.fi) has joined #clojurescript
+2013-06-16 14:59:17	<--	jurbat (~jurbat@188.187.205.90) has quit (Ping timeout: 248 seconds)
+2013-06-16 15:09:23	<--	cemerick (~cemerick@c-71-192-116-188.hsd1.ma.comcast.net) has quit (Remote host closed the connection)
+2013-06-16 15:10:05	-->	bmaddy (~bmaddy@72.21.231.26) has joined #clojurescript
+2013-06-16 15:12:38	<--	bmaddy (~bmaddy@72.21.231.26) has quit (Remote host closed the connection)
+2013-06-16 15:22:00	-->	jurbat (~jurbat@188.187.206.131) has joined #clojurescript
+2013-06-16 16:00:01	<--	ahoops (~ahoops__@121.96.14.223) has quit (Ping timeout: 256 seconds)
+2013-06-16 16:00:05	-->	bmaddy (~bmaddy@72.21.231.26) has joined #clojurescript
+2013-06-16 16:10:20	-->	ahoops (~ahoops__@121.96.14.223) has joined #clojurescript
+2013-06-16 16:44:53	<--	jurbat (~jurbat@188.187.206.131) has quit (Ping timeout: 240 seconds)
+2013-06-16 16:46:57	--	irc: disconnected from server
+2013-06-18 02:58:47	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #clojurescript
+2013-06-18 02:58:47	--	Nicks #clojurescript: [ahoops bbloom brainproxy Guest74607 harrow ibdknox j0ni jaimef jimt karnowski shaungilchrist supersym tos9 wyer]
+2013-06-18 02:58:47	--	Channel #clojurescript: 14 nicks (0 ops, 0 halfops, 0 voices, 14 normals)
+2013-06-18 02:58:47	--	Notice(verne.freenode.net): [freenode-info] help freenode weed out clonebots -- please register your IRC nick and auto-identify: http://freenode.net/faq.shtml#nicksetup
+2013-06-18 02:59:01	--	Mode #clojurescript [+cnt]
+2013-06-18 02:59:01	--	Channel created on Thu, 21 Jul 2011 18:34:20
+2013-06-18 03:00:22	--	irc: disconnected from server
+2013-06-18 03:00:39	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #clojurescript
+2013-06-18 03:00:39	--	Nicks #clojurescript: [ahoops bbloom brainproxy Guest74607 harrow ibdknox j0ni jaimef jimt karnowski shaungilchrist supersym tos9 wyer]
+2013-06-18 03:00:39	--	Channel #clojurescript: 14 nicks (0 ops, 0 halfops, 0 voices, 14 normals)
+2013-06-18 03:00:51	--	Mode #clojurescript [+cnt]
+2013-06-18 03:00:51	--	Channel created on Thu, 21 Jul 2011 18:34:20
+2013-06-18 03:01:32	--	irc: disconnected from server
+2013-06-18 03:01:52	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #clojurescript
+2013-06-18 03:01:52	--	Nicks #clojurescript: [ahoops bbloom brainproxy Guest74607 harrow ibdknox j0ni jaimef jimt karnowski shaungilchrist supersym tos9 wyer]
+2013-06-18 03:01:52	--	Channel #clojurescript: 14 nicks (0 ops, 0 halfops, 0 voices, 14 normals)
+2013-06-18 03:02:03	--	Mode #clojurescript [+cnt]
+2013-06-18 03:02:03	--	Channel created on Thu, 21 Jul 2011 18:34:20
+2013-06-18 03:08:42	-->	noonian (~noonian@c-24-21-246-204.hsd1.or.comcast.net) has joined #clojurescript
+2013-06-18 03:17:28	-->	cemerick (~cemerick@c-71-192-116-188.hsd1.ma.comcast.net) has joined #clojurescript
+2013-06-18 03:42:59	-->	pasviegas (~pasviegas@187.36.24.248) has joined #clojurescript
+2013-06-18 03:43:40	-->	wei_ (~wei@174-31-224-245.tukw.qwest.net) has joined #clojurescript
+2013-06-18 03:46:09	-->	bmaddy (~bmaddy@72.21.231.26) has joined #clojurescript
+2013-06-18 04:01:19	<--	shaungilchrist (~chatzilla@c-67-182-222-192.hsd1.ut.comcast.net) has quit (Ping timeout: 246 seconds)
+2013-06-18 04:02:51	-->	pasviega_ (~pasviegas@187.36.24.248) has joined #clojurescript
+2013-06-18 04:06:31	<--	pasviegas (~pasviegas@187.36.24.248) has quit (Ping timeout: 264 seconds)
+2013-06-18 04:07:58	<--	pasviega_ (~pasviegas@187.36.24.248) has quit (Remote host closed the connection)
+2013-06-18 04:13:25	-->	pasviegas (~pasviegas@187.36.24.248) has joined #clojurescript
+2013-06-18 04:27:52	<--	pasviegas (~pasviegas@187.36.24.248) has quit (Remote host closed the connection)
+2013-06-18 04:34:49	-->	pasviegas (~pasviegas@187.36.24.248) has joined #clojurescript
+2013-06-18 04:43:26	--	irc: disconnected from server
+2013-06-18 09:35:47	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #clojurescript
+2013-06-18 09:35:47	--	Nicks #clojurescript: [bbloom brainproxy dek5 Guest74607 harrow ibdknox j0ni jaimef jimt jurbat karnowski mtm supersym tos9 wei_ wyer]
+2013-06-18 09:35:47	--	Channel #clojurescript: 16 nicks (0 ops, 0 halfops, 0 voices, 16 normals)
+2013-06-18 09:35:59	--	Mode #clojurescript [+cnt]
+2013-06-18 09:35:59	--	Channel created on Thu, 21 Jul 2011 18:34:20
+2013-06-18 11:41:04	-->	Gonzih (~gonzih@93.84.31.131) has joined #clojurescript
+2013-06-18 11:46:38	<--	Gonzih (~gonzih@93.84.31.131) has quit (Quit: IRC is just multiplayer vim.)
+2013-06-18 11:50:55	<--	jurbat (~jurbat@188.187.206.131) has quit (Quit: Computer has gone to sleep.)
+2013-06-18 11:59:10	-->	bmaddy (~bmaddy@72.21.231.26) has joined #clojurescript
+2013-06-18 12:01:27	<--	bmaddy (~bmaddy@72.21.231.26) has quit (Remote host closed the connection)
+2013-06-18 12:49:50	-->	inkybutton (~inkybutto@119.224.76.114) has joined #clojurescript
+2013-06-18 12:49:50	<--	inkybutton (~inkybutto@119.224.76.114) has quit (Changing host)
+2013-06-18 12:49:50	-->	inkybutton (~inkybutto@unaffiliated/inkybutton) has joined #clojurescript
+2013-06-18 13:32:42	<--	wei_ (~wei@174-31-224-245.tukw.qwest.net) has quit (Quit: wei_)
+2013-06-18 13:37:32	-->	wei_ (~wei@174-31-224-245.tukw.qwest.net) has joined #clojurescript
+2013-06-18 13:38:07	<--	wei_ (~wei@174-31-224-245.tukw.qwest.net) has quit (Client Quit)
+2013-06-18 14:35:24	-->	cemerick (~cemerick@c-71-192-116-188.hsd1.ma.comcast.net) has joined #clojurescript
+2013-06-18 14:51:06	-->	bmaddy (~bmaddy@72.21.231.26) has joined #clojurescript
+2013-06-18 15:00:13	-->	pasviegas (~pasviegas@200.189.128.178) has joined #clojurescript
+2013-06-18 15:07:18	<--	dek5 (~eugene@mail.quickpay.ru) has quit (Quit: Leaving.)
+2013-06-18 15:32:28	<--	inkybutton (~inkybutto@unaffiliated/inkybutton) has quit (Read error: Operation timed out)
+2013-06-18 15:49:43	-->	jonasen (~jonasen@a100.ip13.netikka.fi) has joined #clojurescript
+2013-06-18 16:18:17	-->	nkoza (~NKoza@190.244.119.222) has joined #clojurescript
+2013-06-18 16:25:46	<--	bmaddy (~bmaddy@72.21.231.26) has quit (Remote host closed the connection)
+2013-06-18 16:43:49	<--	pasviegas (~pasviegas@200.189.128.178) has quit (Remote host closed the connection)
+2013-06-18 16:54:04	-->	bmaddy (~bmaddy@72.21.231.26) has joined #clojurescript
+2013-06-18 17:02:07	-->	enquora (~davidr@S0106602ad083de8c.cg.shawcable.net) has joined #clojurescript
+2013-06-18 17:05:11	<--	mtm (~mtm@c-24-130-130-44.hsd1.ca.comcast.net) has quit (Quit: Leaving...)
+2013-06-18 17:38:21	-->	shaungilchrist (~chatzilla@c-67-182-222-192.hsd1.ut.comcast.net) has joined #clojurescript
+2013-06-18 18:03:36	<--	bmaddy (~bmaddy@72.21.231.26) has quit (Remote host closed the connection)
+2013-06-18 18:29:59	-->	bmaddy (~bmaddy@70-89-202-126-invergrove-mn.hfc.comcastbusiness.net) has joined #clojurescript
+2013-06-18 18:43:19	<--	shaungilchrist (~chatzilla@c-67-182-222-192.hsd1.ut.comcast.net) has quit (Ping timeout: 246 seconds)
+2013-06-18 18:45:00	-->	pasviegas (~pasviegas@200.189.128.178) has joined #clojurescript
+2013-06-18 18:54:27	-->	bmaddy_ (~bmaddy@70-89-202-126-invergrove-mn.hfc.comcastbusiness.net) has joined #clojurescript
+2013-06-18 18:57:20	<--	bmaddy (~bmaddy@70-89-202-126-invergrove-mn.hfc.comcastbusiness.net) has quit (Ping timeout: 246 seconds)
+2013-06-18 18:59:54	-->	jurbat (~jurbat@188.187.206.131) has joined #clojurescript
+2013-06-18 19:13:53	-->	wei_ (~wei@174-31-224-245.tukw.qwest.net) has joined #clojurescript
+2013-06-18 19:19:28	-->	mtm (~mtm@c-76-102-52-34.hsd1.ca.comcast.net) has joined #clojurescript
+2013-06-18 19:48:30	-->	bmaddy (~bmaddy@70-89-202-126-invergrove-mn.hfc.comcastbusiness.net) has joined #clojurescript
+2013-06-18 19:49:27	<--	bmaddy (~bmaddy@70-89-202-126-invergrove-mn.hfc.comcastbusiness.net) has quit (Remote host closed the connection)
+2013-06-18 19:52:07	<--	bmaddy_ (~bmaddy@70-89-202-126-invergrove-mn.hfc.comcastbusiness.net) has quit (Ping timeout: 264 seconds)
+2013-06-18 20:11:53	-->	shaungilchrist (~chatzilla@c-67-182-222-192.hsd1.ut.comcast.net) has joined #clojurescript
+2013-06-18 20:22:13	<--	jimt (~jim@84.178.69.111.dynamic.snap.net.nz) has quit (*.net *.split)
+2013-06-18 20:22:14	<--	brainproxy (~brainprox@pdpc/supporter/gold/brainproxy) has quit (*.net *.split)
+2013-06-18 20:22:29	-->	jimt (~jim@84.178.69.111.dynamic.snap.net.nz) has joined #clojurescript
+2013-06-18 20:23:07	-->	brainproxy (~brainprox@pdpc/supporter/gold/brainproxy) has joined #clojurescript
+2013-06-18 20:49:51	<--	pasviegas (~pasviegas@200.189.128.178) has quit (Remote host closed the connection)
+2013-06-18 20:54:15	-->	pasviegas (~pasviegas@200.189.128.178) has joined #clojurescript
+2013-06-18 21:01:36	-->	kyled2 (~kyled@12.226.162.162) has joined #clojurescript
+2013-06-18 21:01:37	<--	kyled2 (~kyled@12.226.162.162) has left #clojurescript
+2013-06-18 21:05:25	<--	pasviegas (~pasviegas@200.189.128.178) has quit (Remote host closed the connection)
+2013-06-18 21:08:39	-->	pasviegas (~pasviegas@200.189.128.178) has joined #clojurescript
+2013-06-18 21:10:19	<--	jurbat (~jurbat@188.187.206.131) has quit (Quit: Computer has gone to sleep.)
+2013-06-18 22:05:02	<--	pasviegas (~pasviegas@200.189.128.178) has quit (Remote host closed the connection)
+2013-06-18 22:06:54	-->	gzmask (~gzmask@prodvideo.cat.uregina.ca) has joined #clojurescript
+2013-06-18 22:10:22	<--	nkoza (~NKoza@190.244.119.222) has quit (Ping timeout: 240 seconds)
+2013-06-18 22:31:27	-->	bmaddy (~bmaddy@72.21.231.26) has joined #clojurescript
+2013-06-18 22:47:20	<--	wei_ (~wei@174-31-224-245.tukw.qwest.net) has quit (Quit: wei_)
+2013-06-18 22:53:24	<--	jonasen (~jonasen@a100.ip13.netikka.fi) has quit (Ping timeout: 252 seconds)
+2013-06-18 22:59:55	-->	pasviegas (~pasviegas@187.36.30.232) has joined #clojurescript
+2013-06-18 23:09:04	-->	wei_ (~wei@174-31-224-245.tukw.qwest.net) has joined #clojurescript
+2013-06-18 23:21:03	<--	pasviegas (~pasviegas@187.36.30.232) has quit (Remote host closed the connection)
+2013-06-18 23:27:14	-->	pasviegas (~pasviegas@187.36.30.232) has joined #clojurescript
+2013-06-19 00:09:11	-->	inkybutton (~inkybutto@119.224.76.114) has joined #clojurescript
+2013-06-19 00:09:11	<--	inkybutton (~inkybutto@119.224.76.114) has quit (Changing host)
+2013-06-19 00:09:11	-->	inkybutton (~inkybutto@unaffiliated/inkybutton) has joined #clojurescript
+2013-06-19 00:13:03	<--	wei_ (~wei@174-31-224-245.tukw.qwest.net) has quit (Quit: wei_)
+2013-06-19 00:38:56	-->	wei_ (~wei@174-31-224-245.tukw.qwest.net) has joined #clojurescript
+2013-06-19 00:49:08	<--	pasviegas (~pasviegas@187.36.30.232) has quit (Remote host closed the connection)
+2013-06-19 00:49:35	<--	bmaddy (~bmaddy@72.21.231.26) has quit (Remote host closed the connection)
+2013-06-19 00:52:42	<--	cemerick (~cemerick@c-71-192-116-188.hsd1.ma.comcast.net) has quit (Remote host closed the connection)
+2013-06-19 00:52:58	<--	inkybutton (~inkybutto@unaffiliated/inkybutton) has quit (Ping timeout: 276 seconds)
+2013-06-19 01:11:44	<--	mtm (~mtm@c-76-102-52-34.hsd1.ca.comcast.net) has quit (Quit: Leaving...)
+2013-06-19 01:12:08	-->	inkybutton (~inkybutto@119.224.76.114) has joined #clojurescript
+2013-06-19 01:12:08	<--	inkybutton (~inkybutto@119.224.76.114) has quit (Changing host)
+2013-06-19 01:12:08	-->	inkybutton (~inkybutto@unaffiliated/inkybutton) has joined #clojurescript
+2013-06-19 01:21:34	<--	inkybutton (~inkybutto@unaffiliated/inkybutton) has quit (Ping timeout: 276 seconds)
+2013-06-19 01:33:57	gzmask	how do i do dom.style.display = 'none'? I tried (def (.-display (.-style (d/sel "#dom"))) "none") and it says presisten type error
+2013-06-19 02:02:53	--	irc: disconnected from server
+2013-06-19 18:31:06	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #clojurescript
+2013-06-19 18:31:06	--	Nicks #clojurescript: [bbloom brainproxy cemerick Guest74607 harrow ibdknox j0ni jaimef jimt jurbat karnowski shaungilchrist supersym ToBeReplaced tos9 wyer]
+2013-06-19 18:31:06	--	Channel #clojurescript: 16 nicks (0 ops, 0 halfops, 0 voices, 16 normals)
+2013-06-19 18:31:17	--	Mode #clojurescript [+cnt]
+2013-06-19 18:31:17	--	Channel created on Thu, 21 Jul 2011 18:34:20
+2013-06-19 18:37:48	-->	pasviegas (~pasviegas@187.36.30.232) has joined #clojurescript
+2013-06-19 18:49:56	<--	pasviegas (~pasviegas@187.36.30.232) has quit (Ping timeout: 252 seconds)
+2013-06-19 18:58:34	-->	pasviegas (~pasviegas@187.36.30.232) has joined #clojurescript
+2013-06-19 18:58:35	-->	mtm (~mtm@c-76-102-52-34.hsd1.ca.comcast.net) has joined #clojurescript
+2013-06-19 20:36:52	-->	jonasen (~jonasen@a100.ip13.netikka.fi) has joined #clojurescript
+2013-06-19 20:55:15	<--	jurbat (~jurbat@188.187.206.131) has quit (Quit: Computer has gone to sleep.)
+2013-06-19 21:25:39	<--	pasviegas (~pasviegas@187.36.30.232) has quit (Remote host closed the connection)
+2013-06-19 21:35:03	-->	pasviegas (~pasviegas@187.36.30.232) has joined #clojurescript
+2013-06-19 21:39:06	<--	jonasen (~jonasen@a100.ip13.netikka.fi) has quit (Ping timeout: 264 seconds)
+2013-06-19 21:50:48	-->	pasviega_ (~pasviegas@187.36.30.232) has joined #clojurescript
+2013-06-19 21:54:42	<--	pasviegas (~pasviegas@187.36.30.232) has quit (Ping timeout: 264 seconds)
+2013-06-19 22:05:04	<--	pasviega_ (~pasviegas@187.36.30.232) has quit (Remote host closed the connection)
+2013-06-19 22:24:40	-->	pasviegas (~pasviegas@187.36.30.232) has joined #clojurescript
+2013-06-19 22:25:01	--	irc: disconnected from server
+2013-06-21 11:46:12	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #clojurescript
+2013-06-21 11:46:12	--	Nicks #clojurescript: [bbloom brainproxy dek5 Guest74607 harrow ibdknox j0ni jaimef jimt karnowski mtm normanrichards supersym tos9 wyer]
+2013-06-21 11:46:12	--	Channel #clojurescript: 15 nicks (0 ops, 0 halfops, 0 voices, 15 normals)
+2013-06-21 11:46:24	--	Mode #clojurescript [+cnt]
+2013-06-21 11:46:25	--	Channel created on Thu, 21 Jul 2011 18:34:20
+2013-06-21 12:19:07	-->	jurbat (~jurbat@188.187.206.131) has joined #clojurescript
+2013-06-21 12:24:21	-->	francis_wolke (62cf9ba1@gateway/web/cgi-irc/kiwiirc.com/ip.98.207.155.161) has joined #clojurescript
+2013-06-21 12:32:32	<--	francis_wolke (62cf9ba1@gateway/web/cgi-irc/kiwiirc.com/ip.98.207.155.161) has quit (Quit: http://www.kiwiirc.com/ - A hand crafted IRC client)
+2013-06-21 13:42:08	<--	dek5 (~eugene@mail.quickpay.ru) has quit (Quit: Leaving.)
+2013-06-21 15:02:37	<--	normanrichards (~normanric@70.114.215.220) has quit (Quit: normanrichards)
+2013-06-21 15:21:21	-->	pasviegas (~pasviegas@200.189.128.178) has joined #clojurescript
+2013-06-21 15:23:48	-->	normanrichards (~normanric@mobile-166-137-146-240.mycingular.net) has joined #clojurescript
+2013-06-21 15:32:25	<--	normanrichards (~normanric@mobile-166-137-146-240.mycingular.net) has quit (Quit: normanrichards)
+2013-06-21 16:15:57	-->	cemerick (~cemerick@c-71-192-116-188.hsd1.ma.comcast.net) has joined #clojurescript
+2013-06-21 16:43:51	<--	pasviegas (~pasviegas@200.189.128.178) has quit (Remote host closed the connection)
+2013-06-21 17:10:55	-->	shaungilchrist (~chatzilla@c-67-182-222-192.hsd1.ut.comcast.net) has joined #clojurescript
+2013-06-21 17:16:56	-->	trptcolin (~trptcolin@c-98-226-1-35.hsd1.il.comcast.net) has joined #clojurescript
+2013-06-21 17:23:34	<--	mtm (~mtm@c-24-130-130-44.hsd1.ca.comcast.net) has quit (Quit: Leaving...)
+2013-06-21 17:33:18	-->	pasviegas (~pasviegas@200.189.128.178) has joined #clojurescript
+2013-06-21 17:54:31	<--	pasviegas (~pasviegas@200.189.128.178) has quit (Remote host closed the connection)
+2013-06-21 17:55:39	-->	pasviegas (~pasviegas@200.189.128.178) has joined #clojurescript
+2013-06-21 18:06:26	-->	mtm (~mtm@c-76-102-52-34.hsd1.ca.comcast.net) has joined #clojurescript
+2013-06-21 18:37:18	<--	jurbat (~jurbat@188.187.206.131) has quit (Ping timeout: 264 seconds)
+2013-06-21 19:18:07	<--	cemerick (~cemerick@c-71-192-116-188.hsd1.ma.comcast.net) has quit (Ping timeout: 240 seconds)
+2013-06-21 19:45:59	<--	trptcolin (~trptcolin@c-98-226-1-35.hsd1.il.comcast.net) has quit (Quit: trptcolin)
+2013-06-21 20:10:32	<--	shaungilchrist (~chatzilla@c-67-182-222-192.hsd1.ut.comcast.net) has quit (Ping timeout: 246 seconds)
+2013-06-21 20:45:16	-->	shaungilchrist (~chatzilla@c-67-182-222-192.hsd1.ut.comcast.net) has joined #clojurescript
+2013-06-21 20:46:45	<--	pasviegas (~pasviegas@200.189.128.178) has quit (Remote host closed the connection)
+2013-06-21 20:48:40	-->	trptcolin (~trptcolin@c-98-226-1-35.hsd1.il.comcast.net) has joined #clojurescript
+2013-06-21 20:52:13	-->	pasviegas (~pasviegas@200.189.128.178) has joined #clojurescript
+2013-06-21 20:54:32	<--	pasviegas (~pasviegas@200.189.128.178) has quit (Remote host closed the connection)
+2013-06-21 21:00:46	<--	jaimef (jaimef@dns.mauthesis.com) has quit (Ping timeout: 256 seconds)
+2013-06-21 21:10:34	-->	jaimef (jaimef@dns.mauthesis.com) has joined #clojurescript
+2013-06-21 21:36:10	-->	cemerick (~cemerick@66-87-124-94.pools.spcsdns.net) has joined #clojurescript
+2013-06-21 21:37:07	<--	cemerick (~cemerick@66-87-124-94.pools.spcsdns.net) has quit (Remote host closed the connection)
+2013-06-21 21:43:28	-->	cemerick (~cemerick@66-87-124-94.pools.spcsdns.net) has joined #clojurescript
+2013-06-21 21:43:34	<--	cemerick (~cemerick@66-87-124-94.pools.spcsdns.net) has quit (Remote host closed the connection)
+2013-06-21 22:16:11	-->	pasviegas (~pasviegas@187.36.30.232) has joined #clojurescript
+2013-06-21 22:40:44	<--	pasviegas (~pasviegas@187.36.30.232) has quit (Remote host closed the connection)
+2013-06-21 22:41:18	<--	trptcolin (~trptcolin@c-98-226-1-35.hsd1.il.comcast.net) has quit (Quit: trptcolin)
+2013-06-21 22:44:47	-->	pasviegas (~pasviegas@187.36.30.232) has joined #clojurescript
+2013-06-21 23:10:42	--	irc: disconnected from server
+2013-06-25 22:56:42	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #clojurescript
+2013-06-25 22:56:42	--	Nicks #clojurescript: [bbloom brainproxy Guest74607 harrow ibdknox j0ni jaimef jimt_ karnowski kgerman mtm shaungilchrist supersym wyer]
+2013-06-25 22:56:42	--	Channel #clojurescript: 14 nicks (0 ops, 0 halfops, 0 voices, 14 normals)
+2013-06-25 22:56:53	--	Mode #clojurescript [+cnt]
+2013-06-25 22:56:54	--	Channel created on Thu, 21 Jul 2011 18:34:20
+2013-06-25 22:58:23	<--	kgerman (~kgerman@129.33.1.38) has quit (Ping timeout: 260 seconds)
+2013-06-25 23:11:25	-->	wei_ (~wei@174-31-232-23.tukw.qwest.net) has joined #clojurescript
+2013-06-26 00:19:09	<--	j0ni (~j0ni@tomos.lollyshouse.net) has quit (*.net *.split)
+2013-06-26 00:49:22	-->	cemerick (~cemerick@c-71-192-116-188.hsd1.ma.comcast.net) has joined #clojurescript
+2013-06-26 01:00:58	<--	shaungilchrist (~chatzilla@c-67-182-222-192.hsd1.ut.comcast.net) has quit (Ping timeout: 246 seconds)
+2013-06-26 01:02:31	-->	j0ni (~j0ni@tomos.lollyshouse.net) has joined #clojurescript
+2013-06-26 02:22:20	<--	mtm (~mtm@c-76-102-52-34.hsd1.ca.comcast.net) has quit (Quit: Leaving...)
+2013-06-26 04:11:30	--	jimt_ is now known as jimt
+2013-06-26 07:02:36	-->	dek5 (~eugene@mail.quickpay.ru) has joined #clojurescript
+2013-06-26 07:35:20	<--	dek5 (~eugene@mail.quickpay.ru) has quit (Quit: Leaving.)
+2013-06-26 08:01:41	-->	dek5 (~eugene@mail.quickpay.ru) has joined #clojurescript
+2013-06-26 09:09:16	<--	wei_ (~wei@174-31-232-23.tukw.qwest.net) has quit (Quit: wei_)
+2013-06-26 09:28:11	<--	cemerick (~cemerick@c-71-192-116-188.hsd1.ma.comcast.net) has quit (Remote host closed the connection)
+2013-06-26 09:54:12	-->	wei_ (~wei@174-31-232-23.tukw.qwest.net) has joined #clojurescript
+2013-06-26 09:58:37	<--	dek5 (~eugene@mail.quickpay.ru) has quit (Ping timeout: 268 seconds)
+2013-06-26 10:14:46	-->	dek5 (~eugene@mail.quickpay.ru) has joined #clojurescript
+2013-06-26 11:57:34	<--	jimt (~jim@224.178.69.111.dynamic.snap.net.nz) has quit (Quit: leaving)
+2013-06-26 12:04:15	-->	jimt (~jim@224.178.69.111.dynamic.snap.net.nz) has joined #clojurescript
+2013-06-26 13:19:23	<--	wei_ (~wei@174-31-232-23.tukw.qwest.net) has quit (Quit: wei_)
+2013-06-26 13:46:49	-->	deg (~deg@87.69.114.75) has joined #clojurescript
+2013-06-26 13:59:18	-->	cemerick (~cemerick@c-71-192-116-188.hsd1.ma.comcast.net) has joined #clojurescript
+2013-06-26 14:32:09	-->	ToBeReplaced (~ToBeRepla@c-68-48-45-209.hsd1.dc.comcast.net) has joined #clojurescript
