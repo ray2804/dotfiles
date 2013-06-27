@@ -1094,3 +1094,8 @@
 2013-06-21 11:45:57		Plugins loaded: alias, aspell, charset, fifo, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
 2013-06-21 23:10:42		fifo: pipe closed
 2013-06-25 22:56:27		Plugins loaded: alias, aspell, charset, fifo, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2013-06-27 15:49:29		fifo: removing old fifo pipe "/home/baal/Dotfiles/weechat/weechat_fifo_20077"
+2013-06-27 15:49:29		Plugins loaded: alias, aspell, charset, fifo, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2013-06-27 16:00:54		fifo: pipe closed
+2013-06-27 16:01:04		Plugins loaded: alias, aspell, charset, fifo, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2013-06-27 16:03:44		fifo: pipe closed

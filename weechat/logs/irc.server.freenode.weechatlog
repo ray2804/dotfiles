@@ -15405,3 +15405,166 @@
 2013-06-25 22:56:42	--	NickServ (NickServ@services.): You are now identified for supersym.
 2013-06-25 22:56:42	--	ChanServ (ChanServ@services.): [#node.js] Visit the wiki page https://github.com/joyent/node/wiki
 2013-06-25 22:56:42	--	ChanServ (ChanServ@services.): [#linguistics] ongi etorri·croeso·хуш омадед·fáilte·ברוכה הבאה·bienvenue·أهلا وسهلا·witaj·добро пожаловать·bine ai venit·歡迎·ne izuvajte se·добредојде·dobrodošli·خوش آمدید·bem-vindo·добре дошли·akwaaba·ようこそ·welkom·환영합니다·tervetuloa·xin chào·velkommen·hoşgeldiniz·merħba·selamat datang
+2013-06-27 15:49:29	--	irc: connecting to server chat.freenode.net/6667...
+2013-06-27 15:49:29	--	irc: connected to chat.freenode.net/6667 (216.155.130.130)
+2013-06-27 15:49:29	--	verne.freenode.net (verne.freenode.net): *** Looking up your hostname...
+2013-06-27 15:49:29	--	verne.freenode.net (verne.freenode.net): *** Checking Ident
+2013-06-27 15:49:29	--	verne.freenode.net (verne.freenode.net): *** Found your hostname
+2013-06-27 15:49:35	--	verne.freenode.net (verne.freenode.net): *** No Ident response
+2013-06-27 15:49:35	--	Welcome to the freenode Internet Relay Chat Network supersym
+2013-06-27 15:49:35	--	MSG(nickserv): identify supersym jens80
+2013-06-27 15:49:35	--	Your host is verne.freenode.net[216.155.130.130/6667], running version ircd-seven-1.1.3
+2013-06-27 15:49:35	--	This server was created Sun Dec 11 2011 at 17:15:56 EST
+2013-06-27 15:49:35	--	verne.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2013-06-27 15:49:35	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2013-06-27 15:49:35	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2013-06-27 15:49:35	--	EXTBAN=$,arxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2013-06-27 15:49:35	--	There are 208 users and 84093 invisible on 26 servers
+2013-06-27 15:49:35	--	36 :IRC Operators online
+2013-06-27 15:49:35	--	22 :unknown connection(s)
+2013-06-27 15:49:35	--	46310 :channels formed
+2013-06-27 15:49:35	--	I have 7455 clients and 1 servers
+2013-06-27 15:49:35	--	7455 10432 :Current local users 7455, max 10432
+2013-06-27 15:49:35	--	84301 92550 :Current global users 84301, max 92550
+2013-06-27 15:49:35	--	Highest connection count: 10433 (10432 clients) (1822058 connections received)
+2013-06-27 15:49:35	--	- verne.freenode.net Message of the Day -
+2013-06-27 15:49:35	--	- Welcome to verne.freenode.net in Newark, NJ, US.
+2013-06-27 15:49:35	--	- Thanks to Choopa 'www.choopa.com' for providing this server!
+2013-06-27 15:49:35	--	-
+2013-06-27 15:49:35	--	- VERNE, Jules (1828-1905). Born in Nantes, France, Verne was
+2013-06-27 15:49:35	--	- a pioneering french author known for novels such as Twenty
+2013-06-27 15:49:35	--	- Thousand Leagues Under the Sea, A Journey to the Center of the
+2013-06-27 15:49:35	--	- Earth, and Around the World in Eighty Days. Often lauded as the
+2013-06-27 15:49:35	--	- Father of science fiction, Verne wrote about concepts such as
+2013-06-27 15:49:35	--	- space travel, skyscrapers, and worldwide communications
+2013-06-27 15:49:35	--	- networks long before these ideas became popularised or realised.
+2013-06-27 15:49:35	--	-
+2013-06-27 15:49:35	--	- Welcome to freenode - supporting the free and open source
+2013-06-27 15:49:35	--	- software communities since 1998.
+2013-06-27 15:49:35	--	-
+2013-06-27 15:49:35	--	- By connecting to freenode you indicate that you have read and
+2013-06-27 15:49:35	--	- agree to adhere to our policies and procedures as per the
+2013-06-27 15:49:35	--	- website (http://freenode.net/).
+2013-06-27 15:49:35	--	-
+2013-06-27 15:49:35	--	- We would like to remind you that unauthorised public logging
+2013-06-27 15:49:35	--	- of channels on the network is prohibited. Public channel
+2013-06-27 15:49:35	--	- logging should only take place where the channel owner(s) has
+2013-06-27 15:49:35	--	- requested this and users of the channel are all made aware
+2013-06-27 15:49:35	--	- (if you are publically logging your channel, you may wish to
+2013-06-27 15:49:35	--	- keep a notice in the topic and perhaps as an on-join message).
+2013-06-27 15:49:35	--	-
+2013-06-27 15:49:35	--	- freenode runs an open proxy scanner. For details on freenode
+2013-06-27 15:49:35	--	- network policy, please take a look at our policy page
+2013-06-27 15:49:35	--	- (http://freenode.net/policy.shtml).  Your use of the network
+2013-06-27 15:49:35	--	- indicates your acceptance of this policy.
+2013-06-27 15:49:35	--	-
+2013-06-27 15:49:35	--	- Please join #freenode for any network-related questions or
+2013-06-27 15:49:35	--	- queries, there are numerous freenode volunteers and helpful
+2013-06-27 15:49:35	--	- users who would be happy to try answer any questions you might
+2013-06-27 15:49:35	--	- have.
+2013-06-27 15:49:35	--	-
+2013-06-27 15:49:35	--	- Check out www.fossevents.org to find out what is happening in
+2013-06-27 15:49:35	--	- your area, join us at FOSSCON (www.fosscon.org) for talks and
+2013-06-27 15:49:35	--	- real-life collaboration or bring a picnic and come join
+2013-06-27 15:49:35	--	- like-minded geeks for a geeknic (www.geeknic.org) somewhere
+2013-06-27 15:49:35	--	- close to you.
+2013-06-27 15:49:35	--	- Lastly, massive thanks to the OSU Open Source Lab
+2013-06-27 15:49:35	--	- (http://osuosl.org/) and Private Internet Access
+2013-06-27 15:49:35	--	- (https://www.privateinternetaccess.com/) for their sustained,
+2013-06-27 15:49:35	--	- long term support and dedication they show to the FOSS
+2013-06-27 15:49:35	--	- communities.
+2013-06-27 15:49:35	--	-
+2013-06-27 15:49:35	--	- ***************************************************************
+2013-06-27 15:49:35	--	- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+2013-06-27 15:49:35	--	- ***************************************************************
+2013-06-27 15:49:35	--	End of /MOTD command.
+2013-06-27 15:49:35	--	User mode [+i] by supersym
+2013-06-27 15:49:35	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2013-06-27 15:49:41	--	#python: #python-unregistered :Forwarding to another channel
+2013-06-27 15:49:42	--	NickServ (NickServ@services.): You are now identified for supersym.
+2013-06-27 15:49:42	--	ChanServ (ChanServ@services.): [#node.js] Visit the wiki page https://github.com/joyent/node/wiki
+2013-06-27 15:49:42	--	ChanServ (ChanServ@services.): [#linguistics] ongi etorri·croeso·хуш омадед·fáilte·ברוכה הבאה·bienvenue·أهلا وسهلا·witaj·добро пожаловать·bine ai venit·歡迎·ne izuvajte se·добредојде·dobrodošli·خوش آمدید·bem-vindo·добре дошли·akwaaba·ようこそ·welkom·환영합니다·tervetuloa·xin chào·velkommen·hoşgeldiniz·merħba·selamat datang
+2013-06-27 15:50:05	--	Mode #css [+CFcnptjf]
+2013-06-27 15:50:05	--	Channel #css created on Sun, 26 Nov 2006 07:42:45
+2013-06-27 15:50:07	--	Mode #luminus [+ns]
+2013-06-27 15:50:07	--	Channel #luminus created on Sun, 12 May 2013 00:55:48
+2013-06-27 16:00:54	--	irc: disconnected from server
+2013-06-27 16:01:04	--	irc: connecting to server chat.freenode.net/6667...
+2013-06-27 16:01:04	--	irc: connected to chat.freenode.net/6667 (78.40.125.4)
+2013-06-27 16:01:04	--	barjavel.freenode.net (barjavel.freenode.net): *** Looking up your hostname...
+2013-06-27 16:01:04	--	barjavel.freenode.net (barjavel.freenode.net): *** Checking Ident
+2013-06-27 16:01:04	--	barjavel.freenode.net (barjavel.freenode.net): *** Found your hostname
+2013-06-27 16:01:13	--	barjavel.freenode.net (barjavel.freenode.net): *** No Ident response
+2013-06-27 16:01:13	--	Welcome to the freenode Internet Relay Chat Network supersym
+2013-06-27 16:01:13	--	MSG(nickserv): identify supersym jens80
+2013-06-27 16:01:13	--	Your host is barjavel.freenode.net[78.40.125.4/6667], running version ircd-seven-1.1.3
+2013-06-27 16:01:13	--	This server was created Mon Dec 31 2012 at 22:37:42 CET
+2013-06-27 16:01:13	--	barjavel.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2013-06-27 16:01:13	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2013-06-27 16:01:13	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2013-06-27 16:01:13	--	EXTBAN=$,arxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2013-06-27 16:01:13	--	There are 205 users and 84334 invisible on 26 servers
+2013-06-27 16:01:13	--	36 :IRC Operators online
+2013-06-27 16:01:13	--	13 :unknown connection(s)
+2013-06-27 16:01:13	--	46327 :channels formed
+2013-06-27 16:01:13	--	I have 7906 clients and 1 servers
+2013-06-27 16:01:13	--	7906 9889 :Current local users 7906, max 9889
+2013-06-27 16:01:13	--	84539 92550 :Current global users 84539, max 92550
+2013-06-27 16:01:13	--	Highest connection count: 9890 (9889 clients) (1126151 connections received)
+2013-06-27 16:01:13	--	- barjavel.freenode.net Message of the Day -
+2013-06-27 16:01:13	--	- Welcome to barjavel.freenode.net in Paris, FR, EU.
+2013-06-27 16:01:13	--	- Thanks to Bearstech (www.bearstech.com) for sponsoring
+2013-06-27 16:01:13	--	- this server!
+2013-06-27 16:01:13	--	-
+2013-06-27 16:01:13	--	- BARJAVEL, RENE [1911-1985].  Born in Nyons, he was a
+2013-06-27 16:01:13	--	- science-fiction author, a journalist and a critic. He is
+2013-06-27 16:01:13	--	- credited with having written the first novel to introduce
+2013-06-27 16:01:13	--	- the Grandfather Paradox in time travel, in his 1943 work
+2013-06-27 16:01:13	--	- 'Le Voyageur imprudent'.
+2013-06-27 16:01:13	--	-
+2013-06-27 16:01:13	--	- Welcome to freenode - supporting the free and open source
+2013-06-27 16:01:13	--	- software communities since 1998.
+2013-06-27 16:01:13	--	-
+2013-06-27 16:01:13	--	- By connecting to freenode you indicate that you have read and
+2013-06-27 16:01:13	--	- agree to adhere to our policies and procedures as per the
+2013-06-27 16:01:13	--	- website (http://freenode.net/).
+2013-06-27 16:01:13	--	-
+2013-06-27 16:01:13	--	- We would like to remind you that unauthorised public logging
+2013-06-27 16:01:13	--	- of channels on the network is prohibited. Public channel
+2013-06-27 16:01:13	--	- logging should only take place where the channel owner(s) has
+2013-06-27 16:01:13	--	- requested this and users of the channel are all made aware
+2013-06-27 16:01:13	--	- (if you are publically logging your channel, you may wish to
+2013-06-27 16:01:13	--	- keep a notice in the topic and perhaps as an on-join message).
+2013-06-27 16:01:13	--	-
+2013-06-27 16:01:13	--	- freenode runs an open proxy scanner. For details on freenode
+2013-06-27 16:01:13	--	- network policy, please take a look at our policy page
+2013-06-27 16:01:13	--	- (http://freenode.net/policy.shtml).  Your use of the network
+2013-06-27 16:01:13	--	- indicates your acceptance of this policy.
+2013-06-27 16:01:13	--	-
+2013-06-27 16:01:13	--	- Please join #freenode for any network-related questions or
+2013-06-27 16:01:13	--	- queries, there are numerous freenode volunteers and helpful
+2013-06-27 16:01:13	--	- users who would be happy to try answer any questions you might
+2013-06-27 16:01:13	--	- have.
+2013-06-27 16:01:13	--	-
+2013-06-27 16:01:13	--	- Check out www.fossevents.org to find out what is happening in
+2013-06-27 16:01:13	--	- your area, join us at FOSSCON (www.fosscon.org) for talks and
+2013-06-27 16:01:13	--	- real-life collaboration or bring a picnic and come join
+2013-06-27 16:01:13	--	- like-minded geeks for a geeknic (www.geeknic.org) somewhere
+2013-06-27 16:01:13	--	- close to you.
+2013-06-27 16:01:13	--	- Lastly, massive thanks to the OSU Open Source Lab
+2013-06-27 16:01:13	--	- (http://osuosl.org/) and Private Internet Access
+2013-06-27 16:01:13	--	- (https://www.privateinternetaccess.com/) for their sustained,
+2013-06-27 16:01:13	--	- long term support and dedication they show to the FOSS
+2013-06-27 16:01:13	--	- communities.
+2013-06-27 16:01:13	--	-
+2013-06-27 16:01:13	--	- ***************************************************************
+2013-06-27 16:01:13	--	- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+2013-06-27 16:01:13	--	- ***************************************************************
+2013-06-27 16:01:13	--	End of /MOTD command.
+2013-06-27 16:01:13	--	User mode [+i] by supersym
+2013-06-27 16:01:14	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2013-06-27 16:01:19	--	#python: #python-unregistered :Forwarding to another channel
+2013-06-27 16:01:20	--	NickServ (NickServ@services.): You are now identified for supersym.
+2013-06-27 16:01:20	--	ChanServ (ChanServ@services.): [#node.js] Visit the wiki page https://github.com/joyent/node/wiki
+2013-06-27 16:01:20	--	ChanServ (ChanServ@services.): [#linguistics] ongi etorri·croeso·хуш омадед·fáilte·ברוכה הבאה·bienvenue·أهلا وسهلا·witaj·добро пожаловать·bine ai venit·歡迎·ne izuvajte se·добредојде·dobrodošli·خوش آمدید·bem-vindo·добре дошли·akwaaba·ようこそ·welkom·환영합니다·tervetuloa·xin chào·velkommen·hoşgeldiniz·merħba·selamat datang
+2013-06-27 16:03:45	--	irc: disconnected from server
