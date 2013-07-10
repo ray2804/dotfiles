@@ -18,6 +18,7 @@
 	[
 		"ba",
 		"internet",
+		"namespace",
 		"stylesheet"
 	],
 	"line_numbers": true,
@@ -35,7 +36,7 @@
 	],
 	"spell_check": true,
 	"tab_size": 4,
-	"theme": "Nexus.sublime-theme",
+	"theme": "zenburn.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"wide_caret": true,

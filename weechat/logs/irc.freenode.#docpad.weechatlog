@@ -15386,3 +15386,164 @@
 2013-06-27 16:01:23	--	Mode #docpad [+t]
 2013-06-27 16:01:23	--	Channel created on Sat, 26 May 2012 12:12:13
 2013-06-27 16:03:44	--	irc: disconnected from server
+2013-06-27 16:07:02	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #docpad
+2013-06-27 16:07:02	--	Topic for #docpad is "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-06-27 16:07:02	--	Topic set by EtherealMind1 (~etherealm@87.242.165.59) on Mon, 13 May 2013 15:55:08
+2013-06-27 16:07:02	--	Nicks #docpad: [ashnur balupton elf-pavlik nexusIX shaunch steventrevathan supersym]
+2013-06-27 16:07:02	--	Channel #docpad: 7 nicks (0 ops, 0 halfops, 0 voices, 7 normals)
+2013-06-27 16:07:02	--	Notice(banks.freenode.net): [freenode-info] why register and identify? your IRC nick is how people know you. http://freenode.net/faq.shtml#nicksetup
+2013-06-27 16:07:05	--	Mode #docpad [+t]
+2013-06-27 16:07:05	--	Channel created on Sat, 26 May 2012 12:12:13
+2013-06-27 17:34:54	-->	totemizer (~ashnur@79.117.70.66) has joined #docpad
+2013-06-27 17:35:54	<--	ashnur (~ashnur@79.117.71.194) has quit (Ping timeout: 256 seconds)
+2013-06-27 17:42:13	--	totemizer is now known as ashnur
+2013-06-27 18:10:56	-->	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has joined #docpad
+2013-06-27 18:42:00	<--	ashnur (~ashnur@79.117.70.66) has quit (Quit: WeeChat 0.4.1)
+2013-06-27 19:09:24	-->	steventrevathan_ (~steventre@64.119.141.126) has joined #docpad
+2013-06-27 19:27:52	<--	steventrevathan_ (~steventre@64.119.141.126) has quit (Quit: steventrevathan_)
+2013-06-27 20:44:10	<--	steventrevathan (~steventre@64.119.141.126) has quit (Quit: steventrevathan)
+2013-06-27 20:47:45	-->	steventrevathan (~steventre@64.119.141.126) has joined #docpad
+2013-06-27 21:29:36	<--	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has quit (Remote host closed the connection)
+2013-06-27 21:59:52	-->	ashnur (~ashnur@79.117.64.68) has joined #docpad
+2013-06-27 23:05:09	<--	steventrevathan (~steventre@64.119.141.126) has quit (Quit: steventrevathan)
+2013-06-27 23:05:56	-->	steventrevathan (~steventre@64.119.141.126) has joined #docpad
+2013-06-27 23:06:20	<--	steventrevathan (~steventre@64.119.141.126) has quit (Client Quit)
+2013-06-28 00:30:03	--	irc: disconnected from server
+2013-06-28 13:20:02	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #docpad
+2013-06-28 13:20:02	--	Topic for #docpad is "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-06-28 13:20:02	--	Topic set by EtherealMind1 (~etherealm@87.242.165.59) on Mon, 13 May 2013 15:55:08
+2013-06-28 13:20:02	--	Nicks #docpad: [balupton elf-pavlik nexusIX shaunch supersym]
+2013-06-28 13:20:02	--	Channel #docpad: 5 nicks (0 ops, 0 halfops, 0 voices, 5 normals)
+2013-06-28 13:20:06	--	Mode #docpad [+t]
+2013-06-28 13:20:06	--	Channel created on Sat, 26 May 2012 12:12:13
+2013-06-28 16:52:32	-->	quartzmo_ (~quartzmo@173-8-92-50-utah.hfc.comcastbusiness.net) has joined #docpad
+2013-06-28 18:57:46	--	quartzmo_ is now known as quartzmo
+2013-06-28 21:50:04	-->	EricLeslie (~EricLesli@68-189-102-33.dhcp.wtvl.ca.charter.com) has joined #docpad
+2013-06-28 22:14:24	EricLeslie	I have a question about running docpad as a background process.
+2013-06-28 22:14:51	EricLeslie	If I try to execute $docpad run & it will not render the files until I bring it back to the foreground
+2013-06-28 22:15:35	EricLeslie	I'm trying to set docpad up as a daemon and it doesn't ever move to render the site.
+2013-06-28 23:06:23	-->	tasuki (~tasuki@80.229.113.153) has joined #docpad
+2013-06-28 23:20:12	tasuki	I'm trying to build a single page application using docpad (and angular, and some other stuff I don't understand). How to handle internal redirects?
+2013-06-28 23:21:04	tasuki	What I mean is something like apache's: RewriteCond %{DOCUMENT_ROOT}%{REQUEST_FILENAME} !-f RewriteRule .* /index.html [L]
+2013-06-28 23:21:28	tasuki	Or is my best bet using an external web server (apache) to handle that?
+2013-06-28 23:26:36	tasuki	(or should I use hashbang urls? that'd take care of several problems at once, but they seem to be a thing of the past rather than the future)
+2013-06-29 00:39:31	balupton	tasuki: you can use the serverExtend event to add custom routes
+2013-06-29 00:40:49	balupton	see http://docpad.org/docs/events#serverextend and http://expressjs.com/api.html#app.VERB
+2013-06-29 00:42:24	balupton	EricLeslie: that's strange docpad doesn't work in the background
+2013-06-29 00:51:38	tasuki	thank you Benjamin!
+2013-06-29 01:18:31	<--	quartzmo (~quartzmo@173-8-92-50-utah.hfc.comcastbusiness.net) has quit (Remote host closed the connection)
+2013-06-29 01:25:56	--	Notice(GitHub170): [docpad] balupton created dev-cleancollections from v6.25.0 (+0 new commits): http://git.io/6pySiw
+2013-06-29 01:26:00	--	Notice(GitHub153): [docpad] balupton merged dev into master: http://git.io/jdljdw
+2013-06-29 01:26:01	--	Notice(GitHub69): [docpad] balupton merged master into dev: http://git.io/jdljdw
+2013-06-29 01:26:06	--	Notice(GitHub30): [docpad] balupton tagged v6.43.0 at dev: http://git.io/D58ziw
+2013-06-29 01:38:27	--	Notice(GitHub131): [docpad] balupton merged master into dev: http://git.io/p-pUYQ
+2013-06-29 01:38:28	--	Notice(GitHub94): [docpad] balupton merged dev into master: http://git.io/p-pUYQ
+2013-06-29 01:38:33	--	Notice(GitHub133): [docpad] balupton tagged v6.43.1 at dev: http://git.io/i-fJBw
+2013-06-29 01:40:47	<--	tasuki (~tasuki@80.229.113.153) has quit (Ping timeout: 256 seconds)
+2013-06-29 03:20:18	-->	EricLeslie_ (~EricLesli@208-53-87-149.static.chico.ca.digitalpath.net) has joined #docpad
+2013-06-29 03:34:55	--	irc: disconnected from server
+2013-06-29 03:35:21	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #docpad
+2013-06-29 03:35:21	--	Topic for #docpad is "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-06-29 03:35:21	--	Topic set by EtherealMind1 (~etherealm@87.242.165.59) on Mon, 13 May 2013 15:55:08
+2013-06-29 03:35:21	--	Nicks #docpad: [balupton elf-pavlik EricLeslie EricLeslie_ nexusIX shaunch supersym]
+2013-06-29 03:35:21	--	Channel #docpad: 7 nicks (0 ops, 0 halfops, 0 voices, 7 normals)
+2013-06-29 03:35:25	--	Mode #docpad [+t]
+2013-06-29 03:35:25	--	Channel created on Sat, 26 May 2012 12:12:13
+2013-06-29 04:46:44	EricLeslie_	Can I get some help with a memory leak? I am running docpad@6.43.1 node@0.10.12 on centos6. I execute $sudo docpad run --env=production --debug and I successfully generates the website. I updated the contents of a file, it regenerates the affected files and a memory leak is started. The RAM usage will climb slowly until it's exhausted and the process is killed. Here's my debug output https://gist.github.com/ericleslie/5
+2013-06-29 06:51:03	EricLeslie_	On line 12740 is where the change was detected
+2013-06-29 08:04:18	-->	tasuki (~tasuki@80.229.113.153) has joined #docpad
+2013-06-29 08:36:10	--	Notice(GitHub119): [docpad-documentation] balupton pushed 1 new commit to master: http://git.io/m7xCgA
+2013-06-29 08:36:10	--	Notice(GitHub119): docpad-documentation/master 65c1131 Benjamin Arthur Lupton: Fixed plugin links on plugin write guide
+2013-06-29 09:28:51	<--	tasuki (~tasuki@80.229.113.153) has quit (Ping timeout: 256 seconds)
+2013-06-29 16:06:42	--	irc: disconnected from server
+2013-06-29 18:12:24	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #docpad
+2013-06-29 18:12:24	--	Topic for #docpad is "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-06-29 18:12:24	--	Topic set by EtherealMind1 (~etherealm@87.242.165.59) on Mon, 13 May 2013 15:55:08
+2013-06-29 18:12:24	--	Nicks #docpad: [balupton elf-pavlik EricLeslie EricLeslie_ nexusIX shaunch supersym]
+2013-06-29 18:12:24	--	Channel #docpad: 7 nicks (0 ops, 0 halfops, 0 voices, 7 normals)
+2013-06-29 18:12:27	--	Mode #docpad [+t]
+2013-06-29 18:12:27	--	Channel created on Sat, 26 May 2012 12:12:13
+2013-06-29 17:05:30	--	Notice(GitHub122): [docpad] balupton pushed 4 new commits to dev: http://git.io/o10I6g
+2013-06-29 17:05:30	--	Notice(GitHub122): docpad/dev 9893e08 Benjamin Lupton: Major improvements for importer support #500
+2013-06-29 17:05:30	--	Notice(GitHub122): docpad/dev 2312d5a Benjamin Lupton: Fixed name attribute. Updated tests for new attributes.
+2013-06-29 17:05:30	--	Notice(GitHub122): docpad/dev 48eab09 Benjamin Lupton: Fixed failing render test. It should now fail. So added the correct test for the failure
+2013-06-29 17:42:08	balupton	EricLeslie if you can debug that leak, that would be amazing
+2013-06-29 17:42:43	balupton	my current focus is on getting https://github.com/bevry/docpad/issues/500 done
+2013-06-29 18:05:53	<--	EricLeslie (~EricLesli@68-189-102-33.dhcp.wtvl.ca.charter.com) has quit (Ping timeout: 248 seconds)
+2013-06-29 18:54:07	-->	tasuki (~tasuki@80.229.113.153) has joined #docpad
+2013-06-29 19:28:23	-->	quartzmo (~quartzmo@173-8-92-50-utah.hfc.comcastbusiness.net) has joined #docpad
+2013-06-29 19:33:01	<--	quartzmo (~quartzmo@173-8-92-50-utah.hfc.comcastbusiness.net) has quit (Ping timeout: 276 seconds)
+2013-06-29 20:39:02	<--	tasuki (~tasuki@80.229.113.153) has quit (Quit: Ex-Chat)
+2013-06-29 22:10:18	-->	ashnur (~ashnur@79.117.78.182) has joined #docpad
+2013-06-29 23:37:25	--	irc: disconnected from server
+2013-07-01 10:41:43	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #docpad
+2013-07-01 10:41:43	--	Topic for #docpad is "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-07-01 10:41:43	--	Topic set by EtherealMind1 (~etherealm@87.242.165.59) on Mon, 13 May 2013 15:55:08
+2013-07-01 10:41:43	--	Nicks #docpad: [ashnur balupton elf-pavlik nexusIX shaunch supersym]
+2013-07-01 10:41:43	--	Channel #docpad: 6 nicks (0 ops, 0 halfops, 0 voices, 6 normals)
+2013-07-01 10:41:47	--	Mode #docpad [+t]
+2013-07-01 10:41:47	--	Channel created on Sat, 26 May 2012 12:12:13
+2013-07-01 12:13:22	-->	kaspertidemann (~Kasper@2605ds2-bav.0.fullrate.dk) has joined #docpad
+2013-07-01 12:34:13	<--	ashnur (~ashnur@79.117.65.135) has quit (Quit: WeeChat 0.4.1)
+2013-07-01 13:16:27	--	irc: disconnected from server
+2013-07-01 16:55:03	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #docpad
+2013-07-01 16:55:03	--	Topic for #docpad is "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-07-01 16:55:03	--	Topic set by EtherealMind1 (~etherealm@87.242.165.59) on Mon, 13 May 2013 15:55:08
+2013-07-01 16:55:03	--	Nicks #docpad: [ashnur balupton elf-pavlik nexusIX quartzmo shaunch steventrevathan supersym]
+2013-07-01 16:55:03	--	Channel #docpad: 8 nicks (0 ops, 0 halfops, 0 voices, 8 normals)
+2013-07-01 16:55:06	--	Mode #docpad [+t]
+2013-07-01 16:55:06	--	Channel created on Sat, 26 May 2012 12:12:13
+2013-07-01 16:59:20	<--	steventrevathan (~steventre@70.42.157.34) has quit (Quit: steventrevathan)
+2013-07-01 18:42:52	<--	ashnur (~ashnur@79.117.65.135) has quit (Read error: Connection reset by peer)
+2013-07-01 18:44:07	-->	ashnur (~ashnur@79.117.65.135) has joined #docpad
+2013-07-01 20:18:16	--	Notice(GitHub121): [docpad] balupton pushed 1 new commit to dev: http://git.io/qVEcgA
+2013-07-01 20:18:16	--	Notice(GitHub121): docpad/dev c09da32 Benjamin Lupton: Huge improvements to api facilitating a new paged plugin version
+2013-07-01 20:24:07	--	Notice(GitHub109): [docpad-documentation] balupton pushed 1 new commit to master: http://git.io/w8jFiA
+2013-07-01 20:24:07	--	Notice(GitHub109): docpad-documentation/master 1a1f0aa Benjamin Arthur Lupton: Emphasize that end users should not use content
+2013-07-01 20:24:07	--	Notice(GitHub154): [docpad-documentation] balupton pushed 1 new commit to master: http://git.io/hDiYSQ
+2013-07-01 20:24:07	--	Notice(GitHub154): docpad-documentation/master 837cbeb Benjamin Arthur Lupton: Emphasize that end users should not use content
+2013-07-01 20:27:43	--	Notice(GitHub15): [docpad-documentation] balupton pushed 1 new commit to master: http://git.io/W6yOCg
+2013-07-01 20:27:43	--	Notice(GitHub15): docpad-documentation/master 885b7b5 Benjamin Arthur Lupton: Updated meta-data.html.md
+2013-07-01 20:35:42	-->	kaspertidemann (~Kasper@2605ds2-bav.0.fullrate.dk) has joined #docpad
+2013-07-01 21:37:10	<--	ashnur (~ashnur@79.117.65.135) has quit (Quit: WeeChat 0.4.1)
+2013-07-01 22:04:06	-->	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has joined #docpad
+2013-07-02 00:46:25	<--	kaspertidemann (~Kasper@2605ds2-bav.0.fullrate.dk) has quit (Quit: kaspertidemann)
+2013-07-02 01:16:46	<--	quartzmo (~quartzmo@173-8-92-50-utah.hfc.comcastbusiness.net) has quit (Remote host closed the connection)
+2013-07-02 01:45:31	-->	ashnur (~ashnur@79.117.65.135) has joined #docpad
+2013-07-02 02:25:44	--	irc: disconnected from server
+2013-07-02 14:48:04	-->	supersym (~supersym@5418DBD7.cm-5-1d.dynamic.ziggo.nl) has joined #docpad
+2013-07-02 14:48:04	--	Topic for #docpad is "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-07-02 14:48:04	--	Topic set by EtherealMind1 (~etherealm@87.242.165.59) on Mon, 13 May 2013 15:55:08
+2013-07-02 14:48:04	--	Nicks #docpad: [balupton elf-pavlik nexusIX shaunch supersym]
+2013-07-02 14:48:04	--	Channel #docpad: 5 nicks (0 ops, 0 halfops, 0 voices, 5 normals)
+2013-07-02 14:48:08	--	Mode #docpad [+t]
+2013-07-02 14:48:08	--	Channel created on Sat, 26 May 2012 12:12:13
+2013-07-02 14:56:25	--	irc: disconnected from server
+2013-07-09 16:49:26	-->	supersym (~supersym@541F97CA.cm-5-8c.dynamic.ziggo.nl) has joined #docpad
+2013-07-09 16:49:26	--	Topic for #docpad is "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-07-09 16:49:26	--	Topic set by EtherealMind1 (~etherealm@87.242.165.59) on Mon, 13 May 2013 15:55:08
+2013-07-09 16:49:26	--	Nicks #docpad: [arcanis ashnur elf-pavlik spanners supersym trooney_]
+2013-07-09 16:49:26	--	Channel #docpad: 6 nicks (0 ops, 0 halfops, 0 voices, 6 normals)
+2013-07-09 16:49:30	--	Mode #docpad [+t]
+2013-07-09 16:49:30	--	Channel created on Sat, 26 May 2012 12:12:13
+2013-07-09 16:50:15	spanners	ss
+2013-07-09 16:51:24	 *	spanners reports jade plugin bug
+2013-07-09 17:58:03	-->	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has joined #docpad
+2013-07-09 18:59:28	-->	ammutable (~ammutable@127.Red-88-16-64.dynamicIP.rima-tde.net) has joined #docpad
+2013-07-09 19:06:10	-->	drejohnson (~drejohnso@2602:306:3ae5:e8b0:554f:88e:a6f2:e999) has joined #docpad
+2013-07-09 19:08:08	<--	drejohnson (~drejohnso@2602:306:3ae5:e8b0:554f:88e:a6f2:e999) has quit (Quit: drejohnson)
+2013-07-09 19:09:19	-->	drejohnson (~drejohnso@2602:306:3ae5:e8b0:554f:88e:a6f2:e999) has joined #docpad
+2013-07-09 19:36:55	--	ashnur is now known as totemizer
+2013-07-09 19:46:51	<--	ammutable (~ammutable@127.Red-88-16-64.dynamicIP.rima-tde.net) has quit (Quit: Leaving...)
+2013-07-09 21:44:23	-->	ammutable (~ammutable@127.Red-88-16-64.dynamicIP.rima-tde.net) has joined #docpad
+2013-07-09 22:01:35	<--	arcanis (~arcanis@2001:41d0:2:734f::1) has quit (*.net *.split)
+2013-07-09 22:02:25	<--	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has quit (Write error: Connection reset by peer)
+2013-07-09 22:02:47	-->	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has joined #docpad
+2013-07-09 22:05:48	-->	arcanis (~arcanis@2001:41d0:2:734f::1) has joined #docpad
+2013-07-09 22:23:47	<--	arcanis (~arcanis@2001:41d0:2:734f::1) has quit (*.net *.split)
+2013-07-09 22:24:34	-->	arcanis (~arcanis@2001:41d0:2:734f::1) has joined #docpad
+2013-07-09 22:38:40	<--	arcanis (~arcanis@2001:41d0:2:734f::1) has quit (*.net *.split)
+2013-07-09 22:41:44	-->	arcanis (~arcanis@2001:41d0:2:734f::1) has joined #docpad
+2013-07-09 23:30:52	-->	drejohnson_ (~drejohnso@2602:306:3ae5:e8b0:3d1d:75:7ed2:c7c4) has joined #docpad
+2013-07-09 23:31:07	<--	drejohnson (~drejohnso@2602:306:3ae5:e8b0:554f:88e:a6f2:e999) has quit (Ping timeout: 264 seconds)
+2013-07-10 01:08:06	<--	ammutable (~ammutable@127.Red-88-16-64.dynamicIP.rima-tde.net) has quit (Quit: Linkinus - http://linkinus.com)

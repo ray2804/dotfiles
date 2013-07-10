@@ -1,16 +1,31 @@
-{:user {:dependencies
+{:user {
+
+        ;; -----------------------------------
+        ;; These are useful within any project
+        ;; -----------------------------------
+        :dependencies
+
         [[clj-stacktrace "0.2.6"]
+         [dire "0.4.3"]
          ;[enlive "1.1.1"]
          [org.clojure/clojure-contrib "1.2.0"]
+         [org.clojure/data.csv "0.1.2"]
+         [query-extractor "0.0.9"]
          ;[org.clojure/tools.namespace "0.2.3"]
          [org.clojure/tools.trace "0.7.5"]
          ;;#_easier_multi_threaded_apps
          [spyscope "0.1.3" :exclusions [clj-time]]
          ;[clojail "1.0.6"]
          [javert "0.1.0"]
+         [digest "1.4.3"]
          [criterium "0.4.1"]
+         ;[itsy "0.1.1"]
+         [swiss-arrows "0.6.0"]
          ;[clj-http "0.7.3"]
          [garden "0.1.0-beta5"]
+         [clojure-opennlp "0.3.0"]
+;         [org.clojars.gnarmis/sentimental "0.1.1-SNAPSHOT"]
+         [org.clojure/data.finger-tree "0.0.1"]
          ;[me.raynes/conch "0.5.1"]
          ;[info.sunng/ring-jetty9-adapter "0.1.0"]
          ;[clj-webdriver "0.6.0"]
@@ -57,7 +72,9 @@
 
         :aliases {"slamhound" ["run" "-m" "slam.hound"]}}
 
- :injections [(require '(clojure.tools.namespace repl find))
+ :injections [(require '(clojure.pprint :refer [pprint print-table]))
+              (require '(clojure.tools.namespace repl find))
+              (require '(dire.core :refer [with-handler!]))
               ; try/catch to workaround an issue where `lein repl` outside a project dir
               ; will not load reader literal definitions correctly:
               (try

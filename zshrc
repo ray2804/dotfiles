@@ -118,7 +118,8 @@ export LESS=X-r
 export EDITOR=vim
 
 # Very fast web browser, lightweight and highly customizable
-export BROWSER=dwb
+# dbg
+export BROWSER=chromium
 
 # Use less to view man files etc
 export PAGER=less
@@ -128,6 +129,9 @@ export PAGER=less
 
 # Keep /usr/bin first (or might get confused)
 export PATH=/var/tmp/bin:/usr/bin:/usr/local/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/local/lib/opennlp/bin
+
+# Elastisearch
+export PATH="/opt/elasticsearch/bin:${PATH}"
 
 # Append to path user profile bin folders (suffixes will do)
 export PATH="${PATH}:${HOME}/bin"
