@@ -1114,3 +1114,6 @@
 2013-07-02 14:47:52		Plugins loaded: alias, aspell, charset, fifo, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
 2013-07-02 14:56:25		fifo: pipe closed
 2013-07-09 16:49:12		Plugins loaded: alias, aspell, charset, fifo, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2013-07-10 05:34:33	=!=	Error: unknown command "l" (type /help for help)
+2013-07-11 15:24:51		fifo: pipe closed
+2013-07-12 16:41:03		Plugins loaded: alias, aspell, charset, fifo, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer

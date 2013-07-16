@@ -196,3 +196,6 @@ yaourt -Rc zenity
 sudo reboot
 startx
 mvn test -X
+cd
+cd projects/
+cd

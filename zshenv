@@ -1,5 +1,5 @@
 hash -d ai="/home/baal/company/solobit/net.solobit.utils/resources/ai"
-hash -d sb="/media/data/company/solobit"
+hash -d sb="/media/data/company/"
 hash -d git="/srv/lib/repos/git"
 hash -d libnode="/usr/local/lib/node_modules"
 hash -d clogs="/home/baal/projects/named/clogs"

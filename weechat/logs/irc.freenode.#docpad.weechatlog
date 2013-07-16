@@ -15547,3 +15547,169 @@
 2013-07-09 23:30:52	-->	drejohnson_ (~drejohnso@2602:306:3ae5:e8b0:3d1d:75:7ed2:c7c4) has joined #docpad
 2013-07-09 23:31:07	<--	drejohnson (~drejohnso@2602:306:3ae5:e8b0:554f:88e:a6f2:e999) has quit (Ping timeout: 264 seconds)
 2013-07-10 01:08:06	<--	ammutable (~ammutable@127.Red-88-16-64.dynamicIP.rima-tde.net) has quit (Quit: Linkinus - http://linkinus.com)
+2013-07-10 04:37:07	<--	drejohnson_ (~drejohnso@2602:306:3ae5:e8b0:3d1d:75:7ed2:c7c4) has quit (Ping timeout: 264 seconds)
+2013-07-10 06:58:34	<--	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has quit (Remote host closed the connection)
+2013-07-10 06:58:47	-->	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has joined #docpad
+2013-07-10 07:27:12	-->	keanu (76a33d9d@gateway/web/freenode/ip.118.163.61.157) has joined #docpad
+2013-07-10 07:27:43	keanu	hello, anybody here?
+2013-07-10 07:31:30	totemizer	sure
+2013-07-10 07:31:59	totemizer	but you better of just asking, and then hanging around for severald days if anyone comes, and asking again
+2013-07-10 07:32:17	totemizer	because balupton can help you the most, but he is not always here
+2013-07-10 09:05:58	<--	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has quit (Remote host closed the connection)
+2013-07-10 10:06:52	-->	kaspertidemann (~Kasper@213.150.61.84) has joined #docpad
+2013-07-10 11:41:32	<--	keanu (76a33d9d@gateway/web/freenode/ip.118.163.61.157) has quit (Quit: Page closed)
+2013-07-10 12:09:34	<--	kaspertidemann (~Kasper@213.150.61.84) has quit (Quit: kaspertidemann)
+2013-07-10 12:40:00	-->	kaspertidemann (~Kasper@213.150.61.84) has joined #docpad
+2013-07-10 15:42:05	-->	Kongen (~Kasper@213.150.61.84) has joined #docpad
+2013-07-10 15:57:22	<--	kaspertidemann (~Kasper@213.150.61.84) has quit (*.net *.split)
+2013-07-10 16:13:03	-->	ashnur (~ashnur@79.117.83.78) has joined #docpad
+2013-07-10 16:13:19	<--	Kongen (~Kasper@213.150.61.84) has quit (Quit: Kongen)
+2013-07-10 16:17:38	<--	totemizer (~ashnur@79.117.83.78) has quit (*.net *.split)
+2013-07-10 17:15:55	--	ashnur is now known as totemizer
+2013-07-10 18:18:02	-->	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has joined #docpad
+2013-07-10 19:00:10	<--	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has quit (Remote host closed the connection)
+2013-07-10 19:02:07	-->	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has joined #docpad
+2013-07-10 20:13:31	-->	kaspertidemann (~Kasper@2605ds2-bav.0.fullrate.dk) has joined #docpad
+2013-07-10 22:01:41	-->	slindberg (~slindberg@173-164-85-85-Oregon.hfc.comcastbusiness.net) has joined #docpad
+2013-07-10 22:53:53	<--	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has quit (*.net *.split)
+2013-07-10 22:53:53	<--	totemizer (~ashnur@79.117.83.78) has quit (*.net *.split)
+2013-07-10 22:54:22	-->	ashnur (~ashnur@79.117.83.78) has joined #docpad
+2013-07-10 23:01:38	-->	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has joined #docpad
+2013-07-10 23:08:42	<--	kaspertidemann (~Kasper@2605ds2-bav.0.fullrate.dk) has quit (Ping timeout: 260 seconds)
+2013-07-10 23:08:43	-->	kaspertidemann (~Kasper@89.150.170.214) has joined #docpad
+2013-07-10 23:09:06	-->	totemizer (~ashnur@79.117.83.78) has joined #docpad
+2013-07-10 23:17:31	<--	kaspertidemann (~Kasper@89.150.170.214) has quit (*.net *.split)
+2013-07-10 23:17:31	<--	ashnur (~ashnur@79.117.83.78) has quit (*.net *.split)
+2013-07-10 23:17:32	<--	slindberg (~slindberg@173-164-85-85-Oregon.hfc.comcastbusiness.net) has quit (*.net *.split)
+2013-07-10 23:17:32	<--	arcanis (~arcanis@2001:41d0:2:734f::1) has quit (*.net *.split)
+2013-07-10 23:24:48	-->	arcanis (~arcanis@2001:41d0:2:734f::1) has joined #docpad
+2013-07-11 04:34:44	-->	trooney (~trooney@postal.logic.bm) has joined #docpad
+2013-07-11 04:42:03	<--	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has quit (Remote host closed the connection)
+2013-07-11 04:42:10	-->	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has joined #docpad
+2013-07-11 04:43:45	<--	trooney_ (~trooney@postal.logic.bm) has quit (*.net *.split)
+2013-07-11 07:29:11	<--	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has quit (Remote host closed the connection)
+2013-07-11 10:33:25	-->	kaspertidemann (~Kasper@213.150.61.84) has joined #docpad
+2013-07-11 11:44:13	<--	kaspertidemann (~Kasper@213.150.61.84) has quit (Quit: kaspertidemann)
+2013-07-11 12:10:52	-->	kaspertidemann (~Kasper@213.150.61.84) has joined #docpad
+2013-07-11 13:21:28	-->	thanpolas (~thanpolas@ppp-94-68-122-195.home.otenet.gr) has joined #docpad
+2013-07-11 15:24:51	--	irc: disconnected from server
+2013-07-12 16:41:19	-->	supersym (~supersym@541F97CA.cm-5-8c.dynamic.ziggo.nl) has joined #docpad
+2013-07-12 16:41:19	--	Topic for #docpad is "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-07-12 16:41:19	--	Topic set by EtherealMind1 (~etherealm@87.242.165.59) on Mon, 13 May 2013 15:55:08
+2013-07-12 16:41:19	--	Nicks #docpad: [arcanis bret elf-pavlik supersym totemizer]
+2013-07-12 16:41:19	--	Channel #docpad: 5 nicks (0 ops, 0 halfops, 0 voices, 5 normals)
+2013-07-12 16:41:19	--	Notice(adams.freenode.net): [freenode-info] if you're at a conference and other people are having trouble connecting, please mention it to staff: http://freenode.net/faq.shtml#gettinghelp
+2013-07-12 16:41:23	--	Mode #docpad [+t]
+2013-07-12 16:41:23	--	Channel created on Sat, 26 May 2012 12:12:13
+2013-07-12 18:17:59	-->	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has joined #docpad
+2013-07-12 18:42:39	-->	thanpolas (~thanpolas@ppp-94-68-95-177.home.otenet.gr) has joined #docpad
+2013-07-12 18:48:22	-->	edrex (~eric@li112-37.members.linode.com) has joined #docpad
+2013-07-12 18:49:33	-->	bretolius (~boot@50.7.8.106) has joined #docpad
+2013-07-12 18:50:58	<--	bret (~boot@50.7.8.106) has quit (*.net *.split)
+2013-07-12 18:51:01	--	bretolius is now known as bret
+2013-07-12 19:15:21	--	irc: disconnected from server
+2013-07-12 19:15:46	-->	supersym (~supersym@541F97CA.cm-5-8c.dynamic.ziggo.nl) has joined #docpad
+2013-07-12 19:15:46	--	Topic for #docpad is "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-07-12 19:15:46	--	Topic set by EtherealMind1 (~etherealm@87.242.165.59) on Mon, 13 May 2013 15:55:08
+2013-07-12 19:15:46	--	Nicks #docpad: [arcanis bret edrex elf-pavlik shama supersym thanpolas totemizer]
+2013-07-12 19:15:46	--	Channel #docpad: 8 nicks (0 ops, 0 halfops, 0 voices, 8 normals)
+2013-07-12 19:16:04	--	Mode #docpad [+t]
+2013-07-12 19:16:04	--	Channel created on Sat, 26 May 2012 12:12:13
+2013-07-12 19:43:47	<--	thanpolas (~thanpolas@ppp-94-68-95-177.home.otenet.gr) has quit (Remote host closed the connection)
+2013-07-12 19:52:36	--	Notice(GitHub148): [docpad] balupton pushed 1 new commit to dev: http://git.io/Dih-7g
+2013-07-12 19:52:36	--	Notice(GitHub148): docpad/dev d243ea1 Benjamin Lupton: Update dependencies
+2013-07-12 20:02:17	totemizer	edrex: you will get answers faster if you write an email to balupton
+2013-07-12 20:02:31	totemizer	 Benjamin Lupton :)
+2013-07-12 20:37:13	edrex	thanks totemizer 
+2013-07-12 23:13:26	-->	thanpolas (~thanpolas@ppp-94-68-113-181.home.otenet.gr) has joined #docpad
+2013-07-13 00:00:50	<--	thanpolas (~thanpolas@ppp-94-68-113-181.home.otenet.gr) has quit (Remote host closed the connection)
+2013-07-13 00:39:42	<--	totemizer (~ashnur@79.117.83.78) has quit (Ping timeout: 264 seconds)
+2013-07-13 00:40:46	-->	totemizer (~ashnur@79.117.83.78) has joined #docpad
+2013-07-13 09:09:03	<--	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has quit (Remote host closed the connection)
+2013-07-13 10:11:03	-->	thanpolas (~thanpolas@ppp-94-68-81-112.home.otenet.gr) has joined #docpad
+2013-07-13 10:52:27	<--	thanpolas (~thanpolas@ppp-94-68-81-112.home.otenet.gr) has quit (Remote host closed the connection)
+2013-07-13 15:40:21	-->	gour_ (~gour@unaffiliated/gour) has joined #docpad
+2013-07-13 15:46:06	<--	gour_ (~gour@unaffiliated/gour) has left #docpad ("WeeChat 0.4.0")
+2013-07-13 16:55:44	-->	emak (4efae48d@gateway/web/freenode/ip.78.250.228.141) has joined #docpad
+2013-07-13 17:08:35	emak	Hi ! I want to use a static site generator for the website of my project. Docpad looks great. I just wonder how easy it is to manage a multilingual webstie with docpad ?
+2013-07-13 17:09:12	emak	@elf-pavlik good to see you here (you are everywhere !!)
+2013-07-13 17:17:02	totemizer	emak: i don't know about any ready-to-use solution
+2013-07-13 17:18:25	totemizer	emak: but my guess is that it isn't any complicated than other solutions. there are good js libs/modules for dealing with this issue, and you can integrate anything into docpad very easily (via plugins, on which the documentation is very good)
+2013-07-13 17:21:16	emak	ok thanks, I will look for js libs for this.
+2013-07-13 17:33:22	-->	rovo (~Adium@pool-96-255-12-245.washdc.fios.verizon.net) has joined #docpad
+2013-07-13 17:33:32	rovo	Heyloto!
+2013-07-13 17:33:57	rovo	DocPad is very exciting…i'm not clear of the licensing though? Does anyone know about that?
+2013-07-13 17:37:31	rovo	Ok, I found it on the GitHub Repo…couldn't find it anywhere on the DocPad site… Licensed under the incredibly http://en.wikipedia.org/wiki/Permissive_free_software_licence http://creativecommons.org/licenses/MIT/
+2013-07-13 18:34:28	-->	nexusIX (~egoIX@c-66-235-0-222.sea.wa.customer.broadstripe.net) has joined #docpad
+2013-07-13 18:58:46	<--	emak (4efae48d@gateway/web/freenode/ip.78.250.228.141) has quit (Quit: Page closed)
+2013-07-13 18:58:49	-->	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has joined #docpad
+2013-07-13 19:14:09	-->	kaspertidemann (~Kasper@2605ds2-bav.0.fullrate.dk) has joined #docpad
+2013-07-13 19:29:01	<--	rovo (~Adium@pool-96-255-12-245.washdc.fios.verizon.net) has left #docpad
+2013-07-13 21:25:58	<--	kaspertidemann (~Kasper@2605ds2-bav.0.fullrate.dk) has quit (Quit: kaspertidemann)
+2013-07-13 22:39:13	-->	kaspertidemann (~Kasper@2605ds2-bav.0.fullrate.dk) has joined #docpad
+2013-07-14 00:11:50	<--	kaspertidemann (~Kasper@2605ds2-bav.0.fullrate.dk) has quit (Quit: kaspertidemann)
+2013-07-14 00:19:28	<--	edrex (~eric@li112-37.members.linode.com) has quit (Quit: WeeChat 0.3.7)
+2013-07-14 00:24:26	<--	bret (~boot@50.7.8.106) has quit (Quit: ZNC - http://znc.in)
+2013-07-14 00:24:53	-->	bret (~boot@50.7.8.106) has joined #docpad
+2013-07-14 01:26:11	<--	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has quit (Remote host closed the connection)
+2013-07-14 03:57:55	-->	geekles (~geekles@192.241.198.20) has joined #docpad
+2013-07-14 03:59:21	geekles	Can the host be set on the docpad dev server? e.g. When I run the command `docpad run`, I'd like the host to be '0.0.0.0' instead of localhost, because it's running on a remote server.
+2013-07-14 04:55:33	-->	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has joined #docpad
+2013-07-14 06:36:30	<--	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has quit (Remote host closed the connection)
+2013-07-14 21:22:58	<--	totemizer (~ashnur@79.117.83.78) has quit (Quit: WeeChat 0.4.1)
+2013-07-14 22:47:24	-->	Ash1 (~Adium@69.119.134.238) has joined #docpad
+2013-07-14 22:47:57	Ash1	need some help with docpad ..
+2013-07-14 22:48:48	Ash1	anyone around ?
+2013-07-14 23:01:22	<--	Ash1 (~Adium@69.119.134.238) has left #docpad
+2013-07-15 03:16:24	-->	totemizer (~ashnur@79.117.83.78) has joined #docpad
+2013-07-15 05:27:35	-->	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has joined #docpad
+2013-07-15 06:03:51	<--	geekles (~geekles@192.241.198.20) has left #docpad ("WeeChat 0.4.0")
+2013-07-15 07:21:03	<--	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has quit (Remote host closed the connection)
+2013-07-15 09:37:38	-->	kaspertidemann (~Kasper@213.150.61.84) has joined #docpad
+2013-07-15 10:28:09	-->	psteinweber (~psteinweb@node-11fv.pool-118-173.dynamic.totbb.net) has joined #docpad
+2013-07-15 10:33:17	psteinweber	I'm just stuck with a newbie problem related to https://gist.github.com/balupton/3898915
+2013-07-15 10:33:49	psteinweber	if anyone has a minute... it would be great if you could reply to my last comment there
+2013-07-15 10:33:57	psteinweber	cheers!
+2013-07-15 10:49:42	totemizer	http://www.youtube.com/watch?v=bntNYzCrzvE
+2013-07-15 10:49:48	totemizer	psteinweber: ↑
+2013-07-15 10:58:22	<--	totemizer (~ashnur@79.117.83.78) has quit (Quit: WeeChat 0.4.1)
+2013-07-15 11:14:42	psteinweber	51 min? https://www.youtube.com/watch?v=Nh7UgAprdpM
+2013-07-15 11:24:13	-->	psteinwe_ (~psteinweb@node-19j8.pool-118-173.dynamic.totbb.net) has joined #docpad
+2013-07-15 11:24:31	<--	psteinweber (~psteinweb@node-11fv.pool-118-173.dynamic.totbb.net) has quit (Ping timeout: 246 seconds)
+2013-07-15 11:29:51	<--	psteinwe_ (~psteinweb@node-19j8.pool-118-173.dynamic.totbb.net) has quit (Remote host closed the connection)
+2013-07-15 11:51:22	<--	kaspertidemann (~Kasper@213.150.61.84) has quit (Quit: kaspertidemann)
+2013-07-15 12:02:24	-->	totemizer (~ashnur@79.117.72.123) has joined #docpad
+2013-07-15 12:19:25	-->	kaspertidemann (~Kasper@213.150.61.84) has joined #docpad
+2013-07-15 13:02:24	-->	thanpolas (~thanpolas@ppp-94-68-84-149.home.otenet.gr) has joined #docpad
+2013-07-15 16:21:30	<--	thanpolas (~thanpolas@ppp-94-68-84-149.home.otenet.gr) has quit (Remote host closed the connection)
+2013-07-15 16:40:37	<--	kaspertidemann (~Kasper@213.150.61.84) has quit (Quit: kaspertidemann)
+2013-07-15 16:50:57	-->	thanpolas (~thanpolas@ppp-94-68-126-154.home.otenet.gr) has joined #docpad
+2013-07-15 17:07:20	-->	ammutable (~ammutable@127.Red-88-16-64.dynamicIP.rima-tde.net) has joined #docpad
+2013-07-15 17:07:33	ammutable	hi!
+2013-07-15 17:08:50	ammutable	i'm looking for a way to get templatedata into the javascript files, anyone knows if this is possible?
+2013-07-15 17:10:57	ammutable	there are some url's and variables that should change depending on the environment, I could declare it as global variables in the html, but the best option would be to get them directly into the javascripts modules when running docpad...
+2013-07-15 17:20:22	-->	kaspertidemann (~Kasper@213.150.61.84) has joined #docpad
+2013-07-15 17:51:39	<--	thanpolas (~thanpolas@ppp-94-68-126-154.home.otenet.gr) has quit (Ping timeout: 256 seconds)
+2013-07-15 17:54:26	-->	thanpolas (~thanpolas@ppp-94-68-126-154.home.otenet.gr) has joined #docpad
+2013-07-15 18:06:57	<--	thanpolas (~thanpolas@ppp-94-68-126-154.home.otenet.gr) has quit (Ping timeout: 256 seconds)
+2013-07-15 18:09:50	-->	thanpolas (~thanpolas@ppp-94-68-126-154.home.otenet.gr) has joined #docpad
+2013-07-15 18:11:55	<--	thanpolas (~thanpolas@ppp-94-68-126-154.home.otenet.gr) has quit (Remote host closed the connection)
+2013-07-15 19:55:48	<--	ammutable (~ammutable@127.Red-88-16-64.dynamicIP.rima-tde.net) has quit (Quit: Leaving...)
+2013-07-15 21:03:47	<--	kaspertidemann (~Kasper@213.150.61.84) has quit (Quit: kaspertidemann)
+2013-07-15 21:12:43	-->	thanpolas (~thanpolas@ppp-94-68-123-31.home.otenet.gr) has joined #docpad
+2013-07-15 21:13:48	-->	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has joined #docpad
+2013-07-15 21:19:10	<--	thanpolas (~thanpolas@ppp-94-68-123-31.home.otenet.gr) has quit (Remote host closed the connection)
+2013-07-15 23:17:23	-->	ammutable (~ammutable@127.Red-88-16-64.dynamicIP.rima-tde.net) has joined #docpad
+2013-07-15 23:22:07	-->	kaspertidemann (~Kasper@2605ds2-bav.0.fullrate.dk) has joined #docpad
+2013-07-15 23:48:27	<--	ammutable (~ammutable@127.Red-88-16-64.dynamicIP.rima-tde.net) has quit (Quit: Leaving...)
+2013-07-16 00:41:09	<--	kaspertidemann (~Kasper@2605ds2-bav.0.fullrate.dk) has quit (Quit: kaspertidemann)
+2013-07-16 01:36:11	<--	totemizer (~ashnur@79.117.72.123) has quit (Quit: WeeChat 0.4.1)
+2013-07-16 03:59:38	-->	totemizer (~ashnur@79.117.72.123) has joined #docpad
+2013-07-16 05:34:55	--	totemizer is now known as ashnur
+2013-07-16 06:47:03	<--	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has quit (Read error: Connection reset by peer)
+2013-07-16 06:47:18	-->	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has joined #docpad
+2013-07-16 06:54:17	<--	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has quit (Remote host closed the connection)
+2013-07-16 07:00:08	-->	ammutable (~ammutable@127.Red-88-16-64.dynamicIP.rima-tde.net) has joined #docpad
+2013-07-16 08:03:33	<--	ammutable (~ammutable@127.Red-88-16-64.dynamicIP.rima-tde.net) has quit (Quit: Leaving...)
+2013-07-16 09:08:40	-->	Aglezabad (c3ebaaa4@gateway/web/freenode/ip.195.235.170.164) has joined #docpad
+2013-07-16 09:10:12	<--	Aglezabad (c3ebaaa4@gateway/web/freenode/ip.195.235.170.164) has quit (Client Quit)
