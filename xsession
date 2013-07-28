@@ -49,6 +49,7 @@ sysmodmap=/etc/X11/xinit/Xmodmap
 
 # Start compositing window manager
 xcompmgr -c &
+export DE='xfce'
 
 # Set screen displays
 #xrandr --output VGA-1 --off --output DVI-I-1 --mode 1600x900 --pos 1920x168 --rotate normal --output HDMI-1 --mode 1920x1200 --pos 0x0 --rotate normal

@@ -1,0 +1,55 @@
+.cm-s-jernau {background: #222;}                                               /* [background]                  :black      */
+.cm-s-jernau .activeline {background:#333;}                                    /* [active-line]                 :dark-grey  */
+.cm-s-jernau .CodeMirror-focused {background: #555;}                           /* [focused]                     :light-grey */
+.cm-s-jernau .CodeMirror-selected {background: #555;}                          /* [selected]                    :light-grey */
+
+.cm-s-jernau span.cm-atom {color: #CCA5E3;}                                    /* (:keyword)                    :purple     */
+.cm-s-jernau span.cm-bracket {color: #CCC;}                                    /* ()                            :light-grey */
+.cm-s-jernau span.cm-builtin {color: #8EB5D0;}                                 /* (map partial juxt)            :blue       */
+.cm-s-jernau span.cm-comment {color: #9CCE95;}                                 /* ;; comment                    :green      */
+.cm-s-jernau span.cm-def {color: #9CCE95;}                                     /* <@media>                      :green      */
+.cm-s-jernau span.cm-header {color: #CCC;}
+.cm-s-jernau span.cm-keyword {color: #9CCE95}                                  /* (ns def -> let if)            :green      */
+.cm-s-jernau span.cm-meta {color: #9CCE95;}                                    /* <DOCTYPE!>                    :green      */
+.cm-s-jernau span.cm-number {color: #CCC;}                                     /* (1 2 3 4)                     :light-grey */
+.cm-s-jernau span.cm-qualifier {color: #CCC;}                                  /* <.qualifier>                  :light-grey */
+.cm-s-jernau span.cm-string {color: #EEDDAF;}                                  /* "string"                      :yellow     */
+.cm-s-jernau span.cm-string-2 {color: #8EB5D0;}                                /* <center right solid>          :blue       */
+.cm-s-jernau span.cm-symbol {color: #CCC;}
+.cm-s-jernau span.cm-tag {color: #8EB5D0;}                                     /* <html-tag>                    :blue       */
+.cm-s-jernau span.cm-variable {color: #CCC;}
+.cm-s-jernau span.cm-variable-2 {color: #8EB5D0;}                              /* <var exampleColor scale>      :blue       */
+
+.cm-s-jernau span.cm-SUBST {color:#FF1F69;}
+
+.cm-s-jernau span.cm-bracket2 {color: #70BFFF;}                                /* ((                            :blue       */
+.cm-s-jernau span.cm-bracket3 {color: #887FD5;}                                /* (((                           :purple     */
+.cm-s-jernau span.cm-bracket4 {color: #EB77EC;}                                /* ((((                          :pink       */
+.cm-s-jernau span.cm-bracket5 {color: #FFBB44;}                                /* (((((                         :orange     */
+.cm-s-jernau span.cm-bracket6 {color: #EFEF66;}                                /* ((((((                        :yellow     */
+.cm-s-jernau span.cm-bracket7 {color: #63EB63;}                                /* (((((((                       :green      */
+.cm-s-jernau span.cm-bracket8 {color: #55F1E1;}                                /* ((((((((                      :cyan       */
+.cm-s-jernau span.cm-bracket9 {color: #70BFFF;}
+.cm-s-jernau span.cm-bracket10 {color: #887FD5;}
+.cm-s-jernau span.cm-bracket11 {color: #EB77EC;}
+.cm-s-jernau span.cm-bracket12 {color: #FFBB44;}
+.cm-s-jernau span.cm-bracket13 {color: #EFEF66;}
+.cm-s-jernau span.cm-bracket14 {color: #63EB63;}
+.cm-s-jernau span.cm-bracket15 {color: #55F1E1;}
+
+.cm-s-jernau span.cm-bracket0 {color:#F88; background:#733;}                   /* (nonmatching-brackets)))      :red        */
+
+.cm-s-jernau span.CodeMirror-matchingbracket {box-sizing:border-box; background:transparent; border-bottom:1px solid #CCC; font-weight:normal;}
+.cm-s-jernau span.CodeMirror-nonmatchingbracket {color: #F88; border-bottom:1px solid #F88; background:none;}
+
+.cm-s-jernau span.CodeMirror-searching {background: #AAA; color: black;}
+.cm-s-jernau span.CodeMirror-searching-active {background: #AFA; color: black;}
+.cm-s-jernau .cm-searching {background:#5F5F5F; border-radius:2px; color:#EEE !important;}
+.cm-s-jernau .searching-current {background:#13879C; color:#BFFCFF !important;}
+
+.CodeMirror div.CodeMirror-cursor {border-left: 1px solid white;}
+/* Shown when moving in bi-directional text */
+.CodeMirror div.CodeMirror-secondarycursor {border-left: 1px solid silver;}
+.CodeMirror.cm-keymap-fat-cursor div.CodeMirror-cursor {width: auto; border: none !important; background: rgba(0, 200, 200, .4);}
+
+.CodeMirror-gutters {background: #202020; border-right:1px solid #444;}

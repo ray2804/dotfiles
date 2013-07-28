@@ -1,0 +1,8 @@
+[10763:0725/073012:ERROR:zygote_host_impl_linux.cc(146)] Running without the SUID sandbox! See https://code.google.com/p/chromium/wiki/LinuxSUIDSandboxDevelopment for more information on developing with the sandbox on.
+[10763:0725/073012:INFO:gpu_info_collector_linux.cc(78)] NVCtrl extension does not exist.
+[10763:0725/073012:ERROR:browser_main_loop.cc(185)] Gdk: gdk_window_set_icon_list: icons too large
+[10883:0725/073012:ERROR:renderer_main.cc(203)] Running without renderer sandbox
+[10763:0725/085452:INFO:CONSOLE(72)] "Uncaught Error: This socket has been ended by the other party", source: events.js (72)
+[10763:0725/085453:INFO:CONSOLE(72)] "Uncaught Error: This socket has been ended by the other party", source: events.js (72)
+[10763:0725/085453:INFO:CONSOLE(72)] "Uncaught Error: This socket has been ended by the other party", source: events.js (72)
+[10763:0725/085456:INFO:CONSOLE(72)] "Uncaught Error: This socket has been ended by the other party", source: events.js (72)

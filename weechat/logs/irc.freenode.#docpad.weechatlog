@@ -15824,3 +15824,224 @@
 2013-07-24 18:34:37	--	Mode #docpad [+t]
 2013-07-24 18:34:37	--	Channel created on Sat, 26 May 2012 12:12:13
 2013-07-24 18:39:20	-->	zenorocha (~zenorocha@177.34.106.198) has joined #docpad
+2013-07-24 18:44:09	<--	zenorocha (~zenorocha@177.34.106.198) has quit (Ping timeout: 268 seconds)
+2013-07-24 19:01:07	-->	zenorocha (~zenorocha@177.34.106.198) has joined #docpad
+2013-07-24 19:04:28	--	irc: disconnected from server
+2013-07-24 20:42:53	-->	supersym (~supersym@541F97CA.cm-5-8c.dynamic.ziggo.nl) has joined #docpad
+2013-07-24 20:42:53	--	Topic for #docpad is "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-07-24 20:42:53	--	Topic set by EtherealMind1 (~etherealm@87.242.165.59) on Mon, 13 May 2013 15:55:08
+2013-07-24 20:42:53	--	Nicks #docpad: [arcanis balupton bret carlosrodriguez elf-pavlik nexusIX shama supersym zenorocha]
+2013-07-24 20:42:53	--	Channel #docpad: 9 nicks (0 ops, 0 halfops, 0 voices, 9 normals)
+2013-07-24 20:42:57	--	Mode #docpad [+t]
+2013-07-24 20:42:57	--	Channel created on Sat, 26 May 2012 12:12:13
+2013-07-24 20:45:47	-->	zenoroch_ (~zenorocha@177.43.188.7) has joined #docpad
+2013-07-24 20:49:57	<--	zenorocha (~zenorocha@177.34.106.198) has quit (Ping timeout: 264 seconds)
+2013-07-24 21:32:48	-->	steventrevathan (~steventre@64.119.141.126) has joined #docpad
+2013-07-24 22:06:35	<--	steventrevathan (~steventre@64.119.141.126) has quit (Quit: steventrevathan)
+2013-07-24 23:00:06	-->	kaspertidemann (~kaspertid@c-98-207-250-230.hsd1.ca.comcast.net) has joined #docpad
+2013-07-24 23:01:16	-->	steventrevathan (~steventre@c-24-61-130-2.hsd1.nh.comcast.net) has joined #docpad
+2013-07-25 00:21:45	<--	steventrevathan (~steventre@c-24-61-130-2.hsd1.nh.comcast.net) has quit (Quit: steventrevathan)
+2013-07-25 00:32:38	<--	zenoroch_ (~zenorocha@177.43.188.7) has quit (Remote host closed the connection)
+2013-07-25 01:48:05	-->	steventrevathan (~steventre@c-24-61-130-2.hsd1.nh.comcast.net) has joined #docpad
+2013-07-25 01:53:13	<--	steventrevathan (~steventre@c-24-61-130-2.hsd1.nh.comcast.net) has quit (Quit: steventrevathan)
+2013-07-25 02:09:37	<--	kaspertidemann (~kaspertid@c-98-207-250-230.hsd1.ca.comcast.net) has quit (Quit: Free soup for everybody!)
+2013-07-25 03:11:09	<--	carlosrodriguez (~carlosrod@206.214.145.94) has quit (Remote host closed the connection)
+2013-07-25 03:11:41	-->	carlosrodriguez (~carlosrod@206.214.145.94) has joined #docpad
+2013-07-25 03:16:14	<--	carlosrodriguez (~carlosrod@206.214.145.94) has quit (Ping timeout: 256 seconds)
+2013-07-25 03:25:29	-->	carlosrodriguez (~carlosrod@206.214.145.94) has joined #docpad
+2013-07-25 05:11:01	<--	carlosrodriguez (~carlosrod@206.214.145.94) has quit (Remote host closed the connection)
+2013-07-25 05:11:34	-->	carlosrodriguez (~carlosrod@206.214.145.94) has joined #docpad
+2013-07-25 05:16:18	<--	carlosrodriguez (~carlosrod@206.214.145.94) has quit (Ping timeout: 264 seconds)
+2013-07-25 05:40:52	-->	carlosrodriguez (~carlosrod@206.214.145.94) has joined #docpad
+2013-07-25 06:10:00	<--	carlosrodriguez (~carlosrod@206.214.145.94) has quit (Remote host closed the connection)
+2013-07-25 06:10:54	-->	carlosrodriguez (~carlosrod@206.214.145.94) has joined #docpad
+2013-07-25 07:29:31	<--	carlosrodriguez (~carlosrod@206.214.145.94) has quit (Ping timeout: 260 seconds)
+2013-07-25 07:46:20	--	Notice(GitHub44): [docpad] balupton merged dev into master: http://git.io/GDiADw
+2013-07-25 07:46:22	--	Notice(GitHub68): [docpad] balupton merged master into dev: http://git.io/GDiADw
+2013-07-25 07:46:22	--	Notice(GitHub7): [docpad] balupton tagged v6.46.3 at dev: http://git.io/1CHzOQ
+2013-07-25 07:50:49	--	Notice(GitHub142): [docpad] balupton pushed 1 new commit to master: http://git.io/93vi-Q
+2013-07-25 07:50:49	--	Notice(GitHub142): docpad/master 7d1871a Benjamin Arthur Lupton: Fix typo in changelog
+2013-07-25 08:15:50	<--	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has quit (Remote host closed the connection)
+2013-07-25 12:30:44	-->	carlosrodriguez (~carlosrod@206.214.145.94) has joined #docpad
+2013-07-25 13:26:12	<--	carlosrodriguez (~carlosrod@206.214.145.94) has quit (Remote host closed the connection)
+2013-07-25 13:26:48	-->	carlosrodriguez (~carlosrod@206.214.145.94) has joined #docpad
+2013-07-25 13:31:17	<--	carlosrodriguez (~carlosrod@206.214.145.94) has quit (Ping timeout: 248 seconds)
+2013-07-25 15:00:26	-->	carlosrodriguez (~carlosrod@206.214.145.94) has joined #docpad
+2013-07-25 15:15:32	-->	steventrevathan (~steventre@64.119.141.126) has joined #docpad
+2013-07-25 15:56:26	<--	carlosrodriguez (~carlosrod@206.214.145.94) has quit (Remote host closed the connection)
+2013-07-25 15:57:01	-->	carlosrodriguez (~carlosrod@206.214.145.94) has joined #docpad
+2013-07-25 16:01:23	<--	carlosrodriguez (~carlosrod@206.214.145.94) has quit (Ping timeout: 240 seconds)
+2013-07-25 16:32:13	<--	steventrevathan (~steventre@64.119.141.126) has quit (Quit: steventrevathan)
+2013-07-25 16:44:22	-->	steventrevathan (~steventre@64.119.141.126) has joined #docpad
+2013-07-25 17:14:42	-->	quartzmo (~quartzmo@173-8-92-49-utah.hfc.comcastbusiness.net) has joined #docpad
+2013-07-25 17:34:16	<--	quartzmo (~quartzmo@173-8-92-49-utah.hfc.comcastbusiness.net) has left #docpad
+2013-07-25 17:34:53	-->	carlosrodriguez (~carlosrod@206.214.145.94) has joined #docpad
+2013-07-25 17:52:21	<--	nexusIX (~egoIX@c-66-235-0-222.sea.wa.customer.broadstripe.net) has quit (Ping timeout: 264 seconds)
+2013-07-25 18:03:34	-->	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has joined #docpad
+2013-07-25 18:03:57	-->	nexusIX (~egoIX@c-66-235-0-222.sea.wa.customer.broadstripe.net) has joined #docpad
+2013-07-25 18:30:40	-->	jeffbski (~jeff@adsl-99-126-109-146.dsl.stl2mo.sbcglobal.net) has joined #docpad
+2013-07-25 18:31:03	<--	carlosrodriguez (~carlosrod@206.214.145.94) has quit (Remote host closed the connection)
+2013-07-25 18:31:38	-->	carlosrodriguez (~carlosrod@206.214.145.94) has joined #docpad
+2013-07-25 18:35:50	<--	carlosrodriguez (~carlosrod@206.214.145.94) has quit (Ping timeout: 240 seconds)
+2013-07-25 19:17:11	jeffbski	I am setting up a new docpad site, I noticed some skeletons might be using deprecated commands, so which are current or which docs should I use to learn from?
+2013-07-25 19:21:16	jeffbski	I'm guessing that probably the docpad docs are the most current
+2013-07-25 19:31:12	<--	steventrevathan (~steventre@64.119.141.126) has quit (Quit: steventrevathan)
+2013-07-25 20:09:02	-->	steventrevathan (~steventre@64.119.141.126) has joined #docpad
+2013-07-25 20:27:50	--	Notice(GitHub172): [docpad-documentation] jeffbski opened pull request #40: `model.setMetaDefaults` should be `model.setDefaults` (master...setDefaults)  http://git.io/P8AWaA
+2013-07-25 20:38:08	-->	kaspertidemann (~kaspertid@c-98-207-250-230.hsd1.ca.comcast.net) has joined #docpad
+2013-07-25 21:03:40	-->	carlosrodriguez (~carlosrod@206.214.145.94) has joined #docpad
+2013-07-25 21:20:24	<--	nexusIX (~egoIX@c-66-235-0-222.sea.wa.customer.broadstripe.net) has quit (*.net *.split)
+2013-07-25 21:21:13	-->	nexusIX (~egoIX@c-66-235-0-222.sea.wa.customer.broadstripe.net) has joined #docpad
+2013-07-25 22:31:49	--	Notice(GitHub43): [docpad] balupton pushed 1 new commit to dev: http://git.io/MvAnPw
+2013-07-25 22:31:49	--	Notice(GitHub43): docpad/dev 2e4cba7 Benjamin Lupton: Debugging recently found issues...
+2013-07-25 22:38:06	<--	kaspertidemann (~kaspertid@c-98-207-250-230.hsd1.ca.comcast.net) has quit (Quit: Free soup for everybody!)
+2013-07-25 23:35:03	<--	steventrevathan (~steventre@64.119.141.126) has quit (Quit: steventrevathan)
+2013-07-25 23:43:10	-->	steventrevathan (~steventre@64.119.141.126) has joined #docpad
+2013-07-25 23:47:27	<--	carlosrodriguez (~carlosrod@206.214.145.94) has quit (Remote host closed the connection)
+2013-07-25 23:48:04	-->	carlosrodriguez (~carlosrod@206.214.145.94) has joined #docpad
+2013-07-25 23:53:01	<--	carlosrodriguez (~carlosrod@206.214.145.94) has quit (Ping timeout: 268 seconds)
+2013-07-26 01:04:57	<--	jeffbski (~jeff@adsl-99-126-109-146.dsl.stl2mo.sbcglobal.net) has quit (Ping timeout: 264 seconds)
+2013-07-26 01:15:55	-->	carlosrodriguez (~carlosrod@206.214.145.94) has joined #docpad
+2013-07-26 01:20:53	<--	steventrevathan (~steventre@64.119.141.126) has quit (Quit: steventrevathan)
+2013-07-26 02:04:50	-->	steventrevathan (~steventre@64.119.141.126) has joined #docpad
+2013-07-26 02:24:08	<--	steventrevathan (~steventre@64.119.141.126) has quit (Quit: steventrevathan)
+2013-07-26 02:48:42	<--	carlosrodriguez (~carlosrod@206.214.145.94) has quit (Remote host closed the connection)
+2013-07-26 02:49:16	-->	carlosrodriguez (~carlosrod@206.214.145.94) has joined #docpad
+2013-07-26 02:53:28	<--	carlosrodriguez (~carlosrod@206.214.145.94) has quit (Ping timeout: 256 seconds)
+2013-07-26 03:04:27	-->	carlosrodriguez (~carlosrod@206.214.145.94) has joined #docpad
+2013-07-26 03:36:12	-->	kaspertidemann (~kaspertid@c-98-207-250-230.hsd1.ca.comcast.net) has joined #docpad
+2013-07-26 03:53:12	<--	kaspertidemann (~kaspertid@c-98-207-250-230.hsd1.ca.comcast.net) has quit (Quit: Free soup for everybody!)
+2013-07-26 04:27:51	<--	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has quit (Remote host closed the connection)
+2013-07-26 04:57:09	-->	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has joined #docpad
+2013-07-26 05:10:14	<--	carlosrodriguez (~carlosrod@206.214.145.94) has quit (Remote host closed the connection)
+2013-07-26 05:10:48	-->	carlosrodriguez (~carlosrod@206.214.145.94) has joined #docpad
+2013-07-26 05:35:42	-->	kaspertidemann (~kaspertid@c-98-207-250-230.hsd1.ca.comcast.net) has joined #docpad
+2013-07-26 06:04:43	<--	kaspertidemann (~kaspertid@c-98-207-250-230.hsd1.ca.comcast.net) has quit (Quit: Free soup for everybody!)
+2013-07-26 06:42:19	-->	kaspertidemann (~kaspertid@c-98-207-250-230.hsd1.ca.comcast.net) has joined #docpad
+2013-07-26 07:09:02	<--	carlosrodriguez (~carlosrod@206.214.145.94) has quit (Ping timeout: 240 seconds)
+2013-07-26 07:13:55	<--	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has quit (Remote host closed the connection)
+2013-07-26 09:28:48	<--	kaspertidemann (~kaspertid@c-98-207-250-230.hsd1.ca.comcast.net) has quit (Quit: Free soup for everybody!)
+2013-07-26 09:40:45	--	Notice(GitHub31): [docpad-extras] balupton pushed 1 new commit to master: http://git.io/EZGyFg
+2013-07-26 09:40:45	--	Notice(GitHub31): docpad-extras/master 0bf7e78 Benjamin Lupton: ignore multiple layouts until we get it working, start testing tumblr
+2013-07-26 10:09:21	--	Notice(GitHub163): [docpad] balupton pushed 3 new commits to dev: http://git.io/FlOZwQ
+2013-07-26 10:09:21	--	Notice(GitHub163): docpad/dev 64f54fd Benjamin Lupton: Merge branch 'master' into dev
+2013-07-26 10:09:21	--	Notice(GitHub163): docpad/dev 7c35a28 Benjamin Lupton: Got tests passing for core and plugins - docpad-website is failing howerver...
+2013-07-26 10:09:21	--	Notice(GitHub163): docpad/dev 17dabae Benjamin Lupton: Little bit of work on the changelog from the last commit, need to do the other changes as well
+2013-07-26 11:33:49	--	irc: disconnected from server
+2013-07-26 11:34:15	-->	supersym (~supersym@541F97CA.cm-5-8c.dynamic.ziggo.nl) has joined #docpad
+2013-07-26 11:34:15	--	Topic for #docpad is "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-07-26 11:34:15	--	Topic set by EtherealMind1 (~etherealm@87.242.165.59) on Mon, 13 May 2013 15:55:08
+2013-07-26 11:34:15	--	Nicks #docpad: [arcanis balupton bret elf-pavlik nexusIX supersym]
+2013-07-26 11:34:15	--	Channel #docpad: 6 nicks (0 ops, 0 halfops, 0 voices, 6 normals)
+2013-07-26 11:34:32	--	Mode #docpad [+t]
+2013-07-26 11:34:32	--	Channel created on Sat, 26 May 2012 12:12:13
+2013-07-26 12:30:25	-->	carlosrodriguez (~carlosrod@206.214.145.94) has joined #docpad
+2013-07-26 13:26:06	<--	carlosrodriguez (~carlosrod@206.214.145.94) has quit (Remote host closed the connection)
+2013-07-26 13:26:40	-->	carlosrodriguez (~carlosrod@206.214.145.94) has joined #docpad
+2013-07-26 13:30:49	<--	carlosrodriguez (~carlosrod@206.214.145.94) has quit (Ping timeout: 246 seconds)
+2013-07-26 13:58:13	-->	jeffbski (~jeff@adsl-99-126-109-146.dsl.stl2mo.sbcglobal.net) has joined #docpad
+2013-07-26 14:52:10	-->	carlosrodriguez (~carlosrod@206.214.145.94) has joined #docpad
+2013-07-26 14:52:25	-->	thanpolas (~thanpolas@ppp-94-68-79-79.home.otenet.gr) has joined #docpad
+2013-07-26 14:54:14	<--	carlosrodriguez (~carlosrod@206.214.145.94) has quit (Remote host closed the connection)
+2013-07-26 15:15:53	-->	steventrevathan_ (~steventre@64.119.141.126) has joined #docpad
+2013-07-26 15:33:14	<--	steventrevathan_ (~steventre@64.119.141.126) has quit (Quit: steventrevathan_)
+2013-07-26 16:04:05	--	irc: disconnected from server
+2013-07-26 16:04:34	-->	supersym (~supersym@541F97CA.cm-5-8c.dynamic.ziggo.nl) has joined #docpad
+2013-07-26 16:04:34	--	Topic for #docpad is "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-07-26 16:04:34	--	Topic set by EtherealMind1 (~etherealm@87.242.165.59) on Mon, 13 May 2013 15:55:08
+2013-07-26 16:04:34	--	Nicks #docpad: [arcanis balupton bret elf-pavlik jeffbski nexusIX steventrevathan supersym thanpolas]
+2013-07-26 16:04:34	--	Channel #docpad: 9 nicks (0 ops, 0 halfops, 0 voices, 9 normals)
+2013-07-26 16:04:50	--	Mode #docpad [+t]
+2013-07-26 16:04:50	--	Channel created on Sat, 26 May 2012 12:12:13
+2013-07-26 16:12:16	<--	thanpolas (~thanpolas@ppp-94-68-79-79.home.otenet.gr) has quit (Remote host closed the connection)
+2013-07-26 16:28:29	-->	Searli (~andi.soel@109.232.158.178) has joined #docpad
+2013-07-26 16:28:29	<--	Searli (~andi.soel@109.232.158.178) has quit (Client Quit)
+2013-07-26 16:29:43	-->	Searli (~andi.soel@109.232.158.178) has joined #docpad
+2013-07-26 16:29:51	Searli	Hi there
+2013-07-26 16:30:06	Searli	I am currently evaluating docpad for a smallish project
+2013-07-26 16:30:22	Searli	and wondered if I could ask a few questions 
+2013-07-26 16:31:48	Searli	I saw that you can search and query for documents simialr to NoSQL databases
+2013-07-26 16:32:12	Searli	Does that include searching and queying geo location 
+2013-07-26 16:32:40	Searli	so would it be possible to have documents that include Postcode 
+2013-07-26 16:33:09	Searli	and then search for the nearest postcodes from the Browser location?
+2013-07-26 17:05:46	-->	carlosrodriguez (~carlosrod@173-162-101-149-BusName-Miami.hfc.comcastbusiness.net) has joined #docpad
+2013-07-26 17:18:43	jeffbski	Searli: I'm not sure how closely this channel is watched, I joined yesterday and asked a question and didn't seem to get noticed. You might be best off posting something on Stack Overflow with the tag docpad, then it can also be seen by others too. http://stackoverflow.com/questions/tagged/docpad
+2013-07-26 18:10:54	-->	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has joined #docpad
+2013-07-26 18:15:41	<--	carlosrodriguez (~carlosrod@173-162-101-149-BusName-Miami.hfc.comcastbusiness.net) has quit (Remote host closed the connection)
+2013-07-26 18:25:03	<--	steventrevathan (~steventre@64.119.141.126) has quit (Quit: steventrevathan)
+2013-07-26 19:00:53	<--	Searli (~andi.soel@109.232.158.178) has quit (Ping timeout: 248 seconds)
+2013-07-26 19:19:05	-->	carlosrodriguez (~carlosrod@206.214.145.94) has joined #docpad
+2013-07-26 19:24:15	<--	jeffbski (~jeff@adsl-99-126-109-146.dsl.stl2mo.sbcglobal.net) has quit (Quit: Leaving)
+2013-07-26 19:50:35	-->	steventrevathan (~steventre@64.119.141.126) has joined #docpad
+2013-07-26 20:59:16	<--	steventrevathan (~steventre@64.119.141.126) has quit (Quit: steventrevathan)
+2013-07-26 20:59:44	-->	steventrevathan (~steventre@64.119.141.126) has joined #docpad
+2013-07-26 21:09:15	<--	carlosrodriguez (~carlosrod@206.214.145.94) has quit (Remote host closed the connection)
+2013-07-26 21:11:15	-->	carlosrodriguez (~carlosrod@206.214.145.94) has joined #docpad
+2013-07-26 22:25:34	-->	kaspertidemann (~kaspertid@c-98-207-250-230.hsd1.ca.comcast.net) has joined #docpad
+2013-07-26 22:46:55	<--	carlosrodriguez (~carlosrod@206.214.145.94) has quit (Remote host closed the connection)
+2013-07-26 22:47:30	-->	carlosrodriguez (~carlosrod@206.214.145.94) has joined #docpad
+2013-07-26 22:48:13	<--	carlosrodriguez (~carlosrod@206.214.145.94) has quit (Read error: Connection reset by peer)
+2013-07-26 23:02:37	--	irc: disconnected from server
+2013-07-27 03:04:25	-->	supersym (~supersym@541F97CA.cm-5-8c.dynamic.ziggo.nl) has joined #docpad
+2013-07-27 03:04:25	--	Topic for #docpad is "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-07-27 03:04:25	--	Topic set by EtherealMind1 (~etherealm@87.242.165.59) on Mon, 13 May 2013 15:55:08
+2013-07-27 03:04:25	--	Nicks #docpad: [arcanis balupton bret carlosrodriguez elf-pavlik kaspertidemann nexusIX shama steventrevathan supersym]
+2013-07-27 03:04:25	--	Channel #docpad: 10 nicks (0 ops, 0 halfops, 0 voices, 10 normals)
+2013-07-27 03:04:29	--	Mode #docpad [+t]
+2013-07-27 03:04:29	--	Channel created on Sat, 26 May 2012 12:12:13
+2013-07-27 03:19:54	<--	carlosrodriguez (~carlosrod@206.214.145.94) has quit (Remote host closed the connection)
+2013-07-27 03:32:00	<--	kaspertidemann (~kaspertid@c-98-207-250-230.hsd1.ca.comcast.net) has quit (Quit: Free soup for everybody!)
+2013-07-27 04:04:27	-->	carlosrodriguez (~carlosrod@206.214.145.94) has joined #docpad
+2013-07-27 04:04:51	<--	carlosrodriguez (~carlosrod@206.214.145.94) has quit (Remote host closed the connection)
+2013-07-27 04:05:07	-->	carlosrodriguez (~carlosrod@206.214.145.94) has joined #docpad
+2013-07-27 04:41:46	<--	steventrevathan (~steventre@c-24-61-130-2.hsd1.nh.comcast.net) has quit (Quit: steventrevathan)
+2013-07-27 05:01:31	<--	carlosrodriguez (~carlosrod@206.214.145.94) has quit (Remote host closed the connection)
+2013-07-27 05:02:07	-->	carlosrodriguez (~carlosrod@206.214.145.94) has joined #docpad
+2013-07-27 06:42:28	<--	carlosrodriguez (~carlosrod@206.214.145.94) has quit (Ping timeout: 264 seconds)
+2013-07-27 06:56:20	-->	GnarlinBrando (~Gn4rlinBr@ip68-231-172-75.tc.ph.cox.net) has joined #docpad
+2013-07-27 07:26:17	<--	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has quit (Remote host closed the connection)
+2013-07-27 07:27:08	--	Notice(GitHub66): [docpad-documentation] balupton pushed 1 new commit to master: http://git.io/Qyf7zg
+2013-07-27 07:27:08	--	Notice(GitHub66): docpad-documentation/master ff3e179 Benjamin Arthur Lupton: Contribute; Fixed bug report details. Added Publicize section.
+2013-07-27 07:59:10	--	Notice(GitHub129): [docpad-documentation] balupton closed pull request #40: `model.setMetaDefaults` should be `model.setDefaults` (master...setDefaults)  http://git.io/P8AWaA
+2013-07-27 08:16:14	--	Notice(GitHub147): [docpad] balupton tagged v6.46.4 at dev: http://git.io/TeGGvA
+2013-07-27 08:16:14	--	Notice(GitHub59): [docpad] balupton merged master into dev: http://git.io/1jOmIA
+2013-07-27 08:16:14	--	Notice(GitHub9): [docpad] balupton merged dev into master: http://git.io/haPO8g
+2013-07-27 08:22:34	-->	cresswells (50c21f03@gateway/web/freenode/ip.80.194.31.3) has joined #docpad
+2013-07-27 08:25:20	<--	cresswells (50c21f03@gateway/web/freenode/ip.80.194.31.3) has quit (Client Quit)
+2013-07-27 12:13:33	--	Notice(GitHub171): [docpad-documentation] balupton pushed 1 new commit to master: http://git.io/3pIPGw
+2013-07-27 12:13:33	--	Notice(GitHub171): docpad-documentation/master 31bb9ee Benjamin Lupton: Updated all plugin install references to use new docpad install. Changed robotskirt to marked in beginner guide as robotskirt doesn't work on windows
+2013-07-27 12:30:37	-->	carlosrodriguez (~carlosrod@206.214.145.94) has joined #docpad
+2013-07-27 13:26:30	<--	carlosrodriguez (~carlosrod@206.214.145.94) has quit (Remote host closed the connection)
+2013-07-27 13:27:02	-->	carlosrodriguez (~carlosrod@206.214.145.94) has joined #docpad
+2013-07-27 13:31:23	<--	carlosrodriguez (~carlosrod@206.214.145.94) has quit (Ping timeout: 240 seconds)
+2013-07-27 15:20:06	GnarlinBrando	Is there an optimal way to remove/uninstall a plugin?
+2013-07-27 16:33:13	-->	carlosro_ (~carlosrod@206.214.145.94) has joined #docpad
+2013-07-27 16:37:26	<--	carlosro_ (~carlosrod@206.214.145.94) has quit (Ping timeout: 240 seconds)
+2013-07-27 17:02:27	-->	carlosrodriguez (~carlosrod@206.214.145.94) has joined #docpad
+2013-07-27 17:03:54	<--	carlosrodriguez (~carlosrod@206.214.145.94) has quit (Remote host closed the connection)
+2013-07-27 17:04:30	-->	carlosrodriguez (~carlosrod@206.214.145.94) has joined #docpad
+2013-07-27 17:04:37	<--	carlosrodriguez (~carlosrod@206.214.145.94) has quit (Read error: Connection reset by peer)
+2013-07-27 17:05:27	-->	carlosrodriguez (~carlosrod@206.214.145.94) has joined #docpad
+2013-07-27 17:30:29	<--	carlosrodriguez (~carlosrod@206.214.145.94) has quit (Remote host closed the connection)
+2013-07-27 17:31:03	-->	carlosrodriguez (~carlosrod@206.214.145.94) has joined #docpad
+2013-07-27 17:35:22	<--	carlosrodriguez (~carlosrod@206.214.145.94) has quit (Ping timeout: 246 seconds)
+2013-07-27 17:55:32	-->	carlosrodriguez (~carlosrod@206.214.145.94) has joined #docpad
+2013-07-27 18:31:08	<--	carlosrodriguez (~carlosrod@206.214.145.94) has quit (Remote host closed the connection)
+2013-07-27 18:31:43	-->	carlosrodriguez (~carlosrod@206.214.145.94) has joined #docpad
+2013-07-27 18:34:04	-->	carlosro_ (~carlosrod@206.214.145.94) has joined #docpad
+2013-07-27 18:34:29	<--	carlosrodriguez (~carlosrod@206.214.145.94) has quit (Read error: Connection reset by peer)
+2013-07-27 19:36:31	<--	carlosro_ (~carlosrod@206.214.145.94) has quit (Remote host closed the connection)
+2013-07-27 19:37:05	-->	carlosrodriguez (~carlosrod@206.214.145.94) has joined #docpad
+2013-07-27 19:37:15	<--	carlosrodriguez (~carlosrod@206.214.145.94) has quit (Read error: Connection reset by peer)
+2013-07-27 19:43:54	<--	GnarlinBrando (~Gn4rlinBr@ip68-231-172-75.tc.ph.cox.net) has quit (Ping timeout: 264 seconds)
+2013-07-27 20:35:42	-->	carlosrodriguez (~carlosrod@206.214.145.94) has joined #docpad
+2013-07-27 21:48:28	<--	carlosrodriguez (~carlosrod@206.214.145.94) has quit (Ping timeout: 264 seconds)
+2013-07-27 23:00:30	-->	ash1 (~Adium@ool-457786ee.dyn.optonline.net) has joined #docpad
+2013-07-27 23:01:33	ash1	hi need some help cannot upgrade the partials module  
+2013-07-27 23:02:45	ash1	after upgrading to docpad version 6.46.4
+2013-07-27 23:24:33	ash1	anyone around ?
+2013-07-27 23:25:21	<--	ash1 (~Adium@ool-457786ee.dyn.optonline.net) has quit (Quit: Leaving.)
+2013-07-28 04:48:21	-->	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has joined #docpad
+2013-07-28 04:55:39	<--	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has quit (Remote host closed the connection)
+2013-07-28 04:57:46	-->	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has joined #docpad
+2013-07-28 06:23:36	--	irc: disconnected from server
