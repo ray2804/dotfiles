@@ -16045,3 +16045,343 @@
 2013-07-28 04:55:39	<--	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has quit (Remote host closed the connection)
 2013-07-28 04:57:46	-->	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has joined #docpad
 2013-07-28 06:23:36	--	irc: disconnected from server
+2013-07-29 14:58:35	-->	supersym (~supersym@541F97CA.cm-5-8c.dynamic.ziggo.nl) has joined #docpad
+2013-07-29 14:58:35	--	Topic for #docpad is "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-07-29 14:58:35	--	Topic set by EtherealMind1 (~etherealm@87.242.165.59) on Mon, 13 May 2013 15:55:08
+2013-07-29 14:58:35	--	Nicks #docpad: [arcanis balupton bret elf-pavlik nexusIX steventrevathan supersym]
+2013-07-29 14:58:35	--	Channel #docpad: 7 nicks (0 ops, 0 halfops, 0 voices, 7 normals)
+2013-07-29 14:58:39	--	Mode #docpad [+t]
+2013-07-29 14:58:39	--	Channel created on Sat, 26 May 2012 12:12:13
+2013-07-29 15:16:26	<--	steventrevathan (~steventre@64.119.141.126) has quit (Quit: steventrevathan)
+2013-07-29 15:31:55	-->	steventrevathan (~steventre@64.119.141.126) has joined #docpad
+2013-07-29 16:10:09	-->	GnarlinBrando (~Gn4rlinBr@ip68-231-172-75.tc.ph.cox.net) has joined #docpad
+2013-07-29 16:34:17	<--	steventrevathan (~steventre@64.119.141.126) has quit (Quit: steventrevathan)
+2013-07-29 18:00:23	-->	steventrevathan (~steventre@64.119.141.126) has joined #docpad
+2013-07-29 18:13:34	<--	steventrevathan (~steventre@64.119.141.126) has quit (Quit: steventrevathan)
+2013-07-29 19:06:17	-->	steventrevathan (~steventre@64.119.141.126) has joined #docpad
+2013-07-29 20:00:57	<--	steventrevathan (~steventre@64.119.141.126) has quit (Quit: steventrevathan)
+2013-07-29 20:02:11	-->	steventrevathan (~steventre@64.119.141.126) has joined #docpad
+2013-07-29 21:54:49	--	irc: disconnected from server
+2013-07-30 19:57:05	-->	supersym (~supersym@541F97CA.cm-5-8c.dynamic.ziggo.nl) has joined #docpad
+2013-07-30 19:57:05	--	Topic for #docpad is "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-07-30 19:57:05	--	Topic set by EtherealMind1 (~etherealm@87.242.165.59) on Mon, 13 May 2013 15:55:08
+2013-07-30 19:57:05	--	Nicks #docpad: [arcanis balupton edzis elf-pavlik Gnarlin nexusIX shama supersym trooney]
+2013-07-30 19:57:05	--	Channel #docpad: 9 nicks (0 ops, 0 halfops, 0 voices, 9 normals)
+2013-07-30 19:57:09	--	Mode #docpad [+t]
+2013-07-30 19:57:09	--	Channel created on Sat, 26 May 2012 12:12:13
+2013-07-30 20:13:59	-->	steventrevathan (~steventre@64.119.141.126) has joined #docpad
+2013-07-30 20:27:40	<--	edzis (50e8dbcd@gateway/web/freenode/ip.80.232.219.205) has quit (Quit: Page closed)
+2013-07-30 20:28:10	-->	edgar (50e8dbcd@gateway/web/freenode/ip.80.232.219.205) has joined #docpad
+2013-07-30 20:33:48	edgar	@Gnarlin Thanks for the suggestion. gave it a try and at a basic level this is working. But sadly I can not access anything form my site config..
+2013-07-30 20:34:40	Gnarlin	do you mean helpers?
+2013-07-30 20:39:20	edgar	I mean the data stored on my templateData
+2013-07-30 21:06:22	edgar	my current workaround is to explicitly pass all the properties I need from templateData
+2013-07-30 21:06:29	edgar	!=partial('header.html.jade', {site:site})
+2013-07-30 21:06:40	trooney	Shouldn't this collection in my docpadConfig sort by weight? .findAllLive({relativeOutDirPath: {$in: ['support']}, weight: {$exists: true, $gte: 200}}, { weight: 1 })
+2013-07-30 21:47:10	<--	steventrevathan (~steventre@64.119.141.126) has quit (Quit: steventrevathan)
+2013-07-30 23:00:49	-->	test__ (~textual@d54C4B3D1.access.telenet.be) has joined #docpad
+2013-07-30 23:26:53	-->	kaspertidemann (~kaspertid@c-98-207-250-230.hsd1.ca.comcast.net) has joined #docpad
+2013-07-30 23:35:37	-->	jasonw22 (~jasonw22@c-67-169-48-176.hsd1.ca.comcast.net) has joined #docpad
+2013-07-30 23:36:29	jasonw22	any suggestions for debugging "Command failed: execvp()" when using the thumbnails plugin with Imagemagick? Imagemagick is already installed via homebrew.
+2013-07-30 23:42:28	Gnarlin	havent used that plug-in, but i have had trouble using anything homebrew installs as a nodejs dep
+2013-07-30 23:43:06	Gnarlin	that is where I would start looking anyway
+2013-07-30 23:43:27	jasonw22	hmm. i haven't encountered that
+2013-07-30 23:43:35	jasonw22	at least, not before :-)
+2013-07-30 23:47:47	Gnarlin	well if you figure it out, id love to hear, i am just starting my dive into docpad
+2013-07-30 23:47:59	Gnarlin	and eager to learn anything about it
+2013-07-30 23:48:24	jasonw22	just switched to graphicsmagick
+2013-07-30 23:48:31	jasonw22	and that *seems* to be working
+2013-07-30 23:50:08	Gnarlin	cool, i wonder if it is the formula for imagemagick specifically, i seem to recall that being one of the things i ran into trouble with before
+2013-07-30 23:50:26	Gnarlin	but i could be leading astray on that, i've been up for a while
+2013-07-30 23:51:01	jasonw22	i don't really know. but yes, i confirm that graphicsmagick is working. just commented out the imagemagic config in docpad.coffee
+2013-07-30 23:51:35	jasonw22	always nice when I can solve my own problem :-) now i'm off to write a bunch of media queries
+2013-07-30 23:51:45	<--	jasonw22 (~jasonw22@c-67-169-48-176.hsd1.ca.comcast.net) has left #docpad ("Linkinus - http://linkinus.com")
+2013-07-31 00:22:54	--	irc: disconnected from server
+2013-07-31 00:23:19	-->	supersym (~supersym@541F97CA.cm-5-8c.dynamic.ziggo.nl) has joined #docpad
+2013-07-31 00:23:19	--	Topic for #docpad is "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-07-31 00:23:19	--	Topic set by EtherealMind1 (~etherealm@87.242.165.59) on Mon, 13 May 2013 15:55:08
+2013-07-31 00:23:19	--	Nicks #docpad: [arcanis balupton elf-pavlik kaspertidemann nexusIX shama steventrevathan supersym test__ trooney]
+2013-07-31 00:23:19	--	Channel #docpad: 10 nicks (0 ops, 0 halfops, 0 voices, 10 normals)
+2013-07-31 00:23:19	--	Notice(wolfe.freenode.net): [freenode-info] channel trolls and no channel staff around to help? please check with freenode support: http://freenode.net/faq.shtml#gettinghelp
+2013-07-31 00:23:37	--	Mode #docpad [+t]
+2013-07-31 00:23:37	--	Channel created on Sat, 26 May 2012 12:12:13
+2013-07-31 00:30:59	<--	steventrevathan (~steventre@64.119.141.126) has quit (Quit: steventrevathan)
+2013-07-31 00:31:19	<--	test__ (~textual@d54C4B3D1.access.telenet.be) has quit (Quit: Computer has gone to sleep.)
+2013-07-31 01:03:03	<--	kaspertidemann (~kaspertid@c-98-207-250-230.hsd1.ca.comcast.net) has quit (Quit: Free soup for everybody!)
+2013-07-31 02:04:42	-->	kaspertidemann (~kaspertid@c-98-207-250-230.hsd1.ca.comcast.net) has joined #docpad
+2013-07-31 03:45:00	-->	steventrevathan (~steventre@c-24-61-130-2.hsd1.nh.comcast.net) has joined #docpad
+2013-07-31 04:08:09	-->	jasonw22 (~jasonw22@c-67-169-48-176.hsd1.ca.comcast.net) has joined #docpad
+2013-07-31 04:13:40	jasonw22	how should i go about diagnosing a docpad crash?
+2013-07-31 04:15:24	jasonw22	it's not clear to me how to enable logging, for example
+2013-07-31 04:33:57	<--	jasonw22 (~jasonw22@c-67-169-48-176.hsd1.ca.comcast.net) has quit (Quit: Linkinus - http://linkinus.com)
+2013-07-31 04:56:04	-->	andinho (c94c0a47@gateway/web/freenode/ip.201.76.10.71) has joined #docpad
+2013-07-31 04:56:23	<--	andinho (c94c0a47@gateway/web/freenode/ip.201.76.10.71) has quit (Client Quit)
+2013-07-31 05:36:54	<--	kaspertidemann (~kaspertid@c-98-207-250-230.hsd1.ca.comcast.net) has quit (Quit: Free soup for everybody!)
+2013-07-31 07:05:18	<--	steventrevathan (~steventre@c-24-61-130-2.hsd1.nh.comcast.net) has quit (Quit: steventrevathan)
+2013-07-31 07:38:24	<--	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has quit (Remote host closed the connection)
+2013-07-31 09:32:25	--	irc: disconnected from server
+2013-07-31 11:29:11	-->	supersym (~supersym@5418F772.cm-5-1d.dynamic.ziggo.nl) has joined #docpad
+2013-07-31 11:29:11	--	Topic for #docpad is "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-07-31 11:29:11	--	Topic set by EtherealMind1 (~etherealm@87.242.165.59) on Mon, 13 May 2013 15:55:08
+2013-07-31 11:29:11	--	Nicks #docpad: [arcanis balupton elf-pavlik nexusIX supersym trooney]
+2013-07-31 11:29:11	--	Channel #docpad: 6 nicks (0 ops, 0 halfops, 0 voices, 6 normals)
+2013-07-31 11:29:14	--	Mode #docpad [+t]
+2013-07-31 11:29:14	--	Channel created on Sat, 26 May 2012 12:12:13
+2013-07-31 12:01:27	--	Notice(GitHub49): [docpad-documentation] miletbaker opened pull request #42: Added link to scheduling plugin on plugins page. (master...master)  http://git.io/iO-3lA
+2013-07-31 14:42:41	-->	Gnarlin (~Gn4rlinBr@ip68-231-172-75.tc.ph.cox.net) has joined #docpad
+2013-07-31 15:32:00	-->	steventrevathan (~steventre@64.119.141.126) has joined #docpad
+2013-07-31 16:03:52	<--	steventrevathan (~steventre@64.119.141.126) has quit (Quit: steventrevathan)
+2013-07-31 16:06:24	-->	steventrevathan (~steventre@64.119.141.126) has joined #docpad
+2013-07-31 17:21:42	<--	steventrevathan (~steventre@64.119.141.126) has quit (Quit: steventrevathan)
+2013-07-31 17:27:43	-->	steventrevathan (~steventre@64.119.141.126) has joined #docpad
+2013-07-31 18:14:25	-->	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has joined #docpad
+2013-07-31 18:48:36	-->	Delapouite (~Delapouit@ip-203.net-81-220-57.lyon.rev.numericable.fr) has joined #docpad
+2013-07-31 20:22:16	<--	steventrevathan (~steventre@64.119.141.126) has quit (Quit: steventrevathan)
+2013-07-31 20:31:03	-->	steventrevathan (~steventre@64.119.141.126) has joined #docpad
+2013-07-31 20:42:13	<--	steventrevathan (~steventre@64.119.141.126) has quit (Quit: steventrevathan)
+2013-07-31 20:56:18	--	Notice(GitHub112): [docpad] balupton merged master into dev: http://git.io/pazonQ
+2013-07-31 20:56:18	--	Notice(GitHub167): [docpad] balupton tagged v6.47.0 at dev: http://git.io/CkfxdA
+2013-07-31 20:56:18	--	Notice(GitHub34): [docpad] balupton merged dev into master: http://git.io/pazonQ
+2013-07-31 21:57:31	-->	jasonw22 (~jasonw22@c-67-169-48-176.hsd1.ca.comcast.net) has joined #docpad
+2013-07-31 21:58:04	jasonw22	Still wondering how to record error logs from docpad
+2013-07-31 22:01:42	jasonw22	i'm getting a crash, probably related to a template bug, but i can't find any reliable way to determine the error or its cause
+2013-07-31 22:18:49	jasonw22	gonna try TraceGL, even though it seems like overkill...
+2013-07-31 22:38:23	jasonw22	not sure if it is useful yet, but tracegl output sure is... pretty
+2013-07-31 22:46:40	jasonw22	unfortunately it also seems to slow down docpad pretty dramatically
+2013-07-31 22:58:08	trooney	jasonw22: what about just the docpad run -d ?
+2013-07-31 22:58:41	jasonw22	if there is an error in that output, it isn't anywhere near the crash
+2013-07-31 22:58:49	jasonw22	i tried piping it to a text file but that didn't work
+2013-07-31 22:59:10	jasonw22	docpad run -d > docpad-debug.log just gave me a blank screen and no .log file
+2013-07-31 22:59:27	jasonw22	is there a different way to run that command so that the output gets saved somewhere?
+2013-07-31 22:59:32	trooney	you need to pipe stderr
+2013-07-31 22:59:58	jasonw22	doh. that always trips me up
+2013-07-31 23:00:48	trooney	actually maybe not.
+2013-07-31 23:04:03	trooney	docpad run > log.txt 2>&1
+2013-07-31 23:04:36	jasonw22	cool. i'll kill this trace process and try that
+2013-07-31 23:07:05	jasonw22	hmm, still no file
+2013-07-31 23:13:14	jasonw22	trying variations on redirecting stdout and stderr and no luck
+2013-07-31 23:15:36	jasonw22	Here's a gist duplicating the info I sent bevry in a support ticket: https://gist.github.com/jasonw22/6126253
+2013-07-31 23:17:22	trooney	what do you get if you run without pipes?
+2013-07-31 23:17:30	jasonw22	i get lots of output
+2013-07-31 23:17:52	jasonw22	but without the ability to do any kind of grep on it, it's not very useful
+2013-07-31 23:18:04	jasonw22	the last few lines are not related to any error
+2013-07-31 23:18:16	trooney	docpad run -d | less
+2013-07-31 23:18:41	jasonw22	better than nothing i guess
+2013-07-31 23:19:12	trooney	something's funky if you can't redirect output to a file. don't know enouguh to help. sorry :(
+2013-07-31 23:20:05	jasonw22	thanks for trying :-)
+2013-07-31 23:24:19	jasonw22	ah, just realized syndney is only just waking up. i need to be patient :-)
+2013-07-31 23:35:38	--	jasonw22 is now known as jasonw22|away
+2013-07-31 23:35:39	--	jasonw22|away is now known as jasonw22
+2013-07-31 23:35:46	--	jasonw22 is now known as jasonw22|away
+2013-08-01 00:17:47	<--	Delapouite (~Delapouit@ip-203.net-81-220-57.lyon.rev.numericable.fr) has quit (Quit: Leaving)
+2013-08-01 00:30:36	--	jasonw22|away is now known as jasonw22
+2013-08-01 01:01:23	-->	steventrevathan (~steventre@c-24-61-130-2.hsd1.nh.comcast.net) has joined #docpad
+2013-08-01 01:36:10	<--	steventrevathan (~steventre@c-24-61-130-2.hsd1.nh.comcast.net) has quit (Quit: steventrevathan)
+2013-08-01 01:57:16	--	jasonw22 is now known as jasonw22|away
+2013-08-01 01:57:29	--	jasonw22|away is now known as jasonw22
+2013-08-01 02:29:28	--	jasonw22 is now known as jasonw22|away
+2013-08-01 02:36:33	-->	kaspertidemann (~kaspertid@c-98-207-250-230.hsd1.ca.comcast.net) has joined #docpad
+2013-08-01 02:55:29	--	Notice(GitHub170): [docpad-documentation] balupton pushed 1 new commit to master: http://git.io/XYNCbw
+2013-08-01 02:55:29	--	Notice(GitHub170): docpad-documentation/master 405adb8 Benjamin Arthur Lupton: Update node inspector version
+2013-08-01 03:16:53	-->	steventrevathan (~steventre@c-24-61-130-2.hsd1.nh.comcast.net) has joined #docpad
+2013-08-01 03:40:11	<--	steventrevathan (~steventre@c-24-61-130-2.hsd1.nh.comcast.net) has quit (Quit: steventrevathan)
+2013-08-01 04:02:36	<--	kaspertidemann (~kaspertid@c-98-207-250-230.hsd1.ca.comcast.net) has quit (Quit: Free soup for everybody!)
+2013-08-01 05:05:15	<--	jasonw22|away (~jasonw22@c-67-169-48-176.hsd1.ca.comcast.net) has quit (Quit: Leaving...)
+2013-08-01 05:35:34	-->	jasonw22 (~jasonw22@c-67-169-48-176.hsd1.ca.comcast.net) has joined #docpad
+2013-08-01 05:49:35	<--	jasonw22 (~jasonw22@c-67-169-48-176.hsd1.ca.comcast.net) has quit (Ping timeout: 245 seconds)
+2013-08-01 06:36:01	-->	jasonw22 (~jasonw22@c-67-169-48-176.hsd1.ca.comcast.net) has joined #docpad
+2013-08-01 06:41:01	<--	jasonw22 (~jasonw22@c-67-169-48-176.hsd1.ca.comcast.net) has quit (Ping timeout: 276 seconds)
+2013-08-01 07:07:14	-->	jasonw22 (~jasonw22@c-67-169-48-176.hsd1.ca.comcast.net) has joined #docpad
+2013-08-01 07:12:09	<--	jasonw22 (~jasonw22@c-67-169-48-176.hsd1.ca.comcast.net) has quit (Ping timeout: 264 seconds)
+2013-08-01 07:38:50	-->	jasonw22 (~jasonw22@c-67-169-48-176.hsd1.ca.comcast.net) has joined #docpad
+2013-08-01 07:43:18	<--	jasonw22 (~jasonw22@c-67-169-48-176.hsd1.ca.comcast.net) has quit (Ping timeout: 240 seconds)
+2013-08-01 08:09:10	-->	jasonw22 (~jasonw22@c-67-169-48-176.hsd1.ca.comcast.net) has joined #docpad
+2013-08-01 08:13:57	<--	jasonw22 (~jasonw22@c-67-169-48-176.hsd1.ca.comcast.net) has quit (Ping timeout: 248 seconds)
+2013-08-01 08:17:54	<--	Gnarlin (~Gn4rlinBr@ip68-231-172-75.tc.ph.cox.net) has quit (Ping timeout: 264 seconds)
+2013-08-01 08:32:05	<--	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has quit (Remote host closed the connection)
+2013-08-01 08:40:52	-->	jasonw22 (~jasonw22@c-67-169-48-176.hsd1.ca.comcast.net) has joined #docpad
+2013-08-01 08:45:25	<--	jasonw22 (~jasonw22@c-67-169-48-176.hsd1.ca.comcast.net) has quit (Ping timeout: 248 seconds)
+2013-08-01 09:12:30	-->	jasonw22 (~jasonw22@c-67-169-48-176.hsd1.ca.comcast.net) has joined #docpad
+2013-08-01 09:16:57	<--	jasonw22 (~jasonw22@c-67-169-48-176.hsd1.ca.comcast.net) has quit (Ping timeout: 264 seconds)
+2013-08-01 09:43:52	-->	jasonw22 (~jasonw22@c-67-169-48-176.hsd1.ca.comcast.net) has joined #docpad
+2013-08-01 09:48:01	<--	jasonw22 (~jasonw22@c-67-169-48-176.hsd1.ca.comcast.net) has quit (Ping timeout: 240 seconds)
+2013-08-01 10:15:27	-->	jasonw22 (~jasonw22@c-67-169-48-176.hsd1.ca.comcast.net) has joined #docpad
+2013-08-01 10:20:43	<--	jasonw22 (~jasonw22@c-67-169-48-176.hsd1.ca.comcast.net) has quit (Ping timeout: 276 seconds)
+2013-08-01 10:46:54	-->	jasonw22 (~jasonw22@c-67-169-48-176.hsd1.ca.comcast.net) has joined #docpad
+2013-08-01 10:51:19	<--	jasonw22 (~jasonw22@c-67-169-48-176.hsd1.ca.comcast.net) has quit (Ping timeout: 246 seconds)
+2013-08-01 11:17:15	-->	jasonw22 (~jasonw22@c-67-169-48-176.hsd1.ca.comcast.net) has joined #docpad
+2013-08-01 11:22:55	<--	jasonw22 (~jasonw22@c-67-169-48-176.hsd1.ca.comcast.net) has quit (Ping timeout: 245 seconds)
+2013-08-01 11:47:48	-->	jasonw22 (~jasonw22@c-67-169-48-176.hsd1.ca.comcast.net) has joined #docpad
+2013-08-01 11:52:14	<--	jasonw22 (~jasonw22@c-67-169-48-176.hsd1.ca.comcast.net) has quit (Ping timeout: 240 seconds)
+2013-08-01 12:19:10	-->	jasonw22 (~jasonw22@c-67-169-48-176.hsd1.ca.comcast.net) has joined #docpad
+2013-08-01 12:23:54	<--	jasonw22 (~jasonw22@c-67-169-48-176.hsd1.ca.comcast.net) has quit (Ping timeout: 264 seconds)
+2013-08-01 12:50:34	-->	jasonw22 (~jasonw22@c-67-169-48-176.hsd1.ca.comcast.net) has joined #docpad
+2013-08-01 12:55:01	<--	jasonw22 (~jasonw22@c-67-169-48-176.hsd1.ca.comcast.net) has quit (Ping timeout: 248 seconds)
+2013-08-01 13:22:05	-->	jasonw22 (~jasonw22@c-67-169-48-176.hsd1.ca.comcast.net) has joined #docpad
+2013-08-01 13:26:14	<--	jasonw22 (~jasonw22@c-67-169-48-176.hsd1.ca.comcast.net) has quit (Ping timeout: 240 seconds)
+2013-08-01 13:54:22	-->	jasonw22 (~jasonw22@c-67-169-48-176.hsd1.ca.comcast.net) has joined #docpad
+2013-08-01 13:58:38	<--	jasonw22 (~jasonw22@c-67-169-48-176.hsd1.ca.comcast.net) has quit (Ping timeout: 240 seconds)
+2013-08-01 14:25:03	-->	jasonw22 (~jasonw22@c-67-169-48-176.hsd1.ca.comcast.net) has joined #docpad
+2013-08-01 14:29:23	<--	jasonw22 (~jasonw22@c-67-169-48-176.hsd1.ca.comcast.net) has quit (Ping timeout: 240 seconds)
+2013-08-01 14:55:46	-->	jasonw22 (~jasonw22@c-67-169-48-176.hsd1.ca.comcast.net) has joined #docpad
+2013-08-01 15:00:52	<--	jasonw22 (~jasonw22@c-67-169-48-176.hsd1.ca.comcast.net) has quit (Ping timeout: 276 seconds)
+2013-08-01 15:26:28	-->	jasonw22 (~jasonw22@c-67-169-48-176.hsd1.ca.comcast.net) has joined #docpad
+2013-08-01 15:30:53	<--	jasonw22 (~jasonw22@c-67-169-48-176.hsd1.ca.comcast.net) has quit (Ping timeout: 240 seconds)
+2013-08-01 15:52:40	-->	steventrevathan (~steventre@64.119.141.126) has joined #docpad
+2013-08-01 15:57:12	-->	jasonw22 (~jasonw22@c-67-169-48-176.hsd1.ca.comcast.net) has joined #docpad
+2013-08-01 16:01:15	<--	jasonw22 (~jasonw22@c-67-169-48-176.hsd1.ca.comcast.net) has quit (Ping timeout: 245 seconds)
+2013-08-01 16:27:56	-->	jasonw22 (~jasonw22@c-67-169-48-176.hsd1.ca.comcast.net) has joined #docpad
+2013-08-01 16:32:14	<--	jasonw22 (~jasonw22@c-67-169-48-176.hsd1.ca.comcast.net) has quit (Ping timeout: 240 seconds)
+2013-08-01 16:36:32	-->	jasonw22 (~jasonw22@c-67-169-48-176.hsd1.ca.comcast.net) has joined #docpad
+2013-08-01 16:36:42	<--	jasonw22 (~jasonw22@c-67-169-48-176.hsd1.ca.comcast.net) has quit (Client Quit)
+2013-08-01 16:43:39	-->	jj_ (6fa10808@gateway/web/freenode/ip.111.161.8.8) has joined #docpad
+2013-08-01 16:44:07	jj_	hhh
+2013-08-01 16:44:33	<--	jj_ (6fa10808@gateway/web/freenode/ip.111.161.8.8) has quit (Client Quit)
+2013-08-01 17:20:41	<--	steventrevathan (~steventre@64.119.141.126) has quit (Quit: steventrevathan)
+2013-08-01 17:21:04	-->	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has joined #docpad
+2013-08-01 17:28:40	-->	steventrevathan (~steventre@64.119.141.126) has joined #docpad
+2013-08-01 18:50:23	<--	steventrevathan (~steventre@64.119.141.126) has quit (Quit: steventrevathan)
+2013-08-01 19:17:32	-->	steventrevathan (~steventre@64.119.141.126) has joined #docpad
+2013-08-01 19:57:32	<--	steventrevathan (~steventre@64.119.141.126) has quit (Quit: steventrevathan)
+2013-08-01 20:25:42	-->	GnarlinBrando (~Gn4rlinBr@ip68-231-172-75.tc.ph.cox.net) has joined #docpad
+2013-08-01 20:27:57	-->	steventrevathan (~steventre@64.119.141.126) has joined #docpad
+2013-08-01 20:55:27	<--	GnarlinBrando (~Gn4rlinBr@ip68-231-172-75.tc.ph.cox.net) has quit (Ping timeout: 260 seconds)
+2013-08-01 23:45:26	-->	victorkane (~victorkan@201.255.234.31) has joined #docpad
+2013-08-01 23:45:56	<--	victorkane (~victorkan@201.255.234.31) has left #docpad
+2013-08-01 23:46:18	-->	victorkane (~victorkan@201.255.234.31) has joined #docpad
+2013-08-01 23:46:27	<--	victorkane (~victorkan@201.255.234.31) has left #docpad
+2013-08-02 02:18:41	-->	steventrevathan_ (~steventre@c-24-61-130-2.hsd1.nh.comcast.net) has joined #docpad
+2013-08-02 02:36:38	<--	steventrevathan (~steventre@64.119.141.126) has quit (Quit: steventrevathan)
+2013-08-02 02:36:39	--	steventrevathan_ is now known as steventrevathan
+2013-08-02 02:45:56	-->	kaspertidemann (~kaspertid@c-98-207-250-230.hsd1.ca.comcast.net) has joined #docpad
+2013-08-02 02:48:57	<--	steventrevathan (~steventre@c-24-61-130-2.hsd1.nh.comcast.net) has quit (Quit: steventrevathan)
+2013-08-02 03:01:23	<--	kaspertidemann (~kaspertid@c-98-207-250-230.hsd1.ca.comcast.net) has quit (Quit: Free soup for everybody!)
+2013-08-02 05:16:59	-->	kaspertidemann (~kaspertid@me80536d0.tmodns.net) has joined #docpad
+2013-08-02 06:13:20	<--	kaspertidemann (~kaspertid@me80536d0.tmodns.net) has quit (Ping timeout: 245 seconds)
+2013-08-02 06:19:37	-->	kaspertidemann (~kaspertid@c-98-207-250-230.hsd1.ca.comcast.net) has joined #docpad
+2013-08-02 07:37:22	<--	kaspertidemann (~kaspertid@c-98-207-250-230.hsd1.ca.comcast.net) has quit (Quit: Free soup for everybody!)
+2013-08-02 07:38:26	-->	mikeumus (457dc907@gateway/web/freenode/ip.69.125.201.7) has joined #docpad
+2013-08-02 07:40:03	mikeumus	Hey gang, so I've been stuck for a couple days now. I have no idea why my plugin isn't being picked and loaded as a plugin: https://github.com/MassDistributionMedia/PBM/tree/master/plugins
+2013-08-02 07:40:42	mikeumus	on 'docpad run' it's not being listed in the command line 'Plugins: list'
+2013-08-02 07:43:59	mikeumus	it's a Franken-version of nativecomments with only one foreign object in the createStory part. 
+2013-08-02 07:45:35	mikeumus	I even published the plugin to NPM not ready just to see it that would load but of course not.
+2013-08-02 07:57:17	mikeumus	wow that plugin indexed on google really fast
+2013-08-02 07:57:42	mikeumus	or google's hooking up npmjs.org
+2013-08-02 07:58:57	<--	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has quit (Remote host closed the connection)
+2013-08-02 08:03:32	mikeumus	it's like not doing it. well moving on.
+2013-08-02 08:10:02	-->	Guest35247 (~Benny@212-182-155-182.ip.telfort.nl) has joined #docpad
+2013-08-02 08:14:22	<--	balupton (uid6783@gateway/web/irccloud.com/x-ufmtmxvffywdfcec) has quit (Ping timeout: 276 seconds)
+2013-08-02 08:29:04	mikeumus	.
+2013-08-02 09:40:14	<--	mikeumus (457dc907@gateway/web/freenode/ip.69.125.201.7) has quit (Quit: Page closed)
+2013-08-02 10:10:02	-->	balupton (uid6783@gateway/web/irccloud.com/x-vyfyafofdhpuwpul) has joined #docpad
+2013-08-02 10:24:31	<--	balupton (uid6783@gateway/web/irccloud.com/x-vyfyafofdhpuwpul) has quit (Ping timeout: 268 seconds)
+2013-08-02 12:21:23	-->	balupton (uid6783@gateway/web/irccloud.com/x-laowowvmwkkqorbu) has joined #docpad
+2013-08-02 13:04:54	--	irc: disconnected from server
+2013-08-02 18:53:40	-->	supersym (~supersym@5418F772.cm-5-1d.dynamic.ziggo.nl) has joined #docpad
+2013-08-02 18:53:40	--	Topic for #docpad is "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-08-02 18:53:40	--	Topic set by EtherealMind1 (~etherealm@87.242.165.59) on Mon, 13 May 2013 15:55:08
+2013-08-02 18:53:40	--	Nicks #docpad: [arcanis balupton elf-pavlik Guest35247 nexusIX shama steventrevathan supersym trooney]
+2013-08-02 18:53:40	--	Channel #docpad: 9 nicks (0 ops, 0 halfops, 0 voices, 9 normals)
+2013-08-02 18:53:43	--	Mode #docpad [+t]
+2013-08-02 18:53:43	--	Channel created on Sat, 26 May 2012 12:12:13
+2013-08-02 22:12:14	-->	shama_ (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has joined #docpad
+2013-08-02 22:12:22	<--	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has quit (Read error: Connection reset by peer)
+2013-08-02 22:28:31	<--	steventrevathan (~steventre@64.119.141.126) has quit (Quit: steventrevathan)
+2013-08-02 22:38:47	--	shama_ is now known as shama
+2013-08-02 23:17:24	<--	Guest35247 (~Benny@212-182-155-182.ip.telfort.nl) has left #docpad
+2013-08-03 03:32:58	-->	kaspertidemann (~kaspertid@c-98-207-250-230.hsd1.ca.comcast.net) has joined #docpad
+2013-08-03 04:31:12	<--	kaspertidemann (~kaspertid@c-98-207-250-230.hsd1.ca.comcast.net) has quit (Quit: Free soup for everybody!)
+2013-08-03 08:38:56	-->	steventrevathan (~steventre@56.sub-70-192-5.myvzw.com) has joined #docpad
+2013-08-03 08:51:27	<--	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has quit (Remote host closed the connection)
+2013-08-03 09:23:09	<--	steventrevathan (~steventre@56.sub-70-192-5.myvzw.com) has quit (Quit: steventrevathan)
+2013-08-03 14:08:25	-->	wickie (5ab94bd4@gateway/web/freenode/ip.90.185.75.212) has joined #docpad
+2013-08-03 14:09:08	<--	wickie (5ab94bd4@gateway/web/freenode/ip.90.185.75.212) has quit (Client Quit)
+2013-08-03 16:22:59	-->	steventrevathan (~steventre@c-24-61-130-2.hsd1.nh.comcast.net) has joined #docpad
+2013-08-03 16:34:58	<--	steventrevathan (~steventre@c-24-61-130-2.hsd1.nh.comcast.net) has quit (Quit: steventrevathan)
+2013-08-03 18:08:55	-->	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has joined #docpad
+2013-08-03 23:11:40	-->	steventrevathan (~steventre@c-24-61-130-2.hsd1.nh.comcast.net) has joined #docpad
+2013-08-03 23:36:11	<--	steventrevathan (~steventre@c-24-61-130-2.hsd1.nh.comcast.net) has quit (Quit: steventrevathan)
+2013-08-04 01:13:14	-->	kaspertidemann (~kaspertid@c-98-207-250-230.hsd1.ca.comcast.net) has joined #docpad
+2013-08-04 05:17:46	<--	kaspertidemann (~kaspertid@c-98-207-250-230.hsd1.ca.comcast.net) has quit (Quit: *buzz, buzz, sleep, zzz*)
+2013-08-04 05:26:50	-->	kaspertidemann (~kaspertid@c-98-207-250-230.hsd1.ca.comcast.net) has joined #docpad
+2013-08-04 05:36:23	<--	nexusIX (~egoIX@c-66-235-0-222.sea.wa.customer.broadstripe.net) has quit (Quit: Leaving)
+2013-08-04 06:00:25	<--	kaspertidemann (~kaspertid@c-98-207-250-230.hsd1.ca.comcast.net) has quit (Quit: Free soup for everybody!)
+2013-08-04 06:36:36	<--	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has quit (Remote host closed the connection)
+2013-08-04 09:11:50	--	irc: disconnected from server
+2013-08-05 23:20:13	-->	supersym (~supersym@5418F772.cm-5-1d.dynamic.ziggo.nl) has joined #docpad
+2013-08-05 23:20:13	--	Topic for #docpad is "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-08-05 23:20:13	--	Topic set by EtherealMind1 (~etherealm@87.242.165.59) on Mon, 13 May 2013 15:55:08
+2013-08-05 23:20:13	--	Nicks #docpad: [arcanis balupton elf-pavlik kaspertidemann shama steventrevathan supersym trooney]
+2013-08-05 23:20:13	--	Channel #docpad: 8 nicks (0 ops, 0 halfops, 0 voices, 8 normals)
+2013-08-05 23:20:18	--	Mode #docpad [+t]
+2013-08-05 23:20:18	--	Channel created on Sat, 26 May 2012 12:12:13
+2013-08-05 23:35:28	-->	carlosrodriguez (~carlosrod@50-73-4-59-miami.hfc.comcastbusiness.net) has joined #docpad
+2013-08-05 23:35:35	<--	steventrevathan (~steventre@64.119.141.126) has quit (Quit: steventrevathan)
+2013-08-05 23:48:06	-->	steventrevathan (~steventre@64.119.141.126) has joined #docpad
+2013-08-06 00:20:08	<--	carlosrodriguez (~carlosrod@50-73-4-59-miami.hfc.comcastbusiness.net) has quit (Remote host closed the connection)
+2013-08-06 00:20:42	-->	carlosrodriguez (~carlosrod@50-73-4-59-miami.hfc.comcastbusiness.net) has joined #docpad
+2013-08-06 00:25:09	<--	carlosrodriguez (~carlosrod@50-73-4-59-miami.hfc.comcastbusiness.net) has quit (Ping timeout: 248 seconds)
+2013-08-06 00:39:54	<--	kaspertidemann (~kaspertid@c-98-207-250-230.hsd1.ca.comcast.net) has quit (Quit: Free soup for everybody!)
+2013-08-06 00:41:02	-->	carlosrodriguez (~carlosrod@206.214.145.94) has joined #docpad
+2013-08-06 01:12:12	<--	steventrevathan (~steventre@64.119.141.126) has quit (Quit: steventrevathan)
+2013-08-06 01:13:34	-->	steventrevathan (~steventre@64.119.141.126) has joined #docpad
+2013-08-06 01:24:19	<--	steventrevathan (~steventre@64.119.141.126) has quit (Quit: steventrevathan)
+2013-08-06 06:53:48	--	irc: disconnected from server
+2013-08-06 06:54:15	-->	supersym (~supersym@5418F772.cm-5-1d.dynamic.ziggo.nl) has joined #docpad
+2013-08-06 06:54:16	--	Topic for #docpad is "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-08-06 06:54:16	--	Topic set by EtherealMind1 (~etherealm@87.242.165.59) on Mon, 13 May 2013 15:55:08
+2013-08-06 06:54:16	--	Nicks #docpad: [arcanis balupton carlosrodriguez elf-pavlik kaspertidemann shama supersym trooney]
+2013-08-06 06:54:16	--	Channel #docpad: 8 nicks (0 ops, 0 halfops, 0 voices, 8 normals)
+2013-08-06 06:54:31	--	Mode #docpad [+t]
+2013-08-06 06:54:32	--	Channel created on Sat, 26 May 2012 12:12:13
+2013-08-06 07:02:36	-->	ninja12345 (~Adium@nat/yahoo/x-ibadsmmbvylazzqt) has joined #docpad
+2013-08-06 07:05:18	ninja12345	hi
+2013-08-06 07:05:28	ninja12345	can anyone help me with docpad on command line? 
+2013-08-06 07:06:34	ninja12345	im trying to get docpad render to work but i keep getting this error http://pastebin.corp.yahoo.com/289169
+2013-08-06 07:51:11	<--	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has quit (Remote host closed the connection)
+2013-08-06 08:06:42	--	Notice(GitHub111): [docpad-documentation] balupton pushed 1 new commit to master: http://git.io/YzttFQ
+2013-08-06 08:06:42	--	Notice(GitHub111): docpad-documentation/master 7b08b08 Benjamin Arthur Lupton: Added partners page
+2013-08-06 08:13:45	<--	carlosrodriguez (~carlosrod@206.214.145.94) has quit (Remote host closed the connection)
+2013-08-06 09:12:13	--	Notice(GitHub174): [docpad-documentation] balupton pushed 1 new commit to master: http://git.io/hl7EDg
+2013-08-06 09:12:13	--	Notice(GitHub174): docpad-documentation/master 8387151 Benjamin Arthur Lupton: Typos
+2013-08-06 12:06:18	<--	kaspertidemann (~kaspertid@c-98-207-250-230.hsd1.ca.comcast.net) has quit (Quit: Free soup for everybody!)
+2013-08-06 13:45:14	--	Notice(GitHub85): [docpad-documentation] dimitarkolev opened pull request #43: Update partners.html.md (master...patch-1)  http://git.io/xLvZPA
+2013-08-06 14:27:32	<--	ninja12345 (~Adium@nat/yahoo/x-ibadsmmbvylazzqt) has quit (Read error: Connection reset by peer)
+2013-08-06 14:28:28	-->	ninja12345 (~Adium@nat/yahoo/x-pbsijdoldojwmmlu) has joined #docpad
+2013-08-06 14:38:05	<--	ninja12345 (~Adium@nat/yahoo/x-pbsijdoldojwmmlu) has quit (Quit: Leaving.)
+2013-08-06 15:13:14	--	Notice(GitHub116): [docpad-documentation] balupton closed pull request #43: Update partners.html.md (master...patch-1)  http://git.io/xLvZPA
+2013-08-06 15:13:16	--	Notice(GitHub117): [docpad-documentation] balupton pushed 2 new commits to master: http://git.io/Y_Tpmg
+2013-08-06 15:13:16	--	Notice(GitHub117): docpad-documentation/master 4e3f5ae Dimitar Kolev-Dick: Update partners.html.md
+2013-08-06 15:13:16	--	Notice(GitHub117): docpad-documentation/master 5e91f7d Benjamin Arthur Lupton: Merge pull request #43 from dimitarkolev/patch-1...
+2013-08-06 16:56:18	-->	carlosrodriguez (~carlosrod@50.73.4.59) has joined #docpad
+2013-08-06 17:09:13	-->	steventrevathan (~steventre@64.119.141.126) has joined #docpad
+2013-08-06 17:14:29	-->	ninja12345 (~Adium@122.172.19.70) has joined #docpad
+2013-08-06 17:53:59	<--	steventrevathan (~steventre@64.119.141.126) has quit (Quit: steventrevathan)
+2013-08-06 18:01:58	-->	steventrevathan (~steventre@64.119.141.126) has joined #docpad
+2013-08-06 18:26:55	-->	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has joined #docpad
+2013-08-06 18:56:59	-->	moore_ (62bfcbbb@gateway/web/freenode/ip.98.191.203.187) has joined #docpad
+2013-08-06 19:25:40	<--	carlosrodriguez (~carlosrod@50.73.4.59) has quit (Remote host closed the connection)
+2013-08-06 19:26:17	-->	carlosrodriguez (~carlosrod@50-73-4-59-miami.hfc.comcastbusiness.net) has joined #docpad
+2013-08-06 19:31:18	<--	carlosrodriguez (~carlosrod@50-73-4-59-miami.hfc.comcastbusiness.net) has quit (Ping timeout: 276 seconds)
+2013-08-06 19:39:22	--	Notice(GitHub11): [docpad-documentation] kidfribble opened pull request #44: added dockyard desc (master...master)  http://git.io/yksJpQ
+2013-08-06 19:44:21	-->	alexkaare (~alexkaare@host86-134-52-225.range86-134.btcentralplus.com) has joined #docpad
+2013-08-06 19:47:28	-->	carlosrodriguez (~carlosrod@50-73-4-59-miami.hfc.comcastbusiness.net) has joined #docpad
+2013-08-06 20:15:52	<--	ninja12345 (~Adium@122.172.19.70) has quit (Quit: Leaving.)
+2013-08-06 20:16:11	<--	steventrevathan (~steventre@64.119.141.126) has quit (Quit: steventrevathan)
+2013-08-06 20:44:29	<--	carlosrodriguez (~carlosrod@50-73-4-59-miami.hfc.comcastbusiness.net) has quit (Remote host closed the connection)
+2013-08-06 20:45:04	-->	carlosrodriguez (~carlosrod@50-73-4-59-miami.hfc.comcastbusiness.net) has joined #docpad
+2013-08-06 20:47:28	-->	steventrevathan (~steventre@64.119.141.126) has joined #docpad
+2013-08-06 20:49:57	<--	carlosrodriguez (~carlosrod@50-73-4-59-miami.hfc.comcastbusiness.net) has quit (Ping timeout: 264 seconds)
+2013-08-06 21:11:16	-->	kaspertidemann (~kaspertid@c-98-207-250-230.hsd1.ca.comcast.net) has joined #docpad
+2013-08-06 21:14:05	--	Notice(GitHub35): [docpad-documentation] yrassoulli opened pull request #45: Updated Myplanet's company description (master...patch-1)  http://git.io/zf9yvQ
+2013-08-06 21:15:24	<--	alexkaare (~alexkaare@host86-134-52-225.range86-134.btcentralplus.com) has quit (Remote host closed the connection)
+2013-08-06 21:30:02	<--	moore_ (62bfcbbb@gateway/web/freenode/ip.98.191.203.187) has quit (Quit: Page closed)
+2013-08-06 21:34:45	<--	trooney (~trooney@postal.logic.bm) has quit (Quit: seacrest out)
+2013-08-06 21:39:44	-->	abrams (~abrams@cpe-66-65-91-86.nyc.res.rr.com) has joined #docpad
+2013-08-06 21:52:06	<--	abrams (~abrams@cpe-66-65-91-86.nyc.res.rr.com) has quit (Quit: Linkinus - http://linkinus.com)
+2013-08-06 21:59:12	-->	vawerv (5e1ca70b@gateway/web/freenode/ip.94.28.167.11) has joined #docpad
+2013-08-06 21:59:44	vawerv	can anyone help me?
+2013-08-06 22:01:53	<--	steventrevathan (~steventre@64.119.141.126) has quit (Quit: steventrevathan)
+2013-08-06 22:36:32	<--	kaspertidemann (~kaspertid@c-98-207-250-230.hsd1.ca.comcast.net) has quit (Quit: Free soup for everybody!)
+2013-08-06 22:37:18	<--	vawerv (5e1ca70b@gateway/web/freenode/ip.94.28.167.11) has quit (Quit: Page closed)
+2013-08-06 22:48:56	-->	steventrevathan (~steventre@64.119.141.126) has joined #docpad

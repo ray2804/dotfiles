@@ -146,7 +146,8 @@ export PATH="/opt/maven2/bin:${PATH}"
 export PATH="/opt/hbase/bin:${PATH}"
 
 # ClojureScript
-export CLOJURESCRIPT_HOME=/usr/local/src/clojurescript
+export CLOJURESCRIPT_HOME=/usr/local/src/clojurescripPATH
+
 export PATH=$PATH:/usr/local/src/clojurescript/bin
 
 
@@ -229,7 +230,7 @@ source ${HOME}/.aliases
 #. .share/scripts/bash/bundle.sh
 
 
-export PATH=$PATH:$HOME/.rvm/gems/ruby-2.0.0-p0@global/bin:$HOME/.rvm/rubies/ruby-2.0.0-p0/bin:$HOME/.rvm/bin:/opt/maven2/bin:/usr/lib/colorgcc/bin:$HOME/Dotfiles/bin
+export PATH=$PATH:$HOME/.gem/ruby/2.0.0/bin:/opt/maven2/bin:/usr/lib/colorgcc/bin:$HOME/Dotfiles/bin
 
 
 #[[ "$PS1" ]] && {
