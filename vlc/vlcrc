@@ -1,5 +1,5 @@
 ﻿###
-###  vlc 2.0.6
+###  vlc 2.0.8
 ###
 
 ###
@@ -2498,11 +2498,6 @@ qt-privacy-ask=0
 # TCP command input (string)
 #rc-host=
 
-[lirc] # Infrared remote control interface
-
-# Change the lirc configuration file (string)
-#lirc-file=
-
 [netsync] # Network synchronization
 
 # Network master clock (boolean)
@@ -4630,3 +4625,6 @@ aout=pulse
 # Playlist bookmark 10 (string)
 #bookmark10=
 
+[lirc] # Infrared remote control interface
+# Change the lirc configuration file (string)
+#lirc-file=

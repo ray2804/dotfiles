@@ -59,7 +59,7 @@
          NOTE: These API's, although found in core may, not be stable. Use wisely."
          [org.clojure/core.logic "0.8.3"]
          [org.clojure/core.unify "0.5.6"]
-         [org.clojure/core.typed "0.1.22"]
+         [org.clojure/core.typed "0.1.21"]
          [org.clojure/core.cache "0.6.3"]
 
          #_ "Data processing libraries"
@@ -74,11 +74,23 @@
 
          [org.clojure/algo.monads "0.1.4"]
 
+         #_ "Apache Commons"
+         [org.apache.commons/commons-exec "1.1"]
+
          [stencil "0.3.2"] ; A fast, compliant implementation of Mustache in Clojure.
+
+         #_ "Resource management"
+
+         #_ "Email"
+         [org.subethamail/subethasmtp "3.1.7"]
+         [com.draines/postal "1.11.0"]
 
          ;[storm "0.9.0-wip21"]
 
-         [org.clojure/jvm.tools.analyzer "0.4.2"]
+         #_ "Snapshots"
+         [clojure-mail "0.1.3-SNAPSHOT"]
+
+         [org.clojure/jvm.tools.analyzer "0.4.4"]
          [org.clojure/tools.namespace "0.2.4"]
          ;[org.clojure/tools.logging "0.2.6"]
          [org.clojure/tools.reader "0.7.5"]
@@ -92,10 +104,16 @@
          #_ "Math"
          [org.clojure/math.combinatorics "0.0.4"]
 
+         #_ "Terminal / console"
+         [clansi "1.0.0"]
+
          #_ "Servers"
          [http-kit "2.1.8"]
          ;[com.novemberain/langohr "1.2.0"]
          [org.webbitserver/webbit "0.4.15"]
+
+         #_ "Clients"
+         [com.twinql.clojure/clj-apache-http "2.3.1"]
 
          #_ "Routing"
          [compojure "1.1.5"]
@@ -116,10 +134,13 @@
 
          #_ "(Context free) grammars and parsers"
          [instaparse "1.2.2"]
+         [the/parsatron "0.0.4"]
+         [parse-ez "0.3.6"]
 
          #_ "Domain Specific Languages"
          ;; * html          * html/css/dom   * css
          [hiccup "1.0.4"]
+         [hickory "0.5.0"] ; convert html>hiccup
          [enlive "1.1.1"]
          [garden "0.1.0-beta5"]
          [hdom "1.0.2"] ; manipulate hiccup data
@@ -128,6 +149,9 @@
          ;[org.lpetit/net.cgrand.regex "0.0.1"] ; composable regex DSL
 
          [com.github.kyleburton/clj-xpath "1.4.1"] ; xhtml paths
+
+         #_ "Asynchronous"
+         [aleph "0.3.0-rc2"]
 
          ;[alembic "0.1.3"]
 
@@ -166,7 +190,7 @@
          [org.blancas/morph "0.3.0"]
 
          #_ "Sessions, DOM, OAuth etc"
-         [lib-noir "0.6.6"]
+         [lib-noir "0.6.7"]
          [prismatic/dommy "0.1.1"]
 
          #_ "Refactoring"
@@ -200,7 +224,7 @@
          #_ "Disabled"
          ;[clojail "1.0.6"] ; e.g. for clojurebot
          ;[itsy "0.1.1"] ; webspider/crawler
-         ;[clj-http "0.7.3"] ; http client
+         [clj-http "0.7.6"] ; http client
          ;[me.raynes/conch "0.5.1"]
          ;[info.sunng/ring-jetty9-adapter "0.1.0"] ; newest jetty
          ;[clj-webdriver "0.6.0"]

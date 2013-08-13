@@ -37,7 +37,7 @@
 
 !  32, 48 or 64 may also be good values
 Xcursor.size:  16
-
+Xcursor.theme: ComixCursors-Red-Large
 ! -----------------
 !  Xft font libraries
 !

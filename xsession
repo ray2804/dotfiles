@@ -23,8 +23,9 @@ xset r rate 190 40
 
 # Fix for Xcursor mouse pointers; also in `.Xresources` (xrdb) but it doesn't
 # work in every window such as on the root desktop (wallpaper) it would show a
-# cross. This fixes it.
-xsetroot -cursor_name left_ptr
+# cross. This fixes it. Don't forget the & sign to fork over the new session.
+xsetroot -cursor_name left_ptr &
+#ComixCursors-Red-Large
 
 # Fix stupid Java bug where it doesn't seem to like Awesome WM etc.
 wmname "LG3D"
@@ -55,7 +56,7 @@ export DE='xfce'
 #xrandr --output VGA-1 --off --output DVI-I-1 --mode 1600x900 --pos 1920x168 --rotate normal --output HDMI-1 --mode 1920x1200 --pos 0x0 --rotate normal
 
 # Desktop wallpaper
-sh ${HOME}/.fehbg
+sh ${HOME}/.fehbg &
 
 # Spawn unicode rxvt daemon or client
 #urxvtcd &
