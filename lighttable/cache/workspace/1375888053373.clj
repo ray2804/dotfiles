@@ -1,0 +1,1 @@
+{:folders ("/media/data1/forks/clojure/css-parser" "/media/data1/forks/clojure/fnparse" "/media/data1/forks/clojure/spawn" "/home/baal/projects/_luminus"), :files ["/home/baal/.lein/profiles.clj"]}

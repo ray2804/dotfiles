@@ -1,0 +1,1 @@
+{:folders ["/home/baal/customers/tredius/tredius" "/media/data1/forks/clojure/type-level-tagger" "/home/baal/projects/net.solobit.clogs"], :files ["/home/baal/.lein/profiles.clj"]}

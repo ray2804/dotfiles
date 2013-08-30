@@ -1,0 +1,1 @@
+{:folders ["/tmp/AsyncGET" "/home/baal/projects/_luminus" "/media/data1/forks/clojure/instant-clojure-cheatsheet"], :files ["/home/baal/.lein/profiles.clj" "/home/baal/Desktop/formlet4.clj" "/home/baal/Desktop/formlet5.clj" "/media/data/company/company/patterns.clj" "/media/data/company/company/macros.clj"]}

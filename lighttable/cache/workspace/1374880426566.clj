@@ -1,0 +1,1 @@
+{:folders ("/media/data1/forks/clojure/one" "/media/data1/forks/clojure/live-cljs"), :files ("/home/baal/.lein/profiles.clj")}

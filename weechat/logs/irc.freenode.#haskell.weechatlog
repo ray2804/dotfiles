@@ -1,0 +1,170 @@
+2013-08-30 22:40:55	-->	supersym (~supersym@5418F772.cm-5-1d.dynamic.ziggo.nl) has joined #haskell
+2013-08-30 22:40:55	--	Topic for #haskell is "http://www.haskell.org | Paste code/errors: http://lpaste.net/new/haskell | Logs: http://tunes.org/~nef/logs/haskell/?C=M;O=D | Administrative issues: #haskell-ops | Hackage down? http://hdiff.luite.com"
+2013-08-30 22:40:55	--	Topic set by mauke (~mauke@p3m/member/mauke) on Wed, 17 Jul 2013 13:52:43
+2013-08-30 22:40:55	--	Nicks #haskell: [@ChanServ [swift] \q __main__ _br_ _flow_ _janne _justjust `0660 `^_^v `bps a11235 ab9rf absence acfoltzer acomar_ acowley Adeon adimit Adios adlan adnap aess aford aforemny agundry ahf ahihi akahn akiress akraut albel727 aleator alej alexander__b alexsdutton AlexWebr Alice3 allsystemsarego almondjelly aloiscochard alpounet alvdav Amadiro Amanas amatsu anachron andares anders^^ andrewsw anhall aninhumer anRch AntiSpamMeta aoh apaku Apocalisp apples applicative araujo arbn arborist arcatan arenz aristid arkeet arkx arlinius arnsholt arpunk asante asjo aszlig Athas augur aupiff averell Axman6 aztek b0c1 b2coutts b52 b_jonas bananagram banjiewen barrucadu bartavelle basdirks_ Baughn bbee bbloom bcoppens bcw bd_ bduc Belgarion0 benj_ bennofs bens bentrevor bergey Bergle_1 bergmark betawaffle bethebunny bezik bgamari Bigcheese BigEndian bind biscarch bitonic` bitraten blackdog blast_hardcheese BlastHardcheese Blkt BMeph bobry bobthenameless bogner bogner_ Boney Boreeas bos bqp brainproxy Brando753 brandonw breck7 brendan brett BrianHV briden brisbin brixen bscarlet bsmt bstrie bunzen burp Bwild bxc byorgey ByronJohnson c_14 cads cajla Cale caleb_9 caligula callen canissimia canta carp carter ccasin ccxCZ cdidd cdk centrinia Cerise cfricke charlesofarrell_ cheezey chexxor chickenflu chirpsalot ChongLi Chousuke chrisbuchholz chrisdone chrra ciaranm CindyLinz cjay clahey ClaudiusMaximus Clint clog cmsd2 codesoup CODEtaku cods coeus_ colah companion_cube conehead confound copton_ copumpkin CosmicRay Counter-Strike cow-orker Croms cronject cross crs_ cruxeternus Cryovat cschneid cynick cyphase d-snp_ d3lxa dabradley dacc dan64 DanBurton danharaj danr dario^CIP DarkFox DarkNFoxy Dashkal davean davidt davorak dcoutts de-Vri-es deavid Deewiant def-lkb deggis demolithion Desheng2 destiny dexter2 DexterLB dfan dgpratt dgvncsz0f DigitalKiwi dilinger_ dino- divarvel dixie djahandarie djcoin dju dlundy dmp1ce dmwit Dodek dogmaT dolio DolphR donri doomlord doomlord_ doshitan dpwright dqd Draconx Draggor drbean DrCode drdo dreixel drewr drmegahertz dropdrive DrSyzygy dsantiago dsfox dsirenko_ dsp_ DT` Dtgr dthibodeau duairc dumael dustin10 dustinswan DustyDin1o dwcook dwierenga Dybber dyreshark dysinger dyspeptics15 eacameron earthy eataix ecc ecube edk Edoxile Eduard_Munteanu edwtjo eeezkil eevar eff_ ehamberg ehd eis_ ejls eL_Bart0 electrogeek elgot Eliel Elision elliott Enigmagic ent epsylon epta ericmathison ericmj ericmoritz Eridius erkin ernst erochester ersran9 Erstarrung es917 etrepum EvanR EvilPenguin Excedrin Excureo exobit eyck Ezku ezrios f8l fabjan fall_ farn felipe_ fergusnoble fijimunkii fikusz finnrobi FireFly fl00r flazz_gone flori_ flux fogus|gone fran FreakyPe1guin FreeFull frontendloader froztbyte fry fryguybob ft Fubar^ Fuuzetsu FUZxxl fxrh fylwind FZ GaelanAintAround gambogi gbarboza gbeshers gbluma_ gdeest gds geal geekosaur gehmehgeh gemelen geoffh gereedy ggherdov ggreg ghorn Ghoul_ gienah gilbertw1 glguy gnoel goldkatze Gothmog_ go|dfish gpampara_off Gracenotes greymalkin gridaphobe gseitz gthorslund guampa guerrilla Guest19190 Guest22019 Guest80998 Guest92121 Guest98659 Gunni guymann h4199 h_chiro_ haasn hackagebot Hafydd hamilyon hamishmack hannese hape01 Hardolaf hashcat hc hdevalence heath heruur hexagoxel hfaafb hiptobecubic hiratara hiredman hive-mind hkj horlicks hoverbear hpc hpd hvr IanKelling ibab ibid IbnFirnas ibotty Iceland_jack identity idnar ido idoru Igloo inarru inr int-e integral Internet13 io2 ioanel ion ipuustin ircbrowse iron_houzi ismlages isomorphic isomorphismes iulian ivan\ ivan` j2j Jaak jackhill jaepark jaimef jamwt jang janiczek janinge JaRoel|4d jaspervdj Jaxan jayne jayprich jb55 jbauman jbomo jchild jcp jdegoes jdoles jdoliner Jeanne-Kamikaze jeff_s1 Jello_Raptor Jesin JesuZ jfischoff jhh jibi jix jkpl jlewis jliikka jlouis jmbto jmcarthur jmct jml joachifm joar jobstijl JobV jodaro joe9 joefiorini joehillen joelteon joeyh johnw joneshf-work jonke Jonno_FTW jonsmock jonsterling joogi jorick JPohlmann jrd0 jrib jroesch jrslepak junsuijin juuhaa jyyou jzelinskie jzl k0001 k00mi k0ral k4nar Kabaka_ Kaini kakos KaneTW kaol katis kav kaw kayloos Ke kekimmo kerrick ketil kfreds Khady Khisanth killy9999 kini Kinnison KitB kk1fff kloeri kloplop321 kludge` klugez Kneiva knigitz knyppeldynan knz koala_man kobain Kobata kosmikus kqr1 Krakarn krakrjak kranius Kruppe kryft kshannon kstuart kttm kubrat Kuraitou kxra KyleCloud lahwran lambdabot lambdanaut Laney latro`a_ lattenwald LazinCajun Lefeni Lemmih lenstr leroux levi Licenser lieven_ lightquake linduxed linux_noob_666 liori Liskni_si lispy liszt litherum liyang ljhms ljos lokydor lopex lpaste lpsmith luite lukexi lulf lunarjar lurkorg lusory M-ou-se m0g m3ga maattdd machisuji machisuji_ macron madjestic magicman Maior majoh mak` make_sense maksbotan malorie_ mami mannyv mantovani maoe mapreduce marienz martinalex Martty MasseR matheus23 mattp_ mauke mavam Maxdamantus maximumsteve Mayzie mbrock mcbonz mceier McManiaC mcstar mcw09 mechairoi mee mel- melter mendez mephx meretrix merijn mero MetaCosm mgaare mgsloan miasma michaf mietek MigoMipo mike2 mikeplus32 milessabin MileyCyrus milli mimi_vx mimico__ MindlessDrone mirsal mixi mjo_ mjrosenb MK_FG mkiefel mkrull mlamari_ mlh mlinksva mm_freak_ mmaruseacph2 mmathis mnbernstein MoALTz mokus mollerstrand MOMI monochrom mononofu Morgawr mornfall morolin mortberg Mortomes MouseTheLuckyDog Mowah mr- mrd MrFahrenheit mroman mrowe_away mrpantoufle MrRacoon mrshoe mrsolo MrWoohoo mshroyer mstksg munro mux mviljamaa mvj4 mxf myme n-dolio n00dle Nahra napping Natch ndngvr ndrei NeatBasis necroyeti neektza1 NemesisD neptunepink Neqoxec neurocyte newbie__ newsham Nickeeh nicoo Nik05 nik_89 niko nikola nilg` nilsi_ Nimatek nimish ninegrid ninzine Nisstyre niteria nkpart nlogax noam noddy Noldorin nominolo nooodl nopcode_ noplamodo normanrichards notdan Nshag nuttycom1 nwf nxorg8 obcode Obfuscate ocharles Odd_Bloke ofan og Okasu oldmanstan OlegYch oleo ollehar opqdonut OrangeDu1k ormaaj Ornedan orospakr osfameron osnr othiym23 otterdam otto_s_ otulp ousado Ov3rload Pad^ paddymahoney palaga palmje pantech pantsman ParahSailin ParaSa1lin parcs path[l] pcapriotti peddie peltchu Pengoo pentace perlite petanqk petantik pfoetchen pharaun phienone philipde` Philonous Phlogistique PHO_ phryk phst` pi8029 PiepScuim pikhq pjstadig Plex- plhk plucas pnielsen Polarina popx poucet pqmodn pr Pranz predator117 preflex profmakx prophile Proteumus prototrout ps-auxw Ptival purefn puzza007 pygospa pyrtsa pyykkis_ q66 Quadrescence quaestor quicksilver qwandor qz_ raft raichoo raid Ralith Rarrikins rasmusto Raynes Raynos Razz reactormonk redjohn ReinH reinoud Reisen Reite relrod Rembane resnik RevJohnnyHealey rfw rgrinberg rhodesd RichyB Riussi robbert` robinbb roconnor rpenguin_ rs0 RThinker Rutger`_ ryanakca ryant5000 s00pcan s4msung s4muel s_quark sababa SaBer saep Sagi saiam saiam^ Saizan sajith saml samrat satshaba1 satshabad saurik SBauer scanlonman schlumpi_ schoppenhauer schroedinbug sclv sclv_ scooty-puff scottschecter scripty scshunt Sculptor sdx23 seantallen SegFaultAX sellout- seschwar sferry_ Sgeo sgso shachaf shajra shanse shelf shennyg shepheb shergill shesek Shin-LaC shintah shiona SHODAN Shou si14 silasm simon simukis_ sinclair|net sipa SirChurchill sirspazzolot sj4nz skchrko ski skulls skypers sleepybug sleepynate SLi slobo sm smarter so sohum solancile solarus solirc solrize solution Sonarpulse sordina Sorella SoupEvil sp3ctum Spaceghost spaceships Spockz SpyrosTr_ Squid_Tamer squimmy srcerer ssbr ssttudder Starfire_ stass statusfailed steamboat stelleg stepcut stevej stiell stomp strmpnk_ stvc sudlowbot suiside sunfun Sunhay_ sunnavy SuperNoeMan supersym supki Svedrin swistak35 Swizec swook` sxn tahu TallerGhostWalt talzeus talzeus_ Tamae tamiko Taneb Tarential Targen tarmo taruti tauli tauntaun tavelram taylorgb_ tazjin tcrayford td123 tdammers Tehnix tehroflmaoer Tekerson tel Tene tensorpudding tero- tertl3 Tesseraction tessier tew88 tg Th0mas tharper_ thealanwattsriot theDon TheFuzzball theorbtwo TheSpectre thetallguy thetallguy1 thirsteh thomassgn thorkilnaur thorsten` thoughtpolice thr33strikes threedaymonk thunderrd tibbe tiffany tiksa timemage Tinned_Tuna tippenein TML tobyo2 tolt tomaw tomboy64 tomejaguar tomh- tommd tomprince torkjak totte tpsinnem tragalo Tribal tridactyla trism tromp__ troydm ts33kr tsou ttm tudalex tufflax tulcod tunixman turiya Twey twn tych0 tylergillies_ u_ udevd udoprog ulfdoz Ulrar uniquenick upgrayeddd uu1101 valdyn Valodim ve vehk Veltas Vertue viktech vili vivekrai vmeson vnz vobi void64 Vorpal voxpopuli vpm Vq vsayer vvv wagle Walther WanderingMonad warpy Watcher7 waterlaz watermind weie wereHamster whaletechno WhereIsMySpoon wilfredh willb1 Will| wimpunk Wizek wole wolfnn wollw wormphlegm WraithM wto wtw wunki Wuzzy xaimus xenocons xenophon xinming XMunkki_ xnyhps Xorlev xorox90 xplat xplat_ xRamses xye xymox Y-Less yacks yam yan_ Yaniel yano Yawgmoth Ycros yeltzooo yogert yogurt_truck YoungFrog yriw ystael ysuzuki zaiste zammy zaphar_ps Zariel zcourts zebr zeiris_ Zenol zenoli zenzike zero7 zerokarmaleft zett_zelett ziman zoktar zomg zorzar zrot zw01]
+2013-08-30 22:40:55	--	Channel #haskell: 1166 nicks (1 op, 0 halfops, 0 voices, 1165 normals)
+2013-08-30 22:40:58	--	Mode #haskell [+CLcnpt]
+2013-08-30 22:40:58	--	Channel created on Sun, 26 Nov 2006 07:42:48
+2013-08-30 22:41:04	--	URL for #haskell: http://www.haskell.org/
+2013-08-30 22:41:20	-->	MercurialAlchemi (~Mercurial@sopona.idm.fr) has joined #haskell
+2013-08-30 22:42:00	mcstar	omg, around 2006 #haskell had 3000 nicks?
+2013-08-30 22:42:16	-->	c_wraith (~c_wraith@commie.pwrsrc.net) has joined #haskell
+2013-08-30 22:42:30	<--	steamboat (~sehrlich@c-76-17-123-250.hsd1.ga.comcast.net) has quit (Quit: Leaving.)
+2013-08-30 22:42:43	ski	not that i recall
+2013-08-30 22:42:48	-->	lemao (~lemao@46-253-188-33.dynamic.monzoon.net) has joined #haskell
+2013-08-30 22:42:55	Cale	mcstar: More like around 300
+2013-08-30 22:42:59	WraithM	Source?
+2013-08-30 22:43:09	mcstar	SPJ presentation, there's a bar-chart
+2013-08-30 22:43:16	Cale	The nick counter has only gone up
+2013-08-30 22:43:23	-->	edwardk (~edwardk@pdpc/supporter/professional/edwardk) has joined #haskell
+2013-08-30 22:43:26	mcstar	its hard to understand what he says
+2013-08-30 22:44:05	mcstar	'at any moment there was a couple hundred users logged in' thats what he says
+2013-08-30 22:44:05	Cale	oh, maybe 3000 unique nicks, rather than concurrent
+2013-08-30 22:44:14	Zenol	Is use c >>= (\b' -> b .= b') simplifiable?
+2013-08-30 22:44:26	mcstar	for the whole year, ok
+2013-08-30 22:44:45	Cale	Well, you could write (b .=) =<< c
+2013-08-30 22:45:14	Cale	Not sure if clearer
+2013-08-30 22:45:21	Eduard_Munteanu	It's a bubble. :P
+2013-08-30 22:45:34	Zenol	er, yeh. I was hopping there was on operator so that i can write c ???? b :/
+2013-08-30 22:45:45	Cale	Well, what's .=?
+2013-08-30 22:45:58	<--	reinoud (~reinoud@aardappel.xs4all.nl) has quit (Quit: Leaving.)
+2013-08-30 22:46:02	ski	Zenol : define `c ???? b = (b .=) =<< c' ?
+2013-08-30 22:46:18	Zenol	Cale: Len's .= operator (.~ but in a state monad)
+2013-08-30 22:47:08	Cale	Oh, right. I tend to not use lens' infix operators.
+2013-08-30 22:47:19	<--	acowley (~acowley@pool-72-82-163-252.cmdnnj.east.verizon.net) has quit (Quit: Textual IRC Client: http://www.textualapp.com/)
+2013-08-30 22:47:29	Cale	I wouldn't be too surprised if it had something for that...
+2013-08-30 22:48:10	-->	weie_ (~eie@softbank221078042071.bbtec.net) has joined #haskell
+2013-08-30 22:48:19	Cale	There is <~
+2013-08-30 22:48:47	-->	joelb (~textual@office.khanacademy.org) has joined #haskell
+2013-08-30 22:48:58	Cale	(<~) :: MonadState s m => ASetter s s a b -> m b -> m ()
+2013-08-30 22:49:25	-->	acowley (~acowley@pool-72-82-163-252.cmdnnj.east.verizon.net) has joined #haskell
+2013-08-30 22:49:37	Cale	So perhaps  b <~ c  is what you want.
+2013-08-30 22:49:43	Zenol	Cale:  (b <~ use c) yeh, thanks :D
+2013-08-30 22:49:45	Cale	yeah
+2013-08-30 22:49:54	<--	weie (~eie@softbank221078042071.bbtec.net) has quit (Ping timeout: 264 seconds)
+2013-08-30 22:50:33	-->	jack_rabbit (~kyle@c-98-253-60-75.hsd1.il.comcast.net) has joined #haskell
+2013-08-30 22:50:48	monochrom	3000 nicks is a lot of nicks :)
+2013-08-30 22:50:50	<--	bcw (~brian@c-71-202-194-95.hsd1.ca.comcast.net) has quit (Ping timeout: 245 seconds)
+2013-08-30 22:51:12	-->	asQuirreL (~asQuirreL@93-96-151-124.zone4.bethere.co.uk) has joined #haskell
+2013-08-30 22:51:39	<--	scripty (~scripty@117.192.183.64) has quit (Quit: Leaving)
+2013-08-30 22:52:26	Cale	Many of them were a secret bot run by dons to occasionally join the channel with a nick that hadn't appeared before. ;)
+2013-08-30 22:52:45	-->	bwr (~bwr@69.71.1.1) has joined #haskell
+2013-08-30 22:52:59	Cale	But yeah, it's interesting to see how many non-idlers there are.
+2013-08-30 22:53:07	thr33strikes	is there a command in haskell that will let me manipulate the names of files that is not OS specific?
+2013-08-30 22:53:22	<--	SBauer (~SBauer@ip68-229-91-95.ri.ri.cox.net) has quit (Remote host closed the connection)
+2013-08-30 22:53:28	-->	ehaliewicz (~user@50-0-51-11.dsl.static.sonic.net) has joined #haskell
+2013-08-30 22:53:32	Cale	renameFile :: FilePath -> FilePath -> IO ()
+2013-08-30 22:53:39	sm	from the filepath package
+2013-08-30 22:53:42	Cale	In System.Directory
+2013-08-30 22:53:52	Cale	Which is in directory
+2013-08-30 22:53:54	sm	oh, and the directory package
+2013-08-30 22:53:55	-->	Riccardo (82f58947@gateway/web/freenode/ip.130.245.137.71) has joined #haskell
+2013-08-30 22:54:15	thr33strikes	I thougth that was OS specific?  I'll re-read thanks for the info
+2013-08-30 22:54:23	-->	markov_twain (~markov_tw@68-119-76-233.dhcp.mtgm.al.charter.com) has joined #haskell
+2013-08-30 22:54:29	Cale	Everything in System.Directory is OS agnostic
+2013-08-30 22:54:34	monochrom	module System.FilePath is fairly OS-independent. the package name is filepath. comes with Haskell Platform.
+2013-08-30 22:54:35	sm	which is awesome
+2013-08-30 22:54:39	Cale	Which is why the module is a little anemic
+2013-08-30 22:54:49	monochrom	example: </> does the right thing
+2013-08-30 22:54:51	 *	sm loves OS agnostic
+2013-08-30 22:55:00	<--	ryant5000 (~ryan@rrcs-24-39-113-178.nyc.biz.rr.com) has quit (Ping timeout: 245 seconds)
+2013-08-30 22:55:15	Eduard_Munteanu	Am I supposed to use Parsec for arranging input / doing a first pass over data, like splitting things into lines and fields?
+2013-08-30 22:55:41	Cale	Eduard_Munteanu: You certainly can, and it wouldn't be too much of an abuse
+2013-08-30 22:56:00	Cale	Eduard_Munteanu: For anything more complicated than what you can handle easily with lines/words
+2013-08-30 22:56:05	Eduard_Munteanu	I see... would I just call 'parse' again on the result for the next pass though?
+2013-08-30 22:56:09	monochrom	I don't know about "supposed". it is your call, not mine.
+2013-08-30 22:56:23	Eduard_Munteanu	Yeah, it is more complicated after that.
+2013-08-30 22:56:56	Eduard_Munteanu	Bah, I want HList. :)
+2013-08-30 22:57:08	-->	Guest44651 (~brian@c-71-202-194-95.hsd1.ca.comcast.net) has joined #haskell
+2013-08-30 22:57:13	<--	newbie__ (5d4be72d@gateway/web/freenode/ip.93.75.231.45) has quit (Ping timeout: 250 seconds)
+2013-08-30 22:57:30	Eduard_Munteanu	Or dependent types.
+2013-08-30 22:57:35	Cale	Eduard_Munteanu: It's up to you whether to nest your use of parsec like that. Parsec is capable of handling streams of tokens of an arbitrary type if you want to tokenise first, though many people will avoid a separate tokenising pass.
+2013-08-30 22:57:53	<--	jchild (~textual@rrcs-50-75-181-175.nys.biz.rr.com) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2013-08-30 22:58:15	-->	newbie_ (5d4be72d@gateway/web/freenode/ip.93.75.231.45) has joined #haskell
+2013-08-30 22:58:16	monochrom	"the solution depends on the problem"
+2013-08-30 22:58:31	<--	araujo (~araujo@gentoo/developer/araujo) has quit (Read error: Connection reset by peer)
+2013-08-30 22:58:31	<--	arenz (~arenz@HSI-KBW-109-193-252-079.hsi7.kabel-badenwuerttemberg.de) has quit (Ping timeout: 246 seconds)
+2013-08-30 22:58:37	-->	SBauer (~SBauer@ip68-229-91-95.ri.ri.cox.net) has joined #haskell
+2013-08-30 22:58:59	<--	danharaj (~Adium@rrcs-24-39-113-178.nyc.biz.rr.com) has quit (Quit: Leaving.)
+2013-08-30 22:59:13	-->	araujo (~araujo@gentoo/developer/araujo) has joined #haskell
+2013-08-30 22:59:18	Eduard_Munteanu	I'm parsing records with colon-separated fields. The first field dictates the type of what follows, but any given field can have different stuff in it depending on that.
+2013-08-30 22:59:28	-->	mizu_no_oto (~textual@c-76-24-19-222.hsd1.ma.comcast.net) has joined #haskell
+2013-08-30 22:59:58	Riccardo	I'm using "cabal-dev ghci" to try out a few functions from my haskell project. I also have some extra imports in ~/.ghci for stuff that i often and up using (e.g. monads, pretty print). however, cabal-dev wants me to put the related packages in build-depends. can I avoid that?
+2013-08-30 23:00:00	Eduard_Munteanu	Also the order of the records (lines/rows) is important.
+2013-08-30 23:00:06	tdammers	hmm, you could probably split the input into "tokens" (fields) easily without parsec
+2013-08-30 23:00:18	Sonarpulse	what do you all think the chances are that Haskell gets dependant types within the next decade?
+2013-08-30 23:00:21	Eduard_Munteanu	tdammers: that's what I first did, yeah
+2013-08-30 23:00:23	mm_freak_	http://hackage.haskell.org/package/acme-schoenfinkel
+2013-08-30 23:00:25	mm_freak_	i had to =)
+2013-08-30 23:00:35	Kinnison	You're a bad person.
+2013-08-30 23:00:38	monochrom	two-pass maximizes programmer sanity. one-pass maximizes execution efficiency. choose your poison.
+2013-08-30 23:01:01	Eduard_Munteanu	I have to group lines into logical units before parsing.
+2013-08-30 23:01:18	mm_freak_	but it's actually a type class:  class (Category cat) => Schoenfinkel cat
+2013-08-30 23:01:20	Ralith	with sufficiently clever abstractions you can write one-pass as if it were two-pass
+2013-08-30 23:01:25	<--	dgpratt (~dpratt71@207.182.200.34) has quit (Quit: Leaving)
+2013-08-30 23:01:29	-->	NiceOneBrah (~niceonebr@173.247.206.226) has joined #haskell
+2013-08-30 23:01:29	Eduard_Munteanu	Anyway my concern is I need a big function calling a bunch of parsers, and then fill a record type.
+2013-08-30 23:01:36	mm_freak_	schoen :: cat (a, b) c -> cat a (cat b c)
+2013-08-30 23:01:37	<--	anRch (~markmilli@173-9-87-73-NewEngland.hfc.comcastbusiness.net) has quit (Quit: anRch)
+2013-08-30 23:01:38	haasn	mm_freak_: I like these names, they're pretty (sorry)
+2013-08-30 23:01:45	Cale	Well, you don't lose *much* sanity avoiding the tokenising pass with a parser combinator library, because you build parsers for each of your tokens, and then use those.
+2013-08-30 23:01:47	mm_freak_	they're schön =)
+2013-08-30 23:01:50	Eduard_Munteanu	Ralith: maybe it does do fusion
+2013-08-30 23:02:04	monochrom	haha mm_freak_
+2013-08-30 23:02:17	haasn	mm_freak_: but why ‘oe’? :)
+2013-08-30 23:02:29	haasn	this is an acme-package, after all
+2013-08-30 23:02:39	-->	xBsd (~xBsd@h195-91-233-2.ln.rinet.ru) has joined #haskell
+2013-08-30 23:02:39	Cale	haasn: Because ö is a little hard to type, I guess.
+2013-08-30 23:02:53	Cale	(unless you have a keyboard layout which has it directly)
+2013-08-30 23:02:54	Eduard_Munteanu	It's a bit annoying because I have to map certain properties to certain fields of a certain record
+2013-08-30 23:02:55	-->	mxc (~maxcan@199.21.86.2) has joined #haskell
+2013-08-30 23:03:00	mm_freak_	haasn: there are unicode variants if you prefer
+2013-08-30 23:03:13	mm_freak_	that's why it needs ConstraintKinds
+2013-08-30 23:03:15	<--	ioanel (~Thunderbi@188.25.17.113) has quit (Quit: ioanel)
+2013-08-30 23:03:19	mm_freak_	type Schönfinkel = Schoenfinkel
+2013-08-30 23:03:19	mm_freak_	=)
+2013-08-30 23:03:23	monochrom	yeah, it comes with both schoen and schön
+2013-08-30 23:03:25	haasn	heh
+2013-08-30 23:03:33	haasn	awesome
+2013-08-30 23:03:34	<--	jfischoff (~jfischoff@corp.imvu.com) has quit (Quit: jfischoff)
+2013-08-30 23:03:42	<--	path[l] (~vsi@173.252.71.3) has quit (Ping timeout: 264 seconds)
+2013-08-30 23:03:47	<--	erochester (~erocheste@d-199-247-40.bootp.Virginia.EDU) has quit (Quit: Leaving.)
+2013-08-30 23:04:02	monochrom	BUT! it doesn't have Control.Category.Schönfinkel
+2013-08-30 23:04:09	haasn	schön/hässlich
+2013-08-30 23:04:14	mm_freak_	it even comes with a test suite to show that curry = schoen =P
+2013-08-30 23:04:22	<--	eis_ (~eis@109.197.218.46) has quit (Read error: Connection reset by peer)
+2013-08-30 23:04:34	haasn	in this model, schön should be uncurry
+2013-08-30 23:04:36	haasn	clearly
+2013-08-30 23:04:37	 *	hackagebot acme-schoenfinkel 0.1.0 - Proper names for curry and uncurry  http://hackage.haskell.org/package/acme-schoenfinkel-0.1.0 (ErtugrulSoeylemez)
+2013-08-30 23:04:39	haasn	I mean uh
+2013-08-30 23:04:41	haasn	curry
+2013-08-30 23:04:45	-->	eis_ (~eis@109.197.218.46) has joined #haskell
+2013-08-30 23:04:47	mm_freak_	monochrom: i didn't want to mess up the file system of people =P
+2013-08-30 23:05:17	 *	Kinnison notes that hub.darcs.net doesn't set the encoding to utf8 on the pages it sends
+2013-08-30 23:05:24	-->	Shaladdle (~Shaladdle@c-67-165-107-107.hsd1.pa.comcast.net) has joined #haskell
+2013-08-30 23:05:24	Eduard_Munteanu	I keep wishing to design a combinator to take a field number and parse it into various types.
+2013-08-30 23:05:27	Kinnison	""SchÃ¶nfinkelization""
+2013-08-30 23:05:31	monochrom	iso-8859-1 die die die
+2013-08-30 23:05:31	<--	exobit (~exobit@pool-108-46-34-123.nycmny.fios.verizon.net) has quit (Quit: Computer has gone to sleep.)
+2013-08-30 23:05:41	<--	Shaladdle (~Shaladdle@c-67-165-107-107.hsd1.pa.comcast.net) has quit (Client Quit)
+2013-08-30 23:05:57	-->	ham1 (~ham1@87.115.15.49) has joined #haskell
+2013-08-30 23:06:05	Eduard_Munteanu	I think I should do a more extensive first-pass.
+2013-08-30 23:06:12	<--	ham1 (~ham1@87.115.15.49) has left #haskell
+2013-08-30 23:06:15	 *	monochrom told firefox to default to utf-8
+2013-08-30 23:06:20	haasn	Kinnison: the page is actually set to UTF-8 for me
+2013-08-30 23:06:26	haasn	it looks like an encoding error server side, oh no
+2013-08-30 23:06:27	-->	corkexaminer (~chrisdorn@cpc4-brig17-2-0-cust142.3-3.cable.virginmedia.com) has joined #haskell
+2013-08-30 23:06:39	Kinnison	oh well, oops
+2013-08-30 23:06:42	mauke	WTF-8
+2013-08-30 23:06:47	Eduard_Munteanu	Heh.
+2013-08-30 23:07:06	<--	tazjin (~tazjin@c80-216-5-83.bredband.comhem.se) has quit (Remote host closed the connection)
+2013-08-30 23:07:36	haasn	or perhaps a client-side error on mm_freak_'s end?
+2013-08-30 23:07:51	monochrom	the http header has "Content-Type: text/html; charset=utf-8" alright
+2013-08-30 23:08:11	-->	Floris (~Floris@D97AC440.cm-3-3d.dynamic.ziggo.nl) has joined #haskell
+2013-08-30 23:08:12	lispy	Also, I like that the unicode charaters break the syntax highlighting
+2013-08-30 23:08:16	lispy	http://hub.darcs.net/ertes/acme-schoenfinkel/browse/Control/Category/Schoenfinkel.hs
+2013-08-30 23:08:18	monochrom	emphasis: the http header, I do not mean the html code
+2013-08-30 23:08:19	<--	tharper_ (~tomh@c83-250-198-77.bredband.comhem.se) has quit (Remote host closed the connection)
+2013-08-30 23:08:28	haasn	http://hub.darcs.net/nand/test-repo
+2013-08-30 23:08:31	haasn	works fine for me
+2013-08-30 23:08:35	-->	Shaladdle (~Shaladdle@c-67-165-107-107.hsd1.pa.comcast.net) has joined #haskell

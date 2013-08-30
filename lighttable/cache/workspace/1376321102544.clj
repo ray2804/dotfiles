@@ -1,0 +1,1 @@
+{:folders ("/media/data1/forks/clojure/clj-nstools" "/home/baal/projects/cloxlight" "/home/baal/projects/_luminus"), :files ["/home/baal/.lein/profiles.clj"]}

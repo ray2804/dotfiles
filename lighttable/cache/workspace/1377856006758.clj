@@ -1,0 +1,1 @@
+{:folders ("/home/baal/projects/_pedestal/samples" "/home/baal/kitchensink/actual/grid.portal" "/home/baal/kitchensink/tmp/tango1"), :files ["/home/baal/.lein/profiles.clj" "/home/baal/kitchensink/alpha.clj"]}

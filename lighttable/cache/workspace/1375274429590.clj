@@ -1,0 +1,1 @@
+{:folders ("/home/baal/projects/net.solobit.clogs" "/media/data1/forks/clojure/clj-mql"), :files ["/home/baal/.lein/profiles.clj"]}

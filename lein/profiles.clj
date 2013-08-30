@@ -1,11 +1,19 @@
-{:user {:plugins [[lein-ancient "0.4.4"]
-                  [slothcfg "1.0.1"]
+{:user {
+        :dependencies [[org.clojure/clojure "1.5.1"]]
+
+        :plugins [[lein-ancient "0.4.4"]
+
                   ]
-        :dependencies [[org.clojure/jvm.tools.analyzer "0.4.3"]
-                       [garden "0.1.0-beta6"]
-                       [prismatic/plumbing "0.1.0"]
-                       [inflections "0.8.2"]]}
+
+        }
  }
+
+
+;;[slothcfg "1.0.1"] dont use in global
+;                       [org.clojure/jvm.tools.analyzer "0.4.3"]
+;                       [garden "0.1.0-beta6"]
+;                       [prismatic/plumbing "0.1.0"]
+;                       [inflections "0.8.2"]
 
 ;; {:user {:plugins
 ;;         [

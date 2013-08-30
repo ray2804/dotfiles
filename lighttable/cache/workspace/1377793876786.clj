@@ -1,0 +1,1 @@
+{:folders ("/home/baal/projects/_pedestal/samples_old" "/home/baal/projects/_pedestal/pedestal-samples" "/tmp/bapp-client"), :files ["/home/baal/.lein/profiles.clj"]}

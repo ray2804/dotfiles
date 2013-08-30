@@ -1,0 +1,1 @@
+{:folders ("/home/baal/projects/samples" "/home/baal/projects/pedestal-todo" "/home/baal/projects/pedestal-routing" "/media/data/company/company/customers/nl.tredius.portal" "/home/baal/projects/pedestal-getclojure-service"), :files ["/home/baal/.lein/profiles.clj"]}

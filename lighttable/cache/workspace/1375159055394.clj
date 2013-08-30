@@ -1,0 +1,1 @@
+{:folders ("/home/baal/.lein/uprising" "/home/baal/customers/tredius/tredius"), :files ["/home/baal/.lein/profiles.clj" "/home/baal/projects/luminus.dashboard/drafts/luminus.plugin.templates.conversion.clj" "/home/baal/projects/luminus.dashboard/drafts/net.solobit.clogs.core.clj"]}
