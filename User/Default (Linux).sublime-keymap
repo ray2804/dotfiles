@@ -1,5 +1,6 @@
 [
 	{ "keys": ["f12"], "command": "reindent", "args": {"single_line": false} },
     { "keys": ["ctrl+shift+d"], "command": "toggle_trailing_spaces" },
-    { "keys": ["ctrl+>"], "command": "fold_all" }
+    { "keys": ["ctrl+>"], "command": "fold_all" },
+    { "keys": ["super+alt+l"], "command": "expand_selection_to_other_lines" }
 ]

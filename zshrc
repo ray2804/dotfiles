@@ -14,12 +14,13 @@ zstyle ':completion:*' menu select=2
 ZSH="${HOME}/.oh-my-zsh"
 
 # Set this to "random" for a new theme every time
-#ZSH_THEME="afowler 3den"
+#ZSH_THEME="3den"
+ZSH_THEME="afowler"
 #ZSH_THEME="af-magic"
 #ZSH_THEME="alanpeabody"
 #ZSH_THEME="dieter"
 #ZSH_THEME="eastwood"
-ZSH_THEME="fishy"
+#ZSH_THEME="fishy"
 #ZSH_THEME="miloshadzic"
 #ZSH_THEME="mrtazz"
 #ZSH_THEME="terminalparty"

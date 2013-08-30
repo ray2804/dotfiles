@@ -2030,3 +2030,14 @@ console.dir confuse
 require 'bower'
 x = require 'Nl'
 x = require 'Nl.js'
+tts = require("tts.js") #require the module
+tts.loadConfig __dirname + "/node_modules/tts.js/tts_config.json" #Load the config file
+#Load the voice file. Beware that this call is asynchonrous.
+tts.loadVoice __dirname + "/node_modules/tts.js/voices/en/en.json", ->
+  wav = tts.speak("Some words",
+    amplitude: 100 #The amplitude
+    wordgap: 0 #Gap between words
+    pitch: 50 #The pitch of the speech
+    speed: 175 #The speed
+    voice: "en/en" #The language of the text
+  )
