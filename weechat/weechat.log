@@ -11,3 +11,16 @@
 [2013-08-30 22:40:38] irc: connecting to server chat.freenode.net/6667...
 [2013-08-30 22:40:38] Reading configuration file charset.conf
 [2013-08-30 22:40:38] Reading configuration file aspell.conf
+[2013-08-31 09:00:33] irc: connecting to server chat.freenode.net/6667...
+[2013-08-31 16:25:40] Terminal lost, exiting WeeChat...
+[2013-08-31 16:25:41] Writing configuration file plugins.conf 
+[2013-08-31 16:25:41] Writing configuration file aspell.conf 
+[2013-08-31 16:25:41] Writing configuration file charset.conf 
+[2013-08-31 16:25:41] Writing configuration file irc.conf 
+[2013-08-31 16:25:41] Writing configuration file script.conf 
+[2013-08-31 16:25:41] Writing configuration file xfer.conf 
+[2013-08-31 16:25:41] Writing configuration file rmodifier.conf 
+[2013-08-31 16:25:41] Writing configuration file alias.conf 
+[2013-08-31 16:25:41] Writing configuration file logger.conf 
+[2013-08-31 16:25:42] Writing configuration file relay.conf 
+[2013-08-31 16:25:42] Writing configuration file weechat.conf 

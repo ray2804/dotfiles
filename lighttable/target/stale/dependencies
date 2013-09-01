@@ -1,1 +1,1 @@
-([:dependencies [[org.clojure/clojure "1.5.1"] [lein-light "0.0.27"]]])
+([:dependencies [[org.clojure/clojure "1.5.1"] [com.cemerick/pomegranate "0.2.0"] [swiss-arrows "0.6.0"] [backtick "0.3.0"] [prismatic/plumbing "0.1.0"] [lein-light "0.0.27"]]])

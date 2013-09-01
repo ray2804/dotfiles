@@ -1,0 +1,1 @@
+{:folders ("/home/baal/projects/_pedestal/samples"), :files ["/home/baal/.lein/profiles.clj" "/home/baal/.lighttable/project.clj" "/home/baal/.lighttable/css/themes/jernau.css"]}

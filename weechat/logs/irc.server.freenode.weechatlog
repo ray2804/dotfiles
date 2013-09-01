@@ -75,3 +75,87 @@
 2013-08-30 22:40:56	--	#python: #python-unregistered :Forwarding to another channel
 2013-08-30 22:41:04	--	NickServ (NickServ@services.): You are now identified for supersym.
 2013-08-30 22:41:04	--	ChanServ (ChanServ@services.): [#node.js] Visit the wiki page https://github.com/joyent/node/wiki
+2013-08-31 09:00:23	=!=	irc: reading data on socket: error 104 Connection reset by peer
+2013-08-31 09:00:23	--	irc: disconnecting from server...
+2013-08-31 09:00:23	--	irc: disconnected from server
+2013-08-31 09:00:23	--	irc: reconnecting to server in 10 seconds
+2013-08-31 09:00:33	--	irc: reconnecting to server...
+2013-08-31 09:00:33	--	irc: connecting to server chat.freenode.net/6667...
+2013-08-31 09:00:34	--	irc: connected to chat.freenode.net/6667 (130.239.18.172)
+2013-08-31 09:00:34	--	leguin.freenode.net (leguin.freenode.net): *** Looking up your hostname...
+2013-08-31 09:00:34	--	leguin.freenode.net (leguin.freenode.net): *** Checking Ident
+2013-08-31 09:00:34	--	leguin.freenode.net (leguin.freenode.net): *** Found your hostname
+2013-08-31 09:00:41	--	leguin.freenode.net (leguin.freenode.net): *** No Ident response
+2013-08-31 09:00:41	--	irc: nickname "supersym" is already in use, trying nickname "supersymmetry"
+2013-08-31 09:00:41	--	Welcome to the freenode Internet Relay Chat Network supersymmetry
+2013-08-31 09:00:41	--	MSG(nickserv): identify supersym jens80
+2013-08-31 09:00:41	--	Your host is leguin.freenode.net[130.239.18.172/6667], running version ircd-seven-1.1.3
+2013-08-31 09:00:41	--	This server was created Mon Dec 31 2012 at 22:37:58 CET
+2013-08-31 09:00:41	--	leguin.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2013-08-31 09:00:41	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2013-08-31 09:00:41	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2013-08-31 09:00:41	--	EXTBAN=$,arxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2013-08-31 09:00:41	--	There are 189 users and 73856 invisible on 28 servers
+2013-08-31 09:00:41	--	36 :IRC Operators online
+2013-08-31 09:00:41	--	31 :unknown connection(s)
+2013-08-31 09:00:41	--	46215 :channels formed
+2013-08-31 09:00:41	--	I have 5923 clients and 1 servers
+2013-08-31 09:00:41	--	5923 11356 :Current local users 5923, max 11356
+2013-08-31 09:00:41	--	74045 92550 :Current global users 74045, max 92550
+2013-08-31 09:00:41	--	Highest connection count: 11357 (11356 clients) (1625348 connections received)
+2013-08-31 09:00:41	--	- leguin.freenode.net Message of the Day -
+2013-08-31 09:00:41	--	- Welcome to leguin.freenode.net in Umeå, Sweden, EU! Thanks to
+2013-08-31 09:00:41	--	- the Academic Computer Club at Umeå University for sponsoring
+2013-08-31 09:00:41	--	- this server!
+2013-08-31 09:00:41	--	-
+2013-08-31 09:00:41	--	- LE GUIN, URSULA K. (1929-) Born in Berkeley, California,
+2013-08-31 09:00:41	--	- Ursula Le Guin is an american author primarily known for
+2013-08-31 09:00:41	--	- her Science Fiction and Fantasy. She has been awarded the
+2013-08-31 09:00:41	--	- it is a bit inconsistent.
+2013-08-31 09:00:41	--	- Hugo and Nebula awards, and is best known for her Earthsea
+2013-08-31 09:00:41	--	- and Hainish series.
+2013-08-31 09:00:41	--	-
+2013-08-31 09:00:41	--	- Welcome to freenode - supporting the free and open source
+2013-08-31 09:00:41	--	- software communities since 1998.
+2013-08-31 09:00:41	--	-
+2013-08-31 09:00:41	--	- By connecting to freenode you indicate that you have read and
+2013-08-31 09:00:41	--	- agree to adhere to our policies and procedures as per the
+2013-08-31 09:00:41	--	- website (http://freenode.net/).
+2013-08-31 09:00:41	--	-
+2013-08-31 09:00:41	--	- We would like to remind you that unauthorised public logging
+2013-08-31 09:00:41	--	- of channels on the network is prohibited. Public channel
+2013-08-31 09:00:41	--	- logging should only take place where the channel owner(s) has
+2013-08-31 09:00:41	--	- requested this and users of the channel are all made aware
+2013-08-31 09:00:41	--	- (if you are publically logging your channel, you may wish to
+2013-08-31 09:00:41	--	- keep a notice in the topic and perhaps as an on-join message).
+2013-08-31 09:00:41	--	-
+2013-08-31 09:00:41	--	- freenode runs an open proxy scanner. For details on freenode
+2013-08-31 09:00:41	--	- network policy, please take a look at our policy page
+2013-08-31 09:00:41	--	- (http://freenode.net/policy.shtml).  Your use of the network
+2013-08-31 09:00:41	--	- indicates your acceptance of this policy.
+2013-08-31 09:00:41	--	-
+2013-08-31 09:00:41	--	- Please join #freenode for any network-related questions or
+2013-08-31 09:00:41	--	- queries, there are numerous freenode volunteers and helpful
+2013-08-31 09:00:41	--	- users who would be happy to try answer any questions you might
+2013-08-31 09:00:41	--	- have.
+2013-08-31 09:00:41	--	-
+2013-08-31 09:00:41	--	- Check out www.fossevents.org to find out what is happening in
+2013-08-31 09:00:41	--	- your area, join us at FOSSCON (www.fosscon.org) for talks and
+2013-08-31 09:00:41	--	- real-life collaboration or bring a picnic and come join
+2013-08-31 09:00:41	--	- like-minded geeks for a geeknic (www.geeknic.org) somewhere
+2013-08-31 09:00:41	--	- close to you.
+2013-08-31 09:00:41	--	- Lastly, massive thanks to the OSU Open Source Lab
+2013-08-31 09:00:41	--	- (http://osuosl.org/) and Private Internet Access
+2013-08-31 09:00:41	--	- (https://www.privateinternetaccess.com/) for their sustained,
+2013-08-31 09:00:41	--	- long term support and dedication they show to the FOSS
+2013-08-31 09:00:41	--	- communities.
+2013-08-31 09:00:41	--	-
+2013-08-31 09:00:41	--	- ***************************************************************
+2013-08-31 09:00:41	--	- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+2013-08-31 09:00:41	--	- ***************************************************************
+2013-08-31 09:00:41	--	End of /MOTD command.
+2013-08-31 09:00:41	--	User mode [+i] by supersymmetry
+2013-08-31 09:00:41	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2013-08-31 09:00:47	--	NickServ (NickServ@services.): You are now identified for supersym.
+2013-08-31 09:01:07	--	ChanServ (ChanServ@services.): [#node.js] Visit the wiki page https://github.com/joyent/node/wiki
+2013-08-31 16:25:41	--	irc: disconnected from server

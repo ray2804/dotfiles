@@ -1,5 +1,8 @@
 .cm-s-jernau {background: #222; color: #CCCCCC;}                                                           /* background :black        text :light-grey  */
-.cm-s-jernau .CodeMirror-activeline {background: #2F2F2F;}                                                 /* active-line                   :dark-grey   */
+.cm-s-jernau .activeline { background:#303030; }
+/*.cm-s-jernau .CodeMirror-activeline {background: #2F2F2F;}                                                 /* active-line                   :dark-grey   */
+/*.cm-s-jernau .CodeMirror-activeline-background {background: #2F2F2F !important;}                           /* active-line                   :dark-grey   */
+.cm-s-jernau .CodeMirror-activeline .CodeMirror-linenumber { background: #2F2F2F; color:#CCCCCC;}          /* active-line                   :dark-grey   */
 .cm-s-jernau .CodeMirror-focused {background: #555;}                                                       /* focused                       :light-grey  */
 .cm-s-jernau .CodeMirror-selected {background: #555;}                                                      /* selected                      :light-grey  */
 

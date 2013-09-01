@@ -57,3 +57,1823 @@
 2013-08-30 23:07:41	<--	NeedMoreDesu (~user@109.122.42.82) has quit (Ping timeout: 240 seconds)
 2013-08-30 23:08:18	<--	bmaddy (~bmaddy@245.sub-70-197-201.myvzw.com) has quit (Ping timeout: 256 seconds)
 2013-08-30 23:08:18	<--	akells (~akells@199.182.212.170) has quit (Ping timeout: 264 seconds)
+2013-08-30 23:08:41	<--	podviaznikov (~podviazni@190.99.78.6) has quit (Ping timeout: 240 seconds)
+2013-08-30 23:09:38	-->	bmaddy (~bmaddy@232.sub-70-197-199.myvzw.com) has joined #clojure
+2013-08-30 23:10:03	<--	ustunozgur (~ustunozgu@78.163.231.76) has quit (Remote host closed the connection)
+2013-08-30 23:10:56	<--	jivebot (~textual@209.216.179.137) has quit (Quit: Computer has gone to sleep.)
+2013-08-30 23:11:33	<--	tobyo2 (~tobyo@cpe-66-75-28-175.san.res.rr.com) has quit (Ping timeout: 248 seconds)
+2013-08-30 23:11:43	<--	mihneadb (~mihneadb@v-1045.fw1.sfo1.mozilla.net) has quit (Read error: Connection reset by peer)
+2013-08-30 23:12:00	-->	mihneadb (~mihneadb@v-1045.fw1.sfo1.mozilla.net) has joined #clojure
+2013-08-30 23:13:19	<--	HolyJak (~Adium@146.19.45.31.customer.cdi.no) has quit (Read error: Connection timed out)
+2013-08-30 23:13:32	-->	jivebot (~textual@209.216.179.137) has joined #clojure
+2013-08-30 23:13:33	TimMc	ztellman: I *suppose*.
+2013-08-30 23:13:46	<--	bmaddy (~bmaddy@232.sub-70-197-199.myvzw.com) has quit (Ping timeout: 245 seconds)
+2013-08-30 23:13:49	callen	lastlog ztellman
+2013-08-30 23:13:51	-->	HolyJak (~Adium@146.19.45.31.customer.cdi.no) has joined #clojure
+2013-08-30 23:13:52	callen	sigh.
+2013-08-30 23:13:54	TimMc	bbloom: I use src/org/timmc/... just for you.
+2013-08-30 23:14:13	TimMc	At least I have short domain.
+2013-08-30 23:15:44	-->	clj_newb_2345 (800c5564@gateway/web/freenode/ip.128.12.85.100) has joined #clojure
+2013-08-30 23:15:49	clj_newb_2345	besides the people at relevance
+2013-08-30 23:15:56	clj_newb_2345	has anyone else in the world managed to grok pedestal?
+2013-08-30 23:15:59	<--	francis_wolke (62cf9ba1@gateway/web/cgi-irc/kiwiirc.com/ip.98.207.155.161) has quit (Quit: http://www.kiwiirc.com/ - A hand crafted IRC client)
+2013-08-30 23:16:07	<--	ifesdjeen (~ifesdjeen@ppp-188-174-176-162.dynamic.mnet-online.de) has quit (Remote host closed the connection)
+2013-08-30 23:16:22	-->	ShaneCurran (~shane@orchestra/user/TechieShane) has joined #clojure
+2013-08-30 23:16:35	<--	ShaneCurran (~shane@orchestra/user/TechieShane) has quit (Excess Flood)
+2013-08-30 23:16:41	-->	ifesdjeen (~ifesdjeen@ppp-188-174-176-162.dynamic.mnet-online.de) has joined #clojure
+2013-08-30 23:16:48	shaunxcode	if I ever get around to putting up my new blog I promise you an article on such grokage
+2013-08-30 23:17:22	<--	aturley (~aturley@184.152.23.26) has quit (Ping timeout: 240 seconds)
+2013-08-30 23:18:22	-->	schmir (~schmir@p54A90BB5.dip0.t-ipconnect.de) has joined #clojure
+2013-08-30 23:19:09	-->	mrcheeks (~user@CPE001839838ebe-CM001ac30d4784.cpe.net.cable.rogers.com) has joined #clojure
+2013-08-30 23:19:35	-->	sevvie (~sevvie@75-147-181-145-Washington.hfc.comcastbusiness.net) has joined #clojure
+2013-08-30 23:19:52	<--	schmir (~schmir@p54A90BB5.dip0.t-ipconnect.de) has quit (Remote host closed the connection)
+2013-08-30 23:20:26	<--	tbatchelli_m (~tbatchell@c-67-180-176-59.hsd1.ca.comcast.net) has quit (Read error: Connection reset by peer)
+2013-08-30 23:20:48	-->	tbatchelli_m (~tbatchell@c-67-180-176-59.hsd1.ca.comcast.net) has joined #clojure
+2013-08-30 23:20:51	<--	ifesdjeen (~ifesdjeen@ppp-188-174-176-162.dynamic.mnet-online.de) has quit (Ping timeout: 245 seconds)
+2013-08-30 23:21:44	-->	bmaddy (~bmaddy@237.sub-70-197-192.myvzw.com) has joined #clojure
+2013-08-30 23:21:47	futile	Go has an interesting solution to platform-specific code.
+2013-08-30 23:22:10	callen	clj_newb_2345: are you working on complicated bidirectional client/server web applications?
+2013-08-30 23:22:20	futile	I wonder how its pros/cons compare to feature-expressions.
+2013-08-30 23:22:21	clj_newb_2345	callen: yes
+2013-08-30 23:22:43	-->	kofno (~kofno@cpe-24-165-210-251.neo.res.rr.com) has joined #clojure
+2013-08-30 23:22:55	callen	well. then Pedestal is potentially a credible solution but OTOH, if you want to build something like that but cannot understand Pedestal, then it might be time to simplify what you're trying to make.
+2013-08-30 23:23:00	callen	clj_newb_2345: #pedestal exists - you know.
+2013-08-30 23:23:11	clj_newb_2345	by definition, aaaren't all websites either (1) static, (2) bi-directional web apps, or (3) should be [2], but the programmers suck
+2013-08-30 23:23:19	callen	no.
+2013-08-30 23:23:34	<--	SegFaultAX (SegFaultAX@unaffiliated/segfaultax) has quit (Quit: ZNC - http://znc.in)
+2013-08-30 23:23:44	-->	przl (~przlrkt@p5B298EC3.dip0.t-ipconnect.de) has joined #clojure
+2013-08-30 23:23:55	shaunxcode	I think what callen is saying is that if you are trying to grok clojure web dev period pedestal may not be the place to start directly. Pick up ring on its own, compojure etc.
+2013-08-30 23:24:29	<--	bobbycalderwood (~bobbycald@c-69-255-30-143.hsd1.va.comcast.net) has quit (Quit: bobbycalderwood)
+2013-08-30 23:24:42	<--	sevvie (~sevvie@75-147-181-145-Washington.hfc.comcastbusiness.net) has quit (Ping timeout: 264 seconds)
+2013-08-30 23:25:27	callen	shaunxcode: thank you for interpreting.
+2013-08-30 23:25:34	-->	SegFaultAX (SegFaultAX@unaffiliated/segfaultax) has joined #clojure
+2013-08-30 23:25:48	gtrak	pedestal's overkill until you really need a cohesive uniform async and message-passing bus, imo? json-rpc works fine for our single-page app and is also flexible.
+2013-08-30 23:25:49	<--	rbxbx` (~user@pool-72-69-143-54.nycmny.fios.verizon.net) has quit (Read error: Connection reset by peer)
+2013-08-30 23:25:53	-->	mishok13 (~mishok13@ip5450bc54.adsl-surfen.hetnet.nl) has joined #clojure
+2013-08-30 23:25:56	<--	yedi (~yedi@50-78-242-97-static.hfc.comcastbusiness.net) has quit (Remote host closed the connection)
+2013-08-30 23:26:11	<--	bmaddy (~bmaddy@237.sub-70-197-192.myvzw.com) has quit (Ping timeout: 260 seconds)
+2013-08-30 23:26:14	-->	slyv (~textual@c-76-16-251-173.hsd1.il.comcast.net) has joined #clojure
+2013-08-30 23:26:33	-->	rbxbx` (~user@pool-72-69-143-54.nycmny.fios.verizon.net) has joined #clojure
+2013-08-30 23:26:41	<--	jonasen (~jonasen@a100.ip13.netikka.fi) has quit (Ping timeout: 245 seconds)
+2013-08-30 23:26:54	gtrak	rpc-style, anyway, not the spec specifically
+2013-08-30 23:27:26	-->	dan_dan__ (~dan@gateway/tor-sasl/dan) has joined #clojure
+2013-08-30 23:27:34	<--	kofno (~kofno@cpe-24-165-210-251.neo.res.rr.com) has quit (Ping timeout: 256 seconds)
+2013-08-30 23:27:49	<--	jwpalmer (~jpalmer@c-71-202-150-93.hsd1.ca.comcast.net) has quit (Ping timeout: 268 seconds)
+2013-08-30 23:29:08	<--	drbobbeaty (~drbobbeat@74.201.7.123) has quit (Quit: drbobbeaty)
+2013-08-30 23:29:40	<--	awalters_ (~awalters@c-68-54-218-41.hsd1.il.comcast.net) has quit (Ping timeout: 268 seconds)
+2013-08-30 23:30:04	-->	bmaddy (~bmaddy@241.sub-70-197-194.myvzw.com) has joined #clojure
+2013-08-30 23:30:24	<--	ordnungswidrig (~Adium@37-4-24-232-dynip.superkabel.de) has quit (Quit: Leaving.)
+2013-08-30 23:30:59	<--	leo2 (~ramn@nat/yahoo/x-qciocfshylpecvvm) has left #clojure
+2013-08-30 23:31:21	<--	owengalenjones (~owen@static-108-16-207-11.phlapa.fios.verizon.net) has quit (Remote host closed the connection)
+2013-08-30 23:31:33	-->	travisr (~travisrod@17.223.151.202) has joined #clojure
+2013-08-30 23:31:40	<--	akrikos (~akrikos@234-10-255-199.rev.celito.net) has quit (Quit: akrikos)
+2013-08-30 23:33:04	clj_newb_2345	http://www.learndatalogtoday.org/ is fucking badass
+2013-08-30 23:33:24	callen	gtrak: I'm of the same opinion.
+2013-08-30 23:33:31	gtrak	ours evolved to a compromise point between json-rpc and REST..
+2013-08-30 23:33:33	<--	tbatchelli_m (~tbatchell@c-67-180-176-59.hsd1.ca.comcast.net) has quit (Read error: Connection reset by peer)
+2013-08-30 23:33:40	-->	sevvie (~sevvie@75-147-181-145-Washington.hfc.comcastbusiness.net) has joined #clojure
+2013-08-30 23:33:45	<--	coventry (~user@cpe-74-78-222-234.twcny.res.rr.com) has quit (Ping timeout: 245 seconds)
+2013-08-30 23:33:48	callen	clj_newb_2345: oh man, that is cool and I need it! I have coworkers to teach datalog to! Thank you for sharing :)
+2013-08-30 23:34:02	gtrak	i guess we could implement it in pedestal just as well as in compojure, not sure.
+2013-08-30 23:34:05	-->	tbatchelli_m (~tbatchell@c-67-180-176-59.hsd1.ca.comcast.net) has joined #clojure
+2013-08-30 23:34:06	clj_newb_2345	someone else showed it to me last night
+2013-08-30 23:34:16	clj_newb_2345	I didn't get a chance to start playing with it today, but it's awesome
+2013-08-30 23:34:18	-->	bmaddy_ (~bmaddy@176.sub-70-197-198.myvzw.com) has joined #clojure
+2013-08-30 23:34:36	-->	ifesdjeen (~ifesdjeen@ppp-188-174-176-162.dynamic.mnet-online.de) has joined #clojure
+2013-08-30 23:34:45	callen	clj_newb_2345: I'm testing Datomic for something at work, so this is very useful. :D
+2013-08-30 23:34:46	<--	ifesdjeen (~ifesdjeen@ppp-188-174-176-162.dynamic.mnet-online.de) has quit (Read error: Connection reset by peer)
+2013-08-30 23:34:48	-->	yedi (~yedi@50-78-242-97-static.hfc.comcastbusiness.net) has joined #clojure
+2013-08-30 23:35:13	<--	bmaddy (~bmaddy@241.sub-70-197-194.myvzw.com) has quit (Ping timeout: 268 seconds)
+2013-08-30 23:35:15	-->	ifesdjeen (~ifesdjeen@ppp-188-174-176-162.dynamic.mnet-online.de) has joined #clojure
+2013-08-30 23:35:35	<--	Okasu (~1@unaffiliated/okasu) has quit (Quit: leaving)
+2013-08-30 23:35:54	<--	mishok13 (~mishok13@ip5450bc54.adsl-surfen.hetnet.nl) has quit (Ping timeout: 264 seconds)
+2013-08-30 23:36:16	<--	sxn (~sxn@mnch-4d047838.pool.mediaWays.net) has quit (Ping timeout: 245 seconds)
+2013-08-30 23:36:24	<--	jlongster (~user@pool-173-53-114-190.rcmdva.fios.verizon.net) has quit (Ping timeout: 256 seconds)
+2013-08-30 23:36:31	-->	sxn (~sxn@mnch-4d0db864.pool.mediaWays.net) has joined #clojure
+2013-08-30 23:36:45	<--	unstable-__ (~jean-le@190.6.237.154) has quit (Remote host closed the connection)
+2013-08-30 23:37:34	<--	jcrossley3-away (~user@redhat/jboss/jc3) has quit (Quit: ERC Version 5.3 (IRC client for Emacs))
+2013-08-30 23:38:06	-->	mnemnion (~mnemnion@c-50-152-148-184.hsd1.ca.comcast.net) has joined #clojure
+2013-08-30 23:38:30	-->	awalters_ (~awalters@c-68-54-218-41.hsd1.il.comcast.net) has joined #clojure
+2013-08-30 23:39:22	<--	bmaddy_ (~bmaddy@176.sub-70-197-198.myvzw.com) has quit (Ping timeout: 240 seconds)
+2013-08-30 23:41:23	<--	upwardindex (~upwardind@242.161.18.64.static.oricom.ca) has quit (Quit: upwardindex)
+2013-08-30 23:42:19	<--	giorgio_v (~giorgio_v@net-93-70-1-225.cust.dsl.vodafone.it) has quit (Remote host closed the connection)
+2013-08-30 23:44:17	-->	jpfuentes2 (~jacques@pool-173-53-102-185.rcmdva.fios.verizon.net) has joined #clojure
+2013-08-30 23:44:49	<--	toast (~Adium@fwnat.oicr.on.ca) has quit (Quit: Leaving.)
+2013-08-30 23:45:04	-->	toast (~Adium@fwnat.oicr.on.ca) has joined #clojure
+2013-08-30 23:45:40	<--	travisr (~travisrod@17.223.151.202) has quit (Remote host closed the connection)
+2013-08-30 23:45:58	-->	travisr (~travisrod@17.223.151.202) has joined #clojure
+2013-08-30 23:46:42	<--	ystael (~ystael@64.206.121.41) has quit (Ping timeout: 264 seconds)
+2013-08-30 23:46:47	<--	clj_newb_2345 (800c5564@gateway/web/freenode/ip.128.12.85.100) has quit (Quit: Page closed)
+2013-08-30 23:47:30	futile	yeah I'm gonna be using Datomic soon at work too so http://www.learndatalogtoday.org/ might very well be helpful
+2013-08-30 23:48:44	-->	mishok13 (~mishok13@ip5450bc54.adsl-surfen.hetnet.nl) has joined #clojure
+2013-08-30 23:49:22	<--	toast (~Adium@fwnat.oicr.on.ca) has quit (Ping timeout: 240 seconds)
+2013-08-30 23:49:44	-->	rbento (~textual@187.104.147.13) has joined #clojure
+2013-08-30 23:51:33	<--	przl (~przlrkt@p5B298EC3.dip0.t-ipconnect.de) has quit (Ping timeout: 248 seconds)
+2013-08-30 23:51:47	<--	meisterluk (~meisterlu@e-2.vc-graz.ac.at) has quit (Quit: Leaving.)
+2013-08-30 23:52:33	<--	R_Macy (~R_Macy@23-24-239-33-static.hfc.comcastbusiness.net) has quit (Quit: Computer has gone to sleep.)
+2013-08-30 23:53:30	<--	BobSchack (~Adium@173.229.2.112) has quit (Ping timeout: 264 seconds)
+2013-08-30 23:53:30	<--	tbatchelli_m (~tbatchell@c-67-180-176-59.hsd1.ca.comcast.net) has quit (Read error: Connection reset by peer)
+2013-08-30 23:53:52	-->	tbatchelli_m (~tbatchell@c-67-180-176-59.hsd1.ca.comcast.net) has joined #clojure
+2013-08-30 23:55:27	-->	babilen_ (~babilen@unaffiliated/babilen) has joined #clojure
+2013-08-30 23:55:42	<--	rbento (~textual@187.104.147.13) has quit (Quit: ┐('～`；)┌)
+2013-08-30 23:55:46	-->	bmaddy (~bmaddy@188.sub-70-197-199.myvzw.com) has joined #clojure
+2013-08-30 23:56:10	<--	babilen (~babilen@unaffiliated/babilen) has quit (Read error: Connection reset by peer)
+2013-08-30 23:57:27	<--	ifesdjeen (~ifesdjeen@ppp-188-174-176-162.dynamic.mnet-online.de) has quit (Remote host closed the connection)
+2013-08-30 23:57:43	-->	emil0r (~emil0r@193.11.200.37.customer.cdi.no) has joined #clojure
+2013-08-31 00:00:03	<--	bmaddy (~bmaddy@188.sub-70-197-199.myvzw.com) has quit (Ping timeout: 240 seconds)
+2013-08-31 00:00:14	<--	ljos (~bjarte@tunnel-32-84.vpn.uib.no) has quit (Ping timeout: 264 seconds)
+2013-08-31 00:00:37	<--	sxn (~sxn@mnch-4d0db864.pool.mediaWays.net) has quit (Remote host closed the connection)
+2013-08-31 00:00:47	<--	enebo (~enebo@c-75-73-8-169.hsd1.mn.comcast.net) has quit (Quit: enebo)
+2013-08-31 00:02:24	<--	functionform (~functionf@pool-108-48-90-66.washdc.fios.verizon.net) has quit (Quit: Nettalk6 - www.ntalk.de)
+2013-08-31 00:02:41	<--	mnemnion (~mnemnion@c-50-152-148-184.hsd1.ca.comcast.net) has quit (Remote host closed the connection)
+2013-08-31 00:02:47	-->	upwardindex (~upwardind@166.62.181.155) has joined #clojure
+2013-08-31 00:02:53	-->	atyz (~atyz@cpe-174-109-088-241.nc.res.rr.com) has joined #clojure
+2013-08-31 00:02:58	-->	clj_newb_2345 (800c5564@gateway/web/freenode/ip.128.12.85.100) has joined #clojure
+2013-08-31 00:03:01	clj_newb_2345	datalog is fucking badass; why did no one team me datalog earlier?
+2013-08-31 00:03:17	-->	mnemnion (~mnemnion@c-50-152-148-184.hsd1.ca.comcast.net) has joined #clojure
+2013-08-31 00:03:24	<--	jpfuentes2 (~jacques@pool-173-53-102-185.rcmdva.fios.verizon.net) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2013-08-31 00:03:24	-->	sohail (~sohail@unaffiliated/sohail) has joined #clojure
+2013-08-31 00:03:36	seangrov`	clj_newb_2345: What're you using it for?
+2013-08-31 00:03:49	<--	awalters_ (~awalters@c-68-54-218-41.hsd1.il.comcast.net) has quit (Ping timeout: 248 seconds)
+2013-08-31 00:03:51	<--	mmitchell (~mmitchell@c-24-125-146-100.hsd1.va.comcast.net) has quit (Remote host closed the connection)
+2013-08-31 00:03:58	-->	sxn (~sxn@mnch-4d0db864.pool.mediaWays.net) has joined #clojure
+2013-08-31 00:04:03	-->	helvete (~atyz@cpe-174-109-088-241.nc.res.rr.com) has joined #clojure
+2013-08-31 00:06:03	clj_newb_2345	this is going to be my web 3.0 facebook/google killer
+2013-08-31 00:06:06	<--	io2 (~io2@unaffiliated/irrequietus) has quit
+2013-08-31 00:06:15	clj_newb_2345	the exercises are so fun
+2013-08-31 00:06:46	gtrak	clj_newb_2345: have you considered php?
+2013-08-31 00:07:01	gtrak	it's really good for making websites :-)
+2013-08-31 00:07:46	-->	tcrayford (tcrayford@gateway/shell/ircrelay.com/x-fyiirmrkbzaeetgh) has joined #clojure
+2013-08-31 00:07:48	<--	mnemnion (~mnemnion@c-50-152-148-184.hsd1.ca.comcast.net) has quit (Ping timeout: 256 seconds)
+2013-08-31 00:08:08	<--	atyz (~atyz@cpe-174-109-088-241.nc.res.rr.com) has quit (Ping timeout: 256 seconds)
+2013-08-31 00:08:11	tcrayford	anybody ever see an error like this out of clojure? "yeller.unique_priority_map.PersistentUniquePriorityMap cannot be cast to yeller.unique_priority_map.PersistentUniquePriorityMap"
+2013-08-31 00:08:12	tcrayford	?
+2013-08-31 00:08:28	gtrak	classloader boundary?
+2013-08-31 00:08:33	-->	wolanski (~user@modemcable050.47-37-24.static.videotron.ca) has joined #clojure
+2013-08-31 00:09:11	tcrayford	I don't think so :/
+2013-08-31 00:09:17	<--	devinus (~devinus@65.107.181.222.ptr.us.xo.net) has quit (Quit: devintorr.es)
+2013-08-31 00:09:21	tcrayford	(unless I don't know what you mean by classloader boundary)
+2013-08-31 00:09:42	tcrayford	assuming test.generative doesn't do anything weird with classloaders, at the least
+2013-08-31 00:09:53	gtrak	huh
+2013-08-31 00:10:11	-->	OwenOu (~Adium@207.6.244.57) has joined #clojure
+2013-08-31 00:10:24	--	yogthos is now known as yogthos|away
+2013-08-31 00:10:33	tcrayford	this results from just running the test.generative main script from the command line with lein
+2013-08-31 00:10:33	gtrak	I've only seen errors like that across classloaders.. is there anything special about the client code vs the called code?
+2013-08-31 00:10:37	tcrayford	something like this:
+2013-08-31 00:10:38	tcrayford	lein with-profile ci run -m clojure.test.generative.runner "test/yeller/unit/"
+2013-08-31 00:10:43	tcrayford	don't think so
+2013-08-31 00:12:16	tcrayford	it went away after a lein clean, lein compile *offending-source-file*
+2013-08-31 00:12:34	gtrak	interesting
+2013-08-31 00:13:08	 *	tcrayford has no idea what's going on
+2013-08-31 00:13:12	gtrak	here's an example: http://stackoverflow.com/questions/2371967/java-getting-class-cast-exception-where-both-classes-are-exactly-the-same
+2013-08-31 00:13:43	<--	bungoman (~bungoman@64.244.149.116) has quit (Read error: Operation timed out)
+2013-08-31 00:14:29	<--	OwenOu (~Adium@207.6.244.57) has quit (Ping timeout: 248 seconds)
+2013-08-31 00:14:32	<--	wolanski (~user@modemcable050.47-37-24.static.videotron.ca) has quit (Remote host closed the connection)
+2013-08-31 00:14:33	<--	kephale (~Adium@129.64.233.48) has quit (Quit: Leaving.)
+2013-08-31 00:14:51	-->	banjara (~Adium@unaffiliated/banjara) has joined #clojure
+2013-08-31 00:15:26	tcrayford	yeah, that makes sense
+2013-08-31 00:15:29	-->	abp (~user@ip-130-180-73-249.unitymediagroup.de) has joined #clojure
+2013-08-31 00:15:50	<--	mthvedt (~mike@c-75-73-53-17.hsd1.mn.comcast.net) has quit (Quit: mthvedt)
+2013-08-31 00:16:00	<--	pbostrom (~user@surveyor.bridge360.com) has quit (Remote host closed the connection)
+2013-08-31 00:16:35	<--	HolyJak (~Adium@146.19.45.31.customer.cdi.no) has quit (Quit: Leaving.)
+2013-08-31 00:16:36	-->	wolanski (~user@modemcable050.47-37-24.static.videotron.ca) has joined #clojure
+2013-08-31 00:17:09	<--	shiftyeyes (~nschile@70.129.197.15) has quit (Ping timeout: 248 seconds)
+2013-08-31 00:17:23	-->	zeitue (~z@68.168.201.17) has joined #clojure
+2013-08-31 00:19:44	<--	mihneadb (~mihneadb@v-1045.fw1.sfo1.mozilla.net) has quit (Remote host closed the connection)
+2013-08-31 00:20:06	-->	mihneadb (~mihneadb@v-1045.fw1.sfo1.mozilla.net) has joined #clojure
+2013-08-31 00:20:14	-->	mnemnion (~mnemnion@c-50-152-148-184.hsd1.ca.comcast.net) has joined #clojure
+2013-08-31 00:20:43	<--	sevvie (~sevvie@75-147-181-145-Washington.hfc.comcastbusiness.net) has quit (Ping timeout: 240 seconds)
+2013-08-31 00:20:59	-->	podviaznikov (~podviazni@190.152.111.23) has joined #clojure
+2013-08-31 00:21:08	<--	seangrov` (~user@c-69-181-197-122.hsd1.ca.comcast.net) has quit (Ping timeout: 246 seconds)
+2013-08-31 00:21:14	-->	noncom|2 (~noncom@217.148.214.162) has joined #clojure
+2013-08-31 00:21:17	<--	danoyoung (~dan.young@65-120-177-75.dia.static.qwest.net) has quit (Quit: danoyoung)
+2013-08-31 00:21:54	futile	"In the last century, their race grew weary of such traditional names, therefore library authors resorted to creative means, such as naming them a sound that could only be pronounced audibly, or a color itself, as opposed to the name of the color."
+2013-08-31 00:22:12	-->	jlongster (~user@pool-173-53-114-190.rcmdva.fios.verizon.net) has joined #clojure
+2013-08-31 00:22:39	<--	jweaver (~jweaver@cpe-72-130-153-19.san.res.rr.com) has quit (Remote host closed the connection)
+2013-08-31 00:22:52	<--	patchwork (~Adium@50-201-108-14-static.hfc.comcastbusiness.net) has quit (Ping timeout: 256 seconds)
+2013-08-31 00:22:55	-->	jweaver (~jweaver@cpe-72-130-153-19.san.res.rr.com) has joined #clojure
+2013-08-31 00:23:13	-->	kofno (~kofno@cpe-24-165-210-251.neo.res.rr.com) has joined #clojure
+2013-08-31 00:23:32	<--	reiddraper (reiddraper@gateway/shell/ircrelay.com/x-cyzrxvbujgofekig) has quit (Excess Flood)
+2013-08-31 00:24:09	-->	reiddraper (reiddraper@gateway/shell/ircrelay.com/x-mtalwmkrslqhxkvi) has joined #clojure
+2013-08-31 00:24:10	<--	reiddraper (reiddraper@gateway/shell/ircrelay.com/x-mtalwmkrslqhxkvi) has quit (Excess Flood)
+2013-08-31 00:24:16	<--	noncom (~noncom@217.148.214.162) has quit (Ping timeout: 246 seconds)
+2013-08-31 00:24:42	-->	reiddraper (reiddraper@gateway/shell/ircrelay.com/x-kedyqzayaucsidkw) has joined #clojure
+2013-08-31 00:24:42	<--	reiddraper (reiddraper@gateway/shell/ircrelay.com/x-kedyqzayaucsidkw) has quit (Excess Flood)
+2013-08-31 00:25:14	-->	reiddraper (reiddraper@gateway/shell/ircrelay.com/x-atzstbstvvnfaxby) has joined #clojure
+2013-08-31 00:25:14	<--	reiddraper (reiddraper@gateway/shell/ircrelay.com/x-atzstbstvvnfaxby) has quit (Excess Flood)
+2013-08-31 00:25:37	<--	wolanski (~user@modemcable050.47-37-24.static.videotron.ca) has quit (Remote host closed the connection)
+2013-08-31 00:25:46	-->	reiddraper (reiddraper@gateway/shell/ircrelay.com/x-iktjdgakkdqzaecc) has joined #clojure
+2013-08-31 00:26:12	-->	fwolanski (~user@modemcable050.47-37-24.static.videotron.ca) has joined #clojure
+2013-08-31 00:26:20	-->	francis_wolke (62cf9ba1@gateway/web/cgi-irc/kiwiirc.com/ip.98.207.155.161) has joined #clojure
+2013-08-31 00:27:29	<--	francis_wolke (62cf9ba1@gateway/web/cgi-irc/kiwiirc.com/ip.98.207.155.161) has quit (Client Quit)
+2013-08-31 00:27:38	<--	kofno (~kofno@cpe-24-165-210-251.neo.res.rr.com) has quit (Ping timeout: 256 seconds)
+2013-08-31 00:28:15	<--	mattmoss (~mattmoss@71.11.98.68) has quit (Ping timeout: 260 seconds)
+2013-08-31 00:29:15	--	yogthos|away is now known as yogthos
+2013-08-31 00:29:20	<--	podviaznikov (~podviazni@190.152.111.23) has quit (Ping timeout: 256 seconds)
+2013-08-31 00:29:55	-->	sevvie (~sevvie@75-147-181-145-Washington.hfc.comcastbusiness.net) has joined #clojure
+2013-08-31 00:29:57	<--	sohail (~sohail@unaffiliated/sohail) has quit (Ping timeout: 248 seconds)
+2013-08-31 00:30:08	-->	mthvedt (~mike@c-75-73-53-17.hsd1.mn.comcast.net) has joined #clojure
+2013-08-31 00:31:16	<--	piranha (~piranha@192.162.132.12) has quit (Ping timeout: 245 seconds)
+2013-08-31 00:33:12	clj_newb_2345	anyone else wish core.match uses datomic style pattern matching?
+2013-08-31 00:34:05	-->	danlentz (~danlentz@c-68-37-70-235.hsd1.nj.comcast.net) has joined #clojure
+2013-08-31 00:34:15	callen	clj_newb_2345: if wishes were horses, beggars would ride.
+2013-08-31 00:34:31	<--	racycle (~racycle@75-25-129-128.lightspeed.sjcpca.sbcglobal.net) has quit (Remote host closed the connection)
+2013-08-31 00:35:02	gtrak	not if I wish for more wishes.  they would be buried in horses.
+2013-08-31 00:35:39	TimMc	futile: imma name my next library c̷͉̖̤̟͔̰̮̓͌̿̐ľ͍͌̇ͤj̢͎̗͕̰̙̝̓ͥ͐̊̃ͨͣ.̩̟͎ͅc̵̖̞̞͍̓ͦ͊͌ͫo̙̠͈͉̣̺̖ͤr̲̳̒ͮ̈́͛ͅe̠͇̯͖͂́̌̀̾́
+2013-08-31 00:35:43	<--	iwillig (~Adium@pool-108-54-151-162.nycmny.fios.verizon.net) has left #clojure
+2013-08-31 00:35:49	futile	whoa
+2013-08-31 00:35:51	futile	impressive
+2013-08-31 00:36:03	clj_newb_2345	atleast it'll be easier to google than something like "Go" or "A+"
+2013-08-31 00:36:03	TimMc	(I apologize to anyone who now has a messed-up terminal.)
+2013-08-31 00:36:10	-->	podviaznikov (~podviazni@181.112.233.150) has joined #clojure
+2013-08-31 00:36:33	-->	mercwithamouth (~kingdom@99-38-191-69.lightspeed.clmasc.sbcglobal.net) has joined #clojure
+2013-08-31 00:36:37	<--	ztellman (~ztellman@173.228.102.82) has quit (Quit: Computer has gone to sleep.)
+2013-08-31 00:36:44	 *	bbloom just had nightmare flashbacks to being shafted with some i18n work
+2013-08-31 00:36:49	TimMc	/clear will remove the offending line from view and C-l will refresh your screen
+2013-08-31 00:36:52	futile	It's really idiotic that we still use terminal emulators.
+2013-08-31 00:36:53	-->	coventry (~user@cpe-74-78-222-234.twcny.res.rr.com) has joined #clojure
+2013-08-31 00:37:11	futile	Surely we can come up with a bette contract than VTxxx. It's the 2010s already.
+2013-08-31 00:37:22	callen	"idiotic"
+2013-08-31 00:37:36	callen	futile: by all means, invent another terminal protocol nobody will use.
+2013-08-31 00:37:39	bbloom	futile: my theory on that is that the BEST FEATURE of terminals is immutability. at least, in theory, your shell is a *log*
+2013-08-31 00:37:55	bbloom	futile: everybody else who has ever tried has made some sort of stupid object shell thing
+2013-08-31 00:37:56	callen	^^ what this guy said.
+2013-08-31 00:37:59	futile	In order to write a GUI tool that supports "less", you need to emulate at least a VT100.
+2013-08-31 00:38:19	callen	futile: I'll collect my tears in a bucket for you.
+2013-08-31 00:38:21	futile	callen: I'm not saying I can do it.
+2013-08-31 00:38:48	<--	mthvedt (~mike@c-75-73-53-17.hsd1.mn.comcast.net) has quit (Quit: mthvedt)
+2013-08-31 00:38:49	callen	I need to write a bayesian filter that filters for conversation about doing actual 'things'.
+2013-08-31 00:39:07	futile	callen: yep, good old callen
+2013-08-31 00:39:17	-->	mthvedt (~mike@c-75-73-53-17.hsd1.mn.comcast.net) has joined #clojure
+2013-08-31 00:39:17	<--	sevvie (~sevvie@75-147-181-145-Washington.hfc.comcastbusiness.net) has quit (Read error: Connection reset by peer)
+2013-08-31 00:39:27	-->	alisdair (~textual@76.77.68.179) has joined #clojure
+2013-08-31 00:39:39	-->	ustunozgur (~ustunozgu@78.163.231.76) has joined #clojure
+2013-08-31 00:40:12	bbloom	callen: if you try not saying anything, maybe the conversations you don't like will just scroll past you and your life will be better
+2013-08-31 00:41:17	-->	seangrov` (~user@2600:1010:b01a:f33a:a4f7:8ba7:b723:395d) has joined #clojure
+2013-08-31 00:41:35	<--	yedi (~yedi@50-78-242-97-static.hfc.comcastbusiness.net) has quit (Remote host closed the connection)
+2013-08-31 00:41:41	coventry	clj_newb_2345: I have worked through the first part of the pedestal tutorial, and I think I grok it.  It was tough going, though.  I am planning to use it in a couple of weeks, after I've developed some backend components.
+2013-08-31 00:41:55	<--	mercwithamouth (~kingdom@99-38-191-69.lightspeed.clmasc.sbcglobal.net) has quit (Quit: Lost terminal)
+2013-08-31 00:42:01	<--	fuz (~fuz@188-222-129-255.zone13.bethere.co.uk) has quit (Quit: This computer has gone to sleep)
+2013-08-31 00:42:08	callen	bbloom: but the log is immutable :(
+2013-08-31 00:42:22	<--	pel_daniel (~responsiv@187.191.31.50) has left #clojure
+2013-08-31 00:43:01	-->	yedi (~yedi@50-78-242-97-static.hfc.comcastbusiness.net) has joined #clojure
+2013-08-31 00:43:21	callen	I'm just asynchronously rotating to the IRC channel, checking to see if anybody's doing something other than complaining about things they didn't write, then cmd-tab'ing back to my work.
+2013-08-31 00:43:33	callen	I'm starting to understand why caboose exists.
+2013-08-31 00:44:41	clj_newb_2345	why hasn't anyone written a clojure library that only shows me what I wnat to read?
+2013-08-31 00:44:54	clj_newb_2345	it should use reinforcement learning by looking at how I respond to it
+2013-08-31 00:45:00	clj_newb_2345	and use the webcam to read my facila expressions
+2013-08-31 00:45:04	clj_newb_2345	for approval/disaproval
+2013-08-31 00:45:26	gtrak	I haven't ever used a clojure library that I didn't end up reading every line for
+2013-08-31 00:46:12	gtrak	I just do it upfront now
+2013-08-31 00:46:30	clj_newb_2345	gtrak: what libraries have you used?
+2013-08-31 00:46:31	<--	alisdair (~textual@76.77.68.179) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-08-31 00:46:44	gtrak	uhh
+2013-08-31 00:46:45	gtrak	:-)
+2013-08-31 00:47:33	-->	jamesaanderson (~jamesaand@107-215-201-164.lightspeed.irvnca.sbcglobal.net) has joined #clojure
+2013-08-31 00:47:45	<--	babilen_ (~babilen@unaffiliated/babilen) has quit (Quit: leaving)
+2013-08-31 00:47:56	<--	mthvedt (~mike@c-75-73-53-17.hsd1.mn.comcast.net) has quit (Quit: mthvedt)
+2013-08-31 00:47:59	<--	yedi (~yedi@50-78-242-97-static.hfc.comcastbusiness.net) has quit (Ping timeout: 268 seconds)
+2013-08-31 00:48:23	-->	mthvedt (~mike@c-75-73-53-17.hsd1.mn.comcast.net) has joined #clojure
+2013-08-31 00:48:55	gtrak	compojure... friend... slingshot.. ring, clj-hadoop, cascalog, leiningen (ok I guess not all the way), tools.nrepl, data.csv, cheshire.. nothing too huge.
+2013-08-31 00:49:05	gtrak	but it adds up
+2013-08-31 00:49:18	<--	struktured (~quassel@cpe-142-255-81-44.nyc.res.rr.com) has quit (Ping timeout: 264 seconds)
+2013-08-31 00:49:57	<--	djcoin (~djcoin@ip-189.net-81-220-96.nantes.rev.numericable.fr) has quit (Quit: WeeChat 0.4.0)
+2013-08-31 00:50:01	gtrak	just looking through a single project.clj and seeing if I remember looking at the guts..
+2013-08-31 00:50:04	-->	piranha (~piranha@192.162.132.12) has joined #clojure
+2013-08-31 00:50:15	--	yogthos is now known as yogthos|away
+2013-08-31 00:51:05	<--	tbatchelli_m (~tbatchell@c-67-180-176-59.hsd1.ca.comcast.net) has quit (Read error: Connection reset by peer)
+2013-08-31 00:51:10	-->	tbatchelli_ (~tbatchell@c-67-180-176-59.hsd1.ca.comcast.net) has joined #clojure
+2013-08-31 00:52:22	<--	kttm (~kttm@p57954141.dip0.t-ipconnect.de) has quit (Quit: leaving)
+2013-08-31 00:52:28	coventry	clojure.core? :-)
+2013-08-31 00:52:35	gtrak	yea ofc
+2013-08-31 00:53:06	clj_newb_2345	WOOT WOOT WOOT
+2013-08-31 00:53:13	clj_newb_2345	finished datalog tutorial
+2013-08-31 00:53:20	clj_newb_2345	where is the confetti ?
+2013-08-31 00:53:25	callen	I'm starting to understand why caboose exists.
+2013-08-31 00:53:31	callen	whoops, wrong term.
+2013-08-31 00:53:36	gtrak	clj_newb_2345: confetti is you get to read https://github.com/clojure/clojure/blob/master/src/clj/clojure/core.clj
+2013-08-31 00:53:55	<--	fwolanski (~user@modemcable050.47-37-24.static.videotron.ca) has quit (Ping timeout: 260 seconds)
+2013-08-31 00:54:08	clj_newb_2345	gtrak: I've already read all 128 characters used in that file
+2013-08-31 00:54:09	<--	benkay (~benkay@67.50.19.230) has quit (Ping timeout: 268 seconds)
+2013-08-31 00:54:13	<--	mikerod (9f8cfe61@gateway/web/freenode/ip.159.140.254.97) has quit (Ping timeout: 250 seconds)
+2013-08-31 00:54:50	gtrak	quick, what's the md5sum?
+2013-08-31 00:55:14	<--	jamesaanderson (~jamesaand@107-215-201-164.lightspeed.irvnca.sbcglobal.net) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-08-31 00:55:15	clj_newb_2345	2392802482042
+2013-08-31 00:55:37	<--	tbatchelli_ (~tbatchell@c-67-180-176-59.hsd1.ca.comcast.net) has quit (Remote host closed the connection)
+2013-08-31 00:55:39	clj_newb_2345	as part of my training for mental mining bitcoin, I can do sha256 coins mentally too
+2013-08-31 00:55:51	<--	rcg (~rcg@2a02:908:e250:3801:76de:2bff:fe08:7809) has quit (Quit: Leaving)
+2013-08-31 00:55:58	-->	danielszmulewicz (~danielszm@185.3.146.143) has joined #clojure
+2013-08-31 00:56:04	clj_newb_2345	the datomic tutorial now finally starts to make sense
+2013-08-31 00:56:07	-->	TEttinger (~notostrac@76-217-25-235.lightspeed.irvnca.sbcglobal.net) has joined #clojure
+2013-08-31 00:56:19	-->	jamesaanderson (~jamesaand@107-215-201-164.lightspeed.irvnca.sbcglobal.net) has joined #clojure
+2013-08-31 00:57:04	<--	mthvedt (~mike@c-75-73-53-17.hsd1.mn.comcast.net) has quit (Quit: mthvedt)
+2013-08-31 00:57:16	-->	noto2 (~notostrac@76-217-25-235.lightspeed.irvnca.sbcglobal.net) has joined #clojure
+2013-08-31 00:57:32	-->	mthvedt (~mike@c-75-73-53-17.hsd1.mn.comcast.net) has joined #clojure
+2013-08-31 00:57:44	-->	fuz (~fuz@188-222-129-255.zone13.bethere.co.uk) has joined #clojure
+2013-08-31 00:58:18	-->	przl (~przlrkt@p5B298EC3.dip0.t-ipconnect.de) has joined #clojure
+2013-08-31 00:59:15	<--	BigTom (~Tom@213.246.94.215) has quit (Quit: Nettalk6 - www.ntalk.de)
+2013-08-31 01:00:10	<--	travisr (~travisrod@17.223.151.202) has quit (Read error: Operation timed out)
+2013-08-31 01:00:50	<--	TEttinger (~notostrac@76-217-25-235.lightspeed.irvnca.sbcglobal.net) has quit (Ping timeout: 256 seconds)
+2013-08-31 01:00:54	-->	kephale (~Adium@pool-108-7-186-90.bstnma.fios.verizon.net) has joined #clojure
+2013-08-31 01:01:10	clj_newb_2345	holy shit datomic licensing is expensive
+2013-08-31 01:01:30	bbloom	clj_newb_2345: you've clearly never seen an oracle price sheet
+2013-08-31 01:01:30	Raynes	Welcome to the wonderful world of proprietary software by people who have a need to make money.
+2013-08-31 01:01:39	clj_newb_2345	no
+2013-08-31 01:01:43	clj_newb_2345	I tend to only use open source software
+2013-08-31 01:01:47	-->	skelternet (~skelterne@12.207.42.3) has joined #clojure
+2013-08-31 01:01:52	Raynes	bbloom: Expensive relative to <insert something here>
+2013-08-31 01:01:58	clj_newb_2345	datomic starting license
+2013-08-31 01:02:00	<--	Cumbayah (~cumbayah@2503ds1-vby15.0.fullrate.dk) has quit (Quit: Cumbayah!)
+2013-08-31 01:02:01	bbloom	www.oracle.com/us/corporate/pricing/technology-price-list-070617.pdf‎
+2013-08-31 01:02:03	clj_newb_2345	is more expensive than my macbook pro 17
+2013-08-31 01:02:04	Raynes	Not necessarily expensive relative to <insert highest priced database ever>.
+2013-08-31 01:02:11	`cbp	so many mcchickens you can buy instead
+2013-08-31 01:02:12	Raynes	Mine too.
+2013-08-31 01:02:14	Raynes	Because mine was free.
+2013-08-31 01:02:15	s4muel	"In devops we are face fiscal cliff every year when Oracle license is up for renew." - @devops_borat
+2013-08-31 01:02:18	Raynes	Because my company owns my computer ;p
+2013-08-31 01:02:54	<--	przl (~przlrkt@p5B298EC3.dip0.t-ipconnect.de) has quit (Ping timeout: 264 seconds)
+2013-08-31 01:03:12	gtrak	$47k a cpu?
+2013-08-31 01:03:49	clj_newb_2345	if someone wrote a datomic clone
+2013-08-31 01:03:55	clj_newb_2345	woudl they get kicked from #clojure?
+2013-08-31 01:04:26	seangrov`	I wish thye were more evil abotu datomic
+2013-08-31 01:04:52	seangrov`	Wow, typos
+2013-08-31 01:05:06	bbloom	lol what a weird thought: "They make good software and I like them, but I wish they made good software and I *didn't* like them, so I could clone their software and be a hero"
+2013-08-31 01:05:08	seangrov`	But really, let me "scale up" a bit more and get good and locked-in, then ask me to pay
+2013-08-31 01:05:30	seangrov`	Otherwise I'm nervous about even getting started
+2013-08-31 01:05:59	gtrak	you'll have to pay in hardware if you use a bad architecture
+2013-08-31 01:06:11	<--	mthvedt (~mike@c-75-73-53-17.hsd1.mn.comcast.net) has quit (Quit: mthvedt)
+2013-08-31 01:06:21	<--	jamesaanderson (~jamesaand@107-215-201-164.lightspeed.irvnca.sbcglobal.net) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-08-31 01:06:40	-->	mthvedt (~mike@c-75-73-53-17.hsd1.mn.comcast.net) has joined #clojure
+2013-08-31 01:07:09	<--	enquora (~davidr@S0106602ad083de8c.cg.shawcable.net) has quit (Quit: enquora)
+2013-08-31 01:07:38	clj_newb_2345	alternatvely
+2013-08-31 01:07:39	-->	sandbags (~sandbags@unaffiliated/rubymatt) has joined #clojure
+2013-08-31 01:07:41	clj_newb_2345	they could make datomic ree
+2013-08-31 01:07:44	clj_newb_2345	and charge for the support
+2013-08-31 01:07:48	clj_newb_2345	like, say, Red Hat
+2013-08-31 01:07:56	-->	pizzasauce (~user@unaffiliated/pizzasauce) has joined #clojure
+2013-08-31 01:07:59	<--	pizzasauce (~user@unaffiliated/pizzasauce) has left #clojure
+2013-08-31 01:08:37	-->	ifesdjeen (~ifesdjeen@ppp-188-174-176-162.dynamic.mnet-online.de) has joined #clojure
+2013-08-31 01:09:19	-->	travisr (~travisrod@17.223.151.202) has joined #clojure
+2013-08-31 01:09:24	sandbags	anyone here able to help with with my clojurescript+core.async problem https://gist.github.com/mmower/88353e592f169bef7df9 ?
+2013-08-31 01:09:26	<--	podviaznikov (~podviazni@181.112.233.150) has quit (Remote host closed the connection)
+2013-08-31 01:09:34	-->	chronno (~chronno@187-162-126-107.static.axtel.net) has joined #clojure
+2013-08-31 01:09:43	sandbags	i'm kinda stuck and really have no idea what might be wrong
+2013-08-31 01:09:52	-->	mattmoss (~mattmoss@71.11.98.68) has joined #clojure
+2013-08-31 01:09:53	-->	podviaznikov (~podviazni@181.112.233.150) has joined #clojure
+2013-08-31 01:10:00	-->	amerinese (~amerinese@cpe-72-225-231-95.nyc.res.rr.com) has joined #clojure
+2013-08-31 01:10:01	-->	oliverro (~oliverro@80-219-182-215.dclient.hispeed.ch) has joined #clojure
+2013-08-31 01:10:01	-->	jamesaanderson (~jamesaand@107-215-201-164.lightspeed.irvnca.sbcglobal.net) has joined #clojure
+2013-08-31 01:10:18	callen	I just used core.async blocking take and async put to make a safe (no global mutable state) test case. :)
+2013-08-31 01:10:27	callen	very pleasing.
+2013-08-31 01:10:56	-->	OwenOu (~Adium@207.6.244.57) has joined #clojure
+2013-08-31 01:11:24	--	yogthos|away is now known as yogthos
+2013-08-31 01:11:25	-->	R_Macy (~R_Macy@c-68-53-171-95.hsd1.tn.comcast.net) has joined #clojure
+2013-08-31 01:12:37	-->	jjs (~jjs@2001:470:1f05:1b13:7d4a:6ee0:6bf1:ca56) has joined #clojure
+2013-08-31 01:13:42	<--	ifesdjeen (~ifesdjeen@ppp-188-174-176-162.dynamic.mnet-online.de) has quit (Ping timeout: 264 seconds)
+2013-08-31 01:13:57	-->	pemulis (~pem@69.61.215.73) has joined #clojure
+2013-08-31 01:14:01	-->	hoeck2 (~timmy@p50845BFA.dip0.t-ipconnect.de) has joined #clojure
+2013-08-31 01:14:27	<--	podviaznikov (~podviazni@181.112.233.150) has quit (Ping timeout: 260 seconds)
+2013-08-31 01:15:08	sandbags	seems the problem is nothing to do with using <! inside a (loop ...)
+2013-08-31 01:15:14	<--	OwenOu (~Adium@207.6.244.57) has quit (Ping timeout: 256 seconds)
+2013-08-31 01:15:19	<--	mthvedt (~mike@c-75-73-53-17.hsd1.mn.comcast.net) has quit (Quit: mthvedt)
+2013-08-31 01:15:49	-->	mthvedt (~mike@c-75-73-53-17.hsd1.mn.comcast.net) has joined #clojure
+2013-08-31 01:16:06	<--	piranha (~piranha@192.162.132.12) has quit (Remote host closed the connection)
+2013-08-31 01:16:18	<--	hoeck1 (~timmy@p5084665F.dip0.t-ipconnect.de) has quit (Ping timeout: 264 seconds)
+2013-08-31 01:16:45	sandbags	i don't see how this is working for anyone ... or what i am doing that's so horrendously stupid
+2013-08-31 01:17:06	<--	oliverro (~oliverro@80-219-182-215.dclient.hispeed.ch) has quit (Ping timeout: 245 seconds)
+2013-08-31 01:17:54	dobry-den	Anderkent]away: return the rc in click-chan
+2013-08-31 01:18:01	dobry-den	sandbags: *
+2013-08-31 01:18:29	<--	hoeck2 (~timmy@p50845BFA.dip0.t-ipconnect.de) has quit (Client Quit)
+2013-08-31 01:18:34	-->	tobyo2 (~tobyo@cpe-66-75-28-175.san.res.rr.com) has joined #clojure
+2013-08-31 01:19:06	sandbags	ah, did i miscopy something... let me see
+2013-08-31 01:19:10	sandbags	yerp
+2013-08-31 01:19:13	sandbags	thanks dobry-den
+2013-08-31 01:19:19	-->	DrPheltRight (~DrPheltRi@unaffiliated/drpheltright) has joined #clojure
+2013-08-31 01:20:02	sandbags	dobry-den: that certainly is more correct, but doesn't seem to have affected the error i am getting
+2013-08-31 01:20:24	abp	sandbags: you need (:require-macros [cljs.core.async.macros :as m :refer [go]])
+2013-08-31 01:20:31	dobry-den	oh yeah
+2013-08-31 01:20:44	dobry-den	that got me for a while
+2013-08-31 01:20:53	--	yogthos is now known as yogthos|away
+2013-08-31 01:20:54	sandbags	abp: that's odd, i seem to get getting "go" from cljs.core.async
+2013-08-31 01:21:03	sandbags	at least, i copied that from somewhere
+2013-08-31 01:21:04	sandbags	did it change?
+2013-08-31 01:21:34	dobry-den	sandbags: i wrote my first cljs app last week and this is what i've got https://github.com/danneu/speed-reader/blob/master/src/cljs/speed_reader/core.cljs
+2013-08-31 01:22:14	sandbags	ah, that seems to have eliminated the error i was seeing, thanks abp
+2013-08-31 01:22:17	dobry-den	i see that i have go from both async and macros. i imagine the :require 'go' i just forgot to take out
+2013-08-31 01:22:20	sandbags	how very odd
+2013-08-31 01:22:47	dobry-den	i imagine it catches most people
+2013-08-31 01:22:54	abp	sandbags: it's a macro, so you certainly need to use :require-macros in cljs
+2013-08-31 01:23:18	<--	jlongster (~user@pool-173-53-114-190.rcmdva.fios.verizon.net) has quit (Ping timeout: 264 seconds)
+2013-08-31 01:23:30	abp	probably cljs doesn't check if everything refer'd exists..
+2013-08-31 01:23:31	sandbags	abp: interesting, so you need to know what are functions, and what macros
+2013-08-31 01:23:43	-->	kofno (~kofno@cpe-24-165-210-251.neo.res.rr.com) has joined #clojure
+2013-08-31 01:23:44	<--	jamesaanderson (~jamesaand@107-215-201-164.lightspeed.irvnca.sbcglobal.net) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-08-31 01:23:46	sandbags	presumably any macro you use must be require-macro'd?
+2013-08-31 01:23:47	futile	wat
+2013-08-31 01:23:48	<--	futile (~futile@unaffiliated/futile) has quit (Remote host closed the connection)
+2013-08-31 01:24:20	dobry-den	that's how i see it
+2013-08-31 01:24:32	abp	at least I don't see go in https://github.com/clojure/core.async/blob/master/src/main/clojure/cljs/core/async.cljs
+2013-08-31 01:25:04	--	dan_dan__ is now known as dan
+2013-08-31 01:25:08	sandbags	abp: it's most probable that (not knowing about require-macro) i was copying something else i had seen and just assumed i was doing it correctly
+2013-08-31 01:25:25	sandbags	seems a bit of a bind having to require func & macro separately
+2013-08-31 01:25:26	dobry-den	https://github.com/clojure/core.async/blob/master/src/main/clojure/cljs/core/async/macros.clj
+2013-08-31 01:25:53	sandbags	hrmm... is don't see a macro predicate
+2013-08-31 01:26:09	<--	slyv (~textual@c-76-16-251-173.hsd1.il.comcast.net) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2013-08-31 01:26:45	abp	there we go http://dev.clojure.org/jira/browse/CLJS-569
+2013-08-31 01:26:51	<--	whidden (6c319d34@gateway/web/cgi-irc/kiwiirc.com/ip.108.49.157.52) has quit (Quit: http://www.kiwiirc.com/ - A hand crafted IRC client)
+2013-08-31 01:27:06	<--	bosie (~bosie@91-119-56-173.dynamic.xdsl-line.inode.at) has quit (Ping timeout: 264 seconds)
+2013-08-31 01:27:55	<--	kofno (~kofno@cpe-24-165-210-251.neo.res.rr.com) has quit (Ping timeout: 245 seconds)
+2013-08-31 01:27:55	sandbags	anyway, abp, dobry-den many thanks
+2013-08-31 01:28:21	sandbags	at least i am debugging less inexplicable errors now :)
+2013-08-31 01:28:33	clj_newb_2345	can datomic free edition be used in commercial products?
+2013-08-31 01:29:04	dobry-den	sandbags: i have various classes of cljs+async errors fresh in memory from using it last week
+2013-08-31 01:29:13	sandbags	:)
+2013-08-31 01:30:00	<--	bja (~bja@c-98-222-22-162.hsd1.il.comcast.net) has quit (Ping timeout: 245 seconds)
+2013-08-31 01:30:14	<--	mthvedt (~mike@c-75-73-53-17.hsd1.mn.comcast.net) has quit (Quit: mthvedt)
+2013-08-31 01:31:20	sandbags	dobry-den: you like domina?
+2013-08-31 01:31:30	dobry-den	yeah
+2013-08-31 01:31:38	-->	jamesaanderson (~jamesaand@107-215-201-164.lightspeed.irvnca.sbcglobal.net) has joined #clojure
+2013-08-31 01:32:22	dobry-den	not that i have many preferences. ive never even written a client-side js app before
+2013-08-31 01:32:44	dobry-den	i found it really easy to fake it til i made it with core.async though
+2013-08-31 01:33:18	sandbags	me either, i dislike JS so always try and ensure someone else writes it :)
+2013-08-31 01:33:21	<--	kyled1 (~Asus-Owne@12.226.162.162) has quit (Ping timeout: 245 seconds)
+2013-08-31 01:35:55	<--	`cbp (~user@207.248.228.163) has quit (Ping timeout: 260 seconds)
+2013-08-31 01:35:55	<--	gtrak (~quassel@75-145-94-105-WashingtonDC.hfc.comcastbusiness.net) has quit (Ping timeout: 260 seconds)
+2013-08-31 01:36:09	-->	iwillig (~Adium@pool-108-54-151-162.nycmny.fios.verizon.net) has joined #clojure
+2013-08-31 01:37:49	-->	tyfighter (~tyfighter@c-98-210-65-59.hsd1.ca.comcast.net) has joined #clojure
+2013-08-31 01:38:12	<--	ustunozgur (~ustunozgu@78.163.231.76) has quit (Remote host closed the connection)
+2013-08-31 01:38:13	-->	jodaro1 (~Adium@64.156.167.128) has joined #clojure
+2013-08-31 01:39:30	<--	danielszmulewicz (~danielszm@185.3.146.143) has quit (Quit: danielszmulewicz)
+2013-08-31 01:40:55	<--	emil0r (~emil0r@193.11.200.37.customer.cdi.no) has quit (Quit: ...)
+2013-08-31 01:40:59	<--	clj_newb_2345 (800c5564@gateway/web/freenode/ip.128.12.85.100) has quit (Quit: Page closed)
+2013-08-31 01:43:06	<--	iwillig (~Adium@pool-108-54-151-162.nycmny.fios.verizon.net) has quit (Ping timeout: 264 seconds)
+2013-08-31 01:43:48	-->	racycle (~racycle@75-25-129-128.lightspeed.sjcpca.sbcglobal.net) has joined #clojure
+2013-08-31 01:47:05	-->	Guest35614 (~piranha@192.162.132.12) has joined #clojure
+2013-08-31 01:47:15	-->	sevvie (~sevvie@75-147-181-145-Washington.hfc.comcastbusiness.net) has joined #clojure
+2013-08-31 01:48:06	<--	blk (~blk@66.114.129.162) has quit (Ping timeout: 264 seconds)
+2013-08-31 01:48:34	-->	bmaddy (~bmaddy@72.21.231.26) has joined #clojure
+2013-08-31 01:48:39	-->	jaen (~jaen@ip169.copit.pl) has joined #clojure
+2013-08-31 01:48:46	-->	mthvedt (~mike@c-75-73-53-17.hsd1.mn.comcast.net) has joined #clojure
+2013-08-31 01:50:14	<--	amerinese (~amerinese@cpe-72-225-231-95.nyc.res.rr.com) has quit (Remote host closed the connection)
+2013-08-31 01:50:47	-->	amerinese (~amerinese@cpe-72-225-231-95.nyc.res.rr.com) has joined #clojure
+2013-08-31 01:51:43	-->	slyv (~textual@c-76-16-251-173.hsd1.il.comcast.net) has joined #clojure
+2013-08-31 01:51:49	<--	jivebot (~textual@209.216.179.137) has quit (Quit: Computer has gone to sleep.)
+2013-08-31 01:52:16	<--	jamesaanderson (~jamesaand@107-215-201-164.lightspeed.irvnca.sbcglobal.net) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-08-31 01:54:39	<--	tlowrimore (~tlowrimor@65-128-1-245.hlrn.qwest.net) has quit (Quit: Leaving...)
+2013-08-31 01:54:46	<--	amerinese (~amerinese@cpe-72-225-231-95.nyc.res.rr.com) has quit (Ping timeout: 240 seconds)
+2013-08-31 01:55:05	mihneadb	how would I use enlive to select only the direct descendants of the given element?
+2013-08-31 01:55:13	mihneadb	something like (select elem [:> :a])
+2013-08-31 01:55:18	mihneadb	^ that one doesn't seem to work
+2013-08-31 01:55:39	mihneadb	it works when I go one up and I do (select parent-elem [:something :> :a])
+2013-08-31 01:55:42	<--	Guest35614 (~piranha@192.162.132.12) has quit (Ping timeout: 264 seconds)
+2013-08-31 01:55:57	-->	DomKM (~DomKM@204.28.125.195) has joined #clojure
+2013-08-31 01:56:01	-->	gdev (~gdev@75-1-220-117.lightspeed.snantx.sbcglobal.net) has joined #clojure
+2013-08-31 01:56:20	-->	jamesaanderson (~jamesaand@107-215-201-164.lightspeed.irvnca.sbcglobal.net) has joined #clojure
+2013-08-31 01:57:26	<--	mthvedt (~mike@c-75-73-53-17.hsd1.mn.comcast.net) has quit (Quit: mthvedt)
+2013-08-31 01:57:54	-->	mthvedt (~mike@c-75-73-53-17.hsd1.mn.comcast.net) has joined #clojure
+2013-08-31 01:59:06	<--	jergason (~jergason@c-71-199-42-48.hsd1.ut.comcast.net) has quit (Quit: jergason)
+2013-08-31 01:59:15	sandbags	okay i have my first cljs+core.async app working : i can go to bed a reasonably happy man!
+2013-08-31 02:00:11	sandbags	thanks again for your help abp and dobry-den
+2013-08-31 02:00:16	<--	sandbags (~sandbags@unaffiliated/rubymatt) has quit (Remote host closed the connection)
+2013-08-31 02:00:50	-->	juliangindi (~juliangin@c-69-251-73-33.hsd1.md.comcast.net) has joined #clojure
+2013-08-31 02:01:32	-->	AimHere (~bod@host213-122-99-97.range213-122.btcentralplus.com) has joined #clojure
+2013-08-31 02:01:59	juliangindi	I've been reading a lot about Clojure and making my way through 4Clojure but can't seem to truly "grasp" the language. Any suggestions or advice?
+2013-08-31 02:02:11	<--	zeroem (~Darrell_H@nat-225.fw1.la.vclk.net) has left #clojure
+2013-08-31 02:02:25	-->	bungoman (~bungoman@cpe-76-184-142-76.tx.res.rr.com) has joined #clojure
+2013-08-31 02:03:06	<--	jaen (~jaen@ip169.copit.pl) has quit (Ping timeout: 264 seconds)
+2013-08-31 02:04:47	gdev	how long have you been using it?
+2013-08-31 02:06:33	<--	mthvedt (~mike@c-75-73-53-17.hsd1.mn.comcast.net) has quit (Quit: mthvedt)
+2013-08-31 02:06:41	mihneadb	I want to do generate a map by applying a function over a sequence - should I use for, or something else?
+2013-08-31 02:06:46	<--	normanrichards (~normanric@rrcs-108-178-120-144.sw.biz.rr.com) has quit (Quit: normanrichards)
+2013-08-31 02:07:06	<--	Joreji (~thomas@77-23-110-134-dynip.superkabel.de) has quit (Ping timeout: 245 seconds)
+2013-08-31 02:07:15	-->	mthvedt (~mike@c-75-73-53-17.hsd1.mn.comcast.net) has joined #clojure
+2013-08-31 02:07:23	juliangindi	I have been reading "Clojure Programming" and working with 4Clojure for a couple of weeks. I am looking for a larger "toy project" as well
+2013-08-31 02:07:35	llasram	mihneadb: There are a few common idioms depending on context.  Usually either `reduce` or `(into {} (map ...)`
+2013-08-31 02:07:53	-->	ambrosebs (~ambrosebs@ppp121-45-239-212.lns20.per1.internode.on.net) has joined #clojure
+2013-08-31 02:08:12	mihneadb	llasram: for the into version, I guess the mapped function has to return a two-value collection, right?
+2013-08-31 02:08:22	mihneadb	or should it be an actual map?
+2013-08-31 02:08:38	llasram	mihneadb: A sequence of pairs (as vectors), yeah
+2013-08-31 02:08:44	mihneadb	llasram: sweet, thank you
+2013-08-31 02:09:13	-->	puredanger (~puredange@mobile-166-147-098-213.mycingular.net) has joined #clojure
+2013-08-31 02:09:25	-->	tbatchelli_m (~tbatchell@c-67-180-176-59.hsd1.ca.comcast.net) has joined #clojure
+2013-08-31 02:09:51	--	Beo-Ralf is now known as DestinyHope
+2013-08-31 02:10:33	gdev	juliangindi, depending on how much time you dedicate to it, you should "get it" in about another month and a half
+2013-08-31 02:10:39	<--	arohner (~arohner@75-13-85-204.lightspeed.austtx.sbcglobal.net) has quit (Remote host closed the connection)
+2013-08-31 02:10:39	callen	god that test code was fucking sweet.
+2013-08-31 02:11:05	mihneadb	llasram: is there an easier way to make a vector out of two elements other than (vec (list 1 2)) ?
+2013-08-31 02:11:32	gdev	juliangindi, what are the primary languishes you code in?
+2013-08-31 02:11:33	llasram	mihneadb: ##(vector 1 2)
+2013-08-31 02:11:34	lazybot	⇒ [1 2]
+2013-08-31 02:11:34	-->	OwenOu (~Adium@207.6.244.57) has joined #clojure
+2013-08-31 02:11:51	mihneadb	ah damn it
+2013-08-31 02:11:53	mihneadb	I was trying with vec
+2013-08-31 02:11:55	mihneadb	thanks!
+2013-08-31 02:11:59	juliangindi	I program primarily in Python and JS with Node
+2013-08-31 02:12:56	<--	slyv (~textual@c-76-16-251-173.hsd1.il.comcast.net) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2013-08-31 02:13:09	-->	yedi (~yedi@50-78-242-97-static.hfc.comcastbusiness.net) has joined #clojure
+2013-08-31 02:13:24	gdev	callen, I've been trying to document blackwater. we need to talk
+2013-08-31 02:13:36	<--	jamesaanderson (~jamesaand@107-215-201-164.lightspeed.irvnca.sbcglobal.net) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-08-31 02:13:57	<--	cored (~homer@unaffiliated/cored) has quit (Ping timeout: 256 seconds)
+2013-08-31 02:13:59	<--	jodaro1 (~Adium@64.156.167.128) has left #clojure
+2013-08-31 02:14:22	callen	gdev: are you working from the current version?
+2013-08-31 02:14:28	callen	gdev: I added some documentation.
+2013-08-31 02:14:28	llasram	mihneadb: Oh, wait, or even just literally ##[1 2]
+2013-08-31 02:14:29	lazybot	⇒ [1 2]
+2013-08-31 02:14:41	mihneadb	heh
+2013-08-31 02:14:42	mihneadb	nice
+2013-08-31 02:14:42	mihneadb	ty
+2013-08-31 02:14:58	mihneadb	I was trying to do something like #([% %])
+2013-08-31 02:15:10	callen	gdev: I also changed the library substantially from 0.0.3 to 0.0.5
+2013-08-31 02:15:30	llasram	mihneadb: Oh, yeah, for that one a somewhat-common idiom is ##(map #(-> [% %]) (range 5))
+2013-08-31 02:15:30	lazybot	⇒ ([0 0] [1 1] [2 2] [3 3] [4 4])
+2013-08-31 02:15:42	mihneadb	(into {} (map #([% %]) [1 2 3])) << this wasn't working
+2013-08-31 02:15:42	gdev	callen, oh lol I haven't even set up my gitconfig upstream >_<
+2013-08-31 02:15:47	mihneadb	uh
+2013-08-31 02:15:48	mihneadb	ok
+2013-08-31 02:15:59	mihneadb	thanks llasram
+2013-08-31 02:16:17	callen	gdev: git remote add upstream git://github.com/bitemyapp/blackwater
+2013-08-31 02:16:37	gdev	callen, danke ;D
+2013-08-31 02:17:31	<--	yedi (~yedi@50-78-242-97-static.hfc.comcastbusiness.net) has quit (Ping timeout: 245 seconds)
+2013-08-31 02:17:43	callen	gdev: I have the highest variance in code quality of libraries from early versions to later versions of anybody I know, you've really gotta keep up on those pulls while the library is still young.
+2013-08-31 02:18:36	-->	jamesaanderson (~jamesaand@107-215-201-164.lightspeed.irvnca.sbcglobal.net) has joined #clojure
+2013-08-31 02:18:38	<--	OwenOu (~Adium@207.6.244.57) has quit (Ping timeout: 268 seconds)
+2013-08-31 02:18:41	-->	deobald (~textual@blk-212-86-110.eastlink.ca) has joined #clojure
+2013-08-31 02:18:44	mihneadb	llasram: and if I have two map results that I want to return as just one seq, what's the idiomatic way of doing it?
+2013-08-31 02:19:30	llasram	mihneadb: Not 100% certain what you mean.  Maybe `juxt`?
+2013-08-31 02:19:35	-->	cemerick (~cemerick@c-71-192-116-188.hsd1.ma.comcast.net) has joined #clojure
+2013-08-31 02:19:39	llasram	&(map (juxt inc dec) (range 5))
+2013-08-31 02:19:39	lazybot	⇒ ([1 -1] [2 0] [3 1] [4 2] [5 3])
+2013-08-31 02:19:57	mihneadb	llasram: I'm looking for the equivalent of append in scheme, I guess
+2013-08-31 02:20:05	mihneadb	++ in haskell
+2013-08-31 02:20:15	gdev	callen, yeah I went ahead and set up a cron job to pull every hour =D
+2013-08-31 02:20:30	<--	jdoliner (~jdoliner@173-228-89-104.dsl.static.sonic.net) has quit (Ping timeout: 264 seconds)
+2013-08-31 02:20:39	mihneadb	llasram: concat!
+2013-08-31 02:20:40	mihneadb	:D
+2013-08-31 02:20:42	llasram	Yep!
+2013-08-31 02:21:58	callen	gdev: that's...scary.
+2013-08-31 02:22:11	llasram	Interesting
+2013-08-31 02:22:40	<--	puredanger (~puredange@mobile-166-147-098-213.mycingular.net) has quit (Ping timeout: 256 seconds)
+2013-08-31 02:23:29	dobry-den	What's the best way to (File. _) a folder that's in the same folder as the jar that's accessing it?
+2013-08-31 02:23:50	<--	tyfighter (~tyfighter@c-98-210-65-59.hsd1.ca.comcast.net) has quit (Quit: tyfighter)
+2013-08-31 02:23:56	<--	timsg (~timothyga@rrcs-208-105-4-254.nyc.biz.rr.com) has quit (Quit: timsg)
+2013-08-31 02:24:09	llasram	dobry-den: Just put the file in the JAR to begin with, so you can access it as a resource?
+2013-08-31 02:24:13	-->	kofno (~kofno@cpe-24-165-210-251.neo.res.rr.com) has joined #clojure
+2013-08-31 02:24:20	TimMc	Here is a thing I don't understand: If I run (#(%foo) 5 6 7) at the REPL, I get the expected exception. (Three, actually.) If I then hit enter again, I see "567". Why?
+2013-08-31 02:24:48	callen	gdev: so have you seen the current state of the code / docs?
+2013-08-31 02:25:10	gdev	callen, grokking out right meow
+2013-08-31 02:25:46	llasram	TimMc: Must be some sort of buffering in your REPL.  In nrepl.el, I get (Exception, Exception, 5, 6, 7, Exception)
+2013-08-31 02:26:17	llasram	Which makes "sense" -- parse ends up in a funky state twice, sees 5 6 7 as separate forms, then exception again on the "unexpected" `)`
+2013-08-31 02:26:36	-->	gjcross (~gjcross@ppp118-209-64-228.lns20.mel4.internode.on.net) has joined #clojure
+2013-08-31 02:26:39	<--	DomKM (~DomKM@204.28.125.195) has quit (Ping timeout: 268 seconds)
+2013-08-31 02:26:40	llasram	Right?
+2013-08-31 02:26:51	dobry-den	llasram: the idea is to drop blog.jar into a folder that also contains a 'posts' directory and it will serve them (markdown files)
+2013-08-31 02:26:59	mihneadb	is there some sort of pretty-print function in clojure? for json printing
+2013-08-31 02:27:13	gdev	callen, yeah, where them doc strangs at?
+2013-08-31 02:27:20	TimMc	llasram: Yeah, *that* seems legit.
+2013-08-31 02:27:29	llasram	mihneadb: You can pretty-print Clojure data with clojure.pprint/pprint
+2013-08-31 02:27:34	callen	gdev: well, they're not everywhere.
+2013-08-31 02:27:46	callen	gdev: just in the important parts. look at the README. https://github.com/bitemyapp/blackwater
+2013-08-31 02:27:47	mihneadb	llasram: I d like to pprint json data
+2013-08-31 02:27:51	gdev	callen, I'm gonna need them...everywhere
+2013-08-31 02:28:04	callen	gdev: I have no problem doing that - but why?
+2013-08-31 02:28:05	gdev	callen, wanted to use marginalia on it
+2013-08-31 02:28:10	callen	oh, margle-gargle.
+2013-08-31 02:28:29	llasram	mihneadb: cheshire's `generate-*` functions can take a `:pretty` option which pretty-prints the results
+2013-08-31 02:28:41	<--	Blackavar (~blackavr@dsl254-020-120.sea1.dsl.speakeasy.net) has quit (Ping timeout: 256 seconds)
+2013-08-31 02:28:42	mihneadb	llasram: I was looking at data/json
+2013-08-31 02:28:42	<--	kofno (~kofno@cpe-24-165-210-251.neo.res.rr.com) has quit (Ping timeout: 264 seconds)
+2013-08-31 02:28:43	mihneadb	thanks
+2013-08-31 02:29:06	callen	I'll do some more clean-up then.
+2013-08-31 02:29:21	gdev	callen, I'm a maintainer of that liberry so I'm kinda biased ya know ;D
+2013-08-31 02:29:37	-->	mjs2600 (~mjs2600@user-0c999kc.cable.mindspring.com) has joined #clojure
+2013-08-31 02:30:08	-->	rodrigovidal (~rodrigovi@201.37.47.64) has joined #clojure
+2013-08-31 02:30:26	callen	gdev: I didn't know that. I marg-i-nized Selmer :P
+2013-08-31 02:30:40	<--	bkearns (~bkearns@216-75-239-130.static.wiline.com) has quit (Quit: Leaving.)
+2013-08-31 02:30:47	<--	jamesaanderson (~jamesaand@107-215-201-164.lightspeed.irvnca.sbcglobal.net) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-08-31 02:31:04	llasram	dobry-den: Hmm.  Interesting.  You can certainly use `io/resource` to get a `jar:` URL for a resource in your JAR.  From there you could take the URL apart to find the path of the JAR
+2013-08-31 02:31:19	llasram	dobry-den: There might be a better solution though -- that seems relatively hacky
+2013-08-31 02:33:47	cmatheson	 /exit
+2013-08-31 02:34:33	gdev	callen, yeah I saw that =D
+2013-08-31 02:35:07	<--	shiranaihito (~shiranaih@91-158-40-166.elisa-laajakaista.fi) has quit (Remote host closed the connection)
+2013-08-31 02:36:12	gdev	juliangindi, are you Julian25 on github?
+2013-08-31 02:36:23	juliangindi	yes i am :)
+2013-08-31 02:37:31	gdev	juliangindi, what about on 4clojure?
+2013-08-31 02:37:45	callen	gdev: for the love of god, change the newlines to unix for `lein marg`
+2013-08-31 02:37:53	Raynes	lol
+2013-08-31 02:38:14	callen	gdev: nothing pisses me off faster than, "fatal: CRLF would be replaced by LF in docs/uberdoc.html"
+2013-08-31 02:38:25	gdev	callen, that will be in the next release at the end of the year #waterfall
+2013-08-31 02:38:29	-->	bokafly_ (~bokafly@pool-72-66-75-109.washdc.fios.verizon.net) has joined #clojure
+2013-08-31 02:38:31	juliangindi	gdev: I'm juliangindi on 4clojure…just started
+2013-08-31 02:38:32	-->	slyv (~textual@c-76-16-251-173.hsd1.il.comcast.net) has joined #clojure
+2013-08-31 02:40:17	callen	gdev: I might kill you.
+2013-08-31 02:40:24	gdev	Raynes, should I unassign you from this one? https://github.com/gdeer81/marginalia/issues/73
+2013-08-31 02:40:29	callen	gdev: https://rawgithub.com/bitemyapp/blackwater/master/docs/uberdoc.html
+2013-08-31 02:40:32	xeqi	dobry-den: are you running the jvm from the directory the jar is in?
+2013-08-31 02:40:37	<--	deobald (~textual@blk-212-86-110.eastlink.ca) has quit (Quit: Computer has gone to sleep.)
+2013-08-31 02:40:47	dobry-den	xeqi: No
+2013-08-31 02:41:01	-->	soulofpeace (~soulofpea@cm115.gamma160.maxonline.com.sg) has joined #clojure
+2013-08-31 02:41:59	-->	timsg (~timothyga@rrcs-208-105-4-254.nyc.biz.rr.com) has joined #clojure
+2013-08-31 02:42:48	dobry-den	I found solutions to get the path of a jar using .getClass(). is there a class that's always present in a Clojure app that I can rely on to call ClassName.getClass()?
+2013-08-31 02:42:52	-->	`cbp (~user@189.139.129.36) has joined #clojure
+2013-08-31 02:42:58	<--	bokafly_ (~bokafly@pool-72-66-75-109.washdc.fios.verizon.net) has left #clojure
+2013-08-31 02:43:24	-->	awalters_ (~awalters@c-68-54-218-41.hsd1.il.comcast.net) has joined #clojure
+2013-08-31 02:44:05	callen	gdev: 0.0.6, marg docs are up.
+2013-08-31 02:44:28	gdev	callen, it's so...so beautiful. :')
+2013-08-31 02:44:35	 *	callen facepalms
+2013-08-31 02:44:41	callen	it's one of the simplest libraries I've ever written. :|
+2013-08-31 02:44:48	callen	I don't see why everything needed a doc string.
+2013-08-31 02:44:53	callen	It doesn't even really explain anything.
+2013-08-31 02:44:54	<--	timsg (~timothyga@rrcs-208-105-4-254.nyc.biz.rr.com) has quit (Client Quit)
+2013-08-31 02:45:03	callen	If anything needed explained, it's that damn robert.hooke magic.
+2013-08-31 02:45:12	callen	most people won't understand wtf (add-hook ...) is.
+2013-08-31 02:45:26	 *	callen grumbles about people mimicking Knuth
+2013-08-31 02:45:37	gdev	callen, that's not marg's fault, its up to you to make it understandable ;)
+2013-08-31 02:46:03	callen	gdev: I'm just saying the literate approach isn't always the highest value thing in the world.
+2013-08-31 02:46:04	Raynes	gdev: Oh God yes please.
+2013-08-31 02:46:24	-->	OwenOu (~Adium@207.6.244.57) has joined #clojure
+2013-08-31 02:47:36	<--	OwenOu (~Adium@207.6.244.57) has quit (Client Quit)
+2013-08-31 02:47:45	mihneadb	If you only need AOT for your uberjar, consider adding :aot :all into your
+2013-08-31 02:47:45	mihneadb	:uberjar profile instead.
+2013-08-31 02:47:49	mihneadb	how do I do this^ ?
+2013-08-31 02:47:52	-->	kwertii (~kwertii@208.66.31.98) has joined #clojure
+2013-08-31 02:47:52	<--	kwertii (~kwertii@208.66.31.98) has quit (Changing host)
+2013-08-31 02:47:52	-->	kwertii (~kwertii@unaffiliated/kwertii) has joined #clojure
+2013-08-31 02:47:57	mihneadb	I can't find a sample
+2013-08-31 02:48:01	mihneadb	only found :uberjar-name
+2013-08-31 02:48:15	TimMc	In your project map, add :profiles {:uberjar {:aot :all}}
+2013-08-31 02:48:20	mihneadb	thanks!
+2013-08-31 02:48:20	TimMc	or something like that?
+2013-08-31 02:48:33	gdev	Raynes, probably should close this issue since the lein plugin kinda obviates the need for a standalone command line version amirite?
+2013-08-31 02:48:45	<--	vurma (~kimchi@nl112-165-152.student.uu.se) has quit (Ping timeout: 245 seconds)
+2013-08-31 02:48:51	TimMc	Or use lein-otf. :-D
+2013-08-31 02:49:21	mihneadb	TimMc: will look into it, thanks
+2013-08-31 02:49:59	-->	oliverro (~oliverro@80-219-182-215.dclient.hispeed.ch) has joined #clojure
+2013-08-31 02:50:00	callen	TimMc: pretty glad you made that :)
+2013-08-31 02:50:01	<--	noto2 (~notostrac@76-217-25-235.lightspeed.irvnca.sbcglobal.net) has quit (Ping timeout: 245 seconds)
+2013-08-31 02:50:03	gdev	"otf is not a task, did you mean this? lein wtf"
+2013-08-31 02:50:05	xeqi	dobry-den: clojure.lang.RT ?
+2013-08-31 02:50:05	--	yogthos|away is now known as yogthos
+2013-08-31 02:51:35	gdev	callen, well if you want it to be enterprise-ready it's gonna need a lot of documenstration =/
+2013-08-31 02:52:06	TimMc	callen: How do you find it useful?
+2013-08-31 02:52:23	<--	tbatchelli_m (~tbatchell@c-67-180-176-59.hsd1.ca.comcast.net) has quit (Remote host closed the connection)
+2013-08-31 02:53:18	<--	carif (~mcarifio@cpe-74-78-54-137.maine.res.rr.com) has quit (Ping timeout: 264 seconds)
+2013-08-31 02:53:28	<--	soulofpeace (~soulofpea@cm115.gamma160.maxonline.com.sg) has quit (Ping timeout: 240 seconds)
+2013-08-31 02:53:33	TimMc	I wrote it mainly because I find AOT overcomplicating and distasteful, but I don't actually have a practical use for it.
+2013-08-31 02:55:23	-->	jamesaanderson (~jamesaand@107-215-201-164.lightspeed.irvnca.sbcglobal.net) has joined #clojure
+2013-08-31 02:56:31	-->	vurma (~kimchi@nl112-165-152.student.uu.se) has joined #clojure
+2013-08-31 02:56:39	<--	oliverro (~oliverro@80-219-182-215.dclient.hispeed.ch) has quit (Read error: Operation timed out)
+2013-08-31 02:57:07	callen	TimMc: I just like the option of it handy.
+2013-08-31 02:57:11	callen	gdev: :|
+2013-08-31 02:58:49	qz_	is there any idiomatic way to process sequences with lookahead/skip? say i have list of strings and need to merge strings starting with 'A' with next string?
+2013-08-31 02:59:17	<--	gjcross (~gjcross@ppp118-209-64-228.lns20.mel4.internode.on.net) has quit (Ping timeout: 248 seconds)
+2013-08-31 02:59:33	--	yogthos is now known as yogthos|away
+2013-08-31 03:01:21	-->	amerinese (~amerinese@cpe-72-225-231-95.nyc.res.rr.com) has joined #clojure
+2013-08-31 03:02:33	<--	juliangindi (~juliangin@c-69-251-73-33.hsd1.md.comcast.net) has quit (Quit: juliangindi)
+2013-08-31 03:02:54	-->	GeissT (~GeissT@101.103.62.201) has joined #clojure
+2013-08-31 03:04:27	<--	mjs2600 (~mjs2600@user-0c999kc.cable.mindspring.com) has quit (Remote host closed the connection)
+2013-08-31 03:05:04	-->	mjs2600 (~mjs2600@user-0c999kc.cable.mindspring.com) has joined #clojure
+2013-08-31 03:05:50	<--	amerinese (~amerinese@cpe-72-225-231-95.nyc.res.rr.com) has quit (Ping timeout: 245 seconds)
+2013-08-31 03:08:05	<--	bmaddy (~bmaddy@72.21.231.26) has quit (Remote host closed the connection)
+2013-08-31 03:08:42	-->	carif (~mcarifio@cpe-74-78-54-137.maine.res.rr.com) has joined #clojure
+2013-08-31 03:11:42	--	yogthos|away is now known as yogthos
+2013-08-31 03:14:29	TimMc	qz_: Something with (partition 2 1 (concat [nil] ... [nil])) and treating the last element specially.
+2013-08-31 03:15:58	qz_	TimMc: but how do i skip element after merging?
+2013-08-31 03:16:15	callen	Selmer cheated by using an actual peek :P
+2013-08-31 03:16:18	<--	awalters_ (~awalters@c-68-54-218-41.hsd1.il.comcast.net) has quit (Ping timeout: 264 seconds)
+2013-08-31 03:17:54	dobry-den	xeqi: haha yes thanks.
+2013-08-31 03:18:03	TimMc	qz_: Or loop/recur with peeking.
+2013-08-31 03:18:35	<--	loganlinn (~Adium@207.114.134.74) has quit (Quit: Leaving.)
+2013-08-31 03:18:37	dobry-den	(-> clojure.lang.RT .getProtectionDomain .getCodeSource .getLocation .getPath)
+2013-08-31 03:18:56	callen	,(-> clojure.lang.RT .getProtectionDomain .getCodeSource .getLocation .getPath)
+2013-08-31 03:18:58	clojurebot	#<AccessControlException java.security.AccessControlException: access denied (java.lang.RuntimePermission getProtectionDomain)>
+2013-08-31 03:19:10	dobry-den	haha
+2013-08-31 03:19:17	dobry-den	jailed
+2013-08-31 03:21:11	--	yogthos is now known as yogthos|away
+2013-08-31 03:22:03	-->	loganlinn (~Adium@207.114.134.74) has joined #clojure
+2013-08-31 03:22:41	<--	splunk (~splunk@173.228.117.226) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2013-08-31 03:22:48	-->	ewnd9 (~ewnd9@5.254.251.62) has joined #clojure
+2013-08-31 03:23:42	<--	jamesaanderson (~jamesaand@107-215-201-164.lightspeed.irvnca.sbcglobal.net) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-08-31 03:24:00	<--	mishok13 (~mishok13@ip5450bc54.adsl-surfen.hetnet.nl) has quit (Ping timeout: 268 seconds)
+2013-08-31 03:24:35	<--	alexyakushev (~unlogic@2001:700:1d00:26:3e97:eff:fe0b:bae3) has quit (Ping timeout: 245 seconds)
+2013-08-31 03:24:42	-->	kofno (~kofno@cpe-24-165-210-251.neo.res.rr.com) has joined #clojure
+2013-08-31 03:25:07	TimMc	qz_: Did you understand the loop/recur suggestion?
+2013-08-31 03:25:14	<--	vurma (~kimchi@nl112-165-152.student.uu.se) has quit (Ping timeout: 268 seconds)
+2013-08-31 03:25:56	-->	DomKM (~DomKM@173.247.206.170) has joined #clojure
+2013-08-31 03:26:23	<--	fuz (~fuz@188-222-129-255.zone13.bethere.co.uk) has quit (Quit: This computer has gone to sleep)
+2013-08-31 03:26:40	<--	carif (~mcarifio@cpe-74-78-54-137.maine.res.rr.com) has quit (Ping timeout: 245 seconds)
+2013-08-31 03:26:49	<--	mnemnion (~mnemnion@c-50-152-148-184.hsd1.ca.comcast.net) has quit (Remote host closed the connection)
+2013-08-31 03:28:36	<--	helvete (~atyz@cpe-174-109-088-241.nc.res.rr.com) has quit (Quit: Leaving...)
+2013-08-31 03:29:10	<--	kofno (~kofno@cpe-24-165-210-251.neo.res.rr.com) has quit (Ping timeout: 245 seconds)
+2013-08-31 03:29:30	<--	arborist (~arborist@e182017161.adsl.alicedsl.de) has quit (Ping timeout: 264 seconds)
+2013-08-31 03:30:07	-->	iwillig (~Adium@pool-108-54-151-162.nycmny.fios.verizon.net) has joined #clojure
+2013-08-31 03:30:16	<--	iwillig (~Adium@pool-108-54-151-162.nycmny.fios.verizon.net) has left #clojure
+2013-08-31 03:30:24	qz_	TimMc: reading about loop/recur, never used it before
+2013-08-31 03:31:11	-->	jamesaanderson (~jamesaand@107-215-201-164.lightspeed.irvnca.sbcglobal.net) has joined #clojure
+2013-08-31 03:32:02	<--	seangrov` (~user@2600:1010:b01a:f33a:a4f7:8ba7:b723:395d) has quit (Read error: Connection reset by peer)
+2013-08-31 03:32:54	<--	tobyo2 (~tobyo@cpe-66-75-28-175.san.res.rr.com) has quit (Ping timeout: 264 seconds)
+2013-08-31 03:33:15	-->	jergason (~jergason@c-71-199-42-48.hsd1.ut.comcast.net) has joined #clojure
+2013-08-31 03:33:20	<--	travisr (~travisrod@17.223.151.202) has quit (Ping timeout: 245 seconds)
+2013-08-31 03:36:07	<--	ewnd9 (~ewnd9@5.254.251.62) has quit (Ping timeout: 256 seconds)
+2013-08-31 03:36:25	dobry-den	qz_: so you want ["Apple" "Ace" "Bonk" "Animal" "Ancient"] -> ["AppleAce" "AnimalAncient"]
+2013-08-31 03:37:51	dobry-den	I meant to add a "?"
+2013-08-31 03:38:20	dnolen	doing sensible async error handling in JS/Node.js looks comical in comparison to this - http://gist.github.com/swannodette/6385166
+2013-08-31 03:39:15	dobry-den	qz_: If that's what you want, check out partition-by (http://clojuredocs.org/clojure_core/clojure.core/partition-by) which will split a coll any time pred changes.
+2013-08-31 03:40:03	<--	riley526 (~riley526@207.86.77.14) has quit (Remote host closed the connection)
+2013-08-31 03:41:40	<--	shaunxcode (~chatzilla@ip68-7-82-63.sd.sd.cox.net) has quit (Ping timeout: 245 seconds)
+2013-08-31 03:42:18	dobry-den	dnolen: tight
+2013-08-31 03:42:42	dnolen	dobry-den: yep, you can just use <? to convert an async error into an exception locally
+2013-08-31 03:44:11	-->	tbatchelli_m (~tbatchell@c-67-180-176-59.hsd1.ca.comcast.net) has joined #clojure
+2013-08-31 03:44:40	-->	podviaznikov (~podviazni@181.112.233.150) has joined #clojure
+2013-08-31 03:44:44	-->	ystael (~ystael@pool-108-20-249-231.bstnma.east.verizon.net) has joined #clojure
+2013-08-31 03:46:15	<--	podviaznikov (~podviazni@181.112.233.150) has quit (Remote host closed the connection)
+2013-08-31 03:46:42	-->	podviaznikov (~podviazni@181.112.233.150) has joined #clojure
+2013-08-31 03:47:55	<--	jamesaanderson (~jamesaand@107-215-201-164.lightspeed.irvnca.sbcglobal.net) has quit (Ping timeout: 245 seconds)
+2013-08-31 03:48:08	<--	justin_smith (~user@50-201-108-14-static.hfc.comcastbusiness.net) has quit (Read error: Operation timed out)
+2013-08-31 03:49:12	-->	mnemnion (~mnemnion@c-50-152-148-184.hsd1.ca.comcast.net) has joined #clojure
+2013-08-31 03:49:17	-->	deobald (~textual@173.243.43.154) has joined #clojure
+2013-08-31 03:50:50	<--	podviaznikov (~podviazni@181.112.233.150) has quit (Ping timeout: 245 seconds)
+2013-08-31 03:51:11	<--	kwertii (~kwertii@unaffiliated/kwertii) has quit (Quit: kwertii)
+2013-08-31 03:52:43	-->	jamesaanderson (~jamesaand@107-215-201-164.lightspeed.irvnca.sbcglobal.net) has joined #clojure
+2013-08-31 03:52:43	-->	carif (~mcarifio@cpe-74-78-54-137.maine.res.rr.com) has joined #clojure
+2013-08-31 03:53:29	<--	jamesaanderson (~jamesaand@107-215-201-164.lightspeed.irvnca.sbcglobal.net) has quit (Client Quit)
+2013-08-31 03:53:58	-->	mishok13 (~mishok13@ip5450bc54.adsl-surfen.hetnet.nl) has joined #clojure
+2013-08-31 03:56:40	<--	gdev (~gdev@75-1-220-117.lightspeed.snantx.sbcglobal.net) has quit (Quit: Leaving)
+2013-08-31 03:57:16	-->	j-wang (~j-wang@108-65-1-75.lightspeed.sntcca.sbcglobal.net) has joined #clojure
+2013-08-31 03:58:10	<--	kasterma (~kasterma@dhcp-077-250-152-132.chello.nl) has quit (Read error: Connection reset by peer)
+2013-08-31 03:58:12	-->	normanrichards (~normanric@70.114.215.220) has joined #clojure
+2013-08-31 03:58:33	-->	kasterma (~kasterma@dhcp-077-250-152-132.chello.nl) has joined #clojure
+2013-08-31 03:58:52	-->	atyz (~atyz@cpe-174-109-088-241.nc.res.rr.com) has joined #clojure
+2013-08-31 03:59:29	-->	jamesaanderson (~jamesaand@107-215-201-164.lightspeed.irvnca.sbcglobal.net) has joined #clojure
+2013-08-31 03:59:30	<--	jweaver (~jweaver@cpe-72-130-153-19.san.res.rr.com) has quit (Remote host closed the connection)
+2013-08-31 04:03:16	dnolen	updated with some comments - http://gist.github.com/swannodette/6385166
+2013-08-31 04:03:30	dnolen	converting async errors into exceptions looks like a sweet little pattern
+2013-08-31 04:03:44	<--	dysinger (~tim@cpe-24-94-76-59.hawaii.res.rr.com) has quit (Quit: dysinger)
+2013-08-31 04:04:31	<--	mmullis (~mmullis@216.156.196.4.ptr.us.xo.net) has quit (Quit: mmullis)
+2013-08-31 04:05:35	-->	xl (~xl@123.113.159.146) has joined #clojure
+2013-08-31 04:07:42	<--	ystael (~ystael@pool-108-20-249-231.bstnma.east.verizon.net) has quit (Ping timeout: 264 seconds)
+2013-08-31 04:07:51	<--	atyz (~atyz@cpe-174-109-088-241.nc.res.rr.com) has quit (Ping timeout: 256 seconds)
+2013-08-31 04:09:58	<--	banjara (~Adium@unaffiliated/banjara) has quit (Quit: Leaving.)
+2013-08-31 04:10:20	<--	sxn (~sxn@mnch-4d0db864.pool.mediaWays.net) has quit (Ping timeout: 256 seconds)
+2013-08-31 04:10:56	-->	banjara (~Adium@unaffiliated/banjara) has joined #clojure
+2013-08-31 04:11:44	-->	arohner (~arohner@75-13-85-204.lightspeed.austtx.sbcglobal.net) has joined #clojure
+2013-08-31 04:12:50	<--	chronno (~chronno@187-162-126-107.static.axtel.net) has quit (Ping timeout: 240 seconds)
+2013-08-31 04:13:49	-->	yedi (~yedi@50-78-242-97-static.hfc.comcastbusiness.net) has joined #clojure
+2013-08-31 04:13:52	<--	DomKM (~DomKM@173.247.206.170) has quit (Remote host closed the connection)
+2013-08-31 04:13:58	-->	wolfes (~wolfes@c-50-161-54-96.hsd1.ca.comcast.net) has joined #clojure
+2013-08-31 04:15:15	<--	banjara (~Adium@unaffiliated/banjara) has quit (Client Quit)
+2013-08-31 04:15:29	-->	bokafly (~bokafly@pool-72-66-75-109.washdc.fios.verizon.net) has joined #clojure
+2013-08-31 04:16:42	<--	arohner (~arohner@75-13-85-204.lightspeed.austtx.sbcglobal.net) has quit (Ping timeout: 264 seconds)
+2013-08-31 04:17:43	-->	TIHan (~tihan@c-68-52-18-171.hsd1.tn.comcast.net) has joined #clojure
+2013-08-31 04:17:44	--	amalloy is now known as amalloy_
+2013-08-31 04:18:03	<--	yedi (~yedi@50-78-242-97-static.hfc.comcastbusiness.net) has quit (Ping timeout: 256 seconds)
+2013-08-31 04:19:01	-->	ystael (~ystael@pool-108-20-249-231.bstnma.east.verizon.net) has joined #clojure
+2013-08-31 04:19:33	<--	loganlinn (~Adium@207.114.134.74) has quit (Quit: Leaving.)
+2013-08-31 04:29:04	SegFaultAX	Value of Values is just such a damn good talk.
+2013-08-31 04:29:22	-->	ddellacosta (~ddellacos@softbank126126205031.bbtec.net) has joined #clojure
+2013-08-31 04:29:57	bbloom	SegFaultAX: the new talk is out too: composition, design, & performance
+2013-08-31 04:31:11	-->	arohner (~arohner@75-13-85-204.lightspeed.austtx.sbcglobal.net) has joined #clojure
+2013-08-31 04:31:43	<--	jweiss (~jweiss@cpe-066-057-078-037.nc.res.rr.com) has quit (Ping timeout: 246 seconds)
+2013-08-31 04:31:52	-->	chronno (~chronno@187-162-126-107.static.axtel.net) has joined #clojure
+2013-08-31 04:32:34	-->	ssideris_ (~sideris@46-65-29-225.zone16.bethere.co.uk) has joined #clojure
+2013-08-31 04:34:33	<--	wolfes (~wolfes@c-50-161-54-96.hsd1.ca.comcast.net) has quit (Quit: Leaving.)
+2013-08-31 04:34:46	--	yogthos|away is now known as yogthos
+2013-08-31 04:34:47	<--	blrm (~blair@twdp-174-109-132-216.nc.res.rr.com) has quit (Ping timeout: 260 seconds)
+2013-08-31 04:34:50	SegFaultAX	bbloom: Yea, I watched it the other night.
+2013-08-31 04:35:05	SegFaultAX	bbloom: One of his more meta talks. Strange, but extremely enjoyable IMHO.
+2013-08-31 04:35:35	bbloom	yeah, saw it at clj/west, really liked it
+2013-08-31 04:38:00	-->	timsg (~timothyga@rrcs-208-105-4-254.nyc.biz.rr.com) has joined #clojure
+2013-08-31 04:38:26	<--	slyv (~textual@c-76-16-251-173.hsd1.il.comcast.net) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2013-08-31 04:38:43	-->	ewnd9 (~ewnd9@5.254.251.62) has joined #clojure
+2013-08-31 04:39:21	-->	arohner_ (~arohner@75-13-85-204.lightspeed.austtx.sbcglobal.net) has joined #clojure
+2013-08-31 04:39:30	<--	arohner (~arohner@75-13-85-204.lightspeed.austtx.sbcglobal.net) has quit (Ping timeout: 264 seconds)
+2013-08-31 04:41:15	dobry-den	How can I do something like this? (let [person {:name "Chuck"}] (read-string "[:h1 (:name person)]")) -> [:h1 "Chuck"]
+2013-08-31 04:41:27	-->	SirSkidmore (~taylor@taylorskidmore.com) has joined #clojure
+2013-08-31 04:41:34	TimMc	http://www.learndatalogtoday.org/chapter/3 suddenly introduces tuples, collections, and relationships all very suddenly. I was following the tutorial nicely up until that point.
+2013-08-31 04:41:43	<--	arohner_ (~arohner@75-13-85-204.lightspeed.austtx.sbcglobal.net) has quit (Remote host closed the connection)
+2013-08-31 04:42:56	SegFaultAX	dobry-den: You'll have to do eval. But why?
+2013-08-31 04:43:38	TimMc	Sounds like someone wants templating with databinding.
+2013-08-31 04:43:52	dobry-den	Yeah, that's it
+2013-08-31 04:44:21	dobry-den	SegFaultAX: thanks
+2013-08-31 04:44:53	-->	bmaddy (~bmaddy@72.21.231.26) has joined #clojure
+2013-08-31 04:45:02	TimMc	dobry-den: You probably do not want eval.
+2013-08-31 04:45:17	-->	amerinese (~amerinese@cpe-72-225-231-95.nyc.res.rr.com) has joined #clojure
+2013-08-31 04:45:44	TimMc	Whenever you think you do, it's usually time to take a step back and think about how you've structured things.
+2013-08-31 04:46:01	SegFaultAX	(inc TimMc)
+2013-08-31 04:46:02	lazybot	⇒ 46
+2013-08-31 04:46:23	-->	crocket (~crocket@unaffiliated/crocket) has joined #clojure
+2013-08-31 04:46:38	<--	jbomo (~dkd@pool-108-23-62-223.lsanca.fios.verizon.net) has quit (Ping timeout: 268 seconds)
+2013-08-31 04:46:40	crocket	Does clojure provide such modularity concept as OSGi and Jigsaw?
+2013-08-31 04:46:43	dobry-den	TimMc: Basically I'm writing a blog system like Jekyll where index.hiccup has access to a 'config' map so index.hiccup can just contain "[:h1 (:title config)]"
+2013-08-31 04:47:10	-->	osvico (~UPP@c-98-194-253-51.hsd1.tx.comcast.net) has joined #clojure
+2013-08-31 04:47:41	SegFaultAX	dobry-den: If you're creating templates that need to be eval'd as normal code, why not just use eg Selmer?
+2013-08-31 04:48:27	TimMc	crocket: Ask nDuff about OSGi, I think.
+2013-08-31 04:48:47	crocket	OSGi is tied to JVM.
+2013-08-31 04:49:01	crocket	Clojure escaped JVM as ClojureScript.
+2013-08-31 04:50:20	-->	podviaznikov (~podviazni@181.112.233.150) has joined #clojure
+2013-08-31 04:50:30	-->	tobyo2 (~tobyo@cpe-66-75-28-175.san.res.rr.com) has joined #clojure
+2013-08-31 04:51:00	TimMc	dobry-den: You'll also want to html-encode whatever value you get out of the data structure.
+2013-08-31 04:51:15	<--	ndrei (~avo@83.142.149.227) has quit (Ping timeout: 245 seconds)
+2013-08-31 04:51:15	--	yogthos is now known as yogthos|away
+2013-08-31 04:51:41	-->	benmf (~ben@216.252.90.53) has joined #clojure
+2013-08-31 04:52:27	-->	dek5 (~eugene@mail.quickpay.ru) has joined #clojure
+2013-08-31 04:52:30	<--	bmaddy (~bmaddy@72.21.231.26) has quit (Ping timeout: 245 seconds)
+2013-08-31 04:52:46	-->	arohner (~arohner@75-13-85-204.lightspeed.austtx.sbcglobal.net) has joined #clojure
+2013-08-31 04:53:05	TimMc	I generally disrecommend hiccup because it does not HTML-encode values by default, which makes it unsuitable for general-purpose web development.
+2013-08-31 04:54:20	<--	benmf (~ben@216.252.90.53) has left #clojure
+2013-08-31 04:55:12	-->	gtrak (~quassel@c-68-48-23-217.hsd1.dc.comcast.net) has joined #clojure
+2013-08-31 04:55:22	-->	benmf (~ben@216.252.90.53) has joined #clojure
+2013-08-31 04:55:25	<--	ssideris_ (~sideris@46-65-29-225.zone16.bethere.co.uk) has quit (Ping timeout: 245 seconds)
+2013-08-31 04:55:47	<--	harpreet_ (~harpreet@c-98-210-113-169.hsd1.ca.comcast.net) has quit (Quit: harpreet_)
+2013-08-31 04:56:59	ddellacosta	can't get the basic first steps (http://palletops.com/doc/first-steps/) with pallet working. UnknownHostException ("ec2.ap-southeast-2.amazonaws.com")
+2013-08-31 04:57:11	ddellacosta	anyone have any experience with this?  #pallet seems kinda dead
+2013-08-31 04:57:18	SegFaultAX	TimMc: Disrecommend? Is that a word?
+2013-08-31 04:57:25	TimMc	It is when I use it.
+2013-08-31 04:57:28	SegFaultAX	Heh
+2013-08-31 04:57:49	SegFaultAX	ddellacosta: I really have no idea how people use pallet.
+2013-08-31 04:57:54	<--	zeitue (~z@68.168.201.17) has quit (Quit: Leaving)
+2013-08-31 04:57:55	SegFaultAX	The documentation is less than worthless.
+2013-08-31 04:58:11	ddellacosta	SegFaultAX: and here I thought I was going to make my AWS shizzle all efficient and stuff
+2013-08-31 04:58:22	SegFaultAX	ddellacosta: Ansible, yo.
+2013-08-31 04:58:34	 *	ddellacosta hits the google
+2013-08-31 04:58:43	dobry-den	,(let [x 1] (eval (read-string "(+ 1 x)")))
+2013-08-31 04:58:44	clojurebot	#<Exception java.lang.Exception: SANBOX DENIED>
+2013-08-31 04:59:07	dobry-den	It does not see x in that context.
+2013-08-31 04:59:51	ddellacosta	SegFaultAX: hmm, bummer, I was hoping to do this in Clojure. *sigh*
+2013-08-31 05:00:00	<--	R_Macy (~R_Macy@c-68-53-171-95.hsd1.tn.comcast.net) has quit (Quit: R_Macy)
+2013-08-31 05:00:02	SegFaultAX	ddellacosta: Totally not worth it IMHO.
+2013-08-31 05:00:04	tbatchelli_m	ddellacosta: http://palletops.com/doc/faq/jclouds-aws/
+2013-08-31 05:00:35	llasram	dobry-den: AFAIK there's no way to e.g. `eval` with some sort of existing lexical context
+2013-08-31 05:00:38	<--	rbxbx` (~user@pool-72-69-143-54.nycmny.fios.verizon.net) has quit (Read error: Connection reset by peer)
+2013-08-31 05:00:38	SegFaultAX	That's a good example of how useless the docs are.
+2013-08-31 05:00:56	-->	rbxbx` (~user@pool-72-69-143-54.nycmny.fios.verizon.net) has joined #clojure
+2013-08-31 05:01:09	llasram	dobry-den: If you want to define something in normal code which is then available in an `eval`ed form, you need to e.g. hang it off a var w/in a namespace
+2013-08-31 05:01:18	SegFaultAX	Haha, the comment on that page is amazing.
+2013-08-31 05:02:23	<--	arohner (~arohner@75-13-85-204.lightspeed.austtx.sbcglobal.net) has quit (Remote host closed the connection)
+2013-08-31 05:02:43	<--	benmf (~ben@216.252.90.53) has quit (Quit: leaving)
+2013-08-31 05:02:48	SegFaultAX	ddellacosta: Anyway, the jvm startup time is just too damn slow when you're trying to rapidly iterate ops stuff.
+2013-08-31 05:02:50	-->	zeitue (~z@68.168.201.17) has joined #clojure
+2013-08-31 05:03:13	ddellacosta	tbatchelli_m: thanks, but it barfed again. It just doesn't seem smart enough to properly construct a ec2 URL
+2013-08-31 05:03:17	<--	ystael (~ystael@pool-108-20-249-231.bstnma.east.verizon.net) has quit (Ping timeout: 268 seconds)
+2013-08-31 05:03:21	SegFaultAX	Clojure makes for a really shitty scripting language. Ansible is really stupidly easy to get going.
+2013-08-31 05:03:31	SegFaultAX	Once you grok the core concepts, it goes really fast.
+2013-08-31 05:03:32	-->	atyz (~atyz@cpe-174-109-088-241.nc.res.rr.com) has joined #clojure
+2013-08-31 05:03:34	ddellacosta	SegFaultAX: I'm slowly, painfully starting to agree with you
+2013-08-31 05:03:39	ddellacosta	I really would rather use Pallet
+2013-08-31 05:03:39	SegFaultAX	Source: I've been head down in Ansible for the last 2 weeks straight.
+2013-08-31 05:04:14	SegFaultAX	ddellacosta: I wanted to as well. I mean not necessarily pallet, but at least something like it.
+2013-08-31 05:04:18	SegFaultAX	It doesn't appear to exist.
+2013-08-31 05:04:30	llasram	SegFaultAX: I'm not sure slow JVM startup is really a factor....  I mean, e.g. Puppet and Chef use persistent daemons to do all the heavy lifting
+2013-08-31 05:04:35	SegFaultAX	And after using chef and puppet for years, I came upon the glory of Ansible. And I've been quite happy.
+2013-08-31 05:04:36	<--	podviaznikov (~podviazni@181.112.233.150) has quit (Ping timeout: 245 seconds)
+2013-08-31 05:04:46	SegFaultAX	llasram: Ansible is push based.
+2013-08-31 05:05:20	llasram	Somewhat unconvinced that that's a selling point :-)
+2013-08-31 05:05:37	<--	breck7 (~breck7@c-98-210-196-114.hsd1.ca.comcast.net) has quit (Remote host closed the connection)
+2013-08-31 05:05:58	SegFaultAX	llasram: It's /a/ selling point. It also lacks the soul-crushing complexity of Chef.
+2013-08-31 05:06:16	SegFaultAX	And the documentation doesn't make me want to slaughter kittens.
+2013-08-31 05:06:59	llasram	haha.  Honestly haven't used Chef.  Went with Puppet for semi-arbitrary reasons several years ago, and haven't had significant reason to re-evaluate
+2013-08-31 05:07:04	SegFaultAX	Anyway, Python is one of the de facto scripting languages in the ops world. Along with perl and bash. So it's a natural choice.
+2013-08-31 05:07:43	<--	crocket (~crocket@unaffiliated/crocket) has left #clojure ("Leaving")
+2013-08-31 05:07:55	<--	atyz (~atyz@cpe-174-109-088-241.nc.res.rr.com) has quit (Ping timeout: 245 seconds)
+2013-08-31 05:08:05	-->	bmaddy (~bmaddy@72.21.231.26) has joined #clojure
+2013-08-31 05:08:20	-->	jwpalmer (~jpalmer@c-71-202-150-93.hsd1.ca.comcast.net) has joined #clojure
+2013-08-31 05:08:31	llasram	Hmm.  So the ansible model is essentially sets actions to take on sets of systems, vs the puppet/chef model of declarative state?
+2013-08-31 05:08:44	SegFaultAX	llasram: Puppet is a significant improvement over Chef, but it's still very very complicated.
+2013-08-31 05:08:51	fkey	in clojurescript, is there a way to get at the parsed expression tree? i created a parser but was wondering if there is a more succinct way to do things...
+2013-08-31 05:09:10	<--	carif (~mcarifio@cpe-74-78-54-137.maine.res.rr.com) has quit (Ping timeout: 245 seconds)
+2013-08-31 05:09:11	-->	podviaznikov (~podviazni@181.112.233.150) has joined #clojure
+2013-08-31 05:09:38	SegFaultAX	llasram: Essentially yes, plays are just lists of tasks applied to sets of hosts.
+2013-08-31 05:10:09	SegFaultAX	llasram: With the (incredibly important) constraint that all operations are intended to be idempotent.
+2013-08-31 05:10:22	llasram	Hmm.  Interesting.
+2013-08-31 05:10:51	 *	llasram files away to research more later
+2013-08-31 05:10:55	SegFaultAX	llasram: Also, if you really must have an agent based CMDB, ansible has a pull mode.
+2013-08-31 05:11:28	SegFaultAX	But the default and most popular workflow is push based.
+2013-08-31 05:11:40	<--	jamesaanderson (~jamesaand@107-215-201-164.lightspeed.irvnca.sbcglobal.net) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-08-31 05:12:00	--	yogthos|away is now known as yogthos
+2013-08-31 05:12:18	-->	carif (~mcarifio@cpe-74-78-54-137.maine.res.rr.com) has joined #clojure
+2013-08-31 05:12:35	llasram	SegFaultAX: You've convinced me it might be of interest :-).  I will definitely look more into it later
+2013-08-31 05:13:39	SegFaultAX	llasram: In fairness, if your infrastructure is already built around one of the other popular options (chef, puppet, salt, whatever) then whatevs.
+2013-08-31 05:13:55	SegFaultAX	But for building out new infrastructures, the relative simplicity is a huge win.
+2013-08-31 05:14:15	-->	yedi (~yedi@50-78-242-97-static.hfc.comcastbusiness.net) has joined #clojure
+2013-08-31 05:14:24	-->	seangrov` (~user@c-69-181-197-122.hsd1.ca.comcast.net) has joined #clojure
+2013-08-31 05:14:31	llasram	SegFaultAX: Indeed (re: already built), but there is always The Future (tm)
+2013-08-31 05:15:42	-->	kofno (~kofno@cpe-24-165-210-251.neo.res.rr.com) has joined #clojure
+2013-08-31 05:18:31	<--	yedi (~yedi@50-78-242-97-static.hfc.comcastbusiness.net) has quit (Ping timeout: 260 seconds)
+2013-08-31 05:20:23	<--	kofno (~kofno@cpe-24-165-210-251.neo.res.rr.com) has quit (Ping timeout: 256 seconds)
+2013-08-31 05:21:29	--	yogthos is now known as yogthos|away
+2013-08-31 05:22:30	<--	ambroff (~ambroff@tan10.sf.aliph.com) has quit (Ping timeout: 245 seconds)
+2013-08-31 05:22:43	<--	abp (~user@ip-130-180-73-249.unitymediagroup.de) has quit (Ping timeout: 260 seconds)
+2013-08-31 05:23:09	<--	deobald (~textual@173.243.43.154) has quit (Quit: Computer has gone to sleep.)
+2013-08-31 05:23:38	-->	fridim_ (~fridim@bas2-montreal07-2925317871.dsl.bell.ca) has joined #clojure
+2013-08-31 05:24:14	-->	jamesaanderson (~jamesaand@107-215-201-164.lightspeed.irvnca.sbcglobal.net) has joined #clojure
+2013-08-31 05:24:33	-->	francis_wolke (62cf9ba1@gateway/web/cgi-irc/kiwiirc.com/ip.98.207.155.161) has joined #clojure
+2013-08-31 05:24:35	<--	bmaddy (~bmaddy@72.21.231.26) has quit (Remote host closed the connection)
+2013-08-31 05:24:58	technomancy	I could never get over the facepalm of having a completely new language to learn with puppet, even if the design is otherwise better than chef.
+2013-08-31 05:25:25	SegFaultAX	Chef's DSL is equally wtf.
+2013-08-31 05:25:41	technomancy	the semantics are awful, but at least the syntax is widely understood
+2013-08-31 05:25:52	<--	francis_wolke (62cf9ba1@gateway/web/cgi-irc/kiwiirc.com/ip.98.207.155.161) has quit (Client Quit)
+2013-08-31 05:25:56	SegFaultAX	Well yea, I guess it's better that it reuses block syntax.
+2013-08-31 05:26:11	SegFaultAX	Ansible avoids both of those problems by using plain old YAML.
+2013-08-31 05:26:12	llasram	technomancy: In fairness, they tried to add an internal DSL version, but nobody used it, I assume because the external DSL is just much more compact.
+2013-08-31 05:28:00	technomancy	adding another option might be nicer when writing, but you still have to learn to read both
+2013-08-31 05:28:24	SegFaultAX	technomancy: What does Heroku use internally to manage infrastructure?
+2013-08-31 05:28:47	cemerick	YAML can be characterized as "plain old"? Hum.
+2013-08-31 05:29:25	-->	francis_wolke (62cf9ba1@gateway/web/cgi-irc/kiwiirc.com/ip.98.207.155.161) has joined #clojure
+2013-08-31 05:29:40	llasram	technomancy: Eh.  I think I'd prefer s-exps for everything at this point, but it's honestly not that much to keep around in your head.
+2013-08-31 05:30:01	technomancy	SegFaultAX: chef is used for some really low-level stuff (thankfully nothing I have to touch) but we have another system similar to what we expose to customers for managing apps running on "raw" ec2 nodes
+2013-08-31 05:30:02	SegFaultAX	cemerick: Fair. Code = Data = Code is a feature for ansible.
+2013-08-31 05:30:25	llasram	Now that I've offloaded all spacial reasoning to GPS devices, I've got pleeenty of room for extra programming language syntaxes
+2013-08-31 05:31:24	cemerick	SegFaultAX: I was only saying, it's not like YAML is ubiquitous or something.  XML or JSON or INI can be "plain old", but...YAML?
+2013-08-31 05:31:38	SegFaultAX	technomancy: Neat.
+2013-08-31 05:31:45	TimMc	Why, back in my day...
+2013-08-31 05:31:45	 *	TimMc buttonholes clojurebot and starts monologuing about making punchcards out of moose hides
+2013-08-31 05:32:10	SegFaultAX	cemerick: YAML is pretty common in the Ruby world.
+2013-08-31 05:32:11	<--	francis_wolke (62cf9ba1@gateway/web/cgi-irc/kiwiirc.com/ip.98.207.155.161) has quit (Client Quit)
+2013-08-31 05:32:18	SegFaultAX	Particularly in Ruby land.
+2013-08-31 05:32:23	SegFaultAX	Err Rails
+2013-08-31 05:32:31	-->	mh_ (~mh@cpe-72-228-159-76.buffalo.res.rr.com) has joined #clojure
+2013-08-31 05:32:34	cemerick	Not sure that counts for much.
+2013-08-31 05:33:11	SegFaultAX	cemerick: It's just a matter of perspective. I see yaml is being fairly common. In other spaces, other formats are more common.
+2013-08-31 05:33:29	llasram	TimMc: You had moose hides!  Lucky you.  In my day moose hadn't evolved yet and we needed to use mammoth hides, which of course you needed to shave first
+2013-08-31 05:33:42	<--	podviaznikov (~podviazni@181.112.233.150) has quit (Ping timeout: 264 seconds)
+2013-08-31 05:33:58	xeqi	cemerick: I don't think I've ever touched an ini. they can't be "plain old"
+2013-08-31 05:34:19	SegFaultAX	Ansible uses INI.
+2013-08-31 05:34:26	SegFaultAX	For inventory files.
+2013-08-31 05:34:39	-->	recycle (~recycle@2600:1012:b00b:6271:f98d:9c1e:7831:7da6) has joined #clojure
+2013-08-31 05:35:16	fkey	D: (cljs.reader/read-string ... ) is exactly what i needed lol
+2013-08-31 05:35:20	--	yogthos|away is now known as yogthos
+2013-08-31 05:37:08	TimMc	llasram: You mean you didn't have auto-shave back then? :-O
+2013-08-31 05:37:20	technomancy	I always associated INI with Windows
+2013-08-31 05:37:26	<--	acagle (~acagle@76.14.74.147) has quit (Ping timeout: 240 seconds)
+2013-08-31 05:37:28	xeqi	technomancy: same
+2013-08-31 05:37:29	technomancy	but I guess python people like it too
+2013-08-31 05:37:43	SegFaultAX	I actually have no idea why ini is used in Ansible.
+2013-08-31 05:37:53	SegFaultAX	It makes no sense at all when you consider that /everything else/ is YAML
+2013-08-31 05:37:55	TimMc	technomancy: Specifically Windows 3.1
+2013-08-31 05:38:18	SegFaultAX	I associate ini with Unreal Tournament for some reason.
+2013-08-31 05:38:25	technomancy	the yaml spec is kinda nuts
+2013-08-31 05:38:29	<--	bokafly (~bokafly@pool-72-66-75-109.washdc.fios.verizon.net) has quit (Quit: bokafly)
+2013-08-31 05:38:30	<--	jamesaanderson (~jamesaand@107-215-201-164.lightspeed.irvnca.sbcglobal.net) has quit (Ping timeout: 264 seconds)
+2013-08-31 05:38:36	SegFaultAX	(It used ini heavily for all the engine configuration)
+2013-08-31 05:38:44	llasram	^^ understatement (technomancy)
+2013-08-31 05:38:54	SegFaultAX	I haven't read it, what's crazy about it?
+2013-08-31 05:39:08	technomancy	json for config would be nice except for the idiotic refusal to allow comments
+2013-08-31 05:39:27	SegFaultAX	json for config would be awful. :(
+2013-08-31 05:39:34	technomancy	though I don't know how widely that's enforced by parsers
+2013-08-31 05:39:59	TimMc	technomancy: All you need is .jsonc, which would be preprocessed to remove comments. :-P
+2013-08-31 05:40:18	<--	mishok13 (~mishok13@ip5450bc54.adsl-surfen.hetnet.nl) has quit (Ping timeout: 264 seconds)
+2013-08-31 05:40:35	<--	mthvedt (~mike@c-75-73-53-17.hsd1.mn.comcast.net) has quit (Quit: mthvedt)
+2013-08-31 05:40:35	llasram	JSON's non-acceptance of terminal commas also drives me nuts
+2013-08-31 05:40:49	llasram	E.g., invalid JSON: [1, 2, 3,]
+2013-08-31 05:41:14	SegFaultAX	llasram: Yea.
+2013-08-31 05:41:28	SegFaultAX	For configuration it really isn't an ideal format to be edited by hand.
+2013-08-31 05:42:16	-->	jamesaanderson (~jamesaand@107-215-201-164.lightspeed.irvnca.sbcglobal.net) has joined #clojure
+2013-08-31 05:42:18	SegFaultAX	Lots of useless characters ,{}"" lack of multiline string support, etc.
+2013-08-31 05:43:08	-->	acagle (~acagle@76.14.74.147) has joined #clojure
+2013-08-31 05:43:12	technomancy	yeah, it'd need to be a superset
+2013-08-31 05:43:56	llasram	Or just use EDN.  If you squint and ignore the Clojure-specific parts, it really is (or could be) a better JSON
+2013-08-31 05:44:31	fkey	hmm question, (def foo "bar") (= foo (cljs.reader/read-string "foo")) returns false...but when i quote "foo" ,its true
+2013-08-31 05:44:40	fkey	ie (def foo "bar") (= 'foo (cljs.reader/read-string "foo"))
+2013-08-31 05:44:45	llasram	I've been doing a lot with a subset of EDN which round-trips through JSON, and it's been working out pretty well
+2013-08-31 05:45:08	SegFaultAX	fkey: Why would "bar" be the same as "foo"?
+2013-08-31 05:45:17	SegFaultAX	,(name 'foo)
+2013-08-31 05:45:19	clojurebot	"foo"
+2013-08-31 05:45:22	llasram	fkey: Reading isn't the same as evaluating
+2013-08-31 05:45:25	SegFaultAX	That's why the second one is happening.
+2013-08-31 05:45:50	fkey	ah that makes sense
+2013-08-31 05:46:06	-->	andreh (~andreh@186.213.203.7) has joined #clojure
+2013-08-31 05:46:07	fkey	hm, but (= '1 1) are the same?
+2013-08-31 05:46:35	SegFaultAX	,(type '1)
+2013-08-31 05:46:36	clojurebot	java.lang.Long
+2013-08-31 05:46:40	SegFaultAX	,(type 'a)
+2013-08-31 05:46:41	clojurebot	clojure.lang.Symbol
+2013-08-31 05:46:45	SegFaultAX	,(type "a")
+2013-08-31 05:46:46	clojurebot	java.lang.String
+2013-08-31 05:46:55	llasram	fkey: Quoting suppresses evaluation, but numbers are read as numbers, with no evaluation required
+2013-08-31 05:47:06	fkey	ah ok
+2013-08-31 05:47:38	llasram	&'[1 2 3 foo :bar "baz"]
+2013-08-31 05:47:39	lazybot	⇒ [1 2 3 foo :bar "baz"]
+2013-08-31 05:48:45	<--	timsg (~timothyga@rrcs-208-105-4-254.nyc.biz.rr.com) has quit (Quit: timsg)
+2013-08-31 05:49:17	-->	deobald (~textual@173.243.43.154) has joined #clojure
+2013-08-31 05:50:32	<--	jamesaanderson (~jamesaand@107-215-201-164.lightspeed.irvnca.sbcglobal.net) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-08-31 05:52:16	--	yogthos is now known as yogthos|away
+2013-08-31 05:53:29	-->	mishok13 (~mishok13@ip5450bc54.adsl-surfen.hetnet.nl) has joined #clojure
+2013-08-31 05:54:42	<--	andreh (~andreh@186.213.203.7) has quit (Quit: Quitte)
+2013-08-31 05:55:00	-->	andreh (~andreh@186.213.203.7) has joined #clojure
+2013-08-31 05:56:41	<--	zeitue (~z@68.168.201.17) has quit (Ping timeout: 245 seconds)
+2013-08-31 05:56:53	-->	sohail (~sohail@206-248-183-162.dsl.teksavvy.com) has joined #clojure
+2013-08-31 05:56:53	<--	sohail (~sohail@206-248-183-162.dsl.teksavvy.com) has quit (Changing host)
+2013-08-31 05:56:53	-->	sohail (~sohail@unaffiliated/sohail) has joined #clojure
+2013-08-31 05:58:23	<--	mh_ (~mh@cpe-72-228-159-76.buffalo.res.rr.com) has quit (Read error: Connection reset by peer)
+2013-08-31 05:59:00	-->	mh_ (~mh@cpe-72-228-159-76.buffalo.res.rr.com) has joined #clojure
+2013-08-31 05:59:02	-->	podviaznikov (~podviazni@181.112.233.150) has joined #clojure
+2013-08-31 05:59:14	<--	andreh (~andreh@186.213.203.7) has quit (Client Quit)
+2013-08-31 05:59:29	-->	andreh (~andreh@186.213.203.7) has joined #clojure
+2013-08-31 05:59:35	-->	jamesaanderson (~jamesaand@107-215-201-164.lightspeed.irvnca.sbcglobal.net) has joined #clojure
+2013-08-31 06:00:46	<--	mihneadb (~mihneadb@v-1045.fw1.sfo1.mozilla.net) has quit (Remote host closed the connection)
+2013-08-31 06:01:48	SegFaultAX	yogthos|away: Ping.
+2013-08-31 06:02:20	-->	jlongster (~user@pool-173-53-114-190.rcmdva.fios.verizon.net) has joined #clojure
+2013-08-31 06:02:58	-->	breck7 (~breck7@c-98-210-152-219.hsd1.ca.comcast.net) has joined #clojure
+2013-08-31 06:03:46	-->	mthvedt (~mike@c-75-73-53-17.hsd1.mn.comcast.net) has joined #clojure
+2013-08-31 06:03:54	-->	atyz (~atyz@cpe-174-109-088-241.nc.res.rr.com) has joined #clojure
+2013-08-31 06:04:44	-->	shiftyeyes (~nschile@75.81.27.92) has joined #clojure
+2013-08-31 06:08:20	<--	carif (~mcarifio@cpe-74-78-54-137.maine.res.rr.com) has quit (Ping timeout: 245 seconds)
+2013-08-31 06:08:27	<--	atyz (~atyz@cpe-174-109-088-241.nc.res.rr.com) has quit (Ping timeout: 260 seconds)
+2013-08-31 06:09:59	<--	Sorella (~quildreen@oftn/member/Sorella) has quit (Quit: Ex-Chat)
+2013-08-31 06:12:30	<--	mthvedt (~mike@c-75-73-53-17.hsd1.mn.comcast.net) has quit (Ping timeout: 264 seconds)
+2013-08-31 06:12:58	-->	zeitue (~z@68.168.201.17) has joined #clojure
+2013-08-31 06:12:59	-->	francis_wolke (62cf9ba1@gateway/web/cgi-irc/kiwiirc.com/ip.98.207.155.161) has joined #clojure
+2013-08-31 06:14:36	-->	yedi (~yedi@50-78-242-97-static.hfc.comcastbusiness.net) has joined #clojure
+2013-08-31 06:16:02	<--	deobald (~textual@173.243.43.154) has quit (Quit: Computer has gone to sleep.)
+2013-08-31 06:16:09	-->	kofno (~kofno@cpe-24-165-210-251.neo.res.rr.com) has joined #clojure
+2013-08-31 06:16:25	<--	skelternet (~skelterne@12.207.42.3) has quit (Quit: Leaving.)
+2013-08-31 06:17:36	TimMc	fkey: And not all alphabetic sequences read as symbols either.
+2013-08-31 06:17:37	<--	podviaznikov (~podviazni@181.112.233.150) has quit (Ping timeout: 256 seconds)
+2013-08-31 06:17:42	TimMc	&(type 'true)
+2013-08-31 06:17:42	lazybot	⇒ java.lang.Boolean
+2013-08-31 06:17:52	<--	jamesaanderson (~jamesaand@107-215-201-164.lightspeed.irvnca.sbcglobal.net) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-08-31 06:17:55	TimMc	&(type 'trux)
+2013-08-31 06:17:56	lazybot	⇒ clojure.lang.Symbol
+2013-08-31 06:17:58	<--	rbxbx` (~user@pool-72-69-143-54.nycmny.fios.verizon.net) has quit (Read error: Connection reset by peer)
+2013-08-31 06:18:27	-->	rbxbx` (~user@pool-72-69-143-54.nycmny.fios.verizon.net) has joined #clojure
+2013-08-31 06:18:45	-->	yedi_ (~yedi@50-78-242-97-static.hfc.comcastbusiness.net) has joined #clojure
+2013-08-31 06:19:11	<--	yedi (~yedi@50-78-242-97-static.hfc.comcastbusiness.net) has quit (Ping timeout: 260 seconds)
+2013-08-31 06:20:00	<--	fridim_ (~fridim@bas2-montreal07-2925317871.dsl.bell.ca) has quit (Ping timeout: 245 seconds)
+2013-08-31 06:20:40	<--	kofno (~kofno@cpe-24-165-210-251.neo.res.rr.com) has quit (Ping timeout: 256 seconds)
+2013-08-31 06:21:36	<--	mishok13 (~mishok13@ip5450bc54.adsl-surfen.hetnet.nl) has quit (Ping timeout: 268 seconds)
+2013-08-31 06:22:02	-->	podviaznikov (~podviazni@181.112.233.150) has joined #clojure
+2013-08-31 06:23:01	<--	yedi_ (~yedi@50-78-242-97-static.hfc.comcastbusiness.net) has quit (Ping timeout: 248 seconds)
+2013-08-31 06:23:54	<--	shiftyeyes (~nschile@75.81.27.92) has quit (Ping timeout: 264 seconds)
+2013-08-31 06:23:54	<--	mh_ (~mh@cpe-72-228-159-76.buffalo.res.rr.com) has quit (Ping timeout: 264 seconds)
+2013-08-31 06:24:04	<--	ewnd9 (~ewnd9@5.254.251.62) has quit (Ping timeout: 268 seconds)
+2013-08-31 06:25:03	-->	mihneadb (~mihneadb@108-83-17-132.lightspeed.sntcca.sbcglobal.net) has joined #clojure
+2013-08-31 06:25:15	<--	osvico (~UPP@c-98-194-253-51.hsd1.tx.comcast.net) has quit (Ping timeout: 260 seconds)
+2013-08-31 06:25:20	-->	_KK (~kiran@122.170.24.148) has joined #clojure
+2013-08-31 06:26:48	-->	timsg (~timothyga@ool-4572c740.dyn.optonline.net) has joined #clojure
+2013-08-31 06:29:24	<--	recycle (~recycle@2600:1012:b00b:6271:f98d:9c1e:7831:7da6) has quit (Remote host closed the connection)
+2013-08-31 06:29:51	<--	tufflax (~tufflax@c80-217-106-199.bredband.comhem.se) has quit (Read error: Connection reset by peer)
+2013-08-31 06:33:16	<--	uris77 (~uris77@200.123.210.2) has quit (Quit: leaving)
+2013-08-31 06:33:29	-->	futile (~futile@c-24-12-3-89.hsd1.il.comcast.net) has joined #clojure
+2013-08-31 06:33:29	<--	futile (~futile@c-24-12-3-89.hsd1.il.comcast.net) has quit (Changing host)
+2013-08-31 06:33:29	-->	futile (~futile@unaffiliated/futile) has joined #clojure
+2013-08-31 06:37:01	<--	podviaznikov (~podviazni@181.112.233.150) has quit (Read error: Connection reset by peer)
+2013-08-31 06:37:12	-->	arquebus (~frath@c-107-3-164-239.hsd1.ca.comcast.net) has joined #clojure
+2013-08-31 06:39:30	<--	breck7 (~breck7@c-98-210-152-219.hsd1.ca.comcast.net) has quit (Remote host closed the connection)
+2013-08-31 06:41:23	<--	telex (~telex@freeshell.de) has quit (Remote host closed the connection)
+2013-08-31 06:42:03	<--	mattmoss (~mattmoss@71.11.98.68) has quit (Ping timeout: 260 seconds)
+2013-08-31 06:42:59	-->	telex (~telex@freeshell.de) has joined #clojure
+2013-08-31 06:43:31	-->	jbomo (~dkd@pool-108-23-62-223.lsanca.fios.verizon.net) has joined #clojure
+2013-08-31 06:44:21	<--	sohail (~sohail@unaffiliated/sohail) has quit (Ping timeout: 248 seconds)
+2013-08-31 06:45:12	<--	arquebus (~frath@c-107-3-164-239.hsd1.ca.comcast.net) has quit (Quit: Konversation terminated!)
+2013-08-31 06:48:02	<--	rodrigovidal (~rodrigovi@201.37.47.64) has quit (Remote host closed the connection)
+2013-08-31 06:50:35	<--	amerinese (~amerinese@cpe-72-225-231-95.nyc.res.rr.com) has quit (Remote host closed the connection)
+2013-08-31 06:51:07	-->	amerinese (~amerinese@cpe-72-225-231-95.nyc.res.rr.com) has joined #clojure
+2013-08-31 06:51:12	-->	jamesaanderson (~jamesaand@107-215-201-164.lightspeed.irvnca.sbcglobal.net) has joined #clojure
+2013-08-31 06:52:33	<--	jamesaanderson (~jamesaand@107-215-201-164.lightspeed.irvnca.sbcglobal.net) has quit (Client Quit)
+2013-08-31 06:52:42	<--	GeissT (~GeissT@101.103.62.201) has quit (Ping timeout: 264 seconds)
+2013-08-31 06:54:20	-->	breck7 (~breck7@c-98-210-152-219.hsd1.ca.comcast.net) has joined #clojure
+2013-08-31 06:55:47	-->	jamesaanderson (~jamesaand@107-215-201-164.lightspeed.irvnca.sbcglobal.net) has joined #clojure
+2013-08-31 06:55:54	<--	amerinese (~amerinese@cpe-72-225-231-95.nyc.res.rr.com) has quit (Ping timeout: 264 seconds)
+2013-08-31 06:57:06	<--	acagle (~acagle@76.14.74.147) has quit (Ping timeout: 264 seconds)
+2013-08-31 06:57:23	-->	eldariof (~CLD@pppoe-200-238-dyn-sr.volgaline.ru) has joined #clojure
+2013-08-31 06:57:31	<--	jwpalmer (~jpalmer@c-71-202-150-93.hsd1.ca.comcast.net) has quit (Ping timeout: 245 seconds)
+2013-08-31 06:58:14	-->	ewnd9 (~ewnd9@5.254.251.62) has joined #clojure
+2013-08-31 07:01:26	<--	jlongster (~user@pool-173-53-114-190.rcmdva.fios.verizon.net) has quit (Remote host closed the connection)
+2013-08-31 07:03:11	-->	acagle (~acagle@76.14.74.147) has joined #clojure
+2013-08-31 07:03:19	-->	arohner (~arohner@75-13-85-204.lightspeed.austtx.sbcglobal.net) has joined #clojure
+2013-08-31 07:04:10	--	amalloy_ is now known as amalloy
+2013-08-31 07:04:12	-->	atyz (~atyz@cpe-174-109-088-241.nc.res.rr.com) has joined #clojure
+2013-08-31 07:04:33	-->	alexbaranosky_ (~alexander@50-196-135-161-static.hfc.comcastbusiness.net) has joined #clojure
+2013-08-31 07:06:17	<--	tbaldrid_ (~tim@c-67-190-114-220.hsd1.co.comcast.net) has quit (Remote host closed the connection)
+2013-08-31 07:06:19	-->	awalters_ (~awalters@c-68-54-218-41.hsd1.il.comcast.net) has joined #clojure
+2013-08-31 07:08:18	<--	arohner (~arohner@75-13-85-204.lightspeed.austtx.sbcglobal.net) has quit (Ping timeout: 264 seconds)
+2013-08-31 07:08:21	<--	atyz (~atyz@cpe-174-109-088-241.nc.res.rr.com) has quit (Ping timeout: 248 seconds)
+2013-08-31 07:09:27	andreh	In general, in a function that steps through a list, is it better to use mapcar or (tail-)recursion?
+2013-08-31 07:09:47	rhg135	Map
+2013-08-31 07:10:13	-->	mthvedt (~mike@c-75-73-53-17.hsd1.mn.comcast.net) has joined #clojure
+2013-08-31 07:11:55	<--	breck7 (~breck7@c-98-210-152-219.hsd1.ca.comcast.net) has quit (Remote host closed the connection)
+2013-08-31 07:12:08	-->	alisdair (~textual@207.6.110.74) has joined #clojure
+2013-08-31 07:12:19	--	yogthos|away is now known as yogthos
+2013-08-31 07:12:23	dobry-den	andreh: do you have ane example
+2013-08-31 07:13:00	<--	wookiehangover (~wookiehan@c-98-245-116-234.hsd1.co.comcast.net) has left #clojure
+2013-08-31 07:13:35	andreh	Suppose you want to add the index of each element to itself.
+2013-08-31 07:14:03	andreh	I believe it would be better with arrays, but I want to compare map and recursion
+2013-08-31 07:14:12	-->	wolfes (~wolfes@c-50-161-54-96.hsd1.ca.comcast.net) has joined #clojure
+2013-08-31 07:14:41	dobry-den	,(map-indexed (partial +) [1 2 3])
+2013-08-31 07:14:43	clojurebot	(1 3 5)
+2013-08-31 07:15:12	<--	alexbaranosky_ (~alexander@50-196-135-161-static.hfc.comcastbusiness.net) has quit (Quit: alexbaranosky_)
+2013-08-31 07:16:40	-->	kofno (~kofno@cpe-24-165-210-251.neo.res.rr.com) has joined #clojure
+2013-08-31 07:17:10	dobry-den	(pretty unhelpful example). i'm no clojure pro but (loop [] ... (recur)) is clojure's low-level loop. not every process can be simplified to "map this function across this collection".
+2013-08-31 07:17:39	rhg135	Yup
+2013-08-31 07:18:32	-->	rodrigovidal (~rodrigovi@201.37.47.64) has joined #clojure
+2013-08-31 07:19:20	ddellacosta	so, anyone have tips on getting SSL going on Heroku with run-jetty?
+2013-08-31 07:19:45	ddellacosta	seems like it should just pick it up, but it seems not to be finding my ssl cert, only heroku's
+2013-08-31 07:20:44	<--	pemulis (~pem@69.61.215.73) has quit (Ping timeout: 256 seconds)
+2013-08-31 07:20:53	<--	jamesaanderson (~jamesaand@107-215-201-164.lightspeed.irvnca.sbcglobal.net) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-08-31 07:21:03	-->	jonasen (~jonasen@a100.ip13.netikka.fi) has joined #clojure
+2013-08-31 07:21:05	<--	kofno (~kofno@cpe-24-165-210-251.neo.res.rr.com) has quit (Ping timeout: 256 seconds)
+2013-08-31 07:21:13	<--	j-wang (~j-wang@108-65-1-75.lightspeed.sntcca.sbcglobal.net) has quit (Quit: j-wang)
+2013-08-31 07:21:41	<--	awalters_ (~awalters@c-68-54-218-41.hsd1.il.comcast.net) has quit (Ping timeout: 245 seconds)
+2013-08-31 07:21:48	--	yogthos is now known as yogthos|away
+2013-08-31 07:21:52	dobry-den	My files start with a Clojure map and then have a bunch of plain text. (read-string (slurp file)) will pluck out the map. but is there a robust way to get a string of everything else after the map?
+2013-08-31 07:23:06	-->	zeroem (~dhamilton@76.89.160.217) has joined #clojure
+2013-08-31 07:24:26	-->	awalters_ (~awalters@c-68-54-218-41.hsd1.il.comcast.net) has joined #clojure
+2013-08-31 07:25:51	<--	TIHan (~tihan@c-68-52-18-171.hsd1.tn.comcast.net) has quit (Remote host closed the connection)
+2013-08-31 07:26:40	<--	rodrigovidal (~rodrigovi@201.37.47.64) has quit (Ping timeout: 245 seconds)
+2013-08-31 07:33:32	<--	cemerick (~cemerick@c-71-192-116-188.hsd1.ma.comcast.net) has quit (Read error: Operation timed out)
+2013-08-31 07:41:07	-->	alexbaranosky_ (~alexander@50-196-135-161-static.hfc.comcastbusiness.net) has joined #clojure
+2013-08-31 07:42:04	<--	alexbaranosky_ (~alexander@50-196-135-161-static.hfc.comcastbusiness.net) has quit (Client Quit)
+2013-08-31 07:42:23	-->	TEttinger (~notostrac@76-217-25-235.lightspeed.irvnca.sbcglobal.net) has joined #clojure
+2013-08-31 07:42:31	SegFaultAX	andreh: What do you mean compare map and recursion? They aren't mutually recursive concepts.
+2013-08-31 07:42:43	SegFaultAX	Mutually exclusive, rather.
+2013-08-31 07:43:58	-->	alexbaranosky_ (~alexander@50-196-135-161-static.hfc.comcastbusiness.net) has joined #clojure
+2013-08-31 07:50:42	SegFaultAX	It feels pretty amazing to see all the ANN posts on the list.
+2013-08-31 07:50:49	SegFaultAX	So much new development. :)
+2013-08-31 07:52:06	--	yogthos|away is now known as yogthos
+2013-08-31 07:54:44	<--	francis_wolke (62cf9ba1@gateway/web/cgi-irc/kiwiirc.com/ip.98.207.155.161) has quit (Quit: http://www.kiwiirc.com/ - A hand crafted IRC client)
+2013-08-31 07:55:58	-->	soulofpeace (~soulofpea@cm115.gamma160.maxonline.com.sg) has joined #clojure
+2013-08-31 07:57:14	-->	loganlinn (~Adium@c-98-210-140-156.hsd1.ca.comcast.net) has joined #clojure
+2013-08-31 07:58:29	-->	dialelo (~dialelo@80.174.57.119.dyn.user.ono.com) has joined #clojure
+2013-08-31 07:59:58	-->	ananthakumaran (~Adium@117.192.135.70) has joined #clojure
+2013-08-31 08:01:33	--	yogthos is now known as yogthos|away
+2013-08-31 08:01:43	-->	amerinese (~amerinese@cpe-72-225-231-95.nyc.res.rr.com) has joined #clojure
+2013-08-31 08:02:39	-->	GeissT (~GeissT@CPE-124-182-223-12.lns4.way.bigpond.net.au) has joined #clojure
+2013-08-31 08:03:52	-->	arohner (~arohner@75-13-85-204.lightspeed.austtx.sbcglobal.net) has joined #clojure
+2013-08-31 08:04:34	-->	atyz (~atyz@cpe-174-109-088-241.nc.res.rr.com) has joined #clojure
+2013-08-31 08:05:24	-->	j-wang (~j-wang@108-65-1-75.lightspeed.sntcca.sbcglobal.net) has joined #clojure
+2013-08-31 08:06:17	-->	tlowrimore (~tlowrimor@65.128.1.245) has joined #clojure
+2013-08-31 08:06:25	<--	amerinese (~amerinese@cpe-72-225-231-95.nyc.res.rr.com) has quit (Ping timeout: 256 seconds)
+2013-08-31 08:07:57	<--	arohner (~arohner@75-13-85-204.lightspeed.austtx.sbcglobal.net) has quit (Ping timeout: 240 seconds)
+2013-08-31 08:08:25	-->	shiranaihito (~shiranaih@91-158-40-166.elisa-laajakaista.fi) has joined #clojure
+2013-08-31 08:08:54	<--	atyz (~atyz@cpe-174-109-088-241.nc.res.rr.com) has quit (Ping timeout: 256 seconds)
+2013-08-31 08:10:00	-->	maxter (~maxter@gaffeless.chaperon.volia.net) has joined #clojure
+2013-08-31 08:11:38	ddellacosta	SegFaultAX: seriously…it's totally wild how much new stuff is coming out all the time.
+2013-08-31 08:11:41	ddellacosta	awesome
+2013-08-31 08:11:51	-->	atyz (~atyz@cpe-174-109-088-241.nc.res.rr.com) has joined #clojure
+2013-08-31 08:12:10	-->	hoeck1 (~timmy@p508465A4.dip0.t-ipconnect.de) has joined #clojure
+2013-08-31 08:12:16	-->	beberlei (~twitter@koln-5d8195a2.pool.mediaWays.net) has joined #clojure
+2013-08-31 08:12:57	<--	ambrosebs (~ambrosebs@ppp121-45-239-212.lns20.per1.internode.on.net) has quit (Remote host closed the connection)
+2013-08-31 08:13:04	<--	alisdair (~textual@207.6.110.74) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-08-31 08:13:18	-->	rodrigovidal (~rodrigovi@201.37.47.64) has joined #clojure
+2013-08-31 08:13:27	<--	mnemnion (~mnemnion@c-50-152-148-184.hsd1.ca.comcast.net) has quit (Remote host closed the connection)
+2013-08-31 08:13:29	<--	ericmathison (~ericmathi@172-15-249-133.lightspeed.irvnca.sbcglobal.net) has quit (Quit: leaving)
+2013-08-31 08:14:39	-->	hhatch (~gregor@h148-212.pool46-249.dyn.tolna.net) has joined #clojure
+2013-08-31 08:15:23	-->	tsantos (~tom@c-71-198-202-219.hsd1.ca.comcast.net) has joined #clojure
+2013-08-31 08:17:15	-->	kofno (~kofno@cpe-24-165-210-251.neo.res.rr.com) has joined #clojure
+2013-08-31 08:17:35	-->	ericmathison (~ericmathi@172-15-249-133.lightspeed.irvnca.sbcglobal.net) has joined #clojure
+2013-08-31 08:17:58	<--	rodrigovidal (~rodrigovi@201.37.47.64) has quit (Ping timeout: 256 seconds)
+2013-08-31 08:19:36	<--	awalters_ (~awalters@c-68-54-218-41.hsd1.il.comcast.net) has quit (Ping timeout: 245 seconds)
+2013-08-31 08:21:36	-->	alisdair (~textual@207.6.110.74) has joined #clojure
+2013-08-31 08:21:42	<--	eldariof (~CLD@pppoe-200-238-dyn-sr.volgaline.ru) has quit (Ping timeout: 264 seconds)
+2013-08-31 08:21:51	<--	kofno (~kofno@cpe-24-165-210-251.neo.res.rr.com) has quit (Ping timeout: 268 seconds)
+2013-08-31 08:22:23	-->	breck7 (~breck7@c-98-210-152-219.hsd1.ca.comcast.net) has joined #clojure
+2013-08-31 08:22:59	<--	rbxbx` (~user@pool-72-69-143-54.nycmny.fios.verizon.net) has quit (Read error: Connection reset by peer)
+2013-08-31 08:23:05	<--	j-wang (~j-wang@108-65-1-75.lightspeed.sntcca.sbcglobal.net) has quit (Quit: j-wang)
+2013-08-31 08:23:08	-->	rbxbx` (~user@pool-72-69-143-54.nycmny.fios.verizon.net) has joined #clojure
+2013-08-31 08:27:06	<--	breck7 (~breck7@c-98-210-152-219.hsd1.ca.comcast.net) has quit (Ping timeout: 264 seconds)
+2013-08-31 08:28:47	-->	recycle (~recycle@cpe-76-88-36-147.san.res.rr.com) has joined #clojure
+2013-08-31 08:30:11	-->	harpreet_ (~harpreet@c-98-210-113-169.hsd1.ca.comcast.net) has joined #clojure
+2013-08-31 08:31:11	<--	dialelo (~dialelo@80.174.57.119.dyn.user.ono.com) has quit (Quit: WeeChat 0.4.1)
+2013-08-31 08:33:13	-->	GeneralMaximus (~ankur@122.166.181.111) has joined #clojure
+2013-08-31 08:34:03	<--	soulofpeace (~soulofpea@cm115.gamma160.maxonline.com.sg) has quit (Ping timeout: 260 seconds)
+2013-08-31 08:37:03	-->	tbaldridge (~tim@c-67-190-114-220.hsd1.co.comcast.net) has joined #clojure
+2013-08-31 08:41:26	-->	rurumate (~urs1412@p5484A6DB.dip0.t-ipconnect.de) has joined #clojure
+2013-08-31 08:42:55	-->	francis_wolke (62cf9ba1@gateway/web/cgi-irc/kiwiirc.com/ip.98.207.155.161) has joined #clojure
+2013-08-31 08:43:21	rurumate	After some successful evaluations, my clojurescript repl (emacs inferior-lisp + cljsbuild repl-listen) doesn't evaluate things on RET anymore. What seems to be the problem here?
+2013-08-31 08:44:06	-->	jwpalmer (~jpalmer@c-71-202-150-93.hsd1.ca.comcast.net) has joined #clojure
+2013-08-31 08:44:30	<--	tbaldridge (~tim@c-67-190-114-220.hsd1.co.comcast.net) has quit (Ping timeout: 264 seconds)
+2013-08-31 08:44:59	-->	joshnz (~joshnz@121.99.255.67) has joined #clojure
+2013-08-31 08:46:48	<--	tbatchelli_m (~tbatchell@c-67-180-176-59.hsd1.ca.comcast.net) has quit (Remote host closed the connection)
+2013-08-31 08:47:09	-->	dialelo (~dialelo@80.174.57.119.dyn.user.ono.com) has joined #clojure
+2013-08-31 08:47:20	<--	tlowrimore (~tlowrimor@65.128.1.245) has quit (Quit: Leaving...)
+2013-08-31 08:47:30	<--	kasterma (~kasterma@dhcp-077-250-152-132.chello.nl) has quit (Quit: kasterma)
+2013-08-31 08:47:54	<--	harpreet_ (~harpreet@c-98-210-113-169.hsd1.ca.comcast.net) has quit (Quit: dying...)
+2013-08-31 08:48:29	rurumate	Oh, looks like it loses its RET-eval powers when I do M-x clojure-mode. But without clojure-mode, I won't have syntax highlighting and autocomplete
+2013-08-31 08:48:31	-->	kasterma (~kasterma@dhcp-077-250-152-132.chello.nl) has joined #clojure
+2013-08-31 08:48:42	<--	dialelo (~dialelo@80.174.57.119.dyn.user.ono.com) has quit (Client Quit)
+2013-08-31 08:50:30	<--	GeneralMaximus (~ankur@122.166.181.111) has quit (Quit: Computer has gone to sleep.)
+2013-08-31 08:51:58	<--	jwpalmer (~jpalmer@c-71-202-150-93.hsd1.ca.comcast.net) has quit (Ping timeout: 256 seconds)
+2013-08-31 08:56:17	<--	andrewclegg (uid663@gateway/web/irccloud.com/x-xtejciqjwraxuesa) has quit (Ping timeout: 256 seconds)
+2013-08-31 08:56:30	<--	francis_wolke (62cf9ba1@gateway/web/cgi-irc/kiwiirc.com/ip.98.207.155.161) has quit (Quit: http://www.kiwiirc.com/ - A hand crafted IRC client)
+2013-08-31 09:00:23	--	irc: disconnected from server
+2013-08-31 09:00:47	-->	supersymmetry (~supersym@5418F772.cm-5-1d.dynamic.ziggo.nl) has joined #clojure
+2013-08-31 09:00:47	--	Topic for #clojure is "Clojure, the Language. Docs: http://clojure.org Discussion: http://groups.google.com/group/clojure"
+2013-08-31 09:00:47	--	Topic set by chouser on Thu, 21 Jul 2011 02:57:02
+2013-08-31 09:00:47	--	Nicks #clojure: [@ChanServ [Neurotic] _Bravado _janne _KK _uranium_ `cbp abuiles acagle acuzio adammh Adeon ahihi AimHere aka aka- alambert alexbaranosky alexbaranosky_ alexey algernon alindeman alisdair amalloy amro ananthakumaran Anderkent]away andersf_ andreh andrewclegg andrewclegg_ andrewmcveigh|wo anekos angusiguess anhall anildigital Apage43 aravind arbn arbscht_ arcatan ari` arkx aroemers arrdem Ash atyz augustl averell AWizzArd awwaiid_ bakedb_ bakingbread banjiewen bbloom bdash beawesomeinstead beberlei BeLucid benatkin benedikt benizi benoyst beppu bifido binski bjorkintosh Blkt blooberr bobry Bodil Bodil_ boodle boredomist bostonou_ brainproxy brianwong brighid brixen broquaint bruceadams bruges bryanl bungoman bunzen c0rn callen cannedprimates cantsin certainty cespare charliekilo|away cheezey chewbranca ChiralSym ChongLi chouser_1og Chousuke chriswk chronno cldwalker clojurebot cmatheson cmbntr coffeejunk colazero coventry cow-orker cpape cross crw daemian dajac dakrone dan danlarkin danlentz dark_element davidboy dcolish ddellacosta ddellacosta_ ddima_ dean|away dek5 demolithion Derander DerGuteMoritz DestinyHope devn dhm_ dissipate djanatyn DLC_ dnolen dobry-den dotemacs dougs87 dpwright drewr DrPheltRight dryman dsantiago dyreshark eamelink eevar efjboss_ egghead ehd eigenjoy eis_ ejackson Ember- erewhon ericmathison eriko EToS Excureo fbernier FDFlock_ felipe` fikusz fkey fmu fmu____ fogus|gone fooblya_monad Foxboron fpk^away francis_wolke frankgerhardt__ freiksenet futile gary_poster gcmalloc GeissT genehack geoffeg geoffh gerard0 gf3 gfredericks ggreg gideonite gilbertw1 gko gluegadget gozala grandy gravity GrayArea gridaphobe grim_radical groot ground4 gtrak Guest66769 guilleiguaran_ H4ns hakvroot hanDerPeder hashcat hbstunt hbstunt_ heath hfaafb hhatch hhenkel hiredman hive-mind hlprmnky hoeck hoeck1 housejes- hsalokor_ hugod hyko hyperboreean hyPiRion ibdknox ieure igorw indigo ipostelnik ismlages isomorphismes ivan ivan\ ivan` j0ni jack_rabbit jaimef jalcine jamiei_ jarpiain jarrison jave Jaylee__ jayne jballanc jbomo jcsims jeremyheiler jergason jetlagmk2 jimt jjs jkj jkkramer jlewis jml jmnoz jodaro jonasac jonasen JonMR jonsmock joshnz joshskidmore josteink jstepien JStoker jtoy julienXX justinmcp jyeo jzelinskie kab3wm karbak karnowski karupanerura kasterma kategeek katratxo kaw kcin ken_barber kephale kgerman kittylyst klobucar kludge` kmicu knyppeldynan konr` kraft kral|off kristian- krlr ktsuji l1x L42y lancepantz LauJensen lazybot leathekd lenstr lfranchi Licenser liszt llasram lluchs lobotomy loganlinn lopex lotia lusory Luyt_ m_3 MacCoaster machuga madscientist_ magnars mahnve mahnve` maio majoh malyn Mandus matko matt_c matthavener mattrepl maxter mcav mccraig mdrogalis mediocregopher Mendor|scr metellus mgaare micahjohnston mihneadb mikem mimieux miql mjc mjs2600 mknoszlig mlb- moogatronic moquist Morgawr mrb_bk mrBliss mrcheeks mrowe_away mshroyer mtd mthvedt mtp muhoo Myk267 n_b naeg Natch nathanic nathanielk navgeet_ nDuff necronian nickmbailey nightfly nighty- ninjudd noidi noncom|2 noplamodo normanrichards nseger nullman Odinodin OlegYch omarkj onr opqdonut Orva osnr othiym23 owenb_ ozzloy paddymahoney patrickod pepijndevos petterw pisketti pjstadig ponzao_ poutsi pradeepc prip_ Pupnik pyrtsa pyykkis_ quackv4 quanticle qz_ r0bglees0n racycle rafl Ragnor rasmusto Raynes Raynos rboyd_ rbranson rbxbx` recycle reder redinger reeses reiddraper rhg135 rickjames rigger rippy rkneufeld rksm rkz rlb rlr robink rotty rowth rplaca rtl RuralClojurer rurumate ryanf ryland s4muel sadbox saiam^ samrat saolsen sauerkrause saurik scalabl3 scgilardi scizo Scorchin scottj seanaway seangrov` seangrove seantallen sebastianb SegFaultAX sepi septomin_ sethalves sevvie sevvie_ Sgeo shadower Shambles_ sharms shem shem_ shiranaihito SHODAN shoky si14 silmawien simcop2387 SirSkidmore sjl so sontek sorenmacbeth spjt srcerer ssideris st3fan steckerhalter strmpnk_ sundbp supersym supersymmetry synfinatic t_hash TakeV tali713 tauntaun tcrawley|away tcrayford technomancy telex terjesb terom TEttinger TEttinger3 tfnico the-kenny TheBusby TheBusby1 theignorati TheMoonMaster TimMc timsg tmarble tobyo2 tobyp tomaw tomku tonijs tos9 ToxicFrog tpope trinary Tristam TristamWrk tsantos Tuna-Fish tvachon twem2 tylergillies_ ucb upwardindex Viesti_ vsync waf warpy wastrel wdouglas whee whilo whoahbot Wild_Cat wilfredh willb wink wjlroe_ wkelly wormphlegm wunki xeqi xl Xorlev yacin yacks Yamazaki-kun yazirian yogthos|away yogurt_truck ystael zaiste zakwilso1 zakwilson zaphar_ps zeitue zenoli zeroem zerokarmaleft zmode]
+2013-08-31 09:00:47	--	Channel #clojure: 555 nicks (1 op, 0 halfops, 0 voices, 554 normals)
+2013-08-31 09:00:47	--	Mode #clojure [+cnt]
+2013-08-31 09:00:47	--	Channel created on Tue, 11 Dec 2007 23:04:26
+2013-08-31 09:00:51	<--	andrewclegg (uid663@gateway/web/irccloud.com/x-xtejciqjwraxuesa) has quit (Ping timeout: 256 seconds)
+2013-08-31 09:00:51	--	andrewclegg_ is now known as andrewclegg
+2013-08-31 09:00:59	<--	francis_wolke (62cf9ba1@gateway/web/cgi-irc/kiwiirc.com/ip.98.207.155.161) has quit (Quit: http://www.kiwiirc.com/ - A hand crafted IRC client)
+2013-08-31 09:01:00	<--	kgerman (kgerman@nat/ibm/x-kkdueftaxssjkxbc) has quit (Ping timeout: 256 seconds)
+2013-08-31 09:01:00	<--	hbstunt (~bob@li100-39.members.linode.com) has quit (Ping timeout: 256 seconds)
+2013-08-31 09:01:01	<--	mahnve` (~mahnve@84-217-8-222.tn.glocalnet.net) has quit (Ping timeout: 256 seconds)
+2013-08-31 09:01:09	-->	dcolish_ (~dcolish@208.79.90.42) has joined #clojure
+2013-08-31 09:01:37	-->	efjboss (~efjboss@kumo.kassala.de) has joined #clojure
+2013-08-31 09:01:47	-->	dissipate_ (~steve@ip72-220-90-25.sd.sd.cox.net) has joined #clojure
+2013-08-31 09:01:51	-->	Cr8 (~cr8@truck.crate.im) has joined #clojure
+2013-08-31 09:02:01	-->	axiom (~Sponge_Bo@antiklimax.se) has joined #clojure
+2013-08-31 09:02:12	-->	zakwilso2 (~zak@nat.tejat.net) has joined #clojure
+2013-08-31 09:02:14	-->	piranha (~piranha@192.162.132.12) has joined #clojure
+2013-08-31 09:02:18	-->	j0ni_ (~j0ni@tomos.lollyshouse.net) has joined #clojure
+2013-08-31 09:02:21	-->	mshroyer_ (~mshroyer@legolas.paleogene.net) has joined #clojure
+2013-08-31 09:02:22	-->	amro_ (~amro@li37-20.members.linode.com) has joined #clojure
+2013-08-31 09:02:38	-->	bifido_ (~bifido@149.154.152.145) has joined #clojure
+2013-08-31 09:03:17	-->	sjl_ (~sjl@li136-50.members.linode.com) has joined #clojure
+2013-08-31 09:03:36	-->	zeroem1 (~dhamilton@76.89.160.217) has joined #clojure
+2013-08-31 09:03:37	-->	knyppeld1nan (~kristina@c213-89-17-64.bredband.comhem.se) has joined #clojure
+2013-08-31 09:04:20	-->	strmpnk (strmpnk@gateway/shell/ircrelay.com/x-wtzynwldnssjwqxp) has joined #clojure
+2013-08-31 09:04:24	-->	cmbntr_ (~cmbntr@slice.loopback.ch) has joined #clojure
+2013-08-31 09:04:37	<--	ystael (~ystael@pool-108-20-249-231.bstnma.east.verizon.net) has quit (Ping timeout: 248 seconds)
+2013-08-31 09:04:59	-->	kitallis (~kitallis@122.166.176.62) has joined #clojure
+2013-08-31 09:05:29	-->	kab3wm_ (~jchaney@198.199.105.154) has joined #clojure
+2013-08-31 09:05:56	<--	rurumate (~urs1412@p5484A6DB.dip0.t-ipconnect.de) has quit (Quit: leaving)
+2013-08-31 09:06:37	<--	alexbaranosky_ (~alexander@50-196-135-161-static.hfc.comcastbusiness.net) has quit (Quit: alexbaranosky_)
+2013-08-31 09:08:18	-->	rtl_ (~rtl@monothorpe.com) has joined #clojure
+2013-08-31 09:08:45	<--	`cbp (~user@189.139.129.36) has quit (Ping timeout: 245 seconds)
+2013-08-31 09:09:29	-->	francis_wolke (62cf9ba1@gateway/web/cgi-irc/kiwiirc.com/ip.98.207.155.161) has joined #clojure
+2013-08-31 09:10:09	-->	ndrei (~avo@83.142.149.227) has joined #clojure
+2013-08-31 09:10:26	-->	alexbaranosky_ (~alexander@50-196-135-161-static.hfc.comcastbusiness.net) has joined #clojure
+2013-08-31 09:11:05	-->	przl (~przlrkt@p5DCA32DA.dip0.t-ipconnect.de) has joined #clojure
+2013-08-31 09:11:24	<--	ananthakumaran (~Adium@117.192.135.70) has quit (*.net *.split)
+2013-08-31 09:11:24	<--	zeroem (~dhamilton@76.89.160.217) has quit (*.net *.split)
+2013-08-31 09:11:24	<--	ddellacosta (~ddellacos@softbank126126205031.bbtec.net) has quit (*.net *.split)
+2013-08-31 09:11:24	<--	sevvie (~sevvie@75-147-181-145-Washington.hfc.comcastbusiness.net) has quit (*.net *.split)
+2013-08-31 09:11:24	<--	mrcheeks (~user@CPE001839838ebe-CM001ac30d4784.cpe.net.cable.rogers.com) has quit (*.net *.split)
+2013-08-31 09:11:24	<--	supersym (~supersym@5418F772.cm-5-1d.dynamic.ziggo.nl) has quit (*.net *.split)
+2013-08-31 09:11:25	<--	nathanic (~nathan@198.199.89.94) has quit (*.net *.split)
+2013-08-31 09:11:25	<--	knyppeldynan (~kristina@c213-89-17-64.bredband.comhem.se) has quit (*.net *.split)
+2013-08-31 09:11:25	<--	kab3wm (~jchaney@198.199.105.154) has quit (*.net *.split)
+2013-08-31 09:11:25	<--	bifido (~bifido@149.154.152.145) has quit (*.net *.split)
+2013-08-31 09:11:26	<--	shem (shem@gw.discendum.com) has quit (*.net *.split)
+2013-08-31 09:11:26	<--	Mendor|scr (mayoi@yuna.yuuzukiyo.net) has quit (*.net *.split)
+2013-08-31 09:11:26	<--	majoh (~Sponge_Bo@antiklimax.se) has quit (*.net *.split)
+2013-08-31 09:11:26	<--	septomin_ (~wcb@li224-72.members.linode.com) has quit (*.net *.split)
+2013-08-31 09:11:26	<--	sjl (~sjl@li136-50.members.linode.com) has quit (*.net *.split)
+2013-08-31 09:11:26	<--	Bodil (uid7748@pdpc/supporter/student/bodil) has quit (*.net *.split)
+2013-08-31 09:11:26	<--	j0ni (~j0ni@tomos.lollyshouse.net) has quit (*.net *.split)
+2013-08-31 09:11:26	<--	efjboss_ (~efjboss@kumo.kassala.de) has quit (*.net *.split)
+2013-08-31 09:11:26	<--	dissipate (~steve@ip72-220-90-25.sd.sd.cox.net) has quit (*.net *.split)
+2013-08-31 09:11:26	<--	mshroyer (~mshroyer@legolas.paleogene.net) has quit (*.net *.split)
+2013-08-31 09:11:26	<--	prip_ (~foo@host133-128-dynamic.2-79-r.retail.telecomitalia.it) has quit (*.net *.split)
+2013-08-31 09:11:26	<--	dcolish (~dcolish@208.79.90.42) has quit (*.net *.split)
+2013-08-31 09:11:26	<--	zakwilso1 (~zak@166.70.43.113) has quit (*.net *.split)
+2013-08-31 09:11:26	<--	Apage43 (~cr8@truck.crate.im) has quit (*.net *.split)
+2013-08-31 09:11:26	<--	amro (~amro@li37-20.members.linode.com) has quit (*.net *.split)
+2013-08-31 09:11:27	<--	strmpnk_ (strmpnk@gateway/shell/ircrelay.com/x-offscltpowhztkne) has quit (*.net *.split)
+2013-08-31 09:11:27	<--	cmbntr (~cmbntr@slice.loopback.ch) has quit (*.net *.split)
+2013-08-31 09:11:27	<--	rtl (~rtl@monothorpe.com) has quit (*.net *.split)
+2013-08-31 09:11:27	--	Cr8 is now known as Apage43
+2013-08-31 09:11:27	--	ddellacosta_ is now known as ddellacosta
+2013-08-31 09:11:44	--	Bodil_ is now known as Bodil
+2013-08-31 09:11:59	<--	alexbaranosky_ (~alexander@50-196-135-161-static.hfc.comcastbusiness.net) has quit (Client Quit)
+2013-08-31 09:12:14	--	Bodil is now known as Guest2480
+2013-08-31 09:12:37	--	yogthos|away is now known as yogthos
+2013-08-31 09:12:51	--	knyppeld1nan is now known as knyppeldynan
+2013-08-31 09:12:55	-->	sxn (~sxn@mnch-4d0db864.pool.mediaWays.net) has joined #clojure
+2013-08-31 09:13:04	<--	racycle (~racycle@75-25-129-128.lightspeed.sjcpca.sbcglobal.net) has quit (Remote host closed the connection)
+2013-08-31 09:15:38	-->	wolfes (~wolfes@c-50-161-54-96.hsd1.ca.comcast.net) has joined #clojure
+2013-08-31 09:16:06	-->	jaen (~jaen@ip169.copit.pl) has joined #clojure
+2013-08-31 09:16:45	-->	dpathakj (~dpathakj@198.244.107.230) has joined #clojure
+2013-08-31 09:17:15	-->	nathanic (~nathan@198.199.89.94) has joined #clojure
+2013-08-31 09:17:15	-->	ananthakumaran (~Adium@117.192.135.70) has joined #clojure
+2013-08-31 09:17:15	-->	mrcheeks (~user@CPE001839838ebe-CM001ac30d4784.cpe.net.cable.rogers.com) has joined #clojure
+2013-08-31 09:17:15	-->	Mendor|scr (mayoi@yuna.yuuzukiyo.net) has joined #clojure
+2013-08-31 09:17:15	-->	septomin_ (~wcb@li224-72.members.linode.com) has joined #clojure
+2013-08-31 09:19:23	-->	rbxbx`` (~user@pool-72-69-143-54.nycmny.fios.verizon.net) has joined #clojure
+2013-08-31 09:19:24	<--	rbxbx` (~user@pool-72-69-143-54.nycmny.fios.verizon.net) has quit (Read error: Connection reset by peer)
+2013-08-31 09:22:05	--	yogthos is now known as yogthos|away
+2013-08-31 09:22:24	-->	yedi (~yedi@c-24-128-171-190.hsd1.ma.comcast.net) has joined #clojure
+2013-08-31 09:23:58	<--	jergason (~jergason@c-71-199-42-48.hsd1.ut.comcast.net) has quit (Quit: jergason)
+2013-08-31 09:23:59	-->	mnemnion (~mnemnion@c-50-152-148-184.hsd1.ca.comcast.net) has joined #clojure
+2013-08-31 09:24:18	<--	Guest2480 (uid7748@gateway/web/irccloud.com/x-otesqffgewqpipxd) has quit
+2013-08-31 09:24:35	arcatan	is there a way to attach docstring to a macro after defining it
+2013-08-31 09:24:36	-->	Guest2480 (uid7748@gateway/web/irccloud.com/x-kamanmopnzrfxbqx) has joined #clojure
+2013-08-31 09:25:02	<--	Guest2480 (uid7748@gateway/web/irccloud.com/x-kamanmopnzrfxbqx) has quit (Client Quit)
+2013-08-31 09:25:21	<--	futile (~futile@unaffiliated/futile) has quit (Remote host closed the connection)
+2013-08-31 09:26:37	<--	wolfes (~wolfes@c-50-161-54-96.hsd1.ca.comcast.net) has quit (Quit: Leaving.)
+2013-08-31 09:27:36	Raynes	Well, it requires sacrificing a child, but yes.
+2013-08-31 09:27:47	Raynes	You'd have to modify the var in place to add the :doc metadata.
+2013-08-31 09:27:50	-->	Bodil (uid7748@pdpc/supporter/student/bodil) has joined #clojure
+2013-08-31 09:28:04	Raynes	But please don't do that unless you have a very, very good reason that more people than just you have decided is a good enough reason :P
+2013-08-31 09:28:11	<--	normanrichards (~normanric@70.114.215.220) has quit (Quit: normanrichards)
+2013-08-31 09:28:58	-->	zamaterian (~Thomas@port13.ds1-oebr.adsl.cybercity.dk) has joined #clojure
+2013-08-31 09:29:04	<--	mnemnion (~mnemnion@c-50-152-148-184.hsd1.ca.comcast.net) has quit (Ping timeout: 268 seconds)
+2013-08-31 09:29:22	-->	sleetdrop (~sleetdrop@123.114.51.166) has joined #clojure
+2013-08-31 09:29:43	<--	sleetdrop (~sleetdrop@123.114.51.166) has quit (Client Quit)
+2013-08-31 09:30:32	<--	alisdair (~textual@207.6.110.74) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-08-31 09:32:19	arcatan	:)
+2013-08-31 09:32:31	<--	tsantos (~tom@c-71-198-202-219.hsd1.ca.comcast.net) has quit (Quit: tsantos)
+2013-08-31 09:32:35	dpathakj	what situation are you in that this problem came up?
+2013-08-31 09:34:26	-->	alexbaranosky_ (~alexander@c-67-180-97-124.hsd1.ca.comcast.net) has joined #clojure
+2013-08-31 09:36:09	arcatan	i was trying to add one macro's docstring to another macro
+2013-08-31 09:36:21	arcatan	asked that before i igured out ^{:doc } works.
+2013-08-31 09:37:42	-->	ewnd9 (~ewnd9@5.254.251.62) has joined #clojure
+2013-08-31 09:41:18	-->	alexyakushev (~unlogic@2001:700:1d00:26:3e97:eff:fe0b:bae3) has joined #clojure
+2013-08-31 09:46:21	arcatan	i guess there's nothing around for re-exporting things from other namespaces? (appararently like defalias that used to be in clojure-contrib)
+2013-08-31 09:46:30	<--	yedi (~yedi@c-24-128-171-190.hsd1.ma.comcast.net) has quit (Remote host closed the connection)
+2013-08-31 09:50:00	<--	hoeck1 (~timmy@p508465A4.dip0.t-ipconnect.de) has quit (Quit: Leaving.)
+2013-08-31 09:51:26	-->	ILoveMilka (~urs1412@p5484A6DB.dip0.t-ipconnect.de) has joined #clojure
+2013-08-31 09:52:40	--	yogthos|away is now known as yogthos
+2013-08-31 09:55:07	-->	vijaykiran (~user@80.113.145.6) has joined #clojure
+2013-08-31 09:56:31	<--	zamaterian (~Thomas@port13.ds1-oebr.adsl.cybercity.dk) has quit (Ping timeout: 246 seconds)
+2013-08-31 10:00:06	<--	piranha (~piranha@192.162.132.12) has quit (Remote host closed the connection)
+2013-08-31 10:00:25	<--	ericmathison (~ericmathi@172-15-249-133.lightspeed.irvnca.sbcglobal.net) has quit (Quit: leaving)
+2013-08-31 10:02:01	-->	ordnungswidrig (~Adium@37-4-24-232-dynip.superkabel.de) has joined #clojure
+2013-08-31 10:02:07	--	yogthos is now known as yogthos|away
+2013-08-31 10:04:52	<--	_KK (~kiran@122.170.24.148) has quit (Quit: Time for me to sleep)
+2013-08-31 10:04:56	-->	`cbp (~user@189.139.129.36) has joined #clojure
+2013-08-31 10:05:15	-->	eldariof (~CLD@pppoe-200-238-dyn-sr.volgaline.ru) has joined #clojure
+2013-08-31 10:05:34	-->	zamaterian (~Thomas@port13.ds1-oebr.adsl.cybercity.dk) has joined #clojure
+2013-08-31 10:06:24	-->	yedi (~yedi@c-24-128-171-190.hsd1.ma.comcast.net) has joined #clojure
+2013-08-31 10:06:32	-->	danielszmulewicz (~danielszm@185.3.146.143) has joined #clojure
+2013-08-31 10:08:43	<--	kcin (~kcin@unaffiliated/kcin) has quit (Quit: Bye)
+2013-08-31 10:08:45	<--	jbomo (~dkd@pool-108-23-62-223.lsanca.fios.verizon.net) has quit (Ping timeout: 245 seconds)
+2013-08-31 10:09:01	<--	`cbp (~user@189.139.129.36) has quit (Ping timeout: 240 seconds)
+2013-08-31 10:11:18	<--	przl (~przlrkt@p5DCA32DA.dip0.t-ipconnect.de) has quit (Ping timeout: 256 seconds)
+2013-08-31 10:13:47	<--	ordnungswidrig (~Adium@37-4-24-232-dynip.superkabel.de) has quit (Quit: Leaving.)
+2013-08-31 10:14:12	<--	zeroem1 (~dhamilton@76.89.160.217) has left #clojure
+2013-08-31 10:15:43	-->	mishok13 (~mishok13@ip5450bc54.adsl-surfen.hetnet.nl) has joined #clojure
+2013-08-31 10:16:55	<--	yedi (~yedi@c-24-128-171-190.hsd1.ma.comcast.net) has quit (Remote host closed the connection)
+2013-08-31 10:18:10	-->	kofno (~kofno@cpe-24-165-210-251.neo.res.rr.com) has joined #clojure
+2013-08-31 10:18:23	<--	fooblya_monad (~abaddon@178.124.122.102) has quit (Ping timeout: 240 seconds)
+2013-08-31 10:19:59	<--	chronno (~chronno@187-162-126-107.static.axtel.net) has quit (Ping timeout: 260 seconds)
+2013-08-31 10:20:52	-->	n1x (~n1x@unaffiliated/n1xnc0d3) has joined #clojure
+2013-08-31 10:22:25	-->	firesofmay (~firesofma@122.169.71.146) has joined #clojure
+2013-08-31 10:22:31	<--	kofno (~kofno@cpe-24-165-210-251.neo.res.rr.com) has quit (Ping timeout: 245 seconds)
+2013-08-31 10:23:09	<--	bungoman (~bungoman@cpe-76-184-142-76.tx.res.rr.com) has quit (Remote host closed the connection)
+2013-08-31 10:23:30	-->	s-h (~s-h@aftr-37-24-156-114.unity-media.net) has joined #clojure
+2013-08-31 10:23:42	-->	fooblya_monad (~abaddon@178.124.123.148) has joined #clojure
+2013-08-31 10:24:57	-->	Bronsa (~bronco@217.203.144.246) has joined #clojure
+2013-08-31 10:25:52	<--	loganlinn (~Adium@c-98-210-140-156.hsd1.ca.comcast.net) has quit (Quit: Leaving.)
+2013-08-31 10:26:16	<--	andreh (~andreh@186.213.203.7) has quit (Ping timeout: 245 seconds)
+2013-08-31 10:27:49	-->	sojacques (~klodio@softbank218138238070.bbtec.net) has joined #clojure
+2013-08-31 10:29:30	<--	eldariof (~CLD@pppoe-200-238-dyn-sr.volgaline.ru) has quit (Ping timeout: 268 seconds)
+2013-08-31 10:31:04	-->	Guest50834 (~piranha@192.162.132.12) has joined #clojure
+2013-08-31 10:31:08	<--	Bronsa (~bronco@217.203.144.246) has quit (Ping timeout: 256 seconds)
+2013-08-31 10:32:59	-->	ericmathison (~ericmathi@172-15-249-133.lightspeed.irvnca.sbcglobal.net) has joined #clojure
+2013-08-31 10:33:41	<--	shoky (uuuggg@185.3.146.71) has quit (Ping timeout: 248 seconds)
+2013-08-31 10:34:25	<--	danielszmulewicz (~danielszm@185.3.146.143) has quit (Quit: danielszmulewicz)
+2013-08-31 10:35:16	<--	mrBliss (~mrBliss@ip-83-101-78-95.customer.schedom-europe.net) has quit (Ping timeout: 264 seconds)
+2013-08-31 10:39:14	<--	ericmathison (~ericmathi@172-15-249-133.lightspeed.irvnca.sbcglobal.net) has quit (Quit: leaving)
+2013-08-31 10:39:30	<--	Guest50834 (~piranha@192.162.132.12) has quit (Ping timeout: 264 seconds)
+2013-08-31 10:39:57	-->	bosie (~bosie@91-119-56-173.dynamic.xdsl-line.inode.at) has joined #clojure
+2013-08-31 10:40:43	-->	fuz (~fuz@188-222-129-255.zone13.bethere.co.uk) has joined #clojure
+2013-08-31 10:40:48	-->	mrBliss (~mrBliss@ip-83-101-78-95.customer.schedom-europe.net) has joined #clojure
+2013-08-31 10:41:37	-->	prip_ (~foo@host133-128-dynamic.2-79-r.retail.telecomitalia.it) has joined #clojure
+2013-08-31 10:42:06	<--	n1x (~n1x@unaffiliated/n1xnc0d3) has quit (Ping timeout: 264 seconds)
+2013-08-31 10:44:11	<--	tcrayford (tcrayford@gateway/shell/ircrelay.com/x-fyiirmrkbzaeetgh) has left #clojure ("Linkinus - http://linkinus.com")
+2013-08-31 10:44:41	-->	GeneralMaximus (~ankur@122.166.181.111) has joined #clojure
+2013-08-31 10:46:16	-->	andreh (~andreh@186.213.203.7) has joined #clojure
+2013-08-31 10:47:02	-->	emil0r (~emil0r@193.11.200.37.customer.cdi.no) has joined #clojure
+2013-08-31 10:47:37	<--	mihneadb (~mihneadb@108-83-17-132.lightspeed.sntcca.sbcglobal.net) has quit (Remote host closed the connection)
+2013-08-31 10:49:38	-->	shoky (uuuggg@185.3.146.164) has joined #clojure
+2013-08-31 10:50:51	<--	ddellacosta (~ddellacos@softbank126126205031.bbtec.net) has quit (Quit: ddellacosta)
+2013-08-31 10:54:43	-->	ddellacosta (~ddellacos@softbank126126205031.bbtec.net) has joined #clojure
+2013-08-31 10:55:37	-->	clj_newb_2345 (800c5564@gateway/web/freenode/ip.128.12.85.100) has joined #clojure
+2013-08-31 10:55:41	-->	rodrigovidal (~rodrigovi@201.37.47.64) has joined #clojure
+2013-08-31 10:55:50	clj_newb_2345	http://docs.datomic.com/getting-started.html <- is this tutorial available as a *.clj rather than a bunch of commands ot type into bin/shell
+2013-08-31 10:57:45	-->	IamDrowsy (~quassel@drsd-4dbdbd31.pool.mediaWays.net) has joined #clojure
+2013-08-31 10:58:12	<--	jyeo (uid12229@gateway/web/irccloud.com/x-djdvczgzooijiyij) has quit (Quit: Connection closed for inactivity)
+2013-08-31 10:58:21	<--	maxter (~maxter@gaffeless.chaperon.volia.net) has quit (Ping timeout: 245 seconds)
+2013-08-31 10:58:35	sojacques	Hello everyone, I am looking for advice regarding a relatively simple database interacting app that I just started
+2013-08-31 10:59:08	<--	GeneralMaximus (~ankur@122.166.181.111) has quit (Quit: Computer has gone to sleep.)
+2013-08-31 10:59:17	<--	joshnz (~joshnz@121.99.255.67) has quit (Ping timeout: 248 seconds)
+2013-08-31 10:59:26	sojacques	I tried googling, but couldn't find anything to help me generate routes or simple crud operations, so I'm asking here
+2013-08-31 11:00:09	clj_newb_2345	use datomic
+2013-08-31 11:00:12	clj_newb_2345	it solves all db problems
+2013-08-31 11:00:25	sojacques	does such a thing exist? or is this something that goes against idiomatic clojure ways?
+2013-08-31 11:00:42	<--	zamaterian (~Thomas@port13.ds1-oebr.adsl.cybercity.dk) has quit (Ping timeout: 264 seconds)
+2013-08-31 11:01:13	sojacques	what makes datomic so good? I was considering a sql store because of simple reporting & all that
+2013-08-31 11:01:15	vijaykiran	sojacques: there's no rails like scuffolding stuff AFAIK
+2013-08-31 11:01:23	s4muel	sojacques: if you're looking for Clojure's "Rails", no, there isn't one -- and it wouldn't really be very idiomatic.
+2013-08-31 11:02:00	sojacques	I'm not looking for rails, but as I saw compojure and korma, I thought that maybe someone made something to generate code
+2013-08-31 11:02:17	sojacques	I'm against the idea of a monolithic framework, and more looking for simple tools
+2013-08-31 11:02:34	vijaykiran	nope, I do it by hand - some notes here: http://www.vijaykiran.com/tags/clojure/
+2013-08-31 11:02:34	sojacques	vijaykiran: thanks for the answer anyways!
+2013-08-31 11:02:52	s4muel	sojacques: compojure + liberator for RESTy things? Luminus, perhaps?
+2013-08-31 11:03:06	<--	rodrigovidal (~rodrigovi@201.37.47.64) has quit (Ping timeout: 264 seconds)
+2013-08-31 11:03:27	sojacques	wow, liberator looks impressive
+2013-08-31 11:04:09	--	amalloy is now known as amalloy_
+2013-08-31 11:04:18	sojacques	thanks a lot guys
+2013-08-31 11:04:20	clj_newb_2345	how does "lein repl" and "lein trampoline repl" differ, and how do I get nrepl.el to start emacs in the 2nd mode
+2013-08-31 11:05:01	<--	TEttinger (~notostrac@76-217-25-235.lightspeed.irvnca.sbcglobal.net) has quit (Ping timeout: 245 seconds)
+2013-08-31 11:05:48	s4muel	lein tramopline kills the original leiningen jvm process after running whatever you want to run (in this case, a repl)
+2013-08-31 11:06:08	s4muel	s/tramopline/trampoline/
+2013-08-31 11:06:37	vijaykiran	clj_newb_2345: can't you connect using nrepl and specify 127.0.0.1 and whatever the port from emacs ?
+2013-08-31 11:07:07	-->	maxter (~maxter@gaffeless.chaperon.volia.net) has joined #clojure
+2013-08-31 11:12:56	--	yogthos|away is now known as yogthos
+2013-08-31 11:15:29	<--	clj_newb_2345 (800c5564@gateway/web/freenode/ip.128.12.85.100) has left #clojure
+2013-08-31 11:15:53	sojacques	followup question: as I already did some scaffolding stuff from db models in other languages, I was told that lisp dialects were the best thing code, but I have ho experience and am looking to do it
+2013-08-31 11:16:04	-->	patrick_ (~patrick@24-52-232-230.cable.teksavvy.com) has joined #clojure
+2013-08-31 11:16:06	sojacques	so I can learn why lisps are good
+2013-08-31 11:16:17	-->	vurma (~kimchi@nl112-165-152.student.uu.se) has joined #clojure
+2013-08-31 11:16:27	sojacques	can anyone lead me towards what's good with clojure for generating code?
+2013-08-31 11:16:56	<--	DrPheltRight (~DrPheltRi@unaffiliated/drpheltright) has quit (Quit: AFK)
+2013-08-31 11:17:06	jave	hello
+2013-08-31 11:17:16	<--	rbxbx`` (~user@pool-72-69-143-54.nycmny.fios.verizon.net) has quit (Read error: Connection reset by peer)
+2013-08-31 11:17:29	sojacques	damn that feels horrible to ask questions that are probably very beginner level
+2013-08-31 11:17:40	-->	przl (~przlrkt@p5DCA32DA.dip0.t-ipconnect.de) has joined #clojure
+2013-08-31 11:17:53	vijaykiran	sojacques: so you want to learn about macros ?
+2013-08-31 11:18:00	-->	rbxbx`` (~user@pool-72-69-143-54.nycmny.fios.verizon.net) has joined #clojure
+2013-08-31 11:18:15	vijaykiran	sojacques: I don't think code generating code is the same as scaffolding ...
+2013-08-31 11:18:25	noidi	sojacques, http://pragprog.com/magazines/2011-07/growing-a-dsl-with-clojure
+2013-08-31 11:18:39	-->	kofno (~kofno@cpe-24-165-210-251.neo.res.rr.com) has joined #clojure
+2013-08-31 11:18:43	noidi	maybe that could help
+2013-08-31 11:19:03	jave	I would like to make a call to a json rest backend in clojure. is there some convenient library? I have done the same in emacs lisp and it was pretty straightforward there: https://github.com/jave/curconv
+2013-08-31 11:19:18	<--	francis_wolke (62cf9ba1@gateway/web/cgi-irc/kiwiirc.com/ip.98.207.155.161) has quit (Quit: http://www.kiwiirc.com/ - A hand crafted IRC client)
+2013-08-31 11:19:25	sojacques	sorry, let me try to be more clear, I want to connect to a db, query tables and relations, generate korma code and compojure routes from that, and save them to files
+2013-08-31 11:19:32	-->	francis_wolke (62cf9ba1@gateway/web/cgi-irc/kiwiirc.com/ip.98.207.155.161) has joined #clojure
+2013-08-31 11:19:44	sojacques	connecting to a db and operating sql is fine
+2013-08-31 11:20:01	vijaykiran	jave: how does this look : https://github.com/technomancy/clojure-http-client
+2013-08-31 11:20:06	<--	przl (~przlrkt@p5DCA32DA.dip0.t-ipconnect.de) has quit (Read error: Operation timed out)
+2013-08-31 11:20:34	sojacques	but the rest is what I don't know
+2013-08-31 11:20:41	vijaykiran	sojacques: then it isn't a macro exploration per se - AFAIK
+2013-08-31 11:21:16	-->	Bronsa (~bronco@217.203.144.246) has joined #clojure
+2013-08-31 11:21:34	vijaykiran	sojacques: if you have the "result" code, you can work your way up ..
+2013-08-31 11:22:24	--	yogthos is now known as yogthos|away
+2013-08-31 11:22:39	sojacques	vijaykiran: I see, in this case, does clojure provide me with anything over "generate strings in C, as you know how korma code will look like"
+2013-08-31 11:22:46	<--	francis_wolke (62cf9ba1@gateway/web/cgi-irc/kiwiirc.com/ip.98.207.155.161) has quit (Client Quit)
+2013-08-31 11:22:52	vijaykiran	sojacques: of course, edn
+2013-08-31 11:22:53	sojacques	Please feel free to tell me if I'm totally misled
+2013-08-31 11:22:58	<--	kofno (~kofno@cpe-24-165-210-251.neo.res.rr.com) has quit (Ping timeout: 246 seconds)
+2013-08-31 11:23:22	-->	delihiro_ (~delihiros@pa37f9d.ngnont01.ap.so-net.ne.jp) has joined #clojure
+2013-08-31 11:23:57	sojacques	wow
+2013-08-31 11:24:13	vijaykiran	sojacques: e.g. if you have one table Users, and you want to generate /users/:id, /users routes and korma code to generate .. first start with the resultant code
+2013-08-31 11:24:22	vijaykiran	sojacques: and work in "reverse"
+2013-08-31 11:24:33	sojacques	this is what I would like to do, yes
+2013-08-31 11:24:56	sojacques	can I treat this code as some list that I would just generate?
+2013-08-31 11:24:57	<--	ddellacosta (~ddellacos@softbank126126205031.bbtec.net) has quit (Quit: ddellacosta)
+2013-08-31 11:25:00	sojacques	lists*
+2013-08-31 11:25:04	vijaykiran	yup
+2013-08-31 11:25:08	sojacques	woah
+2013-08-31 11:25:14	vijaykiran	that's LISt Processing
+2013-08-31 11:25:23	vijaykiran	a.k.a LISP
+2013-08-31 11:25:31	 *	sojacques enlighten
+2013-08-31 11:26:02	sojacques	but those lists are full of keywords and the like, won't the compiler scream all the way?
+2013-08-31 11:26:12	sojacques	well I'll try anyways, now I got the direction
+2013-08-31 11:26:15	sojacques	thanks
+2013-08-31 11:26:16	jave	vijaykiran: thanks, i followed the link, and they in turn recomended this, which seems nice: https://github.com/dakrone/clj-http
+2013-08-31 11:26:46	vijaykiran	sojacques: good luck :)
+2013-08-31 11:26:56	vijaykiran	sojacques: you just quote the forms
+2013-08-31 11:27:28	-->	yedi (~yedi@c-24-128-171-190.hsd1.ma.comcast.net) has joined #clojure
+2013-08-31 11:27:55	sojacques	alright, finally I'll do something more interesting in Clojure than solving algorithmic problems, I get to do something that will save my precious time in the long run
+2013-08-31 11:28:34	sojacques	thanks a lot
+2013-08-31 11:29:50	jave	another question, if i want to add leiningen deps on the fly, withouth restarting the repl, do i use this: https://github.com/cemerick/pomegranate, or some other means?
+2013-08-31 11:30:26	vijaykiran	jave: pomegranate should be it.
+2013-08-31 11:30:49	vijaykiran	jave: also, see http://thinkrelevance.com/blog/2013/06/04/clojure-workflow-reloaded
+2013-08-31 11:32:18	<--	yedi (~yedi@c-24-128-171-190.hsd1.ma.comcast.net) has quit (Ping timeout: 264 seconds)
+2013-08-31 11:33:02	<--	kludge` (~comet@unaffiliated/espiral) has quit (Ping timeout: 240 seconds)
+2013-08-31 11:33:10	jave	thanks
+2013-08-31 11:33:55	jave	im a bit rusty with clojure, it seems.
+2013-08-31 11:34:18	<--	patrick_ (~patrick@24-52-232-230.cable.teksavvy.com) has quit (Ping timeout: 264 seconds)
+2013-08-31 11:36:45	<--	timsg (~timothyga@ool-4572c740.dyn.optonline.net) has quit (Quit: timsg)
+2013-08-31 11:37:17	-->	ustunozgur (~ustunozgu@78.163.231.76) has joined #clojure
+2013-08-31 11:38:54	<--	ndrei (~avo@83.142.149.227) has quit (Ping timeout: 264 seconds)
+2013-08-31 11:38:58	-->	kludge` (~comet@unaffiliated/espiral) has joined #clojure
+2013-08-31 11:40:33	<--	ewnd9 (~ewnd9@5.254.251.62) has quit (Ping timeout: 245 seconds)
+2013-08-31 11:42:54	<--	dpwright (~daniel@li413-20.members.linode.com) has left #clojure
+2013-08-31 11:53:09	--	yogthos|away is now known as yogthos
+2013-08-31 11:53:09	<--	rbxbx`` (~user@pool-72-69-143-54.nycmny.fios.verizon.net) has quit (Read error: Connection reset by peer)
+2013-08-31 11:53:11	-->	rbxbx``` (~user@pool-72-69-143-54.nycmny.fios.verizon.net) has joined #clojure
+2013-08-31 11:55:27	-->	karls (~karls@176.250.172.118) has joined #clojure
+2013-08-31 11:55:38	-->	ndrei (~avo@83.142.149.227) has joined #clojure
+2013-08-31 11:55:44	<--	karls (~karls@176.250.172.118) has quit (Remote host closed the connection)
+2013-08-31 11:56:59	<--	dark_element (~textual@219.91.250.230) has quit (Quit: Computer has gone to sleep.)
+2013-08-31 11:58:04	<--	firesofmay (~firesofma@122.169.71.146) has quit (Quit: Computer has gone to sleep.)
+2013-08-31 11:59:09	-->	dark_element (~textual@219.91.250.230) has joined #clojure
+2013-08-31 12:00:27	-->	babilen (~babilen@unaffiliated/babilen) has joined #clojure
+2013-08-31 12:02:04	<--	shiranaihito (~shiranaih@91-158-40-166.elisa-laajakaista.fi) has quit (Remote host closed the connection)
+2013-08-31 12:02:31	<--	jaimef (jaimef@dns.mauthesis.com) has quit (Excess Flood)
+2013-08-31 12:02:36	--	yogthos is now known as yogthos|away
+2013-08-31 12:04:53	-->	deobald (~textual@173.243.43.154) has joined #clojure
+2013-08-31 12:05:44	-->	babu` (~user@122.172.245.2) has joined #clojure
+2013-08-31 12:06:17	<--	rbxbx``` (~user@pool-72-69-143-54.nycmny.fios.verizon.net) has quit (Read error: Connection reset by peer)
+2013-08-31 12:06:19	-->	rbxbx```` (~user@pool-72-69-143-54.nycmny.fios.verizon.net) has joined #clojure
+2013-08-31 12:09:17	-->	jaimef (jaimef@dns.mauthesis.com) has joined #clojure
+2013-08-31 12:11:18	<--	josteink (~jostein@cm-84.215.73.196.getinternet.no) has quit (Quit: rasplex)
+2013-08-31 12:14:33	-->	firesofmay (~firesofma@61.12.96.226) has joined #clojure
+2013-08-31 12:15:25	<--	eamelink (~quassel@2001:610:7de:0:f489:eb48:9316:44d0) has quit (Read error: Connection reset by peer)
+2013-08-31 12:16:11	<--	dark_element (~textual@219.91.250.230) has quit (Ping timeout: 268 seconds)
+2013-08-31 12:19:09	-->	kofno (~kofno@cpe-24-165-210-251.neo.res.rr.com) has joined #clojure
+2013-08-31 12:19:11	-->	dark_element (~textual@123.201.193.9) has joined #clojure
+2013-08-31 12:19:56	-->	shiftyeyes (~nschile@75.81.27.92) has joined #clojure
+2013-08-31 12:22:34	<--	dek5 (~eugene@mail.quickpay.ru) has quit (Quit: Leaving.)
+2013-08-31 12:23:33	<--	kofno (~kofno@cpe-24-165-210-251.neo.res.rr.com) has quit (Ping timeout: 248 seconds)
+2013-08-31 12:24:13	<--	shiftyeyes (~nschile@75.81.27.92) has quit (Ping timeout: 246 seconds)
+2013-08-31 12:31:16	<--	beberlei (~twitter@koln-5d8195a2.pool.mediaWays.net) has quit (Ping timeout: 245 seconds)
+2013-08-31 12:31:33	<--	babu` (~user@122.172.245.2) has quit (Read error: Connection reset by peer)
+2013-08-31 12:32:31	-->	Okasu (~1@unaffiliated/okasu) has joined #clojure
+2013-08-31 12:34:30	-->	Bronsino (~bronco@217.203.144.246) has joined #clojure
+2013-08-31 12:34:32	-->	Cumbayah (~cumbayah@2503ds1-vby15.0.fullrate.dk) has joined #clojure
+2013-08-31 12:36:30	-->	arohner (~arohner@75-13-85-204.lightspeed.austtx.sbcglobal.net) has joined #clojure
+2013-08-31 12:37:57	-->	eamelink (~quassel@2001:610:7de:0:7c4b:9bca:1787:746) has joined #clojure
+2013-08-31 12:38:21	<--	Bronsa (~bronco@217.203.144.246) has quit (Ping timeout: 245 seconds)
+2013-08-31 12:38:41	<--	babilen (~babilen@unaffiliated/babilen) has quit (Read error: Connection reset by peer)
+2013-08-31 12:38:55	<--	Bronsino (~bronco@217.203.144.246) has quit (Ping timeout: 246 seconds)
+2013-08-31 12:39:25	-->	codeburg (~folker@85.183.24.157) has joined #clojure
+2013-08-31 12:41:15	<--	arohner (~arohner@75-13-85-204.lightspeed.austtx.sbcglobal.net) has quit (Ping timeout: 256 seconds)
+2013-08-31 12:41:39	-->	tbaldridge (~tim@c-67-190-114-220.hsd1.co.comcast.net) has joined #clojure
+2013-08-31 12:42:45	-->	oliverro (~oliverro@80-219-182-215.dclient.hispeed.ch) has joined #clojure
+2013-08-31 12:46:18	<--	tbaldridge (~tim@c-67-190-114-220.hsd1.co.comcast.net) has quit (Ping timeout: 264 seconds)
+2013-08-31 12:48:35	<--	alexbaranosky_ (~alexander@c-67-180-97-124.hsd1.ca.comcast.net) has quit (Quit: alexbaranosky_)
+2013-08-31 12:51:17	<--	sevvie_ (~sevvie@75-147-181-145-Washington.hfc.comcastbusiness.net) has quit (Ping timeout: 248 seconds)
+2013-08-31 12:52:53	<--	fooblya_monad (~abaddon@178.124.123.148) has quit (Ping timeout: 240 seconds)
+2013-08-31 12:53:53	<--	sojacques (~klodio@softbank218138238070.bbtec.net) has quit (Remote host closed the connection)
+2013-08-31 12:53:57	-->	cemerick (~cemerick@c-71-192-116-188.hsd1.ma.comcast.net) has joined #clojure
+2013-08-31 12:55:36	-->	_KK (~kiran@122.170.24.148) has joined #clojure
+2013-08-31 12:55:46	<--	oliverro (~oliverro@80-219-182-215.dclient.hispeed.ch) has quit (Ping timeout: 240 seconds)
+2013-08-31 12:58:17	-->	ewnd9 (~ewnd9@5.254.251.62) has joined #clojure
+2013-08-31 12:58:59	-->	fooblya_monad (~abaddon@178.121.5.13) has joined #clojure
+2013-08-31 12:59:37	-->	arborist (~arborist@e182017126.adsl.alicedsl.de) has joined #clojure
+2013-08-31 13:00:35	<--	_KK (~kiran@122.170.24.148) has quit (Ping timeout: 268 seconds)
+2013-08-31 13:02:28	-->	_KK (~kiran@122.169.76.76) has joined #clojure
+2013-08-31 13:03:07	-->	hjpotter92 (uid11372@gateway/web/irccloud.com/x-gwbbfbryninbhzar) has joined #clojure
+2013-08-31 13:03:50	<--	hjpotter92 (uid11372@gateway/web/irccloud.com/x-gwbbfbryninbhzar) has left #clojure
+2013-08-31 13:05:59	<--	deobald (~textual@173.243.43.154) has quit (Quit: Computer has gone to sleep.)
+2013-08-31 13:07:03	<--	vijaykiran (~user@80.113.145.6) has quit (Ping timeout: 260 seconds)
+2013-08-31 13:08:00	<--	jkkramer (~anonymous@cpe-74-67-183-85.rochester.res.rr.com) has quit (Quit: jkkramer)
+2013-08-31 13:09:13	<--	fuz (~fuz@188-222-129-255.zone13.bethere.co.uk) has quit (Quit: This computer has gone to sleep)
+2013-08-31 13:09:36	<--	arborist (~arborist@e182017126.adsl.alicedsl.de) has quit (Ping timeout: 245 seconds)
+2013-08-31 13:13:14	--	yogthos|away is now known as yogthos
+2013-08-31 13:13:27	-->	soulofpeace (~soulofpea@175.156.232.233) has joined #clojure
+2013-08-31 13:15:04	-->	oliverro (~oliverro@80-219-182-215.dclient.hispeed.ch) has joined #clojure
+2013-08-31 13:16:53	<--	codeburg (~folker@85.183.24.157) has quit (Quit: This computer has gone to sleep)
+2013-08-31 13:17:31	-->	babilen (~babilen@unaffiliated/babilen) has joined #clojure
+2013-08-31 13:17:52	-->	tbaldridge (~tim@c-67-190-114-220.hsd1.co.comcast.net) has joined #clojure
+2013-08-31 13:19:38	-->	kofno (~kofno@cpe-24-165-210-251.neo.res.rr.com) has joined #clojure
+2013-08-31 13:22:35	-->	deobald (~textual@173.243.43.154) has joined #clojure
+2013-08-31 13:22:42	--	yogthos is now known as yogthos|away
+2013-08-31 13:23:29	<--	firesofmay (~firesofma@61.12.96.226) has quit (Quit: Computer has gone to sleep.)
+2013-08-31 13:24:11	<--	kofno (~kofno@cpe-24-165-210-251.neo.res.rr.com) has quit (Ping timeout: 245 seconds)
+2013-08-31 13:25:55	<--	xl (~xl@123.113.159.146) has left #clojure
+2013-08-31 13:27:41	-->	arborist (~arborist@e182017126.adsl.alicedsl.de) has joined #clojure
+2013-08-31 13:28:32	-->	firesofmay (~firesofma@61.12.96.226) has joined #clojure
+2013-08-31 13:28:37	<--	oliverro (~oliverro@80-219-182-215.dclient.hispeed.ch) has quit (Ping timeout: 248 seconds)
+2013-08-31 13:29:50	<--	tbaldridge (~tim@c-67-190-114-220.hsd1.co.comcast.net) has quit (Remote host closed the connection)
+2013-08-31 13:30:02	<--	babilen (~babilen@unaffiliated/babilen) has quit (Quit: leaving)
+2013-08-31 13:34:39	-->	francis_wolke (62cf9ba1@gateway/web/cgi-irc/kiwiirc.com/ip.98.207.155.161) has joined #clojure
+2013-08-31 13:39:16	-->	fuz (~fuz@188-222-129-255.zone13.bethere.co.uk) has joined #clojure
+2013-08-31 13:39:48	-->	vijaykiran (~user@80.113.145.6) has joined #clojure
+2013-08-31 13:39:56	<--	yacks (~py@103.6.159.99) has quit (Quit: Leaving)
+2013-08-31 13:40:18	llasram	jave: Use alembic: https://github.com/pallet/alembic
+2013-08-31 13:46:31	<--	dark_element (~textual@123.201.193.9) has quit (Quit: Computer has gone to sleep.)
+2013-08-31 13:46:43	<--	arborist (~arborist@e182017126.adsl.alicedsl.de) has quit (Ping timeout: 260 seconds)
+2013-08-31 13:50:52	<--	IamDrowsy (~quassel@drsd-4dbdbd31.pool.mediaWays.net) has quit (Remote host closed the connection)
+2013-08-31 13:52:37	<--	soulofpeace (~soulofpea@175.156.232.233) has quit (Ping timeout: 248 seconds)
+2013-08-31 13:53:18	-->	hoeck1 (~timmy@p508465A4.dip0.t-ipconnect.de) has joined #clojure
+2013-08-31 13:53:37	--	yogthos|away is now known as yogthos
+2013-08-31 13:54:22	-->	rcg (~rcg@2a02:908:e250:3801:76de:2bff:fe08:7809) has joined #clojure
+2013-08-31 13:54:35	<--	jjs (~jjs@2001:470:1f05:1b13:7d4a:6ee0:6bf1:ca56) has quit (Ping timeout: 245 seconds)
+2013-08-31 13:59:01	-->	Bronsa (~bronco@217.203.144.246) has joined #clojure
+2013-08-31 13:59:40	-->	kofno_ (~kofno@cpe-24-165-210-251.neo.res.rr.com) has joined #clojure
+2013-08-31 14:01:42	-->	codeburg (~folker@85.183.24.157) has joined #clojure
+2013-08-31 14:01:59	-->	arborist (~arborist@e182017126.adsl.alicedsl.de) has joined #clojure
+2013-08-31 14:02:01	-->	osvico (~UPP@c-98-194-253-51.hsd1.tx.comcast.net) has joined #clojure
+2013-08-31 14:02:03	<--	deobald (~textual@173.243.43.154) has quit (Quit: Computer has gone to sleep.)
+2013-08-31 14:03:06	--	yogthos is now known as yogthos|away
+2013-08-31 14:03:08	-->	sheldonh (~sheldonh@41.56.223.189) has joined #clojure
+2013-08-31 14:07:58	--	yogthos|away is now known as yogthos
+2013-08-31 14:08:46	<--	Bronsa (~bronco@217.203.144.246) has quit (Ping timeout: 245 seconds)
+2013-08-31 14:09:24	sheldonh	i'm a newbie trying to implement my own reverse function (just to explore), and i don't understand why my function returns ((5(4(3(2(1())))))) instead of (5 4 3 2 1). some cons subtlety that i don't understand, maybe? http://fpaste.org/36232/
+2013-08-31 14:10:19	<--	Sgeo (~quassel@ool-ad034ea6.dyn.optonline.net) has quit (Read error: Connection reset by peer)
+2013-08-31 14:11:42	-->	Bronsa (~bronco@217.203.144.246) has joined #clojure
+2013-08-31 14:12:58	llasram	sheldonh: Because the `& b` means "accept any number of additional arguments and return them as a list".  So each call is (effectively) wrapping the second argument in a second layer of list
+2013-08-31 14:13:31	sheldonh	llasram: argh! like a splat in the languages i'm used to. okay thanks!
+2013-08-31 14:13:54	llasram	sheldonh: Np.  Something else to note in your function is that Clojure has what's called "nil punning"
+2013-08-31 14:14:19	--	kofno_ is now known as kofno
+2013-08-31 14:14:20	llasram	The `nil` value isn't *identical* to an empty list (like it is in some Lisps), but you can generally treat it as one
+2013-08-31 14:14:30	<--	vijaykiran (~user@80.113.145.6) has quit (Ping timeout: 264 seconds)
+2013-08-31 14:14:49	llasram	So you don't actually need to have the explicit `nil` case in your cond -- you already get the effect of an empty list "for free" there
+2013-08-31 14:15:19	sheldonh	llasram: i thought i was asking whether "the one optional argument called b was given?" :)
+2013-08-31 14:15:47	-->	beberlei (~twitter@tmo-100-189.customers.d1-online.com) has joined #clojure
+2013-08-31 14:16:28	llasram	sheldonh: Yah.  For that you generally just implement multiple arities of the function
+2013-08-31 14:16:43	sheldonh	llasram: perhaps i should just not bother trying to do it with one function, and have (defn xreverse-general [a b] ...) and (defn xreverse [a] ...)
+2013-08-31 14:17:13	llasram	sheldonh: No no -- one function is the way to go.  There are at least two ways to do it
+2013-08-31 14:17:20	sheldonh	llasram: that sounds good. reading http://clojure.org/functional_programming ... thanks!
+2013-08-31 14:18:35	llasram	sheldonh: If you're just getting started, I highly recommend http://www.clojurebook.com/
+2013-08-31 14:18:45	llasram	(the book -- not the website for the book)
+2013-08-31 14:18:53	-->	carif (~mcarifio@cpe-74-78-54-137.maine.res.rr.com) has joined #clojure
+2013-08-31 14:18:55	sheldonh	hehe
+2013-08-31 14:21:04	<--	eamelink (~quassel@2001:610:7de:0:7c4b:9bca:1787:746) has quit (Remote host closed the connection)
+2013-08-31 14:22:00	grandy	hello, just doing a tutorial about seesaw and have a question.  In my app, after loading lein repl, the function (show-gui) is not able to be resolved... not sure what i'm missing: http://nathanwilliams.github.io/2013/05/15/seesaw-gui-programming-the-clojure-way/
+2013-08-31 14:22:27	-->	tbaldridge (~tim@c-67-190-114-220.hsd1.co.comcast.net) has joined #clojure
+2013-08-31 14:23:28	grandy	anyone have the patience to help me with this very newb oriented problem
+2013-08-31 14:24:37	<--	beberlei (~twitter@tmo-100-189.customers.d1-online.com) has quit (Ping timeout: 248 seconds)
+2013-08-31 14:24:42	sheldonh	llasram: lovely, 'tworks! thanks. will check out the book when i've finished congratulating myself :) http://fpaste.org/36233/
+2013-08-31 14:25:45	-->	jkkramer (~anonymous@host-64-65-206-16.roc.choiceone.net) has joined #clojure
+2013-08-31 14:25:51	grandy	when i start lein repl will my namespaces be loaded automatically?
+2013-08-31 14:26:16	<--	delihiro_ (~delihiros@pa37f9d.ngnont01.ap.so-net.ne.jp) has quit (Remote host closed the connection)
+2013-08-31 14:26:29	llasram	grandy: If you have a :main namespace it will, and the REPL will start in that namespace.  Otherwise not
+2013-08-31 14:26:41	<--	tbaldridge (~tim@c-67-190-114-220.hsd1.co.comcast.net) has quit (Ping timeout: 245 seconds)
+2013-08-31 14:26:51	grandy	llasram: is there a way to ask the repl what namespace it's in?
+2013-08-31 14:26:51	<--	ustunozgur (~ustunozgu@78.163.231.76) has quit (Remote host closed the connection)
+2013-08-31 14:27:06	llasram	It should be printed in the prompt.  Usually starts as `user`
+2013-08-31 14:27:24	llasram	You can check the value of *ns* to see explicitly
+2013-08-31 14:27:24	-->	ustunozgur (~ustunozgu@78.163.231.76) has joined #clojure
+2013-08-31 14:27:27	-->	delihiros (~delihiros@pa37f9d.ngnont01.ap.so-net.ne.jp) has joined #clojure
+2013-08-31 14:27:52	grandy	llasram: hmm, it just says the namespace is user
+2013-08-31 14:28:17	-->	Bronsa` (~bronco@217.203.144.246) has joined #clojure
+2013-08-31 14:28:17	<--	Bronsa` (~bronco@217.203.144.246) has quit (Remote host closed the connection)
+2013-08-31 14:28:25	<--	Bronsa (~bronco@217.203.144.246) has quit (Quit: ERC Version 5.3 (IRC client for Emacs))
+2013-08-31 14:28:35	-->	Bronsa (~bronco@217.203.144.246) has joined #clojure
+2013-08-31 14:28:45	grandy	llasram: in my project.clj file I have :main "myprojectname.core"
+2013-08-31 14:28:56	grandy	llasram: and when is type lein run the program works as expected
+2013-08-31 14:29:13	grandy	llasram: however when i type lein repl and try to manually start the program, it is not being resolved
+2013-08-31 14:29:28	<--	kofno (~kofno@cpe-24-165-210-251.neo.res.rr.com) has quit (Remote host closed the connection)
+2013-08-31 14:29:40	-->	kofno (~kofno@cpe-24-165-210-251.neo.res.rr.com) has joined #clojure
+2013-08-31 14:30:22	-->	vijaykiran (~user@80.113.145.6) has joined #clojure
+2013-08-31 14:30:27	llasram	grandy: I'm not sure why the REPL isn't automatically ending up there, but you can always enter it manually, which is what one generally does anyway honestly
+2013-08-31 14:30:50	grandy	llasram: with :use ?
+2013-08-31 14:30:52	llasram	In the REPL, just `require` the namespace then `(in-ns 'correct.namespace.symbol)`
+2013-08-31 14:30:56	grandy	ahh
+2013-08-31 14:31:03	llasram	Or use your editor facility for the same
+2013-08-31 14:31:13	llasram	M-n in nrepl.el, for example
+2013-08-31 14:31:22	grandy	hmm ok let me try that
+2013-08-31 14:31:42	sheldonh	grandy: are you sure you're following that blog post? the namespace for the project.clj in the anvil-view repo is anvil-view.devel
+2013-08-31 14:31:45	<--	ustunozgur (~ustunozgu@78.163.231.76) has quit (Ping timeout: 256 seconds)
+2013-08-31 14:32:18	llasram	sheldonh: I kind of hope he's not following that blog post, because when I check out the project, it explodes with missing dependencies :-)
+2013-08-31 14:32:33	-->	rodrigovidal (~rodrigovi@201.37.47.64) has joined #clojure
+2013-08-31 14:32:41	grandy	sheldonh: well i didn't copy that aspect of it, i just am using the default lein app structure and I added seesaw and a basic dialog box, which opens when i type lein run
+2013-08-31 14:33:30	<--	Bronsa (~bronco@217.203.144.246) has quit (Quit: ERC Version 5.3 (IRC client for Emacs))
+2013-08-31 14:33:43	-->	mmullis (~mmullis@208.65.90.233) has joined #clojure
+2013-08-31 14:33:44	sheldonh	grandy: i was going to suggest a diff against the repo to spot the missing dependency, but llasram has cast doubt on that strategy, what with the repo exploding with missing dependencies out of the box. sorry :(
+2013-08-31 14:33:46	-->	Bronsa (~bronco@217.203.144.246) has joined #clojure
+2013-08-31 14:33:48	grandy	llasram: ok when i followed those steps in the repl (require and in-ns) it works as expected... i am guessing this must be how it's supposed to work
+2013-08-31 14:34:10	grandy	sheldonh: yeah was going to do that too until i noticed that about the deps
+2013-08-31 14:34:42	<--	rcg (~rcg@2a02:908:e250:3801:76de:2bff:fe08:7809) has quit (Ping timeout: 264 seconds)
+2013-08-31 14:34:45	grandy	so is the repl *supposed* to load a namespace other than user by default if I have added :main key to my project.clj?
+2013-08-31 14:35:36	<--	upwardindex (~upwardind@166.62.181.155) has quit (Quit: upwardindex)
+2013-08-31 14:35:44	-->	eamelink (~quassel@2001:610:7de:0:803a:4048:40c7:e49d) has joined #clojure
+2013-08-31 14:36:47	vijaykiran	grandy: nope, :main is just a hint that that namespace contains main function
+2013-08-31 14:37:27	-->	john2x (~John@121.54.54.56) has joined #clojure
+2013-08-31 14:37:44	grandy	vijaykiran: ahh ok perfect, glad my app is working as intended... just learning clojure and have read a fair bit but decided that actually building a few simple apps would be a good way to learn...
+2013-08-31 14:37:48	grandy	thanks for the help, everyone
+2013-08-31 14:37:51	vijaykiran	grandy: https://github.com/technomancy/leiningen/blob/master/sample.project.clj#L163
+2013-08-31 14:38:14	<--	firesofmay (~firesofma@61.12.96.226) has quit (Quit: Computer has gone to sleep.)
+2013-08-31 14:38:43	grandy	vijaykiran: ahh ok, looks like it's very well documented, i should read up
+2013-08-31 14:39:03	llasram	grandy: You can also pull that by running `lein sample`
+2013-08-31 14:39:20	<--	bosie (~bosie@91-119-56-173.dynamic.xdsl-line.inode.at) has quit (Read error: Connection reset by peer)
+2013-08-31 14:39:29	grandy	llasram: ahh that's a clever feature
+2013-08-31 14:40:04	-->	bosie (~bosie@91-119-56-173.dynamic.xdsl-line.inode.at) has joined #clojure
+2013-08-31 14:40:11	llasram	grandy: How are you REPL-ing?  Raw `lein repl`, or nrep.el, or something else?
+2013-08-31 14:40:44	grandy	llasram: just raw lein repl
+2013-08-31 14:41:34	llasram	Weird.  I definitely see that `lein repl` automatically switches to the project :main namespace.
+2013-08-31 14:41:48	<--	kitallis (~kitallis@122.166.176.62) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-08-31 14:41:48	llasram	What version of lein?
+2013-08-31 14:42:29	grandy	2.1.1
+2013-08-31 14:42:35	llasram	That said -- I definitely recommend hooking up some editor integration.  You don't get the full experience without being able to just shoot forms back and forth between your editor and your persistent REPL
+2013-08-31 14:43:06	grandy	llasram: hmm ok that sounds intriguing, i am using clojure mode, i'll try nrepl.el unless you have another recommendation?
+2013-08-31 14:43:23	llasram	grandy: Well, non-ancient.  Weird, but not quite weird enough to convince me to dig much deeper :-)
+2013-08-31 14:43:31	llasram	Yes -- nrepl.el is definitely the way to go from emacs
+2013-08-31 14:44:09	llasram	Should be just a M-x package-install away, then you can just hit M-j w/in a Clojure project to fire up an attached REPL
+2013-08-31 14:44:23	grandy	llasram: cool just installed it
+2013-08-31 14:46:16	<--	bosie (~bosie@91-119-56-173.dynamic.xdsl-line.inode.at) has quit (Ping timeout: 245 seconds)
+2013-08-31 14:47:06	-->	bosie (~bosie@91-119-56-173.dynamic.xdsl-line.inode.at) has joined #clojure
+2013-08-31 14:48:49	-->	ambrosebs (~ambrosebs@ppp121-45-245-7.lns20.per2.internode.on.net) has joined #clojure
+2013-08-31 14:49:30	<--	rodrigovidal (~rodrigovi@201.37.47.64) has quit (Ping timeout: 240 seconds)
+2013-08-31 14:49:32	<--	mjs2600 (~mjs2600@user-0c999kc.cable.mindspring.com) has quit (Ping timeout: 256 seconds)
+2013-08-31 14:49:58	ToxicFrog	Is there a convenient form for (if x x y)
+2013-08-31 14:50:14	llasram	ToxicFrog: (or x y) ?
+2013-08-31 14:50:25	<--	jack_rabbit (~kyle@c-98-253-60-75.hsd1.il.comcast.net) has quit (Ping timeout: 245 seconds)
+2013-08-31 14:51:17	-->	sandbags (~sandbags@cpc5-slou2-2-0-cust159.haye.cable.virginmedia.com) has joined #clojure
+2013-08-31 14:51:17	<--	sandbags (~sandbags@cpc5-slou2-2-0-cust159.haye.cable.virginmedia.com) has quit (Changing host)
+2013-08-31 14:51:17	-->	sandbags (~sandbags@unaffiliated/rubymatt) has joined #clojure
+2013-08-31 14:51:27	ToxicFrog	llasram: thanks
+2013-08-31 14:51:31	-->	Joreji (~thomas@77-23-110-134-dynip.superkabel.de) has joined #clojure
+2013-08-31 14:53:09	-->	tbaldridge (~tim@c-67-190-114-220.hsd1.co.comcast.net) has joined #clojure
+2013-08-31 14:54:43	<--	bosie (~bosie@91-119-56-173.dynamic.xdsl-line.inode.at) has quit (Ping timeout: 245 seconds)
+2013-08-31 14:54:50	<--	ambrosebs (~ambrosebs@ppp121-45-245-7.lns20.per2.internode.on.net) has quit (Remote host closed the connection)
+2013-08-31 14:55:24	<--	kephale (~Adium@pool-108-7-186-90.bstnma.fios.verizon.net) has quit (Quit: Leaving.)
+2013-08-31 14:58:21	-->	xsyn (~Adium@105-236-164-201.access.mtnbusiness.co.za) has joined #clojure
+2013-08-31 14:59:23	-->	mattmoss (~mattmoss@71.11.98.68) has joined #clojure
+2013-08-31 15:00:19	<--	tbaldridge (~tim@c-67-190-114-220.hsd1.co.comcast.net) has quit (Ping timeout: 246 seconds)
+2013-08-31 15:00:58	-->	glosoli (~glosoli@78-56-153-115.static.zebra.lt) has joined #clojure
+2013-08-31 15:01:04	<--	glosoli (~glosoli@78-56-153-115.static.zebra.lt) has quit (Changing host)
+2013-08-31 15:01:04	-->	glosoli (~glosoli@unaffiliated/glosoli) has joined #clojure
+2013-08-31 15:01:26	<--	ndrei (~avo@83.142.149.227) has quit (Ping timeout: 256 seconds)
+2013-08-31 15:05:06	-->	sohail (~sohail@unaffiliated/sohail) has joined #clojure
+2013-08-31 15:05:46	-->	chrisrossi (~crossi@cpe-107-015-057-096.nc.res.rr.com) has joined #clojure
+2013-08-31 15:06:12	-->	ndrei (~avo@83.142.149.227) has joined #clojure
+2013-08-31 15:10:49	<--	_uranium_ (~uranium@46.240.242.75) has quit (Ping timeout: 246 seconds)
+2013-08-31 15:12:09	<--	dpathakj (~dpathakj@198.244.107.230) has quit (Quit: dpathakj)
+2013-08-31 15:14:11	<--	r0bglees0n (~rob@subtle/contributor/robgleeson) has quit (Ping timeout: 245 seconds)
+2013-08-31 15:14:55	-->	kephale (~Adium@pool-72-70-77-14.bstnma.east.verizon.net) has joined #clojure
+2013-08-31 15:16:51	-->	dark_element (~textual@123.201.193.9) has joined #clojure
+2013-08-31 15:18:46	-->	drbobbeaty (~drbobbeat@c-98-226-62-6.hsd1.il.comcast.net) has joined #clojure
+2013-08-31 15:20:07	-->	ambrosebs (~ambrosebs@ppp121-45-245-7.lns20.per2.internode.on.net) has joined #clojure
+2013-08-31 15:21:26	<--	jaen (~jaen@ip169.copit.pl) has quit (Quit: WeeChat 0.4.1)
+2013-08-31 15:22:15	-->	jweiss (~jweiss@cpe-066-057-078-037.nc.res.rr.com) has joined #clojure
+2013-08-31 15:22:16	-->	jaen (~jaen@ip169.copit.pl) has joined #clojure
+2013-08-31 15:25:26	<--	sohail (~sohail@unaffiliated/sohail) has quit (Ping timeout: 245 seconds)
+2013-08-31 15:27:07	-->	tbaldridge (~tim@c-67-190-114-220.hsd1.co.comcast.net) has joined #clojure
+2013-08-31 15:28:16	-->	cdelo (~cdelo@99.192.33.131) has joined #clojure
+2013-08-31 15:28:43	-->	timsg (~timothyga@ool-4572c740.dyn.optonline.net) has joined #clojure
+2013-08-31 15:30:07	-->	skelternet (~skelterne@12.207.42.3) has joined #clojure
+2013-08-31 15:30:38	-->	_uranium_ (~uranium@46.240.242.75) has joined #clojure
+2013-08-31 15:32:23	-->	piranha (~piranha@192.162.132.12) has joined #clojure
+2013-08-31 15:32:24	<--	ambrosebs (~ambrosebs@ppp121-45-245-7.lns20.per2.internode.on.net) has quit (Read error: Connection reset by peer)
+2013-08-31 15:32:33	-->	sohail (~sohail@unaffiliated/sohail) has joined #clojure
+2013-08-31 15:33:00	<--	drbobbeaty (~drbobbeat@c-98-226-62-6.hsd1.il.comcast.net) has quit (Quit: drbobbeaty)
+2013-08-31 15:34:35	-->	deobald (~textual@blk-212-86-110.eastlink.ca) has joined #clojure
+2013-08-31 15:35:22	-->	ambrosebs (~ambrosebs@ppp121-45-245-7.lns20.per2.internode.on.net) has joined #clojure
+2013-08-31 15:35:57	-->	ordnungswidrig (~Adium@37-4-24-232-dynip.superkabel.de) has joined #clojure
+2013-08-31 15:37:13	<--	timsg (~timothyga@ool-4572c740.dyn.optonline.net) has quit (Ping timeout: 268 seconds)
+2013-08-31 15:38:46	<--	vurma (~kimchi@nl112-165-152.student.uu.se) has quit (Ping timeout: 245 seconds)
+2013-08-31 15:38:59	-->	onthestairs (~austin@cpc9-dals14-2-0-cust131.hari.cable.virginmedia.com) has joined #clojure
+2013-08-31 15:39:11	<--	Bronsa (~bronco@217.203.144.246) has quit (Ping timeout: 245 seconds)
+2013-08-31 15:39:32	-->	jchauncey (~jchauncey@70-59-19-98.hlrn.qwest.net) has joined #clojure
+2013-08-31 15:39:36	<--	francis_wolke (62cf9ba1@gateway/web/cgi-irc/kiwiirc.com/ip.98.207.155.161) has quit (Quit: http://www.kiwiirc.com/ - A hand crafted IRC client)
+2013-08-31 15:40:25	<--	deobald (~textual@blk-212-86-110.eastlink.ca) has quit (Quit: Computer has gone to sleep.)
+2013-08-31 15:42:11	<--	kephale (~Adium@pool-72-70-77-14.bstnma.east.verizon.net) has quit (Quit: Leaving.)
+2013-08-31 15:42:56	-->	mucker (~mucker@183.83.240.198) has joined #clojure
+2013-08-31 15:44:10	-->	rcg (~rcg@2a02:908:e250:3801:76de:2bff:fe08:7809) has joined #clojure
+2013-08-31 15:47:51	-->	normanrichards (~normanric@70.114.215.220) has joined #clojure
+2013-08-31 15:49:45	-->	fridim_ (~fridim@bas2-montreal07-2925317871.dsl.bell.ca) has joined #clojure
+2013-08-31 15:49:53	<--	ordnungswidrig (~Adium@37-4-24-232-dynip.superkabel.de) has quit (Quit: Leaving.)
+2013-08-31 15:51:07	-->	GeneralMaximus (~ankur@122.166.181.111) has joined #clojure
+2013-08-31 15:51:43	<--	ambrosebs (~ambrosebs@ppp121-45-245-7.lns20.per2.internode.on.net) has quit (Remote host closed the connection)
+2013-08-31 15:53:02	-->	Bronsa (~bronco@217.203.144.246) has joined #clojure
+2013-08-31 15:53:09	-->	uris77 (~uris77@200.123.210.2) has joined #clojure
+2013-08-31 15:53:30	-->	kawas44 (~kawas44@neu93-5-78-235-1-192.fbx.proxad.net) has joined #clojure
+2013-08-31 15:53:41	-->	DomKM (~DomKM@204.28.125.195) has joined #clojure
+2013-08-31 15:54:05	<--	sandbags (~sandbags@unaffiliated/rubymatt) has quit (Remote host closed the connection)
+2013-08-31 15:56:04	-->	sevvie (~sevvie@75-147-181-145-Washington.hfc.comcastbusiness.net) has joined #clojure
+2013-08-31 15:58:40	-->	mjs2600 (~mjs2600@west-7b-pat-1.oit.duke.edu) has joined #clojure
+2013-08-31 15:58:44	-->	bosie (~bosie@91-119-66-99.dynamic.xdsl-line.inode.at) has joined #clojure
+2013-08-31 15:59:09	<--	tbaldridge (~tim@c-67-190-114-220.hsd1.co.comcast.net) has quit (Remote host closed the connection)
+2013-08-31 16:00:25	-->	kephale (~Adium@129.64.233.216) has joined #clojure
+2013-08-31 16:00:35	grandy	quick follow on question to my namespace question earlier... now that i'm in my project's namespace, typing (doc reduce) into the repl doesn't resolve... nor does (clojure.core/doc reduce)  ... just curious how i'd access it w/o switching namespaces
+2013-08-31 16:00:45	<--	mmullis (~mmullis@208.65.90.233) has quit (Remote host closed the connection)
+2013-08-31 16:01:03	-->	mmullis (~mmullis@216.156.196.4.ptr.us.xo.net) has joined #clojure
+2013-08-31 16:01:03	llasram	grandy: `doc` is actually in the `clojure.repl` namespace
+2013-08-31 16:01:11	grandy	llasram: ahh ok :)
+2013-08-31 16:01:44	-->	jackhammer2022 (~textual@112.79.36.26) has joined #clojure
+2013-08-31 16:01:56	llasram	grandy: But if you're using nrepl.el now, try hiting C-c C-d on a symbol
+2013-08-31 16:02:25	--	yogthos is now known as yogthos|away
+2013-08-31 16:02:36	-->	francis_wolke (62cf9ba1@gateway/web/cgi-irc/kiwiirc.com/ip.98.207.155.161) has joined #clojure
+2013-08-31 16:02:59	<--	mjs2600 (~mjs2600@west-7b-pat-1.oit.duke.edu) has quit (Ping timeout: 256 seconds)
+2013-08-31 16:03:09	grandy	llasram: hmm do i need the symbol to be fully selected first?
+2013-08-31 16:03:29	llasram	grandy: You should just need to have the cursor w/in a symbol
+2013-08-31 16:03:55	-->	beberlei (~twitter@tmo-108-62.customers.d1-online.com) has joined #clojure
+2013-08-31 16:03:59	grandy	llasram: hmm getting some kind of url class loader exception
+2013-08-31 16:04:02	llasram	Hmm
+2013-08-31 16:04:15	llasram	That's....  unfortunate
+2013-08-31 16:04:27	-->	yacks (~py@103.6.159.99) has joined #clojure
+2013-08-31 16:04:30	<--	francis_wolke (62cf9ba1@gateway/web/cgi-irc/kiwiirc.com/ip.98.207.155.161) has quit (Client Quit)
+2013-08-31 16:04:32	vijaykiran	grandy: some Meta .. blah blah  ?
+2013-08-31 16:04:42	-->	francis_wolke (62cf9ba1@gateway/web/cgi-irc/kiwiirc.com/ip.98.207.155.161) has joined #clojure
+2013-08-31 16:05:53	grandy	actually i noticed that it says class not found clojure.repl
+2013-08-31 16:05:54	-->	mnemnion (~mnemnion@c-50-152-148-184.hsd1.ca.comcast.net) has joined #clojure
+2013-08-31 16:06:08	llasram	Oh!  Weiird.  It should be auto-requiring that namespace
+2013-08-31 16:06:19	llasram	Try manually `require`ing it
+2013-08-31 16:06:23	llasram	Then C-c C-d
+2013-08-31 16:06:46	grandy	ahh now it works!
+2013-08-31 16:06:54	llasram	Well, at least it's working now...
+2013-08-31 16:07:08	grandy	that's fantastic.. .looks like something about my setup isn't doing the typical autorequiring
+2013-08-31 16:07:08	llasram	OOC, do you have anything odd in your ~/.lein/profiles.clj ?
+2013-08-31 16:07:18	grandy	llasram: just default everything
+2013-08-31 16:07:32	grandy	llasram: let me look at it, have not edited it
+2013-08-31 16:07:58	grandy	file doesn't exist
+2013-08-31 16:08:32	<--	Bronsa (~bronco@217.203.144.246) has quit (Ping timeout: 240 seconds)
+2013-08-31 16:09:03	-->	breck7 (~breck7@75-144-246-6-SFBA.hfc.comcastbusiness.net) has joined #clojure
+2013-08-31 16:09:53	<--	dhm_ (~dhm@ec2-54-225-230-232.compute-1.amazonaws.com) has quit (Quit: leaving)
+2013-08-31 16:10:03	grandy	llasram: just  curious how you set up emacs windows, do you leave one for the output of C-c C-d etc.?
+2013-08-31 16:10:09	grandy	(buffers)
+2013-08-31 16:10:52	llasram	grandy: Mostly.  I've got some advice which shrinks doc windows down to be just large enough to contain the docstring
+2013-08-31 16:11:30	<--	eis_ (~eis@109.197.218.46) has quit (Ping timeout: 264 seconds)
+2013-08-31 16:11:35	grandy	ahh ok
+2013-08-31 16:11:40	llasram	Emacs' default policy of wanting to hand over half the vertical space is a bit troublesome :-)
+2013-08-31 16:11:49	-->	racycle (~racycle@75-25-129-128.lightspeed.sjcpca.sbcglobal.net) has joined #clojure
+2013-08-31 16:12:18	grandy	llasram: yeah agreed....
+2013-08-31 16:12:37	<--	beberlei (~twitter@tmo-108-62.customers.d1-online.com) has quit (Ping timeout: 256 seconds)
+2013-08-31 16:13:09	grandy	llasram: what 3 things should i learn to use nrepl for first?
+2013-08-31 16:13:29	-->	looper (~looper@p579CCAC2.dip0.t-ipconnect.de) has joined #clojure
+2013-08-31 16:13:42	--	yogthos|away is now known as yogthos
+2013-08-31 16:14:04	llasram	Er. Let's go with --  Compilation, docstring-lookup, and running tests (via clojure-test-mode, as much technomancy wants to be able deprecate it)
+2013-08-31 16:14:11	-->	amerinese (~amerinese@cpe-72-225-231-95.nyc.res.rr.com) has joined #clojure
+2013-08-31 16:15:00	<--	jackhammer2022 (~textual@112.79.36.26) has quit (Quit: Textual IRC Client: http://www.textualapp.com/)
+2013-08-31 16:15:33	<--	hoeck1 (~timmy@p508465A4.dip0.t-ipconnect.de) has quit (Quit: Leaving.)
+2013-08-31 16:15:45	llasram	Here's my less-vertical-space advice btw: https://github.com/llasram/rcfiles/blob/master/basic/emacs.d/init.el#L225-L230  (using this function: https://github.com/llasram/rcfiles/blob/master/basic/emacs.d/elisp/tight-fit.el )
+2013-08-31 16:16:31	-->	R_Macy (~R_Macy@c-68-53-171-95.hsd1.tn.comcast.net) has joined #clojure
+2013-08-31 16:17:27	-->	podviaznikov (~podviazni@181.112.233.150) has joined #clojure
+2013-08-31 16:18:00	-->	beberlei (~twitter@tmo-108-62.customers.d1-online.com) has joined #clojure
+2013-08-31 16:18:08	-->	drbobbeaty (~drbobbeat@c-98-226-62-6.hsd1.il.comcast.net) has joined #clojure
+2013-08-31 16:19:11	<--	drbobbeaty (~drbobbeat@c-98-226-62-6.hsd1.il.comcast.net) has quit (Client Quit)
+2013-08-31 16:19:22	vijaykiran	llasram: you use eclim ?
+2013-08-31 16:19:37	vijaykiran	I gave up after it started toasting emacs and my CPU
+2013-08-31 16:20:09	<--	dark_element (~textual@123.201.193.9) has quit (Quit: Computer has gone to sleep.)
+2013-08-31 16:20:23	llasram	vijaykiran: Was hacking on a Maven-using Java project recently (Avro).  The feature I was writing was large enough that I didn't want to write that much Java unassisted, so I decided to try it out
+2013-08-31 16:20:25	-->	tbaldridge (~tim@c-67-190-114-220.hsd1.co.comcast.net) has joined #clojure
+2013-08-31 16:20:48	llasram	I'm not frequently doing that much Java, so I don't need to leave the eclim server running all the time :-)
+2013-08-31 16:21:05	llasram	But it actually worked pretty well
+2013-08-31 16:21:06	-->	nipra (~nipra@122.177.41.214) has joined #clojure
+2013-08-31 16:21:16	vijaykiran	Ah, okay - I'm mostly in IntelliJ with "enterprise" projects
+2013-08-31 16:22:05	llasram	I keep saying I'll think about trying an IDE for Java or Scala, but then in practice I just want to stay in Emacs forever :-)
+2013-08-31 16:22:11	-->	kitallis (~kitallis@122.166.176.62) has joined #clojure
+2013-08-31 16:22:58	-->	mjs2600 (~mjs2600@user-0c999kc.cable.mindspring.com) has joined #clojure
+2013-08-31 16:23:17	vijaykiran	:)
+2013-08-31 16:25:01	<--	sohail (~sohail@unaffiliated/sohail) has quit (Ping timeout: 246 seconds)
+2013-08-31 16:25:16	-->	`cbp (~user@189.139.129.36) has joined #clojure
+2013-08-31 16:25:41	--	irc: disconnected from server

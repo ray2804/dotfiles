@@ -2,6 +2,7 @@
         :dependencies [[org.clojure/clojure "1.5.1"]]
 
         :plugins [[lein-ancient "0.4.4"]
+                  [lein-cljsbuild "0.3.2"]
 
                   ]
 

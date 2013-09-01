@@ -1,1 +1,0 @@
-{:folders [], :files ["/home/baal/.lighttable/css/themes/jernau.css"]}

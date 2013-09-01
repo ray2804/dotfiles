@@ -6,3 +6,115 @@
 2013-08-30 22:44:11	<--	chronno (~chronno@132.248.181.1) has quit (Ping timeout: 245 seconds)
 2013-08-30 23:07:17	<--	cemerick (~cemerick@c-71-192-116-188.hsd1.ma.comcast.net) has quit (Ping timeout: 248 seconds)
 2013-08-30 23:08:18	<--	bmaddy (~bmaddy@245.sub-70-197-201.myvzw.com) has quit (Ping timeout: 256 seconds)
+2013-08-30 23:09:38	-->	bmaddy (~bmaddy@232.sub-70-197-199.myvzw.com) has joined #clojurescript
+2013-08-30 23:10:56	<--	jivebot (~textual@209.216.179.137) has quit (Quit: Computer has gone to sleep.)
+2013-08-30 23:13:32	-->	jivebot (~textual@209.216.179.137) has joined #clojurescript
+2013-08-30 23:13:46	<--	bmaddy (~bmaddy@232.sub-70-197-199.myvzw.com) has quit (Ping timeout: 245 seconds)
+2013-08-30 23:15:59	<--	francis_wolke (62cf9ba1@gateway/web/cgi-irc/kiwiirc.com/ip.98.207.155.161) has quit (Quit: http://www.kiwiirc.com/ - A hand crafted IRC client)
+2013-08-30 23:20:34	<--	kilon (~kilon@unaffiliated/thekilon) has quit (Remote host closed the connection)
+2013-08-30 23:21:44	-->	bmaddy (~bmaddy@237.sub-70-197-192.myvzw.com) has joined #clojurescript
+2013-08-30 23:26:11	<--	bmaddy (~bmaddy@237.sub-70-197-192.myvzw.com) has quit (Ping timeout: 260 seconds)
+2013-08-30 23:26:41	<--	jonasen (~jonasen@a100.ip13.netikka.fi) has quit (Ping timeout: 245 seconds)
+2013-08-30 23:30:04	-->	bmaddy (~bmaddy@241.sub-70-197-194.myvzw.com) has joined #clojurescript
+2013-08-30 23:34:18	-->	bmaddy_ (~bmaddy@176.sub-70-197-198.myvzw.com) has joined #clojurescript
+2013-08-30 23:35:13	<--	bmaddy (~bmaddy@241.sub-70-197-194.myvzw.com) has quit (Ping timeout: 268 seconds)
+2013-08-30 23:39:22	<--	bmaddy_ (~bmaddy@176.sub-70-197-198.myvzw.com) has quit (Ping timeout: 240 seconds)
+2013-08-30 23:55:46	-->	bmaddy (~bmaddy@188.sub-70-197-199.myvzw.com) has joined #clojurescript
+2013-08-31 00:00:03	<--	bmaddy (~bmaddy@188.sub-70-197-199.myvzw.com) has quit (Ping timeout: 240 seconds)
+2013-08-31 00:26:20	-->	francis_wolke (62cf9ba1@gateway/web/cgi-irc/kiwiirc.com/ip.98.207.155.161) has joined #clojurescript
+2013-08-31 00:27:29	<--	francis_wolke (62cf9ba1@gateway/web/cgi-irc/kiwiirc.com/ip.98.207.155.161) has quit (Client Quit)
+2013-08-31 00:34:31	<--	racycle (~racycle@75-25-129-128.lightspeed.sjcpca.sbcglobal.net) has quit (Remote host closed the connection)
+2013-08-31 00:42:01	<--	fuz (~fuz@188-222-129-255.zone13.bethere.co.uk) has quit (Quit: This computer has gone to sleep)
+2013-08-31 00:42:22	<--	pel_daniel (~responsiv@187.191.31.50) has left #clojurescript
+2013-08-31 00:55:58	-->	danielszmulewicz (~danielszm@185.3.146.143) has joined #clojurescript
+2013-08-31 00:56:07	-->	TEttinger (~notostrac@76-217-25-235.lightspeed.irvnca.sbcglobal.net) has joined #clojurescript
+2013-08-31 00:57:16	-->	noto2 (~notostrac@76-217-25-235.lightspeed.irvnca.sbcglobal.net) has joined #clojurescript
+2013-08-31 00:57:44	-->	fuz (~fuz@188-222-129-255.zone13.bethere.co.uk) has joined #clojurescript
+2013-08-31 01:00:50	<--	TEttinger (~notostrac@76-217-25-235.lightspeed.irvnca.sbcglobal.net) has quit (Ping timeout: 256 seconds)
+2013-08-31 01:07:09	<--	enquora (~davidr@S0106602ad083de8c.cg.shawcable.net) has quit (Quit: enquora)
+2013-08-31 01:09:34	-->	chronno (~chronno@187-162-126-107.static.axtel.net) has joined #clojurescript
+2013-08-31 01:14:01	-->	hoeck2 (~timmy@p50845BFA.dip0.t-ipconnect.de) has joined #clojurescript
+2013-08-31 01:16:18	<--	hoeck1 (~timmy@p5084665F.dip0.t-ipconnect.de) has quit (Ping timeout: 264 seconds)
+2013-08-31 01:18:29	<--	hoeck2 (~timmy@p50845BFA.dip0.t-ipconnect.de) has quit (Client Quit)
+2013-08-31 01:30:00	<--	bja (~bja@c-98-222-22-162.hsd1.il.comcast.net) has quit (Ping timeout: 245 seconds)
+2013-08-31 01:39:30	<--	danielszmulewicz (~danielszm@185.3.146.143) has quit (Quit: danielszmulewicz)
+2013-08-31 01:43:48	-->	racycle (~racycle@75-25-129-128.lightspeed.sjcpca.sbcglobal.net) has joined #clojurescript
+2013-08-31 01:48:34	-->	bmaddy (~bmaddy@72.21.231.26) has joined #clojurescript
+2013-08-31 01:51:49	<--	jivebot (~textual@209.216.179.137) has quit (Quit: Computer has gone to sleep.)
+2013-08-31 02:06:46	<--	normanrichards (~normanric@rrcs-108-178-120-144.sw.biz.rr.com) has quit (Quit: normanrichards)
+2013-08-31 02:19:35	-->	cemerick (~cemerick@c-71-192-116-188.hsd1.ma.comcast.net) has joined #clojurescript
+2013-08-31 02:50:01	<--	noto2 (~notostrac@76-217-25-235.lightspeed.irvnca.sbcglobal.net) has quit (Ping timeout: 245 seconds)
+2013-08-31 03:08:05	<--	bmaddy (~bmaddy@72.21.231.26) has quit (Remote host closed the connection)
+2013-08-31 03:26:23	<--	fuz (~fuz@188-222-129-255.zone13.bethere.co.uk) has quit (Quit: This computer has gone to sleep)
+2013-08-31 03:58:12	-->	normanrichards (~normanric@70.114.215.220) has joined #clojurescript
+2013-08-31 04:12:50	<--	chronno (~chronno@187-162-126-107.static.axtel.net) has quit (Ping timeout: 240 seconds)
+2013-08-31 04:31:52	-->	chronno (~chronno@187-162-126-107.static.axtel.net) has joined #clojurescript
+2013-08-31 04:44:53	-->	bmaddy (~bmaddy@72.21.231.26) has joined #clojurescript
+2013-08-31 04:52:27	-->	dek5 (~eugene@mail.quickpay.ru) has joined #clojurescript
+2013-08-31 04:52:30	<--	bmaddy (~bmaddy@72.21.231.26) has quit (Ping timeout: 245 seconds)
+2013-08-31 05:08:05	-->	bmaddy (~bmaddy@72.21.231.26) has joined #clojurescript
+2013-08-31 05:24:33	-->	francis_wolke (62cf9ba1@gateway/web/cgi-irc/kiwiirc.com/ip.98.207.155.161) has joined #clojurescript
+2013-08-31 05:24:35	<--	bmaddy (~bmaddy@72.21.231.26) has quit (Remote host closed the connection)
+2013-08-31 05:25:52	<--	francis_wolke (62cf9ba1@gateway/web/cgi-irc/kiwiirc.com/ip.98.207.155.161) has quit (Client Quit)
+2013-08-31 05:29:25	-->	francis_wolke (62cf9ba1@gateway/web/cgi-irc/kiwiirc.com/ip.98.207.155.161) has joined #clojurescript
+2013-08-31 05:32:11	<--	francis_wolke (62cf9ba1@gateway/web/cgi-irc/kiwiirc.com/ip.98.207.155.161) has quit (Client Quit)
+2013-08-31 05:32:31	-->	mh_ (~mh@cpe-72-228-159-76.buffalo.res.rr.com) has joined #clojurescript
+2013-08-31 05:58:23	<--	mh_ (~mh@cpe-72-228-159-76.buffalo.res.rr.com) has quit (Read error: Connection reset by peer)
+2013-08-31 05:59:00	-->	mh_ (~mh@cpe-72-228-159-76.buffalo.res.rr.com) has joined #clojurescript
+2013-08-31 06:12:59	-->	francis_wolke (62cf9ba1@gateway/web/cgi-irc/kiwiirc.com/ip.98.207.155.161) has joined #clojurescript
+2013-08-31 06:23:54	<--	mh_ (~mh@cpe-72-228-159-76.buffalo.res.rr.com) has quit (Ping timeout: 264 seconds)
+2013-08-31 07:21:03	-->	jonasen (~jonasen@a100.ip13.netikka.fi) has joined #clojurescript
+2013-08-31 07:33:32	<--	cemerick (~cemerick@c-71-192-116-188.hsd1.ma.comcast.net) has quit (Read error: Operation timed out)
+2013-08-31 07:42:23	-->	TEttinger (~notostrac@76-217-25-235.lightspeed.irvnca.sbcglobal.net) has joined #clojurescript
+2013-08-31 07:54:44	<--	francis_wolke (62cf9ba1@gateway/web/cgi-irc/kiwiirc.com/ip.98.207.155.161) has quit (Quit: http://www.kiwiirc.com/ - A hand crafted IRC client)
+2013-08-31 08:12:10	-->	hoeck1 (~timmy@p508465A4.dip0.t-ipconnect.de) has joined #clojurescript
+2013-08-31 08:42:55	-->	francis_wolke (62cf9ba1@gateway/web/cgi-irc/kiwiirc.com/ip.98.207.155.161) has joined #clojurescript
+2013-08-31 08:56:30	<--	francis_wolke (62cf9ba1@gateway/web/cgi-irc/kiwiirc.com/ip.98.207.155.161) has quit (Quit: http://www.kiwiirc.com/ - A hand crafted IRC client)
+2013-08-31 09:00:23	--	irc: disconnected from server
+2013-08-31 09:00:58	-->	supersymmetry (~supersym@5418F772.cm-5-1d.dynamic.ziggo.nl) has joined #clojurescript
+2013-08-31 09:00:58	--	Nicks #clojurescript: [brainproxy chronno dek5 dougs87 eigenjoy fkey francis_wolke frankgerhardt__ Guest66769 harrow hoeck hoeck1 ibdknox j0ni jaimef jimt jonasen karnowski kgerman normanrichards onr osnr racycle si14 supersym supersymmetry TEttinger waf]
+2013-08-31 09:00:58	--	Channel #clojurescript: 28 nicks (0 ops, 0 halfops, 0 voices, 28 normals)
+2013-08-31 09:00:59	<--	francis_wolke (62cf9ba1@gateway/web/cgi-irc/kiwiirc.com/ip.98.207.155.161) has quit (Quit: http://www.kiwiirc.com/ - A hand crafted IRC client)
+2013-08-31 09:01:00	<--	kgerman (kgerman@nat/ibm/x-kkdueftaxssjkxbc) has quit (Ping timeout: 256 seconds)
+2013-08-31 09:01:14	--	Mode #clojurescript [+cnt]
+2013-08-31 09:01:14	--	Channel created on Thu, 21 Jul 2011 18:34:20
+2013-08-31 09:02:18	-->	j0ni_ (~j0ni@tomos.lollyshouse.net) has joined #clojurescript
+2013-08-31 09:05:14	-->	rurumate (~urs1412@p5484A6DB.dip0.t-ipconnect.de) has joined #clojurescript
+2013-08-31 09:05:56	<--	rurumate (~urs1412@p5484A6DB.dip0.t-ipconnect.de) has quit (Quit: leaving)
+2013-08-31 09:06:21	-->	ILoveMilka (~urs1412@p5484A6DB.dip0.t-ipconnect.de) has joined #clojurescript
+2013-08-31 09:06:58	ILoveMilka	Anyone have a productive emacs cljs environment, with a repl connected to the browser?
+2013-08-31 09:08:44	ILoveMilka	I've been cobbling this together from http://bit.ly/1dvcO9P and http://bit.ly/16Y8B9E
+2013-08-31 09:09:29	-->	francis_wolke (62cf9ba1@gateway/web/cgi-irc/kiwiirc.com/ip.98.207.155.161) has joined #clojurescript
+2013-08-31 09:11:24	<--	supersym (~supersym@5418F772.cm-5-1d.dynamic.ziggo.nl) has quit (*.net *.split)
+2013-08-31 09:11:26	<--	j0ni (~j0ni@tomos.lollyshouse.net) has quit (*.net *.split)
+2013-08-31 09:11:41	ILoveMilka	My inferior-lisp-program is "lein trampoline cljsbuild repl-listen". So I have this magic inferior-lisp buffer, when I enter an expression and RET after it, I can see the results in the browser at localhost:3000/repl-demo (see http://bit.ly/16Y8B9E)
+2013-08-31 09:13:02	ILoveMilka	Now, the problem is, I obviously want clojure-mode in that buffer, but when I do M-x clojure-mode, the buffer loses its special powers; expressions are not even evaluated anymore on RET
+2013-08-31 09:13:04	<--	racycle (~racycle@75-25-129-128.lightspeed.sjcpca.sbcglobal.net) has quit (Remote host closed the connection)
+2013-08-31 09:28:11	<--	normanrichards (~normanric@70.114.215.220) has quit (Quit: normanrichards)
+2013-08-31 09:50:00	<--	hoeck1 (~timmy@p508465A4.dip0.t-ipconnect.de) has quit (Quit: Leaving.)
+2013-08-31 10:06:32	-->	danielszmulewicz (~danielszm@185.3.146.143) has joined #clojurescript
+2013-08-31 10:19:59	<--	chronno (~chronno@187-162-126-107.static.axtel.net) has quit (Ping timeout: 260 seconds)
+2013-08-31 10:34:25	<--	danielszmulewicz (~danielszm@185.3.146.143) has quit (Quit: danielszmulewicz)
+2013-08-31 10:40:43	-->	fuz (~fuz@188-222-129-255.zone13.bethere.co.uk) has joined #clojurescript
+2013-08-31 10:48:00	-->	ideamonk (~ideamonk@122.179.180.90) has joined #clojurescript
+2013-08-31 10:52:40	<--	ideamonk (~ideamonk@122.179.180.90) has quit (Ping timeout: 256 seconds)
+2013-08-31 11:05:01	<--	TEttinger (~notostrac@76-217-25-235.lightspeed.irvnca.sbcglobal.net) has quit (Ping timeout: 245 seconds)
+2013-08-31 11:19:18	<--	francis_wolke (62cf9ba1@gateway/web/cgi-irc/kiwiirc.com/ip.98.207.155.161) has quit (Quit: http://www.kiwiirc.com/ - A hand crafted IRC client)
+2013-08-31 11:19:32	-->	francis_wolke (62cf9ba1@gateway/web/cgi-irc/kiwiirc.com/ip.98.207.155.161) has joined #clojurescript
+2013-08-31 11:22:46	<--	francis_wolke (62cf9ba1@gateway/web/cgi-irc/kiwiirc.com/ip.98.207.155.161) has quit (Client Quit)
+2013-08-31 12:02:31	<--	jaimef (jaimef@dns.mauthesis.com) has quit (Excess Flood)
+2013-08-31 12:09:17	-->	jaimef (jaimef@dns.mauthesis.com) has joined #clojurescript
+2013-08-31 12:22:34	<--	dek5 (~eugene@mail.quickpay.ru) has quit (Quit: Leaving.)
+2013-08-31 12:53:57	-->	cemerick (~cemerick@c-71-192-116-188.hsd1.ma.comcast.net) has joined #clojurescript
+2013-08-31 13:09:13	<--	fuz (~fuz@188-222-129-255.zone13.bethere.co.uk) has quit (Quit: This computer has gone to sleep)
+2013-08-31 13:34:39	-->	francis_wolke (62cf9ba1@gateway/web/cgi-irc/kiwiirc.com/ip.98.207.155.161) has joined #clojurescript
+2013-08-31 13:39:16	-->	fuz (~fuz@188-222-129-255.zone13.bethere.co.uk) has joined #clojurescript
+2013-08-31 13:53:18	-->	hoeck1 (~timmy@p508465A4.dip0.t-ipconnect.de) has joined #clojurescript
+2013-08-31 15:39:36	<--	francis_wolke (62cf9ba1@gateway/web/cgi-irc/kiwiirc.com/ip.98.207.155.161) has quit (Quit: http://www.kiwiirc.com/ - A hand crafted IRC client)
+2013-08-31 15:47:51	-->	normanrichards (~normanric@70.114.215.220) has joined #clojurescript
+2013-08-31 16:02:36	-->	francis_wolke (62cf9ba1@gateway/web/cgi-irc/kiwiirc.com/ip.98.207.155.161) has joined #clojurescript
+2013-08-31 16:04:30	<--	francis_wolke (62cf9ba1@gateway/web/cgi-irc/kiwiirc.com/ip.98.207.155.161) has quit (Client Quit)
+2013-08-31 16:04:42	-->	francis_wolke (62cf9ba1@gateway/web/cgi-irc/kiwiirc.com/ip.98.207.155.161) has joined #clojurescript
+2013-08-31 16:11:49	-->	racycle (~racycle@75-25-129-128.lightspeed.sjcpca.sbcglobal.net) has joined #clojurescript
+2013-08-31 16:15:33	<--	hoeck1 (~timmy@p508465A4.dip0.t-ipconnect.de) has quit (Quit: Leaving.)
+2013-08-31 16:25:41	--	irc: disconnected from server
