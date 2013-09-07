@@ -2,7 +2,7 @@
 # http://en.wikipedia.org/wiki/Magic_SysRq_key#Commands
 
 alias ....="../../../"
-alias lt="nohup LightTable & disown"
+#alias lt="nohup /opt/LightTable/LightTable & disown"
 
 #Open last modified file in vim:
 alias Vim="vim `ls -t | head -1`"

@@ -1,8 +1,14 @@
 {:user {
-        :dependencies [[org.clojure/clojure "1.5.1"]]
+        :dependencies [[org.clojure/clojure "1.5.1"]
+                       [org.clojure/clojure-contrib "1.2.0"]
+                       [org.clojure/math.combinatorics "0.0.4"]
+                       ;[com.cemerick/pomegranate "0.2.0"]
+                       [swiss-arrows "0.6.0"]
+                       ]
 
         :plugins [[lein-ancient "0.4.4"]
                   [lein-cljsbuild "0.3.2"]
+                  [lein-localrepo "0.5.2"]
 
                   ]
 

@@ -1,7 +1,11 @@
 
 [user]
-    email = maildumpert@gmail.com
-    name = supersymmetry
+    ;email = maildumpert@gmail.com
+    ;name = supersymmetry
+    email = rob.jentzema@googlemail.com
+    name = Rob Jentzema
+
+
 
 [push]
     default = simple
