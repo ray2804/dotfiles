@@ -161,3 +161,397 @@
 2013-09-03 19:17:27	<--	garthdb (~garthdb@ip98-160-191-217.lv.lv.cox.net) has quit (Quit: Zzzzzz)
 2013-09-03 19:19:05	<--	mikeumus (~Mikeumus@ool-4a5a2787.dyn.optonline.net) has quit (Quit: Leaving.)
 2013-09-03 19:22:59	--	irc: disconnected from server
+2013-09-07 03:59:51	-->	supersym (~supersym@5418F772.cm-5-1d.dynamic.ziggo.nl) has joined #docpad
+2013-09-07 03:59:51	--	Topic for #docpad is "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-09-07 03:59:51	--	Topic set by balupton (uid6783@gateway/web/irccloud.com/x-laowowvmwkkqorbu) on Sat, 10 Aug 2013 08:48:07
+2013-09-07 03:59:51	--	Nicks #docpad: [arcanis balupton Chase_the_Dev jgm shama supersym zennit]
+2013-09-07 03:59:51	--	Channel #docpad: 7 nicks (0 ops, 0 halfops, 0 voices, 7 normals)
+2013-09-07 03:59:51	--	Notice(brooks.freenode.net): [freenode-info] channel flooding and no channel staff around to help? Please check with freenode support: http://freenode.net/faq.shtml#gettinghelp
+2013-09-07 03:59:56	--	Mode #docpad [+t]
+2013-09-07 03:59:56	--	Channel created on Sat, 26 May 2012 12:12:13
+2013-09-07 05:07:28	-->	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has joined #docpad
+2013-09-07 05:09:52	<--	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has quit (Client Quit)
+2013-09-07 05:18:23	-->	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has joined #docpad
+2013-09-07 05:43:12	balupton	therealkoopa: I checked out the code examples in the issues, they are calling .concat on an array, rather than on the block, for the block you'll want to use .add
+2013-09-07 06:23:21	<--	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has quit (Quit: Leaving.)
+2013-09-07 06:24:50	-->	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has joined #docpad
+2013-09-07 07:42:10	<--	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has quit (Read error: Connection reset by peer)
+2013-09-07 09:14:10	<--	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has quit (Remote host closed the connection)
+2013-09-07 09:49:15	-->	ashnur (~ashnur@79.117.69.143) has joined #docpad
+2013-09-07 10:44:55	-->	kaspertidemann (~kaspertid@c-98-207-250-230.hsd1.ca.comcast.net) has joined #docpad
+2013-09-07 11:38:01	<--	kaspertidemann (~kaspertid@c-98-207-250-230.hsd1.ca.comcast.net) has quit (Quit: Free soup for everybody!)
+2013-09-07 14:26:09	-->	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has joined #docpad
+2013-09-07 15:13:16	<--	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has quit (Quit: Leaving.)
+2013-09-07 15:43:45	-->	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has joined #docpad
+2013-09-07 16:42:18	--	Notice(GitHub186): [docpad] balupton pushed 1 new commit to dev: http://git.io/MJyznw
+2013-09-07 16:42:18	--	Notice(GitHub186): docpad/dev 9767141 Benjamin Lupton: Fixed testers not exiting correctly - regression from 0913cae149e3268ab433c969303eeea251551fef
+2013-09-07 17:02:17	<--	ashnur (~ashnur@79.117.69.143) has quit (Quit: WeeChat 0.4.1)
+2013-09-07 17:16:54	--	Notice(GitHub141): [documentation] jking90 opened pull request #57: Added 3 plugins to documentation (master...feature_added-plugins)  http://git.io/TAJTrA
+2013-09-07 17:17:39	<--	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has quit (Ping timeout: 264 seconds)
+2013-09-07 17:47:21	--	Notice(GitHub87): [docpad] balupton merged master into dev: http://git.io/jh80_g
+2013-09-07 17:47:21	--	Notice(GitHub186): [docpad] balupton merged dev into master: http://git.io/M4dMNg
+2013-09-07 17:47:26	--	Notice(GitHub91): [docpad] balupton tagged v6.52.0 at dev: http://git.io/PLt2OQ
+2013-09-07 17:47:46	--	Notice(GitHub59): [documentation] balupton closed pull request #57: Added 3 plugins to documentation (master...feature_added-plugins)  http://git.io/TAJTrA
+2013-09-07 17:47:47	--	Notice(GitHub90): [documentation] balupton pushed 2 new commits to master: http://git.io/EUXKkA
+2013-09-07 17:47:47	--	Notice(GitHub90): documentation/master 380108f Jimmy King: Added 3 plugins to documentation
+2013-09-07 17:47:47	--	Notice(GitHub90): documentation/master 994ee8e Benjamin Arthur Lupton: Merge pull request #57 from jking90/feature_added-plugins...
+2013-09-07 18:07:05	--	Notice(GitHub75): [docpad] balupton pushed 1 new commit to master: http://git.io/Q5nFvw
+2013-09-07 18:07:06	--	Notice(GitHub75): docpad/master e4c321f Benjamin Arthur Lupton: fixed pull request mention in changelog
+2013-09-07 18:07:30	--	Notice(GitHub8): [docpad] balupton merged master into dev: http://git.io/dX9CKQ
+2013-09-07 18:10:43	-->	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has joined #docpad
+2013-09-07 18:24:32	-->	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has joined #docpad
+2013-09-07 18:26:09	-->	adam-p (c000be5e@gateway/web/freenode/ip.192.0.190.94) has joined #docpad
+2013-09-07 18:28:23	<--	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has quit (Client Quit)
+2013-09-07 18:40:32	-->	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has joined #docpad
+2013-09-07 19:01:30	--	Notice(GitHub193): [docpad] balupton merged master into dev: http://git.io/LIY6ng
+2013-09-07 19:01:31	--	Notice(GitHub182): [docpad] balupton merged dev into master: http://git.io/LIY6ng
+2013-09-07 19:01:35	--	Notice(GitHub9): [docpad] balupton tagged v6.52.1 at dev: http://git.io/RVDoNw
+2013-09-07 19:02:23	--	Notice(GitHub107): [docpad] balupton merged master into dev: http://git.io/-wS6Nw
+2013-09-07 19:02:23	--	Notice(GitHub21): [docpad] balupton merged dev into master: http://git.io/-wS6Nw
+2013-09-07 20:07:19	<--	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has quit (Quit: Leaving.)
+2013-09-07 20:38:17	-->	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has joined #docpad
+2013-09-07 20:40:32	<--	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has quit (Client Quit)
+2013-09-07 21:00:14	-->	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has joined #docpad
+2013-09-07 21:06:27	<--	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has quit (Quit: Leaving.)
+2013-09-07 21:10:26	-->	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has joined #docpad
+2013-09-07 21:30:23	-->	ashnur (~ashnur@79.117.69.143) has joined #docpad
+2013-09-07 23:43:22	<--	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has quit (Quit: Leaving.)
+2013-09-08 00:39:01	-->	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has joined #docpad
+2013-09-08 00:51:18	-->	Barncat (~Barncat@c-68-59-133-56.hsd1.fl.comcast.net) has joined #docpad
+2013-09-08 02:14:41	<--	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has quit (Quit: Leaving.)
+2013-09-08 02:45:54	-->	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has joined #docpad
+2013-09-08 03:07:16	<--	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has quit (Quit: Leaving.)
+2013-09-08 03:51:41	-->	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has joined #docpad
+2013-09-08 04:49:11	<--	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has quit (Quit: Leaving.)
+2013-09-08 04:52:31	-->	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has joined #docpad
+2013-09-08 04:57:55	<--	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has quit (Quit: Leaving.)
+2013-09-08 05:00:57	<--	adam-p (c000be5e@gateway/web/freenode/ip.192.0.190.94) has quit (Ping timeout: 250 seconds)
+2013-09-08 05:01:43	-->	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has joined #docpad
+2013-09-08 06:56:14	<--	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has quit (Quit: Leaving.)
+2013-09-08 07:01:30	-->	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has joined #docpad
+2013-09-08 07:30:58	<--	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has quit (Quit: Leaving.)
+2013-09-08 07:37:13	<--	Barncat (~Barncat@c-68-59-133-56.hsd1.fl.comcast.net) has quit (Quit: Barncat)
+2013-09-08 07:39:04	-->	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has joined #docpad
+2013-09-08 07:44:04	<--	ashnur (~ashnur@79.117.69.143) has quit (Quit: WeeChat 0.4.1)
+2013-09-08 08:09:53	<--	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has quit (Remote host closed the connection)
+2013-09-08 08:47:36	<--	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has quit (Read error: Connection reset by peer)
+2013-09-08 08:59:14	-->	Barncat (~Barncat@c-68-59-133-56.hsd1.fl.comcast.net) has joined #docpad
+2013-09-08 09:00:15	<--	Barncat (~Barncat@c-68-59-133-56.hsd1.fl.comcast.net) has quit (Client Quit)
+2013-09-08 17:01:56	-->	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has joined #docpad
+2013-09-08 17:36:59	<--	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has quit (Quit: Leaving.)
+2013-09-08 18:07:48	-->	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has joined #docpad
+2013-09-08 18:51:26	<--	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has quit (Quit: Leaving.)
+2013-09-08 19:00:55	-->	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has joined #docpad
+2013-09-08 20:08:08	-->	eth0lo (~eth0lo@office.xing.com) has joined #docpad
+2013-09-08 20:12:32	<--	eth0lo (~eth0lo@office.xing.com) has quit (Ping timeout: 245 seconds)
+2013-09-08 20:13:32	<--	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has quit (Quit: Leaving.)
+2013-09-08 20:18:36	-->	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has joined #docpad
+2013-09-08 20:48:31	-->	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has joined #docpad
+2013-09-08 20:56:30	<--	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has quit (Quit: Leaving.)
+2013-09-08 20:58:17	-->	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has joined #docpad
+2013-09-08 20:59:09	<--	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has quit (Read error: Connection reset by peer)
+2013-09-08 21:00:10	-->	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has joined #docpad
+2013-09-08 21:00:30	<--	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has quit (Client Quit)
+2013-09-08 22:29:22	-->	adam-p (c000be5e@gateway/web/freenode/ip.192.0.190.94) has joined #docpad
+2013-09-08 22:31:58	<--	adam-p (c000be5e@gateway/web/freenode/ip.192.0.190.94) has quit (Client Quit)
+2013-09-08 23:53:52	<--	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has quit (Read error: Connection reset by peer)
+2013-09-08 23:54:23	-->	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has joined #docpad
+2013-09-09 00:07:34	<--	zennit (~zennit@165.225.134.103) has quit (*.net *.split)
+2013-09-09 00:07:34	<--	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has quit (*.net *.split)
+2013-09-09 00:07:47	<--	balupton (uid6783@gateway/web/irccloud.com/x-sxijkjqfuhuthbtx) has quit (*.net *.split)
+2013-09-09 00:07:49	<--	Chase_the_Dev (uid10097@gateway/web/irccloud.com/x-yohbpntqqvlsxmsw) has quit (*.net *.split)
+2013-09-09 00:07:53	<--	arcanis (~arcanis@2001:41d0:2:734f::1) has quit (*.net *.split)
+2013-09-09 00:07:54	<--	jgm (~quassel@primary.mcdee.net) has quit (*.net *.split)
+2013-09-09 00:20:26	-->	jgm (~quassel@primary.mcdee.net) has joined #docpad
+2013-09-09 00:20:26	-->	arcanis (~arcanis@2001:41d0:2:734f::1) has joined #docpad
+2013-09-09 00:20:26	-->	Chase_the_Dev (uid10097@gateway/web/irccloud.com/x-yohbpntqqvlsxmsw) has joined #docpad
+2013-09-09 00:20:26	-->	balupton (uid6783@gateway/web/irccloud.com/x-sxijkjqfuhuthbtx) has joined #docpad
+2013-09-09 00:20:26	-->	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has joined #docpad
+2013-09-09 00:22:53	-->	zennit (~zennit@165.225.134.103) has joined #docpad
+2013-09-09 00:50:42	-->	pensive612 (~pensive61@172-10-237-104.lightspeed.sntcca.sbcglobal.net) has joined #docpad
+2013-09-09 00:53:49	pensive612	Hey guys, playing with docpad, really enjoying it.  But can't find an issue that i'm having documented:
+2013-09-09 00:54:03	pensive612	LiveReload, works the first time.  But stops after that.  No errors visible.
+2013-09-09 00:54:47	pensive612	this an issue anyone has experienced?
+2013-09-09 02:23:08	-->	kaspertidemann (~kaspertid@c-98-207-250-230.hsd1.ca.comcast.net) has joined #docpad
+2013-09-09 02:24:35	-->	pensive6_ (~pensive61@li255-90.members.linode.com) has joined #docpad
+2013-09-09 02:25:53	<--	pensive612 (~pensive61@172-10-237-104.lightspeed.sntcca.sbcglobal.net) has quit (Read error: Operation timed out)
+2013-09-09 02:27:15	-->	pensive612 (~pensive61@172-10-237-104.lightspeed.sntcca.sbcglobal.net) has joined #docpad
+2013-09-09 02:31:07	<--	pensive6_ (~pensive61@li255-90.members.linode.com) has quit (Ping timeout: 264 seconds)
+2013-09-09 05:31:53	<--	kaspertidemann (~kaspertid@c-98-207-250-230.hsd1.ca.comcast.net) has quit (Quit: Free soup for everybody!)
+2013-09-09 06:09:54	-->	kaspertidemann (~kaspertid@c-98-207-250-230.hsd1.ca.comcast.net) has joined #docpad
+2013-09-09 07:22:32	-->	eth0lo (~eth0lo@office.xing.com) has joined #docpad
+2013-09-09 07:29:12	<--	eth0lo (~eth0lo@office.xing.com) has quit (Remote host closed the connection)
+2013-09-09 08:01:44	<--	pensive612 (~pensive61@172-10-237-104.lightspeed.sntcca.sbcglobal.net) has quit (Remote host closed the connection)
+2013-09-09 08:29:24	<--	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has quit (Remote host closed the connection)
+2013-09-09 08:54:33	-->	Delapouite (~bheridet@abo-216-184-68.mtp.modulonet.fr) has joined #docpad
+2013-09-09 09:28:59	-->	eth0lo (~eth0lo@office.xing.com) has joined #docpad
+2013-09-09 09:42:49	-->	jsilvestre (~jsilvestr@186-146-190-109.dsl.ovh.fr) has joined #docpad
+2013-09-09 09:48:02	<--	eth0lo (~eth0lo@office.xing.com) has quit (Remote host closed the connection)
+2013-09-09 10:10:38	-->	eth0lo (~eth0lo@office.xing.com) has joined #docpad
+2013-09-09 10:25:21	<--	kaspertidemann (~kaspertid@c-98-207-250-230.hsd1.ca.comcast.net) has quit (Quit: Free soup for everybody!)
+2013-09-09 10:33:12	<--	eth0lo (~eth0lo@office.xing.com) has quit (Remote host closed the connection)
+2013-09-09 10:33:55	-->	eth0lo (~eth0lo@office.xing.com) has joined #docpad
+2013-09-09 12:50:19	<--	eth0lo (~eth0lo@office.xing.com) has quit (Remote host closed the connection)
+2013-09-09 12:56:37	-->	eth0lo (~eth0lo@office.xing.com) has joined #docpad
+2013-09-09 13:32:21	<--	eth0lo (~eth0lo@office.xing.com) has quit (Remote host closed the connection)
+2013-09-09 13:53:20	-->	eth0lo (~eth0lo@office.xing.com) has joined #docpad
+2013-09-09 14:11:02	-->	sventon (~sventon@c-2ec20e0b-74736162.cust.telenor.se) has joined #docpad
+2013-09-09 14:11:21	sventon	ah ..
+2013-09-09 14:11:45	sventon	I wanted to try out docpad but how do you start the server ?
+2013-09-09 14:11:47	sventon	?
+2013-09-09 14:12:07	sventon	used the hostel template to generate files
+2013-09-09 14:12:30	sventon	have this in dir:
+2013-09-09 14:12:41	sventon	LICENSE.md	Procfile	README.md	docpad.coffee	node_modules	package.json	src
+2013-09-09 14:38:46	<--	eth0lo (~eth0lo@office.xing.com) has quit (Remote host closed the connection)
+2013-09-09 14:40:07	-->	eth0lo (~eth0lo@office.xing.com) has joined #docpad
+2013-09-09 14:42:51	<--	sventon (~sventon@c-2ec20e0b-74736162.cust.telenor.se) has quit (Ping timeout: 264 seconds)
+2013-09-09 15:01:45	-->	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has joined #docpad
+2013-09-09 15:25:17	<--	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has quit (Quit: Leaving.)
+2013-09-09 15:37:58	-->	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has joined #docpad
+2013-09-09 15:41:15	<--	eth0lo (~eth0lo@office.xing.com) has quit (Remote host closed the connection)
+2013-09-09 15:53:35	-->	eth0lo (~eth0lo@office.xing.com) has joined #docpad
+2013-09-09 16:19:25	mikeumus	Is the inlinegui plugin only for editing locally? 
+2013-09-09 16:21:57	<--	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has quit (Quit: Leaving.)
+2013-09-09 16:23:10	-->	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has joined #docpad
+2013-09-09 16:29:52	<--	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has quit (Quit: Leaving.)
+2013-09-09 16:31:05	-->	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has joined #docpad
+2013-09-09 17:12:51	<--	eth0lo (~eth0lo@office.xing.com) has quit (Remote host closed the connection)
+2013-09-09 17:17:16	-->	patrickarlt (~patrickar@198.102.43.49) has joined #docpad
+2013-09-09 17:18:29	-->	eth0lo (~eth0lo@office.xing.com) has joined #docpad
+2013-09-09 17:50:45	<--	eth0lo (~eth0lo@office.xing.com) has quit (Remote host closed the connection)
+2013-09-09 18:00:04	<--	Delapouite (~bheridet@abo-216-184-68.mtp.modulonet.fr) has left #docpad
+2013-09-09 18:53:53	-->	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has joined #docpad
+2013-09-09 19:08:54	<--	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has quit (Quit: Leaving.)
+2013-09-09 19:12:30	-->	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has joined #docpad
+2013-09-09 19:41:35	<--	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has quit (Quit: Leaving.)
+2013-09-09 19:42:34	<--	jsilvestre (~jsilvestr@186-146-190-109.dsl.ovh.fr) has quit (Quit: Leaving)
+2013-09-09 19:46:35	-->	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has joined #docpad
+2013-09-09 20:12:06	-->	kaspertidemann (~kaspertid@c-98-207-250-230.hsd1.ca.comcast.net) has joined #docpad
+2013-09-09 20:30:50	<--	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has quit (Quit: Leaving.)
+2013-09-09 20:49:04	<--	kaspertidemann (~kaspertid@c-98-207-250-230.hsd1.ca.comcast.net) has quit (Quit: *buzz, buzz, sleep, zzz*)
+2013-09-09 20:51:25	-->	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has joined #docpad
+2013-09-09 20:57:54	-->	bryanrasmussen (026c00b6@gateway/web/freenode/ip.2.108.0.182) has joined #docpad
+2013-09-09 20:59:08	bryanrasmussen	Was just wondering, where is @documents declared. I see it being used around in the docpad themes I've downloaded. 
+2013-09-09 21:02:36	bryanrasmussen	ah I figured it out, it's this posts: -> 			@getCollection('documents').findAllLive({relativeOutDirPath:'blog'},[date:-1])
+2013-09-09 21:03:33	bryanrasmussen	which then later on gets sent into a renderer as documents, I guess, and then referenced as @documents - don't know coffeescript and .eco very well, so its easy to get lost. 
+2013-09-09 21:04:56	-->	sventon (~sventon@c-2ec29306-74736162.cust.telenor.se) has joined #docpad
+2013-09-09 21:05:24	<--	sventon (~sventon@c-2ec29306-74736162.cust.telenor.se) has quit (Remote host closed the connection)
+2013-09-09 21:18:30	<--	bryanrasmussen (026c00b6@gateway/web/freenode/ip.2.108.0.182) has quit (Quit: Page closed)
+2013-09-09 21:33:01	<--	patrickarlt (~patrickar@198.102.43.49) has quit (Remote host closed the connection)
+2013-09-09 21:38:39	<--	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has quit (Quit: Leaving.)
+2013-09-09 21:44:25	-->	patrickarlt (~patrickar@198.102.43.49) has joined #docpad
+2013-09-09 21:59:00	-->	ashnur (~ashnur@79.117.76.15) has joined #docpad
+2013-09-09 22:19:09	-->	chiguai (602961b2@gateway/web/freenode/ip.96.41.97.178) has joined #docpad
+2013-09-09 22:23:04	-->	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has joined #docpad
+2013-09-09 23:12:53	<--	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has quit (Quit: Leaving.)
+2013-09-09 23:16:31	-->	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has joined #docpad
+2013-09-09 23:17:38	<--	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has quit (Client Quit)
+2013-09-09 23:57:11	-->	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has joined #docpad
+2013-09-09 23:57:16	<--	patrickarlt (~patrickar@198.102.43.49) has quit (Read error: Connection reset by peer)
+2013-09-09 23:58:04	-->	patrickarlt (~patrickar@198.102.43.49) has joined #docpad
+2013-09-09 23:59:16	<--	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has quit (Client Quit)
+2013-09-10 00:01:25	-->	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has joined #docpad
+2013-09-10 00:05:27	-->	patricka_ (~patrickar@198.102.43.49) has joined #docpad
+2013-09-10 00:05:52	<--	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has quit (Client Quit)
+2013-09-10 00:08:21	<--	patrickarlt (~patrickar@198.102.43.49) has quit (Ping timeout: 245 seconds)
+2013-09-10 00:17:04	-->	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has joined #docpad
+2013-09-10 00:28:32	<--	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has quit (Quit: Leaving.)
+2013-09-10 00:33:15	-->	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has joined #docpad
+2013-09-10 00:39:13	<--	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has quit (Quit: Leaving.)
+2013-09-10 00:47:43	-->	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has joined #docpad
+2013-09-10 01:01:24	<--	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has quit (Quit: Leaving.)
+2013-09-10 01:03:10	-->	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has joined #docpad
+2013-09-10 01:08:36	<--	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has quit (Remote host closed the connection)
+2013-09-10 01:08:53	-->	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has joined #docpad
+2013-09-10 01:10:00	<--	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has quit (Read error: Connection reset by peer)
+2013-09-10 01:10:07	-->	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has joined #docpad
+2013-09-10 01:13:42	<--	patricka_ (~patrickar@198.102.43.49) has quit (Remote host closed the connection)
+2013-09-10 01:29:11	<--	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has quit (Quit: Leaving.)
+2013-09-10 01:30:20	-->	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has joined #docpad
+2013-09-10 02:12:37	<--	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has quit (Quit: Leaving.)
+2013-09-10 02:18:45	-->	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has joined #docpad
+2013-09-10 02:24:15	-->	patrickarlt (~patrickar@c-50-139-85-147.hsd1.or.comcast.net) has joined #docpad
+2013-09-10 02:29:01	<--	patrickarlt (~patrickar@c-50-139-85-147.hsd1.or.comcast.net) has quit (Ping timeout: 256 seconds)
+2013-09-10 02:29:13	<--	chiguai (602961b2@gateway/web/freenode/ip.96.41.97.178) has quit (Ping timeout: 250 seconds)
+2013-09-10 02:33:37	<--	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has quit (Quit: Leaving.)
+2013-09-10 02:35:57	-->	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has joined #docpad
+2013-09-10 03:04:03	<--	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has quit (Quit: Leaving.)
+2013-09-10 03:06:24	-->	patrickarlt (~patrickar@c-50-139-85-147.hsd1.or.comcast.net) has joined #docpad
+2013-09-10 03:15:09	<--	patrickarlt (~patrickar@c-50-139-85-147.hsd1.or.comcast.net) has quit (Remote host closed the connection)
+2013-09-10 03:51:13	balupton	mikeumus: inline gui will eventually be for remote deployments as well, but that requires a bit of refactoring on the docpad level beforehand (on the roadmap)
+2013-09-10 03:59:55	-->	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has joined #docpad
+2013-09-10 04:09:17	-->	kaspertidemann (~kaspertid@c-98-207-250-230.hsd1.ca.comcast.net) has joined #docpad
+2013-09-10 06:12:03	<--	kaspertidemann (~kaspertid@c-98-207-250-230.hsd1.ca.comcast.net) has quit (Quit: Free soup for everybody!)
+2013-09-10 06:16:26	<--	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has quit (Quit: Leaving.)
+2013-09-10 06:18:24	-->	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has joined #docpad
+2013-09-10 07:13:27	-->	chiguai (602961b2@gateway/web/freenode/ip.96.41.97.178) has joined #docpad
+2013-09-10 07:15:32	chiguai	Hello all, just wondering if there is a clean way to integrate docpad into an existing grunt based workflow
+2013-09-10 07:17:52	chiguai	I have been looking at the HTML Boilerplate 5 + grunt skeleton docpad.coffee and seeing how they map files and trigger the task
+2013-09-10 07:22:01	<--	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has quit (Remote host closed the connection)
+2013-09-10 07:22:18	-->	kaspertidemann (~kaspertid@c-98-207-250-230.hsd1.ca.comcast.net) has joined #docpad
+2013-09-10 07:23:58	<--	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has quit (Quit: Leaving.)
+2013-09-10 07:27:04	-->	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has joined #docpad
+2013-09-10 07:30:14	<--	chiguai (602961b2@gateway/web/freenode/ip.96.41.97.178) has quit (Quit: Page closed)
+2013-09-10 07:34:00	-->	chiguai (~chiguai@96-41-97-178.dhcp.mtpk.ca.charter.com) has joined #docpad
+2013-09-10 07:36:42	<--	kaspertidemann (~kaspertid@c-98-207-250-230.hsd1.ca.comcast.net) has quit (Quit: Free soup for everybody!)
+2013-09-10 07:42:53	-->	chiguai_ (~chiguai@96-41-97-178.dhcp.mtpk.ca.charter.com) has joined #docpad
+2013-09-10 07:43:38	<--	chiguai_ (~chiguai@96-41-97-178.dhcp.mtpk.ca.charter.com) has left #docpad
+2013-09-10 07:44:13	<--	chiguai (~chiguai@96-41-97-178.dhcp.mtpk.ca.charter.com) has left #docpad
+2013-09-10 07:48:24	-->	my_chiguai (~chiguai@96-41-97-178.dhcp.mtpk.ca.charter.com) has joined #docpad
+2013-09-10 08:43:54	-->	Delapouite (~bheridet@abo-216-184-68.mtp.modulonet.fr) has joined #docpad
+2013-09-10 08:46:53	-->	jsilvestre (~jsilvestr@186-146-190-109.dsl.ovh.fr) has joined #docpad
+2013-09-10 09:36:23	-->	eth0lo (~eth0lo@office.xing.com) has joined #docpad
+2013-09-10 10:37:28	<--	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has quit (Quit: Leaving.)
+2013-09-10 10:50:59	<--	my_chiguai (~chiguai@96-41-97-178.dhcp.mtpk.ca.charter.com) has quit (Quit: my_chiguai)
+2013-09-10 10:51:20	<--	zennit (~zennit@165.225.134.103) has quit (Remote host closed the connection)
+2013-09-10 11:11:49	<--	jgm (~quassel@primary.mcdee.net) has quit (*.net *.split)
+2013-09-10 11:18:28	<--	jsilvestre (~jsilvestr@186-146-190-109.dsl.ovh.fr) has quit (*.net *.split)
+2013-09-10 11:18:29	<--	ashnur (~ashnur@79.117.76.15) has quit (*.net *.split)
+2013-09-10 11:18:32	<--	Delapouite (~bheridet@abo-216-184-68.mtp.modulonet.fr) has quit (*.net *.split)
+2013-09-10 11:18:34	<--	eth0lo (~eth0lo@office.xing.com) has quit (*.net *.split)
+2013-09-10 11:18:43	<--	balupton (uid6783@gateway/web/irccloud.com/x-sxijkjqfuhuthbtx) has quit (*.net *.split)
+2013-09-10 11:18:44	<--	Chase_the_Dev (uid10097@gateway/web/irccloud.com/x-yohbpntqqvlsxmsw) has quit (*.net *.split)
+2013-09-10 11:18:45	<--	arcanis (~arcanis@2001:41d0:2:734f::1) has quit (*.net *.split)
+2013-09-10 11:22:51	-->	jgm (~quassel@primary.mcdee.net) has joined #docpad
+2013-09-10 11:22:52	-->	kaspertidemann (~kaspertid@c-98-207-250-230.hsd1.ca.comcast.net) has joined #docpad
+2013-09-10 11:22:52	-->	eth0lo (~eth0lo@office.xing.com) has joined #docpad
+2013-09-10 11:22:52	-->	jsilvestre (~jsilvestr@186-146-190-109.dsl.ovh.fr) has joined #docpad
+2013-09-10 11:22:52	-->	Delapouite (~bheridet@abo-216-184-68.mtp.modulonet.fr) has joined #docpad
+2013-09-10 11:22:52	-->	ashnur (~ashnur@79.117.76.15) has joined #docpad
+2013-09-10 11:22:52	-->	balupton (uid6783@gateway/web/irccloud.com/x-sxijkjqfuhuthbtx) has joined #docpad
+2013-09-10 11:22:52	-->	Chase_the_Dev (uid10097@gateway/web/irccloud.com/x-yohbpntqqvlsxmsw) has joined #docpad
+2013-09-10 11:22:52	-->	arcanis (~arcanis@2001:41d0:2:734f::1) has joined #docpad
+2013-09-10 11:38:20	<--	eth0lo (~eth0lo@office.xing.com) has quit (Remote host closed the connection)
+2013-09-10 11:40:53	-->	eth0lo (~eth0lo@office.xing.com) has joined #docpad
+2013-09-10 12:34:20	<--	kaspertidemann (~kaspertid@c-98-207-250-230.hsd1.ca.comcast.net) has quit (Ping timeout: 240 seconds)
+2013-09-10 12:37:13	-->	kaspertidemann (~kaspertid@c-98-207-250-230.hsd1.ca.comcast.net) has joined #docpad
+2013-09-10 12:38:16	<--	eth0lo (~eth0lo@office.xing.com) has quit (Remote host closed the connection)
+2013-09-10 12:41:44	-->	eth0lo (~eth0lo@office.xing.com) has joined #docpad
+2013-09-10 13:26:57	<--	eth0lo (~eth0lo@office.xing.com) has quit (Remote host closed the connection)
+2013-09-10 13:29:53	<--	kaspertidemann (~kaspertid@c-98-207-250-230.hsd1.ca.comcast.net) has quit (Quit: Free soup for everybody!)
+2013-09-10 13:39:44	-->	thanpolas (~thanpolas@ppp-94-68-108-170.home.otenet.gr) has joined #docpad
+2013-09-10 13:45:02	<--	thanpolas (~thanpolas@ppp-94-68-108-170.home.otenet.gr) has quit (Remote host closed the connection)
+2013-09-10 13:45:44	-->	thanpolas (~thanpolas@ppp-94-68-108-170.home.otenet.gr) has joined #docpad
+2013-09-10 14:28:35	-->	bryanrasmussen (026f2962@gateway/web/freenode/ip.2.111.41.98) has joined #docpad
+2013-09-10 14:29:17	bryanrasmussen	Having troubles getting deployed on Heroku. 
+2013-09-10 14:29:58	bryanrasmussen	If I have generated the site locally can I just do docpad server instead of docpad run, cause it looks like heroku is doing docpad run and failing somewhere
+2013-09-10 14:33:17	<--	bryanrasmussen (026f2962@gateway/web/freenode/ip.2.111.41.98) has quit (Client Quit)
+2013-09-10 14:35:23	-->	eth0lo (~eth0lo@office.xing.com) has joined #docpad
+2013-09-10 14:46:42	<--	ashnur (~ashnur@79.117.76.15) has quit (Quit: WeeChat 0.4.1)
+2013-09-10 14:51:53	-->	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has joined #docpad
+2013-09-10 15:21:11	<--	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has quit (Quit: Leaving.)
+2013-09-10 15:31:09	<--	eth0lo (~eth0lo@office.xing.com) has quit (Remote host closed the connection)
+2013-09-10 15:37:06	-->	eth0lo (~eth0lo@office.xing.com) has joined #docpad
+2013-09-10 15:57:02	<--	thanpolas (~thanpolas@ppp-94-68-108-170.home.otenet.gr) has quit (Remote host closed the connection)
+2013-09-10 16:44:31	-->	my_chiguai (~my_chigua@96-41-97-178.dhcp.mtpk.ca.charter.com) has joined #docpad
+2013-09-10 17:13:17	<--	my_chiguai (~my_chigua@96-41-97-178.dhcp.mtpk.ca.charter.com) has quit (Quit: my_chiguai)
+2013-09-10 17:44:30	-->	patrickarlt (~patrickar@198.102.43.49) has joined #docpad
+2013-09-10 17:48:46	<--	patrickarlt (~patrickar@198.102.43.49) has quit (Ping timeout: 245 seconds)
+2013-09-10 18:07:42	<--	eth0lo (~eth0lo@office.xing.com) has quit (Remote host closed the connection)
+2013-09-10 18:08:30	-->	my_chiguai (~my_chigua@96-41-97-178.dhcp.mtpk.ca.charter.com) has joined #docpad
+2013-09-10 18:14:04	<--	Delapouite (~bheridet@abo-216-184-68.mtp.modulonet.fr) has left #docpad
+2013-09-10 18:17:02	<--	my_chiguai (~my_chigua@96-41-97-178.dhcp.mtpk.ca.charter.com) has quit (Quit: my_chiguai)
+2013-09-10 18:22:33	-->	ashnur (~ashnur@79.117.76.15) has joined #docpad
+2013-09-10 18:57:31	-->	thanpolas (~thanpolas@ppp-94-68-108-170.home.otenet.gr) has joined #docpad
+2013-09-10 19:02:25	<--	thanpolas (~thanpolas@ppp-94-68-108-170.home.otenet.gr) has quit (Ping timeout: 276 seconds)
+2013-09-10 19:14:46	<--	ashnur (~ashnur@79.117.76.15) has quit (Quit: WeeChat 0.4.1)
+2013-09-10 19:18:24	-->	eth0lo (~eth0lo@office.xing.com) has joined #docpad
+2013-09-10 19:23:20	-->	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has joined #docpad
+2013-09-10 19:27:26	<--	eth0lo (~eth0lo@office.xing.com) has quit (Remote host closed the connection)
+2013-09-10 19:27:59	-->	eth0lo (~eth0lo@office.xing.com) has joined #docpad
+2013-09-10 19:35:02	<--	eth0lo (~eth0lo@office.xing.com) has quit (Ping timeout: 248 seconds)
+2013-09-10 19:41:41	<--	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has quit (Remote host closed the connection)
+2013-09-10 19:53:21	-->	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has joined #docpad
+2013-09-10 20:09:07	-->	mikeumus1 (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has joined #docpad
+2013-09-10 20:21:55	-->	jorawebdev (cc99c3e6@gateway/web/freenode/ip.204.153.195.230) has joined #docpad
+2013-09-10 20:22:19	jorawebdev	hi all
+2013-09-10 20:23:29	jorawebdev	anyone knows why I'm getting a "Not Found" message after a successful installation?
+2013-09-10 20:34:23	<--	jsilvestre (~jsilvestr@186-146-190-109.dsl.ovh.fr) has quit (Quit: Leaving)
+2013-09-10 20:58:07	<--	jorawebdev (cc99c3e6@gateway/web/freenode/ip.204.153.195.230) has quit (Ping timeout: 250 seconds)
+2013-09-10 21:23:15	<--	mikeumus1 (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has quit (Quit: Leaving.)
+2013-09-10 21:37:25	-->	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has joined #docpad
+2013-09-10 22:31:06	-->	pairup (~otherpers@c-69-181-30-172.hsd1.ca.comcast.net) has joined #docpad
+2013-09-10 22:31:12	pairup	hi … this looks interesting
+2013-09-10 22:31:24	pairup	anyway available to answer some questions?
+2013-09-10 22:47:01	pairup	Error: Cannot find module 'watchr'
+2013-09-10 22:47:01	pairup	    at Function.Module._resolveFilename (module.js:338:15)
+2013-09-10 22:47:02	pairup	    at Function.Module._load (module.js:280:25)
+2013-09-10 22:47:02	pairup	    at Module.require (module.js:364:17)
+2013-09-10 22:47:02	pairup	    at require (module.js:380:17)
+2013-09-10 22:47:02	pairup	    at DocPad.watchdir (/Users/jkresner/src/sandbox/my-website/node_modules/docpad/out/lib/docpad.js:1162:12)
+2013-09-10 22:47:02	pairup	    at Task.method (/Users/jkresner/src/sandbox/my-website/node_modules/docpad/out/lib/docpad.js:3308:23)
+2013-09-10 22:47:02	pairup	    at ambi (/Users/jkresner/src/sandbox/my-website/node_modules/docpad/node_modules/ambi/out/lib/ambi.js:22:16)
+2013-09-10 22:47:03	pairup	    at /Users/jkresner/src/sandbox/my-website/node_modules/docpad/node_modules/taskgroup/out/lib/taskgroup.js:117:19
+2013-09-10 22:47:04	pairup	    at b (domain.js:183:18)
+2013-09-10 22:47:04	pairup	    at Domain.run (domain.js:123:23)
+2013-09-10 22:47:05	pairup	    at Task.fire (/Users/jkresner/src/sandbox/my-website/node_modules/docpad/node_modules/taskgroup/out/lib/taskgroup.js:116:21)
+2013-09-10 22:47:05	pairup	    at process._tickDomainCallback (node.js:459:13)
+2013-09-10 22:47:06	pairup	events.js:72
+2013-09-10 22:49:19	<--	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has quit (Quit: Leaving.)
+2013-09-10 23:37:24	-->	shama_ (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has joined #docpad
+2013-09-10 23:37:35	<--	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has quit (Read error: Connection reset by peer)
+2013-09-10 23:54:13	<--	pairup (~otherpers@c-69-181-30-172.hsd1.ca.comcast.net) has left #docpad ("See ya later.")
+2013-09-11 02:18:36	-->	patrickarlt (~patrickar@c-50-139-85-147.hsd1.or.comcast.net) has joined #docpad
+2013-09-11 02:53:29	<--	patrickarlt (~patrickar@c-50-139-85-147.hsd1.or.comcast.net) has quit (Remote host closed the connection)
+2013-09-11 04:04:04	-->	patrickarlt (~patrickar@c-50-139-85-147.hsd1.or.comcast.net) has joined #docpad
+2013-09-11 04:08:38	<--	patrickarlt (~patrickar@c-50-139-85-147.hsd1.or.comcast.net) has quit (Ping timeout: 248 seconds)
+2013-09-11 04:09:54	-->	dmills (~dmills@ec2-54-241-206-128.us-west-1.compute.amazonaws.com) has joined #docpad
+2013-09-11 04:11:01	dmills	hey guys - not sure if you're awake
+2013-09-11 04:11:19	dmills	if you are, I have a twitter bootstrap skeleton which I somehow borked
+2013-09-11 04:11:39	dmills	"docpad run" works fine (though I had to 'npm install yamljs' to get it to work btw)
+2013-09-11 04:11:51	dmills	but automatic regeneration doesn't work
+2013-09-11 04:12:19	dmills	it picks up the change, but gets stuck:
+2013-09-11 04:12:19	dmills	info: Regenerating at 18:55:54
+2013-09-11 04:12:20	dmills	Currently on loadFiles at 0/1 0% ----
+2013-09-11 04:12:48	dmills	killing the process and running docpad run again works fine
+2013-09-11 04:26:49	-->	patrickarlt (~patrickar@c-50-139-85-147.hsd1.or.comcast.net) has joined #docpad
+2013-09-11 05:58:34	<--	patrickarlt (~patrickar@c-50-139-85-147.hsd1.or.comcast.net) has quit (Remote host closed the connection)
+2013-09-11 06:49:55	-->	mmoulton (~mmoulton@ip72-201-133-251.ph.ph.cox.net) has joined #docpad
+2013-09-11 07:22:08	<--	shama_ (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has quit (Remote host closed the connection)
+2013-09-11 08:01:20	-->	patrickarlt (~patrickar@c-50-139-85-147.hsd1.or.comcast.net) has joined #docpad
+2013-09-11 08:02:58	<--	patrickarlt (~patrickar@c-50-139-85-147.hsd1.or.comcast.net) has quit (Remote host closed the connection)
+2013-09-11 08:07:08	<--	mmoulton (~mmoulton@ip72-201-133-251.ph.ph.cox.net) has quit (Remote host closed the connection)
+2013-09-11 08:44:00	-->	eth0lo (~eth0lo@office.xing.com) has joined #docpad
+2013-09-11 08:47:27	-->	Delapouite (~bheridet@abo-216-184-68.mtp.modulonet.fr) has joined #docpad
+2013-09-11 09:00:11	-->	jsilvestre (~jsilvestr@186-146-190-109.dsl.ovh.fr) has joined #docpad
+2013-09-11 09:13:32	-->	patrickarlt (~patrickar@c-50-139-85-147.hsd1.or.comcast.net) has joined #docpad
+2013-09-11 09:17:57	<--	patrickarlt (~patrickar@c-50-139-85-147.hsd1.or.comcast.net) has quit (Ping timeout: 248 seconds)
+2013-09-11 09:41:03	-->	ashnur (~ashnur@79.117.70.30) has joined #docpad
+2013-09-11 10:12:34	<--	eth0lo (~eth0lo@office.xing.com) has quit (Remote host closed the connection)
+2013-09-11 10:30:34	-->	eth0lo (~eth0lo@office.xing.com) has joined #docpad
+2013-09-11 11:29:37	-->	dwynne (58979a52@gateway/web/freenode/ip.88.151.154.82) has joined #docpad
+2013-09-11 12:44:50	<--	jsilvestre (~jsilvestr@186-146-190-109.dsl.ovh.fr) has quit (Ping timeout: 246 seconds)
+2013-09-11 12:54:47	-->	jsilvestre (~jsilvestr@186-146-190-109.dsl.ovh.fr) has joined #docpad
+2013-09-11 13:10:12	<--	eth0lo (~eth0lo@office.xing.com) has quit (Remote host closed the connection)
+2013-09-11 13:18:34	-->	thanpolas (~thanpolas@ppp-94-68-89-156.home.otenet.gr) has joined #docpad
+2013-09-11 13:20:06	<--	thanpolas (~thanpolas@ppp-94-68-89-156.home.otenet.gr) has quit (Read error: Connection reset by peer)
+2013-09-11 13:20:33	-->	thanpolas (~thanpolas@ppp-94-68-89-156.home.otenet.gr) has joined #docpad
+2013-09-11 14:05:36	-->	jumble (6f4461b4@gateway/web/freenode/ip.111.68.97.180) has joined #docpad
+2013-09-11 14:05:44	jumble	hello
+2013-09-11 14:05:54	jumble	docpad check
+2013-09-11 14:07:07	jumble	docpad text
+2013-09-11 14:07:19	jumble	exit
+2013-09-11 14:07:21	jumble	logout
+2013-09-11 14:07:47	<--	jumble (6f4461b4@gateway/web/freenode/ip.111.68.97.180) has left #docpad
+2013-09-11 14:18:37	-->	eth0lo (~eth0lo@office.xing.com) has joined #docpad
+2013-09-11 14:50:46	<--	ashnur (~ashnur@79.117.70.30) has quit (Ping timeout: 275 seconds)
+2013-09-11 15:21:29	<--	eth0lo (~eth0lo@office.xing.com) has quit (Remote host closed the connection)
+2013-09-11 15:23:31	-->	eth0lo (~eth0lo@office.xing.com) has joined #docpad
+2013-09-11 15:42:23	<--	thanpolas (~thanpolas@ppp-94-68-89-156.home.otenet.gr) has quit (Read error: Connection reset by peer)
+2013-09-11 15:42:50	-->	thanpolas (~thanpolas@ppp-94-68-89-156.home.otenet.gr) has joined #docpad
+2013-09-11 15:49:22	<--	thanpolas (~thanpolas@ppp-94-68-89-156.home.otenet.gr) has quit (Remote host closed the connection)
+2013-09-11 15:53:53	<--	dwynne (58979a52@gateway/web/freenode/ip.88.151.154.82) has quit (Ping timeout: 250 seconds)
+2013-09-11 15:56:21	-->	patrickarlt (~patrickar@c-50-139-85-147.hsd1.or.comcast.net) has joined #docpad
+2013-09-11 16:02:13	<--	Delapouite (~bheridet@abo-216-184-68.mtp.modulonet.fr) has quit (Quit: Leaving.)
+2013-09-11 16:26:57	<--	patrickarlt (~patrickar@c-50-139-85-147.hsd1.or.comcast.net) has quit (Remote host closed the connection)
+2013-09-11 16:34:23	-->	mikeumus (~Mikeumus@ool-457dcfd1.dyn.optonline.net) has joined #docpad
+2013-09-11 16:46:50	<--	eth0lo (~eth0lo@office.xing.com) has quit (Remote host closed the connection)
+2013-09-11 16:47:25	-->	eth0lo (~eth0lo@office.xing.com) has joined #docpad
+2013-09-11 17:12:54	-->	patrickarlt (~patrickar@198.102.43.49) has joined #docpad
+2013-09-11 18:00:22	<--	jsilvestre (~jsilvestr@186-146-190-109.dsl.ovh.fr) has quit (Quit: Leaving)
+2013-09-11 18:07:53	<--	eth0lo (~eth0lo@office.xing.com) has quit (Remote host closed the connection)
+2013-09-11 18:27:24	-->	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has joined #docpad
+2013-09-11 18:39:30	-->	ashnur (~ashnur@79.117.70.30) has joined #docpad
+2013-09-11 19:03:58	<--	patrickarlt (~patrickar@198.102.43.49) has quit (Remote host closed the connection)
+2013-09-11 19:15:05	-->	patrickarlt (~patrickar@198.102.43.49) has joined #docpad
+2013-09-11 20:46:27	--	irc: disconnected from server

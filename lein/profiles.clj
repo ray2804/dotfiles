@@ -1,14 +1,23 @@
 {:user {
         :dependencies [[org.clojure/clojure "1.5.1"]
+                       ;[com.cemerick/pomegranate "0.2.0"]
                        [org.clojure/clojure-contrib "1.2.0"]
                        [org.clojure/math.combinatorics "0.0.4"]
-                       ;[com.cemerick/pomegranate "0.2.0"]
+                       [org.clojure/tools.nrepl "0.2.3"]
+                       [uncomplicate/fluokitten "0.3.0"]
+                       [com.cemerick/pomegranate "0.2.0"]
+                       [prismatic/plumbing "0.1.0"]
+                       [prismatic/schema "0.1.1"]
                        [swiss-arrows "0.6.0"]
+                       [backtick "0.3.0"]
+                       [frak "0.1.3"]
+
                        ]
 
         :plugins [[lein-ancient "0.4.4"]
                   [lein-cljsbuild "0.3.2"]
                   [lein-localrepo "0.5.2"]
+                  [lein-grep "0.1.0"]
 
                   ]
 
