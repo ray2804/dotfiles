@@ -555,3 +555,37 @@
 2013-09-11 19:03:58	<--	patrickarlt (~patrickar@198.102.43.49) has quit (Remote host closed the connection)
 2013-09-11 19:15:05	-->	patrickarlt (~patrickar@198.102.43.49) has joined #docpad
 2013-09-11 20:46:27	--	irc: disconnected from server
+2013-09-13 19:46:44	-->	supersym (~supersym@5418F772.cm-5-1d.dynamic.ziggo.nl) has joined #docpad
+2013-09-13 19:46:44	--	Topic for #docpad is "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-09-13 19:46:44	--	Topic set by balupton (uid6783@gateway/web/irccloud.com/x-laowowvmwkkqorbu) on Sat, 10 Aug 2013 08:48:07
+2013-09-13 19:46:44	--	Nicks #docpad: [arcanis balupton Chase_the_Dev dmills jgm mikeumus1 patricka_ shama supersym]
+2013-09-13 19:46:44	--	Channel #docpad: 9 nicks (0 ops, 0 halfops, 0 voices, 9 normals)
+2013-09-13 19:46:47	--	Mode #docpad [+t]
+2013-09-13 19:46:47	--	Channel created on Sat, 26 May 2012 12:12:13
+2013-09-13 19:52:46	<--	mikeumus1 (~Mikeumus@ool-457dc871.dyn.optonline.net) has quit (Quit: Leaving.)
+2013-09-13 19:57:20	-->	Alex11 (54726530@gateway/web/freenode/ip.84.114.101.48) has joined #docpad
+2013-09-13 19:58:14	Alex11	Hi. I have a problem with docpad installation. After installing and running for the first time (where you choose a skeleton) - launching the second time with docpad run results in exception. : Error: A task's completion callback has fired when the task was already in a completed state, this is unexpected
+2013-09-13 19:59:55	Alex11	ssh log with the Error's stack trace here: http://pastebin.com/SAEDji2z
+2013-09-13 20:02:27	Alex11	aw, maybe I should had not used the run command more then once
+2013-09-13 20:10:05	-->	mikeumus (~Mikeumus@ool-457dc871.dyn.optonline.net) has joined #docpad
+2013-09-13 20:22:19	<--	mikeumus (~Mikeumus@ool-457dc871.dyn.optonline.net) has quit (Quit: Leaving.)
+2013-09-13 20:23:53	-->	mikeumus (~Mikeumus@ool-457dc871.dyn.optonline.net) has joined #docpad
+2013-09-13 20:29:47	-->	mikeumus1 (~Mikeumus@ool-457dc871.dyn.optonline.net) has joined #docpad
+2013-09-13 20:29:56	<--	mikeumus (~Mikeumus@ool-457dc871.dyn.optonline.net) has quit (Ping timeout: 256 seconds)
+2013-09-13 20:41:09	<--	mikeumus1 (~Mikeumus@ool-457dc871.dyn.optonline.net) has quit (Quit: Leaving.)
+2013-09-13 20:42:39	-->	mikeumus (~Mikeumus@ool-457dc871.dyn.optonline.net) has joined #docpad
+2013-09-13 20:44:01	<--	Alex11 (54726530@gateway/web/freenode/ip.84.114.101.48) has quit (Quit: Page closed)
+2013-09-13 20:50:05	<--	mikeumus (~Mikeumus@ool-457dc871.dyn.optonline.net) has quit (Quit: Leaving.)
+2013-09-13 20:51:18	-->	mikeumus (~Mikeumus@ool-457dc871.dyn.optonline.net) has joined #docpad
+2013-09-13 21:09:11	<--	patricka_ (~patrickar@198.102.43.49) has quit (Read error: Connection reset by peer)
+2013-09-13 21:09:30	-->	patrickarlt (~patrickar@198.102.43.49) has joined #docpad
+2013-09-13 22:39:12	<--	mikeumus (~Mikeumus@ool-457dc871.dyn.optonline.net) has quit (Quit: Leaving.)
+2013-09-13 22:42:37	-->	mikeumus (~Mikeumus@ool-457dc871.dyn.optonline.net) has joined #docpad
+2013-09-13 22:43:49	<--	mikeumus (~Mikeumus@ool-457dc871.dyn.optonline.net) has quit (Client Quit)
+2013-09-14 00:08:46	-->	ashnur (~ashnur@79.117.68.150) has joined #docpad
+2013-09-14 00:10:25	<--	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has quit (Ping timeout: 246 seconds)
+2013-09-14 00:10:51	-->	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has joined #docpad
+2013-09-14 00:54:01	<--	patrickarlt (~patrickar@198.102.43.49) has quit (Remote host closed the connection)
+2013-09-14 01:01:42	-->	mmoulton (~mmoulton@66.17.86.146) has joined #docpad
+2013-09-14 01:42:48	<--	mmoulton (~mmoulton@66.17.86.146) has quit (Remote host closed the connection)
+2013-09-14 02:00:41	-->	patrickarlt (~patrickar@c-50-139-85-147.hsd1.or.comcast.net) has joined #docpad

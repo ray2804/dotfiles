@@ -5,7 +5,6 @@
                        [org.clojure/math.combinatorics "0.0.4"]
                        [org.clojure/tools.nrepl "0.2.3"]
                        [uncomplicate/fluokitten "0.3.0"]
-                       [com.cemerick/pomegranate "0.2.0"]
                        [prismatic/plumbing "0.1.0"]
                        [prismatic/schema "0.1.1"]
                        [swiss-arrows "0.6.0"]
