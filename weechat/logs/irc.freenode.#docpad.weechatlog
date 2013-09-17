@@ -589,3 +589,180 @@
 2013-09-14 01:01:42	-->	mmoulton (~mmoulton@66.17.86.146) has joined #docpad
 2013-09-14 01:42:48	<--	mmoulton (~mmoulton@66.17.86.146) has quit (Remote host closed the connection)
 2013-09-14 02:00:41	-->	patrickarlt (~patrickar@c-50-139-85-147.hsd1.or.comcast.net) has joined #docpad
+2013-09-14 04:07:10	<--	patrickarlt (~patrickar@c-50-139-85-147.hsd1.or.comcast.net) has quit (Remote host closed the connection)
+2013-09-14 04:57:23	-->	patrickarlt (~patrickar@c-50-139-85-147.hsd1.or.comcast.net) has joined #docpad
+2013-09-14 05:44:51	<--	patrickarlt (~patrickar@c-50-139-85-147.hsd1.or.comcast.net) has quit (Remote host closed the connection)
+2013-09-14 06:17:53	-->	patricka_ (~patrickar@c-50-139-85-147.hsd1.or.comcast.net) has joined #docpad
+2013-09-14 06:30:44	<--	patricka_ (~patrickar@c-50-139-85-147.hsd1.or.comcast.net) has quit (Remote host closed the connection)
+2013-09-14 07:43:08	<--	ashnur (~ashnur@79.117.68.150) has quit (Ping timeout: 256 seconds)
+2013-09-14 07:51:15	<--	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has quit (Remote host closed the connection)
+2013-09-14 08:43:32	-->	ashnur (~ashnur@79.117.76.61) has joined #docpad
+2013-09-14 08:52:54	-->	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has joined #docpad
+2013-09-14 08:59:38	<--	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has quit (Ping timeout: 264 seconds)
+2013-09-14 09:36:05	<--	balupton (uid6783@gateway/web/irccloud.com/x-sxijkjqfuhuthbtx) has quit (Ping timeout: 248 seconds)
+2013-09-14 09:36:32	-->	balupton (uid6783@gateway/web/irccloud.com/x-keutuvkcxjwezwbc) has joined #docpad
+2013-09-14 14:16:26	<--	ashnur (~ashnur@79.117.76.61) has quit (Quit: WeeChat 0.4.1)
+2013-09-14 15:47:05	-->	drabe (4c7fc014@gateway/web/freenode/ip.76.127.192.20) has joined #docpad
+2013-09-14 15:57:37	-->	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has joined #docpad
+2013-09-14 16:01:55	<--	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has quit (Ping timeout: 246 seconds)
+2013-09-14 16:18:57	-->	ashnur (~ashnur@79.117.76.61) has joined #docpad
+2013-09-14 16:21:32	-->	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has joined #docpad
+2013-09-14 17:03:48	<--	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has quit (Remote host closed the connection)
+2013-09-14 17:13:16	<--	drabe (4c7fc014@gateway/web/freenode/ip.76.127.192.20) has quit (Quit: Page closed)
+2013-09-14 17:34:48	-->	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has joined #docpad
+2013-09-14 17:43:02	<--	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has quit (Ping timeout: 240 seconds)
+2013-09-14 18:08:17	-->	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has joined #docpad
+2013-09-14 21:50:45	--	Notice(GitHub42): [documentation] keithrobinson opened pull request #58: Added The Mason Jar Project. (master...patch-1)  http://git.io/EQ1hmw
+2013-09-15 01:57:53	-->	kaspertidemann (~kaspertid@c-98-207-250-230.hsd1.ca.comcast.net) has joined #docpad
+2013-09-15 02:27:53	<--	kaspertidemann (~kaspertid@c-98-207-250-230.hsd1.ca.comcast.net) has quit (Quit: Free soup for everybody!)
+2013-09-15 03:09:22	--	Notice(GitHub96): [documentation] balupton pushed 2 new commits to master: http://git.io/M9rTLA
+2013-09-15 03:09:22	--	Notice(GitHub96): documentation/master ff8ca1e D. Keith Robinson: Added The Mason Jar Project.
+2013-09-15 03:09:22	--	Notice(GitHub96): documentation/master 7992030 Benjamin Arthur Lupton: Merge pull request #58 from keithrobinson/patch-1...
+2013-09-15 08:25:08	<--	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has quit (Remote host closed the connection)
+2013-09-15 08:57:47	-->	Alex______ (54726530@gateway/web/freenode/ip.84.114.101.48) has joined #docpad
+2013-09-15 08:58:43	Alex______	Hi. Could you assist in moving files from `src/documents/posts/post1.html` to `out/post1.html` without the subfolder `posts` appearing in the out directory? 
+2013-09-15 08:58:46	Alex______	Thanks. http://stackoverflow.com/questions/18809753/docpad-subdirectory-rendered-into-general-directory
+2013-09-15 13:31:41	<--	ashnur (~ashnur@79.117.76.61) has quit (Quit: WeeChat 0.4.1)
+2013-09-15 15:41:44	--	Notice(GitHub50): [documentation] balupton pushed 1 new commit to master: http://git.io/3gG-aA
+2013-09-15 15:41:44	--	Notice(GitHub50): documentation/master 6213f90 Benjamin Arthur Lupton: Added note about sudo, added note about the TOS to install instructions
+2013-09-15 20:06:33	<--	Alex______ (54726530@gateway/web/freenode/ip.84.114.101.48) has quit (Quit: Page closed)
+2013-09-15 21:01:17	-->	kaspertidemann (~kaspertid@c-98-207-250-230.hsd1.ca.comcast.net) has joined #docpad
+2013-09-15 21:46:35	<--	kaspertidemann (~kaspertid@c-98-207-250-230.hsd1.ca.comcast.net) has quit (Quit: *buzz, buzz, sleep, zzz*)
+2013-09-15 22:07:48	-->	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has joined #docpad
+2013-09-15 22:29:34	-->	ashnur (~ashnur@79.117.76.61) has joined #docpad
+2013-09-15 22:49:36	-->	kaspertidemann (~kaspertid@c-98-207-250-230.hsd1.ca.comcast.net) has joined #docpad
+2013-09-15 22:50:27	<--	kaspertidemann (~kaspertid@c-98-207-250-230.hsd1.ca.comcast.net) has quit (Client Quit)
+2013-09-16 00:06:30	-->	ryanfitzer (6cc0bca0@gateway/web/freenode/ip.108.192.188.160) has joined #docpad
+2013-09-16 00:09:39	ryanfitzer	Running `docpad run` on a fresh install errors out with "RangeError: Maximum call stack size exceeded". Has anyone seen this before?
+2013-09-16 00:10:47	ryanfitzer	All templates I've tried give the same result.
+2013-09-16 00:11:07	ryanfitzer	Just after "notice: Shutting down the global DocPad, and starting up the local" I get:
+2013-09-16 00:11:19	ryanfitzer	"node.js:0"
+2013-09-16 00:11:29	ryanfitzer	"// Copyright Joyent, Inc. and other Node contributors."
+2013-09-16 00:11:41	ryanfitzer	"^"
+2013-09-16 00:11:51	ryanfitzer	"RangeError: Maximum call stack size exceeded"
+2013-09-16 00:14:32	ryanfitzer	docpad --version 6.52.1
+2013-09-16 00:14:54	ryanfitzer	node --version v0.10.15
+2013-09-16 00:15:11	ryanfitzer	npm --version 1.3.9
+2013-09-16 01:25:02	-->	mikeumus (~Mikeumus@ool-457dce66.dyn.optonline.net) has joined #docpad
+2013-09-16 01:27:50	<--	mikeumus (~Mikeumus@ool-457dce66.dyn.optonline.net) has quit (Client Quit)
+2013-09-16 01:37:40	dmills	hey all
+2013-09-16 01:37:50	dmills	does docpad have any facilities for localization?
+2013-09-16 01:38:31	dmills	or does anyone have any advice for what I should be looking out for to have a localizable site?
+2013-09-16 07:10:47	<--	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has quit (Remote host closed the connection)
+2013-09-16 08:25:15	-->	jsilvestre (~jsilvestr@186-146-190-109.dsl.ovh.fr) has joined #docpad
+2013-09-16 08:42:15	-->	Delapouite (~bheridet@abo-216-184-68.mtp.modulonet.fr) has joined #docpad
+2013-09-16 09:01:13	--	Notice(GitHub52): [docpad] balupton merged master into dev: http://git.io/Zwp3ig
+2013-09-16 09:01:16	--	Notice(GitHub15): [docpad] balupton merged dev into master: http://git.io/Zwp3ig
+2013-09-16 09:01:21	--	Notice(GitHub102): [docpad] balupton tagged v6.52.2 at dev: http://git.io/QKjHYA
+2013-09-16 09:14:37	<--	ryanfitzer (6cc0bca0@gateway/web/freenode/ip.108.192.188.160) has quit (Ping timeout: 250 seconds)
+2013-09-16 09:23:20	-->	kaspertidemann (~kaspertid@c-98-207-250-230.hsd1.ca.comcast.net) has joined #docpad
+2013-09-16 09:30:23	<--	kaspertidemann (~kaspertid@c-98-207-250-230.hsd1.ca.comcast.net) has quit (Quit: Free soup for everybody!)
+2013-09-16 14:32:57	<--	ashnur (~ashnur@79.117.76.61) has quit (Quit: WeeChat 0.4.1)
+2013-09-16 15:41:26	<--	Delapouite (~bheridet@abo-216-184-68.mtp.modulonet.fr) has quit (Ping timeout: 240 seconds)
+2013-09-16 15:41:37	-->	Delapouite (~bheridet@abo-216-184-68.mtp.modulonet.fr) has joined #docpad
+2013-09-16 15:57:41	-->	Delapouite1 (~bheridet@abo-216-184-68.mtp.modulonet.fr) has joined #docpad
+2013-09-16 15:59:30	<--	Delapouite (~bheridet@abo-216-184-68.mtp.modulonet.fr) has quit (Ping timeout: 264 seconds)
+2013-09-16 16:11:11	-->	Delapouite (~bheridet@abo-216-184-68.mtp.modulonet.fr) has joined #docpad
+2013-09-16 16:12:28	<--	Delapouite1 (~bheridet@abo-216-184-68.mtp.modulonet.fr) has quit (Ping timeout: 264 seconds)
+2013-09-16 16:52:58	-->	patrickarlt (~patrickar@198.102.43.49) has joined #docpad
+2013-09-16 16:54:59	-->	ashnur (~ashnur@79.117.76.61) has joined #docpad
+2013-09-16 17:29:54	<--	patrickarlt (~patrickar@198.102.43.49) has left #docpad ("Leaving...")
+2013-09-16 18:19:49	<--	Delapouite (~bheridet@abo-216-184-68.mtp.modulonet.fr) has left #docpad
+2013-09-16 19:03:46	-->	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has joined #docpad
+2013-09-16 19:50:31	<--	ashnur (~ashnur@79.117.76.61) has quit (Quit: WeeChat 0.4.1)
+2013-09-16 20:01:52	-->	patcon (~patcon@66.209.62.110) has joined #docpad
+2013-09-16 20:01:59	patcon	balupton: you around man?
+2013-09-16 20:02:26	patcon	I'm talking usage stats monitoring with a Drupal guy, and was hoping to pick your brain about how docpad does it :)
+2013-09-16 20:10:44	<--	jsilvestre (~jsilvestr@186-146-190-109.dsl.ovh.fr) has quit (Quit: Leaving)
+2013-09-16 20:43:43	<--	patcon (~patcon@66.209.62.110) has quit (Remote host closed the connection)
+2013-09-16 23:12:11	--	Mode #docpad [+o balupton] by ChanServ
+2013-09-16 23:15:47	<--	dmills (~dmills@ec2-54-241-206-128.us-west-1.compute.amazonaws.com) has left #docpad
+2013-09-16 23:29:29	-->	[o__o] (~o__o]@botbot.me) has joined #docpad
+2013-09-16 23:31:09	<--	[o__o] (~o__o]@botbot.me) has left #docpad
+2013-09-16 23:32:55	-->	[o__o] (~o__o]@botbot.me) has joined #docpad
+2013-09-16 23:37:26	-->	ashnur (~ashnur@79.117.76.61) has joined #docpad
+2013-09-16 23:43:16	-->	w33ble_ (~Adium@wsip-98-174-226-185.ph.ph.cox.net) has joined #docpad
+2013-09-16 23:43:26	--	Mode #docpad [-o balupton] by balupton
+2013-09-16 23:48:23	--	Mode #docpad [+o balupton] by ChanServ
+2013-09-17 00:25:48	--	balupton has changed topic for #docpad from "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum" to "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Chat Logs: http://docpad.org/chat-logs ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-09-17 00:26:00	--	Mode #docpad [-o balupton] by balupton
+2013-09-17 00:30:34	balupton	patcon: sure, will send to you in pm
+2013-09-17 01:08:26	<--	w33ble_ (~Adium@wsip-98-174-226-185.ph.ph.cox.net) has quit (Quit: Leaving.)
+2013-09-17 01:35:20	-->	unbracketed (~textual@pool-173-55-98-189.lsanca.fios.verizon.net) has joined #docpad
+2013-09-17 02:10:01	-->	testingaccount (4c0aad4a@gateway/web/freenode/ip.76.10.173.74) has joined #docpad
+2013-09-17 02:10:30	<--	testingaccount (4c0aad4a@gateway/web/freenode/ip.76.10.173.74) has quit (Client Quit)
+2013-09-17 02:11:19	-->	w33ble_ (~Adium@wsip-98-174-226-185.ph.ph.cox.net) has joined #docpad
+2013-09-17 02:11:44	<--	w33ble_ (~Adium@wsip-98-174-226-185.ph.ph.cox.net) has left #docpad
+2013-09-17 02:15:09	-->	patcon_testing (4c0aad4a@gateway/web/freenode/ip.76.10.173.74) has joined #docpad
+2013-09-17 02:15:10	patcon_testing	testing!
+2013-09-17 02:15:57	patcon_testing	gh#637
+2013-09-17 02:15:58	[o__o]	Discussion: A new place to discuss business related things: https://github.com/bevry/docpad/issues/637
+2013-09-17 02:16:12	<--	patcon_testing (4c0aad4a@gateway/web/freenode/ip.76.10.173.74) has quit (Client Quit)
+2013-09-17 02:32:15	<--	unbracketed (~textual@pool-173-55-98-189.lsanca.fios.verizon.net) has quit (Quit: Computer has gone to sleep.)
+2013-09-17 05:51:24	-->	unbracketed (~textual@pool-173-55-98-189.lsanca.fios.verizon.net) has joined #docpad
+2013-09-17 05:51:31	<--	unbracketed (~textual@pool-173-55-98-189.lsanca.fios.verizon.net) has quit (Max SendQ exceeded)
+2013-09-17 05:52:05	-->	unbracketed (~textual@pool-173-55-98-189.lsanca.fios.verizon.net) has joined #docpad
+2013-09-17 05:52:09	<--	unbracketed (~textual@pool-173-55-98-189.lsanca.fios.verizon.net) has quit (Max SendQ exceeded)
+2013-09-17 05:52:45	-->	unbracketed (~textual@pool-173-55-98-189.lsanca.fios.verizon.net) has joined #docpad
+2013-09-17 05:52:50	<--	unbracketed (~textual@pool-173-55-98-189.lsanca.fios.verizon.net) has quit (Max SendQ exceeded)
+2013-09-17 05:53:29	-->	unbracketed (~textual@pool-173-55-98-189.lsanca.fios.verizon.net) has joined #docpad
+2013-09-17 05:58:47	balupton	[o__o]: help
+2013-09-17 05:58:48	[o__o]	Available plugins: logger, ping, help, github, bangmotivate (https://botbot.me/freenode/docpad/help/)
+2013-09-17 05:59:08	balupton	!m Chase_the_Dev
+2013-09-17 05:59:09	[o__o]	You're doing good work, Chase_the_Dev!
+2013-09-17 05:59:12	balupton	:)
+2013-09-17 06:00:46	Chase_the_Dev	Domo arigato Mr Roboto.
+2013-09-17 06:03:18	Chase_the_Dev	First time I got a notification through IRCCloud on my phone.
+2013-09-17 06:05:53	balupton	:)
+2013-09-17 06:05:56	balupton	Love IRC Cloud
+2013-09-17 06:17:39	<--	unbracketed (~textual@pool-173-55-98-189.lsanca.fios.verizon.net) has quit (Quit: Computer has gone to sleep.)
+2013-09-17 08:01:58	--	Notice(GitHub165): [documentation] balupton pushed 1 new commit to master: http://git.io/N6smpg
+2013-09-17 08:01:58	--	Notice(GitHub165): documentation/master 07185a9 Benjamin Arthur Lupton: Emphasised what should be posted with bug reports
+2013-09-17 08:03:30	--	Notice(GitHub59): [docpad] balupton pushed 1 new commit to master: http://git.io/P8OMzw
+2013-09-17 08:03:31	--	Notice(GitHub59): docpad/master 66cda9e Benjamin Arthur Lupton: Update CONTRIBUTING.md
+2013-09-17 08:09:07	<--	ashnur (~ashnur@79.117.76.61) has quit (*.net *.split)
+2013-09-17 08:12:42	-->	jsilvestre (~jsilvestr@186-146-190-109.dsl.ovh.fr) has joined #docpad
+2013-09-17 08:13:53	<--	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has quit (Remote host closed the connection)
+2013-09-17 08:16:03	-->	ashnur (~ashnur@79.117.76.61) has joined #docpad
+2013-09-17 08:52:16	-->	Delapouite (~bheridet@abo-216-184-68.mtp.modulonet.fr) has joined #docpad
+2013-09-17 08:53:24	-->	kaspertidemann (~kaspertid@c-98-207-250-230.hsd1.ca.comcast.net) has joined #docpad
+2013-09-17 09:06:31	<--	ashnur (~ashnur@79.117.76.61) has quit (Ping timeout: 246 seconds)
+2013-09-17 09:29:42	<--	kaspertidemann (~kaspertid@c-98-207-250-230.hsd1.ca.comcast.net) has quit (Quit: Free soup for everybody!)
+2013-09-17 09:54:14	--	Notice(GitHub41): [documentation] balupton pushed 1 new commit to master: http://git.io/Mn0yGA
+2013-09-17 09:54:14	--	Notice(GitHub41): documentation/master 2797fa7 Benjamin Arthur Lupton: Updated github pages deploy instructions
+2013-09-17 12:16:05	<--	Delapouite (~bheridet@abo-216-184-68.mtp.modulonet.fr) has quit (Read error: Connection reset by peer)
+2013-09-17 12:16:07	-->	Delapouite1 (~bheridet@abo-216-184-68.mtp.modulonet.fr) has joined #docpad
+2013-09-17 14:19:40	--	Notice(GitHub111): [docpad] balupton pushed 1 new commit to dev: http://git.io/IZG1UQ
+2013-09-17 14:19:40	--	Notice(GitHub111): docpad/dev 777e1db Benjamin Lupton: v6.53.0. Bugfix. Improvement....
+2013-09-17 14:20:41	--	Notice(GitHub34): [docpad] balupton merged master into dev: https://github.com/bevry/docpad/compare/777e1db46c15...6ffbc741a509
+2013-09-17 14:20:41	--	Notice(GitHub138): [docpad] balupton merged dev into master: http://git.io/NMy9Sg
+2013-09-17 14:20:46	--	Notice(GitHub60): [docpad] balupton tagged v6.53.0 at 777e1db: http://git.io/iG6f6A
+2013-09-17 14:37:28	--	Notice(GitHub83): [documentation] balupton pushed 1 new commit to master: http://git.io/5p3WWA
+2013-09-17 14:37:28	--	Notice(GitHub83): documentation/master 3f7246e Benjamin Arthur Lupton: Added link to reading the IRC logs to support page
+2013-09-17 15:43:18	-->	unbracketed (~textual@pool-173-55-98-189.lsanca.fios.verizon.net) has joined #docpad
+2013-09-17 15:43:23	<--	unbracketed (~textual@pool-173-55-98-189.lsanca.fios.verizon.net) has quit (Max SendQ exceeded)
+2013-09-17 15:44:05	-->	unbracketed (~textual@pool-173-55-98-189.lsanca.fios.verizon.net) has joined #docpad
+2013-09-17 15:44:11	<--	unbracketed (~textual@pool-173-55-98-189.lsanca.fios.verizon.net) has quit (Max SendQ exceeded)
+2013-09-17 15:44:48	-->	unbracketed (~textual@pool-173-55-98-189.lsanca.fios.verizon.net) has joined #docpad
+2013-09-17 15:44:52	<--	unbracketed (~textual@pool-173-55-98-189.lsanca.fios.verizon.net) has quit (Max SendQ exceeded)
+2013-09-17 15:45:30	-->	unbracketed (~textual@pool-173-55-98-189.lsanca.fios.verizon.net) has joined #docpad
+2013-09-17 15:45:34	<--	unbracketed (~textual@pool-173-55-98-189.lsanca.fios.verizon.net) has quit (Max SendQ exceeded)
+2013-09-17 15:46:13	-->	unbracketed (~textual@pool-173-55-98-189.lsanca.fios.verizon.net) has joined #docpad
+2013-09-17 15:46:18	<--	unbracketed (~textual@pool-173-55-98-189.lsanca.fios.verizon.net) has quit (Max SendQ exceeded)
+2013-09-17 15:46:55	-->	unbracketed (~textual@pool-173-55-98-189.lsanca.fios.verizon.net) has joined #docpad
+2013-09-17 15:46:59	<--	unbracketed (~textual@pool-173-55-98-189.lsanca.fios.verizon.net) has quit (Max SendQ exceeded)
+2013-09-17 15:47:38	-->	unbracketed (~textual@pool-173-55-98-189.lsanca.fios.verizon.net) has joined #docpad
+2013-09-17 15:47:42	<--	unbracketed (~textual@pool-173-55-98-189.lsanca.fios.verizon.net) has quit (Max SendQ exceeded)
+2013-09-17 15:48:17	-->	unbracketed (~textual@pool-173-55-98-189.lsanca.fios.verizon.net) has joined #docpad
+2013-09-17 15:54:31	<--	unbracketed (~textual@pool-173-55-98-189.lsanca.fios.verizon.net) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2013-09-17 15:55:08	-->	unbracketed (~textual@pool-173-55-98-189.lsanca.fios.verizon.net) has joined #docpad
+2013-09-17 15:55:13	<--	unbracketed (~textual@pool-173-55-98-189.lsanca.fios.verizon.net) has quit (Max SendQ exceeded)
+2013-09-17 15:55:48	-->	unbracketed (~textual@pool-173-55-98-189.lsanca.fios.verizon.net) has joined #docpad
+2013-09-17 15:55:52	<--	unbracketed (~textual@pool-173-55-98-189.lsanca.fios.verizon.net) has quit (Max SendQ exceeded)
+2013-09-17 15:56:26	-->	unbracketed (~textual@pool-173-55-98-189.lsanca.fios.verizon.net) has joined #docpad
+2013-09-17 15:56:31	<--	unbracketed (~textual@pool-173-55-98-189.lsanca.fios.verizon.net) has quit (Max SendQ exceeded)
+2013-09-17 15:57:06	-->	unbracketed (~textual@pool-173-55-98-189.lsanca.fios.verizon.net) has joined #docpad
+2013-09-17 15:57:10	<--	unbracketed (~textual@pool-173-55-98-189.lsanca.fios.verizon.net) has quit (Max SendQ exceeded)
+2013-09-17 15:57:46	-->	unbracketed (~textual@pool-173-55-98-189.lsanca.fios.verizon.net) has joined #docpad
+2013-09-17 15:57:53	<--	unbracketed (~textual@pool-173-55-98-189.lsanca.fios.verizon.net) has quit (Max SendQ exceeded)
+2013-09-17 15:58:43	-->	unbracketed (~textual@pool-173-55-98-189.lsanca.fios.verizon.net) has joined #docpad

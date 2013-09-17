@@ -5,11 +5,11 @@
                        [org.clojure/math.combinatorics "0.0.4"]
                        [org.clojure/tools.nrepl "0.2.3"]
                        [uncomplicate/fluokitten "0.3.0"]
-                       [prismatic/plumbing "0.1.0"]
-                       [prismatic/schema "0.1.1"]
-                       [swiss-arrows "0.6.0"]
-                       [backtick "0.3.0"]
-                       [frak "0.1.3"]
+                       ;[prismatic/plumbing "0.1.0"]
+                       ;[prismatic/schema "0.1.1"]
+                       ;[swiss-arrows "0.6.0"]
+                       ;[backtick "0.3.0"]
+                       ;[frak "0.1.3"]
 
                        ]
 
@@ -17,6 +17,7 @@
                   [lein-cljsbuild "0.3.2"]
                   [lein-localrepo "0.5.2"]
                   [lein-grep "0.1.0"]
+                  [lein-try "0.3.1"]
 
                   ]
 

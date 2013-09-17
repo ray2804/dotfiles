@@ -15,19 +15,23 @@
                  [prismatic/schema "0.1.1"]
                  [garden "1.0.0-SNAPSHOT"]
                  [markdown-clj "0.9.31"]
-                 ;[swiss-arrows "0.6.0"]
+                 [swiss-arrows "0.6.0"]
                  [inflections "0.8.2" :exclude [org.mozilla/rhino
                                                 org.clojure/google-closure-library]]
                  [compojure "1.1.5"]
                  [cheshire "5.2.0"]
-                 ;[backtick "0.3.0"]
+                 [backtick "0.3.0"]
                  [hiccup "1.0.4"]
                  ;[frak "0.1.3"]
                  ]
   :injections [(require '[clojure.zip :as zip]
+                        '[clojure.java.shell :refer [sh]]
                         '[clojure.repl :refer [doc source dir]]
+                        '[clojure.walk :as walk]
                         ;'[clojure.edn :refer [read read-string]]
                         '[clojure.pprint :refer [pprint print-table cl-format]]
+                        '[clojure.math.combinatorics :as combo
+                          :refer [combinations subsets cartesian-product selections]]
                         '[clojure.set :refer [project]]
                         '[clojure.string :as string]
                         '[clojure.test :refer :all]
@@ -50,15 +54,38 @@
                         '[garden.units :as gunits :refer [px pt em percent]]
                         '[garden.color :as gcolor :refer [hsl]]
 
-                        '[plumbing.graph :as graph]
+
                         '[plumbing.core :refer :all]
+                        '[plumbing.fnk.schema :as fnkschema]
+                        '[plumbing.fnk.pfnk :as pfnk]
+                        '[plumbing.graph :as graph]
+                        '[plumbing.map :as map]
 
                         '[inflections.core :refer [plural singular underscore
                                                    ordinalize capitalize]]
                         '[markdown.core :as markdown]
-                        '[frak :as frak]
+                        ;'[frak :as frak]
                         '[cheshire.core :refer :all]
                         '[schema.core :as schema]
 
                         ;'[cemerick.pomegranate :refer [add-dependencies]]
-                        )])
+                        )
+
+               (defmacro def-curry-fn [name args & body]
+                 {:pre [(not-any? #{'&} args)]}
+                 (if (empty? args)
+                   `(defn ~name ~args ~@body)
+                   (let [rec-funcs (reduce (fn [l v]
+                                             `(letfn [(helper#
+                                                       ([] helper#)
+                                                       ([x#] (let [~v x#] ~l))
+                                                       ([x# & rest#] (let [~v x#]
+                                                                       (apply (helper# x#) rest#))))]
+                                                helper#))
+                                           `(do ~@body) (reverse args))]
+                     `(defn ~name [& args#]
+                        (let [helper# ~rec-funcs]
+                          (apply helper# args#))))))
+
+
+               ])
