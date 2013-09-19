@@ -3432,7 +3432,7 @@ freetype-font=DejaVu Sans
 #audio=1
 
 # Default audio volume (integer)
-volume=160
+volume=320
 
 # Audio output volume step (integer)
 #volume-step=32

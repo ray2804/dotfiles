@@ -49,7 +49,7 @@ sysmodmap=/etc/X11/xinit/Xmodmap
 [[ -f "${oldconfig}" ]]     && xrdb -merge "${oldconfig}"
 
 # Start compositing window manager
-xcompmgr -c &
+#xcompmgr -c &
 export DE='xfce'
 
 # Set screen displays

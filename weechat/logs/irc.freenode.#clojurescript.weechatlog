@@ -1510,3 +1510,160 @@
 2013-09-17 15:56:59	-->	bmaddy (~bmaddy@72.21.231.26) has joined #clojurescript
 2013-09-17 16:01:56	<--	normanrichards (~normanric@70.114.215.220) has quit
 2013-09-17 16:06:20	-->	racycle (~racycle@75-25-129-128.lightspeed.sjcpca.sbcglobal.net) has joined #clojurescript
+2013-09-17 16:20:02	-->	normanrichards (~normanric@mobile-166-147-066-122.mycingular.net) has joined #clojurescript
+2013-09-17 16:30:41	<--	racycle (~racycle@75-25-129-128.lightspeed.sjcpca.sbcglobal.net) has quit (Remote host closed the connection)
+2013-09-17 16:34:07	-->	pel_daniel (~responsiv@187.191.31.50) has joined #clojurescript
+2013-09-17 16:34:24	-->	kitofr (~smuxi@46.182.204.250.c.fiberdirekt.net) has joined #clojurescript
+2013-09-17 16:37:47	-->	jimt_ (~jim@62.245.69.111.dynamic.snap.net.nz) has joined #clojurescript
+2013-09-17 16:40:54	<--	jimt (~jim@254.243.69.111.dynamic.snap.net.nz) has quit (Ping timeout: 260 seconds)
+2013-09-17 16:49:10	<--	bmaddy (~bmaddy@72.21.231.26) has quit (Remote host closed the connection)
+2013-09-17 17:04:19	<--	kitofr (~smuxi@46.182.204.250.c.fiberdirekt.net) has quit (Remote host closed the connection)
+2013-09-17 17:06:03	-->	jivebot (~textual@or-71-53-77-54.dhcp.embarqhsd.net) has joined #clojurescript
+2013-09-17 17:11:02	<--	jivebot (~textual@or-71-53-77-54.dhcp.embarqhsd.net) has quit (Ping timeout: 264 seconds)
+2013-09-17 17:17:57	-->	jivebot (~textual@71-92-144-74.static.mdfd.or.charter.com) has joined #clojurescript
+2013-09-17 17:21:54	<--	normanrichards (~normanric@mobile-166-147-066-122.mycingular.net) has quit (Read error: Connection reset by peer)
+2013-09-17 17:36:33	-->	normanrichards (~normanric@12.185.76.29) has joined #clojurescript
+2013-09-17 17:39:26	<--	normanrichards (~normanric@12.185.76.29) has quit (Client Quit)
+2013-09-17 17:41:05	-->	FrankS (~fsiebenli@204.14.239.219) has joined #clojurescript
+2013-09-17 17:42:49	-->	racycle (~racycle@75-25-129-128.lightspeed.sjcpca.sbcglobal.net) has joined #clojurescript
+2013-09-17 18:06:08	-->	normanrichards (~normanric@rrcs-108-178-120-144.sw.biz.rr.com) has joined #clojurescript
+2013-09-17 18:12:07	<--	ideamonk (~ideamonk@61.12.96.226) has quit (Quit: ideamonk)
+2013-09-17 18:39:11	-->	bmaddy (~bmaddy@72.21.231.26) has joined #clojurescript
+2013-09-17 18:43:19	-->	jimt (~jim@184.239.69.111.dynamic.snap.net.nz) has joined #clojurescript
+2013-09-17 18:44:11	-->	mtm (~mtm@162.17.91.89) has joined #clojurescript
+2013-09-17 18:44:23	<--	jimt_ (~jim@62.245.69.111.dynamic.snap.net.nz) has quit (Ping timeout: 260 seconds)
+2013-09-17 18:53:33	-->	ideamonk (~ideamonk@122.169.67.19) has joined #clojurescript
+2013-09-17 18:53:58	<--	ideamonk (~ideamonk@122.169.67.19) has quit (Client Quit)
+2013-09-17 19:08:13	-->	jonasen (~jonasen@a100.ip13.netikka.fi) has joined #clojurescript
+2013-09-17 19:23:54	<--	danielszmulewicz (~danielszm@109.226.23.125) has quit (Ping timeout: 264 seconds)
+2013-09-17 19:24:20	-->	danielszmulewicz (~danielszm@109.226.23.125) has joined #clojurescript
+2013-09-17 19:28:57	-->	enquora (~davidr@S0106602ad083de8c.cg.shawcable.net) has joined #clojurescript
+2013-09-17 19:32:14	<--	daniel_karlsson (~daniel_ka@c83-248-139-198.bredband.comhem.se) has quit (Quit: ["Textual IRC Client: www.textualapp.com"])
+2013-09-17 19:35:26	-->	TEttinger (~notostrac@76-217-25-235.lightspeed.irvnca.sbcglobal.net) has joined #clojurescript
+2013-09-17 19:35:31	-->	danielszmulewi-1 (~daniel@109.226.23.125) has joined #clojurescript
+2013-09-17 20:44:44	<--	jaimef_ (jaimef@dns.mauthesis.com) has quit (Excess Flood)
+2013-09-17 20:46:43	-->	jaimef (jaimef@dns.mauthesis.com) has joined #clojurescript
+2013-09-17 20:50:32	<--	bmaddy (~bmaddy@72.21.231.26) has quit (Remote host closed the connection)
+2013-09-17 21:15:32	<--	normanrichards (~normanric@rrcs-108-178-120-144.sw.biz.rr.com) has quit
+2013-09-17 21:22:36	-->	bmaddy (~bmaddy@72.21.231.26) has joined #clojurescript
+2013-09-17 21:25:25	<--	jonasen (~jonasen@a100.ip13.netikka.fi) has quit (Quit: Lost terminal)
+2013-09-17 21:38:13	-->	normanrichards (~normanric@adsl-67-64-66-5.dsl.austtx.swbell.net) has joined #clojurescript
+2013-09-17 21:44:58	<--	pel_daniel (~responsiv@187.191.31.50) has left #clojurescript
+2013-09-17 22:06:24	<--	jaimef (jaimef@dns.mauthesis.com) has quit (Excess Flood)
+2013-09-17 22:07:43	-->	jaimef (jaimef@dns.mauthesis.com) has joined #clojurescript
+2013-09-17 22:56:19	<--	bmaddy (~bmaddy@72.21.231.26) has quit (Remote host closed the connection)
+2013-09-17 23:14:36	<--	normanrichards (~normanric@adsl-67-64-66-5.dsl.austtx.swbell.net) has quit
+2013-09-17 23:30:38	-->	bmaddy (~bmaddy@173-165-237-89-minnesota.hfc.comcastbusiness.net) has joined #clojurescript
+2013-09-17 23:35:22	<--	danielszmulewicz (~danielszm@109.226.23.125) has quit (Quit: danielszmulewicz)
+2013-09-17 23:41:37	-->	normanrichards (~normanric@70.114.215.220) has joined #clojurescript
+2013-09-18 00:16:58	-->	inkybutton (~inkybutto@122-60-132-166.jetstream.xtra.co.nz) has joined #clojurescript
+2013-09-18 00:16:58	<--	inkybutton (~inkybutto@122-60-132-166.jetstream.xtra.co.nz) has quit (Changing host)
+2013-09-18 00:16:58	-->	inkybutton (~inkybutto@unaffiliated/inkybutton) has joined #clojurescript
+2013-09-18 00:26:45	-->	pdmct (7a988c41@gateway/web/freenode/ip.122.152.140.65) has joined #clojurescript
+2013-09-18 19:51:16	-->	supersym (~supersym@5418F772.cm-5-1d.dynamic.ziggo.nl) has joined #clojurescript
+2013-09-18 19:51:16	--	Nicks #clojurescript: [brainproxy charliekilo|away daniel_karlsson danielszmulewi-1 danielszmulewicz denysonique eigenjoy FrankS harrow ibdknox j0ni jaimef Jarda jimt jivebot jonasen karnowski mtm nkoza normanrichards osnr pel_daniel racycle si14 supersym waf wei_ zemm]
+2013-09-18 19:51:16	--	Channel #clojurescript: 28 nicks (0 ops, 0 halfops, 0 voices, 28 normals)
+2013-09-18 19:51:28	--	Mode #clojurescript [+cnt]
+2013-09-18 19:51:29	--	Channel created on Thu, 21 Jul 2011 18:34:20
+2013-09-18 19:56:19	-->	cemerick (~cemerick@68-188-56-205.static.stls.mo.charter.com) has joined #clojurescript
+2013-09-18 19:57:52	-->	ToBeReplaced (~ToBeRepla@c-68-34-66-90.hsd1.dc.comcast.net) has joined #clojurescript
+2013-09-18 20:03:54	-->	kgerman (~kgerman@129.42.208.167) has joined #clojurescript
+2013-09-18 20:12:39	-->	ltw (~ltw@68-188-56-8.static.stls.mo.charter.com) has joined #clojurescript
+2013-09-18 20:15:00	<--	kgerman (~kgerman@129.42.208.167) has quit (Remote host closed the connection)
+2013-09-18 20:15:49	-->	kgerman (~kgerman@129.42.208.167) has joined #clojurescript
+2013-09-18 20:26:02	<--	mtm (~mtm@162.17.91.89) has quit (Quit: Linkinus - http://linkinus.com)
+2013-09-18 20:31:24	<--	ltw (~ltw@68-188-56-8.static.stls.mo.charter.com) has quit (Read error: Connection reset by peer)
+2013-09-18 20:31:43	-->	ltw (~ltw@68-188-56-8.static.stls.mo.charter.com) has joined #clojurescript
+2013-09-18 20:33:09	<--	cemerick (~cemerick@68-188-56-205.static.stls.mo.charter.com) has quit (Ping timeout: 248 seconds)
+2013-09-18 20:35:42	<--	ltw (~ltw@68-188-56-8.static.stls.mo.charter.com) has quit (Read error: Connection reset by peer)
+2013-09-18 20:39:50	-->	foeniks (~fevon@p5091F54E.dip0.t-ipconnect.de) has joined #clojurescript
+2013-09-18 20:40:32	-->	bmaddy (~bmaddy@72.21.231.26) has joined #clojurescript
+2013-09-18 20:51:42	<--	ToBeReplaced (~ToBeRepla@c-68-34-66-90.hsd1.dc.comcast.net) has quit (Ping timeout: 256 seconds)
+2013-09-18 20:54:56	<--	danielszmulewicz (~danielszm@109.226.23.125) has quit (Ping timeout: 256 seconds)
+2013-09-18 21:00:57	-->	danielszmulewicz (~danielszm@109.226.23.125) has joined #clojurescript
+2013-09-18 21:11:22	-->	bja (~bja@209.252.19.130) has joined #clojurescript
+2013-09-18 21:24:06	<--	jonasen (~jonasen@a100.ip13.netikka.fi) has quit (Quit: Lost terminal)
+2013-09-18 21:28:08	<--	wei_ (~wei@114-43-61-164.dynamic.hinet.net) has quit (Quit: wei_)
+2013-09-18 21:29:37	<--	daniel_karlsson (~daniel_ka@c83-248-139-198.bredband.comhem.se) has quit (Quit: Computer has gone to sleep.)
+2013-09-18 21:29:53	-->	wei_ (~wei@114-43-61-164.dynamic.hinet.net) has joined #clojurescript
+2013-09-18 21:34:10	-->	TEttinger (~notostrac@76-217-25-235.lightspeed.irvnca.sbcglobal.net) has joined #clojurescript
+2013-09-18 21:38:00	<--	wei_ (~wei@114-43-61-164.dynamic.hinet.net) has quit (Quit: wei_)
+2013-09-18 21:47:07	-->	wei_ (~wei@114-43-61-164.dynamic.hinet.net) has joined #clojurescript
+2013-09-18 22:11:40	-->	mjrusso (~mjrusso@vpn.polarmobile.com) has joined #clojurescript
+2013-09-18 22:13:58	<--	nkoza (~NKoza@181.166.210.216) has quit (Quit: Client exiting)
+2013-09-18 22:23:46	<--	normanrichards (~normanric@rrcs-108-178-120-144.sw.biz.rr.com) has quit
+2013-09-18 22:24:19	<--	wei_ (~wei@114-43-61-164.dynamic.hinet.net) has quit (Quit: wei_)
+2013-09-18 22:32:41	<--	foeniks (~fevon@p5091F54E.dip0.t-ipconnect.de) has quit (Quit: Leaving)
+2013-09-18 23:22:33	-->	normanrichards (~normanric@mobile-166-147-065-177.mycingular.net) has joined #clojurescript
+2013-09-18 23:35:56	<--	racycle (~racycle@75-25-129-128.lightspeed.sjcpca.sbcglobal.net) has quit (Remote host closed the connection)
+2013-09-18 23:48:12	<--	mjrusso (~mjrusso@vpn.polarmobile.com) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2013-09-18 23:48:36	-->	mjrusso (~mjrusso@vpn.polarmobile.com) has joined #clojurescript
+2013-09-18 23:51:02	<--	normanrichards (~normanric@mobile-166-147-065-177.mycingular.net) has quit (Read error: Connection reset by peer)
+2013-09-18 23:56:28	<--	danielszmulewi-1 (~daniel@109.226.23.125) has quit (Quit: danielszmulewi-1)
+2013-09-18 23:56:54	-->	danielszmulewi-1 (~daniel@109.226.23.125) has joined #clojurescript
+2013-09-19 00:13:24	<--	osnr (~osnr@unaffiliated/osnr) has quit (Ping timeout: 240 seconds)
+2013-09-19 00:13:54	-->	osnr (~osnr@unaffiliated/osnr) has joined #clojurescript
+2013-09-19 00:16:37	-->	cdelo (~cdelo@99.192.30.55) has joined #clojurescript
+2013-09-19 00:20:16	<--	bmaddy (~bmaddy@72.21.231.26) has quit (Remote host closed the connection)
+2013-09-19 00:24:36	-->	racycle (~racycle@75-25-129-128.lightspeed.sjcpca.sbcglobal.net) has joined #clojurescript
+2013-09-19 01:11:51	<--	pel_daniel (~responsiv@187.191.31.50) has left #clojurescript
+2013-09-19 01:18:45	<--	jivebot (~textual@71-92-144-74.static.mdfd.or.charter.com) has quit (Quit: Textual IRC Client: http://www.textualapp.com/)
+2013-09-19 01:23:11	<--	FrankS (~fsiebenli@204.14.239.219) has quit (Quit: Leaving...)
+2013-09-19 01:26:12	-->	bmaddy (~bmaddy@72.21.231.26) has joined #clojurescript
+2013-09-19 01:27:27	<--	mjrusso (~mjrusso@vpn.polarmobile.com) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-09-19 01:29:44	<--	bmaddy (~bmaddy@72.21.231.26) has quit (Remote host closed the connection)
+2013-09-19 01:30:57	-->	jivebot (~textual@71-92-144-74.static.mdfd.or.charter.com) has joined #clojurescript
+2013-09-19 01:53:06	<--	cdelo (~cdelo@99.192.30.55) has quit (Remote host closed the connection)
+2013-09-19 02:03:23	<--	jivebot (~textual@71-92-144-74.static.mdfd.or.charter.com) has quit (Quit: Textual IRC Client: http://www.textualapp.com/)
+2013-09-19 02:07:14	-->	daniel_karlsson (~daniel_ka@c83-248-139-198.bredband.comhem.se) has joined #clojurescript
+2013-09-19 02:22:07	-->	normanrichards (~normanric@70.114.215.220) has joined #clojurescript
+2013-09-19 02:32:24	-->	jivebot (~textual@71-92-144-74.static.mdfd.or.charter.com) has joined #clojurescript
+2013-09-19 02:35:22	<--	daniel_karlsson (~daniel_ka@c83-248-139-198.bredband.comhem.se) has quit (Quit: Computer has gone to sleep.)
+2013-09-19 03:16:36	<--	TEttinger (~notostrac@76-217-25-235.lightspeed.irvnca.sbcglobal.net) has quit (Ping timeout: 260 seconds)
+2013-09-19 04:07:58	-->	bmaddy (~bmaddy@72.21.231.26) has joined #clojurescript
+2013-09-19 04:10:11	-->	doritostains (~doritosta@2602:30a:c0ff:a4e0:5ba:ac7b:20cb:370d) has joined #clojurescript
+2013-09-19 04:33:33	-->	enquora (~enquora@S0106602ad083de8c.cg.shawcable.net) has joined #clojurescript
+2013-09-19 04:35:57	<--	danielszmulewi-1 (~daniel@109.226.23.125) has quit (Quit: danielszmulewi-1)
+2013-09-19 04:37:18	<--	enquora (~enquora@S0106602ad083de8c.cg.shawcable.net) has quit (Client Quit)
+2013-09-19 04:43:47	-->	dek5 (~eugene@mail.quickpay.ru) has joined #clojurescript
+2013-09-19 04:55:11	-->	marco1 (~marco@ip72-196-99-14.ga.at.cox.net) has joined #clojurescript
+2013-09-19 04:55:55	marco1	What's the equivalent of: someObj["func"]() ?
+2013-09-19 05:00:54	marco1	((aget someObj "func")) is the answer
+2013-09-19 05:05:41	<--	bmaddy (~bmaddy@72.21.231.26) has quit (Remote host closed the connection)
+2013-09-19 05:11:25	-->	wei_ (~wei@114-43-61-164.dynamic.hinet.net) has joined #clojurescript
+2013-09-19 05:26:51	<--	marco1 (~marco@ip72-196-99-14.ga.at.cox.net) has quit (Ping timeout: 248 seconds)
+2013-09-19 05:28:17	-->	bmaddy (~bmaddy@72.21.231.26) has joined #clojurescript
+2013-09-19 05:31:42	<--	danielszmulewicz (~danielszm@109.226.23.125) has quit (Quit: danielszmulewicz)
+2013-09-19 05:33:49	-->	marco1 (~marco@ip68-101-64-22.ga.at.cox.net) has joined #clojurescript
+2013-09-19 05:53:11	<--	bmaddy (~bmaddy@72.21.231.26) has quit (Remote host closed the connection)
+2013-09-19 06:18:36	<--	marco1 (~marco@ip68-101-64-22.ga.at.cox.net) has quit (Ping timeout: 260 seconds)
+2013-09-19 06:23:18	-->	jimt__ (~jim@130.251.69.111.dynamic.snap.net.nz) has joined #clojurescript
+2013-09-19 06:25:54	<--	jimt (~jim@180.249.69.111.dynamic.snap.net.nz) has quit (Ping timeout: 264 seconds)
+2013-09-19 06:46:05	-->	marco1 (~marco@ip68-101-64-22.ga.at.cox.net) has joined #clojurescript
+2013-09-19 07:06:23	-->	daniel_karlsson (~daniel_ka@c83-248-139-198.bredband.comhem.se) has joined #clojurescript
+2013-09-19 07:08:19	<--	marco1 (~marco@ip68-101-64-22.ga.at.cox.net) has quit (Ping timeout: 240 seconds)
+2013-09-19 07:24:53	<--	doritostains (~doritosta@2602:30a:c0ff:a4e0:5ba:ac7b:20cb:370d) has quit (Quit: Linkinus - http://linkinus.com)
+2013-09-19 07:27:58	-->	marco1 (~marco@ip68-101-64-22.ga.at.cox.net) has joined #clojurescript
+2013-09-19 07:41:30	<--	marco1 (~marco@ip68-101-64-22.ga.at.cox.net) has quit (Ping timeout: 264 seconds)
+2013-09-19 07:52:58	-->	TEttinger (~notostrac@76-217-25-235.lightspeed.irvnca.sbcglobal.net) has joined #clojurescript
+2013-09-19 07:56:23	<--	normanrichards (~normanric@70.114.215.220) has quit
+2013-09-19 08:01:09	<--	jivebot (~textual@71-92-144-74.static.mdfd.or.charter.com) has quit (Quit: Computer has gone to sleep.)
+2013-09-19 08:09:22	-->	marco1 (~marco@ip72-196-99-14.ga.at.cox.net) has joined #clojurescript
+2013-09-19 08:15:21	<--	marco1 (~marco@ip72-196-99-14.ga.at.cox.net) has quit (Ping timeout: 240 seconds)
+2013-09-19 08:38:38	-->	jacobm (~AndChat81@79.138.141.214.mobile.3.dk) has joined #clojurescript
+2013-09-19 08:42:35	<--	jacobm (~AndChat81@79.138.141.214.mobile.3.dk) has quit (Client Quit)
+2013-09-19 09:11:25	<--	daniel_karlsson (~daniel_ka@c83-248-139-198.bredband.comhem.se) has quit (Quit: Computer has gone to sleep.)
+2013-09-19 09:14:21	<--	racycle (~racycle@75-25-129-128.lightspeed.sjcpca.sbcglobal.net) has quit (Remote host closed the connection)
+2013-09-19 09:15:42	-->	ideamonk (~ideamonk@61.12.96.226) has joined #clojurescript
+2013-09-19 09:23:11	-->	ideamonk_ (~ideamonk@61.12.96.226) has joined #clojurescript
+2013-09-19 09:23:12	<--	ideamonk (~ideamonk@61.12.96.226) has quit (Read error: Connection reset by peer)
+2013-09-19 09:32:09	-->	wei__ (~wei@114-43-61-164.dynamic.hinet.net) has joined #clojurescript
+2013-09-19 09:32:38	<--	wei_ (~wei@114-43-61-164.dynamic.hinet.net) has quit (Ping timeout: 240 seconds)
+2013-09-19 09:32:38	--	wei__ is now known as wei_
+2013-09-19 10:03:50	-->	daniel_karlsson (~daniel_ka@c83-248-139-198.bredband.comhem.se) has joined #clojurescript
+2013-09-19 10:15:41	-->	danielszmulewicz (~danielszm@109.226.23.125) has joined #clojurescript
+2013-09-19 10:33:10	<--	ideamonk_ (~ideamonk@61.12.96.226) has quit (Read error: Connection reset by peer)
+2013-09-19 10:33:25	-->	ideamonk (~ideamonk@61.12.96.226) has joined #clojurescript
+2013-09-19 10:33:30	<--	ideamonk (~ideamonk@61.12.96.226) has quit (Client Quit)
+2013-09-19 10:33:38	-->	ideamonk (~ideamonk@61.12.96.226) has joined #clojurescript
+2013-09-19 10:46:13	<--	danielszmulewicz (~danielszm@109.226.23.125) has quit (Quit: danielszmulewicz)

@@ -766,3 +766,77 @@
 2013-09-17 15:57:46	-->	unbracketed (~textual@pool-173-55-98-189.lsanca.fios.verizon.net) has joined #docpad
 2013-09-17 15:57:53	<--	unbracketed (~textual@pool-173-55-98-189.lsanca.fios.verizon.net) has quit (Max SendQ exceeded)
 2013-09-17 15:58:43	-->	unbracketed (~textual@pool-173-55-98-189.lsanca.fios.verizon.net) has joined #docpad
+2013-09-17 16:25:01	-->	dfdgds (0fc3b94c@gateway/web/freenode/ip.15.195.185.76) has joined #docpad
+2013-09-17 16:25:32	<--	dfdgds (0fc3b94c@gateway/web/freenode/ip.15.195.185.76) has quit (Client Quit)
+2013-09-17 17:44:10	-->	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has joined #docpad
+2013-09-17 18:02:49	<--	Delapouite1 (~bheridet@abo-216-184-68.mtp.modulonet.fr) has left #docpad
+2013-09-17 19:26:30	-->	ashnur (~ashnur@79.117.76.61) has joined #docpad
+2013-09-17 20:18:36	--	Notice(GitHub4): [documentation] hal-gh opened pull request #59: Fixed typos, mainly in 04-begin, and made some sections more concise and easy to follow (master...master)  http://git.io/9A9ceQ
+2013-09-17 20:21:30	<--	jsilvestre (~jsilvestr@186-146-190-109.dsl.ovh.fr) has quit (Quit: Leaving)
+2013-09-17 20:36:45	-->	s2zaman (6f4461b4@gateway/web/freenode/ip.111.68.97.180) has joined #docpad
+2013-09-17 20:38:15	s2zaman	node
+2013-09-17 20:38:26	s2zaman	cls
+2013-09-17 20:38:27	<--	s2zaman (6f4461b4@gateway/web/freenode/ip.111.68.97.180) has quit (Client Quit)
+2013-09-17 20:47:38	<--	ashnur (~ashnur@79.117.76.61) has quit (Ping timeout: 264 seconds)
+2013-09-17 21:29:03	-->	shama_ (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has joined #docpad
+2013-09-17 21:31:15	<--	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has quit (Ping timeout: 245 seconds)
+2013-09-17 21:51:48	--	shama_ is now known as shama
+2013-09-17 22:21:42	-->	mikeumus (~Mikeumus@ool-457dce66.dyn.optonline.net) has joined #docpad
+2013-09-17 23:28:20	-->	ashnur (~ashnur@79.117.76.61) has joined #docpad
+2013-09-17 23:41:19	<--	[o__o] (~o__o]@botbot.me) has left #docpad
+2013-09-17 23:43:01	-->	[o__o] (~o__o]@botbot.me) has joined #docpad
+2013-09-17 23:43:02	<--	[o__o] (~o__o]@botbot.me) has quit (Remote host closed the connection)
+2013-09-17 23:45:01	-->	[o__o] (~o__o]@botbot.me) has joined #docpad
+2013-09-17 23:50:54	<--	unbracketed (~textual@pool-173-55-98-189.lsanca.fios.verizon.net) has quit (Quit: Computer has gone to sleep.)
+2013-09-18 19:51:16	-->	supersym (~supersym@5418F772.cm-5-1d.dynamic.ziggo.nl) has joined #docpad
+2013-09-18 19:51:16	--	Topic for #docpad is "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Chat Logs: http://docpad.org/chat-logs ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-09-18 19:51:16	--	Topic set by balupton (uid6783@gateway/web/irccloud.com/x-keutuvkcxjwezwbc) on Tue, 17 Sep 2013 00:25:48
+2013-09-18 19:51:16	--	Nicks #docpad: [[o__o] arcanis balupton Chase_the_Dev hal jgm jsilvestre mikeumus patcon shama supersym unbracketed]
+2013-09-18 19:51:16	--	Channel #docpad: 12 nicks (0 ops, 0 halfops, 0 voices, 12 normals)
+2013-09-18 19:51:16	--	Notice(moorcock.freenode.net): [freenode-info] help freenode weed out clonebots -- please register your IRC nick and auto-identify: http://freenode.net/faq.shtml#nicksetup
+2013-09-18 19:51:20	--	Mode #docpad [+t]
+2013-09-18 19:51:21	--	Channel created on Sat, 26 May 2012 12:12:13
+2013-09-18 19:52:24	jsilvestre	ahah
+2013-09-18 20:17:03	<--	mikeumus (~Mikeumus@ool-457dce66.dyn.optonline.net) has quit (Read error: Connection reset by peer)
+2013-09-18 20:19:43	-->	mikeumus (~Mikeumus@ool-457dce66.dyn.optonline.net) has joined #docpad
+2013-09-18 20:27:48	-->	ashnur (~ashnur@79.117.76.61) has joined #docpad
+2013-09-18 20:42:35	-->	abrams (~abrams@pool-108-6-9-162.nycmny.fios.verizon.net) has joined #docpad
+2013-09-18 21:18:42	<--	mikeumus (~Mikeumus@ool-457dce66.dyn.optonline.net) has quit (Quit: Leaving.)
+2013-09-18 21:27:21	<--	jsilvestre (~jsilvestr@186-146-190-109.dsl.ovh.fr) has quit (Quit: Leaving)
+2013-09-18 21:35:54	-->	mikeumus (~Mikeumus@ool-457dce66.dyn.optonline.net) has joined #docpad
+2013-09-18 21:59:16	-->	kaspertidemann (~kaspertid@c-98-207-250-230.hsd1.ca.comcast.net) has joined #docpad
+2013-09-18 22:52:48	<--	unbracketed (~textual@pool-173-55-98-189.lsanca.fios.verizon.net) has quit (Quit: Computer has gone to sleep.)
+2013-09-18 22:57:27	-->	GarthDB__ (~textual@ip98-160-191-217.lv.lv.cox.net) has joined #docpad
+2013-09-18 23:02:09	<--	GarthDB__ (~textual@ip98-160-191-217.lv.lv.cox.net) has quit (Client Quit)
+2013-09-18 23:02:36	-->	GarthDB_ (~GarthDB@ip98-160-191-217.lv.lv.cox.net) has joined #docpad
+2013-09-18 23:14:14	<--	GarthDB_ (~GarthDB@ip98-160-191-217.lv.lv.cox.net) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2013-09-18 23:14:35	-->	GarthDB_ (~GarthDB@ip98-160-191-217.lv.lv.cox.net) has joined #docpad
+2013-09-18 23:20:26	<--	mikeumus (~Mikeumus@ool-457dce66.dyn.optonline.net) has quit (Quit: Leaving.)
+2013-09-18 23:33:07	<--	GarthDB_ (~GarthDB@ip98-160-191-217.lv.lv.cox.net) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2013-09-18 23:36:07	-->	garthdb (~garthdb@ec2-54-212-254-65.us-west-2.compute.amazonaws.com) has joined #docpad
+2013-09-18 23:50:04	<--	garthdb (~garthdb@ec2-54-212-254-65.us-west-2.compute.amazonaws.com) has quit (Read error: Connection reset by peer)
+2013-09-18 23:59:32	-->	garthdb (~garthdb@ec2-54-212-254-65.us-west-2.compute.amazonaws.com) has joined #docpad
+2013-09-19 00:01:33	<--	kaspertidemann (~kaspertid@c-98-207-250-230.hsd1.ca.comcast.net) has quit (Quit: *buzz, buzz, sleep, zzz*)
+2013-09-19 00:23:41	-->	unbracketed (~textual@pool-173-55-98-189.lsanca.fios.verizon.net) has joined #docpad
+2013-09-19 01:39:57	<--	abrams (~abrams@pool-108-6-9-162.nycmny.fios.verizon.net) has quit (Quit: Leaving...)
+2013-09-19 01:59:41	<--	unbracketed (~textual@pool-173-55-98-189.lsanca.fios.verizon.net) has quit (Quit: Computer has gone to sleep.)
+2013-09-19 02:10:05	-->	abrams (~abrams@pool-108-6-9-162.nycmny.fios.verizon.net) has joined #docpad
+2013-09-19 02:18:38	<--	abrams (~abrams@pool-108-6-9-162.nycmny.fios.verizon.net) has quit (Ping timeout: 240 seconds)
+2013-09-19 02:45:02	-->	abrams (~abrams@pool-108-6-9-162.nycmny.fios.verizon.net) has joined #docpad
+2013-09-19 02:50:01	<--	abrams (~abrams@pool-108-6-9-162.nycmny.fios.verizon.net) has quit (Ping timeout: 245 seconds)
+2013-09-19 03:45:37	-->	abrams (~abrams@pool-108-6-9-162.nycmny.fios.verizon.net) has joined #docpad
+2013-09-19 03:49:33	-->	kaspertidemann (~kaspertid@c-98-207-250-230.hsd1.ca.comcast.net) has joined #docpad
+2013-09-19 03:50:39	<--	abrams (~abrams@pool-108-6-9-162.nycmny.fios.verizon.net) has quit (Ping timeout: 260 seconds)
+2013-09-19 04:22:41	<--	kaspertidemann (~kaspertid@c-98-207-250-230.hsd1.ca.comcast.net) has quit (Quit: Free soup for everybody!)
+2013-09-19 04:46:07	-->	abrams (~abrams@pool-108-6-9-162.nycmny.fios.verizon.net) has joined #docpad
+2013-09-19 04:50:26	<--	abrams (~abrams@pool-108-6-9-162.nycmny.fios.verizon.net) has quit (Ping timeout: 245 seconds)
+2013-09-19 05:31:43	-->	abrams (~abrams@cpe-66-65-91-86.nyc.res.rr.com) has joined #docpad
+2013-09-19 05:40:51	<--	abrams (~abrams@cpe-66-65-91-86.nyc.res.rr.com) has quit (Quit: Leaving...)
+2013-09-19 05:41:59	-->	abrams (~abrams@cpe-66-65-91-86.nyc.res.rr.com) has joined #docpad
+2013-09-19 05:44:24	<--	abrams (~abrams@cpe-66-65-91-86.nyc.res.rr.com) has quit (Client Quit)
+2013-09-19 05:45:35	-->	unbracketed (~textual@pool-173-55-98-189.lsanca.fios.verizon.net) has joined #docpad
+2013-09-19 06:25:52	<--	unbracketed (~textual@pool-173-55-98-189.lsanca.fios.verizon.net) has quit (Quit: Computer has gone to sleep.)
+2013-09-19 06:59:34	<--	patcon (~patcon@199-7-156-129.eng.wind.ca) has quit (Ping timeout: 256 seconds)
+2013-09-19 08:04:24	-->	kaspertidemann (~kaspertid@c-98-207-250-230.hsd1.ca.comcast.net) has joined #docpad
+2013-09-19 08:17:17	<--	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has quit (Remote host closed the connection)
+2013-09-19 09:04:39	-->	Delapouite (~bheridet@abo-216-184-68.mtp.modulonet.fr) has joined #docpad
