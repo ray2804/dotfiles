@@ -21,6 +21,7 @@
 		"Leiningen's",
 		"Plugins",
 		"ba",
+		"brainiac",
 		"classpath",
 		"clojure",
 		"defn",
@@ -35,7 +36,8 @@
 		"plugin",
 		"pprint",
 		"src",
-		"stylesheet"
+		"stylesheet",
+		"unphased"
 	],
 	"line_numbers": true,
 	"line_padding_bottom": 1,

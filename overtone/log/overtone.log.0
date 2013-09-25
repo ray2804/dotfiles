@@ -1,0 +1,316 @@
+{:level :error,
+ :timestamp 1379768704683,
+ :date #inst "2013-09-21T13:05:04.683-00:00",
+ :msg "Handler Exception - with event-map: {}\n"}
+{:level :error,
+ :timestamp 1379768704727,
+ :date #inst "2013-09-21T13:05:04.727-00:00",
+ :msg "Handler Exception - with event-map: {}\n"}
+{:level :error,
+ :timestamp 1379768704748,
+ :date #inst "2013-09-21T13:05:04.748-00:00",
+ :msg "Handler Exception - with event-map: {}\n"}
+{:level :error,
+ :timestamp 1379779433789,
+ :date #inst "2013-09-21T16:03:53.789-00:00",
+ :msg "Subprocess error: cannot connect client, already connected?\n"}
+{:level :error,
+ :timestamp 1379779433938,
+ :date #inst "2013-09-21T16:03:53.938-00:00",
+ :msg "Subprocess error: cannot connect client, already connected?\n"}
+{:level :error,
+ :timestamp 1379779434040,
+ :date #inst "2013-09-21T16:03:54.040-00:00",
+ :msg "Subprocess error: cannot connect client, already connected?\n"}
+{:level :error,
+ :timestamp 1379779434143,
+ :date #inst "2013-09-21T16:03:54.143-00:00",
+ :msg "Subprocess error: cannot connect client, already connected?\n"}
+{:level :error,
+ :timestamp 1379779434272,
+ :date #inst "2013-09-21T16:03:54.272-00:00",
+ :msg "Subprocess error: cannot connect client, already connected?\n"}
+{:level :error,
+ :timestamp 1379779434381,
+ :date #inst "2013-09-21T16:03:54.381-00:00",
+ :msg "Subprocess error: cannot connect client, already connected?\n"}
+{:level :error,
+ :timestamp 1379779434489,
+ :date #inst "2013-09-21T16:03:54.489-00:00",
+ :msg "Subprocess error: cannot connect client, already connected?\n"}
+{:level :error,
+ :timestamp 1379779434598,
+ :date #inst "2013-09-21T16:03:54.598-00:00",
+ :msg "Subprocess error: cannot connect client, already connected?\n"}
+{:level :error,
+ :timestamp 1379779928127,
+ :date #inst "2013-09-21T16:12:08.127-00:00",
+ :msg "Can't clear message queue and groups - server might have died."}
+{:level :error,
+ :timestamp 1379779930676,
+ :date #inst "2013-09-21T16:12:10.676-00:00",
+ :msg "Subprocess error: cannot connect client, already connected?\n"}
+{:level :error,
+ :timestamp 1379779930794,
+ :date #inst "2013-09-21T16:12:10.794-00:00",
+ :msg "Subprocess error: cannot connect client, already connected?\n"}
+{:level :error,
+ :timestamp 1379779930908,
+ :date #inst "2013-09-21T16:12:10.908-00:00",
+ :msg "Subprocess error: cannot connect client, already connected?\n"}
+{:level :error,
+ :timestamp 1379779931010,
+ :date #inst "2013-09-21T16:12:11.010-00:00",
+ :msg "Subprocess error: cannot connect client, already connected?\n"}
+{:level :error,
+ :timestamp 1379779931113,
+ :date #inst "2013-09-21T16:12:11.113-00:00",
+ :msg "Subprocess error: cannot connect client, already connected?\n"}
+{:level :error,
+ :timestamp 1379779931221,
+ :date #inst "2013-09-21T16:12:11.221-00:00",
+ :msg "Subprocess error: cannot connect client, already connected?\n"}
+{:level :error,
+ :timestamp 1379779931332,
+ :date #inst "2013-09-21T16:12:11.332-00:00",
+ :msg "Subprocess error: cannot connect client, already connected?\n"}
+{:level :error,
+ :timestamp 1379779931459,
+ :date #inst "2013-09-21T16:12:11.459-00:00",
+ :msg "Subprocess error: cannot connect client, already connected?\n"}
+{:level :error,
+ :timestamp 1379779995630,
+ :date #inst "2013-09-21T16:13:15.630-00:00",
+ :msg "Subprocess error: cannot connect client, already connected?\n"}
+{:level :error,
+ :timestamp 1379779995740,
+ :date #inst "2013-09-21T16:13:15.740-00:00",
+ :msg "Subprocess error: cannot connect client, already connected?\n"}
+{:level :error,
+ :timestamp 1379779995841,
+ :date #inst "2013-09-21T16:13:15.841-00:00",
+ :msg "Subprocess error: cannot connect client, already connected?\n"}
+{:level :error,
+ :timestamp 1379779995957,
+ :date #inst "2013-09-21T16:13:15.957-00:00",
+ :msg "Subprocess error: cannot connect client, already connected?\n"}
+{:level :error,
+ :timestamp 1379779996079,
+ :date #inst "2013-09-21T16:13:16.079-00:00",
+ :msg "Subprocess error: cannot connect client, already connected?\n"}
+{:level :error,
+ :timestamp 1379779996182,
+ :date #inst "2013-09-21T16:13:16.182-00:00",
+ :msg "Subprocess error: cannot connect client, already connected?\n"}
+{:level :error,
+ :timestamp 1379779996298,
+ :date #inst "2013-09-21T16:13:16.298-00:00",
+ :msg "Subprocess error: cannot connect client, already connected?\n"}
+{:level :error,
+ :timestamp 1379779996407,
+ :date #inst "2013-09-21T16:13:16.407-00:00",
+ :msg "Subprocess error: cannot connect client, already connected?\n"}
+{:level :warn,
+ :timestamp 1379780830407,
+ :date #inst "2013-09-21T16:27:10.407-00:00",
+ :msg "ERROR: The fn node-created can't find synth node: 1000"}
+{:level :warn,
+ :timestamp 1379780846790,
+ :date #inst "2013-09-21T16:27:26.790-00:00",
+ :msg "ERROR: The fn node-destroyed can't find synth node: 1000"}
+{:level :warn,
+ :timestamp 1379780846854,
+ :date #inst "2013-09-21T16:27:26.854-00:00",
+ :msg "ERROR: The fn node-created can't find synth node: 1001"}
+{:level :warn,
+ :timestamp 1379780891143,
+ :date #inst "2013-09-21T16:28:11.143-00:00",
+ :msg "ERROR: The fn node-destroyed can't find synth node: 1001"}
+{:level :warn,
+ :timestamp 1379780891207,
+ :date #inst "2013-09-21T16:28:11.207-00:00",
+ :msg "ERROR: The fn node-created can't find synth node: 1002"}
+{:level :warn,
+ :timestamp 1379781165687,
+ :date #inst "2013-09-21T16:32:45.687-00:00",
+ :msg "ERROR: The fn node-created can't find synth node: 1003"}
+{:level :warn,
+ :timestamp 1379781165688,
+ :date #inst "2013-09-21T16:32:45.688-00:00",
+ :msg "ERROR: The fn node-created can't find synth node: 1004"}
+{:level :warn,
+ :timestamp 1379781169271,
+ :date #inst "2013-09-21T16:32:49.271-00:00",
+ :msg "ERROR: The fn node-destroyed can't find synth node: 1004"}
+{:level :warn,
+ :timestamp 1379781169272,
+ :date #inst "2013-09-21T16:32:49.272-00:00",
+ :msg "ERROR: The fn node-destroyed can't find synth node: 1003"}
+{:level :warn,
+ :timestamp 1379781169300,
+ :date #inst "2013-09-21T16:32:49.300-00:00",
+ :msg "ERROR: The fn node-created can't find synth node: 1"}
+{:level :warn,
+ :timestamp 1379781169300,
+ :date #inst "2013-09-21T16:32:49.300-00:00",
+ :msg "ERROR: The fn node-destroyed can't find synth node: 1002"}
+{:level :warn,
+ :timestamp 1379781169313,
+ :date #inst "2013-09-21T16:32:49.313-00:00",
+ :msg "ERROR: The fn node-created can't find synth node: 1000"}
+{:level :warn,
+ :timestamp 1379781474675,
+ :date #inst "2013-09-21T16:37:54.675-00:00",
+ :msg "ERROR: The fn node-destroyed can't find synth node: 1"}
+{:level :warn,
+ :timestamp 1379781474676,
+ :date #inst "2013-09-21T16:37:54.676-00:00",
+ :msg "ERROR: The fn node-destroyed can't find synth node: 1000"}
+{:level :warn,
+ :timestamp 1379781474676,
+ :date #inst "2013-09-21T16:37:54.676-00:00",
+ :msg "ERROR: The fn node-destroyed can't find synth node: 1000"}
+{:level :warn,
+ :timestamp 1379781474675,
+ :date #inst "2013-09-21T16:37:54.675-00:00",
+ :msg "ERROR: The fn node-destroyed can't find synth node: 1"}
+{:level :warn,
+ :timestamp 1379784696408,
+ :date #inst "2013-09-21T17:31:36.408-00:00",
+ :msg "ERROR: The fn node-created can't find synth node: 1001"}
+{:level :warn,
+ :timestamp 1379794310181,
+ :date #inst "2013-09-21T20:11:50.181-00:00",
+ :msg "ERROR: The fn node-destroyed can't find synth node: 1001"}
+{:level :warn,
+ :timestamp 1379892927162,
+ :date #inst "2013-09-22T23:35:27.162-00:00",
+ :msg "ERROR: The fn node-created can't find synth node: 1001"}
+{:level :warn,
+ :timestamp 1379892932836,
+ :date #inst "2013-09-22T23:35:32.836-00:00",
+ :msg "ERROR: The fn node-destroyed can't find synth node: 1001"}
+{:level :warn,
+ :timestamp 1379892932933,
+ :date #inst "2013-09-22T23:35:32.933-00:00",
+ :msg "ERROR: The fn node-destroyed can't find synth node: 1000"}
+{:level :warn,
+ :timestamp 1379892932935,
+ :date #inst "2013-09-22T23:35:32.935-00:00",
+ :msg "ERROR: The fn node-created can't find synth node: 1000"}
+{:level :warn,
+ :timestamp 1379892932933,
+ :date #inst "2013-09-22T23:35:32.933-00:00",
+ :msg "ERROR: The fn node-created can't find synth node: 1"}
+{:level :warn,
+ :timestamp 1379892945381,
+ :date #inst "2013-09-22T23:35:45.381-00:00",
+ :msg "ERROR: The fn node-created can't find synth node: 1001"}
+{:level :warn,
+ :timestamp 1379892946704,
+ :date #inst "2013-09-22T23:35:46.704-00:00",
+ :msg "ERROR: The fn node-destroyed can't find synth node: 1001"}
+{:level :warn,
+ :timestamp 1379892946706,
+ :date #inst "2013-09-22T23:35:46.706-00:00",
+ :msg "ERROR: The fn node-created can't find synth node: 1"}
+{:level :warn,
+ :timestamp 1379892946705,
+ :date #inst "2013-09-22T23:35:46.705-00:00",
+ :msg "ERROR: The fn node-destroyed can't find synth node: 1000"}
+{:level :warn,
+ :timestamp 1379892946704,
+ :date #inst "2013-09-22T23:35:46.704-00:00",
+ :msg "ERROR: The fn node-destroyed can't find synth node: 1"}
+{:level :warn,
+ :timestamp 1379892946745,
+ :date #inst "2013-09-22T23:35:46.745-00:00",
+ :msg "ERROR: The fn node-created can't find synth node: 1000"}
+{:level :warn,
+ :timestamp 1379893113619,
+ :date #inst "2013-09-22T23:38:33.619-00:00",
+ :msg "ERROR: The fn node-created can't find synth node: 1001"}
+{:level :warn,
+ :timestamp 1379893114557,
+ :date #inst "2013-09-22T23:38:34.557-00:00",
+ :msg "ERROR: The fn node-destroyed can't find synth node: 1001"}
+{:level :warn,
+ :timestamp 1379893114561,
+ :date #inst "2013-09-22T23:38:34.561-00:00",
+ :msg "ERROR: The fn node-created can't find synth node: 1"}
+{:level :warn,
+ :timestamp 1379893114560,
+ :date #inst "2013-09-22T23:38:34.560-00:00",
+ :msg "ERROR: The fn node-destroyed can't find synth node: 1000"}
+{:level :warn,
+ :timestamp 1379893114558,
+ :date #inst "2013-09-22T23:38:34.558-00:00",
+ :msg "ERROR: The fn node-destroyed can't find synth node: 1"}
+{:level :warn,
+ :timestamp 1379893114621,
+ :date #inst "2013-09-22T23:38:34.621-00:00",
+ :msg "ERROR: The fn node-created can't find synth node: 1000"}
+{:level :warn,
+ :timestamp 1379893120190,
+ :date #inst "2013-09-22T23:38:40.190-00:00",
+ :msg "ERROR: The fn node-created can't find synth node: 1001"}
+{:level :warn,
+ :timestamp 1379893123432,
+ :date #inst "2013-09-22T23:38:43.432-00:00",
+ :msg "ERROR: The fn node-destroyed can't find synth node: 1001"}
+{:level :warn,
+ :timestamp 1379893123434,
+ :date #inst "2013-09-22T23:38:43.434-00:00",
+ :msg "ERROR: The fn node-created can't find synth node: 1"}
+{:level :warn,
+ :timestamp 1379893123433,
+ :date #inst "2013-09-22T23:38:43.433-00:00",
+ :msg "ERROR: The fn node-destroyed can't find synth node: 1000"}
+{:level :warn,
+ :timestamp 1379893123433,
+ :date #inst "2013-09-22T23:38:43.433-00:00",
+ :msg "ERROR: The fn node-destroyed can't find synth node: 1"}
+{:level :warn,
+ :timestamp 1379893123475,
+ :date #inst "2013-09-22T23:38:43.475-00:00",
+ :msg "ERROR: The fn node-created can't find synth node: 1000"}
+{:level :warn,
+ :timestamp 1379893141822,
+ :date #inst "2013-09-22T23:39:01.822-00:00",
+ :msg "ERROR: The fn node-created can't find synth node: 1001"}
+{:level :warn,
+ :timestamp 1379893143251,
+ :date #inst "2013-09-22T23:39:03.251-00:00",
+ :msg "ERROR: The fn node-destroyed can't find synth node: 1001"}
+{:level :warn,
+ :timestamp 1379893143252,
+ :date #inst "2013-09-22T23:39:03.252-00:00",
+ :msg "ERROR: The fn node-created can't find synth node: 1"}
+{:level :warn,
+ :timestamp 1379893143252,
+ :date #inst "2013-09-22T23:39:03.252-00:00",
+ :msg "ERROR: The fn node-destroyed can't find synth node: 1000"}
+{:level :warn,
+ :timestamp 1379893143251,
+ :date #inst "2013-09-22T23:39:03.251-00:00",
+ :msg "ERROR: The fn node-destroyed can't find synth node: 1"}
+{:level :warn,
+ :timestamp 1379893143293,
+ :date #inst "2013-09-22T23:39:03.293-00:00",
+ :msg "ERROR: The fn node-created can't find synth node: 1000"}
+{:level :warn,
+ :timestamp 1379918016433,
+ :date #inst "2013-09-23T06:33:36.433-00:00",
+ :msg "ERROR: The fn node-destroyed can't find synth node: 1"}
+{:level :warn,
+ :timestamp 1379918016433,
+ :date #inst "2013-09-23T06:33:36.433-00:00",
+ :msg "ERROR: The fn node-destroyed can't find synth node: 1000"}
+{:level :warn,
+ :timestamp 1379918016433,
+ :date #inst "2013-09-23T06:33:36.433-00:00",
+ :msg "ERROR: The fn node-destroyed can't find synth node: 1000"}
+{:level :warn,
+ :timestamp 1379918016433,
+ :date #inst "2013-09-23T06:33:36.433-00:00",
+ :msg "ERROR: The fn node-destroyed can't find synth node: 1"}

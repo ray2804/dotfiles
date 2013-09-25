@@ -7,6 +7,7 @@
                  [org.clojure/math.combinatorics "0.0.4"]
                  [org.clojure/data.generators "0.1.2"]
                  [uncomplicate/fluokitten "0.3.0"]
+                 [org.clojure/data.json "0.2.3"]
                  ;[org.mozilla/rhino "1.7R3"]
                  ;[com.google.javascript/closure-compiler "v20130823"]
                  ;[org.clojure/google-closure-library "0.0-2029-2"]
@@ -19,29 +20,32 @@
                  [markdown-clj "0.9.32"]
                  [swiss-arrows "0.6.0"]
                  [cupboard "1.0beta1"]
-                 [inflections "0.8.2" :exclude [org.mozilla/rhino
-                                                org.clojure/google-closure-library]]
+                 [overtone "0.9.0-SNAPSHOT"]
+;;                  [inflections "0.8.2" :exclude [org.clojure/data.json
+;;                                                 org.mozilla/rhino
+;;                                                 org.clojure/google-closure-library]]
+
                  [compojure "1.1.5"]
+                 [nstools "0.2.5"]
                  [http-kit "2.1.11"]
                  [cheshire "5.2.0"]
                  [backtick "0.3.0"]
                  [hiccup "1.0.4"]
                  [frak "0.1.3"]
                  ]
-  :injections [(refer-clojure :exclude [read read-string alter commute ref-set ensure])
+  :injections [
+               ;(refer-clojure :exclude [read read-string alter commute ref-set ensure])
                (require '[clojure.zip :as zip]
                         '[clojure.java.shell :refer [sh]]
                         '[clojure.repl :refer [doc source dir]]
                         '[clojure.walk :as walk]
-                        '[clojure.edn :refer [read read-string]]
-                        '[clojure.pprint :refer [pprint print-table cl-format]]
-                        '[clojure.math.combinatorics :as combo
-                          :refer [combinations subsets cartesian-product selections permutations]]
-                        '[clojure.set :refer [difference index intersection join map-invert project
-                                              rename rename-keys select subset? superset? union]]
+                        '[clojure.edn :as edn]
+                        '[clojure.pprint :as pprint]
+                        '[clojure.math.combinatorics :as combo]
+                        '[clojure.set :as set]
                         '[clojure.string :as string]
-                        '[clojure.test :refer :all]
-                        '[clojure.contrib.math :refer :all]
+                        '[clojure.test :as tst]
+                        '[clojure.contrib.math :as math]
                         '[clojure.data.generators :as datagen]
 
                         '[uncomplicate.fluokitten core jvm]
@@ -54,33 +58,32 @@
                         '[compojure.route :as route]
 
                         '[hiccup.core :as hiccup :refer [html]]
-                        '[hiccup.form :as frm]
-                        '[hiccup.page :refer [html5 include-css include-js]]
+                        '[hiccup.form :as hicfrm]
+                        '[hiccup.page :as page]
 
-                        '[garden.core :as garden :refer [css]]
-                        '[garden.def :refer [defrule]]
+                        '[garden.core :as garden]
+                        '[garden.def :as gardef]
                         '[garden.units :as gunits :refer [px pt em percent]]
                         '[garden.color :as gcolor :refer [hsl]]
 
-                        '[net.cgrand.megaref :as mega
-                          :refer [alter commute ref-set ensure subref]]
+                        '[net.cgrand.megaref :as mega]
 
-                        '[plumbing.core :refer :all]
+                        '[plumbing.core :as pp]
                         '[plumbing.fnk.schema :as fnkschema]
                         '[plumbing.fnk.pfnk :as pfnk]
                         '[plumbing.graph :as graph]
-                        '[plumbing.map :as map]
+                        '[plumbing.map :as plumap]
+                        '[nstools.ns :as nstools]
 
                         ;; Linguistics
-                        '[inflections.core :refer [plural singular underscore
-                                                   ordinalize capitalize]]
+                        ;'[inflections.core :refer [plural singular underscore
+                        ;                           ordinalize capitalize]]
 
                         '[markdown.core :as markdown]
                         '[frak :as frak]
-                        '[cheshire.core :refer :all]
+                        '[cheshire.core :as cjson]
                         '[schema.core :as schema]
-                        '[org.httpkit.server :refer :all]
-
+                        '[org.httpkit.server :as httpkit]
                         ;'[cemerick.pomegranate :refer [add-dependencies]]
                         )
                (import '(java.util.concurrent Executors))
@@ -134,6 +137,31 @@
                  [pred coll]
                  (when pred
                    (for [[idx elt] (has-indexed coll) :when (pred elt)] idx)))
+
+               ;;;
+               ;;; Numerical ranges
+               ;;;
+               (defn n-repeat [n] (lazy-cat (repeat n n) (n-repeat (inc n))))
+
+               ;;;
+               ;;; String writing
+               ;;;
+               (defmacro with-out-str-and-value
+                 [& body]
+                 `(let [s# (new java.io.StringWriter)]
+                    (binding [*out* s#]
+                      (let [v# ~@body]
+                        (vector (str s#)
+                                v#)))))
+
+               ;;;
+               ;;; Lookup
+               ;;;
+
+               (def fyrst (comp symbol str first str))
+               (defmacro dir-split [ns-symbol]
+                 `(clojure.string/split-lines (with-out-str (clojure.repl/dir ~ns-symbol))))
+               ;(def dir-lookup (group-by fyrst (dir-split overtone.core)))
 
 
                ])

@@ -18,7 +18,7 @@
                   [lein-localrepo "0.5.2"]
                   [lein-grep "0.1.0"]
                   [lein-try "0.3.1"]
-
+                  [lein-kibit "0.0.8"]
                   ]
 
         }

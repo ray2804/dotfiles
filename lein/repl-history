@@ -4,3 +4,6 @@
       whitespace (peg/t #"\s+")
       triplet (peg/s num whitespace num whitespace num)]
 (peg/parse triplet "3 44 2theremainer"))
+(use 'overtone.live)
+(use 'overtone.core)
+(boot-external-server)

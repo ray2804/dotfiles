@@ -8073,3 +8073,1872 @@
 2013-09-19 11:12:03	<--	ray1claw (~ray1claw@182.71.64.138) has quit (Client Quit)
 2013-09-19 11:14:56	-->	ray1claw (~ray1claw@182.71.64.138) has joined #coffeescript
 2013-09-19 11:17:05	<--	daGrevis (~daGrevis@80.232.135.177) has left #coffeescript ("Leaving")
+2013-09-19 11:19:50	<--	mdedetrich (~textual@123-243-72-112.static.tpgi.com.au) has quit (Quit: Computer has gone to sleep.)
+2013-09-19 11:31:51	-->	lite_ (~lite@83.151.148.133) has joined #coffeescript
+2013-09-19 11:34:52	-->	sreeix (~sreeix@106.51.174.208) has joined #coffeescript
+2013-09-19 11:34:56	<--	forivall (~quassel@208.91.114.4) has quit (Quit: No Ping reply in 180 seconds.)
+2013-09-19 11:35:22	-->	forivall (~quassel@208.91.114.4) has joined #coffeescript
+2013-09-19 11:36:51	<--	ray1claw (~ray1claw@182.71.64.138) has quit (Quit: Computer has gone to sleep.)
+2013-09-19 11:47:03	-->	ray1claw (~ray1claw@182.71.64.138) has joined #coffeescript
+2013-09-19 11:54:37	-->	juxovec_ (~juxovec@88.103.61.177) has joined #coffeescript
+2013-09-19 11:54:50	<--	juxovec (~juxovec@88.103.61.177) has quit (Read error: Connection reset by peer)
+2013-09-19 11:56:21	-->	vlad_starkov (~vlad_star@109.188.124.25) has joined #coffeescript
+2013-09-19 12:04:04	<--	ray1claw (~ray1claw@182.71.64.138) has quit (Quit: Computer has gone to sleep.)
+2013-09-19 12:04:22	-->	Siyfion (~Siyfion@188.124.2.81.in-addr.arpa) has joined #coffeescript
+2013-09-19 12:15:04	-->	ray1claw (~ray1claw@182.68.85.38) has joined #coffeescript
+2013-09-19 12:16:44	<--	vlad_starkov (~vlad_star@109.188.124.25) has quit (Remote host closed the connection)
+2013-09-19 12:17:23	<--	relix (~relix@91.46.46.176.dyn.estpak.ee) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-09-19 12:17:39	-->	adambeynon (~adambeyno@82-69-1-211.dsl.in-addr.zen.co.uk) has joined #coffeescript
+2013-09-19 12:17:53	-->	netj (~netj@128.12.159.224) has joined #coffeescript
+2013-09-19 12:18:28	<--	lite_ (~lite@83.151.148.133) has quit (Remote host closed the connection)
+2013-09-19 12:20:08	-->	relix (~relix@91.46.46.176.dyn.estpak.ee) has joined #coffeescript
+2013-09-19 12:22:08	-->	sakal (~sakal@88.84.213.199) has joined #coffeescript
+2013-09-19 12:25:08	<--	forivall (~quassel@208.91.114.4) has quit (Quit: No Ping reply in 180 seconds.)
+2013-09-19 12:25:41	-->	forivall (~quassel@208.91.114.4) has joined #coffeescript
+2013-09-19 12:26:45	-->	tvw (~tv@212.79.9.150) has joined #coffeescript
+2013-09-19 12:27:31	-->	uris77 (~uris77@200.123.210.2) has joined #coffeescript
+2013-09-19 12:28:12	<--	juxovec_ (~juxovec@88.103.61.177) has quit (Ping timeout: 260 seconds)
+2013-09-19 12:28:35	-->	juxovec (~juxovec@88.103.61.177) has joined #coffeescript
+2013-09-19 12:34:31	<--	rsim (~rsim@95.68.115.156) has quit (Read error: Connection reset by peer)
+2013-09-19 12:35:18	<--	ray1claw (~ray1claw@182.68.85.38) has quit (Quit: Computer has gone to sleep.)
+2013-09-19 12:35:27	-->	rsim (~rsim@95.68.115.156) has joined #coffeescript
+2013-09-19 12:42:03	--	zz_michael_mbp is now known as michael_mbp
+2013-09-19 12:46:21	<--	joshontheweb (~joshonthe@c-67-190-6-82.hsd1.co.comcast.net) has quit (Quit: Computer has gone to sleep.)
+2013-09-19 12:47:32	-->	ray1claw (~ray1claw@182.64.198.234) has joined #coffeescript
+2013-09-19 12:53:46	<--	Siyfion (~Siyfion@188.124.2.81.in-addr.arpa) has quit (Ping timeout: 245 seconds)
+2013-09-19 12:54:35	--	michael_mbp is now known as zz_michael_mbp
+2013-09-19 12:55:42	<--	netj (~netj@128.12.159.224) has quit (Quit: ZNC - http://znc.in)
+2013-09-19 13:00:54	-->	cezary (~cezary-at@89-69-91-239.dynamic.chello.pl) has joined #coffeescript
+2013-09-19 13:03:43	-->	joshontheweb (~joshonthe@c-67-190-6-82.hsd1.co.comcast.net) has joined #coffeescript
+2013-09-19 13:05:30	<--	D4RK-PH0ENiX (~D4RK-PH0E@129.134.232.202.bf.2iij.net) has quit (Ping timeout: 264 seconds)
+2013-09-19 13:05:35	<--	ray1claw (~ray1claw@182.64.198.234) has quit (Quit: Computer has gone to sleep.)
+2013-09-19 13:06:02	-->	Siyfion (~Siyfion@host-89-240-2-234.static.as13285.net) has joined #coffeescript
+2013-09-19 13:08:01	-->	ray1claw (~ray1claw@182.64.198.234) has joined #coffeescript
+2013-09-19 13:08:59	-->	kaldrenon (~kaldrenon@173-12-28-129-Philadelphia.hfc.comcastbusiness.net) has joined #coffeescript
+2013-09-19 13:12:39	-->	jimt_ (~jim@126.241.69.111.dynamic.snap.net.nz) has joined #coffeescript
+2013-09-19 13:13:21	<--	kaldrenon (~kaldrenon@173-12-28-129-Philadelphia.hfc.comcastbusiness.net) has quit (Ping timeout: 245 seconds)
+2013-09-19 13:14:24	<--	jimt__ (~jim@130.251.69.111.dynamic.snap.net.nz) has quit (Ping timeout: 260 seconds)
+2013-09-19 13:16:54	<--	zapu (~zapu@89-74-16-38.dynamic.chello.pl) has quit (Ping timeout: 264 seconds)
+2013-09-19 13:20:53	-->	D4RK-PH0ENiX (~D4RK-PH0E@73.199.192.61.east.global.crust-r.net) has joined #coffeescript
+2013-09-19 13:22:02	-->	zapu (~zapu@89-74-16-38.dynamic.chello.pl) has joined #coffeescript
+2013-09-19 13:27:06	<--	minlog (~daniel@94.140.51.192) has quit (Read error: Connection reset by peer)
+2013-09-19 13:28:30	-->	lite_ (~lite@83.151.148.133) has joined #coffeescript
+2013-09-19 13:35:21	-->	mreq (~mreq@91.241.23.106) has joined #coffeescript
+2013-09-19 13:35:38	-->	dhilipsi_ (~dhilipsiv@106.51.148.249) has joined #coffeescript
+2013-09-19 13:36:00	<--	dhilipsiva (~dhilipsiv@106.51.167.33) has quit (Ping timeout: 268 seconds)
+2013-09-19 13:36:05	<--	Siyfion (~Siyfion@host-89-240-2-234.static.as13285.net) has quit (Ping timeout: 248 seconds)
+2013-09-19 13:38:59	<--	cezary (~cezary-at@89-69-91-239.dynamic.chello.pl) has quit (Remote host closed the connection)
+2013-09-19 13:40:26	<--	dhruvasagar (~dhruvasag@106.51.174.208) has quit (Ping timeout: 245 seconds)
+2013-09-19 13:44:13	<--	dhilipsi_ (~dhilipsiv@106.51.148.249) has quit (Remote host closed the connection)
+2013-09-19 13:44:24	-->	dhilipsiva (~dhilipsiv@106.51.148.249) has joined #coffeescript
+2013-09-19 13:44:33	<--	Guest41219 (~noway@92.37.170.54) has quit (Quit: ZNC - http://znc.in)
+2013-09-19 13:48:15	-->	noway_ (~noway@95.70.94.89) has joined #coffeescript
+2013-09-19 13:49:03	<--	ray1claw (~ray1claw@182.64.198.234) has quit (Quit: Computer has gone to sleep.)
+2013-09-19 13:51:15	-->	Cyph0n (~textual@94.59.111.168) has joined #coffeescript
+2013-09-19 13:51:42	-->	Siyfion (~Siyfion@195.58.75.185) has joined #coffeescript
+2013-09-19 13:52:42	-->	ray1claw (~ray1claw@182.68.85.38) has joined #coffeescript
+2013-09-19 13:55:40	-->	cezary (~cezary-at@89-69-91-239.dynamic.chello.pl) has joined #coffeescript
+2013-09-19 13:57:02	<--	Siyfion (~Siyfion@195.58.75.185) has quit (Ping timeout: 240 seconds)
+2013-09-19 14:03:02	-->	dazza (~dazza@68-188-56-205.static.stls.mo.charter.com) has joined #coffeescript
+2013-09-19 14:03:42	-->	ericbarnes (~ericbarne@cpe-071-068-027-219.carolina.res.rr.com) has joined #coffeescript
+2013-09-19 14:06:32	<--	sreeix (~sreeix@106.51.174.208) has quit (Quit: sreeix)
+2013-09-19 14:07:21	<--	dazza (~dazza@68-188-56-205.static.stls.mo.charter.com) has quit (Remote host closed the connection)
+2013-09-19 14:07:49	-->	dazza (~dazza@38.98.105.130) has joined #coffeescript
+2013-09-19 14:10:25	-->	sreeix (~sreeix@106.51.174.208) has joined #coffeescript
+2013-09-19 14:10:50	<--	ray1claw (~ray1claw@182.68.85.38) has quit (Quit: Computer has gone to sleep.)
+2013-09-19 14:13:07	-->	ray1claw (~ray1claw@182.71.64.138) has joined #coffeescript
+2013-09-19 14:13:35	-->	Siyfion (~Siyfion@188.124.2.81.in-addr.arpa) has joined #coffeescript
+2013-09-19 14:14:06	<--	sreeix (~sreeix@106.51.174.208) has quit (Client Quit)
+2013-09-19 14:17:14	<--	dazza (~dazza@38.98.105.130) has quit (Remote host closed the connection)
+2013-09-19 14:17:40	-->	dazza (~dazza@38.98.105.130) has joined #coffeescript
+2013-09-19 14:17:49	<--	NivenHuH (~NivenWuss@199-241-202-53.PUBLIC.monkeybrains.net) has quit (Quit: Computer has gone to sleep.)
+2013-09-19 14:21:50	<--	dazza (~dazza@38.98.105.130) has quit (Ping timeout: 240 seconds)
+2013-09-19 14:22:47	-->	NivenHuH (~NivenWuss@199-241-202-53.PUBLIC.monkeybrains.net) has joined #coffeescript
+2013-09-19 14:36:46	<--	joshontheweb (~joshonthe@c-67-190-6-82.hsd1.co.comcast.net) has quit (Quit: Computer has gone to sleep.)
+2013-09-19 14:40:14	-->	vlad_starkov (~vlad_star@91.233.188.206) has joined #coffeescript
+2013-09-19 14:43:17	<--	ray1claw (~ray1claw@182.71.64.138) has quit (Ping timeout: 248 seconds)
+2013-09-19 14:44:21	<--	vlad_starkov (~vlad_star@91.233.188.206) has quit (Ping timeout: 248 seconds)
+2013-09-19 14:45:06	<--	mary5030 (~mary5030@72.32.115.231) has quit (Ping timeout: 264 seconds)
+2013-09-19 14:45:31	-->	Miezell (~Mimieam@63-152-233-222.stcd.qwest.net) has joined #coffeescript
+2013-09-19 14:47:01	<--	juxovec (~juxovec@88.103.61.177) has quit (Ping timeout: 248 seconds)
+2013-09-19 14:49:49	-->	bradgignac (~bradgigna@74.205.24.232) has joined #coffeescript
+2013-09-19 14:50:24	-->	vlad_starkov (~vlad_star@91.233.188.206) has joined #coffeescript
+2013-09-19 14:51:57	-->	ray1claw (~ray1claw@123.63.112.74) has joined #coffeescript
+2013-09-19 14:52:28	<--	mreq (~mreq@91.241.23.106) has quit (Ping timeout: 268 seconds)
+2013-09-19 14:58:53	<--	adambeynon (~adambeyno@82-69-1-211.dsl.in-addr.zen.co.uk) has quit (Quit: ["Textual IRC Client: www.textualapp.com"])
+2013-09-19 14:59:14	--	grep_away is now known as grep_awesome
+2013-09-19 15:00:29	-->	sreeix (~sreeix@117.192.243.110) has joined #coffeescript
+2013-09-19 15:01:11	<--	lite_ (~lite@83.151.148.133) has quit (Remote host closed the connection)
+2013-09-19 15:11:18	<--	NivenHuH (~NivenWuss@199-241-202-53.PUBLIC.monkeybrains.net) has quit (Quit: Computer has gone to sleep.)
+2013-09-19 15:12:01	-->	mary5030 (~mary5030@68-188-84-86.static.stls.mo.charter.com) has joined #coffeescript
+2013-09-19 15:12:05	<--	mary5030 (~mary5030@68-188-84-86.static.stls.mo.charter.com) has quit (Remote host closed the connection)
+2013-09-19 15:12:40	-->	mary5030 (~mary5030@72.32.115.231) has joined #coffeescript
+2013-09-19 15:17:03	-->	juxovec (~juxovec@88.103.61.177) has joined #coffeescript
+2013-09-19 15:17:52	<--	ray1claw (~ray1claw@123.63.112.74) has quit (Quit: Computer has gone to sleep.)
+2013-09-19 15:19:23	<--	Siyfion (~Siyfion@188.124.2.81.in-addr.arpa) has quit (Ping timeout: 248 seconds)
+2013-09-19 15:20:58	<--	juxovec (~juxovec@88.103.61.177) has quit (Read error: Connection reset by peer)
+2013-09-19 15:21:06	<--	tjad (~quassel@105-236-45-196.access.mtnbusiness.co.za) has quit (Quit: No Ping reply in 180 seconds.)
+2013-09-19 15:21:22	-->	juxovec (~juxovec@88.103.61.177) has joined #coffeescript
+2013-09-19 15:23:55	<--	vlad_starkov (~vlad_star@91.233.188.206) has quit (Ping timeout: 268 seconds)
+2013-09-19 15:29:07	<--	huafu (~huafu@cpe-70-95-105-36.hawaii.res.rr.com) has quit (Remote host closed the connection)
+2013-09-19 15:30:06	<--	vim_shim (~brain_shi@207.245.236.146) has quit (Ping timeout: 264 seconds)
+2013-09-19 15:31:17	-->	tjad (~quassel@105-236-45-196.access.mtnbusiness.co.za) has joined #coffeescript
+2013-09-19 15:32:06	-->	Siyfion (~Siyfion@188.124.2.81.in-addr.arpa) has joined #coffeescript
+2013-09-19 15:33:24	<--	smurf (~heh@ip-212-239-182-21.dsl-static.scarlet.be) has quit
+2013-09-19 15:33:29	-->	eugenejen (~eugenejen@exchange.wgen.net) has joined #coffeescript
+2013-09-19 15:35:55	<--	tjad (~quassel@105-236-45-196.access.mtnbusiness.co.za) has quit (Ping timeout: 248 seconds)
+2013-09-19 15:38:48	-->	sturner (~steve@50-198-210-102-static.hfc.comcastbusiness.net) has joined #coffeescript
+2013-09-19 15:44:58	<--	LG87 (~LG87@91.123.49.70) has quit
+2013-09-19 15:46:22	-->	vlad_starkov (~vlad_star@91.233.188.188) has joined #coffeescript
+2013-09-19 15:47:09	-->	kaldrenon (~kaldrenon@173-12-28-129-Philadelphia.hfc.comcastbusiness.net) has joined #coffeescript
+2013-09-19 15:54:13	-->	tlt (~textual@24-246-80-68.cable.teksavvy.com) has joined #coffeescript
+2013-09-19 15:54:28	<--	mary5030 (~mary5030@72.32.115.231) has quit (Remote host closed the connection)
+2013-09-19 15:57:53	<--	h_kon (~h_kon@213.167.121.42.static.lyse.net) has quit (Remote host closed the connection)
+2013-09-19 15:59:11	-->	caitp- (~caitp@CPE602ad06daef0-CM602ad06daeed.cpe.net.cable.rogers.com) has joined #coffeescript
+2013-09-19 16:00:16	-->	brian-mann (~textual@50-192-58-234-static.hfc.comcastbusiness.net) has joined #coffeescript
+2013-09-19 16:02:46	<--	caitp (~caitp@CPE602ad06daef0-CM602ad06daeed.cpe.net.cable.rogers.com) has quit (Ping timeout: 268 seconds)
+2013-09-19 16:08:25	-->	minlog_ (~daniel@94.140.51.192) has joined #coffeescript
+2013-09-19 16:10:50	<--	vlad_starkov (~vlad_star@91.233.188.188) has quit (Read error: Connection reset by peer)
+2013-09-19 16:12:24	<--	TheJH (znc@thejh.net) has quit (Excess Flood)
+2013-09-19 16:14:01	-->	dhruvasagar (~dhruvasag@122.166.144.231) has joined #coffeescript
+2013-09-19 16:14:33	-->	TheJH (znc@thejh.net) has joined #coffeescript
+2013-09-19 16:16:44	minlog_	How do you declare a class variable (or something similar) in CS?
+2013-09-19 16:17:40	-->	marcandre (~marcandre@dsl-67-230-143-233.tor.primus.ca) has joined #coffeescript
+2013-09-19 16:17:52	<--	EToS (~EToS@li267-224.members.linode.com) has quit (*.net *.split)
+2013-09-19 16:17:52	<--	percival (~percival@198.199.108.195) has quit (*.net *.split)
+2013-09-19 16:17:52	<--	Gate (~gate@unaffiliated/gate) has quit (*.net *.split)
+2013-09-19 16:18:22	-->	Gate (~gate@ec2-54-214-13-127.us-west-2.compute.amazonaws.com) has joined #coffeescript
+2013-09-19 16:18:23	<--	Gate (~gate@ec2-54-214-13-127.us-west-2.compute.amazonaws.com) has quit (Changing host)
+2013-09-19 16:18:23	-->	Gate (~gate@unaffiliated/gate) has joined #coffeescript
+2013-09-19 16:18:27	-->	percival (~percival@198.199.108.195) has joined #coffeescript
+2013-09-19 16:19:41	<--	juxovec (~juxovec@88.103.61.177) has quit (Remote host closed the connection)
+2013-09-19 16:20:24	<--	loincloth (~greatseth@165.1.60.10) has quit (Read error: Connection reset by peer)
+2013-09-19 16:20:46	-->	juxovec (~juxovec@88.103.61.177) has joined #coffeescript
+2013-09-19 16:21:54	-->	loincloth (~greatseth@165.1.60.10) has joined #coffeescript
+2013-09-19 16:22:41	-->	vlad_starkov (~vlad_star@91.233.188.188) has joined #coffeescript
+2013-09-19 16:23:05	<--	bigkevmcd (~kevin@87-194-156-112.bethere.co.uk) has quit (Read error: Connection reset by peer)
+2013-09-19 16:26:06	<--	juxovec (~juxovec@88.103.61.177) has quit (Ping timeout: 266 seconds)
+2013-09-19 16:28:52	-->	EToS (~EToS@li267-224.members.linode.com) has joined #coffeescript
+2013-09-19 16:34:08	<--	sreeix (~sreeix@117.192.243.110) has quit (Quit: sreeix)
+2013-09-19 16:36:18	-->	toshok (~toshok@c-107-3-134-250.hsd1.ca.comcast.net) has joined #coffeescript
+2013-09-19 16:39:32	<--	toshok (~toshok@c-107-3-134-250.hsd1.ca.comcast.net) has quit (Client Quit)
+2013-09-19 16:40:54	<--	tlt (~textual@24-246-80-68.cable.teksavvy.com) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2013-09-19 16:45:56	-->	mdedetrich (~textual@123-243-72-112.static.tpgi.com.au) has joined #coffeescript
+2013-09-19 16:46:21	<--	minlog_ (~daniel@94.140.51.192) has quit (Remote host closed the connection)
+2013-09-19 16:51:04	-->	juxovec (~juxovec@88.103.61.177) has joined #coffeescript
+2013-09-19 16:51:09	-->	robertkeizer (~robertkei@s0106c8fb2642be48.wp.shawcable.net) has joined #coffeescript
+2013-09-19 16:51:27	<--	dhilipsiva (~dhilipsiv@106.51.148.249) has quit (Remote host closed the connection)
+2013-09-19 16:51:49	-->	tlt (~textual@bas1-toronto05-1176311695.dsl.bell.ca) has joined #coffeescript
+2013-09-19 16:51:54	-->	dhilipsiva (~dhilipsiv@106.51.148.249) has joined #coffeescript
+2013-09-19 16:54:29	-->	Reite (Reite@cm-84.215.72.51.getinternet.no) has joined #coffeescript
+2013-09-19 16:54:39	<--	juxovec (~juxovec@88.103.61.177) has quit (Remote host closed the connection)
+2013-09-19 16:54:40	-->	sunoano (~sa@85.233.49.27.dynamic.cablesurf.de) has joined #coffeescript
+2013-09-19 16:54:40	<--	sunoano (~sa@85.233.49.27.dynamic.cablesurf.de) has quit (Changing host)
+2013-09-19 16:54:40	-->	sunoano (~sa@unaffiliated/sunoano) has joined #coffeescript
+2013-09-19 16:54:49	<--	vlad_starkov (~vlad_star@91.233.188.188) has quit (Remote host closed the connection)
+2013-09-19 16:55:12	-->	juxovec (~juxovec@88.103.61.177) has joined #coffeescript
+2013-09-19 16:56:27	<--	dhilipsiva (~dhilipsiv@106.51.148.249) has quit (Ping timeout: 248 seconds)
+2013-09-19 16:56:59	-->	juxovec_ (~juxovec@88.103.61.177) has joined #coffeescript
+2013-09-19 16:57:05	-->	defaultro (~defaultro@unaffiliated/defaultro) has joined #coffeescript
+2013-09-19 16:57:29	<--	juxovec (~juxovec@88.103.61.177) has quit (Read error: Connection reset by peer)
+2013-09-19 16:58:14	-->	nofxx (~nofxx@unaffiliated/nofxx) has joined #coffeescript
+2013-09-19 16:58:30	<--	juxovec_ (~juxovec@88.103.61.177) has quit (Remote host closed the connection)
+2013-09-19 16:59:04	-->	juxovec (~juxovec@88.103.61.177) has joined #coffeescript
+2013-09-19 17:03:23	<--	juxovec (~juxovec@88.103.61.177) has quit (Ping timeout: 248 seconds)
+2013-09-19 17:05:40	<--	dhruvasagar (~dhruvasag@122.166.144.231) has quit (Ping timeout: 268 seconds)
+2013-09-19 17:08:46	-->	PaulCapestany (~PaulCapes@204.28.124.82) has joined #coffeescript
+2013-09-19 17:09:49	-->	quartzmo (~quartzmo@173-8-92-49-utah.hfc.comcastbusiness.net) has joined #coffeescript
+2013-09-19 17:11:21	<--	shaunbak_ (~shaunbake@brick-lane.lbi.co.uk) has quit (Remote host closed the connection)
+2013-09-19 17:11:50	-->	shaunbaker (~shaunbake@brick-lane.lbi.co.uk) has joined #coffeescript
+2013-09-19 17:13:20	<--	Miezell (~Mimieam@63-152-233-222.stcd.qwest.net) has quit (Ping timeout: 260 seconds)
+2013-09-19 17:15:41	<--	sunoano (~sa@unaffiliated/sunoano) has quit (Remote host closed the connection)
+2013-09-19 17:16:08	<--	shaunbaker (~shaunbake@brick-lane.lbi.co.uk) has quit (Ping timeout: 260 seconds)
+2013-09-19 17:16:47	-->	sunoano (~sa@85.233.49.27.dynamic.cablesurf.de) has joined #coffeescript
+2013-09-19 17:16:47	<--	sunoano (~sa@85.233.49.27.dynamic.cablesurf.de) has quit (Changing host)
+2013-09-19 17:16:47	-->	sunoano (~sa@unaffiliated/sunoano) has joined #coffeescript
+2013-09-19 17:17:42	-->	dguttman (~david@cpe-142-129-79-131.socal.res.rr.com) has joined #coffeescript
+2013-09-19 17:18:33	<--	mdedetrich (~textual@123-243-72-112.static.tpgi.com.au) has quit (Quit: Computer has gone to sleep.)
+2013-09-19 17:21:37	-->	sreeix (~sreeix@117.192.243.110) has joined #coffeescript
+2013-09-19 17:24:42	-->	Nisstyre-laptop (~yours@oftn/member/Nisstyre) has joined #coffeescript
+2013-09-19 17:26:16	<--	Nisstyre-laptop (~yours@oftn/member/Nisstyre) has quit (Max SendQ exceeded)
+2013-09-19 17:27:11	-->	csurap (~csurap@64.245.24.142) has joined #coffeescript
+2013-09-19 17:28:13	-->	Nisstyre-laptop (~yours@oftn/member/Nisstyre) has joined #coffeescript
+2013-09-19 17:29:59	-->	mreq (~mreq@91.241.23.106) has joined #coffeescript
+2013-09-19 17:30:28	<--	sakal (~sakal@88.84.213.199) has quit (Read error: Connection reset by peer)
+2013-09-19 17:36:22	-->	albemuth (~albemuth@186.32.3.146) has joined #coffeescript
+2013-09-19 17:39:07	-->	juxovec (~juxovec@212.24.153.152) has joined #coffeescript
+2013-09-19 17:42:33	<--	Cyph0n (~textual@94.59.111.168) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-09-19 17:45:09	-->	infynyxx (~infynyxx@208.82.12.18) has joined #coffeescript
+2013-09-19 17:46:26	-->	sakal (~sakal@88.84.213.199) has joined #coffeescript
+2013-09-19 17:53:00	-->	brain_shim (~brain_shi@207.245.236.146) has joined #coffeescript
+2013-09-19 17:53:34	<--	brain_shim (~brain_shi@207.245.236.146) has quit (Max SendQ exceeded)
+2013-09-19 17:54:05	-->	brain_shim (~brain_shi@207.245.236.146) has joined #coffeescript
+2013-09-19 17:55:32	-->	ray1claw (~ray1claw@122.162.41.114) has joined #coffeescript
+2013-09-19 17:55:42	-->	joshontheweb (~joshonthe@c-67-190-6-82.hsd1.co.comcast.net) has joined #coffeescript
+2013-09-19 17:56:14	-->	dhruvasagar (~dhruvasag@122.166.144.231) has joined #coffeescript
+2013-09-19 18:02:39	-->	dhilipsiva (~dhilipsiv@106.51.112.75) has joined #coffeescript
+2013-09-19 18:03:20	<--	juxovec (~juxovec@212.24.153.152) has quit (Remote host closed the connection)
+2013-09-19 18:03:47	<--	dhilipsiva (~dhilipsiv@106.51.112.75) has quit (Read error: Connection reset by peer)
+2013-09-19 18:03:56	-->	juxovec (~juxovec@212.24.153.152) has joined #coffeescript
+2013-09-19 18:04:05	<--	juxovec (~juxovec@212.24.153.152) has quit (Read error: Connection reset by peer)
+2013-09-19 18:04:10	-->	dhilipsiva (~dhilipsiv@106.51.112.75) has joined #coffeescript
+2013-09-19 18:04:35	-->	juxovec (~juxovec@212.24.153.152) has joined #coffeescript
+2013-09-19 18:06:11	-->	hexreel (~herl@174.136.107.186) has joined #coffeescript
+2013-09-19 18:08:38	<--	dagobah (~dagobah@217.155.201.210) has quit (Remote host closed the connection)
+2013-09-19 18:09:39	<--	DanBoy (~Dan@gateway/tor-sasl/danboy) has quit (Remote host closed the connection)
+2013-09-19 18:11:45	-->	DanBoy (~Dan@gateway/tor-sasl/danboy) has joined #coffeescript
+2013-09-19 18:17:10	<--	tlt (~textual@bas1-toronto05-1176311695.dsl.bell.ca) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2013-09-19 18:17:52	<--	Nisstyre-laptop (~yours@oftn/member/Nisstyre) has quit (Ping timeout: 264 seconds)
+2013-09-19 18:19:35	<--	thomaslindstr_m (~thomaslin@37-46-176-106.customers.ownit.se) has quit (Remote host closed the connection)
+2013-09-19 18:19:41	<--	sakal (~sakal@88.84.213.199) has quit (Quit: Ex-Chat: Sic itur ad astra)
+2013-09-19 18:24:53	<--	kaldrenon (~kaldrenon@173-12-28-129-Philadelphia.hfc.comcastbusiness.net) has quit (Remote host closed the connection)
+2013-09-19 18:25:36	<--	sreeix (~sreeix@117.192.243.110) has quit (Quit: sreeix)
+2013-09-19 18:28:43	<--	brain_shim (~brain_shi@207.245.236.146) has quit (Ping timeout: 248 seconds)
+2013-09-19 18:29:10	<--	ray1claw (~ray1claw@122.162.41.114) has quit (Ping timeout: 245 seconds)
+2013-09-19 18:29:24	-->	ray1claw (~ray1claw@122.162.37.64) has joined #coffeescript
+2013-09-19 18:29:46	-->	swayf (~swayf@87.252.140.108) has joined #coffeescript
+2013-09-19 18:30:46	<--	joshontheweb (~joshonthe@c-67-190-6-82.hsd1.co.comcast.net) has quit (Quit: Computer has gone to sleep.)
+2013-09-19 18:30:46	<--	swayf (~swayf@87.252.140.108) has quit (Read error: Connection reset by peer)
+2013-09-19 18:31:26	-->	swayf (~swayf@87.252.140.108) has joined #coffeescript
+2013-09-19 18:32:12	<--	swayf (~swayf@87.252.140.108) has quit (Read error: Connection reset by peer)
+2013-09-19 18:32:50	-->	swayf (~swayf@87.252.140.108) has joined #coffeescript
+2013-09-19 18:33:09	<--	juxovec (~juxovec@212.24.153.152) has quit (Remote host closed the connection)
+2013-09-19 18:33:18	<--	tvw (~tv@212.79.9.150) has quit
+2013-09-19 18:33:40	-->	juxovec (~juxovec@212.24.153.152) has joined #coffeescript
+2013-09-19 18:34:20	<--	swayf (~swayf@87.252.140.108) has quit (Read error: Connection reset by peer)
+2013-09-19 18:35:00	-->	swayf (~swayf@87.252.140.108) has joined #coffeescript
+2013-09-19 18:37:03	<--	swayf (~swayf@87.252.140.108) has quit (Read error: Connection reset by peer)
+2013-09-19 18:37:39	-->	swayf (~swayf@87.252.140.108) has joined #coffeescript
+2013-09-19 18:38:19	<--	juxovec (~juxovec@212.24.153.152) has quit (Ping timeout: 248 seconds)
+2013-09-19 18:38:20	<--	swayf (~swayf@87.252.140.108) has quit (Read error: Connection reset by peer)
+2013-09-19 18:38:36	-->	SocalNick (~njcalugar@208.185.20.22) has joined #coffeescript
+2013-09-19 18:38:59	-->	swayf (~swayf@87.252.140.108) has joined #coffeescript
+2013-09-19 18:40:16	<--	swayf (~swayf@87.252.140.108) has quit (Read error: Connection reset by peer)
+2013-09-19 18:40:54	-->	swayf (~swayf@87.252.140.108) has joined #coffeescript
+2013-09-19 18:41:36	--	Matrixiumn is now known as Xack
+2013-09-19 18:41:37	<--	swayf (~swayf@87.252.140.108) has quit (Read error: Connection reset by peer)
+2013-09-19 18:42:14	-->	swayf (~swayf@87.252.140.108) has joined #coffeescript
+2013-09-19 18:43:13	-->	fikst (~fikst@d54C442D5.access.telenet.be) has joined #coffeescript
+2013-09-19 18:43:13	<--	swayf (~swayf@87.252.140.108) has quit (Read error: Connection reset by peer)
+2013-09-19 18:43:38	-->	toshok (~toshok@64.211.224.253) has joined #coffeescript
+2013-09-19 18:43:49	-->	swayf (~swayf@87.252.140.108) has joined #coffeescript
+2013-09-19 18:43:51	-->	Miezell (~Mimieam@63-152-233-222.stcd.qwest.net) has joined #coffeescript
+2013-09-19 18:44:14	-->	etcetera (~etcetera@about/csharp/regular/etcetera) has joined #coffeescript
+2013-09-19 18:44:19	<--	etcetera (~etcetera@about/csharp/regular/etcetera) has quit (Max SendQ exceeded)
+2013-09-19 18:44:58	-->	etcetera (~etcetera@about/csharp/regular/etcetera) has joined #coffeescript
+2013-09-19 18:44:59	<--	swayf (~swayf@87.252.140.108) has quit (Read error: Connection reset by peer)
+2013-09-19 18:45:38	-->	swayf (~swayf@87.252.140.108) has joined #coffeescript
+2013-09-19 18:46:54	<--	SocalNick (~njcalugar@208.185.20.22) has quit (Quit: SocalNick)
+2013-09-19 18:46:54	<--	swayf (~swayf@87.252.140.108) has quit (Read error: Connection reset by peer)
+2013-09-19 18:47:29	-->	SocalNick (~njcalugar@208.185.20.22) has joined #coffeescript
+2013-09-19 18:47:34	-->	swayf (~swayf@87.252.140.108) has joined #coffeescript
+2013-09-19 18:49:10	<--	swayf (~swayf@87.252.140.108) has quit (Read error: Connection reset by peer)
+2013-09-19 18:49:49	-->	swayf (~swayf@87.252.140.108) has joined #coffeescript
+2013-09-19 18:52:04	<--	swayf (~swayf@87.252.140.108) has quit (Read error: Connection reset by peer)
+2013-09-19 18:52:40	-->	swayf (~swayf@87.252.140.108) has joined #coffeescript
+2013-09-19 18:53:44	<--	SocalNick (~njcalugar@208.185.20.22) has quit (Quit: SocalNick)
+2013-09-19 18:53:44	<--	swayf (~swayf@87.252.140.108) has quit (Read error: Connection reset by peer)
+2013-09-19 18:54:20	-->	swayf (~swayf@87.252.140.108) has joined #coffeescript
+2013-09-19 18:56:47	<--	dhruvasagar (~dhruvasag@122.166.144.231) has quit (Ping timeout: 260 seconds)
+2013-09-19 18:56:47	<--	swayf (~swayf@87.252.140.108) has quit (Read error: Connection reset by peer)
+2013-09-19 18:58:07	-->	Miezel (~Mimieam@63-152-206-116.stcd.qwest.net) has joined #coffeescript
+2013-09-19 19:01:13	<--	Miezell (~Mimieam@63-152-233-222.stcd.qwest.net) has quit (Ping timeout: 265 seconds)
+2013-09-19 19:01:59	-->	justinmburrous (~justinmbu@c-71-234-17-156.hsd1.ct.comcast.net) has joined #coffeescript
+2013-09-19 19:04:27	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 19:05:16	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 19:05:53	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 19:08:16	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 19:09:20	-->	shaunbaker (~shaunbake@97e69e6b.skybroadband.com) has joined #coffeescript
+2013-09-19 19:09:36	<--	nisstyre (~yours@oftn/member/Nisstyre) has quit (Ping timeout: 245 seconds)
+2013-09-19 19:09:45	-->	NivenHuH (~NivenWuss@sonic.mochaleaf.com) has joined #coffeescript
+2013-09-19 19:09:58	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 19:11:09	-->	joshontheweb (~joshonthe@c-67-190-6-82.hsd1.co.comcast.net) has joined #coffeescript
+2013-09-19 19:11:09	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 19:11:48	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 19:12:33	-->	sakal (~sakal@95.72.167.162) has joined #coffeescript
+2013-09-19 19:12:33	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 19:12:34	-->	SocalNick (~njcalugar@208.185.20.22) has joined #coffeescript
+2013-09-19 19:13:09	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 19:14:37	-->	kaldrenon (~kaldrenon@173-12-28-129-Philadelphia.hfc.comcastbusiness.net) has joined #coffeescript
+2013-09-19 19:14:38	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 19:15:14	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 19:16:46	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 19:17:24	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 19:19:16	<--	DanBoy (~Dan@gateway/tor-sasl/danboy) has quit (Remote host closed the connection)
+2013-09-19 19:19:16	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 19:19:54	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 19:20:36	-->	dunc_ (~dunc@95.211.149.153) has joined #coffeescript
+2013-09-19 19:20:37	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 19:20:57	-->	DanBoy (~Dan@gateway/tor-sasl/danboy) has joined #coffeescript
+2013-09-19 19:20:59	-->	thomaslindstr_m (~thomaslin@c80-216-4-133.bredband.comhem.se) has joined #coffeescript
+2013-09-19 19:21:14	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 19:21:15	<--	nofxx (~nofxx@unaffiliated/nofxx) has quit (Ping timeout: 260 seconds)
+2013-09-19 19:21:29	<--	etcetera (~etcetera@about/csharp/regular/etcetera) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-09-19 19:22:37	<--	dunc_ (~dunc@95.211.149.153) has quit (Remote host closed the connection)
+2013-09-19 19:22:37	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 19:23:14	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 19:23:58	-->	nisstyre (~yours@oftn/member/Nisstyre) has joined #coffeescript
+2013-09-19 19:23:58	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 19:24:34	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 19:24:51	-->	etcetera (~etcetera@about/csharp/regular/etcetera) has joined #coffeescript
+2013-09-19 19:24:56	<--	etcetera (~etcetera@about/csharp/regular/etcetera) has quit (Max SendQ exceeded)
+2013-09-19 19:25:39	-->	etcetera (~etcetera@about/csharp/regular/etcetera) has joined #coffeescript
+2013-09-19 19:25:39	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 19:26:11	<--	robertkeizer (~robertkei@s0106c8fb2642be48.wp.shawcable.net) has quit (Quit: Leaving.)
+2013-09-19 19:26:14	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 19:26:35	<--	SocalNick (~njcalugar@208.185.20.22) has quit (Quit: SocalNick)
+2013-09-19 19:27:13	-->	SocalNick (~njcalugar@208.185.20.22) has joined #coffeescript
+2013-09-19 19:27:13	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 19:27:17	-->	cezary_ (~cezary-at@89-69-91-239.dynamic.chello.pl) has joined #coffeescript
+2013-09-19 19:27:49	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 19:29:36	<--	cezary (~cezary-at@89-69-91-239.dynamic.chello.pl) has quit (Ping timeout: 245 seconds)
+2013-09-19 19:29:36	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 19:29:42	--	cezary_ is now known as cezary
+2013-09-19 19:30:06	<--	thomaslindstr_m (~thomaslin@c80-216-4-133.bredband.comhem.se) has quit (Remote host closed the connection)
+2013-09-19 19:30:14	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 19:30:57	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 19:31:37	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 19:32:24	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 19:33:02	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 19:33:36	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 19:33:51	<--	Siyfion (~Siyfion@188.124.2.81.in-addr.arpa) has quit (Quit: Leaving)
+2013-09-19 19:34:12	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 19:35:34	-->	thomaslindstr_m (~thomaslin@c80-216-4-133.bredband.comhem.se) has joined #coffeescript
+2013-09-19 19:37:28	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 19:38:07	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 19:40:20	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 19:40:58	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 19:42:19	<--	albemuth (~albemuth@186.32.3.146) has quit (Ping timeout: 248 seconds)
+2013-09-19 19:42:20	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 19:42:58	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 19:43:38	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 19:44:18	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 19:44:35	-->	albemuth (~albemuth@186.32.3.146) has joined #coffeescript
+2013-09-19 19:45:33	chee	so what do you guys do about play?
+2013-09-19 19:45:33	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 19:45:38	chee	playing with coffeescript in the console
+2013-09-19 19:45:44	chee	or even debugging in devtools?
+2013-09-19 19:46:13	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 19:47:12	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 19:47:53	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 19:50:16	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 19:50:48	-->	Es0teric (~Es0teric@cpe-74-72-239-113.nyc.res.rr.com) has joined #coffeescript
+2013-09-19 19:50:55	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 19:51:27	<--	Es0teric (~Es0teric@cpe-74-72-239-113.nyc.res.rr.com) has quit (Max SendQ exceeded)
+2013-09-19 19:52:29	Vendethiel	chee: about "play!"?
+2013-09-19 19:52:30	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 19:53:10	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 19:53:16	chee	Vendethiel: no i mean
+2013-09-19 19:53:19	chee	playing
+2013-09-19 19:53:22	chee	you know, to learn
+2013-09-19 19:53:32	Vendethiel	coffeescript.org
+2013-09-19 19:54:02	chee	wouldn't you like to just be able to open up the devtool like with js ?
+2013-09-19 19:55:22	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 19:56:00	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 19:58:04	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 19:58:40	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 20:00:01	<--	DanBoy (~Dan@gateway/tor-sasl/danboy) has quit (Remote host closed the connection)
+2013-09-19 20:00:01	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 20:00:23	<--	shaunbaker (~shaunbake@97e69e6b.skybroadband.com) has quit (Remote host closed the connection)
+2013-09-19 20:00:40	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 20:00:50	-->	shaunbaker (~shaunbake@195.69.155.61) has joined #coffeescript
+2013-09-19 20:02:01	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 20:02:04	Vendethiel	chee: I certainly can
+2013-09-19 20:02:27	chee	Vendethiel: tell me more
+2013-09-19 20:02:37	Vendethiel	chee: http://i.imgur.com/NNFpcyN.png
+2013-09-19 20:02:40	-->	nofxx (~nofxx@unaffiliated/nofxx) has joined #coffeescript
+2013-09-19 20:02:40	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 20:03:16	--	zz_michael_mbp is now known as michael_mbp
+2013-09-19 20:03:16	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 20:03:18	chee	omg lovely
+2013-09-19 20:03:32	chee	Vendethiel: i've just spent three days writing an extension and look it already exists
+2013-09-19 20:03:43	Vendethiel	yeah, that happens.
+2013-09-19 20:03:52	Vendethiel	do note that there's one much better for firefox
+2013-09-19 20:03:56	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 20:04:02	chee	still, i learnt a whole bunch so that was fun
+2013-09-19 20:04:05	Vendethiel	but i'm too lazy to google "how to migrate chrome bookmarks to firefox"
+2013-09-19 20:04:53	chee	haha
+2013-09-19 20:04:54	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 20:05:11	chee	firefox devtools have plenty of their own drawbacks that might not make it worth it
+2013-09-19 20:05:18	<--	thomaslindstr_m (~thomaslin@c80-216-4-133.bredband.comhem.se) has quit (Remote host closed the connection)
+2013-09-19 20:05:43	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 20:06:20	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 20:06:56	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 20:07:36	<--	rolleiflex (~rolleifle@ec2-54-242-146-184.compute-1.amazonaws.com) has quit (Excess Flood)
+2013-09-19 20:07:36	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 20:08:12	chee	Vendethiel: how do i get these black boxes it is showing me to go away
+2013-09-19 20:08:13	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 20:08:29	Vendethiel	chee: if you mean firebug, then yeah it sucks
+2013-09-19 20:08:42	Vendethiel	and that's the main reason firefox is slow. (but who's using that in 2013 :p ?)
+2013-09-19 20:08:46	chee	no i mean the native devtools
+2013-09-19 20:09:02	Vendethiel	well, they certainly got their own advantages too
+2013-09-19 20:09:14	chee	i find them quite unwieldy
+2013-09-19 20:09:15	Vendethiel	like NOT DRAWING A FUCKING INSANELY BIG BLUE BOX OVER MY <HTML> TAG
+2013-09-19 20:09:19	-->	rolleiflex (~rolleifle@ec2-54-242-146-184.compute-1.amazonaws.com) has joined #coffeescript
+2013-09-19 20:09:31	Vendethiel	that won't go away when you move onto children elements
+2013-09-19 20:10:12	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 20:10:48	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 20:12:27	chee	Vendethiel: okay i'm going to actually have to change how this works a little bit
+2013-09-19 20:12:28	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 20:12:33	Vendethiel	yeah
+2013-09-19 20:12:35	chee	namely, {bare: true}
+2013-09-19 20:13:01	chee	because wtf
+2013-09-19 20:13:06	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 20:13:26	chee	x = (n) -> n * 2
+2013-09-19 20:13:31	chee	x 2
+2013-09-19 20:13:35	chee	// x undefined
+2013-09-19 20:13:38	chee	:|
+2013-09-19 20:13:48	chee	>: |
+2013-09-19 20:14:05	Vendethiel	ha
+2013-09-19 20:14:08	Vendethiel	it's not using --bare ?
+2013-09-19 20:14:12	Vendethiel	@x = 5
+2013-09-19 20:14:14	Vendethiel	x
+2013-09-19 20:14:15	Vendethiel	5
+2013-09-19 20:14:26	Vendethiel	x = 3
+2013-09-19 20:14:27	Vendethiel	x
+2013-09-19 20:14:29	Vendethiel	5
+2013-09-19 20:14:32	Vendethiel	*sigh*
+2013-09-19 20:14:47	Vendethiel	I used to have a better one, but it wouldn't let me interact with the DOM :[.
+2013-09-19 20:14:53	chee	]:
+2013-09-19 20:15:28	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 20:16:06	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 20:16:11	chee	lol, the output of jQuery('p')
+2013-09-19 20:16:32	chee	my eyes
+2013-09-19 20:18:28	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 20:19:03	Vendethiel	ew
+2013-09-19 20:19:05	<--	ray1claw (~ray1claw@122.162.37.64) has quit (Quit: Computer has gone to sleep.)
+2013-09-19 20:19:07	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 20:19:09	-->	Es0teric (~Es0teric@cpe-74-72-239-113.nyc.res.rr.com) has joined #coffeescript
+2013-09-19 20:19:18	Vendethiel	oh wait, i'm on a phpBB page. `$('span')`
+2013-09-19 20:20:14	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 20:20:52	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 20:21:45	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 20:22:23	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 20:24:28	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 20:25:06	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 20:25:51	-->	huafu (~huafu@cpe-70-95-105-36.hawaii.res.rr.com) has joined #coffeescript
+2013-09-19 20:25:51	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 20:26:24	<--	NivenHuH (~NivenWuss@sonic.mochaleaf.com) has quit (Read error: Connection reset by peer)
+2013-09-19 20:26:31	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 20:27:21	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 20:27:56	<--	Es0teric (~Es0teric@cpe-74-72-239-113.nyc.res.rr.com) has quit (Quit: Computer has gone to sleep.)
+2013-09-19 20:28:01	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 20:30:28	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 20:30:52	-->	NivenHuH (~NivenWuss@sonic.mochaleaf.com) has joined #coffeescript
+2013-09-19 20:31:08	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 20:33:28	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 20:34:04	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 20:36:28	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 20:37:08	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 20:37:50	<--	jesusprubio (~quassel@217.109.27.77.dynamic.mundo-r.com) has quit (Remote host closed the connection)
+2013-09-19 20:37:50	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 20:38:28	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 20:40:10	-->	dazza (~dazza@172.56.11.230) has joined #coffeescript
+2013-09-19 20:40:11	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 20:40:39	-->	ray1claw (~ray1claw@122.162.37.64) has joined #coffeescript
+2013-09-19 20:40:50	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 20:41:03	<--	dazza (~dazza@172.56.11.230) has quit (Read error: Connection reset by peer)
+2013-09-19 20:41:44	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 20:42:21	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 20:44:25	<--	rue (~rue-freen@a91-154-29-187.elisa-laajakaista.fi) has quit (Remote host closed the connection)
+2013-09-19 20:44:26	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 20:45:05	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 20:45:49	-->	rue (~rue-freen@a91-154-29-187.elisa-laajakaista.fi) has joined #coffeescript
+2013-09-19 20:45:49	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 20:46:27	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 20:46:59	-->	KaeruCT (~welp@201.192.144.87) has joined #coffeescript
+2013-09-19 20:47:52	-->	trevlar (~trevlar@unaffiliated/trevlar) has joined #coffeescript
+2013-09-19 20:47:52	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 20:48:32	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 20:49:58	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 20:50:13	<--	dhilipsiva (~dhilipsiv@106.51.112.75) has quit (Remote host closed the connection)
+2013-09-19 20:50:38	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 20:51:04	<--	forivall (~quassel@208.91.114.4) has quit (Quit: No Ping reply in 180 seconds.)
+2013-09-19 20:51:28	-->	forivall (~quassel@208.91.114.4) has joined #coffeescript
+2013-09-19 20:52:40	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 20:53:18	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 20:54:47	-->	vlad_starkov (~vlad_star@109.188.124.174) has joined #coffeescript
+2013-09-19 20:54:47	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 20:54:47	-->	liquid-silence (~liquid-si@105-236-219-93.access.mtnbusiness.co.za) has joined #coffeescript
+2013-09-19 20:54:47	<--	liquid-silence (~liquid-si@105-236-219-93.access.mtnbusiness.co.za) has quit (Changing host)
+2013-09-19 20:54:47	-->	liquid-silence (~liquid-si@about/csharp/regular/liquid-silence) has joined #coffeescript
+2013-09-19 20:54:55	<--	rolleiflex (~rolleifle@ec2-54-242-146-184.compute-1.amazonaws.com) has quit (Excess Flood)
+2013-09-19 20:55:00	<--	liquid-silence (~liquid-si@about/csharp/regular/liquid-silence) has quit (Max SendQ exceeded)
+2013-09-19 20:55:23	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 20:55:35	<--	vlad_starkov (~vlad_star@109.188.124.174) has quit (Remote host closed the connection)
+2013-09-19 20:55:39	-->	liquid-silence (~liquid-si@105-236-219-93.access.mtnbusiness.co.za) has joined #coffeescript
+2013-09-19 20:55:39	<--	liquid-silence (~liquid-si@105-236-219-93.access.mtnbusiness.co.za) has quit (Changing host)
+2013-09-19 20:55:39	-->	liquid-silence (~liquid-si@about/csharp/regular/liquid-silence) has joined #coffeescript
+2013-09-19 20:55:48	<--	liquid-silence (~liquid-si@about/csharp/regular/liquid-silence) has quit (Max SendQ exceeded)
+2013-09-19 20:56:22	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 20:56:49	-->	rolleiflex (~rolleifle@ec2-54-242-146-184.compute-1.amazonaws.com) has joined #coffeescript
+2013-09-19 20:56:58	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 20:57:22	-->	vlad_starkov (~vlad_star@109.188.124.174) has joined #coffeescript
+2013-09-19 20:58:04	-->	dunc_ (~dunc@95.211.149.153) has joined #coffeescript
+2013-09-19 20:58:04	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 20:58:09	<--	rolleiflex (~rolleifle@ec2-54-242-146-184.compute-1.amazonaws.com) has quit (Excess Flood)
+2013-09-19 20:58:40	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 20:59:11	-->	liquid-silence (~liquid-si@105-236-219-93.access.mtnbusiness.co.za) has joined #coffeescript
+2013-09-19 20:59:11	<--	liquid-silence (~liquid-si@105-236-219-93.access.mtnbusiness.co.za) has quit (Changing host)
+2013-09-19 20:59:11	-->	liquid-silence (~liquid-si@about/csharp/regular/liquid-silence) has joined #coffeescript
+2013-09-19 20:59:21	<--	liquid-silence (~liquid-si@about/csharp/regular/liquid-silence) has quit (Max SendQ exceeded)
+2013-09-19 21:00:24	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 21:00:49	-->	rolleiflex (~rolleifle@ec2-54-242-146-184.compute-1.amazonaws.com) has joined #coffeescript
+2013-09-19 21:00:52	<--	rsim (~rsim@95.68.115.156) has quit (Quit: Leaving.)
+2013-09-19 21:01:00	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 21:03:28	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 21:04:05	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 21:05:23	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 21:05:50	<--	etcetera (~etcetera@about/csharp/regular/etcetera) has quit (Ping timeout: 245 seconds)
+2013-09-19 21:06:00	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 21:06:54	<--	shaunbaker (~shaunbake@195.69.155.61) has quit (Remote host closed the connection)
+2013-09-19 21:06:54	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 21:06:54	-->	etcetera (~etcetera@about/csharp/regular/etcetera) has joined #coffeescript
+2013-09-19 21:07:33	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 21:09:03	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 21:09:44	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 21:10:31	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 21:11:09	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 21:11:33	<--	ray1claw (~ray1claw@122.162.37.64) has quit (Quit: Computer has gone to sleep.)
+2013-09-19 21:12:46	<--	rolleiflex (~rolleifle@ec2-54-242-146-184.compute-1.amazonaws.com) has quit (Excess Flood)
+2013-09-19 21:12:46	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 21:12:57	-->	rurufufuss (~rurufufus@115-64-27-246.static.tpgi.com.au) has joined #coffeescript
+2013-09-19 21:13:22	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 21:13:55	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 21:14:32	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 21:14:40	<--	codelahoma (~toldorkno@99-101-243-157.lightspeed.tulsok.sbcglobal.net) has quit (Ping timeout: 256 seconds)
+2013-09-19 21:15:49	-->	rolleiflex (~rolleifle@ec2-54-242-146-184.compute-1.amazonaws.com) has joined #coffeescript
+2013-09-19 21:15:49	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 21:15:55	-->	jacobolus (~jacobolus@coffeebar.static.monkeybrains.net) has joined #coffeescript
+2013-09-19 21:16:00	-->	codelahoma (~toldorkno@99-101-243-157.lightspeed.tulsok.sbcglobal.net) has joined #coffeescript
+2013-09-19 21:16:28	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 21:16:42	dunc_	I'm looking to practise my coffeescript. Does anyone have any projects that are looking for contributors?
+2013-09-19 21:17:41	<--	zeekay (~zk@a.monad.is.just.a.monoid.io) has quit (Quit: A monad is just a monoid in the category of endofunctors, what's the problem?)
+2013-09-19 21:17:44	Vendethiel	dunc_: coffeescript
+2013-09-19 21:18:21	-->	zeekay (~zk@a.monad.is.just.a.monoid.io) has joined #coffeescript
+2013-09-19 21:19:37	<--	csurap (~csurap@64.245.24.142) has quit (Quit: csurap)
+2013-09-19 21:20:02	dunc_	Vendethiel: yes. preferably not just for the tests
+2013-09-19 21:20:03	-->	csurap (~csurap@64.245.24.142) has joined #coffeescript
+2013-09-19 21:20:11	Vendethiel	dunc_: I mean the compiler :p
+2013-09-19 21:20:19	-->	tvw (~tv@e176006087.adsl.alicedsl.de) has joined #coffeescript
+2013-09-19 21:21:14	dunc_	Vendethiel: haha! thats probably too advanced for me :) also is it not been re-written?
+2013-09-19 21:21:42	Vendethiel	well, the rewrite should've been finished like a year ago, it's mainly done but what's next doesn't interest michaelficarra so it's not done
+2013-09-19 21:22:20	-->	vlad_sta_ (~vlad_star@109.188.124.174) has joined #coffeescript
+2013-09-19 21:22:20	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 21:22:24	<--	vlad_starkov (~vlad_star@109.188.124.174) has quit (Ping timeout: 240 seconds)
+2013-09-19 21:22:58	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 21:23:38	dunc_	hmm ok cool ill take a look then hopefully there is some easier stuff that needs done
+2013-09-19 21:23:38	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 21:23:45	dunc_	thanks
+2013-09-19 21:24:14	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 21:25:08	<--	rurufufuss (~rurufufus@115-64-27-246.static.tpgi.com.au) has quit (Ping timeout: 245 seconds)
+2013-09-19 21:25:08	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 21:25:39	<--	quartzmo (~quartzmo@173-8-92-49-utah.hfc.comcastbusiness.net) has quit (Remote host closed the connection)
+2013-09-19 21:25:45	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 21:28:04	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 21:28:19	<--	ohama (ohama@cicolina.org) has quit (K-Lined)
+2013-09-19 21:28:41	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 21:28:45	-->	dhilipsiva (~dhilipsiv@106.51.112.75) has joined #coffeescript
+2013-09-19 21:28:50	<--	vlad_sta_ (~vlad_star@109.188.124.174) has quit (Ping timeout: 256 seconds)
+2013-09-19 21:30:01	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 21:30:40	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 21:32:35	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 21:33:15	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 21:34:48	<--	etcetera (~etcetera@about/csharp/regular/etcetera) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-09-19 21:34:48	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 21:35:26	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 21:36:34	-->	etcetera (~etcetera@about/csharp/regular/etcetera) has joined #coffeescript
+2013-09-19 21:36:35	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 21:37:12	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 21:37:13	-->	vlad_starkov (~vlad_star@109.188.124.174) has joined #coffeescript
+2013-09-19 21:37:19	<--	dhilipsiva (~dhilipsiv@106.51.112.75) has quit (Ping timeout: 260 seconds)
+2013-09-19 21:37:40	-->	rurufufuss (~rurufufus@115-64-27-246.static.tpgi.com.au) has joined #coffeescript
+2013-09-19 21:38:15	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 21:38:50	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 21:40:16	-->	thomaslindstr_m (~thomaslin@c80-216-4-133.bredband.comhem.se) has joined #coffeescript
+2013-09-19 21:40:16	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 21:40:32	-->	shaunbaker (~shaunbake@97e69e6b.skybroadband.com) has joined #coffeescript
+2013-09-19 21:40:36	<--	shaunbaker (~shaunbake@97e69e6b.skybroadband.com) has quit (Remote host closed the connection)
+2013-09-19 21:40:47	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 21:41:03	-->	shaunbaker (~shaunbake@195.69.155.61) has joined #coffeescript
+2013-09-19 21:43:04	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 21:43:39	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 21:44:37	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 21:45:14	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 21:46:05	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 21:46:44	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 21:47:14	-->	quartzmo (~quartzmo@173-8-92-49-utah.hfc.comcastbusiness.net) has joined #coffeescript
+2013-09-19 21:48:31	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 21:49:09	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 21:50:56	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 21:51:34	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 21:51:47	<--	SocalNick (~njcalugar@208.185.20.22) has quit (Quit: SocalNick)
+2013-09-19 21:52:47	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 21:53:24	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 21:55:23	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 21:55:59	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 21:58:04	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 21:58:44	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 21:59:42	-->	kil0byte (~kil0byte@112.204.185.190) has joined #coffeescript
+2013-09-19 21:59:43	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 22:00:19	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 22:01:25	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 22:02:04	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 22:02:51	<--	dunc_ (~dunc@95.211.149.153) has quit (Write error: Broken pipe)
+2013-09-19 22:02:51	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 22:03:29	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 22:04:26	-->	mercwithamouth (~kingdom@99-38-191-69.lightspeed.clmasc.sbcglobal.net) has joined #coffeescript
+2013-09-19 22:04:26	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 22:05:04	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 22:07:40	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 22:08:19	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 22:10:40	<--	swayf (~swayf@87.252.140.85) has quit (Read error: Connection reset by peer)
+2013-09-19 22:11:08	-->	SocalNick (~njcalugar@208.185.20.22) has joined #coffeescript
+2013-09-19 22:11:17	-->	swayf (~swayf@87.252.140.85) has joined #coffeescript
+2013-09-19 22:11:45	-->	rsim (~rsim@95.68.115.156) has joined #coffeescript
+2013-09-19 22:11:56	<--	swayf (~swayf@87.252.140.85) has quit (Client Quit)
+2013-09-19 22:29:33	<--	shaunbaker (~shaunbake@195.69.155.61) has quit (Remote host closed the connection)
+2013-09-19 22:30:25	<--	infynyxx (~infynyxx@208.82.12.18) has quit (Remote host closed the connection)
+2013-09-19 22:32:39	-->	kil0byte_ (~kil0byte@112.204.185.190) has joined #coffeescript
+2013-09-19 22:33:05	<--	kil0byte (~kil0byte@112.204.185.190) has quit (Ping timeout: 246 seconds)
+2013-09-19 22:36:42	<--	hicorey (~corey@hic-4.ehawaii.gov) has quit (Ping timeout: 264 seconds)
+2013-09-19 22:38:24	-->	hicorey (~corey@hic-200.ehawaii.gov) has joined #coffeescript
+2013-09-19 22:41:52	<--	forivall (~quassel@208.91.114.4) has quit (Ping timeout: 260 seconds)
+2013-09-19 22:45:20	<--	mreq (~mreq@91.241.23.106) has quit (Quit: Leaving)
+2013-09-19 22:46:04	-->	mreq (~mreq@91.241.23.106) has joined #coffeescript
+2013-09-19 22:48:25	-->	infynyxx (~infynyxx@208.82.12.18) has joined #coffeescript
+2013-09-19 22:49:52	<--	infynyxx (~infynyxx@208.82.12.18) has quit (Remote host closed the connection)
+2013-09-19 22:50:15	-->	infynyxx (~infynyxx@208.82.12.18) has joined #coffeescript
+2013-09-19 22:56:06	<--	nofxx (~nofxx@unaffiliated/nofxx) has quit (Ping timeout: 256 seconds)
+2013-09-19 22:58:41	-->	Es0teric (~Es0teric@cpe-74-72-239-113.nyc.res.rr.com) has joined #coffeescript
+2013-09-19 23:02:31	-->	SocalNick_ (~njcalugar@208.185.20.22) has joined #coffeescript
+2013-09-19 23:03:51	<--	kaldrenon (~kaldrenon@173-12-28-129-Philadelphia.hfc.comcastbusiness.net) has quit (Remote host closed the connection)
+2013-09-19 23:04:25	-->	kaldrenon (~kaldrenon@173-12-28-129-Philadelphia.hfc.comcastbusiness.net) has joined #coffeescript
+2013-09-19 23:04:35	<--	SocalNick (~njcalugar@208.185.20.22) has quit (Ping timeout: 260 seconds)
+2013-09-19 23:04:42	--	michael_mbp is now known as zz_michael_mbp
+2013-09-19 23:07:39	<--	bradgignac (~bradgigna@74.205.24.232) has quit (Quit: bradgignac)
+2013-09-19 23:07:47	<--	ericbarnes (~ericbarne@cpe-071-068-027-219.carolina.res.rr.com) has quit (Quit: Computer has gone to sleep.)
+2013-09-19 23:08:28	<--	kaldrenon (~kaldrenon@173-12-28-129-Philadelphia.hfc.comcastbusiness.net) has quit (Ping timeout: 240 seconds)
+2013-09-19 23:11:05	ingsoc	just starting out with angular and coffeescript
+2013-09-19 23:11:34	ingsoc	coffeescript wraps all code in an anonymous function to stop pollution of the global namespace
+2013-09-19 23:11:53	ingsoc	to use angular i need to dfefine controller functions
+2013-09-19 23:12:04	ingsoc	and these need to be accessible to angular
+2013-09-19 23:12:17	ingsoc	how do you normally define a fuinction that needs to be exposed globally
+2013-09-19 23:12:20	ingsoc	in coffeescript
+2013-09-19 23:12:58	ingsoc	in the generated JS the anonymous enclosing function gets called with this
+2013-09-19 23:13:16	ingsoc	so should i refer to global with 'this' or reference window directly ?
+2013-09-19 23:13:23	-->	nofxx (~nofxx@unaffiliated/nofxx) has joined #coffeescript
+2013-09-19 23:16:24	<--	jimt_ (~jim@126.241.69.111.dynamic.snap.net.nz) has quit (Ping timeout: 260 seconds)
+2013-09-19 23:17:45	-->	jimt_ (~jim@126.241.69.111.dynamic.snap.net.nz) has joined #coffeescript
+2013-09-19 23:18:38	Vendethiel	ingsoc: use angular.module('mymodule').controller('IngCtrl', -> ...)
+2013-09-19 23:18:46	Vendethiel	ingsoc: that's how you're supposed to do in angular ;).
+2013-09-19 23:19:02	ingsoc	Vendethiel: i am literally just starting the hello world
+2013-09-19 23:19:07	ingsoc	equivalent for angular
+2013-09-19 23:19:16	ingsoc	and only just started with coffeescript
+2013-09-19 23:19:19	Vendethiel	(else you have @a, for this.a, where this is window in top)
+2013-09-19 23:19:24	ingsoc	ok so referencing thing swith angular
+2013-09-19 23:19:27	ingsoc	will register it
+2013-09-19 23:19:33	ingsoc	and so no need to make global
+2013-09-19 23:19:39	Vendethiel	yep
+2013-09-19 23:19:58	Vendethiel	define module : angular.module('mymodule', ['dep1', 'dependency2'])
+2013-09-19 23:20:14	Vendethiel	append stuff : angular.module('mymodule').controller('name', fn)
+2013-09-19 23:20:55	ingsoc	I am hoping having to learn a lot of concepts pays off
+2013-09-19 23:20:59	ingsoc	looks powerful from the demos
+2013-09-19 23:21:07	Vendethiel	learning concepts always pay off
+2013-09-19 23:23:15	<--	NivenHuH (~NivenWuss@sonic.mochaleaf.com) has quit (Ping timeout: 260 seconds)
+2013-09-19 23:24:26	<--	mercwithamouth (~kingdom@99-38-191-69.lightspeed.clmasc.sbcglobal.net) has quit (Ping timeout: 256 seconds)
+2013-09-19 23:24:42	ingsoc	Vendethiel: you said "where this is window in top"
+2013-09-19 23:24:50	ingsoc	so top is the CS lingo
+2013-09-19 23:24:58	Vendethiel	top is the top level, top scope
+2013-09-19 23:24:59	ingsoc	for the top level enclosing anonymous function ?
+2013-09-19 23:25:03	Vendethiel	like in js, this is window.
+2013-09-19 23:25:34	-->	mercwithamouth (~kingdom@99-38-191-69.lightspeed.clmasc.sbcglobal.net) has joined #coffeescript
+2013-09-19 23:25:36	ingsoc	oh ok, so cos it was called with this as a param this will be window
+2013-09-19 23:25:37	Vendethiel	type this === window in your web inspector
+2013-09-19 23:25:45	ingsoc	and @ referrs this
+2013-09-19 23:25:48	ingsoc	(shorthand)
+2013-09-19 23:25:55	Vendethiel	that's not a param. that's just how it is. When you don't have context, window is the context
+2013-09-19 23:25:56	ingsoc	ok
+2013-09-19 23:26:03	ingsoc	pretty new to JS as well
+2013-09-19 23:26:04	ingsoc	:P
+2013-09-19 23:26:09	Vendethiel	(that's a bit of a simplification, but yeah)
+2013-09-19 23:26:10	ingsoc	lol learning it all in parallel
+2013-09-19 23:28:10	<--	caitp- (~caitp@CPE602ad06daef0-CM602ad06daeed.cpe.net.cable.rogers.com) has quit (Quit: Leaving)
+2013-09-19 23:31:30	-->	caitp (~caitp@CPE602ad06daef0-CM602ad06daeed.cpe.net.cable.rogers.com) has joined #coffeescript
+2013-09-19 23:32:22	-->	tessat (~tessathor@24-246-80-68.cable.teksavvy.com) has joined #coffeescript
+2013-09-19 23:33:48	-->	NivenHuH (~NivenWuss@sonic.mochaleaf.com) has joined #coffeescript
+2013-09-19 23:35:49	ingsoc	Vendethiel: another stupid question
+2013-09-19 23:35:51	-->	jarek (~jarek@unaffiliated/jarek) has joined #coffeescript
+2013-09-19 23:36:07	ingsoc	I was under the impression that to safely use JS
+2013-09-19 23:36:12	sukima	I have some stupid answers
+2013-09-19 23:36:20	ingsoc	you needed to initialise things using $('ready')
+2013-09-19 23:36:27	sukima	safely?
+2013-09-19 23:36:44	ingsoc	bvut in the examples for angular i am reading it looks like they are all just bare functions
+2013-09-19 23:36:50	ingsoc	well making sure document loaded etc.
+2013-09-19 23:36:58	Vendethiel	$(document).ready's useful for some cases
+2013-09-19 23:37:10	ingsoc	i put all my scripts at the end of body
+2013-09-19 23:37:14	Vendethiel	first, only if your <script> tag(s) is(/are) in the head
+2013-09-19 23:37:18	ingsoc	if that helps with the initialisation
+2013-09-19 23:37:24	Vendethiel	so you can forget document.ready
+2013-09-19 23:37:27	sukima	LOLs I had an image of two programmers tearing down the highway screaming "Dude the acceleration IS in a closure!... AHHHHHHHHHH!"
+2013-09-19 23:37:28	ingsoc	kool
+2013-09-19 23:37:37	ingsoc	:)
+2013-09-19 23:37:39	Vendethiel	and secondly, angular knows how to deal with.
+2013-09-19 23:37:57	ingsoc	apart from
+2013-09-19 23:37:57	ingsoc	        <!--[if lt IE 9]>
+2013-09-19 23:37:58	ingsoc	            <script src="js/lib/html5shiv.js"></script>
+2013-09-19 23:37:58	ingsoc	            <script src="js/lib/assets/js/respond.min.js"></script>
+2013-09-19 23:37:58	ingsoc	        <![endif]-->
+2013-09-19 23:38:10	ingsoc	sorry bout that silly idea to paste code
+2013-09-19 23:38:21	ingsoc	i have those in head
+2013-09-19 23:38:50	sukima	gist.github.com is great for pasted code, or jsbin.com to experiment live with others.
+2013-09-19 23:42:26	caitp	so what does 'fixed in redux' label mean, anyway. is that like an excuse to WONTFIX something in coffee, or is it just like "this works in redux so we should fix it here too"
+2013-09-19 23:43:31	<--	zeekay (~zk@a.monad.is.just.a.monoid.io) has quit (Quit: A monad is just a monoid in the category of endofunctors, what's the problem?)
+2013-09-19 23:44:05	-->	zeekay (~zk@a.monad.is.just.a.monoid.io) has joined #coffeescript
+2013-09-19 23:44:10	<--	hicorey (~corey@hic-200.ehawaii.gov) has quit (Ping timeout: 245 seconds)
+2013-09-19 23:46:14	<--	infynyxx (~infynyxx@208.82.12.18) has quit (Remote host closed the connection)
+2013-09-19 23:46:22	deltab	caitp: or just "this works in redux so if you need it you can go use redux"
+2013-09-19 23:46:37	-->	infynyxx (~infynyxx@208.82.12.18) has joined #coffeescript
+2013-09-19 23:46:41	sukima	What is redux?
+2013-09-19 23:46:49	caitp	coffeescript redux
+2013-09-19 23:46:52	deltab	a rewrite of coffeescript
+2013-09-19 23:47:35	deltab	rewrite of the CoffeeScript compiler with proper compiler design principles and a focus on robustness and extensibility
+2013-09-19 23:47:38	deltab	http://michaelficarra.github.com/CoffeeScriptRedux/
+2013-09-19 23:48:06	caitp	i always read that guy's name as @michaelcera
+2013-09-19 23:48:10	caitp	idk why
+2013-09-19 23:48:19	deltab	heh
+2013-09-19 23:48:25	<--	infynyxx (~infynyxx@208.82.12.18) has quit (Remote host closed the connection)
+2013-09-19 23:48:30	deltab	wishful thinking?
+2013-09-19 23:48:37	caitp	maybe a little bit
+2013-09-19 23:49:06	<--	mercwithamouth (~kingdom@99-38-191-69.lightspeed.clmasc.sbcglobal.net) has quit (Quit: Lost terminal)
+2013-09-19 23:49:24	-->	infynyxx (~infynyxx@208.82.12.18) has joined #coffeescript
+2013-09-19 23:50:00	<--	brian-mann (~textual@50-192-58-234-static.hfc.comcastbusiness.net) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-09-19 23:56:41	<--	Es0teric (~Es0teric@cpe-74-72-239-113.nyc.res.rr.com) has quit (Quit: Computer has gone to sleep.)
+2013-09-19 23:57:32	<--	loincloth (~greatseth@165.1.60.10) has quit (Remote host closed the connection)
+2013-09-20 00:01:07	<--	relix (~relix@91.46.46.176.dyn.estpak.ee) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-09-20 00:01:57	<--	SocalNick_ (~njcalugar@208.185.20.22) has quit (Quit: SocalNick_)
+2013-09-20 00:02:27	<--	_br_ (~bjoern_fr@213-239-215-232.clients.your-server.de) has quit (Ping timeout: 260 seconds)
+2013-09-20 00:02:55	-->	SocalNick (~njcalugar@208.185.20.22) has joined #coffeescript
+2013-09-20 00:04:44	-->	_br_ (~bjoern_fr@213-239-215-232.clients.your-server.de) has joined #coffeescript
+2013-09-20 00:05:57	--	grep_awesome is now known as grep_away
+2013-09-20 00:06:13	<--	tvw (~tv@e176006087.adsl.alicedsl.de) has quit
+2013-09-20 00:06:22	thomaslindstr_m	Also, why doesn't the coffeeredux site work?
+2013-09-20 00:06:34	thomaslindstr_m	it's been like this for ages
+2013-09-20 00:08:15	caitp	gh-pages are like that
+2013-09-20 00:08:55	thomaslindstr_m	but it worked before ages ago
+2013-09-20 00:11:01	<--	NivenHuH (~NivenWuss@sonic.mochaleaf.com) has quit (Quit: Computer has gone to sleep.)
+2013-09-20 00:16:57	<--	jarek (~jarek@unaffiliated/jarek) has quit (Quit: jarek)
+2013-09-20 00:18:55	-->	flippyhead (~peterbrow@c-66-235-0-81.sea.wa.customer.broadstripe.net) has joined #coffeescript
+2013-09-20 00:19:18	<--	csurap (~csurap@64.245.24.142) has quit (Quit: csurap)
+2013-09-20 00:20:05	-->	NivenHuH (~NivenWuss@sonic.mochaleaf.com) has joined #coffeescript
+2013-09-20 00:20:20	<--	Miezel (~Mimieam@63-152-206-116.stcd.qwest.net) has quit (Ping timeout: 260 seconds)
+2013-09-20 00:20:31	-->	ericbarnes (~ericbarne@cpe-071-068-027-219.carolina.res.rr.com) has joined #coffeescript
+2013-09-20 00:23:21	<--	NivenHuH (~NivenWuss@sonic.mochaleaf.com) has quit (Client Quit)
+2013-09-20 00:23:44	-->	NivenHuH (~NivenWuss@sonic.mochaleaf.com) has joined #coffeescript
+2013-09-20 00:24:03	<--	toshok (~toshok@64.211.224.253) has quit (Quit: Computer has gone to sleep.)
+2013-09-20 00:24:40	<--	NivenHuH (~NivenWuss@sonic.mochaleaf.com) has quit (Client Quit)
+2013-09-20 00:27:41	-->	Miezel (~Mimieam@199.17.55.140) has joined #coffeescript
+2013-09-20 00:29:35	<--	defaultro (~defaultro@unaffiliated/defaultro) has quit (Quit: defaultro)
+2013-09-20 00:31:45	-->	Es0teric (~Es0teric@cpe-74-72-239-113.nyc.res.rr.com) has joined #coffeescript
+2013-09-20 00:33:00	<--	Miezel (~Mimieam@199.17.55.140) has quit (Ping timeout: 256 seconds)
+2013-09-20 00:33:18	<--	Reite (Reite@cm-84.215.72.51.getinternet.no) has quit (Read error: Operation timed out)
+2013-09-20 00:33:32	<--	fikst (~fikst@d54C442D5.access.telenet.be) has quit (Remote host closed the connection)
+2013-09-20 00:42:30	<--	flippyhead (~peterbrow@c-66-235-0-81.sea.wa.customer.broadstripe.net) has quit (Quit: flippyhead)
+2013-09-20 00:42:57	-->	flippyhead (~peterbrow@c-66-235-0-81.sea.wa.customer.broadstripe.net) has joined #coffeescript
+2013-09-20 00:45:07	<--	infynyxx (~infynyxx@208.82.12.18) has quit (Remote host closed the connection)
+2013-09-20 00:47:36	<--	rsim (~rsim@95.68.115.156) has quit (Quit: Leaving.)
+2013-09-20 00:49:53	<--	ericbarnes (~ericbarne@cpe-071-068-027-219.carolina.res.rr.com) has quit (Quit: Computer has gone to sleep.)
+2013-09-20 00:52:31	-->	infynyxx (~infynyxx@208.82.12.18) has joined #coffeescript
+2013-09-20 00:55:02	<--	trevlar (~trevlar@unaffiliated/trevlar) has quit (Remote host closed the connection)
+2013-09-20 00:59:14	-->	mbd2 (~mbd2@50.240.194.99) has joined #coffeescript
+2013-09-20 01:03:26	<--	flippyhead (~peterbrow@c-66-235-0-81.sea.wa.customer.broadstripe.net) has quit (Quit: flippyhead)
+2013-09-20 01:03:29	-->	clutchski (~Adium@pool-98-116-242-94.nycmny.fios.verizon.net) has joined #coffeescript
+2013-09-20 01:07:00	<--	quartzmo (~quartzmo@173-8-92-49-utah.hfc.comcastbusiness.net) has quit (Remote host closed the connection)
+2013-09-20 01:07:55	Leeol	Anyone have experience piping a file into the coffee compiler from *inside* Nodejs? I'm launching coffee with `coffee = spawn 'coffee', ['-s']` for the stdio version, but the output doesn't seem to print to `coffee.stdout.on 'data'`. Thoughts?
+2013-09-20 01:11:33	<--	albemuth (~albemuth@186.32.3.146) has quit (Ping timeout: 248 seconds)
+2013-09-20 01:12:29	caitp	leeol: you want like an REPL or something
+2013-09-20 01:12:32	caitp	?
+2013-09-20 01:12:59	Leeol	caitp: I want to stream it coffee, and at the end of the stream, have the coffee compiler stdout the data back to me
+2013-09-20 01:13:48	Leeol	Currently, coffee.stdout is outputting *nothing*. I think this is due to the fact that the `coffee -s` process needs to be stopped with something like Ctrl-D, and to the best of my attempts i cannot get it to work
+2013-09-20 01:14:07	caitp	mm
+2013-09-20 01:14:15	Leeol	Eg, if you run `coffee -s` in your terminal and type some coffee, nothing happens. You need to signal the end of your input with Ctrl-D, and then it compiles what you typed
+2013-09-20 01:15:15	Leeol	Ctrl-D, i believe, is kill('SIGQUIT'), but that results in no data being printed to stdout. Same goes for `coffeeProcess.stdin.write('\x04')` which should be the ASCII code for Ctrl-D
+2013-09-20 01:17:25	<--	thomaslindstr_m (~thomaslin@c80-216-4-133.bredband.comhem.se) has quit (Remote host closed the connection)
+2013-09-20 01:17:26	clutchski	Leeol: CoffeeLint uses the coffeescript compiler in javascript
+2013-09-20 01:17:28	clutchski	https://github.com/clutchski/coffeelint/blob/master/src/coffeelint.coffee#L958
+2013-09-20 01:17:59	Leeol	clutchski: That's using the library API isn't it?
+2013-09-20 01:18:02	-->	rsim (~rsim@95.68.115.156) has joined #coffeescript
+2013-09-20 01:18:03	clutchski	you can see examples there. pretty simple stuff. you give it coffeescript, if gives you javascript.
+2013-09-20 01:18:10	clutchski	library api?
+2013-09-20 01:18:25	Leeol	clutchski: It's requiring coffee-script, and using the api
+2013-09-20 01:18:26	clutchski	is uses coffeescript.js
+2013-09-20 01:18:28	clutchski	yes
+2013-09-20 01:18:40	Leeol	clutchski: I was attempting to use CoffeeScripts STDIO mode
+2013-09-20 01:18:46	Leeol	Eg, `coffee -s`
+2013-09-20 01:19:13	Leeol	 I'd like to simply pipe my data in rather than caching it in a big pile and calling the API
+2013-09-20 01:19:42	clutchski	yea, i have no idea how the streaming interface works.
+2013-09-20 01:19:49	Leeol	There doesn't seem to be many uses of `coffee -s`.. that i can find at least haha
+2013-09-20 01:20:13	clutchski	i wouldn't use it. in general, i avoid subprocesses if i can just call a library
+2013-09-20 01:20:48	Leeol	Well it just sucks to be using a streaming itnerface, then cache everything locally like a heathen haha
+2013-09-20 01:21:36	Leeol	Sort of defeats the purpose of a stream, *shrug*
+2013-09-20 01:22:12	<--	rsim (~rsim@95.68.115.156) has quit (Ping timeout: 240 seconds)
+2013-09-20 01:22:12	<--	vlad_starkov (~vlad_star@109.188.124.174) has quit (Remote host closed the connection)
+2013-09-20 01:22:21	Leeol	I'm damn close, everything works but i can't make `coffee` stdout the code from the stdin
+2013-09-20 01:24:43	<--	infynyxx (~infynyxx@208.82.12.18) has quit (Remote host closed the connection)
+2013-09-20 01:24:47	-->	vlad_starkov (~vlad_star@109.188.124.174) has joined #coffeescript
+2013-09-20 01:25:17	-->	albemuth (~albemuth@186.32.3.146) has joined #coffeescript
+2013-09-20 01:26:02	clutchski	im out. good luck
+2013-09-20 01:26:06	<--	clutchski (~Adium@pool-98-116-242-94.nycmny.fios.verizon.net) has left #coffeescript
+2013-09-20 01:26:56	<--	vlad_starkov (~vlad_star@109.188.124.174) has quit (Remote host closed the connection)
+2013-09-20 01:28:07	-->	cloke (~cloke@66.159.97.90) has joined #coffeescript
+2013-09-20 01:34:54	<--	ingsoc (~hickin@cpc10-salf5-2-0-cust242.10-2.cable.virginmedia.com) has quit (Ping timeout: 264 seconds)
+2013-09-20 01:49:26	-->	flippyhead (~peterbrow@c-66-235-0-81.sea.wa.customer.broadstripe.net) has joined #coffeescript
+2013-09-20 01:50:03	-->	mdedetrich (~textual@123-243-72-112.static.tpgi.com.au) has joined #coffeescript
+2013-09-20 01:55:49	deltab	Leeol: no, ctrl-d tells the terminal driver to set the EOF flag
+2013-09-20 01:56:17	deltab	which only works when sent from a terminal
+2013-09-20 01:56:36	deltab	instead just close it
+2013-09-20 01:57:09	deltab	which I expect is coffeeProcess.stdin.close()
+2013-09-20 02:04:38	<--	eugenejen (~eugenejen@exchange.wgen.net) has quit (Quit: eugenejen)
+2013-09-20 02:05:05	Leeol	deltab: I tried that, it says no method exists. I'm toying all over the place, and i am starting to feel like something weird is going on, possibly unrelated to coffee. I can't even pipe `coffee -h` to my process.stdout at the moment, but i *can* pipe `ls .` to my process.stdout. Something is wonky.. *mindexploding*
+2013-09-20 02:05:15	-->	NivenHuH (~NivenWuss@sonic.mochaleaf.com) has joined #coffeescript
+2013-09-20 02:07:34	Leeol	Actually, even `spawn('coffee', ['-h']).stdin.close()` fails ..
+2013-09-20 02:09:08	Leeol	That is to say, the method does not exist
+2013-09-20 02:13:35	Leeol	deltab: Try it yourself, https://gist.github.com/leeolayvar/11094d1cd3c43a717c0c
+2013-09-20 02:13:43	Leeol	ending seemingly does nothing
+2013-09-20 02:14:20	Leeol	I'm starting to feel like Coffee's STDIO is broke, but it works in my console manually, so i feel it can't be that. o_O
+2013-09-20 02:14:28	-->	ray1claw (~ray1claw@122.162.20.254) has joined #coffeescript
+2013-09-20 02:14:58	Leeol	ohhh, it's running it in realtime and printing the output, not compiling
+2013-09-20 02:15:17	Leeol	Bingo! -sc
+2013-09-20 02:19:06	deltab	oh, end. I was just guessing at the name
+2013-09-20 02:21:59	Leeol	deltab: All good, i was so up the creek. Thanks for your help. I was getting seeing a few random things that were leading me in the way wround direction. Argh. You helped, ty :)
+2013-09-20 02:22:57	-->	brain_shim (~brain_shi@207.245.236.147) has joined #coffeescript
+2013-09-20 02:31:25	<--	dguttman (~david@cpe-142-129-79-131.socal.res.rr.com) has quit (Quit: dguttman)
+2013-09-20 02:32:27	-->	kil0byte (~kil0byte@112.204.185.190) has joined #coffeescript
+2013-09-20 02:34:01	<--	flippyhead (~peterbrow@c-66-235-0-81.sea.wa.customer.broadstripe.net) has quit (Quit: flippyhead)
+2013-09-20 02:34:10	<--	kil0byte_ (~kil0byte@112.204.185.190) has quit (Ping timeout: 245 seconds)
+2013-09-20 02:34:18	<--	edoloughlin (~edoloughl@109.79.21.180) has quit (Ping timeout: 264 seconds)
+2013-09-20 02:41:55	-->	dhilipsiva (~dhilipsiv@106.51.112.75) has joined #coffeescript
+2013-09-20 02:46:31	-->	flippyhead (~peterbrow@c-66-235-0-81.sea.wa.customer.broadstripe.net) has joined #coffeescript
+2013-09-20 02:48:54	<--	dhilipsiva (~dhilipsiv@106.51.112.75) has quit (Remote host closed the connection)
+2013-09-20 02:51:01	<--	sturner (~steve@50-198-210-102-static.hfc.comcastbusiness.net) has quit (Quit: sturner)
+2013-09-20 02:52:03	-->	sturner (~steve@50-198-210-102-static.hfc.comcastbusiness.net) has joined #coffeescript
+2013-09-20 02:52:04	<--	mreq (~mreq@91.241.23.106) has quit (Ping timeout: 264 seconds)
+2013-09-20 02:54:26	<--	sturner (~steve@50-198-210-102-static.hfc.comcastbusiness.net) has quit (Client Quit)
+2013-09-20 02:57:19	<--	NivenHuH (~NivenWuss@sonic.mochaleaf.com) has quit (Quit: Computer has gone to sleep.)
+2013-09-20 02:58:57	<--	etcetera (~etcetera@about/csharp/regular/etcetera) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-09-20 02:59:26	<--	uris77 (~uris77@200.123.210.2) has quit (Quit: leaving)
+2013-09-20 03:00:22	-->	NivenHuH (~NivenWuss@sonic.mochaleaf.com) has joined #coffeescript
+2013-09-20 03:01:48	-->	brian-mann (~textual@c-71-56-115-61.hsd1.ga.comcast.net) has joined #coffeescript
+2013-09-20 03:01:53	-->	etcetera (~etcetera@about/csharp/regular/etcetera) has joined #coffeescript
+2013-09-20 03:02:36	<--	cloke (~cloke@66.159.97.90) has quit (Quit: cloke)
+2013-09-20 03:07:43	<--	brian-mann (~textual@c-71-56-115-61.hsd1.ga.comcast.net) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-09-20 03:08:52	<--	BruNeX (uid4730@gateway/web/irccloud.com/x-eqigvxggshoiyrme) has quit (Ping timeout: 264 seconds)
+2013-09-20 03:09:47	<--	bluehavana (uid2820@gateway/web/irccloud.com/x-ipehjemjziqnxbsb) has quit (Ping timeout: 248 seconds)
+2013-09-20 03:10:41	-->	dhruvasagar (~dhruvasag@122.166.144.231) has joined #coffeescript
+2013-09-20 03:13:59	<--	flippyhead (~peterbrow@c-66-235-0-81.sea.wa.customer.broadstripe.net) has quit (Quit: flippyhead)
+2013-09-20 03:15:04	<--	ELLIOTTCABLE (uid1544@gateway/web/irccloud.com/x-skhyxhawxhiggpps) has quit (Ping timeout: 256 seconds)
+2013-09-20 03:15:08	<--	NivenHuH (~NivenWuss@sonic.mochaleaf.com) has quit (Quit: Computer has gone to sleep.)
+2013-09-20 03:15:59	<--	SocalNick (~njcalugar@208.185.20.22) has quit (Quit: SocalNick)
+2013-09-20 03:20:36	<--	etcetera (~etcetera@about/csharp/regular/etcetera) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-09-20 03:24:17	<--	brain_shim (~brain_shi@207.245.236.147) has quit (Ping timeout: 246 seconds)
+2013-09-20 03:26:52	<--	albemuth (~albemuth@186.32.3.146) has quit (Quit: Computer has gone to sleep.)
+2013-09-20 03:28:37	<--	kil0byte (~kil0byte@112.204.185.190) has quit (Remote host closed the connection)
+2013-09-20 03:30:07	-->	ELLIOTTCABLE (uid1544@gateway/web/irccloud.com/x-kfjwqwtqvalpujaz) has joined #coffeescript
+2013-09-20 03:31:35	<--	mdedetrich (~textual@123-243-72-112.static.tpgi.com.au) has quit (Quit: Computer has gone to sleep.)
+2013-09-20 03:32:10	-->	mdedetrich (~textual@123-243-72-112.static.tpgi.com.au) has joined #coffeescript
+2013-09-20 03:33:34	<--	mdedetrich (~textual@123-243-72-112.static.tpgi.com.au) has quit (Client Quit)
+2013-09-20 03:34:37	-->	mdedetrich (~textual@123-243-72-112.static.tpgi.com.au) has joined #coffeescript
+2013-09-20 03:42:40	-->	dguttman (~david@cpe-142-129-238-11.socal.res.rr.com) has joined #coffeescript
+2013-09-20 03:46:41	<--	cezary (~cezary-at@89-69-91-239.dynamic.chello.pl) has quit (Ping timeout: 245 seconds)
+2013-09-20 03:47:05	<--	dguttman (~david@cpe-142-129-238-11.socal.res.rr.com) has quit (Ping timeout: 245 seconds)
+2013-09-20 03:47:33	-->	Miezel (~Mimieam@63-152-206-116.stcd.qwest.net) has joined #coffeescript
+2013-09-20 03:49:24	<--	jeswin (~jeswin@122.172.32.93) has quit (Read error: Connection reset by peer)
+2013-09-20 03:50:29	<--	jacobolus (~jacobolus@coffeebar.static.monkeybrains.net) has quit (Remote host closed the connection)
+2013-09-20 03:50:34	-->	dhilipsiva (~dhilipsiv@106.51.112.75) has joined #coffeescript
+2013-09-20 03:50:55	<--	D4RK-PH0ENiX (~D4RK-PH0E@73.199.192.61.east.global.crust-r.net) has quit (Remote host closed the connection)
+2013-09-20 03:51:39	<--	ray1claw (~ray1claw@122.162.20.254) has quit (Read error: Connection reset by peer)
+2013-09-20 03:53:46	-->	ray1claw (~ray1claw@122.162.6.11) has joined #coffeescript
+2013-09-20 03:55:52	-->	etcetera (~etcetera@about/csharp/regular/etcetera) has joined #coffeescript
+2013-09-20 04:00:26	-->	brian-mann (~textual@c-71-56-115-61.hsd1.ga.comcast.net) has joined #coffeescript
+2013-09-20 04:01:21	-->	D4RK-PH0ENiX (~D4RK-PH0E@129.134.232.202.bf.2iij.net) has joined #coffeescript
+2013-09-20 04:04:16	<--	dhilipsiva (~dhilipsiv@106.51.112.75) has quit (Remote host closed the connection)
+2013-09-20 04:08:02	<--	Hosh (uid2539@gateway/web/irccloud.com/x-lghzqzdoldtugmmt) has quit (Ping timeout: 246 seconds)
+2013-09-20 04:08:22	-->	Hosh (uid2539@gateway/web/irccloud.com/x-xeiuyplenjbtxpjf) has joined #coffeescript
+2013-09-20 04:08:44	<--	aboudreault (~aboudreau@osgeo/member/aboudreault) has quit (Ping timeout: 246 seconds)
+2013-09-20 04:11:58	--	zz_michael_mbp is now known as michael_mbp
+2013-09-20 04:13:48	<--	mdedetrich (~textual@123-243-72-112.static.tpgi.com.au) has quit (Quit: Computer has gone to sleep.)
+2013-09-20 04:15:01	-->	aboudreault (~aboudreau@osgeo/member/aboudreault) has joined #coffeescript
+2013-09-20 04:27:46	-->	brain_shim (~brain_shi@207.245.236.156) has joined #coffeescript
+2013-09-20 04:32:13	-->	kil0byte (~kil0byte@112.204.185.190) has joined #coffeescript
+2013-09-20 04:33:06	-->	mdedetrich (~textual@123-243-72-112.static.tpgi.com.au) has joined #coffeescript
+2013-09-20 04:34:20	-->	jeswin (~jeswin@122.172.44.133) has joined #coffeescript
+2013-09-20 04:34:55	-->	bradgignac (~bradgigna@24.149.110.213) has joined #coffeescript
+2013-09-20 04:50:07	-->	defaultro (~defaultro@unaffiliated/defaultro) has joined #coffeescript
+2013-09-20 04:52:06	-->	rsim (~rsim@95.68.115.156) has joined #coffeescript
+2013-09-20 04:56:58	<--	rsim (~rsim@95.68.115.156) has quit (Ping timeout: 240 seconds)
+2013-09-20 05:09:11	-->	vlad_starkov (~vlad_star@109.188.127.150) has joined #coffeescript
+2013-09-20 05:09:52	-->	bluehavana (uid2820@gateway/web/irccloud.com/x-ckddiazcquekdvxg) has joined #coffeescript
+2013-09-20 05:10:09	-->	BruNeX_ (uid4730@gateway/web/irccloud.com/x-ivjcvwcbbmttfwtr) has joined #coffeescript
+2013-09-20 05:13:31	<--	vlad_starkov (~vlad_star@109.188.127.150) has quit (Ping timeout: 248 seconds)
+2013-09-20 05:14:03	<--	codelahoma (~toldorkno@99-101-243-157.lightspeed.tulsok.sbcglobal.net) has quit (Ping timeout: 248 seconds)
+2013-09-20 05:14:10	<--	jeswin (~jeswin@122.172.44.133) has quit (Ping timeout: 245 seconds)
+2013-09-20 05:14:31	-->	gerard0 (znc@envy.gerardo.cc) has joined #coffeescript
+2013-09-20 05:15:16	-->	dhilipsiva (~dhilipsiv@122.167.94.61) has joined #coffeescript
+2013-09-20 05:15:58	<--	rurufufuss (~rurufufus@115-64-27-246.static.tpgi.com.au) has quit (Ping timeout: 245 seconds)
+2013-09-20 05:17:43	<--	D4RK-PH0ENiX (~D4RK-PH0E@129.134.232.202.bf.2iij.net) has quit (Remote host closed the connection)
+2013-09-20 05:18:09	-->	D4RK-PH0ENiX (~D4RK-PH0E@129.134.232.202.bf.2iij.net) has joined #coffeescript
+2013-09-20 05:19:35	<--	dhilipsiva (~dhilipsiv@122.167.94.61) has quit (Ping timeout: 245 seconds)
+2013-09-20 05:22:14	<--	dhruvasagar (~dhruvasag@122.166.144.231) has quit (Ping timeout: 246 seconds)
+2013-09-20 05:25:15	<--	BruNeX_ (uid4730@gateway/web/irccloud.com/x-ivjcvwcbbmttfwtr) has quit (Ping timeout: 248 seconds)
+2013-09-20 05:25:35	<--	bluehavana (uid2820@gateway/web/irccloud.com/x-ckddiazcquekdvxg) has quit (Ping timeout: 256 seconds)
+2013-09-20 05:26:47	-->	jeswin (~jeswin@122.172.42.8) has joined #coffeescript
+2013-09-20 05:27:20	-->	dhilipsiva (~dhilipsiv@122.167.94.61) has joined #coffeescript
+2013-09-20 05:29:03	-->	rurufufuss (~rurufufus@115-64-27-246.static.tpgi.com.au) has joined #coffeescript
+2013-09-20 05:35:03	<--	dhilipsiva (~dhilipsiv@122.167.94.61) has quit (Remote host closed the connection)
+2013-09-20 05:37:13	-->	mary5030 (~mary5030@68-188-84-86.static.stls.mo.charter.com) has joined #coffeescript
+2013-09-20 05:47:05	<--	jimt_ (~jim@126.241.69.111.dynamic.snap.net.nz) has quit (Ping timeout: 246 seconds)
+2013-09-20 05:47:18	-->	jimt_ (~jim@126.241.69.111.dynamic.snap.net.nz) has joined #coffeescript
+2013-09-20 05:47:29	-->	dhilipsiva (~dhilipsiv@122.167.94.61) has joined #coffeescript
+2013-09-20 05:48:29	<--	mary5030 (~mary5030@68-188-84-86.static.stls.mo.charter.com) has quit (Ping timeout: 246 seconds)
+2013-09-20 05:52:37	<--	brian-mann (~textual@c-71-56-115-61.hsd1.ga.comcast.net) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-09-20 05:55:05	<--	ray1claw (~ray1claw@122.162.6.11) has quit (Quit: Computer has gone to sleep.)
+2013-09-20 05:55:59	-->	mary5030 (~mary5030@68-188-84-86.static.stls.mo.charter.com) has joined #coffeescript
+2013-09-20 05:58:53	<--	dhilipsiva (~dhilipsiv@122.167.94.61) has quit (Remote host closed the connection)
+2013-09-20 05:59:19	-->	dhilipsiva (~dhilipsiv@122.167.94.61) has joined #coffeescript
+2013-09-20 05:59:44	<--	dhilipsiva (~dhilipsiv@122.167.94.61) has quit (Read error: Connection reset by peer)
+2013-09-20 06:00:04	-->	dhilipsiva (~dhilipsiv@122.167.94.61) has joined #coffeescript
+2013-09-20 06:00:45	-->	sturner (~steve@c-71-229-145-44.hsd1.co.comcast.net) has joined #coffeescript
+2013-09-20 06:04:24	-->	toshok (~toshok@c-107-3-134-250.hsd1.ca.comcast.net) has joined #coffeescript
+2013-09-20 06:05:06	<--	dhilipsiva (~dhilipsiv@122.167.94.61) has quit (Remote host closed the connection)
+2013-09-20 06:05:33	-->	dhilipsiva (~dhilipsiv@122.167.94.61) has joined #coffeescript
+2013-09-20 06:09:45	-->	vlad_starkov (~vlad_star@109.188.124.158) has joined #coffeescript
+2013-09-20 06:10:10	<--	dhilipsiva (~dhilipsiv@122.167.94.61) has quit (Ping timeout: 256 seconds)
+2013-09-20 06:14:07	<--	vlad_starkov (~vlad_star@109.188.124.158) has quit (Ping timeout: 260 seconds)
+2013-09-20 06:19:08	-->	albemuth (~albemuth@201.198.78.18) has joined #coffeescript
+2013-09-20 06:24:53	<--	marcandre (~marcandre@dsl-67-230-143-233.tor.primus.ca) has quit (Remote host closed the connection)
+2013-09-20 06:34:52	-->	dhruvasagar (~dhruvasag@106.51.133.66) has joined #coffeescript
+2013-09-20 06:35:50	<--	gerard0 (znc@envy.gerardo.cc) has quit (Ping timeout: 245 seconds)
+2013-09-20 06:38:44	<--	bradgignac (~bradgigna@24.149.110.213) has quit (Quit: bradgignac)
+2013-09-20 06:41:01	-->	gerard0 (znc@envy.gerardo.cc) has joined #coffeescript
+2013-09-20 06:41:17	<--	etcetera (~etcetera@about/csharp/regular/etcetera) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-09-20 06:42:02	<--	gerard0 (znc@envy.gerardo.cc) has quit (Remote host closed the connection)
+2013-09-20 06:44:15	<--	toshok (~toshok@c-107-3-134-250.hsd1.ca.comcast.net) has quit (Quit: Computer has gone to sleep.)
+2013-09-20 06:44:39	-->	etcetera (~etcetera@about/csharp/regular/etcetera) has joined #coffeescript
+2013-09-20 06:50:02	-->	dhilipsiva (~dhilipsiv@122.179.63.179) has joined #coffeescript
+2013-09-20 06:50:57	-->	dhilipsi_ (~dhilipsiv@122.167.94.61) has joined #coffeescript
+2013-09-20 06:51:38	<--	dhilipsiva (~dhilipsiv@122.179.63.179) has quit (Read error: Connection reset by peer)
+2013-09-20 06:52:05	-->	dhilipsiva (~dhilipsiv@122.167.94.61) has joined #coffeescript
+2013-09-20 06:52:29	<--	dhilipsi_ (~dhilipsiv@122.167.94.61) has quit (Read error: Connection reset by peer)
+2013-09-20 06:54:12	<--	brain_shim (~brain_shi@207.245.236.156) has quit (Ping timeout: 252 seconds)
+2013-09-20 06:55:10	-->	dhilipsi_ (~dhilipsiv@122.179.63.179) has joined #coffeescript
+2013-09-20 06:56:15	-->	rsim (~rsim@95.68.115.156) has joined #coffeescript
+2013-09-20 06:58:02	<--	dhilipsiva (~dhilipsiv@122.167.94.61) has quit (Ping timeout: 240 seconds)
+2013-09-20 06:59:09	<--	jimt_ (~jim@126.241.69.111.dynamic.snap.net.nz) has quit (Quit: Changing server)
+2013-09-20 07:00:22	<--	rsim (~rsim@95.68.115.156) has quit (Ping timeout: 240 seconds)
+2013-09-20 07:01:11	<--	dhilipsi_ (~dhilipsiv@122.179.63.179) has quit (Remote host closed the connection)
+2013-09-20 07:07:30	<--	KaeruCT (~welp@201.192.144.87) has quit (Read error: Connection reset by peer)
+2013-09-20 07:10:16	-->	vlad_starkov (~vlad_star@109.188.124.241) has joined #coffeescript
+2013-09-20 07:11:09	-->	sethu (b641aacb@gateway/web/freenode/ip.182.65.170.203) has joined #coffeescript
+2013-09-20 07:11:23	sethu	hi ppl
+2013-09-20 07:13:58	-->	ray1claw (~ray1claw@182.71.64.138) has joined #coffeescript
+2013-09-20 07:14:35	<--	vlad_starkov (~vlad_star@109.188.124.241) has quit (Ping timeout: 245 seconds)
+2013-09-20 07:15:16	<--	sethu (b641aacb@gateway/web/freenode/ip.182.65.170.203) has quit (Client Quit)
+2013-09-20 07:23:04	<--	albemuth (~albemuth@201.198.78.18) has quit (Quit: Computer has gone to sleep.)
+2013-09-20 07:23:34	-->	BruNeX_ (uid4730@gateway/web/irccloud.com/x-hchpicrwacgovvql) has joined #coffeescript
+2013-09-20 07:25:32	-->	Reite (~Reite@cm-84.215.72.51.getinternet.no) has joined #coffeescript
+2013-09-20 07:25:49	-->	bluehavana (uid2820@gateway/web/irccloud.com/x-jdvnkslfjtlaosgl) has joined #coffeescript
+2013-09-20 07:40:46	-->	dhilipsiva (~dhilipsiv@122.167.94.61) has joined #coffeescript
+2013-09-20 07:42:33	-->	tvw (~tv@e176004135.adsl.alicedsl.de) has joined #coffeescript
+2013-09-20 07:43:06	<--	sturner (~steve@c-71-229-145-44.hsd1.co.comcast.net) has quit (Quit: sturner)
+2013-09-20 07:43:47	-->	juxovec (~juxovec@88.103.61.177) has joined #coffeescript
+2013-09-20 07:45:40	<--	ray1claw (~ray1claw@182.71.64.138) has quit (Quit: Computer has gone to sleep.)
+2013-09-20 07:47:02	<--	etcetera (~etcetera@about/csharp/regular/etcetera) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-09-20 07:47:12	<--	Es0teric (~Es0teric@cpe-74-72-239-113.nyc.res.rr.com) has quit (Quit: Computer has gone to sleep.)
+2013-09-20 07:48:11	<--	juxovec (~juxovec@88.103.61.177) has quit (Ping timeout: 248 seconds)
+2013-09-20 07:48:17	-->	ray1claw (~ray1claw@182.71.64.138) has joined #coffeescript
+2013-09-20 07:54:50	-->	dazza (~dazza@68-188-56-205.static.stls.mo.charter.com) has joined #coffeescript
+2013-09-20 07:56:43	<--	Miezel (~Mimieam@63-152-206-116.stcd.qwest.net) has quit (Ping timeout: 248 seconds)
+2013-09-20 07:57:24	-->	rsim (~rsim@95.68.115.156) has joined #coffeescript
+2013-09-20 07:58:48	-->	dhilipsi_ (~dhilipsiv@122.167.94.61) has joined #coffeescript
+2013-09-20 07:59:10	<--	dazza (~dazza@68-188-56-205.static.stls.mo.charter.com) has quit (Ping timeout: 245 seconds)
+2013-09-20 07:59:27	-->	lite_ (~lite@83.151.148.133) has joined #coffeescript
+2013-09-20 08:00:03	<--	dhilipsiva (~dhilipsiv@122.167.94.61) has quit (Ping timeout: 260 seconds)
+2013-09-20 08:04:05	<--	dhilipsi_ (~dhilipsiv@122.167.94.61) has quit (Remote host closed the connection)
+2013-09-20 08:04:59	<--	ray1claw (~ray1claw@182.71.64.138) has quit (Quit: Computer has gone to sleep.)
+2013-09-20 08:08:33	-->	ray1claw (~ray1claw@182.71.64.138) has joined #coffeescript
+2013-09-20 08:11:03	lite_	I feel like half of the code here is redundant - It works just fine and does what its supposed to but I was wondering if anyone would mind taking a quick look at tit. For instance my IDE is telling em that propertyName and viewMoel in for propertyName, viewModel of this.model is unused. http://pastebin.com/DD2yBuqV
+2013-09-20 08:12:22	<--	ray1claw (~ray1claw@182.71.64.138) has quit (Client Quit)
+2013-09-20 08:13:07	<--	tvw (~tv@e176004135.adsl.alicedsl.de) has quit (Ping timeout: 260 seconds)
+2013-09-20 08:17:02	-->	ray1claw (~ray1claw@182.68.80.13) has joined #coffeescript
+2013-09-20 08:34:35	<--	kil0byte (~kil0byte@112.204.185.190) has quit (Ping timeout: 245 seconds)
+2013-09-20 08:35:14	-->	kil0byte (~kil0byte@112.204.185.190) has joined #coffeescript
+2013-09-20 08:38:23	<--	mdedetrich (~textual@123-243-72-112.static.tpgi.com.au) has quit (Quit: Computer has gone to sleep.)
+2013-09-20 08:40:57	-->	vlad_starkov (~vlad_star@109.188.126.29) has joined #coffeescript
+2013-09-20 08:42:08	-->	dagobah (~dagobah@217.155.201.210) has joined #coffeescript
+2013-09-20 08:42:11	<--	vlad_starkov (~vlad_star@109.188.126.29) has quit (Remote host closed the connection)
+2013-09-20 08:44:52	-->	juxovec (~juxovec@88.103.61.177) has joined #coffeescript
+2013-09-20 08:47:15	-->	mdedetrich (~textual@123-243-72-112.static.tpgi.com.au) has joined #coffeescript
+2013-09-20 08:49:24	<--	juxovec (~juxovec@88.103.61.177) has quit (Ping timeout: 256 seconds)
+2013-09-20 08:54:27	<--	kil0byte (~kil0byte@112.204.185.190) has quit (Read error: Connection reset by peer)
+2013-09-20 08:55:27	-->	dazza (~dazza@68-188-56-205.static.stls.mo.charter.com) has joined #coffeescript
+2013-09-20 08:56:40	<--	Dreamer3 (~Dreamer3@74-141-142-25.dhcp.insightbb.com) has quit (Ping timeout: 245 seconds)
+2013-09-20 08:56:57	-->	kil0byte (~kil0byte@112.204.185.190) has joined #coffeescript
+2013-09-20 08:57:24	-->	Dreamer3 (~Dreamer3@74-141-142-25.dhcp.insightbb.com) has joined #coffeescript
+2013-09-20 08:58:11	<--	caitp (~caitp@CPE602ad06daef0-CM602ad06daeed.cpe.net.cable.rogers.com) has quit (Ping timeout: 260 seconds)
+2013-09-20 08:58:28	<--	paddymahoney (~paddymaho@24.137.221.230) has quit (Ping timeout: 245 seconds)
+2013-09-20 09:00:03	<--	dazza (~dazza@68-188-56-205.static.stls.mo.charter.com) has quit (Ping timeout: 260 seconds)
+2013-09-20 09:00:05	-->	paddymahoney (~paddymaho@24.137.221.230) has joined #coffeescript
+2013-09-20 09:00:44	<--	nofxx (~nofxx@unaffiliated/nofxx) has quit (Ping timeout: 256 seconds)
+2013-09-20 09:05:26	-->	caitp (~caitp@CPE602ad06daef0-CM602ad06daeed.cpe.net.cable.rogers.com) has joined #coffeescript
+2013-09-20 09:06:23	<--	defaultro (~defaultro@unaffiliated/defaultro) has quit (Quit: defaultro)
+2013-09-20 09:08:14	<--	kil0byte (~kil0byte@112.204.185.190) has quit (Remote host closed the connection)
+2013-09-20 09:08:56	-->	kil0byte (~kil0byte@112.204.185.190) has joined #coffeescript
+2013-09-20 09:09:27	-->	dhilipsiva (~dhilipsiv@122.167.94.61) has joined #coffeescript
+2013-09-20 09:09:29	<--	kil0byte (~kil0byte@112.204.185.190) has quit (Remote host closed the connection)
+2013-09-20 09:16:15	-->	tvw (~tv@e176004135.adsl.alicedsl.de) has joined #coffeescript
+2013-09-20 09:16:46	<--	tvw (~tv@e176004135.adsl.alicedsl.de) has quit (Client Quit)
+2013-09-20 09:16:55	-->	tvw (~tv@e176004135.adsl.alicedsl.de) has joined #coffeescript
+2013-09-20 09:19:06	<--	ray1claw (~ray1claw@182.68.80.13) has quit (Quit: Textual IRC Client: http://www.textualapp.com/)
+2013-09-20 09:19:56	<--	dhilipsiva (~dhilipsiv@122.167.94.61) has quit (Remote host closed the connection)
+2013-09-20 09:20:28	-->	dhilipsiva (~dhilipsiv@122.167.94.61) has joined #coffeescript
+2013-09-20 09:20:36	-->	minlog (~daniel@94.140.51.192) has joined #coffeescript
+2013-09-20 09:22:58	-->	fikst (~fikst@d54C442D5.access.telenet.be) has joined #coffeescript
+2013-09-20 09:23:12	-->	h_kon (~h_kon@213.167.121.42.static.lyse.net) has joined #coffeescript
+2013-09-20 09:25:15	<--	dhilipsiva (~dhilipsiv@122.167.94.61) has quit (Ping timeout: 260 seconds)
+2013-09-20 09:29:23	<--	jeswin (~jeswin@122.172.42.8) has quit (Quit: Leaving)
+2013-09-20 09:37:44	-->	thomaslindstr_m (~thomaslin@37-46-176-106.customers.ownit.se) has joined #coffeescript
+2013-09-20 09:40:50	<--	mdedetrich (~textual@123-243-72-112.static.tpgi.com.au) has quit (Quit: Computer has gone to sleep.)
+2013-09-20 09:44:42	-->	mdedetrich (~textual@123-243-72-112.static.tpgi.com.au) has joined #coffeescript
+2013-09-20 09:45:24	-->	juxovec (~juxovec@88.103.61.177) has joined #coffeescript
+2013-09-20 09:45:29	<--	tessat (~tessathor@24-246-80-68.cable.teksavvy.com) has quit (Quit: tessat)
+2013-09-20 09:49:59	<--	juxovec (~juxovec@88.103.61.177) has quit (Ping timeout: 260 seconds)
+2013-09-20 09:51:21	<--	minlog (~daniel@94.140.51.192) has quit (Remote host closed the connection)
+2013-09-20 09:51:25	<--	fikst (~fikst@d54C442D5.access.telenet.be) has quit (Remote host closed the connection)
+2013-09-20 09:55:56	-->	dazza (~dazza@68-188-56-205.static.stls.mo.charter.com) has joined #coffeescript
+2013-09-20 09:55:59	<--	mdedetrich (~textual@123-243-72-112.static.tpgi.com.au) has quit (Quit: Computer has gone to sleep.)
+2013-09-20 09:56:23	-->	daGrevis (~daGrevis@80.232.135.177) has joined #coffeescript
+2013-09-20 09:56:37	-->	mdedetrich (~textual@123-243-72-112.static.tpgi.com.au) has joined #coffeescript
+2013-09-20 09:56:55	daGrevis	Hello! How to enable source-maps for interpreted CoffeeScript in browser?
+2013-09-20 10:00:25	<--	dazza (~dazza@68-188-56-205.static.stls.mo.charter.com) has quit (Ping timeout: 245 seconds)
+2013-09-20 10:08:58	-->	vlad_starkov (~vlad_star@91.233.188.206) has joined #coffeescript
+2013-09-20 10:12:23	-->	mercwithamouth (~kingdom@99-38-191-69.lightspeed.clmasc.sbcglobal.net) has joined #coffeescript
+2013-09-20 10:14:29	lite_	I feel like half of the code here is redundant - It works just fine and does what its supposed to but I was wondering if anyone would mind taking a quick look at tit. For instance my IDE is telling em that propertyName and viewMoel in for propertyName, viewModel of this.model is unused. http://pastebin.com/DD2yBuqV
+2013-09-20 10:22:47	Vendethiel	lite_: change your IDE, it doesn't work ;)
+2013-09-20 10:23:18	lite_	but...IntelliK :(
+2013-09-20 10:23:21	lite_	J*
+2013-09-20 10:23:32	Vendethiel	:p
+2013-09-20 10:23:52	Vendethiel	then just open an issue ;)
+2013-09-20 10:26:35	-->	dhilipsiva (~dhilipsiv@122.167.94.61) has joined #coffeescript
+2013-09-20 10:27:43	-->	ingsoc (~hickin@cpc10-salf5-2-0-cust242.10-2.cable.virginmedia.com) has joined #coffeescript
+2013-09-20 10:29:22	<--	dhilipsiva (~dhilipsiv@122.167.94.61) has quit (Remote host closed the connection)
+2013-09-20 10:30:42	-->	shaunbaker (~shaunbake@public.lbi.co.uk) has joined #coffeescript
+2013-09-20 10:31:06	-->	shaunbak_ (~shaunbake@brick-lane.lbi.co.uk) has joined #coffeescript
+2013-09-20 10:31:23	lite_	well
+2013-09-20 10:32:07	-->	dhilipsiva (~dhilipsiv@122.167.94.61) has joined #coffeescript
+2013-09-20 10:33:40	<--	shaunbaker (~shaunbake@public.lbi.co.uk) has quit (Read error: Operation timed out)
+2013-09-20 10:38:43	lite_	Vendethiel: well. i removed the line so the resulting method is: http://pastebin.com/nXGx2vuf . turns out intellij was right - still works :)
+2013-09-20 10:39:28	Vendethiel	lite_: what's not right is that it tells you they're unused, but they might be
+2013-09-20 10:39:42	Vendethiel	I don't think it's making a deep scan to check if some async could happen
+2013-09-20 10:41:12	lite_	hmm. the lifetime of those variables expire when the loop ends do they not? as such Its pretty safe to assume that theyre unused, no ?
+2013-09-20 10:42:23	Vendethiel	no they don't
+2013-09-20 10:42:39	Vendethiel	setTimeout (-> alert i), 500 for i in [1..5]
+2013-09-20 10:45:27	<--	ingsoc (~hickin@cpc10-salf5-2-0-cust242.10-2.cable.virginmedia.com) has quit (Quit: Leaving.)
+2013-09-20 10:48:21	-->	mreq (~mreq@91.241.23.106) has joined #coffeescript
+2013-09-20 10:50:17	lite_	hmm
+2013-09-20 10:50:20	lite_	thats true
+2013-09-20 10:55:50	-->	weeb1e (~quassel@41.86.98.15) has joined #coffeescript
+2013-09-20 10:55:50	<--	weeb1e_ (~quassel@41.86.98.15) has quit (Ping timeout: 240 seconds)
+2013-09-20 10:56:28	-->	dazza (~dazza@68-188-56-205.static.stls.mo.charter.com) has joined #coffeescript
+2013-09-20 10:57:15	<--	key4 (~key3@www5268u.sakura.ne.jp) has quit (Ping timeout: 264 seconds)
+2013-09-20 10:57:36	-->	key4 (~key3@www5268u.sakura.ne.jp) has joined #coffeescript
+2013-09-20 10:58:04	<--	dhilipsiva (~dhilipsiv@122.167.94.61) has quit (Remote host closed the connection)
+2013-09-20 10:58:35	-->	dhilipsiva (~dhilipsiv@122.167.94.61) has joined #coffeescript
+2013-09-20 10:59:15	-->	adambeynon (~adambeyno@82-69-1-211.dsl.in-addr.zen.co.uk) has joined #coffeescript
+2013-09-20 11:00:04	-->	edoloughlin (~edoloughl@109.79.12.163) has joined #coffeescript
+2013-09-20 11:00:36	<--	edoloughlin (~edoloughl@109.79.12.163) has quit (Client Quit)
+2013-09-20 11:01:49	--	michael_mbp is now known as zz_michael_mbp
+2013-09-20 11:02:21	--	zz_michael_mbp is now known as michael_mbp
+2013-09-20 11:03:15	<--	dhilipsiva (~dhilipsiv@122.167.94.61) has quit (Ping timeout: 260 seconds)
+2013-09-20 11:04:51	<--	dazza (~dazza@68-188-56-205.static.stls.mo.charter.com) has quit (Ping timeout: 260 seconds)
+2013-09-20 11:05:39	daGrevis	so it seems to me that only one source-map is generated even if I have many coffeescripts in page. this happens when using https://github.com/jashkenas/coffee-script/blob/master/extras/coffee-script.js
+2013-09-20 11:05:46	daGrevis	is this a known bug?
+2013-09-20 11:07:42	<--	zeropx (~zeropx@68-189-93-242.static.snlo.ca.charter.com) has quit (Quit: has left the room … Or did he?)
+2013-09-20 11:08:03	-->	albertid (~albertid_@p549B4D23.dip0.t-ipconnect.de) has joined #coffeescript
+2013-09-20 11:10:07	Vendethiel	daGrevis: not sure what you mean ?
+2013-09-20 11:10:17	Vendethiel	the source maps are declared in the file, at the bottom
+2013-09-20 11:15:54	-->	renklaf (~renklaf@91.143.121.164) has joined #coffeescript
+2013-09-20 11:16:13	<--	renklaf (~renklaf@91.143.121.164) has quit (Client Quit)
+2013-09-20 11:16:29	-->	renklaf (~renklaf@91.143.121.164) has joined #coffeescript
+2013-09-20 11:27:51	-->	dhilipsiva (~dhilipsiv@122.167.94.61) has joined #coffeescript
+2013-09-20 11:28:57	-->	Cyph0n (~textual@94.59.111.168) has joined #coffeescript
+2013-09-20 11:29:14	-->	relix (~relix@91.46.46.176.dyn.estpak.ee) has joined #coffeescript
+2013-09-20 11:30:58	-->	juxovec (~juxovec@212.24.153.152) has joined #coffeescript
+2013-09-20 11:32:58	-->	Siyfion (~Siyfion@188.124.2.81.in-addr.arpa) has joined #coffeescript
+2013-09-20 11:33:08	<--	juxovec (~juxovec@212.24.153.152) has quit (Remote host closed the connection)
+2013-09-20 11:33:43	-->	juxovec (~juxovec@212.24.153.152) has joined #coffeescript
+2013-09-20 11:35:08	-->	ray1claw (~ray1claw@182.68.80.13) has joined #coffeescript
+2013-09-20 11:36:23	<--	rurufufuss (~rurufufus@115-64-27-246.static.tpgi.com.au) has quit (Ping timeout: 245 seconds)
+2013-09-20 11:36:28	-->	juxovec_ (~juxovec@212.24.153.152) has joined #coffeescript
+2013-09-20 11:37:24	<--	juxovec_ (~juxovec@212.24.153.152) has quit (Remote host closed the connection)
+2013-09-20 11:37:47	<--	juxovec (~juxovec@212.24.153.152) has quit (Read error: Connection reset by peer)
+2013-09-20 11:37:58	-->	juxovec (~juxovec@212.24.153.152) has joined #coffeescript
+2013-09-20 11:38:10	<--	dhruvasagar (~dhruvasag@106.51.133.66) has quit (Ping timeout: 240 seconds)
+2013-09-20 11:38:11	<--	dhilipsiva (~dhilipsiv@122.167.94.61) has quit (Read error: Connection reset by peer)
+2013-09-20 11:38:31	-->	dhilipsiva (~dhilipsiv@122.167.94.61) has joined #coffeescript
+2013-09-20 11:42:19	<--	juxovec (~juxovec@212.24.153.152) has quit (Ping timeout: 248 seconds)
+2013-09-20 11:43:04	<--	mreq (~mreq@91.241.23.106) has quit (Ping timeout: 264 seconds)
+2013-09-20 11:47:00	-->	hmsimha (~hmsimha@67-5-172-193.ptld.qwest.net) has joined #coffeescript
+2013-09-20 11:47:47	-->	juxovec (~juxovec@212.24.153.152) has joined #coffeescript
+2013-09-20 11:51:56	<--	juxovec (~juxovec@212.24.153.152) has quit (Remote host closed the connection)
+2013-09-20 11:52:24	daGrevis	Vendethiel, for local development we use coffeescript interpreter in browser.
+2013-09-20 11:52:32	-->	juxovec (~juxovec@212.24.153.152) has joined #coffeescript
+2013-09-20 11:52:39	Vendethiel	oh.
+2013-09-20 11:52:42	daGrevis	there are many coffeescript files in browser, but only for first file source maps works correctly
+2013-09-20 11:53:04	daGrevis	for other files it says that error is on first file, first line. that's incorrect
+2013-09-20 11:54:16	<--	juxovec (~juxovec@212.24.153.152) has quit (Read error: Operation timed out)
+2013-09-20 11:56:04	-->	varlon (~sakal@95.72.184.190) has joined #coffeescript
+2013-09-20 11:57:30	<--	caitp (~caitp@CPE602ad06daef0-CM602ad06daeed.cpe.net.cable.rogers.com) has quit (Ping timeout: 245 seconds)
+2013-09-20 11:58:17	daGrevis	Vendethiel, any ideas, no?
+2013-09-20 11:58:37	Vendethiel	daGrevis: I must admit I never use in-browser loading because it's insanely slow
+2013-09-20 11:58:53	Vendethiel	let me check the compiler
+2013-09-20 11:58:55	<--	dhilipsiva (~dhilipsiv@122.167.94.61) has quit (Remote host closed the connection)
+2013-09-20 11:59:04	<--	renklaf (~renklaf@91.143.121.164) has quit (Remote host closed the connection)
+2013-09-20 11:59:05	daGrevis	Vendethiel, no need. it works using compiler
+2013-09-20 11:59:15	Vendethiel	yep
+2013-09-20 11:59:30	<--	sakal (~sakal@95.72.167.162) has quit (Ping timeout: 264 seconds)
+2013-09-20 11:59:35	<--	tvw (~tv@e176004135.adsl.alicedsl.de) has quit
+2013-09-20 12:01:34	-->	dazza (~dazza@68-188-56-205.static.stls.mo.charter.com) has joined #coffeescript
+2013-09-20 12:04:31	-->	app (71c1a30b@gateway/web/freenode/ip.113.193.163.11) has joined #coffeescript
+2013-09-20 12:04:57	-->	dhilipsiva (~dhilipsiv@122.167.94.61) has joined #coffeescript
+2013-09-20 12:05:12	-->	jesusprubio (~quassel@217.109.27.77.dynamic.mundo-r.com) has joined #coffeescript
+2013-09-20 12:05:16	app	hi
+2013-09-20 12:06:15	<--	dazza (~dazza@68-188-56-205.static.stls.mo.charter.com) has quit (Ping timeout: 260 seconds)
+2013-09-20 12:08:10	<--	dhilipsiva (~dhilipsiv@122.167.94.61) has quit (Remote host closed the connection)
+2013-09-20 12:08:37	-->	dhilipsiva (~dhilipsiv@122.167.94.61) has joined #coffeescript
+2013-09-20 12:09:08	-->	uris77 (~uris77@200.123.210.2) has joined #coffeescript
+2013-09-20 12:09:18	-->	dhilipsi_ (~dhilipsiv@122.167.94.61) has joined #coffeescript
+2013-09-20 12:09:20	<--	dhilipsi_ (~dhilipsiv@122.167.94.61) has quit (Remote host closed the connection)
+2013-09-20 12:09:30	<--	dhilipsiva (~dhilipsiv@122.167.94.61) has quit (Read error: Connection reset by peer)
+2013-09-20 12:09:51	-->	dhilipsiva (~dhilipsiv@122.167.94.61) has joined #coffeescript
+2013-09-20 12:10:53	<--	dhilipsiva (~dhilipsiv@122.167.94.61) has quit (Remote host closed the connection)
+2013-09-20 12:24:36	-->	caitp (~caitp@CPE602ad06daef0-CM602ad06daeed.cpe.net.cable.rogers.com) has joined #coffeescript
+2013-09-20 12:25:07	<--	vlad_starkov (~vlad_star@91.233.188.206) has quit (Read error: Connection reset by peer)
+2013-09-20 12:25:09	-->	dhilipsiva (~dhilipsiv@122.167.94.61) has joined #coffeescript
+2013-09-20 12:26:21	-->	vlad_starkov (~vlad_star@91.233.188.206) has joined #coffeescript
+2013-09-20 12:29:22	-->	renklaf (~renklaf@91.143.121.164) has joined #coffeescript
+2013-09-20 12:30:41	-->	Miezel (~Mimieam@63-152-206-116.stcd.qwest.net) has joined #coffeescript
+2013-09-20 12:32:26	<--	relix (~relix@91.46.46.176.dyn.estpak.ee) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-09-20 12:32:30	<--	caitp (~caitp@CPE602ad06daef0-CM602ad06daeed.cpe.net.cable.rogers.com) has quit (Ping timeout: 245 seconds)
+2013-09-20 12:35:50	<--	ray1claw (~ray1claw@182.68.80.13) has quit (Ping timeout: 245 seconds)
+2013-09-20 12:36:03	<--	vlad_starkov (~vlad_star@91.233.188.206) has quit (Remote host closed the connection)
+2013-09-20 12:39:56	-->	vlad_starkov (~vlad_star@91.233.188.206) has joined #coffeescript
+2013-09-20 12:40:44	<--	dhilipsiva (~dhilipsiv@122.167.94.61) has quit (Remote host closed the connection)
+2013-09-20 12:41:11	-->	dhilipsiva (~dhilipsiv@122.167.94.61) has joined #coffeescript
+2013-09-20 12:41:28	-->	ray1claw (~ray1claw@182.64.213.227) has joined #coffeescript
+2013-09-20 12:44:17	<--	vlad_starkov (~vlad_star@91.233.188.206) has quit (Ping timeout: 246 seconds)
+2013-09-20 12:45:25	<--	dhilipsiva (~dhilipsiv@122.167.94.61) has quit (Ping timeout: 245 seconds)
+2013-09-20 12:49:21	-->	relix (~relix@91.46.46.176.dyn.estpak.ee) has joined #coffeescript
+2013-09-20 12:51:26	-->	cebor (cebor@unaffiliated/cebor) has joined #coffeescript
+2013-09-20 12:59:57	<--	relix (~relix@91.46.46.176.dyn.estpak.ee) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-09-20 13:02:03	-->	dazza (~dazza@68-188-56-205.static.stls.mo.charter.com) has joined #coffeescript
+2013-09-20 13:03:35	-->	vlad_starkov (~vlad_star@91.233.188.206) has joined #coffeescript
+2013-09-20 13:06:15	<--	dazza (~dazza@68-188-56-205.static.stls.mo.charter.com) has quit (Ping timeout: 245 seconds)
+2013-09-20 13:09:26	<--	PaulCapestany (~PaulCapes@204.28.124.82) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2013-09-20 13:11:36	-->	Benj (527bd73b@gateway/web/freenode/ip.82.123.215.59) has joined #coffeescript
+2013-09-20 13:12:00	--	Benj is now known as Guest22311
+2013-09-20 13:12:06	<--	mercwithamouth (~kingdom@99-38-191-69.lightspeed.clmasc.sbcglobal.net) has quit (Ping timeout: 264 seconds)
+2013-09-20 13:12:34	Guest22311	Hi
+2013-09-20 13:13:58	Guest22311	I generated source map in same directory as corresponding js and coffee file, yet, the coffee original file doesn't show in google dev tool, altough I enabled site map, any clue how to have the coffee files appear in google dev tool ?
+2013-09-20 13:14:50	<--	sunoano (~sa@unaffiliated/sunoano) has quit (Quit: Leaving.)
+2013-09-20 13:17:10	-->	cezary (~cezary-at@89-69-91-239.dynamic.chello.pl) has joined #coffeescript
+2013-09-20 13:17:53	-->	smurf (~heh@ip-212-239-182-21.dsl-static.scarlet.be) has joined #coffeescript
+2013-09-20 13:21:26	<--	ray1claw (~ray1claw@182.64.213.227) has quit (Quit: Computer has gone to sleep.)
+2013-09-20 13:22:39	-->	sreeix (~sreeix@122.167.94.61) has joined #coffeescript
+2013-09-20 13:25:01	<--	shaunbak_ (~shaunbake@brick-lane.lbi.co.uk) has quit (Remote host closed the connection)
+2013-09-20 13:26:15	-->	ray1claw (~ray1claw@182.71.64.138) has joined #coffeescript
+2013-09-20 13:30:45	<--	ray1claw (~ray1claw@182.71.64.138) has quit (Ping timeout: 252 seconds)
+2013-09-20 13:36:34	-->	lilmonkey` (~colin@pdpc/supporter/professional/riven) has joined #coffeescript
+2013-09-20 13:39:49	-->	jpsirois (~jpsirois@96.127.205.154) has joined #coffeescript
+2013-09-20 13:39:54	<--	lilmonkey (~colin@pdpc/supporter/professional/riven) has quit (Ping timeout: 240 seconds)
+2013-09-20 13:48:00	-->	ericbarnes (~ericbarne@cpe-071-068-027-219.carolina.res.rr.com) has joined #coffeescript
+2013-09-20 13:49:42	<--	jpsirois (~jpsirois@96.127.205.154) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2013-09-20 13:51:11	-->	tvw (~tv@212.79.9.150) has joined #coffeescript
+2013-09-20 13:51:32	-->	dhruvasagar (~dhruvasag@122.166.144.231) has joined #coffeescript
+2013-09-20 13:53:22	<--	rsim (~rsim@95.68.115.156) has quit (Quit: Leaving.)
+2013-09-20 13:53:43	<--	sreeix (~sreeix@122.167.94.61) has quit (Quit: sreeix)
+2013-09-20 13:56:54	-->	mercwithamouth (~kingdom@99-38-191-69.lightspeed.clmasc.sbcglobal.net) has joined #coffeescript
+2013-09-20 13:57:04	-->	rsim (~rsim@95.68.115.156) has joined #coffeescript
+2013-09-20 14:02:33	-->	dazza (~dazza@68-188-56-205.static.stls.mo.charter.com) has joined #coffeescript
+2013-09-20 14:04:18	<--	lite_ (~lite@83.151.148.133) has quit (Remote host closed the connection)
+2013-09-20 14:04:23	<--	app (71c1a30b@gateway/web/freenode/ip.113.193.163.11) has quit (Ping timeout: 250 seconds)
+2013-09-20 14:06:40	<--	dazza (~dazza@68-188-56-205.static.stls.mo.charter.com) has quit (Ping timeout: 245 seconds)
+2013-09-20 14:07:58	<--	ericbarnes (~ericbarne@cpe-071-068-027-219.carolina.res.rr.com) has quit (Quit: ["Textual IRC Client: www.textualapp.com"])
+2013-09-20 14:20:58	<--	mdedetrich (~textual@123-243-72-112.static.tpgi.com.au) has quit (Quit: Computer has gone to sleep.)
+2013-09-20 14:29:30	<--	dhruvasagar (~dhruvasag@122.166.144.231) has quit (Ping timeout: 264 seconds)
+2013-09-20 14:30:14	sukima	I could use some help with style. I am working with Titanium and it's API uses factory patterns. I find that difficult to read so I try to abstract them to object wrappers (parasitic inheritence. Which styles look better? https://gist.github.com/sukima/6636729
+2013-09-20 14:31:04	-->	kil0byte (~kil0byte@203.82.37.90) has joined #coffeescript
+2013-09-20 14:35:00	<--	Siyfion (~Siyfion@188.124.2.81.in-addr.arpa) has quit (Read error: Operation timed out)
+2013-09-20 14:35:19	-->	Siyfion (~Siyfion@188.124.2.81.in-addr.arpa) has joined #coffeescript
+2013-09-20 14:36:44	<--	mercwithamouth (~kingdom@99-38-191-69.lightspeed.clmasc.sbcglobal.net) has quit (Quit: leaving)
+2013-09-20 14:37:05	-->	kaldrenon (~kaldrenon@173-12-28-129-Philadelphia.hfc.comcastbusiness.net) has joined #coffeescript
+2013-09-20 14:38:44	-->	ray1claw (~ray1claw@182.71.64.138) has joined #coffeescript
+2013-09-20 14:38:51	<--	Miezel (~Mimieam@63-152-206-116.stcd.qwest.net) has quit (Ping timeout: 248 seconds)
+2013-09-20 14:40:06	<--	Siyfion (~Siyfion@188.124.2.81.in-addr.arpa) has quit (Read error: Operation timed out)
+2013-09-20 14:40:23	-->	Siyfion (~Siyfion@188.124.2.81.in-addr.arpa) has joined #coffeescript
+2013-09-20 14:40:27	<--	vlad_starkov (~vlad_star@91.233.188.206) has quit (Remote host closed the connection)
+2013-09-20 14:41:08	-->	marcandre (~marcandre@dsl-67-230-143-233.tor.primus.ca) has joined #coffeescript
+2013-09-20 14:43:40	<--	ray1claw (~ray1claw@182.71.64.138) has quit (Ping timeout: 264 seconds)
+2013-09-20 14:49:03	-->	bradgignac (~bradgigna@24.149.110.213) has joined #coffeescript
+2013-09-20 14:49:36	-->	toshok (~toshok@c-107-3-134-250.hsd1.ca.comcast.net) has joined #coffeescript
+2013-09-20 14:51:00	Leeol	Is there a sane way to make Coffee not output that dammed 'compiled by' message?
+2013-09-20 14:53:56	-->	sreeix (~sreeix@122.167.94.61) has joined #coffeescript
+2013-09-20 14:54:06	<--	bradgignac (~bradgigna@24.149.110.213) has quit (Ping timeout: 264 seconds)
+2013-09-20 14:54:29	<--	[BNC]tarruda (tarruda@b1f-008.static.bnc4free.com) has quit (Quit: I'm using a Free IRC Bouncer from BNC4FREE - http://bnc4free.com/)
+2013-09-20 14:55:58	-->	[BNC]tarruda (tarruda@b1f-008.static.bnc4free.com) has joined #coffeescript
+2013-09-20 15:05:09	<--	h_kon (~h_kon@213.167.121.42.static.lyse.net) has quit (Remote host closed the connection)
+2013-09-20 15:10:53	-->	vlad_starkov (~vlad_star@91.233.188.206) has joined #coffeescript
+2013-09-20 15:11:07	<--	Guest22311 (527bd73b@gateway/web/freenode/ip.82.123.215.59) has quit (Ping timeout: 250 seconds)
+2013-09-20 15:12:35	<--	lilmonkey` (~colin@pdpc/supporter/professional/riven) has quit (Read error: Connection reset by peer)
+2013-09-20 15:12:50	-->	lilmonkey (~colin@pdpc/supporter/professional/riven) has joined #coffeescript
+2013-09-20 15:14:17	<--	toshok (~toshok@c-107-3-134-250.hsd1.ca.comcast.net) has quit (Quit: Computer has gone to sleep.)
+2013-09-20 15:18:36	-->	kil0byte_ (~kil0byte@203.82.37.90) has joined #coffeescript
+2013-09-20 15:19:30	<--	vlad_starkov (~vlad_star@91.233.188.206) has quit (Read error: No route to host)
+2013-09-20 15:19:43	-->	vlad_starkov (~vlad_star@91.233.188.206) has joined #coffeescript
+2013-09-20 15:21:31	<--	kil0byte (~kil0byte@203.82.37.90) has quit (Ping timeout: 248 seconds)
+2013-09-20 15:24:07	-->	bradgignac (~bradgigna@24.149.110.213) has joined #coffeescript
+2013-09-20 15:24:42	<--	sreeix (~sreeix@122.167.94.61) has quit (Quit: sreeix)
+2013-09-20 15:25:07	-->	nofxx (~nofxx@unaffiliated/nofxx) has joined #coffeescript
+2013-09-20 15:27:45	<--	skython (~quassel@port-84-245-142-83.static.qsc.de) has quit (Read error: Operation timed out)
+2013-09-20 15:30:16	-->	skython (~quassel@port-84-245-142-83.static.qsc.de) has joined #coffeescript
+2013-09-20 15:33:09	sukima	Leeol: pipe it to another command like tail or sed: http://stackoverflow.com/questions/339483/how-can-i-remove-the-first-line-of-a-text-file-using-bash-sed-script
+2013-09-20 15:33:44	sukima	Not sure why you would want it removed though it's kinda important for anyone who "view source"
+2013-09-20 15:34:09	sukima	Besides by the time it gets to production any minifier worth it's salt will have removed it anyway
+2013-09-20 15:34:58	--	debris`_ is now known as debris`
+2013-09-20 15:35:01	<--	mary5030 (~mary5030@68-188-84-86.static.stls.mo.charter.com) has quit (Remote host closed the connection)
+2013-09-20 15:35:09	Leeol	sukima: It's mostly annoying in my unit tests. Each time i deal with testing my stream outputs i have to trim off that line. If i don't, my tests then become bound to that version of CoffeeScript
+2013-09-20 15:37:59	-->	mackwerk (~Mackwerk@83.221.154.225) has joined #coffeescript
+2013-09-20 15:38:03	sukima	Holy gods! I can't imagine such a brittle testing suite!
+2013-09-20 15:38:38	sukima	You should test function not implementation
+2013-09-20 15:39:12	Leeol	sukima: Eh, i'm not sure that is possible with Coffee, in the implementation i want
+2013-09-20 15:39:21	Leeol	sukima: Coffee doesn't have a streaming API, does it?
+2013-09-20 15:39:41	Leeol	sukima: The only support for streaming, that i am aware of, is `coffee -s`
+2013-09-20 15:39:53	mackwerk	Hello, I'm writing a hubot script and on this page http://theprogrammingbutler.com/blog/archives/2011/10/28/hubot-scripts-explained/ under the 'http' header the author does some interesting things with strings eg msg.send "   gem name: #{json.name}\n" but I cannot get that to work with this script: https://dpaste.de/P1efN/ it just outputs what is in the string without formatting them, what am I doing wrong? :o
+2013-09-20 15:41:07	sukima	Leeol: I have no idea what you mean by streaming? socket.io?
+2013-09-20 15:41:17	Leeol	sukima: Nodejs Stream
+2013-09-20 15:42:06	mackwerk	Ah nevermind, I have to use double quotes then
+2013-09-20 15:42:49	sukima	mackwerk: yes double quotes. Why singles quotes still plauge my source files I do not know.
+2013-09-20 15:43:59	-->	Miezel (~Mimieam@63-152-206-116.stcd.qwest.net) has joined #coffeescript
+2013-09-20 15:44:44	Leeol	sukima: At any rate, if Coffee suddenly changes it's output format, i want my tests to fail haha. I don't want them changing the syntax rules and me not aware that my program has changed
+2013-09-20 15:44:51	sukima	So you have a test that will read input from a coffee compilation and match it to a previously compiled version to see if they are equal? that doesn't sound like a good test. Why not readin the stream and do a simple regexp. Like if it's size is > 0 or that it has a CoffeeScript header like you said (ignoring the version number). Besides CoffeeScript is very well tested on it's own you should need to test it's output
+2013-09-20 15:44:54	-->	robertkeizer (~robertkei@dsl-208-81-2-63.les.net) has joined #coffeescript
+2013-09-20 15:45:15	sukima	s/should/shouldnot
+2013-09-20 15:45:31	Leeol	sukima: The stream involves more than just coffee, but yes i could use md5 or size
+2013-09-20 15:45:40	sukima	Leoif change detection is important I'd use md5 hashes instead
+2013-09-20 15:46:35	sukima	Still sounds brittle. What if you wrote unit tests for the actual function of the code that why no mater how CS compiles it you know it behaves the same way regardles of syntax changes
+2013-09-20 15:46:50	-->	cezary_ (~cezary-at@89-69-91-239.dynamic.chello.pl) has joined #coffeescript
+2013-09-20 15:47:14	Leeol	sukima: I use md5 for some, but generally prefer text blocks as they are visually possible to see what is wrong, what has changed, etc. If my md5 hash fails (which i used to use for everything), i have to open it up and start hashing the output to see wtf is wrong. MD5 and string compare are equally "brittle", yet one is extremely less annoying (imo), though extremely more verbose.. you pick your bat
+2013-09-20 15:47:14	Leeol	tle
+2013-09-20 15:47:25	sukima	Like read stream, exec code, test if bject was defined.
+2013-09-20 15:47:39	<--	cezary (~cezary-at@89-69-91-239.dynamic.chello.pl) has quit (Read error: Connection reset by peer)
+2013-09-20 15:47:44	<--	bradgignac (~bradgigna@24.149.110.213) has quit (Quit: bradgignac)
+2013-09-20 15:47:44	--	cezary_ is now known as cezary
+2013-09-20 15:48:21	<--	espiral (~maze@unaffiliated/espiral) has quit (Ping timeout: 245 seconds)
+2013-09-20 15:48:39	sukima	Yeah testing changes in compiled output is about 180 degrees from TDD
+2013-09-20 15:48:49	-->	espiral (~maze@unaffiliated/espiral) has joined #coffeescript
+2013-09-20 15:48:52	Leeol	I have/want to test my stream output, regardless. How i test the output is up for debate, but not testing output from my stream is as good as not testing my stream
+2013-09-20 15:49:15	<--	Miezel (~Mimieam@63-152-206-116.stcd.qwest.net) has quit (Ping timeout: 248 seconds)
+2013-09-20 15:49:19	Leeol	And i want, to test my stream.
+2013-09-20 15:49:47	Leeol	At anyrate, i don't have time to debate stream testing haha, thanks for the talk :)
+2013-09-20 15:49:59	sukima	Well. You could add comments specific for testing and see if they all exists in the output. like ### FILE xyz FOR TESTING build 123
+2013-09-20 15:50:36	Leeol	Sure, but then what about the coffee changes (or whatever) i mentioned? There are some things that i *want* to be brittle
+2013-09-20 15:50:37	sukima	Then CS puts that into the generated code as a comment and you can do a simple regexp to see if it is there. That way you know all the parts are there in your test without having to worry about what the parts look like
+2013-09-20 15:51:06	Leeol	If coffee changes what it considers compiled output, i want to know. I already dislike some coffee output haha
+2013-09-20 15:51:07	sukima	Sounds like you have a headache. Wish you luck
+2013-09-20 15:51:23	Leeol	Well, hopefully coffee won't go about changing it's syntax all crazy like lol.
+2013-09-20 15:51:40	Leeol	I was curious why you prefer double quotes as well (in short)
+2013-09-20 15:52:29	sukima	Because the difference between double quotes and single is that doub;e allows string interpolation. And in a compiled language performance is not an issue so might as well make it all consistant
+2013-09-20 15:52:44	mackwerk	sukima, but single quotes looks nicer :(
+2013-09-20 15:52:59	sukima	I disagree. but now it's down to opinion
+2013-09-20 15:53:02	Leeol	Ah hah. I prefer both, because, as mackwerk  says, i prefer the look of single. Plus, i read it as mutable, and immutable.
+2013-09-20 15:53:09	sukima	I think double quotes look nicer
+2013-09-20 15:53:25	-->	bradgignac (~bradgigna@24.149.110.213) has joined #coffeescript
+2013-09-20 15:53:29	Leeol	I like seeing a single quote string and knowing it's exactly that, and nothing else, but it's a small preference
+2013-09-20 15:53:47	sukima	And how does that help you make better code?
+2013-09-20 15:53:52	Leeol	At least we can all agree about preferences haha
+2013-09-20 15:54:22	mackwerk	I think the main reason why i prefer single quotes is that I don't have to use a modifier on my keyboard to make it, so it's faster :D
+2013-09-20 15:54:43	Leeol	sukima: Who says it doesn't? I don't need to quantify my preferences to myself. Now, if it causes me significant issues or performance loss, then i should look at it, but otherwise i live my life like non-type casted languages haha
+2013-09-20 15:54:52	sukima	For me seeing a single quote means I have to remember it means something else while a double quote is by habbit just a string which I can add interpolation if I want to or not. With single quotes I have to remember to go back and change them if I want to add a variab;le
+2013-09-20 15:55:30	Leeol	sukima: Yea, i can definitely see the desire to use double quotes, i'm not arguing with your preference :)
+2013-09-20 15:55:41	<--	huafu (~huafu@cpe-70-95-105-36.hawaii.res.rr.com) has quit (Remote host closed the connection)
+2013-09-20 15:55:41	sukima	Why do you end all your statements of fact and opinions with haha. It seems odd
+2013-09-20 15:56:23	sukima	(Former comment was meant as curiousity. realized it read as condensending)
+2013-09-20 15:56:55	Leeol	sukima: An attempt to express humor through emoticon-ish expression. An addition to the emotion of the sentence, similar to "laughing out loud"(lol) or "rolling on the floor laughing"(rofl).
+2013-09-20 15:57:42	sukima	It struck me as odd because the statements prior to the haha wern't really funny and were more stating opinion. Which is why I was curious
+2013-09-20 15:57:44	Leeol	Note: humor is not in the meaning of the sentence itself, it is generally used to express the emotional state of the author during writing
+2013-09-20 15:57:59	Leeol	sukima: See last note for the primary explanation
+2013-09-20 15:58:05	sukima	ok. interesting I will have to ponder on that
+2013-09-20 15:58:34	Leeol	sukima: I could say "those damn nazis died lol" and it is not a joke, but the "lol" expresses laughter from the author on the prior/surrounding context
+2013-09-20 15:58:58	sukima	Thanks for the chat. Sorry I could help more with your problem. Guess the worse answer I had was "I wouldn't do it that way" which doesn't help much. Sorry
+2013-09-20 15:59:45	Leeol	Nah, you helped, and i agree it is brittle. In this case i want it to be brittle, but in other tests i agree and prefer to use a simpler matching test
+2013-09-20 15:59:47	-->	shaunbak_ (~shaunbake@brick-lane.lbi.co.uk) has joined #coffeescript
+2013-09-20 16:00:36	Vendethiel	Leeol: why are you doing that :p ?
+2013-09-20 16:00:43	-->	gerard0 (znc@envy.gerardo.cc) has joined #coffeescript
+2013-09-20 16:01:03	Leeol	Vendethiel: No one knows
+2013-09-20 16:01:05	Vendethiel	if we change something in the compiler that break your programs, you'll know by your functional tests
+2013-09-20 16:01:30	-->	caitp (~caitp@CPE602ad06daef0-CM602ad06daeed.cpe.net.cable.rogers.com) has joined #coffeescript
+2013-09-20 16:01:56	-->	eugenejen (~eugenejen@exchange.wgen.net) has joined #coffeescript
+2013-09-20 16:02:23	-->	relix (~relix@91.46.46.176.dyn.estpak.ee) has joined #coffeescript
+2013-09-20 16:05:33	<--	renklaf (~renklaf@91.143.121.164) has quit (Remote host closed the connection)
+2013-09-20 16:05:50	<--	caitp (~caitp@CPE602ad06daef0-CM602ad06daeed.cpe.net.cable.rogers.com) has quit (Ping timeout: 245 seconds)
+2013-09-20 16:06:55	-->	tessat (~tessathor@24-246-80-68.cable.teksavvy.com) has joined #coffeescript
+2013-09-20 16:07:36	Leeol	Vendethiel: Yes but how will i know my stream is properly outputting the coffee stream if i don't test the output? Basically, as far as i see it, i want to test the stream to make sure it functions correctly. This means i have to test the output. Which means i have to output compare. This can be something like an MD5 or Size, or just a straight string compare. There is little difference (imo)
+2013-09-20 16:08:41	-->	Nisstyre-laptop (~yours@oftn/member/Nisstyre) has joined #coffeescript
+2013-09-20 16:08:46	Leeol	Vendethiel: I suppose i could try to change the implementation of the internal stream to mock the coffee compiler and in place use a dummy compiler. But considering i spent forever scratching my head with `coffee -sc`, i would feel better if i didn't mock the coffee bin (especially if i am using coffee forks, etc)
+2013-09-20 16:09:00	Vendethiel	haha okay
+2013-09-20 16:09:50	Leeol	I mean, testing a stream basically means testing output, that *is* the function hah. Not sure i can really avoid that
+2013-09-20 16:10:32	Leeol	I can mock it, but there is no need (imo). The day when Coffee starts changing what a function is, is the day i stop using Coffee :P
+2013-09-20 16:11:43	-->	ioncache (~ioncache@h216-235-10-210.host.egate.net) has joined #coffeescript
+2013-09-20 16:14:26	Vendethiel	well, in coffee 5.3, you'll be able to define a function this way : (defn (x) (lambda '(a b) a+b]
+2013-09-20 16:14:40	Vendethiel	(] being a macro to close all parens)
+2013-09-20 16:15:39	-->	shesek (~shesek@IGLD-84-228-164-122.inter.net.il) has joined #coffeescript
+2013-09-20 16:18:17	-->	clutchski (~Adium@pool-98-116-242-94.nycmny.fios.verizon.net) has joined #coffeescript
+2013-09-20 16:19:10	<--	jesusprubio (~quassel@217.109.27.77.dynamic.mundo-r.com) has quit (Remote host closed the connection)
+2013-09-20 16:20:55	-->	dhruvasagar (~dhruvasag@122.166.144.231) has joined #coffeescript
+2013-09-20 16:26:19	sukima	Is this a bad idea: http://jsbin.com/aZiHICU/1/edit#javascript,output
+2013-09-20 16:26:57	<--	Nisstyre-laptop (~yours@oftn/member/Nisstyre) has quit (Quit: Leaving)
+2013-09-20 16:28:03	sukima	Leeol: why not add test specific strings to the out put like: ### FILE name TEST OUTPUT unique_key
+2013-09-20 16:28:31	sukima	And then search the stream for that. then it doesn't matter what CS outputs but you know that it does output and includes the parts you want.
+2013-09-20 16:29:23	sukima	Sounds like you don't know to know what CS outputed only that it did output and it was concatinated to your stream. Hence searching for a known string in it is best and ignore the rest
+2013-09-20 16:29:49	sukima	s/don't know/don't need/
+2013-09-20 16:31:28	-->	kevwil (~kevwil@c-75-71-9-234.hsd1.co.comcast.net) has joined #coffeescript
+2013-09-20 16:32:39	Leeol	sukima: Well, i would have to make that a unique key that coffee compiles, like `"#{someFn()}"` == `""+someFn()+""` or something, because i want to make sure i am seeing compiled output not just output
+2013-09-20 16:34:19	Leeol	sukima: At any rate, there are plenty of ways i can make this less brittle, but it will all be to some extent brittle. At the end of the day, it's tiny output that is not likely to change. This isn't an entire program i am testing, it's a single coffee function with closure lol.
+2013-09-20 16:35:46	-->	Miezel (~Mimieam@63-152-206-116.stcd.qwest.net) has joined #coffeescript
+2013-09-20 16:35:48	Leeol	sukima: Testing for a specific piece of compiled output is only a fraction less brittle than the whole thing. Being that "the whole thing" is ~5 lines
+2013-09-20 16:36:37	Leeol	sukima: This is really bothering you isn't it
+2013-09-20 16:38:52	-->	sturner (~steve@50-198-210-102-static.hfc.comcastbusiness.net) has joined #coffeescript
+2013-09-20 16:41:02	-->	loincloth (~greatseth@165.1.60.10) has joined #coffeescript
+2013-09-20 16:41:36	<--	daGrevis (~daGrevis@80.232.135.177) has quit (Quit: Leaving)
+2013-09-20 16:41:48	-->	infynyxx (~infynyxx@208.82.12.18) has joined #coffeescript
+2013-09-20 16:44:23	<--	D4RK-PH0ENiX (~D4RK-PH0E@129.134.232.202.bf.2iij.net) has quit (Ping timeout: 260 seconds)
+2013-09-20 16:44:36	<--	tessat (~tessathor@24-246-80-68.cable.teksavvy.com) has quit (Quit: tessat)
+2013-09-20 16:44:43	<--	Miezel (~Mimieam@63-152-206-116.stcd.qwest.net) has quit (Ping timeout: 248 seconds)
+2013-09-20 16:48:22	<--	shaunbak_ (~shaunbake@brick-lane.lbi.co.uk) has quit (Remote host closed the connection)
+2013-09-20 16:51:04	-->	tessat (~tessathor@24-246-80-68.cable.teksavvy.com) has joined #coffeescript
+2013-09-20 16:53:45	<--	vlad_starkov (~vlad_star@91.233.188.206) has quit (Ping timeout: 245 seconds)
+2013-09-20 16:55:51	-->	InvidFlower (~InvidFlow@c-71-192-99-53.hsd1.ma.comcast.net) has joined #coffeescript
+2013-09-20 16:57:15	sukima	Use the
+2013-09-20 16:57:46	sukima	Leeol: Use the tripple hash ### it outputs JS comments throught the CS compiler
+2013-09-20 16:57:48	-->	shaunbaker (~shaunbake@2001:67c:90:7ff:c5b8:e51b:72f9:9d77) has joined #coffeescript
+2013-09-20 16:58:02	sukima	This would be a perfect case for ###
+2013-09-20 16:58:23	-->	shaunbak_ (~shaunbake@brick-lane.lbi.co.uk) has joined #coffeescript
+2013-09-20 16:59:26	-->	quartzmo (~quartzmo@173-8-92-49-utah.hfc.comcastbusiness.net) has joined #coffeescript
+2013-09-20 16:59:42	Leeol	sukima: Okay but my point still stands lol, i am comparing one line of CS for another, basically. I'm not disagreeing that it is less brittle, but it's checking one line, instead of 4 (closure plus function). I'm not sure that's even worth the testing code/regex/indexOf lol
+2013-09-20 16:59:58	Leeol	Sorry for the laughs, i am apparently emotional
+2013-09-20 17:00:21	<--	albertid (~albertid_@p549B4D23.dip0.t-ipconnect.de) has quit (Quit: Verlassend)
+2013-09-20 17:00:53	<--	dropdrive (~dropdrive@cpe-74-68-130-168.nyc.res.rr.com) has quit (Ping timeout: 248 seconds)
+2013-09-20 17:01:23	sukima	Leeol: here is an example: https://gist.github.com/sukima/6638859
+2013-09-20 17:01:40	Leeol	sukima: I understand what you mean :)
+2013-09-20 17:02:05	<--	shaunbaker (~shaunbake@2001:67c:90:7ff:c5b8:e51b:72f9:9d77) has quit (Ping timeout: 245 seconds)
+2013-09-20 17:02:40	Leeol	sukima: Not to mention, lets pretend i use that example, what do i do for my next test? Which ensures my syntax for Bare Coffee works as intended. The regex to ensure a starting close and ending closure seems more troublesome & error prone than just checking the whole 5 line string
+2013-09-20 17:02:54	sukima	Because with my option it is not dependent of the coffeescript compiler. You don't get bound to a specific implementation. You just know that CS is tested and trusted and it's output is compiled and streamed
+2013-09-20 17:03:03	Leeol	I don't think checking 4-5 lines is that brittle
+2013-09-20 17:04:01	Leeol	sukima: Well, the compiler still has to compile it. Your code checks one line, vs 4
+2013-09-20 17:04:14	<--	infynyxx (~infynyxx@208.82.12.18) has quit (Remote host closed the connection)
+2013-09-20 17:04:18	-->	donghongbo (~chatzilla@58.241.37.49) has joined #coffeescript
+2013-09-20 17:04:28	-->	infynyxx (~infynyxx@208.82.12.18) has joined #coffeescript
+2013-09-20 17:04:28	-->	vlad_starkov (~vlad_star@91.233.188.206) has joined #coffeescript
+2013-09-20 17:05:25	<--	Cyph0n (~textual@94.59.111.168) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-09-20 17:05:39	-->	brain_shim (~brain_shi@207.245.236.156) has joined #coffeescript
+2013-09-20 17:05:52	<--	varlon (~sakal@95.72.184.190) has quit (Ping timeout: 264 seconds)
+2013-09-20 17:05:59	sukima	Right and if you upgrade then it's breaks. I wou;d want my tests to break just because I changed compilers. I know that CS will be executable JS I don't know to know exactly how it compiles. If I did it would be like never commiting to my version control becauuse any change to the source could break the tests. I don't understand why the generated output is so important. It's just JS regardless on how it is compiled
+2013-09-20 17:06:04	Leeol	sukima: I take that back, your code checks 4 lines (assuming you don't use regex)
+2013-09-20 17:06:06	<--	donghongbo (~chatzilla@58.241.37.49) has quit (Client Quit)
+2013-09-20 17:06:17	<--	brain_shim (~brain_shi@207.245.236.156) has quit (Max SendQ exceeded)
+2013-09-20 17:06:48	-->	brain_shim (~brain_shi@207.245.236.156) has joined #coffeescript
+2013-09-20 17:06:58	sukima	Maybe passing it through eval() to make sure the compiled output is valid JS?
+2013-09-20 17:07:08	sukima	Or heck run it through jshint!
+2013-09-20 17:07:10	Leeol	That's a good idea actually
+2013-09-20 17:07:41	Leeol	sukima: I just can't shake the feeling that this is premature optimization. You're assuming some other compiler is going to change the syntax of a function closure, but not a comment block.
+2013-09-20 17:07:46	 *	sukima steps out for a meeting
+2013-09-20 17:07:56	Leeol	alright, take it easy
+2013-09-20 17:08:46	-->	albemuth (~albemuth@201.198.78.18) has joined #coffeescript
+2013-09-20 17:08:51	-->	D4RK-PH0ENiX (~D4RK-PH0E@73.199.192.61.east.global.crust-r.net) has joined #coffeescript
+2013-09-20 17:09:51	<--	robertkeizer (~robertkei@dsl-208-81-2-63.les.net) has quit (Quit: Leaving.)
+2013-09-20 17:10:14	-->	sakal (~sakal@95.72.184.190) has joined #coffeescript
+2013-09-20 17:13:47	<--	brain_shim (~brain_shi@207.245.236.156) has quit (Ping timeout: 260 seconds)
+2013-09-20 17:15:48	-->	csurap (~csurap@64.245.24.142) has joined #coffeescript
+2013-09-20 17:16:40	<--	dhruvasagar (~dhruvasag@122.166.144.231) has quit (Ping timeout: 264 seconds)
+2013-09-20 17:17:40	<--	tessat (~tessathor@24-246-80-68.cable.teksavvy.com) has quit (Quit: tessat)
+2013-09-20 17:20:37	-->	caitp (~caitp@CPE602ad06daef0-CM602ad06daeed.cpe.net.cable.rogers.com) has joined #coffeescript
+2013-09-20 17:20:56	-->	fikst (~fikst@d54C442D5.access.telenet.be) has joined #coffeescript
+2013-09-20 17:21:05	<--	nisstyre (~yours@oftn/member/Nisstyre) has quit (Remote host closed the connection)
+2013-09-20 17:25:46	-->	etcetera (~etcetera@about/csharp/regular/etcetera) has joined #coffeescript
+2013-09-20 17:28:18	-->	mreq (~mreq@91.241.23.106) has joined #coffeescript
+2013-09-20 17:33:03	-->	dhruvasagar (~dhruvasag@122.166.144.231) has joined #coffeescript
+2013-09-20 17:33:34	<--	rue (~rue-freen@a91-154-29-187.elisa-laajakaista.fi) has quit (Remote host closed the connection)
+2013-09-20 17:33:45	<--	dhruvasagar (~dhruvasag@122.166.144.231) has quit (Read error: Connection reset by peer)
+2013-09-20 17:34:20	<--	eugenejen (~eugenejen@exchange.wgen.net) has quit (Read error: Operation timed out)
+2013-09-20 17:35:17	-->	eugenejen (~eugenejen@exchange.wgen.net) has joined #coffeescript
+2013-09-20 17:35:22	-->	dhruvasagar (~dhruvasag@122.166.144.231) has joined #coffeescript
+2013-09-20 17:36:10	-->	rue (~rue-freen@a91-154-29-187.elisa-laajakaista.fi) has joined #coffeescript
+2013-09-20 17:38:23	-->	brian-mann (~textual@50-192-58-234-static.hfc.comcastbusiness.net) has joined #coffeescript
+2013-09-20 17:38:29	-->	sinclair|work (~chatzilla@ip-118-90-32-136.xdsl.xnet.co.nz) has joined #coffeescript
+2013-09-20 17:39:12	<--	brian-mann (~textual@50-192-58-234-static.hfc.comcastbusiness.net) has quit (Client Quit)
+2013-09-20 17:48:19	-->	cloke (~cloke@66.159.97.90) has joined #coffeescript
+2013-09-20 17:55:41	<--	smurf (~heh@ip-212-239-182-21.dsl-static.scarlet.be) has quit
+2013-09-20 18:03:37	-->	brian-mann (~textual@50-192-58-234-static.hfc.comcastbusiness.net) has joined #coffeescript
+2013-09-20 18:03:59	-->	SocalNick (~njcalugar@208.185.20.22) has joined #coffeescript
+2013-09-20 18:06:04	<--	SocalNick (~njcalugar@208.185.20.22) has quit (Client Quit)
+2013-09-20 18:07:34	-->	SocalNick (~njcalugar@208.185.20.22) has joined #coffeescript
+2013-09-20 18:11:07	-->	tessat (~tessathor@96.45.207.227) has joined #coffeescript
+2013-09-20 18:11:26	<--	vlad_starkov (~vlad_star@91.233.188.206) has quit (Read error: Connection reset by peer)
+2013-09-20 18:11:27	-->	vlad_sta_ (~vlad_star@91.233.188.206) has joined #coffeescript
+2013-09-20 18:20:52	<--	thomaslindstr_m (~thomaslin@37-46-176-106.customers.ownit.se) has quit (Remote host closed the connection)
+2013-09-20 18:22:49	-->	odonnell (~odonnell@24.68.135.15) has joined #coffeescript
+2013-09-20 18:23:14	<--	odonnell (~odonnell@24.68.135.15) has quit (Client Quit)
+2013-09-20 18:28:22	-->	flippyhead (~peterbrow@c-66-235-0-81.sea.wa.customer.broadstripe.net) has joined #coffeescript
+2013-09-20 18:28:43	-->	Miezel (~Mimieam@63-152-206-116.stcd.qwest.net) has joined #coffeescript
+2013-09-20 18:31:43	<--	shaunbak_ (~shaunbake@brick-lane.lbi.co.uk) has quit (Remote host closed the connection)
+2013-09-20 18:32:09	-->	shaunbaker (~shaunbake@brick-lane.lbi.co.uk) has joined #coffeescript
+2013-09-20 18:32:57	<--	joshontheweb (~joshonthe@c-67-190-6-82.hsd1.co.comcast.net) has quit (Quit: Computer has gone to sleep.)
+2013-09-20 18:35:34	<--	infynyxx (~infynyxx@208.82.12.18) has quit (Remote host closed the connection)
+2013-09-20 18:37:04	<--	shaunbaker (~shaunbake@brick-lane.lbi.co.uk) has quit (Ping timeout: 264 seconds)
+2013-09-20 18:37:52	<--	dagobah (~dagobah@217.155.201.210) has quit (Remote host closed the connection)
+2013-09-20 18:38:57	-->	dhilipsiva (~dhilipsiv@106.51.112.75) has joined #coffeescript
+2013-09-20 18:39:35	<--	dhilipsiva (~dhilipsiv@106.51.112.75) has quit (Remote host closed the connection)
+2013-09-20 18:45:04	<--	rsim (~rsim@95.68.115.156) has quit (Quit: Leaving.)
+2013-09-20 18:53:16	<--	dhruvasagar (~dhruvasag@122.166.144.231) has quit (Ping timeout: 264 seconds)
+2013-09-20 18:55:45	<--	InvidFlower (~InvidFlow@c-71-192-99-53.hsd1.ma.comcast.net) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2013-09-20 18:56:20	<--	kaldrenon (~kaldrenon@173-12-28-129-Philadelphia.hfc.comcastbusiness.net) has quit (Remote host closed the connection)
+2013-09-20 18:56:53	-->	kaldrenon (~kaldrenon@173-12-28-129-Philadelphia.hfc.comcastbusiness.net) has joined #coffeescript
+2013-09-20 18:57:58	-->	infynyxx (~infynyxx@208.82.12.18) has joined #coffeescript
+2013-09-20 19:01:15	<--	kaldrenon (~kaldrenon@173-12-28-129-Philadelphia.hfc.comcastbusiness.net) has quit (Ping timeout: 245 seconds)
+2013-09-20 19:01:22	<--	infynyxx (~infynyxx@208.82.12.18) has quit (Remote host closed the connection)
+2013-09-20 19:01:40	-->	infynyxx (~infynyxx@208.82.12.18) has joined #coffeescript
+2013-09-20 19:04:04	<--	SocalNick (~njcalugar@208.185.20.22) has quit (Quit: SocalNick)
+2013-09-20 19:09:00	-->	thomaslindstr_m (~thomaslin@c80-216-4-133.bredband.comhem.se) has joined #coffeescript
+2013-09-20 19:10:24	-->	joshontheweb (~joshonthe@70-91-168-190-BusName-Colorado.hfc.comcastbusiness.net) has joined #coffeescript
+2013-09-20 19:10:52	-->	Cyph0n (~textual@94.59.111.168) has joined #coffeescript
+2013-09-20 19:13:07	<--	clutchski (~Adium@pool-98-116-242-94.nycmny.fios.verizon.net) has left #coffeescript
+2013-09-20 19:14:42	-->	dguttman (~david@cpe-142-129-79-131.socal.res.rr.com) has joined #coffeescript
+2013-09-20 19:15:26	-->	rsim (~rsim@95.68.115.156) has joined #coffeescript
+2013-09-20 19:16:19	-->	kaldrenon (~kaldrenon@173-12-28-129-Philadelphia.hfc.comcastbusiness.net) has joined #coffeescript
+2013-09-20 19:18:15	-->	SocalNick (~njcalugar@208.185.20.22) has joined #coffeescript
+2013-09-20 19:19:44	<--	rsim (~rsim@95.68.115.156) has quit (Ping timeout: 241 seconds)
+2013-09-20 19:29:07	-->	cloke_ (~cloke@66.159.97.90) has joined #coffeescript
+2013-09-20 19:29:44	<--	cloke (~cloke@66.159.97.90) has quit (Ping timeout: 256 seconds)
+2013-09-20 19:29:44	--	cloke_ is now known as cloke
+2013-09-20 19:31:50	<--	mukeyb (~mukeyb@tkcgw01a.connectria.stlt.connpub.com) has quit (Read error: Connection reset by peer)
+2013-09-20 19:34:20	-->	mukeyb (~mukeyb@tkcgw01a.connectria.stlt.connpub.com) has joined #coffeescript
+2013-09-20 19:38:36	<--	mukeyb (~mukeyb@tkcgw01a.connectria.stlt.connpub.com) has quit (Ping timeout: 260 seconds)
+2013-09-20 19:38:56	-->	mukeyb (~mukeyb@tkcgw01a.connectria.stlt.connpub.com) has joined #coffeescript
+2013-09-20 19:40:57	-->	NivenHuH (~NivenWuss@199-241-202-53.PUBLIC.monkeybrains.net) has joined #coffeescript
+2013-09-20 19:44:28	<--	etcetera (~etcetera@about/csharp/regular/etcetera) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-09-20 19:46:54	-->	Nisstyre-laptop (~yours@oftn/member/Nisstyre) has joined #coffeescript
+2013-09-20 19:48:18	-->	rsim (~rsim@95.68.115.156) has joined #coffeescript
+2013-09-20 19:49:47	<--	Miezel (~Mimieam@63-152-206-116.stcd.qwest.net) has quit (Ping timeout: 248 seconds)
+2013-09-20 19:53:45	<--	rsim (~rsim@95.68.115.156) has quit (Ping timeout: 240 seconds)
+2013-09-20 19:54:22	<--	adambeynon (~adambeyno@82-69-1-211.dsl.in-addr.zen.co.uk) has quit (Quit: ["Textual IRC Client: www.textualapp.com"])
+2013-09-20 19:56:02	<--	tessat (~tessathor@96.45.207.227) has quit (Quit: tessat)
+2013-09-20 19:57:19	<--	relix (~relix@91.46.46.176.dyn.estpak.ee) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-09-20 19:58:25	-->	relix (~relix@91.46.46.176.dyn.estpak.ee) has joined #coffeescript
+2013-09-20 20:01:12	-->	tessat (~tessathor@96.45.207.227) has joined #coffeescript
+2013-09-20 20:01:21	<--	tvw (~tv@212.79.9.150) has quit
+2013-09-20 20:02:21	<--	SocalNick (~njcalugar@208.185.20.22) has quit (Ping timeout: 252 seconds)
+2013-09-20 20:02:28	-->	SocalNick_ (~njcalugar@208.185.20.22) has joined #coffeescript
+2013-09-20 20:03:40	<--	SocalNick_ (~njcalugar@208.185.20.22) has quit (Read error: Connection reset by peer)
+2013-09-20 20:04:02	-->	SocalNick (~njcalugar@208.185.20.22) has joined #coffeescript
+2013-09-20 20:04:56	<--	Nisstyre-laptop (~yours@oftn/member/Nisstyre) has quit (Quit: Leaving)
+2013-09-20 20:05:24	-->	ray1claw (~ray1claw@122.162.82.56) has joined #coffeescript
+2013-09-20 20:05:27	-->	rurufufuss (~rurufufus@115-64-27-246.static.tpgi.com.au) has joined #coffeescript
+2013-09-20 20:06:50	<--	rurufufuss (~rurufufus@115-64-27-246.static.tpgi.com.au) has quit (Max SendQ exceeded)
+2013-09-20 20:07:42	-->	rurufufuss (~rurufufus@115-64-27-246.static.tpgi.com.au) has joined #coffeescript
+2013-09-20 20:11:32	<--	NivenHuH (~NivenWuss@199-241-202-53.PUBLIC.monkeybrains.net) has quit (Quit: Computer has gone to sleep.)
+2013-09-20 20:17:49	<--	Siyfion (~Siyfion@188.124.2.81.in-addr.arpa) has quit (Read error: Connection reset by peer)
+2013-09-20 20:20:10	-->	etcetera (~etcetera@about/csharp/regular/etcetera) has joined #coffeescript
+2013-09-20 20:21:04	<--	infynyxx (~infynyxx@208.82.12.18) has quit (Remote host closed the connection)
+2013-09-20 20:21:04	-->	clutchski (~Adium@pool-98-116-242-94.nycmny.fios.verizon.net) has joined #coffeescript
+2013-09-20 20:22:32	-->	infynyxx (~infynyxx@208.82.12.18) has joined #coffeescript
+2013-09-20 20:22:43	<--	clutchski (~Adium@pool-98-116-242-94.nycmny.fios.verizon.net) has quit (Client Quit)
+2013-09-20 20:25:04	<--	SocalNick (~njcalugar@208.185.20.22) has quit (Quit: SocalNick)
+2013-09-20 20:26:56	-->	SocalNick (~njcalugar@208.185.20.22) has joined #coffeescript
+2013-09-20 20:29:31	<--	kil0byte_ (~kil0byte@203.82.37.90) has quit (Remote host closed the connection)
+2013-09-20 20:33:30	--	grep_away is now known as grep_awesome
+2013-09-20 20:33:33	-->	rsim (~rsim@95.68.115.156) has joined #coffeescript
+2013-09-20 20:33:44	-->	huafu (~huafu@cpe-70-95-105-36.hawaii.res.rr.com) has joined #coffeescript
+2013-09-20 20:36:03	-->	ejen (~eugenejen@exchange.wgen.net) has joined #coffeescript
+2013-09-20 20:36:32	<--	eugenejen (~eugenejen@exchange.wgen.net) has quit (Ping timeout: 260 seconds)
+2013-09-20 20:36:32	--	ejen is now known as eugenejen
+2013-09-20 20:41:43	-->	dropdrive (~dropdrive@cpe-74-68-130-168.nyc.res.rr.com) has joined #coffeescript
+2013-09-20 20:41:46	-->	toshok (~toshok@c-107-3-134-250.hsd1.ca.comcast.net) has joined #coffeescript
+2013-09-20 20:42:58	<--	SocalNick (~njcalugar@208.185.20.22) has quit (Quit: SocalNick)
+2013-09-20 20:49:10	<--	nofxx (~nofxx@unaffiliated/nofxx) has quit (Ping timeout: 245 seconds)
+2013-09-20 20:51:31	-->	ericbarnes (~ericbarne@cpe-071-068-027-219.carolina.res.rr.com) has joined #coffeescript
+2013-09-20 20:51:36	-->	nofxx (~nofxx@unaffiliated/nofxx) has joined #coffeescript
+2013-09-20 20:55:12	<--	bradgignac (~bradgigna@24.149.110.213) has quit (Quit: bradgignac)
+2013-09-20 21:09:00	-->	clutchski (~Adium@pool-98-116-242-94.nycmny.fios.verizon.net) has joined #coffeescript
+2013-09-20 21:11:30	-->	KaeruCT (~welp@201.192.144.87) has joined #coffeescript
+2013-09-20 21:14:09	<--	vlad_sta_ (~vlad_star@91.233.188.206) has quit (Remote host closed the connection)
+2013-09-20 21:14:47	<--	ray1claw (~ray1claw@122.162.82.56) has quit (Quit: Computer has gone to sleep.)
+2013-09-20 21:18:41	-->	NivenHuH (~NivenWuss@sonic.mochaleaf.com) has joined #coffeescript
+2013-09-20 21:19:20	-->	Miezel (~Mimieam@199.17.55.129) has joined #coffeescript
+2013-09-20 21:19:26	chee	so like, coffeescriptredux and stuff
+2013-09-20 21:19:29	chee	right?
+2013-09-20 21:19:56	-->	bradgignac (~bradgigna@24.149.110.213) has joined #coffeescript
+2013-09-20 21:21:11	-->	PaulCapestany (~PaulCapes@204.28.124.82) has joined #coffeescript
+2013-09-20 21:26:26	<--	NivenHuH (~NivenWuss@sonic.mochaleaf.com) has quit (Ping timeout: 268 seconds)
+2013-09-20 21:28:52	-->	NivenHuH (~NivenWuss@sonic.mochaleaf.com) has joined #coffeescript
+2013-09-20 21:31:53	<--	huafu (~huafu@cpe-70-95-105-36.hawaii.res.rr.com) has quit (Remote host closed the connection)
+2013-09-20 21:32:18	-->	huafu (~huafu@cpe-70-95-105-36.hawaii.res.rr.com) has joined #coffeescript
+2013-09-20 21:32:35	Vendethiel	wat
+2013-09-20 21:34:58	-->	SocalNick (~njcalugar@208.185.20.22) has joined #coffeescript
+2013-09-20 21:41:25	<--	rsim (~rsim@95.68.115.156) has quit (Quit: Leaving.)
+2013-09-20 21:43:05	-->	InvidFlower (~InvidFlow@c-71-192-99-53.hsd1.ma.comcast.net) has joined #coffeescript
+2013-09-20 21:49:15	<--	albemuth (~albemuth@201.198.78.18) has quit (Read error: Connection reset by peer)
+2013-09-20 21:54:37	-->	Nisstyre-laptop (~yours@oftn/member/Nisstyre) has joined #coffeescript
+2013-09-20 21:54:37	-->	albemuth (~albemuth@201.198.78.18) has joined #coffeescript
+2013-09-20 21:59:32	--	Nisstyre-laptop is now known as nisstyre
+2013-09-20 22:07:23	-->	mdedetrich (~textual@123-243-72-112.static.tpgi.com.au) has joined #coffeescript
+2013-09-20 22:09:32	-->	tvw (~tv@e176004135.adsl.alicedsl.de) has joined #coffeescript
+2013-09-20 22:17:30	<--	clutchski (~Adium@pool-98-116-242-94.nycmny.fios.verizon.net) has left #coffeescript
+2013-09-20 22:17:46	<--	kevwil (~kevwil@c-75-71-9-234.hsd1.co.comcast.net) has quit (Quit: WeeChat 0.4.1)
+2013-09-20 22:19:38	<--	Cyph0n (~textual@94.59.111.168) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-09-20 22:21:38	<--	nisstyre (~yours@oftn/member/Nisstyre) has quit (Ping timeout: 256 seconds)
+2013-09-20 22:21:55	<--	tessat (~tessathor@96.45.207.227) has quit (Quit: tessat)
+2013-09-20 22:24:42	-->	tessat (~tessathor@96.45.207.227) has joined #coffeescript
+2013-09-20 22:25:26	-->	edoloughlin (~edoloughl@109.79.12.163) has joined #coffeescript
+2013-09-20 22:29:16	<--	NivenHuH (~NivenWuss@sonic.mochaleaf.com) has quit (Quit: Computer has gone to sleep.)
+2013-09-20 22:30:46	--	irc: disconnected from server
+2013-09-21 14:14:20	-->	supersym (~supersym@5418F772.cm-5-1d.dynamic.ziggo.nl) has joined #coffeescript
+2013-09-21 14:14:20	--	Topic for #coffeescript is "http://coffeescript.org/ Logs: http://irclogger.com/.coffeescript/ FAQ: http://goo.gl/jITLQ"
+2013-09-21 14:14:20	--	Topic set by jashkenas (~jashkenas@74.203.127.2) on Thu, 24 Feb 2011 04:31:10
+2013-09-21 14:14:20	--	Nicks #coffeescript: [@ChanServ 20WAC4SOZ [BNC]tarruda _br_ aboudreault abuiles algesten andreyvit bergie billy bline boodle_ Brando753 brixen BruNeX_ cam`_ cebor cha0s chee Cheery creature Cyph0n D4RK-PH0ENiX debris` deltab Derander djinni Dreamer3 drey dropdrive dustjn dyoder ELLIOTTCABLE erg espiral EToS eventualbuddha Ezku falten fikst Gate geoffw8__ gerard0 greg5green grep_away Guest2896 halorgium heath hexreel hlindset hmsimha Hosh huafu huntercool ioncache irclogger_com is_null jackyyll jaredrhine jashkenas jerrytgarcia jimt_ jn jonathanj joshontheweb jvolkman kalleth key4 koba04 korpse LaserShark lazybear Leeol2 leptonix lilmonkey liquid-silence lluchs mackwerk mattp_ mbd2 mekwall mercwithamouth michael_mbp Miezell monokrome Moo-_- morayi mukeyb multiply nanashiRei ninegrid ninepointsix nlf noway_ paddymahoney percival psino purge qpok ray1claw rcs realazthat reder Reite relix riku Rolken rolleiflex rplaca rtlong rue shaunbaker shesek sinclair|work skython Sose sukima supersym swistak35 TEttinger2 TheJH TheMoonMaster thomaslindstr_m tim_smart Topa tvw vadviktor Vendethiel vim_shim vlad_starkov wang webdestroya weeb1e wereHamster wycats Xack yuwang zapu zeekay]
+2013-09-21 14:14:20	--	Channel #coffeescript: 139 nicks (1 op, 0 halfops, 0 voices, 138 normals)
+2013-09-21 14:14:30	--	Mode #coffeescript [+cnt]
+2013-09-21 14:14:30	--	Channel created on Tue, 16 Feb 2010 00:32:49
+2013-09-21 14:18:09	<--	vlad_starkov (~vlad_star@109.188.126.21) has quit (Remote host closed the connection)
+2013-09-21 14:20:00	-->	vlad_starkov (~vlad_star@109.188.126.21) has joined #coffeescript
+2013-09-21 14:23:28	<--	thomaslindstr_m (~thomaslin@c80-216-4-133.bredband.comhem.se) has quit (Remote host closed the connection)
+2013-09-21 14:24:32	<--	ray1claw (~ray1claw@122.162.160.198) has quit (Quit: Computer has gone to sleep.)
+2013-09-21 14:25:09	<--	espiral (~maze@unaffiliated/espiral) has quit (Ping timeout: 248 seconds)
+2013-09-21 14:32:19	-->	espiral (~maze@unaffiliated/espiral) has joined #coffeescript
+2013-09-21 14:40:09	-->	dazza (~dazza@68-188-56-205.static.stls.mo.charter.com) has joined #coffeescript
+2013-09-21 14:44:55	<--	shaunbaker (~shaunbake@97e69e6b.skybroadband.com) has quit (Remote host closed the connection)
+2013-09-21 14:52:49	-->	kil0byte (~kil0byte@112.204.185.190) has joined #coffeescript
+2013-09-21 15:01:30	-->	juxovec (~juxovec@88.103.61.177) has joined #coffeescript
+2013-09-21 15:05:51	<--	juxovec (~juxovec@88.103.61.177) has quit (Ping timeout: 245 seconds)
+2013-09-21 15:13:26	<--	greg5green (~c@unaffiliated/greg5green) has quit (Ping timeout: 264 seconds)
+2013-09-21 15:15:43	<--	dazza (~dazza@68-188-56-205.static.stls.mo.charter.com) has quit (Remote host closed the connection)
+2013-09-21 15:15:56	<--	tvw (~tv@e176008221.adsl.alicedsl.de) has quit
+2013-09-21 15:16:10	-->	dazza (~dazza@68-188-56-205.static.stls.mo.charter.com) has joined #coffeescript
+2013-09-21 15:20:07	-->	mdedetrich (~textual@123-243-72-112.static.tpgi.com.au) has joined #coffeescript
+2013-09-21 15:20:39	<--	dazza (~dazza@68-188-56-205.static.stls.mo.charter.com) has quit (Ping timeout: 252 seconds)
+2013-09-21 15:22:27	-->	vlad_sta_ (~vlad_star@109.188.126.21) has joined #coffeescript
+2013-09-21 15:22:35	<--	vlad_starkov (~vlad_star@109.188.126.21) has quit (Read error: Connection reset by peer)
+2013-09-21 15:24:03	<--	mdedetrich (~textual@123-243-72-112.static.tpgi.com.au) has quit (Client Quit)
+2013-09-21 15:25:15	<--	liquid-silence (~liquid-si@about/csharp/regular/liquid-silence) has left #coffeescript ("Textual IRC Client: www.textualapp.com")
+2013-09-21 15:39:05	-->	dazza (~dazza@68-188-56-205.static.stls.mo.charter.com) has joined #coffeescript
+2013-09-21 15:39:54	-->	toshok (~toshok@c-107-3-134-250.hsd1.ca.comcast.net) has joined #coffeescript
+2013-09-21 15:45:14	-->	dazza_ (~dazza@68-188-56-205.static.stls.mo.charter.com) has joined #coffeescript
+2013-09-21 15:45:14	<--	dazza (~dazza@68-188-56-205.static.stls.mo.charter.com) has quit (Read error: Connection reset by peer)
+2013-09-21 15:46:16	<--	dazza_ (~dazza@68-188-56-205.static.stls.mo.charter.com) has quit (Remote host closed the connection)
+2013-09-21 15:46:42	-->	dazza (~dazza@68-188-56-205.static.stls.mo.charter.com) has joined #coffeescript
+2013-09-21 15:51:07	<--	dazza (~dazza@68-188-56-205.static.stls.mo.charter.com) has quit (Ping timeout: 256 seconds)
+2013-09-21 15:53:21	--	michael_mbp is now known as zz_michael_mbp
+2013-09-21 15:55:50	<--	Miezell (~Mimieam@63-152-206-116.stcd.qwest.net) has quit (Ping timeout: 245 seconds)
+2013-09-21 15:56:13	<--	relix (~relix@91.46.46.176.dyn.estpak.ee) has quit (Ping timeout: 256 seconds)
+2013-09-21 15:57:37	-->	relix (~relix@91.46.46.176.dyn.estpak.ee) has joined #coffeescript
+2013-09-21 16:02:05	-->	juxovec (~juxovec@88.103.61.177) has joined #coffeescript
+2013-09-21 16:02:54	<--	kil0byte (~kil0byte@112.204.185.190) has quit (Remote host closed the connection)
+2013-09-21 16:03:03	-->	nofxx (~nofxx@unaffiliated/nofxx) has joined #coffeescript
+2013-09-21 16:06:55	<--	juxovec (~juxovec@88.103.61.177) has quit (Ping timeout: 268 seconds)
+2013-09-21 16:17:24	<--	vlad_sta_ (~vlad_star@109.188.126.21) has quit (Remote host closed the connection)
+2013-09-21 16:24:05	--	noway_ is now known as noway
+2013-09-21 16:28:51	-->	justinmburrous (~justinmbu@moloch.espn.com) has joined #coffeescript
+2013-09-21 16:28:59	-->	sturner (~steve@c-71-229-145-44.hsd1.co.comcast.net) has joined #coffeescript
+2013-09-21 16:29:14	<--	justinmburrous (~justinmbu@moloch.espn.com) has quit (Remote host closed the connection)
+2013-09-21 16:29:35	<--	shesek (~shesek@IGLD-84-228-164-122.inter.net.il) has quit (Ping timeout: 245 seconds)
+2013-09-21 16:30:14	-->	shesek (~shesek@87.68.42.80.cable.012.net.il) has joined #coffeescript
+2013-09-21 16:39:37	-->	mreq (~mreq@91.241.23.106) has joined #coffeescript
+2013-09-21 16:48:00	-->	vlad_starkov (~vlad_star@109.188.126.21) has joined #coffeescript
+2013-09-21 16:52:22	-->	rsim (~rsim@95.68.115.156) has joined #coffeescript
+2013-09-21 16:52:28	-->	Nisstyre-laptop (~yours@oftn/member/Nisstyre) has joined #coffeescript
+2013-09-21 16:54:14	<--	fikst (~fikst@d54C442D5.access.telenet.be) has quit (Remote host closed the connection)
+2013-09-21 16:54:29	-->	lyanchih (~lyanchih@114-34-99-241.HINET-IP.hinet.net) has joined #coffeescript
+2013-09-21 16:55:23	--	Nisstyre-laptop is now known as nisstyre
+2013-09-21 16:56:27	<--	vlad_starkov (~vlad_star@109.188.126.21) has quit (Ping timeout: 248 seconds)
+2013-09-21 16:56:43	<--	rsim (~rsim@95.68.115.156) has quit (Ping timeout: 240 seconds)
+2013-09-21 17:02:34	-->	juxovec (~juxovec@88.103.61.177) has joined #coffeescript
+2013-09-21 17:03:30	<--	eventualbuddha (~eventualb@c-76-102-242-136.hsd1.ca.comcast.net) has quit (Ping timeout: 252 seconds)
+2013-09-21 17:04:48	--	noway is now known as Guest6278
+2013-09-21 17:04:48	<--	Guest6278 (~noway@95.70.94.89) has quit (Killed (calvino.freenode.net (Nickname regained by services)))
+2013-09-21 17:05:18	-->	noway_ (~noway@95.70.94.89) has joined #coffeescript
+2013-09-21 17:05:34	<--	lyanchih (~lyanchih@114-34-99-241.HINET-IP.hinet.net) has quit (Quit: lyanchih)
+2013-09-21 17:05:57	-->	eventualbuddha (~eventualb@c-76-102-242-136.hsd1.ca.comcast.net) has joined #coffeescript
+2013-09-21 17:06:46	-->	uris77 (~uris77@200.123.210.2) has joined #coffeescript
+2013-09-21 17:07:02	-->	flippyhead (~peterbrow@c-66-235-0-81.sea.wa.customer.broadstripe.net) has joined #coffeescript
+2013-09-21 17:07:06	<--	juxovec (~juxovec@88.103.61.177) has quit (Ping timeout: 245 seconds)
+2013-09-21 17:11:31	-->	caitp (~caitp@CPE602ad06daef0-CM602ad06daeed.cpe.net.cable.rogers.com) has joined #coffeescript
+2013-09-21 17:11:39	-->	ray1claw (~ray1claw@122.162.160.198) has joined #coffeescript
+2013-09-21 17:14:55	-->	lyanchih (~lyanchih@114-34-99-241.HINET-IP.hinet.net) has joined #coffeescript
+2013-09-21 17:21:06	<--	ray1claw (~ray1claw@122.162.160.198) has quit (Read error: Connection reset by peer)
+2013-09-21 17:22:59	-->	ray1claw (~ray1claw@122.162.160.198) has joined #coffeescript
+2013-09-21 17:26:34	-->	rsim (~rsim@95.68.115.156) has joined #coffeescript
+2013-09-21 17:27:06	<--	relix (~relix@91.46.46.176.dyn.estpak.ee) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-09-21 17:31:15	<--	caitp (~caitp@CPE602ad06daef0-CM602ad06daeed.cpe.net.cable.rogers.com) has quit (Quit: Leaving)
+2013-09-21 17:31:24	<--	rsim (~rsim@95.68.115.156) has quit (Ping timeout: 240 seconds)
+2013-09-21 17:32:18	-->	tundramonkey (~tundramon@ppp121-44-160-203.lns20.syd7.internode.on.net) has joined #coffeescript
+2013-09-21 17:32:21	<--	tundramonkey (~tundramon@ppp121-44-160-203.lns20.syd7.internode.on.net) has quit (Remote host closed the connection)
+2013-09-21 17:32:37	-->	tundramonkey (~tundramon@ppp121-44-160-203.lns20.syd7.internode.on.net) has joined #coffeescript
+2013-09-21 17:32:56	-->	sreeix (~sreeix@117.221.99.15) has joined #coffeescript
+2013-09-21 17:35:56	--	irc: disconnected from server
+2013-09-21 21:45:15	-->	supersym (~supersym@5418F772.cm-5-1d.dynamic.ziggo.nl) has joined #coffeescript
+2013-09-21 21:45:15	--	Topic for #coffeescript is "http://coffeescript.org/ Logs: http://irclogger.com/.coffeescript/ FAQ: http://goo.gl/jITLQ"
+2013-09-21 21:45:15	--	Topic set by jashkenas (~jashkenas@74.203.127.2) on Thu, 24 Feb 2011 04:31:10
+2013-09-21 21:45:15	--	Nicks #coffeescript: [@ChanServ 20WAC4SOZ [BNC]tarruda _br_ aboudreault abuiles algesten andreyvit bergie billy bline boodle_ Brando753 brixen caitp cam`_ cebor cha0s chee Cheery codelahoma creature D4RK-PH0ENiX debris` deltab Derander dguttman djinni Dreamer3 drey dropdrive dustjn dyoder ELLIOTTCABLE erg espiral etcetera EToS eventualbuddha execut3 Ezku falten flippyhead Gate geoffw8__ gerard0 grep_away Guest2896 halorgium heath hexreel hlindset hmsimha Hosh huafu huntercool ioncache irclogger_com is_null jackyyll jaredrhine jashkenas jerrytgarcia jimt_ jn jonathanj joshontheweb juxovec jvolkman kalleth key4 koba04 korpse LaserShark lazybear leptonix lilmonkey lluchs lyanchih mackwerk mary5030 mattp_ mbd2 mekwall michael_mbp Miezel monokrome Moo-_- morayi mukeyb Multiply nanashiRei nerdy ninegrid ninepointsix nlf nofxx noway_ paddymahoney PaulCapestany percival psino purge qpok rcs realazthat reder Reite riku Rolken rolleiflex rplaca rtlong rue skython snickle Sose sturner sukima supersym swistak35 TEttinger2 TheJH TheMoonMaster tim_smart Topa toshok uris77 vadviktor Vendethiel vim_shim wang webdestroya weeb1e wereHamster wycats Xack yuwang zapu zeekay]
+2013-09-21 21:45:15	--	Channel #coffeescript: 140 nicks (1 op, 0 halfops, 0 voices, 139 normals)
+2013-09-21 21:45:25	--	Mode #coffeescript [+cnt]
+2013-09-21 21:45:25	--	Channel created on Tue, 16 Feb 2010 00:32:49
+2013-09-21 21:47:44	<--	lyanchih (~lyanchih@114-34-99-241.HINET-IP.hinet.net) has quit (Quit: lyanchih)
+2013-09-21 21:52:57	-->	rurufufuss (~rurufufus@115-64-27-246.static.tpgi.com.au) has joined #coffeescript
+2013-09-21 21:55:22	--	michael_mbp is now known as zz_michael_mbp
+2013-09-21 21:55:58	<--	mary5030 (~mary5030@107-193-220-128.lightspeed.austtx.sbcglobal.net) has quit (Remote host closed the connection)
+2013-09-21 22:01:51	<--	nerdy (~textual@66-44-120-169.c3-0.grg-ubr1.lnh-grg.md.cable.rcn.com) has quit (Quit: Computer has gone to sleep.)
+2013-09-21 22:04:16	-->	mary5030 (~mary5030@107-193-220-128.lightspeed.austtx.sbcglobal.net) has joined #coffeescript
+2013-09-21 22:07:27	-->	BruNeX_ (uid4730@gateway/web/irccloud.com/x-evdbecdvexjtnwtg) has joined #coffeescript
+2013-09-21 22:12:56	<--	D4RK-PH0ENiX (~D4RK-PH0E@129.134.232.202.bf.2iij.net) has quit (Remote host closed the connection)
+2013-09-21 22:14:01	--	irc: disconnected from server
+2013-09-23 17:23:12	-->	supersym (~supersym@5418F772.cm-5-1d.dynamic.ziggo.nl) has joined #coffeescript
+2013-09-23 17:23:12	--	Topic for #coffeescript is "http://coffeescript.org/ Logs: http://irclogger.com/.coffeescript/ FAQ: http://goo.gl/jITLQ"
+2013-09-23 17:23:12	--	Topic set by jashkenas (~jashkenas@74.203.127.2) on Thu, 24 Feb 2011 04:31:10
+2013-09-23 17:23:12	--	Nicks #coffeescript: [@ChanServ [BNC]tarruda _br_ _janne _tinman_ aboudreault abuiles albemuth algesten andreyvit bakkdoor bergie billy bline bluehavana boodle bradgignac Brando753 brixen BruNeX_ burgess cam`_ cebor cezary cha0s chee Cheery clutchski codelahoma D4RK-PH0ENiX debris` deltab Derander dguttman djinni Dreamer3 drey dropdrive dustjn dyoder ELLIOTTCABLE erg Es0teric espiral EToS eugenejen eventualbuddha Ezku falten Fishrock123 Gate geoffw8__ gerard0 greg5green grep_awesome Guest71488 halorgium heath hexreel hlindset hmsimha Hosh huafu huntercool irclogger_com is_null jackyyll jaredrhine jashkenas jerrytgarcia jn jonathanj jvolkman kaldrenon kalleth key4 kgrz koba04 korpse LaserShark lazybear leptonix lilmonkey lluchs mary5030 mattp_ mekwall mfamos michael_mbp monokrome Moo-_- morayi mreq mukeyb multiply nanashiRei ninegrid ninepointsix nisstyre nlf noway_ ohama paddymahoney percival petey psino purge qpok rcs realazthat reder Reite relix renklaf Rolken rolleiflex rplaca rsim1 rtlong rue shaunbak_ shesek skython Sose SpX sukima supersym swistak35 TEttinger2 TheJH TheMoonMaster thomaslindstr_m tim_smart Topa tvw uris77 vadviktor vlad_starkov wang webdestroya weeb1e wereHamster will-ob willob wycats Xack yuwang zapu zeekay zeropx zmike123]
+2013-09-23 17:23:12	--	Channel #coffeescript: 151 nicks (1 op, 0 halfops, 0 voices, 150 normals)
+2013-09-23 17:23:22	--	Mode #coffeescript [+cnt]
+2013-09-23 17:23:22	--	Channel created on Tue, 16 Feb 2010 00:32:49
+2013-09-23 17:25:23	<--	vlad_starkov (~vlad_star@89.175.55.54) has quit (Remote host closed the connection)
+2013-09-23 17:28:22	-->	dazza (~dazza@38.98.105.130) has joined #coffeescript
+2013-09-23 17:32:36	<--	huafu (~huafu@cpe-70-95-105-36.hawaii.res.rr.com) has quit (Remote host closed the connection)
+2013-09-23 17:33:21	-->	vlad_starkov (~vlad_star@89.175.55.54) has joined #coffeescript
+2013-09-23 17:33:22	<--	vlad_starkov (~vlad_star@89.175.55.54) has quit (Remote host closed the connection)
+2013-09-23 17:36:21	<--	tvw (~tv@212.79.9.150) has quit
+2013-09-23 17:39:18	-->	vlad_starkov (~vlad_star@89.175.55.54) has joined #coffeescript
+2013-09-23 17:42:05	-->	ray1claw (~ray1claw@122.162.89.251) has joined #coffeescript
+2013-09-23 17:42:47	<--	shaunbak_ (~shaunbake@brick-lane.lbi.co.uk) has quit (Remote host closed the connection)
+2013-09-23 17:44:40	-->	infynyxx (~infynyxx@208.82.12.18) has joined #coffeescript
+2013-09-23 17:44:49	-->	quartzmo (~quartzmo@173-8-92-49-utah.hfc.comcastbusiness.net) has joined #coffeescript
+2013-09-23 17:44:53	<--	dguttman (~david@cpe-142-129-79-131.socal.res.rr.com) has quit (Quit: dguttman)
+2013-09-23 17:45:08	<--	mreq (~mreq@2001:718:1e02:8144::beef:8265) has quit (Ping timeout: 260 seconds)
+2013-09-23 17:50:20	-->	etcetera (~etcetera@about/csharp/regular/etcetera) has joined #coffeescript
+2013-09-23 17:54:32	-->	cloke (~cloke@66.159.97.90) has joined #coffeescript
+2013-09-23 17:54:51	-->	mreq (~mreq@2001:718:1e02:8144::beef:8265) has joined #coffeescript
+2013-09-23 17:54:54	<--	thomaslindstr_m (~thomaslin@37-46-176-106.customers.ownit.se) has quit (Remote host closed the connection)
+2013-09-23 17:56:16	<--	etcetera (~etcetera@about/csharp/regular/etcetera) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-09-23 17:57:23	<--	mreq (~mreq@2001:718:1e02:8144::beef:8265) has left #coffeescript
+2013-09-23 18:01:26	-->	etcetera (~etcetera@about/csharp/regular/etcetera) has joined #coffeescript
+2013-09-23 18:12:57	<--	jackyyll (~ax@jackyyll.seedstuff.ca) has quit (Quit: Lost terminal)
+2013-09-23 18:13:28	-->	jackyyll (~ax@jackyyll.seedstuff.ca) has joined #coffeescript
+2013-09-23 18:14:33	-->	csurap (~csurap@64.245.24.142) has joined #coffeescript
+2013-09-23 18:17:47	<--	etcetera (~etcetera@about/csharp/regular/etcetera) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-09-23 18:19:16	--	michael_mbp is now known as zz_michael_mbp
+2013-09-23 18:20:48	--	zz_michael_mbp is now known as michael_mbp
+2013-09-23 18:21:15	<--	ray1claw (~ray1claw@122.162.89.251) has quit (Quit: Computer has gone to sleep.)
+2013-09-23 18:21:29	-->	PaulCapestany (~PaulCapes@204.28.124.82) has joined #coffeescript
+2013-09-23 18:23:14	<--	kgrz (~kgrz@125.21.55.94) has quit (Remote host closed the connection)
+2013-09-23 18:24:32	<--	dazza (~dazza@38.98.105.130) has quit (Remote host closed the connection)
+2013-09-23 18:24:43	-->	kgrz (~kgrz@125.21.55.94) has joined #coffeescript
+2013-09-23 18:24:51	-->	SocalNick (~njcalugar@208.185.20.22) has joined #coffeescript
+2013-09-23 18:24:58	-->	dazza (~dazza@38.98.105.130) has joined #coffeescript
+2013-09-23 18:26:27	-->	dguttman (~david@rrcs-173-196-159-4.west.biz.rr.com) has joined #coffeescript
+2013-09-23 18:26:58	-->	etcetera (~etcetera@about/csharp/regular/etcetera) has joined #coffeescript
+2013-09-23 18:27:02	<--	etcetera (~etcetera@about/csharp/regular/etcetera) has quit (Max SendQ exceeded)
+2013-09-23 18:27:19	<--	SocalNick (~njcalugar@208.185.20.22) has quit (Client Quit)
+2013-09-23 18:27:44	-->	etcetera (~etcetera@about/csharp/regular/etcetera) has joined #coffeescript
+2013-09-23 18:28:06	-->	SocalNick (~njcalugar@208.185.20.22) has joined #coffeescript
+2013-09-23 18:28:58	-->	fikst (~fikst@d54C442D5.access.telenet.be) has joined #coffeescript
+2013-09-23 18:29:02	<--	dazza (~dazza@38.98.105.130) has quit (Ping timeout: 240 seconds)
+2013-09-23 18:32:34	-->	caitp (~caitp@CPE602ad06daef0-CM602ad06daeed.cpe.net.cable.rogers.com) has joined #coffeescript
+2013-09-23 18:32:40	<--	kgrz (~kgrz@125.21.55.94) has quit (Remote host closed the connection)
+2013-09-23 18:33:07	-->	kgrz (~kgrz@125.21.55.94) has joined #coffeescript
+2013-09-23 18:34:02	<--	SocalNick (~njcalugar@208.185.20.22) has quit (Quit: SocalNick)
+2013-09-23 18:36:43	<--	petey (~petey@198.179.137.241) has quit (Remote host closed the connection)
+2013-09-23 18:37:12	<--	kgrz (~kgrz@125.21.55.94) has quit (Ping timeout: 240 seconds)
+2013-09-23 18:37:25	-->	petey (~petey@198.179.137.241) has joined #coffeescript
+2013-09-23 18:43:18	-->	SocalNick (~njcalugar@208.185.20.22) has joined #coffeescript
+2013-09-23 18:44:41	<--	_tinman_ (~user@69.170.149.10) has quit (Read error: Connection reset by peer)
+2013-09-23 18:45:39	<--	kaldrenon (~kaldrenon@173-12-28-129-Philadelphia.hfc.comcastbusiness.net) has quit (Remote host closed the connection)
+2013-09-23 18:48:29	-->	_tinman_ (~user@69.170.149.10) has joined #coffeescript
+2013-09-23 18:48:34	<--	etcetera (~etcetera@about/csharp/regular/etcetera) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-09-23 18:50:18	-->	sturner (~steve@209.sub-70-211-71.myvzw.com) has joined #coffeescript
+2013-09-23 18:50:56	-->	thomaslindstr_m (~thomaslin@c80-216-4-133.bredband.comhem.se) has joined #coffeescript
+2013-09-23 18:52:24	-->	etcetera (~etcetera@about/csharp/regular/etcetera) has joined #coffeescript
+2013-09-23 18:53:46	<--	sturner (~steve@209.sub-70-211-71.myvzw.com) has quit (Client Quit)
+2013-09-23 18:54:20	<--	D4RK-PH0ENiX (~D4RK-PH0E@129.134.232.202.bf.2iij.net) has quit (Remote host closed the connection)
+2013-09-23 18:55:30	-->	dazza (~dazza@38.98.105.130) has joined #coffeescript
+2013-09-23 18:55:57	-->	serenity2517 (~serenity2@ras75-8-88-185-165-244.fbx.proxad.net) has joined #coffeescript
+2013-09-23 18:57:22	-->	kaldrenon (~kaldrenon@173-12-28-129-Philadelphia.hfc.comcastbusiness.net) has joined #coffeescript
+2013-09-23 18:57:28	<--	caitp (~caitp@CPE602ad06daef0-CM602ad06daeed.cpe.net.cable.rogers.com) has quit (Ping timeout: 264 seconds)
+2013-09-23 19:01:00	<--	SocalNick (~njcalugar@208.185.20.22) has quit (Quit: SocalNick)
+2013-09-23 19:03:18	<--	zmike123 (~zmike1234@178.124.119.193) has quit (Read error: Operation timed out)
+2013-09-23 19:03:46	<--	dazza (~dazza@38.98.105.130) has quit (Ping timeout: 245 seconds)
+2013-09-23 19:08:35	<--	vlad_starkov (~vlad_star@89.175.55.54) has quit (Remote host closed the connection)
+2013-09-23 19:09:50	-->	D4RK-PH0ENiX (~D4RK-PH0E@73.199.192.61.east.global.crust-r.net) has joined #coffeescript
+2013-09-23 19:10:41	-->	jacobolus (~jacobolus@70-100-135-206.dsl1-field.roch.ny.frontiernet.net) has joined #coffeescript
+2013-09-23 19:12:25	<--	serenity2517 (~serenity2@ras75-8-88-185-165-244.fbx.proxad.net) has quit (Quit: Zzzzz…)
+2013-09-23 19:18:39	-->	mbd2 (~mbd2@50.240.194.99) has joined #coffeescript
+2013-09-23 19:19:16	-->	serenity2517 (~serenity2@ras75-8-88-185-165-244.fbx.proxad.net) has joined #coffeescript
+2013-09-23 19:19:51	-->	zmike123 (~zmike1234@86.57.190.11) has joined #coffeescript
+2013-09-23 19:24:18	-->	dazza (~dazza@38.98.105.130) has joined #coffeescript
+2013-09-23 19:28:29	-->	SocalNick (~njcalugar@208.185.20.22) has joined #coffeescript
+2013-09-23 19:30:34	-->	qwert123 (7838e898@gateway/web/freenode/ip.120.56.232.152) has joined #coffeescript
+2013-09-23 19:31:46	qwert123	Is there a coffescript tutorial for forms?
+2013-09-23 19:36:37	<--	qwert123 (7838e898@gateway/web/freenode/ip.120.56.232.152) has quit (Quit: Page closed)
+2013-09-23 19:37:04	-->	qwerty123 (7838e898@gateway/web/freenode/ip.120.56.232.152) has joined #coffeescript
+2013-09-23 19:37:15	<--	qwerty123 (7838e898@gateway/web/freenode/ip.120.56.232.152) has quit (Client Quit)
+2013-09-23 19:43:28	<--	infynyxx (~infynyxx@208.82.12.18) has quit (Remote host closed the connection)
+2013-09-23 19:48:28	-->	ray1claw (~ray1claw@122.162.89.251) has joined #coffeescript
+2013-09-23 19:50:10	-->	Nisstyre-laptop (~yours@oftn/member/Nisstyre) has joined #coffeescript
+2013-09-23 19:53:25	<--	petey (~petey@198.179.137.241) has quit (Remote host closed the connection)
+2013-09-23 19:55:52	-->	Vendethiel (Vendethiel@17.13.115.78.rev.sfr.net) has joined #coffeescript
+2013-09-23 19:58:49	-->	caitp (~caitp@CPE602ad06daef0-CM602ad06daeed.cpe.net.cable.rogers.com) has joined #coffeescript
+2013-09-23 19:59:23	-->	infynyxx (~infynyxx@208.82.12.18) has joined #coffeescript
+2013-09-23 20:01:18	-->	petey (~petey@198.179.137.241) has joined #coffeescript
+2013-09-23 20:02:46	<--	petey (~petey@198.179.137.241) has quit (Remote host closed the connection)
+2013-09-23 20:03:05	-->	ButuzGOL (59d15606@gateway/web/freenode/ip.89.209.86.6) has joined #coffeescript
+2013-09-23 20:07:25	<--	ButuzGOL (59d15606@gateway/web/freenode/ip.89.209.86.6) has quit (Ping timeout: 250 seconds)
+2013-09-23 20:11:31	-->	vlad_starkov (~vlad_star@109.188.126.42) has joined #coffeescript
+2013-09-23 20:12:12	<--	etcetera (~etcetera@about/csharp/regular/etcetera) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-09-23 20:13:30	-->	toshok (~toshok@c-107-3-134-250.hsd1.ca.comcast.net) has joined #coffeescript
+2013-09-23 20:14:30	<--	vlad_starkov (~vlad_star@109.188.126.42) has quit (Read error: Connection reset by peer)
+2013-09-23 20:14:54	-->	vlad_starkov (~vlad_star@109.188.126.42) has joined #coffeescript
+2013-09-23 20:15:41	-->	etcetera (~etcetera@about/csharp/regular/etcetera) has joined #coffeescript
+2013-09-23 20:16:21	<--	PaulCapestany (~PaulCapes@204.28.124.82) has quit (Quit: Computer has gone to sleep.)
+2013-09-23 20:18:16	<--	jacobolus (~jacobolus@70-100-135-206.dsl1-field.roch.ny.frontiernet.net) has quit (Read error: Connection reset by peer)
+2013-09-23 20:19:02	-->	jacobolus (~jacobolus@70-100-135-206.dsl1-field.roch.ny.frontiernet.net) has joined #coffeescript
+2013-09-23 20:20:26	-->	NivenHuH (~NivenWuss@sonic.mochaleaf.com) has joined #coffeescript
+2013-09-23 20:21:36	<--	vlad_starkov (~vlad_star@109.188.126.42) has quit (Remote host closed the connection)
+2013-09-23 20:21:40	-->	joshontheweb (~joshonthe@c-67-190-6-82.hsd1.co.comcast.net) has joined #coffeescript
+2013-09-23 20:22:55	<--	etcetera (~etcetera@about/csharp/regular/etcetera) has quit (Ping timeout: 260 seconds)
+2013-09-23 20:23:22	<--	joshontheweb (~joshonthe@c-67-190-6-82.hsd1.co.comcast.net) has quit (Client Quit)
+2013-09-23 20:24:31	-->	etcetera (~etcetera@about/csharp/regular/etcetera) has joined #coffeescript
+2013-09-23 20:27:28	<--	dazza (~dazza@38.98.105.130) has quit (Remote host closed the connection)
+2013-09-23 20:27:45	-->	le_gars (~le_gars@c-70cae655.154-10-64736c10.cust.bredbandsbolaget.se) has joined #coffeescript
+2013-09-23 20:27:54	-->	dazza (~dazza@38.98.105.130) has joined #coffeescript
+2013-09-23 20:29:33	<--	Nisstyre-laptop (~yours@oftn/member/Nisstyre) has quit (Quit: Leaving)
+2013-09-23 20:29:33	<--	dazza (~dazza@38.98.105.130) has quit (Read error: Connection reset by peer)
+2013-09-23 20:30:11	-->	dazza (~dazza@38.98.105.130) has joined #coffeescript
+2013-09-23 20:33:07	-->	astrolin (uid14279@gateway/web/irccloud.com/x-hdmbfwbugtnaldxf) has joined #coffeescript
+2013-09-23 20:37:18	<--	SocalNick (~njcalugar@208.185.20.22) has quit (Quit: SocalNick)
+2013-09-23 20:37:19	<--	ray1claw (~ray1claw@122.162.89.251) has quit (Quit: Computer has gone to sleep.)
+2013-09-23 20:38:29	-->	hicorey (~corey@hic-4.ehawaii.gov) has joined #coffeescript
+2013-09-23 20:39:23	-->	SocalNick (~njcalugar@208.185.20.22) has joined #coffeescript
+2013-09-23 20:40:45	-->	joshontheweb (~joshonthe@c-67-190-6-82.hsd1.co.comcast.net) has joined #coffeescript
+2013-09-23 20:42:21	-->	smurfke (~textual@d54C4B3D1.access.telenet.be) has joined #coffeescript
+2013-09-23 20:42:27	<--	joshontheweb (~joshonthe@c-67-190-6-82.hsd1.co.comcast.net) has quit (Client Quit)
+2013-09-23 20:43:19	<--	SpX (~spiksius@213.226.179.73) has left #coffeescript ("Leaving")
+2013-09-23 20:50:18	-->	petey (~petey@198.179.137.241) has joined #coffeescript
+2013-09-23 20:51:45	-->	sakal (~sakal@95.72.88.247) has joined #coffeescript
+2013-09-23 20:52:06	-->	fomatin (~textual@c-98-207-155-161.hsd1.ca.comcast.net) has joined #coffeescript
+2013-09-23 20:56:23	<--	SocalNick (~njcalugar@208.185.20.22) has quit (Quit: SocalNick)
+2013-09-23 20:58:05	<--	zmike123 (~zmike1234@86.57.190.11) has quit (Quit: ~)
+2013-09-23 21:01:22	<--	etcetera (~etcetera@about/csharp/regular/etcetera) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-09-23 21:01:54	<--	will-ob (~willob@173-166-99-161-newengland.hfc.comcastbusiness.net) has quit (Ping timeout: 264 seconds)
+2013-09-23 21:02:02	<--	willob (~willob@173-166-99-161-newengland.hfc.comcastbusiness.net) has quit (Ping timeout: 264 seconds)
+2013-09-23 21:03:05	<--	eugenejen (~eugenejen@exchange.wgen.net) has quit (Read error: Operation timed out)
+2013-09-23 21:04:36	-->	eugenejen (~eugenejen@exchange.wgen.net) has joined #coffeescript
+2013-09-23 21:06:44	<--	rolleiflex (~rolleifle@ec2-54-242-146-184.compute-1.amazonaws.com) has quit (Excess Flood)
+2013-09-23 21:09:22	-->	rolleiflex (~rolleifle@ec2-54-242-146-184.compute-1.amazonaws.com) has joined #coffeescript
+2013-09-23 21:15:30	-->	SocalNick (~njcalugar@208.185.20.22) has joined #coffeescript
+2013-09-23 21:17:31	-->	willob (~willob@173-166-99-161-newengland.hfc.comcastbusiness.net) has joined #coffeescript
+2013-09-23 21:17:41	-->	will-ob (~willob@173-166-99-161-newengland.hfc.comcastbusiness.net) has joined #coffeescript
+2013-09-23 21:22:08	-->	vlad_starkov (~vlad_star@109.188.126.220) has joined #coffeescript
+2013-09-23 21:22:14	<--	vlad_starkov (~vlad_star@109.188.126.220) has quit (Read error: Connection reset by peer)
+2013-09-23 21:24:11	<--	infynyxx (~infynyxx@208.82.12.18) has quit (Remote host closed the connection)
+2013-09-23 21:29:41	-->	bigkevmcd (~kevin@87-194-156-112.bethere.co.uk) has joined #coffeescript
+2013-09-23 21:32:02	-->	etcetera (~etcetera@about/csharp/regular/etcetera) has joined #coffeescript
+2013-09-23 21:34:35	-->	infynyxx (~infynyxx@208.82.12.18) has joined #coffeescript
+2013-09-23 21:37:20	<--	etcetera (~etcetera@about/csharp/regular/etcetera) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-09-23 21:40:36	-->	etcetera (~etcetera@about/csharp/regular/etcetera) has joined #coffeescript
+2013-09-23 21:43:41	<--	fomatin (~textual@c-98-207-155-161.hsd1.ca.comcast.net) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2013-09-23 21:43:41	<--	jacobolus (~jacobolus@70-100-135-206.dsl1-field.roch.ny.frontiernet.net) has quit (Read error: Connection reset by peer)
+2013-09-23 21:44:23	-->	jacobolus (~jacobolus@70-100-135-206.dsl1-field.roch.ny.frontiernet.net) has joined #coffeescript
+2013-09-23 21:48:59	-->	dp (~gms8994@dp.cx) has joined #coffeescript
+2013-09-23 21:49:10	<--	will-ob (~willob@173-166-99-161-newengland.hfc.comcastbusiness.net) has quit (Ping timeout: 245 seconds)
+2013-09-23 21:49:10	<--	willob (~willob@173-166-99-161-newengland.hfc.comcastbusiness.net) has quit (Ping timeout: 245 seconds)
+2013-09-23 21:49:13	dp	what's the best method to determine what function called the current function?
+2013-09-23 21:49:23	dp	basically, getting a stack trace
+2013-09-23 21:49:41	caitp	console.trace? :p
+2013-09-23 21:49:48	-->	will-ob (~willob@173-166-99-161-newengland.hfc.comcastbusiness.net) has joined #coffeescript
+2013-09-23 21:49:49	caitp	I don't think there's a way (in js) to do that, natively
+2013-09-23 21:49:53	-->	willob (~willob@173-166-99-161-newengland.hfc.comcastbusiness.net) has joined #coffeescript
+2013-09-23 21:50:16	caitp	you don't have programmatic access to function context
+2013-09-23 21:50:20	caitp	or anything like that
+2013-09-23 21:50:42	dp	hrm. so there's no way to know what function called my current function?
+2013-09-23 21:51:13	dp	guess I'm gonna have to set an ugly global
+2013-09-23 21:51:22	caitp	yeah basically
+2013-09-23 21:51:26	caitp	for debugging you can use console.trace
+2013-09-23 21:51:31	caitp	but not too much else
+2013-09-23 21:52:46	<--	codelahoma (~toldorkno@99-101-243-157.lightspeed.tulsok.sbcglobal.net) has quit (Read error: Connection reset by peer)
+2013-09-23 21:55:32	<--	smurfke (~textual@d54C4B3D1.access.telenet.be) has quit
+2013-09-23 21:56:27	<--	NivenHuH (~NivenWuss@sonic.mochaleaf.com) has quit (Quit: Computer has gone to sleep.)
+2013-09-23 21:56:45	deltab	depends on the environment you're running it in
+2013-09-23 21:57:01	deltab	dp: is this for normal use, or debugging?
+2013-09-23 21:57:20	-->	cloke_ (~cloke@66.159.97.90) has joined #coffeescript
+2013-09-23 21:57:35	-->	codelahoma (~toldorkno@99-101-243-157.lightspeed.tulsok.sbcglobal.net) has joined #coffeescript
+2013-09-23 21:58:28	<--	cloke (~cloke@66.159.97.90) has quit (Ping timeout: 245 seconds)
+2013-09-23 21:58:29	--	cloke_ is now known as cloke
+2013-09-23 22:02:12	<--	thomaslindstr_m (~thomaslin@c80-216-4-133.bredband.comhem.se) has quit (Read error: Connection reset by peer)
+2013-09-23 22:02:46	-->	thomaslindstr_m (~thomaslin@c80-216-4-133.bredband.comhem.se) has joined #coffeescript
+2013-09-23 22:14:12	<--	Fishrock123 (~Fishrock1@bas4-oshawa95-1176452028.dsl.bell.ca) has quit (Remote host closed the connection)
+2013-09-23 22:14:44	-->	Fishrock123 (~Fishrock1@bas4-oshawa95-1176452028.dsl.bell.ca) has joined #coffeescript
+2013-09-23 22:15:06	<--	le_gars (~le_gars@c-70cae655.154-10-64736c10.cust.bredbandsbolaget.se) has quit (Remote host closed the connection)
+2013-09-23 22:16:04	-->	nofxx (~nofxx@unaffiliated/nofxx) has joined #coffeescript
+2013-09-23 22:17:46	<--	eugenejen (~eugenejen@exchange.wgen.net) has quit (Quit: eugenejen)
+2013-09-23 22:18:53	<--	Fishrock123 (~Fishrock1@bas4-oshawa95-1176452028.dsl.bell.ca) has quit (Ping timeout: 245 seconds)
+2013-09-23 22:19:23	-->	Fishrock123 (~Fishrock1@bas4-oshawa95-1176452028.dsl.bell.ca) has joined #coffeescript
+2013-09-23 22:20:45	-->	PaulCapestany (~PaulCapes@204.28.124.82) has joined #coffeescript
+2013-09-23 22:22:50	-->	vlad_starkov (~vlad_star@109.188.126.60) has joined #coffeescript
+2013-09-23 22:23:46	<--	bluehavana (uid2820@gateway/web/irccloud.com/x-gsryfcipuisgmlni) has quit (Ping timeout: 260 seconds)
+2013-09-23 22:24:25	-->	eugenejen (~eugenejen@exchange.wgen.net) has joined #coffeescript
+2013-09-23 22:25:14	-->	vlad_sta_ (~vlad_star@109.188.126.60) has joined #coffeescript
+2013-09-23 22:25:34	<--	vlad_sta_ (~vlad_star@109.188.126.60) has quit (Remote host closed the connection)
+2013-09-23 22:25:46	-->	rurufufuss (~rurufufus@115-64-27-246.static.tpgi.com.au) has joined #coffeescript
+2013-09-23 22:26:06	-->	vlad_sta_ (~vlad_star@109.188.126.60) has joined #coffeescript
+2013-09-23 22:27:02	<--	vlad_starkov (~vlad_star@109.188.126.60) has quit (Ping timeout: 240 seconds)
+2013-09-23 22:30:11	<--	jacobolus (~jacobolus@70-100-135-206.dsl1-field.roch.ny.frontiernet.net) has quit (Read error: Connection reset by peer)
+2013-09-23 22:30:44	-->	jacobolus (~jacobolus@70-100-135-206.dsl1-field.roch.ny.frontiernet.net) has joined #coffeescript
+2013-09-23 22:45:04	<--	jacobolus (~jacobolus@70-100-135-206.dsl1-field.roch.ny.frontiernet.net) has quit (Read error: Connection reset by peer)
+2013-09-23 22:46:04	-->	jacobolus (~jacobolus@70-100-135-206.dsl1-field.roch.ny.frontiernet.net) has joined #coffeescript
+2013-09-23 22:52:27	-->	NivenHuH (~NivenWuss@sonic.mochaleaf.com) has joined #coffeescript
+2013-09-23 22:58:35	<--	eugenejen (~eugenejen@exchange.wgen.net) has quit (Ping timeout: 260 seconds)
+2013-09-23 23:00:18	-->	eugenejen (~eugenejen@exchange.wgen.net) has joined #coffeescript
+2013-09-23 23:01:26	-->	rsim (~rsim@95.68.115.156) has joined #coffeescript
+2013-09-23 23:01:43	<--	SocalNick (~njcalugar@208.185.20.22) has quit (Ping timeout: 246 seconds)
+2013-09-23 23:03:25	-->	shaunbaker (~shaunbake@97e69e6b.skybroadband.com) has joined #coffeescript
+2013-09-23 23:03:33	-->	huafu (~huafu@cpe-70-95-105-36.hawaii.res.rr.com) has joined #coffeescript
+2013-09-23 23:04:00	<--	rsim1 (~rsim@95.68.115.156) has quit (Ping timeout: 240 seconds)
+2013-09-23 23:04:21	<--	kaldrenon (~kaldrenon@173-12-28-129-Philadelphia.hfc.comcastbusiness.net) has quit (Remote host closed the connection)
+2013-09-23 23:04:58	-->	kaldrenon (~kaldrenon@173-12-28-129-Philadelphia.hfc.comcastbusiness.net) has joined #coffeescript
+2013-09-23 23:06:18	-->	themgt (~themgt@201-223-232-27.baf.movistar.cl) has joined #coffeescript
+2013-09-23 23:09:50	<--	kaldrenon (~kaldrenon@173-12-28-129-Philadelphia.hfc.comcastbusiness.net) has quit (Ping timeout: 264 seconds)
+2013-09-23 23:15:33	<--	shaunbaker (~shaunbake@97e69e6b.skybroadband.com) has quit (Remote host closed the connection)
+2013-09-23 23:15:59	-->	shaunbaker (~shaunbake@195.69.155.61) has joined #coffeescript
+2013-09-23 23:17:33	-->	InvidFlower (~InvidFlow@c-71-192-99-53.hsd1.ma.comcast.net) has joined #coffeescript
+2013-09-23 23:19:58	-->	jesusprubio (~quassel@217.109.27.77.dynamic.mundo-r.com) has joined #coffeescript
+2013-09-23 23:20:43	--	grep_awesome is now known as grep_away
+2013-09-23 23:21:22	<--	PaulCapestany (~PaulCapes@204.28.124.82) has quit (Quit: Computer has gone to sleep.)
+2013-09-23 23:23:42	<--	jesusprubio (~quassel@217.109.27.77.dynamic.mundo-r.com) has quit (Remote host closed the connection)
+2013-09-23 23:24:37	--	irc: disconnected from server
+2013-09-25 04:14:17	-->	supersym (~supersym@5418F772.cm-5-1d.dynamic.ziggo.nl) has joined #coffeescript
+2013-09-25 04:14:17	--	Topic for #coffeescript is "http://coffeescript.org/ Logs: http://irclogger.com/.coffeescript/ FAQ: http://goo.gl/jITLQ"
+2013-09-25 04:14:17	--	Topic set by jashkenas (~jashkenas@74.203.127.2) on Thu, 24 Feb 2011 04:31:10
+2013-09-25 04:14:17	--	Nicks #coffeescript: [@ChanServ [[zz]] [BNC]tarruda _br_ _janne _wli aboudreault abuiles albemuth algesten andreyvit astrolin bakkdoor bergie bigkevmcd billy bluehavana bondar boodle Brando753 brixen BruNeX_ burgess caitp cam`_ cebor cezary cha0s chee Cheery codelahoma D4RK-PH0ENiX debris` deltab Derander dguttman djinni dp Dreamer3 drey dropdrive dustjn dyoder ELLIOTTCABLE erg espiral etcetera EToS eventualbuddha Ezku falten fikst flippyhead Gate geoffw8__ gerard0 gkz greg5green grep_away Guest71488 halorgium heath hexreel hicorey hlindset hmsimha Hosh huafu huntercool irclogger_com is_null jackyyll jaredrhine jashkenas jerrytgarcia jn johann_ jonathanj joshontheweb jvolkman kalleth key4 kgrz koba04 korpse LaserShark lazybear leptonix lilmonkey lluchs loincloth lyanchih mary5030 mattp_ mekwall mercwithamouth mfamos Miezel monokrome Moo-_- morayi mukeyb multiply nanashiRei ninegrid ninepointsix nisstyre nlf nofxx norviller noway_ ohama paddymahoney PaulCapestany percival petey psino purge qpok rcs realazthat reder Rolken rolleiflex rplaca rtlong rue rurufufuss sakal shesek shinobi_one__ skython Sose sukima supersym swistak35 TEttinger2 TheJH TheMoonMaster tim_smart Topa uris77 vadviktor vim_shim wang webdestroya weeb1e wereHamster wycats Xack yuwang zapu zeekay zeropx zz_michael_mbp]
+2013-09-25 04:14:17	--	Channel #coffeescript: 155 nicks (1 op, 0 halfops, 0 voices, 154 normals)
+2013-09-25 04:14:18	<--	kgrz (~kgrz@125.21.55.94) has quit (Read error: Connection reset by peer)
+2013-09-25 04:14:26	--	Mode #coffeescript [+cnt]
+2013-09-25 04:14:27	--	Channel created on Tue, 16 Feb 2010 00:32:49
+2013-09-25 04:14:56	<--	dguttman (~david@rrcs-173-196-159-4.west.biz.rr.com) has quit (Quit: dguttman)
+2013-09-25 04:15:21	<--	etcetera (~etcetera@about/csharp/regular/etcetera) has quit (Client Quit)
+2013-09-25 04:15:31	-->	mdedetrich (~textual@sartor2.lnk.telstra.net) has joined #coffeescript
+2013-09-25 04:22:35	<--	norviller (~norviller@17.202.38.179) has quit (Quit: Computer has gone to sleep.)
+2013-09-25 04:27:42	<--	albemuth (~albemuth@201.198.78.18) has quit (Quit: Computer has gone to sleep.)
