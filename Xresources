@@ -36,8 +36,8 @@
 !
 
 !  32, 48 or 64 may also be good values
-Xcursor.size:  16
-Xcursor.theme: ComixCursors-Red-Large
+Xcursor.size:  36
+Xcursor.theme: ComixCursors-Yellow-Large
 ! -----------------
 !  Xft font libraries
 !
@@ -46,12 +46,13 @@ Xft.dpi:                    96
 
 ! Was causing distorted dpi/fonts in GTK apps
 !Also: upgraded to fontconfig-infinality --- ??
+Xft.rgba:                   rgb
 Xft.antialias:              true
+Xft.hinting:                true
 Xft.autohint:               true
 Xft.lcdfilter:              lcddefault
-Xft.hintstyle:              hintslight
-Xft.hinting:                true
-Xft.rgba:                   rgb
+Xft.hintstyle:              hintfull
+!hintslight
 
 ! Global colorscheme
 
@@ -267,10 +268,13 @@ URxvt*color15:                  #cdcfce
 ! ---------------
 
 URxvt.perl-lib:                 ${HOME}/data/code/scripts/perl/urxvtcd
-URxvt.perl-ext-common:          default,matcher,clipboard
+URxvt.perl-ext-common:          default,matcher,clipboard,font-size
 ! URxvt.perl-ext-common:  default,tabbed,keyboard-select,url-select,clipboard
 !,font-size,fullscreen,clipboard
-
+URxvt.keysym.C-Up:     perl:font-size:increase
+URxvt.keysym.C-Down:   perl:font-size:decrease
+URxvt.keysym.C-S-Up:   perl:font-size:incglobal
+URxvt.keysym.C-S-Down: perl:font-size:decglobal
 
 ! Navigation
 ! ----------
@@ -292,21 +296,25 @@ URxvt.colorUL:                  #4682B4
 
 ! Font and typesetting options
 ! ----------------------------
-
+URxvt*.transparent: true
+URxvt*transparent: true
 URxvt.transparent:              true
+! URxvt*.shading: 0 to 99 darkens, 101 to 200 lightens
+URxvt*.shading: 110
 URxvt.allow_bold:               true
 
 ! standardises methods for entering Unicode characters from their codepoints
 URxvt.iso14755:                 False
+!URxvt.font: xft:Terminus:size=11
+!URxvt.font: -*-terminus-medium-*-*-*-*-140-*-*-*-*-iso8859-1
+!URxvt.font:                     [codeset=ASCII]xft:Source Code Pro:size=10,\
+!                                ![codeset=ISO10646]xft:WenQuanYi Micro Hei:regular
 
-URxvt.font:                     [codeset=ASCII]xft:Source Code Pro:size=10,\
-                                [codeset=ISO10646]xft:WenQuanYi Micro Hei:regular
+!!URxvt.boldFont:                 [codeset=ASCII]xft:Source Code Pro:bold:size=10,\
+                                !![codeset=ISO10646]xft:WenQuanYi Micro Hei:bold
 
-URxvt.boldFont:                 [codeset=ASCII]xft:Source Code Pro:bold:size=10,\
-                                [codeset=ISO10646]xft:WenQuanYi Micro Hei:bold
-
-URxvt.italicFont:               [codeset=ASCII]xft:Source Code Pro:italic:size=10,\
-                                [codeset=ISO10646]xft:WenQuanYi Micro Hei:italic
+!!URxvt.italicFont:               [codeset=ASCII]xft:Source Code Pro:italic:size=10,\
+                                !![codeset=ISO10646]xft:WenQuanYi Micro Hei:italic
 
 !URxvt.keysym.C-Up:             perl:font-size:increase
 !URxvt.keysym.C-Down:           perl:font-size:decrease
@@ -335,7 +343,22 @@ URxvt.tabbed.tabbar-bg:         0
 URxvt.tabbed.tab-fg:            3
 URxvt.tabbed.tab-bg:            0
 
-
+!URxvt*transparent: true
+URxvt*tintColor: Blue
+!URxvt*shading: 40
+URxvt*saveLines: 12000
+URxvt*foreground: White
+URxvt*background: Blue
+!URxvt*font: xft:Bitstream Vera Sans Mono:pixelsize=12:antialias=true:hinting=true
+!URxvt*boldFont: xft:Bitstream Vera Sans Mono:bold:pixelsize=12:antialias=true:hinting=true
+URxvt*font: xft:DejaVu Sans Mono:pixelsize=12:antialias=true:hinting=true
+URxvt*boldFont: xft:DejaVu Sans Mono:bold:pixelsize=12:antialias=true:hinting=true
+!URxvt*font: xft:Liberation Mono:pixelsize=13:antialias=true:hinting=true
+!URxvt*boldFont: xft:Liberation Mono:bold:pixelsize=13:antialias=true:hinting=true
+!URxvt*font: xft:terminus:pixelsize=15
+!URxvt*boldFont: xft:terminus:bold:pixelsize=15
+!URxvt*font:-*-courier-medium-r-normal-*-14-*-*-*-*-*-iso8859-1
+!URxvt*boldFont:-*-courier-bold-r-normal-*-14-*-*-*-*-*-iso8859-1
 
 
 ! ! M-escape - keyboard selection mode

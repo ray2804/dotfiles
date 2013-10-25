@@ -25,6 +25,11 @@ set pastetoggle=<F2>
 Bundle 'loremipsum'
 Bundle 'Wordnet.vim'
 
+" Swap data
+Bundle 'abolish.vim'
+
+
+
 " Source control and bins
 Bundle 'beautiful-pastebin'
 Bundle 'Gist.vim'

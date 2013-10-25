@@ -8,6 +8,7 @@ import XMonad
 import XMonad.Hooks.DynamicLog
 import XMonad.Hooks.ManageDocks
 import XMonad.Hooks.ManageHelpers
+import XMonad.Hooks.Place
 import XMonad.Hooks.SetWMName
 import XMonad.Layout.Fullscreen
 import XMonad.Layout.NoBorders
@@ -25,14 +26,15 @@ import qualified Data.Map        as M
 -- The preferred terminal program, which is used in a binding below and by
 -- certain contrib modules.
 --
-myTerminal = "/usr/bin/terminator"
+myTerminal = "urxvtcd"
+{-myTerminal = "/usr/bin/terminator"-}
 
 
 ------------------------------------------------------------------------
 -- Workspaces
 -- The default number of workspaces (virtual screens) and their names.
 --
-myWorkspaces = ["1:term","2:web","3:code","4:vm","5:media"] ++ map show [6..9]
+myWorkspaces = ["λinμχ","Ταsκζ","ψεβ","κοδε","mμsiς","mεδiα"] ++ map show [7..9]
 
 
 ------------------------------------------------------------------------
@@ -49,24 +51,28 @@ myWorkspaces = ["1:term","2:web","3:code","4:vm","5:media"] ++ map show [6..9]
 -- To match on the WM_NAME, you can use 'title' in the same way that
 -- 'className' and 'resource' are used below.
 --
-myManageHook = composeAll
-    [ className =? "Chromium"       --> doShift "2:web"
-    , className =? "Google-chrome"  --> doShift "2:web"
-    , resource  =? "desktop_window" --> doIgnore
-    , className =? "Qjackctl"       --> doFloat
-    , className =? "Hydrogen"       --> doFloat
-    , className =? "Audacity"       --> doFloat
-    , className =? "Ardour"         --> doFloat
-    , className =? "Scide"          --> doFloat
-    , className =? "Lt"             --> doFloat
-    , className =? "Emacs"          --> doFloat
-    , className =? "Gimp"           --> doFloat
-    , resource  =? "gpicview"       --> doFloat
-    , className =? "MPlayer"        --> doFloat
-    , className =? "VirtualBox"     --> doShift "4:vm"
-    , className =? "Xchat"          --> doShift "5:media"
-    , className =? "stalonetray"    --> doIgnore
-    , isFullscreen --> (doF W.focusDown <+> doFullFloat)]
+--myManageHook = composeAll
+myManageHook = composeOne
+    [ checkDock                     -?> doIgnore -- equivalent to manageDocks
+    , isDialog                      -?> doFloat
+    , className =? "URxvt"          -?> doFloat
+    , className =? "Chromium"       -?> doShift "ψεβ"
+    , className =? "Google-chrome"  -?> doShift "ψεβ"
+    , resource  =? "desktop_window" -?> doIgnore
+    , className =? "Qjackctl"       -?> doShift "mμsiς"
+    , className =? "Hydrogen"       -?> doShift "mμsiς"
+    , className =? "Audacity"       -?> doShift "mμsiς"
+    , className =? "Ardour"         -?> doShift "mμsiς"
+    , className =? "Scide"          -?> doShift "mμsiς"
+    , className =? "Lt"             -?> doShift "κοδε"
+    , className =? "Emacs"          -?> doShift "κοδε"
+    , className =? "Gimp"           -?> doShift "mεδiα"
+    , className =? "Gimp-2.8"       -?> doShift "mεδiα" -- dialog
+    , className =? "Simon"          -?> doShift "mεδiα"
+    , className =? "stalonetray"    -?> doIgnore
+    , isFullscreen -?> (doF W.focusDown <+> doFullFloat)
+    , return True -?> doF W.swapDown
+    ]
 
 
 ------------------------------------------------------------------------
@@ -138,20 +144,48 @@ myKeys conf@(XConfig {XMonad.modMask = modMask}) = M.fromList $
   , ((modMask .|. controlMask, xK_l),
      spawn "xscreensaver-command -lock")
 
-  -- Lock the screen using xscreensaver.
-  , ((modMask .|. mod1Mask, xK_space),
+  -- Spawn a Light Table IDE instance.
+  , ((mod1Mask, xK_l),
      spawn "lt")
 
-  -- Launch dmenu via yeganesh.
+  -- Open the Thunar file navigator.
+  , ((modMask .|. mod1Mask, xK_t),
+     spawn "thunar")
+
+  -- Launch the Chromium web browser.
+  , ((mod1Mask, xK_w),
+     spawn "google-chrome")
+
+  -- Launch conky
+  , ((mod1Mask, xK_k),
+     spawn "conky")
+
+  -- Launch qjack and drumcomputer
+  , ((mod1Mask, xK_q),
+     spawn "qjackctl")
+
+  -- ~~Launch dmenu via yeganesh.~~
   -- Use this to launch programs without a key binding.
-  , ((modMask, xK_p),
+  , ((modMask, xK_b),
      spawn "dmenu_run")
+
+  -- Launch file navigator
+  , ((mod1Mask, xK_e),
+     spawn "thunar")
+
+  -- Launch web cam recorder
+  , ((mod1Mask, xK_g),
+     spawn "guvcview")
+
+  -- Launch image viewer
+  , ((mod1Mask, xK_i),
+     spawn "gwenview")
 
   -- Take a screenshot in select mode.
   -- After pressing this key binding, click a window, or draw a rectangle with
   -- the mouse.
   , ((modMask .|. shiftMask, xK_p),
-     spawn "select-screenshot")
+     spawn "shutter")
 
   -- Take full screenshot in multi-head mode.
   -- That is, take a screenshot of everything you see.
@@ -340,12 +374,17 @@ main = do
   xmproc <- spawnPipe "xmobar ~/.xmonad/xmobar.hs"
   xmonad $ defaults {
       logHook = dynamicLogWithPP $ xmobarPP {
-            ppOutput = hPutStrLn xmproc
+            ppOutput = System.IO.hPutStrLn xmproc
           , ppTitle = xmobarColor xmobarTitleColor "" . shorten 100
           , ppCurrent = xmobarColor xmobarCurrentWorkspaceColor ""
           , ppSep = "   "
       }
-      , manageHook = manageDocks <+> myManageHook
+      -- placeHook should be applied after most other hooks especially such
+      -- as doFloat and doShift; hooks applied with <+> go from right to left
+      -- so placeHook should be the first in this chain
+      -- This will ensure that terminal float will be positioned properly.
+      , manageHook = placeHook (inBounds $ underMouse (0.5,0.5))
+      <+> manageDocks <+> myManageHook
       , startupHook = setWMName "LG3D"
   }
 

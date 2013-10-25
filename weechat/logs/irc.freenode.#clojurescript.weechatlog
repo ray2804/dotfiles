@@ -1980,3 +1980,150 @@
 2013-09-25 04:24:19	<--	CaptainLex (~kvirc@97-116-187-211.mpls.qwest.net) has quit (Ping timeout: 246 seconds)
 2013-09-25 04:27:52	-->	bmaddy (~bmaddy@72.21.231.26) has joined #clojurescript
 2013-09-25 04:28:51	<--	bmaddy (~bmaddy@72.21.231.26) has quit (Remote host closed the connection)
+2013-09-25 04:33:54	<--	bja (~bja@205.178.18.229) has quit (Ping timeout: 256 seconds)
+2013-09-25 04:37:01	-->	bja (~bja@205.178.18.229) has joined #clojurescript
+2013-09-25 04:45:52	--	irc: disconnected from server
+2013-09-25 13:14:27	-->	supersym (~supersym@5418F772.cm-5-1d.dynamic.ziggo.nl) has joined #clojurescript
+2013-09-25 13:14:27	--	Nicks #clojurescript: [astrolin bja brainproxy charliekilo|away dek5 denysonique eigenjoy francis_wolke harrow ibdknox inkybutton j0ni jaimef Jarda karnowski MadFunk osnr si14 supersym waf zemm]
+2013-09-25 13:14:27	--	Channel #clojurescript: 21 nicks (0 ops, 0 halfops, 0 voices, 21 normals)
+2013-09-25 13:14:38	--	Mode #clojurescript [+cnt]
+2013-09-25 13:14:38	--	Channel created on Thu, 21 Jul 2011 18:34:20
+2013-09-25 13:31:38	-->	ideamonk (~ideamonk@182.72.122.6) has joined #clojurescript
+2013-09-25 13:50:24	-->	CaptainLex (~kvirc@97-116-187-211.mpls.qwest.net) has joined #clojurescript
+2013-09-25 13:57:42	<--	inkybutton (~inkybutto@unaffiliated/inkybutton) has quit (Ping timeout: 268 seconds)
+2013-09-25 14:12:41	<--	francis_wolke (~user@c-98-207-155-161.hsd1.ca.comcast.net) has quit (Ping timeout: 245 seconds)
+2013-09-25 14:15:03	-->	francis_wolke (~user@c-98-207-155-161.hsd1.ca.comcast.net) has joined #clojurescript
+2013-09-25 14:16:32	<--	CaptainLex (~kvirc@97-116-187-211.mpls.qwest.net) has quit (Ping timeout: 246 seconds)
+2013-09-25 14:28:53	-->	jonasen (~jonasen@a100.ip13.netikka.fi) has joined #clojurescript
+2013-09-25 14:30:46	--	irc: disconnected from server
+2013-09-25 16:55:34	-->	supersym (~supersym@5418F772.cm-5-1d.dynamic.ziggo.nl) has joined #clojurescript
+2013-09-25 16:55:34	--	Nicks #clojurescript: [astrolin brainproxy charliekilo|away chronno denysonique eigenjoy francis_wolke harrow ibdknox ideamonk iwillig j0ni jaimef Jarda jonasen karnowski osnr si14 supersym ToBeReplaced waf zemm]
+2013-09-25 16:55:34	--	Channel #clojurescript: 22 nicks (0 ops, 0 halfops, 0 voices, 22 normals)
+2013-09-25 16:55:45	--	Mode #clojurescript [+cnt]
+2013-09-25 16:55:46	--	Channel created on Thu, 21 Jul 2011 18:34:20
+2013-09-25 17:06:21	-->	bmaddy (~bmaddy@72.21.231.26) has joined #clojurescript
+2013-09-25 17:07:32	-->	jivebot (~textual@or-71-53-77-54.dhcp.embarqhsd.net) has joined #clojurescript
+2013-09-25 17:08:26	-->	nkoza (~NKoza@181.166.210.216) has joined #clojurescript
+2013-09-25 17:14:57	<--	ToBeReplaced (~ToBeRepla@c-68-34-66-90.hsd1.dc.comcast.net) has quit (Quit: ToBeReplaced)
+2013-09-25 17:21:50	-->	normanrichards (~normanric@rrcs-108-178-120-144.sw.biz.rr.com) has joined #clojurescript
+2013-09-25 17:40:48	<--	nkoza (~NKoza@181.166.210.216) has quit (Ping timeout: 240 seconds)
+2013-09-25 17:56:52	<--	ideamonk (~ideamonk@182.72.122.6) has quit (Quit: ideamonk)
+2013-09-25 18:02:05	-->	bja (~bja@209.252.19.130) has joined #clojurescript
+2013-09-25 18:04:21	--	irc: disconnected from server
+2013-09-26 00:21:08	-->	supersym (~supersym@5418F772.cm-5-1d.dynamic.ziggo.nl) has joined #clojurescript
+2013-09-26 00:21:08	--	Nicks #clojurescript: [astrolin bja bmaddy brainproxy charliekilo|away denysonique eigenjoy foeniks francis_wolke harrow ibdknox iwillig j0ni jaimef Jarda jivebot karnowski normanrichards osnr pel_daniel si14 supersym TEttinger waf zemm]
+2013-09-26 00:21:08	--	Channel #clojurescript: 25 nicks (0 ops, 0 halfops, 0 voices, 25 normals)
+2013-09-26 00:21:08	--	Notice(cameron.freenode.net): [freenode-info] if you're at a conference and other people are having trouble connecting, please mention it to staff: http://freenode.net/faq.shtml#gettinghelp
+2013-09-26 00:21:20	--	Mode #clojurescript [+cnt]
+2013-09-26 00:21:20	--	Channel created on Thu, 21 Jul 2011 18:34:20
+2013-09-26 00:38:08	<--	iwillig (~Adium@38.104.247.6) has quit (Quit: Leaving.)
+2013-09-26 00:50:17	--	irc: disconnected from server
+2013-09-26 00:54:46	-->	supersym (~supersym@5418F772.cm-5-1d.dynamic.ziggo.nl) has joined #clojurescript
+2013-09-26 00:54:46	--	Nicks #clojurescript: [astrolin bja bmaddy brainproxy charliekilo|away denysonique eigenjoy foeniks francis_wolke harrow ibdknox j0ni jaimef Jarda jivebot karnowski normanrichards osnr pel_daniel si14 supersym TEttinger waf zemm]
+2013-09-26 00:54:46	--	Channel #clojurescript: 24 nicks (0 ops, 0 halfops, 0 voices, 24 normals)
+2013-09-26 00:54:57	--	Mode #clojurescript [+cnt]
+2013-09-26 00:54:57	--	Channel created on Thu, 21 Jul 2011 18:34:20
+2013-09-26 00:56:53	<--	pel_daniel (~responsiv@187.191.31.50) has left #clojurescript
+2013-09-26 00:56:57	<--	foeniks (~fevon@p5091F772.dip0.t-ipconnect.de) has quit (Quit: Leaving)
+2013-09-26 01:03:04	--	irc: disconnected from server
+2013-09-26 01:25:35	-->	supersym (~supersym@5418F772.cm-5-1d.dynamic.ziggo.nl) has joined #clojurescript
+2013-09-26 01:25:35	--	Nicks #clojurescript: [astrolin bja bmaddy brainproxy charliekilo|away denysonique eigenjoy francis_wolke harrow ibdknox j0ni jaimef Jarda jivebot karnowski osnr si14 supersym waf zemm]
+2013-09-26 01:25:35	--	Channel #clojurescript: 20 nicks (0 ops, 0 halfops, 0 voices, 20 normals)
+2013-09-26 01:25:47	--	Mode #clojurescript [+cnt]
+2013-09-26 01:25:47	--	Channel created on Thu, 21 Jul 2011 18:34:20
+2013-09-26 01:25:48	<--	bja (~bja@209.252.19.130) has quit (Ping timeout: 252 seconds)
+2013-09-26 01:32:08	-->	danielszmulewicz (~danielszm@109.226.59.95) has joined #clojurescript
+2013-09-26 01:33:03	<--	bmaddy (~bmaddy@72.21.231.26) has quit (Remote host closed the connection)
+2013-09-26 01:34:03	-->	racycle (~racycle@75-25-129-128.lightspeed.sjcpca.sbcglobal.net) has joined #clojurescript
+2013-09-26 01:35:41	-->	normanrichards (~normanric@mobile-166-147-065-252.mycingular.net) has joined #clojurescript
+2013-09-26 02:17:16	<--	normanrichards (~normanric@mobile-166-147-065-252.mycingular.net) has quit (Read error: Connection reset by peer)
+2013-09-26 02:18:29	-->	bmaddy (~bmaddy@72.21.231.26) has joined #clojurescript
+2013-09-26 02:23:24	<--	jaimef (jaimef@dns.mauthesis.com) has quit (Excess Flood)
+2013-09-26 02:29:44	-->	jaimef (jaimef@dns.mauthesis.com) has joined #clojurescript
+2013-09-26 02:38:14	-->	normanrichards (~normanric@mobile-166-147-067-111.mycingular.net) has joined #clojurescript
+2013-09-26 02:47:00	<--	bmaddy (~bmaddy@72.21.231.26) has quit (Remote host closed the connection)
+2013-09-26 03:39:06	-->	chronno (~chronno@187-162-126-107.static.axtel.net) has joined #clojurescript
+2013-09-26 03:41:35	<--	normanrichards (~normanric@mobile-166-147-067-111.mycingular.net) has quit (Read error: Connection reset by peer)
+2013-09-26 04:02:47	-->	normanrichards (~normanric@70.114.215.220) has joined #clojurescript
+2013-09-26 04:15:10	-->	bja (~bja@32.169.36.242) has joined #clojurescript
+2013-09-26 04:21:31	<--	danielszmulewicz (~danielszm@109.226.59.95) has quit (Quit: danielszmulewicz)
+2013-09-26 04:24:01	-->	danielszmulewicz (~danielszm@109.226.59.95) has joined #clojurescript
+2013-09-26 04:42:48	-->	benmoss (~moss@pool-108-46-184-10.nycmny.fios.verizon.net) has joined #clojurescript
+2013-09-26 05:07:01	<--	benmoss (~moss@pool-108-46-184-10.nycmny.fios.verizon.net) has quit (Quit: benmoss)
+2013-09-26 05:17:25	<--	bja (~bja@32.169.36.242) has quit (Ping timeout: 246 seconds)
+2013-09-26 05:23:57	<--	chronno (~chronno@187-162-126-107.static.axtel.net) has quit (Read error: Connection reset by peer)
+2013-09-26 05:33:17	-->	jonasen (~jonasen@a100.ip13.netikka.fi) has joined #clojurescript
+2013-09-26 05:35:27	-->	MadFunk (~q@bas3-toronto48-1176441142.dsl.bell.ca) has joined #clojurescript
+2013-09-26 06:47:07	-->	cemerick (~cemerick@66-87-125-172.pools.spcsdns.net) has joined #clojurescript
+2013-09-26 06:47:32	-->	dek5 (~eugene@mail.quickpay.ru) has joined #clojurescript
+2013-09-26 07:22:02	<--	dek5 (~eugene@mail.quickpay.ru) has quit (Ping timeout: 240 seconds)
+2013-09-26 07:23:37	-->	dek5 (~eugene@mail.quickpay.ru) has joined #clojurescript
+2013-09-26 07:27:44	<--	jivebot (~textual@or-71-53-77-54.dhcp.embarqhsd.net) has quit (Quit: Computer has gone to sleep.)
+2013-09-26 07:31:49	<--	jonasen (~jonasen@a100.ip13.netikka.fi) has quit (Ping timeout: 246 seconds)
+2013-09-26 07:33:43	-->	TEttinger (~notostrac@76-217-25-235.lightspeed.irvnca.sbcglobal.net) has joined #clojurescript
+2013-09-26 07:48:43	-->	utkarsh (~quassel@unaffiliated/utkarsh) has joined #clojurescript
+2013-09-26 07:50:19	utkarsh	Is there any place online where I can compile cljs code and see the generated js? (I know the output will include boilerplate code; I'm fine with that.)
+2013-09-26 07:59:26	<--	jaimef (jaimef@dns.mauthesis.com) has quit (Excess Flood)
+2013-09-26 08:02:17	-->	jaimef (jaimef@dns.mauthesis.com) has joined #clojurescript
+2013-09-26 08:22:28	<--	normanrichards (~normanric@70.114.215.220) has quit
+2013-09-26 08:39:42	<--	cemerick (~cemerick@66-87-125-172.pools.spcsdns.net) has quit (Ping timeout: 264 seconds)
+2013-09-26 08:40:23	-->	cemerick (~cemerick@66-87-124-4.pools.spcsdns.net) has joined #clojurescript
+2013-09-26 08:47:03	<--	cemerick (~cemerick@66-87-124-4.pools.spcsdns.net) has quit (Remote host closed the connection)
+2013-09-26 08:55:24	<--	denysonique (uid484@gateway/web/irccloud.com/x-jepbjtukcvextyti) has quit (Ping timeout: 260 seconds)
+2013-09-26 09:00:26	<--	racycle (~racycle@75-25-129-128.lightspeed.sjcpca.sbcglobal.net) has quit (Remote host closed the connection)
+2013-09-26 09:00:45	-->	kitofr (~kitofr@46.182.204.250.c.fiberdirekt.net) has joined #clojurescript
+2013-09-26 09:27:15	-->	ideamonk (~ideamonk@122.170.28.102) has joined #clojurescript
+2013-09-26 09:34:27	<--	ideamonk (~ideamonk@122.170.28.102) has quit (Quit: ideamonk)
+2013-09-26 10:04:54	-->	ideamonk (~ideamonk@182.72.122.6) has joined #clojurescript
+2013-09-26 10:13:29	-->	ideamonk_ (~ideamonk@61.12.96.226) has joined #clojurescript
+2013-09-26 10:13:44	<--	ideamonk (~ideamonk@182.72.122.6) has quit (Read error: Connection reset by peer)
+2013-09-26 10:52:29	-->	denysonique (uid484@gateway/web/irccloud.com/x-lechuwflkmapifcz) has joined #clojurescript
+2013-09-26 10:55:42	-->	jonasen (~jonasen@a100.ip13.netikka.fi) has joined #clojurescript
+2013-09-26 12:02:32	-->	jimt_ (~jim@218.240.69.111.dynamic.snap.net.nz) has joined #clojurescript
+2013-09-26 12:50:41	<--	ideamonk_ (~ideamonk@61.12.96.226) has quit (Quit: ideamonk_)
+2013-09-26 12:51:24	<--	danielszmulewicz (~danielszm@109.226.59.95) has quit (Quit: danielszmulewicz)
+2013-09-26 13:56:38	--	charliekilo|away is now known as charliekilo
+2013-09-26 14:00:56	-->	normanrichards (~normanric@70.114.215.220) has joined #clojurescript
+2013-09-26 14:15:59	-->	ideamonk (~ideamonk@182.72.122.6) has joined #clojurescript
+2013-09-26 14:27:26	<--	normanrichards (~normanric@70.114.215.220) has quit
+2013-09-26 14:42:51	-->	cemerick (~cemerick@66-87-125-172.pools.spcsdns.net) has joined #clojurescript
+2013-09-26 14:47:10	<--	cemerick (~cemerick@66-87-125-172.pools.spcsdns.net) has quit (Remote host closed the connection)
+2013-09-26 15:08:19	-->	jimt___ (~jim@147.244.69.111.dynamic.snap.net.nz) has joined #clojurescript
+2013-09-26 15:09:02	<--	dek5 (~eugene@mail.quickpay.ru) has quit (Quit: Leaving.)
+2013-09-26 15:09:50	<--	jimt_ (~jim@218.240.69.111.dynamic.snap.net.nz) has quit (Ping timeout: 240 seconds)
+2013-09-26 15:14:49	-->	benmoss (~moss@pool-108-46-184-10.nycmny.fios.verizon.net) has joined #clojurescript
+2013-09-26 15:15:32	<--	benmoss (~moss@pool-108-46-184-10.nycmny.fios.verizon.net) has quit (Client Quit)
+2013-09-26 15:18:46	-->	danielszmulewicz (~danielszm@109.226.59.95) has joined #clojurescript
+2013-09-26 15:24:23	-->	bmaddy (~bmaddy@72.21.231.26) has joined #clojurescript
+2013-09-26 15:34:50	<--	kitofr (~kitofr@46.182.204.250.c.fiberdirekt.net) has quit (Read error: Connection reset by peer)
+2013-09-26 16:01:23	<--	danielszmulewicz (~danielszm@109.226.59.95) has quit (Quit: danielszmulewicz)
+2013-09-26 16:08:37	-->	chronno (~chronno@132.248.181.1) has joined #clojurescript
+2013-09-26 16:08:46	-->	racycle (~racycle@75-25-129-128.lightspeed.sjcpca.sbcglobal.net) has joined #clojurescript
+2013-09-26 16:11:40	-->	benmoss (~moss@pool-108-46-184-10.nycmny.fios.verizon.net) has joined #clojurescript
+2013-09-26 16:15:27	-->	jivebot (~textual@or-71-53-77-54.dhcp.embarqhsd.net) has joined #clojurescript
+2013-09-26 16:15:31	-->	danielszmulewicz (~danielszm@109.226.59.95) has joined #clojurescript
+2013-09-26 16:25:07	<--	danielszmulewicz (~danielszm@109.226.59.95) has quit (Quit: danielszmulewicz)
+2013-09-26 16:26:53	-->	bja (~bja@c-98-222-22-162.hsd1.il.comcast.net) has joined #clojurescript
+2013-09-26 16:30:01	<--	racycle (~racycle@75-25-129-128.lightspeed.sjcpca.sbcglobal.net) has quit (Remote host closed the connection)
+2013-09-26 16:32:44	-->	iwillig (~Adium@38.104.247.6) has joined #clojurescript
+2013-09-26 16:35:33	-->	normanrichards (~normanric@mobile-166-147-065-160.mycingular.net) has joined #clojurescript
+2013-09-26 16:37:59	<--	benmoss (~moss@pool-108-46-184-10.nycmny.fios.verizon.net) has quit (Quit: benmoss)
+2013-09-26 16:52:00	<--	normanrichards (~normanric@mobile-166-147-065-160.mycingular.net) has quit (Read error: Connection reset by peer)
+2013-09-26 17:04:58	-->	wei_ (~wei@ns5000135.ip-142-4-216.net) has joined #clojurescript
+2013-09-26 17:04:58	<--	wei_ (~wei@ns5000135.ip-142-4-216.net) has quit (Client Quit)
+2013-09-26 17:13:19	<--	ideamonk (~ideamonk@182.72.122.6) has quit (Read error: Connection reset by peer)
+2013-09-26 17:13:26	-->	ideamonk (~ideamonk@61.12.96.226) has joined #clojurescript
+2013-09-26 17:16:58	<--	iwillig (~Adium@38.104.247.6) has quit (Quit: Leaving.)
+2013-09-26 17:20:48	-->	normanrichards (~normanric@rrcs-108-178-120-144.sw.biz.rr.com) has joined #clojurescript
+2013-09-26 17:22:59	-->	wei_ (~wei@114-43-79-54.dynamic.hinet.net) has joined #clojurescript
+2013-09-26 17:36:20	-->	iwillig (~Adium@38.104.247.6) has joined #clojurescript
+2013-09-26 17:37:00	<--	wei_ (~wei@114-43-79-54.dynamic.hinet.net) has quit (Quit: wei_)
+2013-09-26 17:42:31	-->	racycle (~racycle@75-25-129-128.lightspeed.sjcpca.sbcglobal.net) has joined #clojurescript
+2013-09-26 17:46:01	<--	iwillig (~Adium@38.104.247.6) has quit (Quit: Leaving.)
+2013-09-26 17:56:31	-->	wei_ (~wei@114-43-79-54.dynamic.hinet.net) has joined #clojurescript
+2013-09-26 18:03:17	-->	iwillig (~Adium@38.104.247.6) has joined #clojurescript
+2013-09-26 18:09:52	<--	ideamonk (~ideamonk@61.12.96.226) has quit (Quit: ideamonk)
+2013-09-26 18:17:30	<--	TEttinger (~notostrac@76-217-25-235.lightspeed.irvnca.sbcglobal.net) has quit (Ping timeout: 264 seconds)
+2013-09-26 18:18:30	<--	iwillig (~Adium@38.104.247.6) has quit (Quit: Leaving.)
+2013-09-26 18:20:11	-->	enquora (~davidr@S0106602ad083de8c.cg.shawcable.net) has joined #clojurescript
+2013-09-26 18:30:21	--	irc: disconnected from server

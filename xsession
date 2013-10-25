@@ -28,8 +28,8 @@ xsetroot -cursor_name left_ptr &
 #ComixCursors-Red-Large
 
 # Fix stupid Java bug where it doesn't seem to like Awesome WM etc.
-wmname "LG3D"
-
+# Disabled: xmonad does this in xmonad.hs
+#wmname "LG3D"
 
 
 # Resources and WM/X11 assets .......................................
@@ -50,19 +50,29 @@ sysmodmap=/etc/X11/xinit/Xmodmap
 
 # Start compositing window manager
 #xcompmgr -c &
-export DE='xfce'
+#export DE='xfce'
 
-# Set screen displays
+# Set screen displays (done in /etc/xprofile now)
 #xrandr --output VGA-1 --off --output DVI-I-1 --mode 1600x900 --pos 1920x168 --rotate normal --output HDMI-1 --mode 1920x1200 --pos 0x0 --rotate normal
+
+
+# Compositing window manager
+#xcompmgr -c -t-5 -l-5 -r4.2 -o.55 &
+
+# Start conky infolet
+conky &
+
+# Set transp. in all wm
+#transset-df .5 -n Conky
 
 # Desktop wallpaper
 sh ${HOME}/.fehbg &
 
 # Spawn unicode rxvt daemon or client
 #urxvtcd &
-terminator &
+#terminator &
 
-# Fire up the window manager
+# Fire up the window manager with SSH ident.
 exec ssh-agent xmonad
 #exec gnome-session --session xmonad-gnome-nopanel "$@"
 

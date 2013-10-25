@@ -984,3 +984,147 @@
 2013-09-25 04:16:16	Greduan	Excellent. I'm now using IRCCloud.
 2013-09-25 04:31:09	Greduan	All right well it's time to sleep. Feel free to leave any fixes in the chat and I'll check them tomorrow. :)
 2013-09-25 04:32:01	Chase_the_Dev	Alright!
+2013-09-25 04:32:04	Chase_the_Dev	Will do.
+2013-09-25 04:45:52	--	irc: disconnected from server
+2013-09-25 13:14:26	-->	supersym (~supersym@5418F772.cm-5-1d.dynamic.ziggo.nl) has joined #docpad
+2013-09-25 13:14:26	--	Topic for #docpad is "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Chat Logs: http://docpad.org/chat-logs ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-09-25 13:14:26	--	Topic set by balupton (uid6783@gateway/web/irccloud.com/x-keutuvkcxjwezwbc) on Tue, 17 Sep 2013 00:25:48
+2013-09-25 13:14:26	--	Nicks #docpad: [[o__o] arcanis ashnur balupton Chase_the_Dev curvedmark Delapouite edrex garthdb Greduan hal jgm_ sptnk supersym utkarsh]
+2013-09-25 13:14:26	--	Channel #docpad: 15 nicks (0 ops, 0 halfops, 0 voices, 15 normals)
+2013-09-25 13:14:26	--	Notice(morgan.freenode.net): [freenode-info] help freenode weed out clonebots -- please register your IRC nick and auto-identify: http://freenode.net/faq.shtml#nicksetup
+2013-09-25 13:14:30	--	Mode #docpad [+t]
+2013-09-25 13:14:30	--	Channel created on Sat, 26 May 2012 12:12:13
+2013-09-25 13:16:19	<--	curvedmark (~curvedmar@125.116.102.94) has quit (Quit: Zzzzzz)
+2013-09-25 13:24:05	-->	thanpolas (~thanpolas@ppp-2-84-233-173.home.otenet.gr) has joined #docpad
+2013-09-25 14:03:43	Greduan	Good morning everybody!
+2013-09-25 14:24:37	Greduan	Chase_the_Dev: Can I assume you didn't find any more problems with the video?
+2013-09-25 14:30:46	--	irc: disconnected from server
+2013-09-25 16:55:33	-->	supersym (~supersym@5418F772.cm-5-1d.dynamic.ziggo.nl) has joined #docpad
+2013-09-25 16:55:33	--	Topic for #docpad is "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Chat Logs: http://docpad.org/chat-logs ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-09-25 16:55:33	--	Topic set by balupton (uid6783@gateway/web/irccloud.com/x-keutuvkcxjwezwbc) on Tue, 17 Sep 2013 00:25:48
+2013-09-25 16:55:33	--	Nicks #docpad: [[o__o] arcanis ashnur balupton Chase_the_Dev curvedmark Delapouite edrex garthdb Greduan hal jgm_ sptnk supersym thanpolas utkarsh]
+2013-09-25 16:55:33	--	Channel #docpad: 16 nicks (0 ops, 0 halfops, 0 voices, 16 normals)
+2013-09-25 16:55:38	--	Mode #docpad [+t]
+2013-09-25 16:55:38	--	Channel created on Sat, 26 May 2012 12:12:13
+2013-09-25 17:22:19	Greduan	Well the video has been released. Anything wrong point it out so that I can fix it with an annotation. :) http://youtu.be/5wFYW6v0Y34
+2013-09-25 17:30:19	-->	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has joined #docpad
+2013-09-25 17:39:25	<--	curvedmark (~curvedmar@122.247.220.117) has quit (Quit: Zzzzzz)
+2013-09-25 17:49:54	-->	mikeumus1 (~Mikeumus@ool-4a5a247b.dyn.optonline.net) has joined #docpad
+2013-09-25 18:04:21	--	irc: disconnected from server
+2013-09-26 00:21:08	-->	supersym (~supersym@5418F772.cm-5-1d.dynamic.ziggo.nl) has joined #docpad
+2013-09-26 00:21:08	--	Topic for #docpad is "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Chat Logs: http://docpad.org/chat-logs ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-09-26 00:21:08	--	Topic set by balupton (uid6783@gateway/web/irccloud.com/x-keutuvkcxjwezwbc) on Tue, 17 Sep 2013 00:25:48
+2013-09-26 00:21:08	--	Nicks #docpad: [[o__o] arcanis ashnur balupton Chase_the_Dev edrex garthdb Greduan hal jgm_ shama supersym thanpolas utkarsh]
+2013-09-26 00:21:08	--	Channel #docpad: 14 nicks (0 ops, 0 halfops, 0 voices, 14 normals)
+2013-09-26 00:21:12	--	Mode #docpad [+t]
+2013-09-26 00:21:12	--	Channel created on Sat, 26 May 2012 12:12:13
+2013-09-26 00:30:36	balupton	Weekly could work, though then it would become like a full time job doing talks all the time! Takes me min 1 week to prepare for a talk ;)
+2013-09-26 00:31:11	Greduan	:) At least you'll become used to explain some stuff. :P
+2013-09-26 00:31:22	balupton	So I'm thinking we have 3 20 min talks in the meetup each month, and some discussion afterwards.
+2013-09-26 00:33:19	Greduan	3 to 20 mins is a wide range. :)
+2013-09-26 00:33:35	Greduan	What's would the talk be about? Just the general direction DocPad has moved in that one month?
+2013-09-26 00:33:45	Greduan	And the discussion would be about where to go from there I imagine?
+2013-09-26 00:50:17	--	irc: disconnected from server
+2013-09-26 00:54:46	-->	supersym (~supersym@5418F772.cm-5-1d.dynamic.ziggo.nl) has joined #docpad
+2013-09-26 00:54:46	--	Topic for #docpad is "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Chat Logs: http://docpad.org/chat-logs ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-09-26 00:54:46	--	Topic set by balupton (uid6783@gateway/web/irccloud.com/x-keutuvkcxjwezwbc) on Tue, 17 Sep 2013 00:25:48
+2013-09-26 00:54:46	--	Nicks #docpad: [[o__o] arcanis ashnur balupton Chase_the_Dev edrex garthdb Greduan hal jgm_ shama supersym thanpolas utkarsh]
+2013-09-26 00:54:46	--	Channel #docpad: 14 nicks (0 ops, 0 halfops, 0 voices, 14 normals)
+2013-09-26 00:54:49	--	Mode #docpad [+t]
+2013-09-26 00:54:49	--	Channel created on Sat, 26 May 2012 12:12:13
+2013-09-26 01:03:04	--	irc: disconnected from server
+2013-09-26 01:25:35	-->	supersym (~supersym@5418F772.cm-5-1d.dynamic.ziggo.nl) has joined #docpad
+2013-09-26 01:25:35	--	Topic for #docpad is "DocPad Website: http://docpad.org ● Chat Guidelines: http://docpad.org/chat-guidelines ● Chat Logs: http://docpad.org/chat-logs ● Support Channels: http://docpad.org/support ● StackOverflow Forum: http://docpad.org/forum"
+2013-09-26 01:25:35	--	Topic set by balupton (uid6783@gateway/web/irccloud.com/x-keutuvkcxjwezwbc) on Tue, 17 Sep 2013 00:25:48
+2013-09-26 01:25:35	--	Nicks #docpad: [[o__o] arcanis ashnur balupton Chase_the_Dev edrex garthdb Greduan hal jgm_ shama supersym thanpolas utkarsh]
+2013-09-26 01:25:35	--	Channel #docpad: 14 nicks (0 ops, 0 halfops, 0 voices, 14 normals)
+2013-09-26 01:25:39	--	Mode #docpad [+t]
+2013-09-26 01:25:39	--	Channel created on Sat, 26 May 2012 12:12:13
+2013-09-26 01:57:52	-->	kaspertidemann (~kaspertid@c-98-207-250-230.hsd1.ca.comcast.net) has joined #docpad
+2013-09-26 02:29:19	<--	kaspertidemann (~kaspertid@c-98-207-250-230.hsd1.ca.comcast.net) has quit (Quit: Free soup for everybody!)
+2013-09-26 03:42:29	Greduan	balupton: If I want to modify the outPath of a file the best event to achieve this would be beforeWrite right? Working on urlrewrite plugin. :)
+2013-09-26 03:44:58	balupton	Whoops three talks at 20 minutes
+2013-09-26 03:45:10	balupton	each
+2013-09-26 03:46:00	Greduan	OK.
+2013-09-26 03:48:42	balupton	Well say for the next one, it could me going over the roadmap, chase presenting his watchr stuff,
+2013-09-26 03:49:04	balupton	Perhaps you taking about something
+2013-09-26 03:49:11	balupton	?
+2013-09-26 03:49:38	Greduan	Don't have much to say, have plenty to ask though. :)
+2013-09-26 03:49:44	balupton	For the outPath it depends, perhaps doing it in the same event that the cleanurl plugin uses
+2013-09-26 03:49:51	Greduan	And with questions answered, stuff to do.
+2013-09-26 03:50:22	balupton	That's a good idea. Maybe the last session can be a 20 minute question section.
+2013-09-26 03:50:39	Greduan	It could be.
+2013-09-26 03:50:48	Greduan	However if a lot of users attend I don't think it'll be enough.
+2013-09-26 03:51:14	Greduan	Ah I will have to be compatible with the cleanurl plugin... If they both modify the outPath in the same event it would cause an error wouldn't it huh?
+2013-09-26 03:55:03	Greduan	balupton: If a lot of users attend I don't think 20 mins would be enough. Don't think it'll be like that at the beginning though,
+2013-09-26 03:56:02	balupton	Well, say 10 minute intro, few minute break, 20 minute talk, 15 minute break, 20 minute talk, 15 minute break, 20 minute Q&A session, 15 minute discussion
+2013-09-26 03:56:14	balupton	adds up
+2013-09-26 03:56:55	balupton	it sounds like your plugin is an alternative to cleanurls, you have one or the other right?
+2013-09-26 03:58:33	Greduan	I could implement something that allows the same functionality as cleanurls and it would be one or the other, but otherwise the user will probably want to also use cleanurls.
+2013-09-26 03:59:23	Greduan	balupton: In those 15 minute breaks, would everyone just go pee or eat or whatever? Or would the call still be there and users can talk about what just happened in the 20 mins earlier?
+2013-09-26 04:07:56	balupton	talk and pee
+2013-09-26 04:08:00	balupton	just like a normal meetup
+2013-09-26 04:08:04	balupton	also time for questions
+2013-09-26 04:32:20	Greduan	All right. I gotta go to sleep, so I guess while I'm asleep think about it? When would we start it?
+2013-09-26 04:43:28	balupton	I'm thinking soon, asap.
+2013-09-26 05:06:03	-->	mikeumus (~Mikeumus@ool-4a5a247b.dyn.optonline.net) has joined #docpad
+2013-09-26 06:30:24	<--	thanpolas (~thanpolas@ppp-2-84-233-173.home.otenet.gr) has quit (Remote host closed the connection)
+2013-09-26 06:30:57	-->	thanpolas (~thanpolas@ppp-2-84-233-173.home.otenet.gr) has joined #docpad
+2013-09-26 06:35:01	<--	thanpolas (~thanpolas@ppp-2-84-233-173.home.otenet.gr) has quit (Ping timeout: 245 seconds)
+2013-09-26 06:49:56	<--	mikeumus (~Mikeumus@ool-4a5a247b.dyn.optonline.net) has quit (Read error: Connection reset by peer)
+2013-09-26 07:01:33	-->	thanpolas (~thanpolas@ppp-2-84-233-173.home.otenet.gr) has joined #docpad
+2013-09-26 07:07:22	-->	curvedmark (~curvedmar@122.247.220.117) has joined #docpad
+2013-09-26 07:07:26	<--	curvedmark (~curvedmar@122.247.220.117) has quit (Max SendQ exceeded)
+2013-09-26 07:09:46	<--	thanpolas (~thanpolas@ppp-2-84-233-173.home.otenet.gr) has quit (Ping timeout: 246 seconds)
+2013-09-26 07:22:29	-->	curvedmark (~curvedmar@122.247.220.117) has joined #docpad
+2013-09-26 07:36:14	-->	thanpolas (~thanpolas@ppp-2-84-233-173.home.otenet.gr) has joined #docpad
+2013-09-26 07:40:28	<--	thanpolas (~thanpolas@ppp-2-84-233-173.home.otenet.gr) has quit (Ping timeout: 240 seconds)
+2013-09-26 07:43:08	--	Notice(GitHub115): [documentation] balupton pushed 1 new commit to master: http://git.io/QkMcPg
+2013-09-26 07:43:08	--	Notice(GitHub115): documentation/master fd505b7 Benjamin Arthur Lupton: Fixed node install link
+2013-09-26 08:07:32	-->	thanpolas (~thanpolas@ppp-2-84-233-173.home.otenet.gr) has joined #docpad
+2013-09-26 08:12:16	<--	thanpolas (~thanpolas@ppp-2-84-233-173.home.otenet.gr) has quit (Ping timeout: 256 seconds)
+2013-09-26 08:15:47	-->	kaspertidemann (~kaspertid@c-98-207-250-230.hsd1.ca.comcast.net) has joined #docpad
+2013-09-26 08:22:24	<--	ashnur (~ashnur@79.117.66.217) has quit (Quit: WeeChat 0.4.1)
+2013-09-26 08:38:04	-->	thanpolas (~thanpolas@ppp-2-84-233-173.home.otenet.gr) has joined #docpad
+2013-09-26 08:38:26	<--	shama (~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net) has quit (Remote host closed the connection)
+2013-09-26 08:43:03	<--	thanpolas (~thanpolas@ppp-2-84-233-173.home.otenet.gr) has quit (Ping timeout: 252 seconds)
+2013-09-26 09:02:01	-->	Delapouite (~bheridet@85-171-59-62.rev.numericable.fr) has joined #docpad
+2013-09-26 09:02:09	<--	curvedmark (~curvedmar@122.247.220.117) has quit (Quit: Zzzzzz)
+2013-09-26 09:11:25	-->	jsilvestre (~jsilvestr@186-146-190-109.dsl.ovh.fr) has joined #docpad
+2013-09-26 10:07:57	-->	u_hu (~urs_hunkl@24-134-143-156-dynip.superkabel.de) has joined #docpad
+2013-09-26 10:14:04	-->	curvedmark (~curvedmar@122.247.220.117) has joined #docpad
+2013-09-26 10:14:08	<--	curvedmark (~curvedmar@122.247.220.117) has quit (Max SendQ exceeded)
+2013-09-26 10:14:35	u_hu	balupton: Thank you very much for the explanation. I'd prefer "### not-meta" as a solution.
+2013-09-26 10:16:40	u_hu	I stumbled upon a similar issue with "Jade" templates and the shortform doctype declaration using "!!!". The templates compile without errors but produce some strange HTML.
+2013-09-26 10:17:09	u_hu	When I changed "!!!" to "doctype" everything went well.
+2013-09-26 10:18:11	balupton	hrmm, alternatively we could have it, if it fails to parse we treat it as if it wasn't mean to parse
+2013-09-26 10:18:17	balupton	but maybe display a warning in that case
+2013-09-26 10:18:31	balupton	or at least, we need a better warning about this eitherway
+2013-09-26 10:18:42	u_hu	It seams to be the same reason 3 characters in the first line give docpad meta tags
+2013-09-26 10:21:16	u_hu	As a solution I was thinking it would be great to include the explanation for the DocPad meta tags handling in any document as a small chapter into the "Beginner Documentation"
+2013-09-26 10:22:32	u_hu	Too many template parsers like (CoffeeScript, Jade) seam to use 3 characters in the first line for their own different tasks
+2013-09-26 10:23:30	u_hu	And this situation becomes difficult for somebody starting with DocPad - like me ;-)
+2013-09-26 10:34:27	<--	kaspertidemann (~kaspertid@c-98-207-250-230.hsd1.ca.comcast.net) has quit (Quit: Free soup for everybody!)
+2013-09-26 10:35:41	-->	kaspertidemann (~kaspertid@c-98-207-250-230.hsd1.ca.comcast.net) has joined #docpad
+2013-09-26 11:05:45	<--	kaspertidemann (~kaspertid@c-98-207-250-230.hsd1.ca.comcast.net) has quit (Quit: Free soup for everybody!)
+2013-09-26 12:00:16	balupton	yeah, it is a good point
+2013-09-26 12:00:50	balupton	Chase_the_Dev and I were discussing just today possible ways we could improve the docs
+2013-09-26 12:07:52	<--	u_hu (~urs_hunkl@24-134-143-156-dynip.superkabel.de) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2013-09-26 12:20:04	-->	ashnur (~ashnur@79.117.83.176) has joined #docpad
+2013-09-26 12:32:09	-->	curvedmark (~curvedmar@122.247.220.117) has joined #docpad
+2013-09-26 12:32:13	<--	curvedmark (~curvedmar@122.247.220.117) has quit (Max SendQ exceeded)
+2013-09-26 13:27:41	<--	hal (~hal@unaffiliated/hal) has quit (Remote host closed the connection)
+2013-09-26 14:50:16	Greduan	All right, the next meeting happens while I'm awake. lol
+2013-09-26 14:52:02	-->	thanpolas (~thanpolas@ppp-2-84-233-173.home.otenet.gr) has joined #docpad
+2013-09-26 14:52:02	<--	thanpolas (~thanpolas@ppp-2-84-233-173.home.otenet.gr) has quit (Remote host closed the connection)
+2013-09-26 15:50:08	-->	wwwww (6cabf72c@gateway/web/freenode/ip.108.171.247.44) has joined #docpad
+2013-09-26 15:52:33	<--	wwwww (6cabf72c@gateway/web/freenode/ip.108.171.247.44) has quit (Client Quit)
+2013-09-26 16:44:10	-->	jsilvestre_ (~jsilvestr@186-146-190-109.dsl.ovh.fr) has joined #docpad
+2013-09-26 16:46:49	<--	jsilvestre (~jsilvestr@186-146-190-109.dsl.ovh.fr) has quit (Ping timeout: 256 seconds)
+2013-09-26 17:16:36	-->	mikeumus (~Mikeumus@ool-4a5a247b.dyn.optonline.net) has joined #docpad
+2013-09-26 17:52:26	<--	mikeumus (~Mikeumus@ool-4a5a247b.dyn.optonline.net) has quit (Quit: Leaving.)
+2013-09-26 18:04:19	-->	mikeumus (~Mikeumus@ool-4a5a247b.dyn.optonline.net) has joined #docpad
+2013-09-26 18:12:08	Greduan	At 1:21:10 I thought "I hope they know I'm like that" lol
+2013-09-26 18:12:23	Greduan	http://www.youtube.com/watch?v=ixswII2FpvE
+2013-09-26 18:12:52	<--	Delapouite (~bheridet@85-171-59-62.rev.numericable.fr) has left #docpad
+2013-09-26 18:30:21	--	irc: disconnected from server
